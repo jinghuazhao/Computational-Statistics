@@ -1,4 +1,4 @@
-# ComputationalStatistics
+# Computational-Statistics
 
 Resource for computational statistics.
 
