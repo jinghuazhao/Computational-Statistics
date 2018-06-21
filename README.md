@@ -1,6 +1,8 @@
-# MathStatPackages
+# CompStat
 
-This repository will collect information on the various mathematical libraries and statistical packages
+Resource for computational statistics.
+
+The temporary list will relate to the following libraries/packages.
 
 * Armedillo
 * boost
