@@ -1,8 +1,8 @@
 # Computational-Statistics
 
-Resource for computational statistics.
+Resource for computational statistics
 
-The list relates to the following libraries/packages.
+This is the leap board for the following libraries/packages,
 
 * Armedillo, http://arma.sourceforge.net/
 * boost, https://www.boost.org/
