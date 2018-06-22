@@ -7,6 +7,7 @@ This is the leap board for the following libraries/packages,
 * Armedillo, http://arma.sourceforge.net/
 * boost, https://www.boost.org/
 * eigen, http://eigen.tuxfamily.org
+* GSL, https://www.gnu.org/software/gsl/
 * LAPACK, http://www.netlib.org/lapack/
 * MKL, https://software.intel.com/en-us/mkl
 * Stata, https://www.stata.com/
