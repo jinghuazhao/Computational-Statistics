@@ -1,6 +1,6 @@
 # Computational-Statistics
 
-Resource for computational statistics
+Online resources for computational statistics
 
 This is the leap board for the following libraries/packages,
 
