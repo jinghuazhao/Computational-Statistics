@@ -34,9 +34,14 @@ sudo apt install libarmadillo-dev
 
 ## boost and eigen
 
-They are installed as follows,
+It is installed with
 ```bash
 sudo apt install libboost-all-dev
+```
+## eigen
+
+It is installed with
+```bash
 sudo apt install libeigen3-dev
 ```
 ## JAGS-4.3.0
