@@ -14,7 +14,7 @@ This is the leap board for the following libraries/packages,
 * Maple, https://www.maplesoft.com/
 * Mathematica, https://www.wolfram.com/mathematica/
 * MATLAB, https://www.mathworks.com/
-* Sage, http://www.sagemath.org/
+* SageMath, http://www.sagemath.org/
 * Stata, https://www.stata.com/
 * SAS, https://www.sas.com/
 * R, https://www.r-project.org/
@@ -153,7 +153,7 @@ However, compile error is still persistent except when dropping the option `--ex
 
 It is therefore recommended to get around with RStudio daily builds, https://dailies.rstudio.com/.
 
-## sage
+## SageMath
 
 ```bash
 sudo apt install sagemath
