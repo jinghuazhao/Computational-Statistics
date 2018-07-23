@@ -24,3 +24,9 @@ This is the leap board for the following libraries/packages,
 * OpenBUGS, www.openbugs.net/
 
 which serve as backbone for a variety of projects including those in genetics.
+
+Under Ubuntu, boost and eigen are insalled as follows,
+```bash
+sudo apt install libboost-all-dev
+sudo apt install libeigen3-dev
+```
