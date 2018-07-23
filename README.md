@@ -32,7 +32,7 @@ It is available with
 sudo apt install libarmadillo-dev
 ```
 
-## boost and eigen
+## boost
 
 It is installed with
 ```bash
