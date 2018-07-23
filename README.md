@@ -105,7 +105,7 @@ R CMD build gap
 ln -s /home/jhz22/R/R-devel/bin/R /home/jhz22/bin/R-devel
 R-devel CMD check --as-can gap_1.1-22.tar.gz
 ```
-### UBUNTU 18.04
+### Ubuntu 18.04
 
 ```{bash}
 sudo apt install r-base-core
