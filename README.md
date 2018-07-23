@@ -44,6 +44,12 @@ It is installed with
 ```bash
 sudo apt install libeigen3-dev
 ```
+## GSL
+
+```bash
+sudo apt install libgsl-dev
+```
+
 ## JAGS-4.3.0
 
 These are required at least,
@@ -58,12 +64,6 @@ sudo dnf install mercurial
 ```bash
 sudo apt install libblas-dev
 sudo apt install liblapack-dev
-```
-
-## GSL
-
-```bash
-sudo apt install libgsl-dev
 ```
 
 ## MKL
