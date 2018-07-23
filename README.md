@@ -60,7 +60,10 @@ It is conviently available from Anaconda,
 ```bash
 conda install -c intel mkl
 ```
-A GNU-like software to MATLAB is octave,
+
+## GNU Octave
+
+It is available with,
 ```bash
 sudo apt install octave
 ```
