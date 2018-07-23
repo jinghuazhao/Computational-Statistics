@@ -25,9 +25,16 @@ This is the leap board for the following libraries/packages,
 
 which serve as backbone for a variety of projects including those in genetics. Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher,
 
+## Armadillo
+
+It is available with
+```bash
+sudo apt install libarmadillo-dev
+```
+
 ## boost and eigen
 
-Under Ubuntu, they are insalled as follows,
+They are installed as follows,
 ```bash
 sudo apt install libboost-all-dev
 sudo apt install libeigen3-dev
