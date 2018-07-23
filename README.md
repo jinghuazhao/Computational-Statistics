@@ -61,12 +61,6 @@ sudo apt install octave
 
 ## R
 
-### Windows
-
-It seems the --arch x84 option is very useful for using all available RAM; to make sure use call such as `D:\Program Files\R\R-3.5.0\bin\x64\R.exe"`.
-
-When this fails, remove large objects in your code and start R with `--vanilla` option.
-
 ### Fedora 28
 
 The guest additions is furnished with
@@ -118,6 +112,12 @@ and R_LIBS is set from .bashrc
 export R_LIBS=/usr/local/lib/R/site-library/
 ```
 Note that in fact `html.start()` in R points to /usr/local/lib/R/library/ instead, see below example in `MendelianRandomization`.
+
+### Windows
+
+It seems the --arch x84 option is very useful for using all available RAM; to make sure use call such as `D:\Program Files\R\R-3.5.0\bin\x64\R.exe"`.
+
+When this fails, remove large objects in your code and start R with `--vanilla` option.
 
 ### RStudio
 
