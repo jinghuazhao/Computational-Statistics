@@ -158,3 +158,7 @@ It is therefore recommended to get around with RStudio daily builds, https://dai
 ```bash
 sudo apt install sagemath
 ```
+
+## stan
+
+cmdstan is now available from https://github.com/stan-dev/cmdstan.
