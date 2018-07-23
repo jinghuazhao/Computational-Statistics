@@ -25,32 +25,32 @@ This is the leap board for the following libraries/packages,
 
 which serve as backbone for a variety of projects including those in genetics. Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher,
 
-## Armadillo
+## --- Armadillo ---
 
 It is available with
 ```bash
 sudo apt install libarmadillo-dev
 ```
 
-## boost
+## --- boost ---
 
 It is installed with
 ```bash
 sudo apt install libboost-all-dev
 ```
-## eigen
+## --- eigen ---
 
 It is installed with
 ```bash
 sudo apt install libeigen3-dev
 ```
-## GSL
+## --- GSL ---
 
 ```bash
 sudo apt install libgsl-dev
 ```
 
-## JAGS-4.3.0
+## --- JAGS-4.3.0 ---
 
 These are required at least,
 ```bash
@@ -59,28 +59,28 @@ sudo dnf install lapack-devel
 sudo dnf install mercurial
 ```
 
-## BLAS and LAPACK
+## --- BLAS and LAPACK ---
 
 ```bash
 sudo apt install libblas-dev
 sudo apt install liblapack-dev
 ```
 
-## MKL
+## --- MKL ---
 
 It is conviently available from Anaconda,
 ```bash
 conda install -c intel mkl
 ```
 
-## GNU Octave
+## --- GNU Octave ---
 
 It is available with,
 ```bash
 sudo apt install octave
 ```
 
-## R
+## --- R ---
 
 ### Fedora 28
 
@@ -165,12 +165,12 @@ However, compile error is still persistent except when dropping the option `--ex
 
 It is therefore recommended to get around with RStudio daily builds, https://dailies.rstudio.com/.
 
-## SageMath
+## --- SageMath ---
 
 ```bash
 sudo apt install sagemath
 ```
 
-## stan
+## --- stan ---
 
 cmdstan is now available from https://github.com/stan-dev/cmdstan. Interfaces are listed at http://mc-stan.org/users/interfaces/index.html.
