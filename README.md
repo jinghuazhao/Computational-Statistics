@@ -48,6 +48,12 @@ sudo apt install libblas-dev
 sudo apt install liblapack-dev
 ```
 
+## GSL
+
+```bash
+sudo apt install libgsl-dev
+```
+
 ## MKL
 
 It is conviently available from Anaconda,
