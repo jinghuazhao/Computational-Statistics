@@ -14,7 +14,7 @@ This is the leap board for the following libraries/packages,
 * Maple, https://www.maplesoft.com/
 * Mathematica, https://www.wolfram.com/mathematica/
 * MATLAB, https://www.mathworks.com/
-* SageMath, http://www.sagemath.org/
+* Sage, http://www.sagemath.org/
 * Stata, https://www.stata.com/
 * SAS, https://www.sas.com/
 * R, https://www.r-project.org/
