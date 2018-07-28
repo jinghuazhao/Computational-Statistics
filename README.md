@@ -61,6 +61,7 @@ sudo dnf install mercurial
 It is actually available from Ubuntu archive, i.e.,
 ```bash
 sudo apt install jags
+sudo apt-get install r-cran-rjags
 ```
 
 ## --- BLAS and LAPACK ---
