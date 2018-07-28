@@ -58,6 +58,10 @@ sudo dnf install automake
 sudo dnf install lapack-devel
 sudo dnf install mercurial
 ```
+It is actually available from Ubuntu archive, i.e.,
+```bash
+sudo apt install jags
+```
 
 ## --- BLAS and LAPACK ---
 
