@@ -178,4 +178,4 @@ sudo apt install sagemath
 
 ## --- stan ---
 
-cmdstan is now available from https://github.com/stan-dev/cmdstan. Interfaces are listed at http://mc-stan.org/users/interfaces/index.html.
+cmdstan is now available from https://github.com/stan-dev/cmdstan along with other repositories there. Interfaces are listed at http://mc-stan.org/users/interfaces/index.html.
