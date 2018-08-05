@@ -129,6 +129,7 @@ R-devel CMD check --as-can gap_1.1-22.tar.gz
 ```
 ### Ubuntu 18.04
 
+The R environment is furnished with
 ```{bash}
 sudo apt install r-base-core
 sudo apt install r-base-dev
@@ -138,6 +139,17 @@ and R_LIBS is set from .bashrc
 export R_LIBS=/usr/local/lib/R/site-library/
 ```
 Note that in fact `html.start()` in R points to /usr/local/lib/R/library/ instead, see below example in `MendelianRandomization`.
+
+To enable R-devel/package building, these are necessary
+```bash
+sudo apt install g++
+sudo apt install gfortran
+sudo apt install texlive
+sudo apt install texlive-fonts-extra
+sudo apt install texinfo
+sudo apt install texlive-fonts-recommended
+sudo apt install libreadline-dev
+```
 
 ### Windows
 
