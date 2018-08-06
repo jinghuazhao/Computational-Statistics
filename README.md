@@ -77,6 +77,18 @@ It is conviently available from Anaconda,
 ```bash
 conda install -c intel mkl
 ```
+Example use with R,
+```bash
+# export OMP_NUM_THREADS=6
+export MKL_NUM_THREADS=15
+export MKLROOT=/genetics/data/software/intel/composer_xe_2013.4.183/mkl
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$MKLROOT/lib/intel64
+/genetics/data/software/intel/composer_xe_2013.4.183/mkl/bin/mklvars.sh intel64
+./configure --prefix=/genetics/data/software --enable-R-shlib --enable-threads=posix --with-lapack \
+ --with-blas="-fopenmp -m64 -I$MKLROOT/include -L$MKLROOT/lib/intel64 -lmkl_gf_lp64 -lmkl_gnu_thread -lmkl_core -lpthread -lm"
+make
+make install
+```
 
 ## --- GNU Octave ---
 
