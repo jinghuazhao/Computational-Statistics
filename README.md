@@ -89,12 +89,6 @@ sudo apt install octave
 
 ### Fedora 28
 
-The guest additions is furnished with
-```bash
-sudo dnf install gcc kernel-devel kernel-headers dkms make bzip2 perl
-cd /run/media/jhz22/VBox_GAs_5.2.12/
-sudo ./VBoxLinuxAdditions.run
-```
 The R-release is built as follows,
 ```bash
 sudo dnf install R
