@@ -157,6 +157,19 @@ It seems the --arch x84 option is very useful for using all available RAM; to ma
 
 When this fails, remove large objects in your code and start R with `--vanilla` option.
 
+### Package installation
+
+It is typically done with `install.packages()` from CRAN and
+```r
+source("https://bioconductor.org/biocLite.R")
+biocLite("packagename")
+```
+from Bioconductor. As with GitHub this is most likely to be
+```r
+library(devtools)
+install_github(developer/package-name)
+```
+
 ### RStudio
 
 The distribution has problem loading or creating R script, so it is tempting to install from https://github.com/rstudio/rstudio/. 
