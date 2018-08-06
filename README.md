@@ -159,16 +159,38 @@ When this fails, remove large objects in your code and start R with `--vanilla` 
 
 ### Package installation
 
-It is typically done with `install.packages()` from CRAN and
+**CRAN**. It is typically done with `install.packages()`
+```r
+install.packages("ggplot2",INSTALL_opts="--library=/usr/local/lib/R/site-library/")
+```
+**Bioconductor**. This is done with `biocLite`.
 ```r
 source("https://bioconductor.org/biocLite.R")
 biocLite("packagename")
 ```
-from Bioconductor. As with GitHub this is most likely to be
+**GitHub**. This is through `devtools::install_github()`.
 ```r
 library(devtools)
-install_github(developer/package-name)
+install_github("MRCIEU/TwoSampleMR",args="--library=/usr/local/lib/R/site-library",force=TRUE)
 ```
+with dedicated location(s); however this is not always the case and an alternative is to use
+```bash
+sudo R CMD INSTALL <packed/unpacked package> -l $R_LIBS
+```
+to install into $R_LIBS.
+
+**`tidy.R`**. The following code formats R source codes according to the R session,
+```bash
+function tidy()
+{
+  export input=$1
+R --vanilla <<END
+  options(keep.source = FALSE)
+  input <- Sys.getenv("input")
+  source(input)
+  dump(ls(all = TRUE), file = paste0(input,"_out"))
+END
+}
 
 ### RStudio
 
