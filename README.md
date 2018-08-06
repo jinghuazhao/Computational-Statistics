@@ -185,6 +185,7 @@ R --vanilla <<END
   dump(ls(all = TRUE), file = paste0(input,"_out"))
 END
 }
+```
 
 ### RStudio
 
