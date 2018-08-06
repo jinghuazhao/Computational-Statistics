@@ -77,7 +77,7 @@ It is conviently available from Anaconda,
 ```bash
 conda install -c intel mkl
 ```
-Example use with R,
+Example use with R under RHEL,
 ```bash
 # export OMP_NUM_THREADS=6
 export MKL_NUM_THREADS=15
