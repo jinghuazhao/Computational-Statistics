@@ -52,7 +52,7 @@ sudo apt install libgsl-dev
 
 ## --- JAGS-4.3.0 ---
 
-These are required at least,
+These are required at least under Federa 28,
 ```bash
 sudo dnf install automake
 sudo dnf install lapack-devel
