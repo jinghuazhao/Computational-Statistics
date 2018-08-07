@@ -125,7 +125,7 @@ sudo dnf install texlive-collection-fontsrecommended
 sudo dnf install texlive-collection-latexrecommended
 ./configure
 ```
-This is necessary since gcc 8 is available and required for CRAN package submission, e.g.,
+This is necessary since gcc 8 is available and required for [CRAN package submission](https://cran.r-project.org/submit.html), e.g.,
 ```bash
 # R-release to build
 R CMD build gap
