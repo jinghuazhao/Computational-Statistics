@@ -189,6 +189,7 @@ It is possible to point to a package, locally or remotely, e.g,
 ```r
 install.packages("http://cnsgenomics.com/software/gsmr/static/gsmr_1.0.6.tar.gz",repos=NULL,type="source")
 ```
+whose first argument is a URL.
 
 **`tidy.R`**. The following code formats R source codes according to the R session,
 ```bash
