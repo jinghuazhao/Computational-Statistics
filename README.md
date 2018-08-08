@@ -185,6 +185,11 @@ sudo R CMD INSTALL <packed/unpacked package> -l $R_LIBS
 ```
 to install into $R_LIBS.
 
+It is possible to point to a package, locally or remotely, e.g,
+```r
+install.packages("http://cnsgenomics.com/software/gsmr/static/gsmr_1.0.6.tar.gz",repos=NULL,type="source")
+```
+
 **`tidy.R`**. The following code formats R source codes according to the R session,
 ```bash
 function tidy()
