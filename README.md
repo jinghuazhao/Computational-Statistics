@@ -22,6 +22,7 @@ This is the leap board for the following libraries/packages,
 * BUGS, https://www.mrc-bsu.cam.ac.uk/software/bugs/
 * JAGS, http://mcmc-jags.sourceforge.net/
 * OpenBUGS, www.openbugs.net/
+* Visual Studio Code, https://code.visualstudio.com/
 
 which serve as backbone for a variety of projects including those in genetics. Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher,
 
