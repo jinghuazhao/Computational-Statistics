@@ -192,6 +192,21 @@ install.packages("http://cnsgenomics.com/software/gsmr/static/gsmr_1.0.6.tar.gz"
 ```
 whose first argument is a URL.
 
+**Multiple precision arithmetic**
+
+```bash
+sudo apt install libmpfr-dev
+R <<END
+install.packages("Rmpfr")
+z <- 20000
+Rmpfr::pnorm(-mpfr(-z,100), mean = 0, sd = 1, lower.tail = TRUE, log.p = FALSE)
+Rmpfr::pnorm(-mpfr(-z,100), mean = 0, sd = 1, lower.tail = TRUE, log.p = TRUE)
+# competitor
+-log10(2)-pnorm(-z,lower.tail=TRUE,log.p=TRUE)/log(10)
+END
+```
+The function `pnrom(-(abs(z), lower.tail=TRUE, log.p=TRUE)` in R is doing surprisingly well.
+
 **`tidy.R`**. The following code formats R source codes according to the R session,
 ```bash
 function tidy()
