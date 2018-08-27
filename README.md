@@ -197,7 +197,7 @@ whose first argument is a URL.
 ```bash
 sudo apt install libmpfr-dev
 R --no-save <<END
-reuiqreo("Rmpfr")
+require("Rmpfr")
 z <- 20000
 Rmpfr::pnorm(-mpfr(-z,100), mean = 0, sd = 1, lower.tail = TRUE, log.p = FALSE)
 Rmpfr::pnorm(-mpfr(-z,100), mean = 0, sd = 1, lower.tail = TRUE, log.p = TRUE)
