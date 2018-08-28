@@ -207,7 +207,9 @@ END
 ```
 The function `pnrom(-(abs(z), lower.tail=TRUE, log.p=TRUE)` in R is doing surprisingly well.
 
-**`tidy.R`**. The following code formats R source codes according to the R session,
+**`tidy.R`**
+
+The following code formats R source codes according to the R session,
 ```bash
 function tidy()
 {
