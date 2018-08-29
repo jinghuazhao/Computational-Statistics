@@ -160,6 +160,16 @@ sudo apt install libreadline-dev
 
 ### Windows
 
+To build packages on Windows, download Rtools from https://cran.r-project.org/ and install to C:\Rtools
+```dos
+rem 29/8/2019 JHZ
+
+set path=C:\Users\jhz22\R-3.5.1\bin;c:\Rtools\bin;%PATH%;c:\Rtools\mingw_64\bin;c:\Rtools\mingw_32\bin
+set lib=c:\Rtools\mingw_64\lib;c:\Rtools\mingw_32\include
+set include=c:\Rtools\mingw_64\include;c:\Rtools\mingw_32\include
+```
+We can then run `R CMD INSTALL --binary gap`, say.
+
 It seems the --arch x84 option is very useful for using all available RAM; to make sure use call such as `D:\Program Files\R\R-3.5.0\bin\x64\R.exe"`.
 
 When this fails, remove large objects in your code and start R with `--vanilla` option.
