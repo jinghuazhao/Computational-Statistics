@@ -131,7 +131,7 @@ This is necessary since gcc 8 is available and required for [CRAN package submis
 # R-release to build
 R CMD build gap
 # R-devel to check
-ln -s /home/jhz22/R/R-devel/bin/R /home/jhz22/bin/R-devel
+ln -s $HOME/R/R-devel/bin/R $HOME/bin/R-devel
 R-devel CMD check --as-can gap_1.1-22.tar.gz
 ```
 ### Ubuntu 18.04
