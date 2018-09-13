@@ -73,6 +73,15 @@ cd JAGS-4.3.0
 make
 make install
 ```
+The rjags package can be installed as follows,
+```bash
+export PKG_CONFIG_PATH=/scratch/jhz22/lib/pkgconfig
+
+R CMD INSTALL rjags_4-6.tar.gz --configure-args='CPPFLAGS="-fPIC" LDFLAGS="-L/scratch/jhz22/lib -ljags"
+--with-jags-prefix=/scratch/jhz22
+--with-jags-libdir=/scratch/jhz22/lib
+--with-jags-includedir=/scratch/jhz22/include'
+```
 
 ## --- BLAS and LAPACK ---
 
