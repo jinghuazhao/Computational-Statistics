@@ -64,13 +64,35 @@ It is actually available from Ubuntu archive, i.e.,
 sudo apt install jags
 sudo apt-get install r-cran-rjags
 ```
+We can also work with sourceforge,
+```bash
+wget https://sourceforge.net/projects/mcmc-jags/files/JAGS/4.x/Source/JAGS-4.3.0.tar.gz
+tar xvfz JAGS-4.3.0.tar.gz
+cd JAGS-4.3.0
+./configure --prefix=/scratch/jhz22 --with-lapack=/scratch/jhz22/lib64/liblapack.so --with-blas=/scratch/jhz22/lib64/libblas.so
+make
+make install
+```
 
 ## --- BLAS and LAPACK ---
 
+THe pre-built version is straightforward,
 ```bash
 sudo apt install libblas-dev
 sudo apt install liblapack-dev
 ```
+To install from http://www.netlib.org/lapack/, we proceed as follows,
+```bash
+wget http://www.netlib.org/lapack/lapack-3.8.0.tar.gz
+tar xvfz lapack-3.8.0.tar.gz
+cd lapack-3.8.0
+mkdir build
+## ccmake .
+cmake ..
+make
+make install
+```
+It is necessary to invoke `ccmake ..` to change the default static to dyanmic library as well as target directory.
 
 ## --- MKL ---
 
