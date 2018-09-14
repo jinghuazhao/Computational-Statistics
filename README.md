@@ -210,14 +210,6 @@ To set up bzip2, lzma/pcre, curl and then R assuming lapack is already installed
 
 ```
 
-To reinstall all packages as in /scratch/jhz22/R to $R_LIBS,
-```bash
-lib_loc <- "/scratch/jhz22/R"
-to_install <- unname(installed.packages(lib.loc = lib_loc)[, "Package"])
-to_install
-install.packages(pkgs = to_install)
-```
-
 ### Windows
 
 To build packages on Windows, download Rtools from https://cran.r-project.org/ and install to C:\Rtools
@@ -289,6 +281,14 @@ R --vanilla <<END
   dump(ls(all = TRUE), file = paste0(input,"_out"))
 END
 }
+```
+
+To reinstall all packages as in /scratch/jhz22/R to $R_LIBS,
+```bash
+lib_loc <- "/scratch/jhz22/R"
+to_install <- unname(installed.packages(lib.loc = lib_loc)[, "Package"])
+to_install
+install.packages(pkgs = to_install)
 ```
 
 ### RStudio
