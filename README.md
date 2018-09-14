@@ -188,6 +188,35 @@ sudo apt install texinfo
 sudo apt install texlive-fonts-recommended
 sudo apt install libreadline-dev
 ```
+To set up bzip2, lzma/pcre, curl and then R assuming lapack is already installed,
+```bash
+# compile shared library Makefile-libbz2_s and then add -FPIC to CC and recompile
+# bzip2
+# make
+# make install PREFIX=$SHOME
+
+# xz
+# ./configure --prefix=SHOME/xz-5.2.3
+# make -j3
+# make install
+
+# pcre
+# ./configure  --prefix=$SHOME  --enable-utf8
+
+# curl
+# ./configure  --prefix=$SHOME --with-ssl
+# make && make install
+./configure --prefix=/scratch/jhz22 --enable-R-shlib CPPFLAGS="-I/scratch/jhz22/include" LDFLAGS="-L/scratch/jhz22/lib"
+
+```
+
+To reinstall all packages as in /scratch/jhz22/R to $R_LIBS,
+```bash
+lib_loc <- "/scratch/jhz22/R"
+to_install <- unname(installed.packages(lib.loc = lib_loc)[, "Package"])
+to_install
+install.packages(pkgs = to_install)
+```
 
 ### Windows
 
