@@ -288,9 +288,9 @@ END
 }
 ```
 
-** Package reinstallation ""
+**Package reinstallation""
 
-For instance to replace packages under gcc 4.4.7 to gcc 5.4.0, one can resinstall all packages in /scratch/jhz22/R to /home/jhz22/R,
+For instance to replace packages under gcc 4.4.7 to gcc 5.4.0, one can resinstall all packages as in /scratch/jhz22/R to /home/jhz22/R,
 ```bash
 R --no-save <<END
 from <- "/scratch/jhz22/R"
