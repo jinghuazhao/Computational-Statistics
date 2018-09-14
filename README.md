@@ -190,7 +190,7 @@ sudo apt install libreadline-dev
 ```
 To set up bzip2, lzma/pcre, curl and then R assuming lapack is already installed,
 ```bash
-# compile shared library Makefile-libbz2_s and then add -FPIC to CC and recompile
+# compile shared library Makefile-libbz2_so and then add -FPIC to CC and recompile
 # bzip2
 # make
 # make install PREFIX=$SHOME
