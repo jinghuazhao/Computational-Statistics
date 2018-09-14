@@ -73,6 +73,11 @@ cd JAGS-4.3.0
 make
 make install
 ```
+We could also do
+```bash
+LDFLAGS="-L/genetics/data/software/lapack-3.4.2" ./configure --prefix=/genetics/data/software --with-blas=-lblas --with-lapack=-llapack
+```
+
 The rjags package can be installed as follows,
 ```bash
 export PKG_CONFIG_PATH=/scratch/jhz22/lib/pkgconfig
