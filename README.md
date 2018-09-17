@@ -288,7 +288,7 @@ END
 }
 ```
 
-**Package reinstallation""
+**Package reinstallation**
 
 For instance to replace packages under gcc 4.4.7 to gcc 5.4.0, one can resinstall all packages as in /scratch/jhz22/R to /home/jhz22/R,
 ```bash
@@ -299,6 +299,13 @@ pkgs <- unname(installed.packages(lib.loc = from)[, "Package"])
 pkgs
 install.packages(pkgs, lib.loc=to, repos="https://cran.r-project.org")
 END
+```
+
+**Mirror**
+
+We can mirror R packages from $HOME to /scratch as follows,
+```bash
+rsync -avrzP /home/$USER/R /scratch/$USER/R
 ```
 
 ### RStudio
