@@ -87,6 +87,16 @@ R CMD INSTALL rjags_4-6.tar.gz --configure-args='CPPFLAGS="-fPIC" LDFLAGS="-L/sc
 --with-jags-libdir=/scratch/jhz22/lib
 --with-jags-includedir=/scratch/jhz22/include'
 ```
+It may still be difficult to install, and we can try manually,
+```bash
+tar xfz rjags_4-6.tar.gz
+cd rjags
+mv configure configure.bak
+echo PKG_CPPFLAGS=-fPIC -I/scratch/$USER/include/JAGS > src/Makevars
+echo PKG_LIBS=-L/scratch/$USER/lib -ljags >> src/Makevars
+cd -
+R CMD INSTALL rjags
+```
 
 ## --- BLAS and LAPACK ---
 
