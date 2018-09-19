@@ -14,6 +14,7 @@ This is the leap board for the following libraries/packages,
 * Maple, https://www.maplesoft.com/
 * Mathematica, https://www.wolfram.com/mathematica/
 * MATLAB, https://www.mathworks.com/
+* Python, https://www.python.org/
 * SageMath, http://www.sagemath.org/
 * Stata, https://www.stata.com/
 * SAS, https://www.sas.com/
@@ -144,6 +145,12 @@ It is available with,
 sudo apt install octave
 ```
 
+## --- python ---
+
+It is possible to conduct survival analysis with lifelines,
+```bash
+pip install lifelines
+```
 ## --- R ---
 
 ### Fedora 28
