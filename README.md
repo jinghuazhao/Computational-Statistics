@@ -147,7 +147,7 @@ sudo apt install octave
 
 ## --- python ---
 
-It is possible to conduct survival analysis with lifelines,
+It is possible to conduct survival analysis with [lifelines](https://lifelines.readthedocs.io/en/latest/index.html),
 ```bash
 pip install lifelines
 ```
