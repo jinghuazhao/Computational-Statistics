@@ -118,7 +118,12 @@ cmake ..
 make
 make install
 ```
-It is necessary to invoke `ccmake ..` to change the default static to dyanmic library as well as target directory.
+It is necessary to invoke `ccmake ..` to change the default static to dyanmic library as well as target directory. However, in case this is working, one can proceed as follows,
+```bash
+cmake -DCMAKE_INSTALL_PREFIX=/rds-d4/user/jhz22/hpc-work -DCMAKE_BUILD_TYPE=RELEASE -DBUILD_SHARED_LIBS=ON -DLAPACKE=ON ..
+make
+make install
+```
 
 ## --- MKL ---
 
