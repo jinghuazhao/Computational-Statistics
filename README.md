@@ -103,6 +103,7 @@ The rjags/src/Makevars could be as follows,
 PKG_CPPFLAGS=-fPIC -I/scratch/jhz22/include/JAGS
 PKG_LIBS=-L/scratch/jhz22/lib -L/scratch/jhz22/lib64 -ljags -lblas -llapack
 ```
+After this rjags should install as with R2jags.
 
 ## --- BLAS and LAPACK ---
 
