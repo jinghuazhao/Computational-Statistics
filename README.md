@@ -314,7 +314,7 @@ from <- "/scratch/jhz22/R"
 to <- "/home/jhz22/R"
 pkgs <- unname(installed.packages(lib.loc = from)[, "Package"])
 pkgs
-install.packages(pkgs, lib.loc=to, repos="https://cran.r-project.org")
+install.packages(pkgs, lib=to, repos="https://cran.r-project.org")
 END
 ```
 
