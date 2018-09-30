@@ -70,13 +70,9 @@ We can also work with sourceforge,
 wget https://sourceforge.net/projects/mcmc-jags/files/JAGS/4.x/Source/JAGS-4.3.0.tar.gz
 tar xvfz JAGS-4.3.0.tar.gz
 cd JAGS-4.3.0
-./configure --prefix=/scratch/jhz22 --with-lapack=/scratch/jhz22/lib64/liblapack.so --with-blas=/scratch/jhz22/lib64/libblas.so
+LDFLAGS="-L/scratch/jhz22/lib64" ./configure --prefix=/scratch/jhz22 --with-blas=-lblas --with-lapack=-llapack
 make
 make install
-```
-We could also do
-```bash
-LDFLAGS="-L/scratch/jhz22/lib64" ./configure --prefix=/scratch/jhz22 --with-blas=-lblas --with-lapack=-llapack
 ```
 
 The rjags package can be installed as follows,
