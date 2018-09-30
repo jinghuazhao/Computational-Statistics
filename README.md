@@ -76,7 +76,7 @@ make install
 ```
 We could also do
 ```bash
-LDFLAGS="-L/scratch/jhz22/lib64" ./configure --prefix=/genetics/data/software --with-blas=-lblas --with-lapack=-llapack
+LDFLAGS="-L/scratch/jhz22/lib64" ./configure --prefix=/scratch/jhz22 --with-blas=-lblas --with-lapack=-llapack
 ```
 
 The rjags package can be installed as follows,
