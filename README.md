@@ -14,6 +14,7 @@ This is the leap board for the following libraries/packages,
 * Maple, https://www.maplesoft.com/
 * Mathematica, https://www.wolfram.com/mathematica/
 * MATLAB, https://www.mathworks.com/
+* NAG, https://www.nag.co.uk/content/downloads-nag-fortran-library-versions
 * Python, https://www.python.org/
 * SageMath, http://www.sagemath.org/
 * Stata, https://www.stata.com/
