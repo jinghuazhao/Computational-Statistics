@@ -104,11 +104,24 @@ END
 tar xvfz runjags_2.0.4-2.tar.gz
 cd runjags
 mv configure configure.bak
+# modify jagsversions.h
 # cp Makevars.runjags src/Makevars
 cd -
 R CMD INSTALL runjags
 ```
-We need to add #define JAGS_MAJOR_FORCED 0 to runjags/src/jagsversions.h to proceed. The Makevars.runjags has the following lines
+We need to add modify runjags/src/jagsversions.h to proceed,
+```c
+#ifndef JAGS_VERSIONS_H_
+#define JAGS_VERSIONS_H_
+
+#include <version.h>
+#ifndef JAGS_MAJOR
+#define JAGS_MAJOR 4
+#endif
+
+#define JAGS_MAJOR_FORCED 0
+```
+where the Makevars.runjags has the following lines
 ```
 PKG_CPPFLAGS=-I/scratch/jhz22/include
 PKG_LIBS=-L/scratch/jhz22/lib -ljags 
