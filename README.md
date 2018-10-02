@@ -94,12 +94,27 @@ echo PKG_LIBS=-L/scratch/$USER/lib -ljags >> src/Makevars
 cd -
 R CMD INSTALL rjags
 ```
-The rjags/src/Makevars could be as follows,
-```
-PKG_CPPFLAGS=-fPIC -I/scratch/jhz22/include/JAGS
-PKG_LIBS=-L/scratch/jhz22/lib -L/scratch/jhz22/lib64 -ljags -lblas -llapack
-```
 After this rjags should install as with R2jags.
+
+We can also install JAGS-related packages by establishing an Makevars in the src directory, e.g.,
+```bash
+R --no-save <<END
+download.packages("runjags",".")
+END
+tar xvfz runjags_2.0.4-2.tar.gz
+cd runjags
+mv configure configure.bak
+# cp Makevars.runjags src/Makevars
+cd -
+R CMD INSTALL runjags
+```
+The Makevars.runjags has the following lines
+```
+PKG_CPPFLAGS=-I/scratch/jhz22/include/JAGS 
+PKG_LIBS=-L/scratch/jhz22/lib -ljags 
+
+OBJECTS= distributions/jags/DFunction.o distributions/jags/DPQFunction.o distributions/jags/PFunction.o distributions/jags/QFunction.o distributions/jags/RScalarDist.o distributions/DPar1.o distributions/DPar2.o distributions/DPar3.o distributions/DPar4.o distributions/DLomax.o distributions/DMouchel.o distributions/DGenPar.o distributions/DHalfCauchy.o runjags.o testrunjags.o
+```
 
 ## --- BLAS and LAPACK ---
 
