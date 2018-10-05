@@ -129,7 +129,16 @@ PKG_LIBS=-L/scratch/jhz22/lib -ljags
 
 OBJECTS= distributions/jags/DFunction.o distributions/jags/DPQFunction.o distributions/jags/PFunction.o distributions/jags/QFunction.o distributions/jags/RScalarDist.o distributions/DPar1.o distributions/DPar2.o distributions/DPar3.o distributions/DPar4.o distributions/DLomax.o distributions/DMouchel.o distributions/DGenPar.o distributions/DHalfCauchy.o runjags.o testrunjags.o
 ```
-One can mirror installation of rjags but somehow for libjags.so runjags is always points to lib64, so when when it is in lib instead it is necessary to create symbolic links from lib64.
+One can mirror installation of rjags 
+``bash
+export PKG_CONFIG_PATH=/rds-d4/user/jhz22/hpc-work/lib/pkgconfig
+export LDFLAGS="-L/rds-d4/user/jhz22/hpc-work/lib -ljags -lblas -llapack"
+R CMD INSTALL runjags_2.0.4-2.tar.gz --configure-args='
+--with-jags-prefix=/rds-d4/user/jhz22/hpc-work
+--with-jags-libdir=/rds-d4/user/jhz22/hpc-work/lib
+--with-jags-includedir=/rds-d4/user/jhz22/hpc-work/include'
+```
+but somehow for libjags.so runjags is always points to lib64, so when libjags.so is in lib instead it is necessary to create symbolic links from lib64 to it.
 
 ## --- BLAS and LAPACK ---
 
