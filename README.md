@@ -129,6 +129,7 @@ PKG_LIBS=-L/scratch/jhz22/lib -ljags
 
 OBJECTS= distributions/jags/DFunction.o distributions/jags/DPQFunction.o distributions/jags/PFunction.o distributions/jags/QFunction.o distributions/jags/RScalarDist.o distributions/DPar1.o distributions/DPar2.o distributions/DPar3.o distributions/DPar4.o distributions/DLomax.o distributions/DMouchel.o distributions/DGenPar.o distributions/DHalfCauchy.o runjags.o testrunjags.o
 ```
+One can mirror installation of rjags but somehow for libjags.so runjags is always points to lib64, so when when it is in lib instead it is necessary to create symbolic links from lib64.
 
 ## --- BLAS and LAPACK ---
 
