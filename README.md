@@ -138,7 +138,7 @@ R CMD INSTALL runjags_2.0.4-2.tar.gz --configure-args='
 --with-jags-libdir=/rds-d4/user/jhz22/hpc-work/lib
 --with-jags-includedir=/rds-d4/user/jhz22/hpc-work/include'
 ```
-but somehow for libjags.so runjags is always points to lib64, so when libjags.so is in lib instead it is necessary to create symbolic links from lib64 to it.
+but somehow runjags is always points to lib64 for libjags.so, so when libjags.so is in lib instead it is necessary to create symbolic links from lib64 to it.
 
 ## --- BLAS and LAPACK ---
 
