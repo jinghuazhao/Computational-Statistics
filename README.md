@@ -129,7 +129,7 @@ PKG_LIBS=-L/scratch/jhz22/lib -ljags
 
 OBJECTS= distributions/jags/DFunction.o distributions/jags/DPQFunction.o distributions/jags/PFunction.o distributions/jags/QFunction.o distributions/jags/RScalarDist.o distributions/DPar1.o distributions/DPar2.o distributions/DPar3.o distributions/DPar4.o distributions/DLomax.o distributions/DMouchel.o distributions/DGenPar.o distributions/DHalfCauchy.o runjags.o testrunjags.o
 ```
-One can mirror installation of rjags 
+To get around these, one can mirror installation of rjags using the fact that runjags simply calls libjags.so though the source seemed for JAGS 3.x.x.,
 ``bash
 export PKG_CONFIG_PATH=/rds-d4/user/jhz22/hpc-work/lib/pkgconfig
 export LDFLAGS="-L/rds-d4/user/jhz22/hpc-work/lib -ljags -lblas -llapack"
