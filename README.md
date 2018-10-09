@@ -144,8 +144,8 @@ but somehow runjags is always points to lib64 for libjags.so, so when libjags.so
 
 THe pre-built version is straightforward,
 ```bash
-sudo dnf install libblas-devel
-sudo dnf install liblapack-devel
+sudo dnf install blas-devel
+sudo dnf install lapack-devel
 ```
 and Fedora and the counterpart for Ubuntu is,
 ```bash
