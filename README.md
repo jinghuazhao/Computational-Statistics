@@ -341,7 +341,7 @@ Rmpfr::pnorm(-mpfr(z,100), mean = 0, sd = 1, lower.tail = TRUE, log.p = TRUE)
 -log10(2)-pnorm(-z,lower.tail=TRUE,log.p=TRUE)/log(10)
 END
 ```
-The function `pnorm(-abs(z), lower.tail=TRUE, log.p=TRUE)` in R is doing surprisingly well and now a R/gap utility function.
+The function `pnorm(-abs(z), lower.tail=TRUE, log.p=TRUE)` in R is doing surprisingly well and now an R/gap utility function.
 
 **`tidy.R`**. The following code formats R source codes according to the R session,
 ```bash
