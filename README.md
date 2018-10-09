@@ -9,7 +9,7 @@ This is the leap board for the following libraries/packages,
 * eigen, http://eigen.tuxfamily.org
 * GNU Octave, https://www.gnu.org/software/octave/
 * GSL, https://www.gnu.org/software/gsl/
-* LAPACK, http://www.netlib.org/lapack/
+* LAPACK, http://www.netlib.org/lapack/ ([OpenBLAS](https://www.openblas.net/),[netlib-java](https://github.com/fommil/netlib-java))
 * MKL, https://software.intel.com/en-us/mkl
 * Maple, https://www.maplesoft.com/
 * Mathematica, https://www.wolfram.com/mathematica/
