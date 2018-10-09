@@ -26,7 +26,7 @@ This is the leap board for the following libraries/packages,
 * OpenBUGS, www.openbugs.net/
 * Visual Studio Code, https://code.visualstudio.com/
 
-which serve as backbone for a variety of projects including those in genetics. Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher,
+which serve as backbone for a variety of projects including those in genetics. Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher.
 
 ## --- Armadillo ---
 
