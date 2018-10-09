@@ -147,7 +147,7 @@ The pre-built version is straightforward for Fedora with
 sudo dnf install blas-devel
 sudo dnf install lapack-devel
 ```
-and the counterpart for Ubuntu is,
+and the counterpart for Ubuntu is
 ```bash
 sudo apt install libblas-dev
 sudo apt install liblapack-dev
