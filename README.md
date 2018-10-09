@@ -97,7 +97,7 @@ echo PKG_LIBS=-L/scratch/$USER/lib -ljags >> src/Makevars
 cd -
 R CMD INSTALL rjags
 ```
-After this rjags should install as with R2jags.
+After this, rjags should install as with R2jags.
 
 We can also install JAGS-related packages by establishing an Makevars in the src directory, e.g.,
 ```bash
