@@ -142,7 +142,7 @@ but somehow runjags is always points to lib64 for libjags.so, so when libjags.so
 
 ## --- BLAS and LAPACK ---
 
-The pre-built version is straightforward for Fedora with,
+The pre-built version is straightforward for Fedora with
 ```bash
 sudo dnf install blas-devel
 sudo dnf install lapack-devel
