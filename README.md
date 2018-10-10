@@ -416,6 +416,8 @@ cmdstan is now available from https://github.com/stan-dev/cmdstan along with oth
 
 # URLs
 
+ Name | URLs
+ ----------|--------------------------------------
  Armedillo | http://arma.sourceforge.net/
  boost | https://www.boost.org/
  eigen | http://eigen.tuxfamily.org
