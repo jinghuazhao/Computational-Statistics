@@ -2,6 +2,8 @@
 
 Online resources for computational statistics
 
+# List
+
 This is the leap board for the following libraries/packages,
 * Armedillo
 * boost
@@ -28,6 +30,8 @@ This is the leap board for the following libraries/packages,
 * Visual Studio Code
 
 which serve as backbone for a variety of projects including those in genetics. Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher. The repository intends to make it easier to keep pace with releases of Linux systems and R, among others.
+
+# Notes on installation
 
 ## --- Armadillo ---
 
