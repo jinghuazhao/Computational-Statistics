@@ -424,8 +424,8 @@ cmdstan is now available from https://github.com/stan-dev/cmdstan along with oth
  GNU Octave | https://www.gnu.org/software/octave/
  GSL | https://www.gnu.org/software/gsl/
  LAPACK | http://www.netlib.org/lapack/
-  * OpenBLAS | https://www.openblas.net/
-  * netlib-java | https://github.com/fommil/netlib-java
+ OpenBLAS | https://www.openblas.net/
+ netlib-java | https://github.com/fommil/netlib-java
  MKL | https://software.intel.com/en-us/mkl
  Maple | https://www.maplesoft.com/
  Mathematica | https://www.wolfram.com/mathematica/
