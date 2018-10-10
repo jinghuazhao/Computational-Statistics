@@ -2,6 +2,8 @@
 
 Online resources for computational statistics
 
+The repository intends to make it easier to keep pace with releases of Linux systems and R, among others.
+
 # List
 
 The list contains the following
@@ -29,7 +31,7 @@ The list contains the following
 * OpenBUGS
 * Visual Studio Code
 
-which serve as backbone for a variety of projects including those in genetics. The repository intends to make it easier to keep pace with releases of Linux systems and R, among others.
+which serve as backbone for a variety of projects including those in genetics.
 
 # Notes on installation
 
