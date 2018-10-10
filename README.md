@@ -2,31 +2,31 @@
 
 Online resources for computational statistics
 
-This is the leap board for the following libraries/packages,
+* Armedillo
+* boost
+* eigen
+* GNU Octave
+* GSL
+* LAPACK
+  * OpenBLAS
+  * netlib-java
+* MKL
+* Maple
+* Mathematica
+* MATLAB
+* NAG
+* Python
+* SageMath
+* Stata
+* SAS
+* R
+* Stan
+* BUGS
+* JAGS
+* OpenBUGS
+* Visual Studio Code
 
-* Armedillo, http://arma.sourceforge.net/
-* boost, https://www.boost.org/
-* eigen, http://eigen.tuxfamily.org
-* GNU Octave, https://www.gnu.org/software/octave/
-* GSL, https://www.gnu.org/software/gsl/
-* LAPACK, http://www.netlib.org/lapack/
-  * OpenBLAS, https://www.openblas.net/
-  * netlib-java, https://github.com/fommil/netlib-java
-* MKL, https://software.intel.com/en-us/mkl
-* Maple, https://www.maplesoft.com/
-* Mathematica, https://www.wolfram.com/mathematica/
-* MATLAB, https://www.mathworks.com/
-* NAG, https://www.nag.co.uk
-* Python, https://www.python.org/
-* SageMath, http://www.sagemath.org/
-* Stata, https://www.stata.com/
-* SAS, https://www.sas.com/
-* R, https://www.r-project.org/
-* Stan, http://mc-stan.org/
-* BUGS, https://www.mrc-bsu.cam.ac.uk/software/bugs/
-* JAGS, http://mcmc-jags.sourceforge.net/
-* OpenBUGS, www.openbugs.net/
-* Visual Studio Code, https://code.visualstudio.com/
+This is the leap board for the following libraries/packages,
 
 which serve as backbone for a variety of projects including those in genetics. Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher. The repository intends to make it easier to keep pace with releases of Linux systems and R, among others.
 
@@ -413,3 +413,30 @@ sudo apt install sagemath
 ## --- stan ---
 
 cmdstan is now available from https://github.com/stan-dev/cmdstan along with other repositories there. Interfaces are listed at http://mc-stan.org/users/interfaces/index.html.
+
+
+# URLs
+
+ Armedillo | http://arma.sourceforge.net/
+ boost | https://www.boost.org/
+ eigen | http://eigen.tuxfamily.org
+ GNU Octave | https://www.gnu.org/software/octave/
+ GSL | https://www.gnu.org/software/gsl/
+ LAPACK | http://www.netlib.org/lapack/
+  * OpenBLAS | https://www.openblas.net/
+  * netlib-java | https://github.com/fommil/netlib-java
+ MKL | https://software.intel.com/en-us/mkl
+ Maple | https://www.maplesoft.com/
+ Mathematica | https://www.wolfram.com/mathematica/
+ MATLAB | https://www.mathworks.com/
+ NAG | https://www.nag.co.uk
+ Python | https://www.python.org/
+ SageMath | http://www.sagemath.org/
+ Stata | https://www.stata.com/
+ SAS | https://www.sas.com/
+ R | https://www.r-project.org/
+ Stan | http://mc-stan.org/
+ BUGS | https://www.mrc-bsu.cam.ac.uk/software/bugs/
+ JAGS | http://mcmc-jags.sourceforge.net/
+ OpenBUGS | www.openbugs.net/
+ Visual Studio Code | https://code.visualstudio.com/
