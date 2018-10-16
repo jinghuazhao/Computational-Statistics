@@ -4,4 +4,4 @@
 
 * GNU Parallel
 * sge
-* SLRUM
+* SLURM
