@@ -1,6 +1,8 @@
 # Computational-Statistics
 
-Resources and application notes
+Online resources for computational statistics
+
+The repository intends to make it easier to keep pace with releases of Linux systems and R, among others.
 
 As yet this repository covers two aspects
 
