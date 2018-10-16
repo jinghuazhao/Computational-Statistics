@@ -29,7 +29,7 @@ The list contains the following
 
 which serve as backbone for a variety of projects including those in genetics.
 
-# Notes on installation
+# Notes
 
 Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher.
 
