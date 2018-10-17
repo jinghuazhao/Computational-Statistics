@@ -7,5 +7,6 @@ The repository intends to make it easier to keep pace with releases of Linux sys
 As yet this repository covers two aspects
 
 1. [Installation](INSTALL.md)
-2. [Parallel computing](PARALLEL.md)
-3. [Language notes](LANGUAGES.md)
+2. [Language notes](LANGUAGES.md)
+3. [Parallel computing](PARALLEL.md)
+4. [System information](SYSTEMS.md)
