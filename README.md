@@ -8,3 +8,4 @@ As yet this repository covers two aspects
 
 1. [Installation](INSTALL.md)
 2. [Parallel computing](PARALLEL.md)
+3. [Language notes](LANGUAGES.md)
