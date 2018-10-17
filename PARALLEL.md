@@ -31,19 +31,3 @@ qstat | grep $USER | cut -d. -f1 | xargs qdel, qdel {id1..id2}
 * examples, https://github.com/statgen/SLURM-examples.
 
 SGE to SLURM conversion can be seen from https://srcc.stanford.edu/sge-slurm-conversion.
-
-# modules
-
-It is a system that allows you to easily change between different versions of compilers and other software.
-
-```bash
-function module ()
-{
-    curl -sf -XPOST http://modules-mon.hpc.cam.ac.uk/action -H 'Content-Type: application/json' -d '{ "username":"'$USER'", "hostname":"'$HOSTNAME'", "command":"'"$*"'" }' 2>&1 > /dev/null;
-    eval `/usr/bin/modulecmd bash $*`
-}
-
-module load matlab/r2014a
-matlab $@
-```
-Usually the `eval` line is sufficient.
