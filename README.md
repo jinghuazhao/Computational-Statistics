@@ -9,4 +9,4 @@ As yet this repository covers two aspects
 1. [Installation](INSTALL.md)
 2. [Language notes](LANGUAGES.md)
 3. [Parallel computing](PARALLEL.md)
-4. [System information](SYSTEMS.md)
+4. [System notes](SYSTEMS.md)
