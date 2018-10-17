@@ -8,12 +8,16 @@
 
 ## GNU parallel
 
+[GNU parallel](https://www.gnu.org/software/parallel/) is the most handy to use -- note with its --env to pass environment variables.
+
 Under Ubuntu, GNU parallel is easily installed as follows,
 ```{bash}
 sudo apt install parallel
 ```
 
 ## SGE
+
+General information is [here](https://en.wikipedia.org/wiki/Oracle_Grid_Engine).
 
 https://peteris.rocks/blog/sun-grid-engine-installation-on-ubuntu-server/.
 
