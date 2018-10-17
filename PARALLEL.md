@@ -3,7 +3,7 @@
 # LIST
 
 * GNU Parallel
-* sge
+* SGE
 * SLURM
 
 ## GNU parallel
@@ -13,7 +13,7 @@ Under Ubuntu, GNU parallel is easily installed as follows,
 sudo apt install parallel
 ```
 
-## sge
+## SGE
 
 https://peteris.rocks/blog/sun-grid-engine-installation-on-ubuntu-server/.
 
