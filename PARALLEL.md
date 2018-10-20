@@ -37,11 +37,7 @@ Otherwise for a consecutive sequence we use qdel {id1..id2}.
 
 General information is available from https://slurm.schedmd.com/.
 
-* sinfo - view information about Slurm nodes and partitions
-* squeue - view information about jobs located in the Slurm scheduling queue, squeue -u $USER -r; qstat -u $USER
-* dependency, https://hpc.nih.gov/docs/job_dependencies.html
-* examples, https://github.com/statgen/SLURM-examples.
-* http://www.arc.ox.ac.uk/content/slurm-job-scheduler
+A list of commands and their descriptions, http://www.arc.ox.ac.uk/content/slurm-job-scheduler
 
 command | description
 --------|-------------
@@ -53,6 +49,12 @@ sinfo 	| reports the state of partitions and nodes managed by Slurm (it has a va
 squeue 	| reports the state of jobs (it has a variety of filtering, sorting, and formatting options), by default, reports the running jobs in priority order followed by the pending jobs in priority order
 srun 	| used to submit a job for execution in real time
 
+e.g., squeue -u $USER -r; qstat -u $USER
+* dependency, https://hpc.nih.gov/docs/job_dependencies.html
+* examples, https://github.com/statgen/SLURM-examples.
+
+from https://help.rc.ufl.edu/doc/Temporary_Directories.
+
 > When a SLURM job starts, the scheduler creates a temporary directory for the job on the compute node's local hard drive. This $SLURM_TMPDIR directory is very useful for jobs that need to use or generate a large number of small files, as the /ufrc parallel filesystem is optimized for large file streaming and is less suitable for small files.
 
 > The directory is owned by the user running the job. The path to the temporary directory is made available as the $SLURM_TMPDIR variable. At the end of the job, the temporary directory is automatically removed.
@@ -62,8 +64,6 @@ srun 	| used to submit a job for execution in real time
 > Many applications and programming languages use the $TMPDIR environment variable, if available, as the default temporary directory path. If this variable is not set, the applications will default to using the /tmp directory, which is not desirable. SLURM will set $TMPDIR to the same value as $SLURM_TMPDIR unless $TMPDIR has already been set, in which case it will be ignored. Check your job script(s) and shell initialization files like .bashrc and .bash_profile to make sure you do not have $TMPDIR set.
 
 > If a personal Singularity container is used, make sure that the $SINGULARITYENV_TMPDIR variable is set within the job to export the local scratch location into the Singularity container. 
-
-from https://help.rc.ufl.edu/doc/Temporary_Directories.
 
 ## SGE to SLURM
 
