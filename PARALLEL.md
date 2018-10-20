@@ -51,9 +51,8 @@ srun 	| used to submit a job for execution in real time
 
 e.g., squeue -u $USER -r; qstat -u $USER
 * dependency, https://hpc.nih.gov/docs/job_dependencies.html
-* examples, https://github.com/statgen/SLURM-examples.
-
-from https://help.rc.ufl.edu/doc/Temporary_Directories.
+* examples, https://github.com/statgen/SLURM-examples
+* temporary directories, https://help.rc.ufl.edu/doc/Temporary_Directories
 
 > When a SLURM job starts, the scheduler creates a temporary directory for the job on the compute node's local hard drive. This $SLURM_TMPDIR directory is very useful for jobs that need to use or generate a large number of small files, as the /ufrc parallel filesystem is optimized for large file streaming and is less suitable for small files.
 
