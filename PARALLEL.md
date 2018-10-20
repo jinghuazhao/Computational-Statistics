@@ -45,6 +45,7 @@ sacct 	| report job accounting information about active or completed jobs
 salloc 	| allocate resources for a job in real time (typically used to allocate resources and spawn a shell, in which the srun command is used to launch parallel tasks)
 sbatch 	| submit a job script for later execution (the script typically contains one or more srun commands to launch parallel tasks)
 scancel | cancel a pending or running job
+scontrol| hold, holdu, release, requeue, requeuehold, suspend and resume commands
 sinfo 	| reports the state of partitions and nodes managed by Slurm (it has a variety of filtering, sorting, and formatting options)
 squeue 	| reports the state of jobs (it has a variety of filtering, sorting, and formatting options), by default, reports the running jobs in priority order followed by the pending jobs in priority order
 srun 	| used to submit a job for execution in real time
