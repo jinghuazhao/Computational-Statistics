@@ -29,8 +29,9 @@ https://peteris.rocks/blog/sun-grid-engine-installation-on-ubuntu-server/.
 
 To delete SGE jobs shown in qstat, use 
 ```bash
-qstat | grep $USER | cut -d. -f1 | xargs qdel, qdel {id1..id2}
+qstat | grep $USER | cut -d" " -f1 | xargs qdel
 ```
+Otherwise for a consecutive sequence we use qdel {id1..id2}.
 
 ## SLURM
 
