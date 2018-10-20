@@ -14,6 +14,12 @@ Under Ubuntu, GNU parallel is easily installed as follows,
 ```{bash}
 sudo apt install parallel
 ```
+Earlier version had issues with temporary direvtory, e.g., https://stackoverflow.com/questions/24398941/gnu-parallel-unlink-error
+if 
+```bash
+module load parallel/20131222
+```
+The lastest, http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2, can be used instead.
 
 ## SGE
 
@@ -36,17 +42,6 @@ General information is available from https://slurm.schedmd.com/.
 * examples, https://github.com/statgen/SLURM-examples.
 
 **Temporary Directories** (https://help.rc.ufl.edu/doc/Temporary_Directories)
-
-*GNU Parallel*
-
-Earlier version had issues with temporary direvtory, e.g., https://stackoverflow.com/questions/24398941/gnu-parallel-unlink-error
-if 
-```bash
-module load parallel/20131222
-```
-The lastest, http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2, can be used instead.
-
-*SLURM*
 
 When a SLURM job starts, the scheduler creates a temporary directory for the job on the compute node's local hard drive. This $SLURM_TMPDIR directory is very useful for jobs that need to use or generate a large number of small files, as the /ufrc parallel filesystem is optimized for large file streaming and is less suitable for small files.
 
