@@ -316,7 +316,7 @@ install.packages("ggplot2",INSTALL_opts="--library=/usr/local/lib/R/site-library
 source("https://bioconductor.org/biocLite.R")
 biocLite("packagename")
 ```
-**GitHub**. This is through `devtools::install_github()`.
+**GitHub**. We could set this up via `sudo apt install r-cran-curl`. This is then through `devtools::install_github()`.
 ```r
 library(devtools)
 install_github("MRCIEU/TwoSampleMR",args="--library=/usr/local/lib/R/site-library",force=TRUE)
