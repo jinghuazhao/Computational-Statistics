@@ -83,6 +83,8 @@ PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
 ## Ubuntu
 
+The latest release is from http://releases.ubuntu.com/18.10/.
+
 Its archive, http://archive.ubuntu.com/ubuntu/pool/universe, includes beagle, eigensoft, plink, plink-1.9, among others, which can be installed canonically with ```sudo apt install```.
 
 ```bash
