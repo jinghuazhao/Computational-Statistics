@@ -16,6 +16,7 @@ The list contains the following
 * Mathematica
 * MATLAB
 * NAG
+* NLopt
 * Python
 * SageMath
 * Stata
@@ -194,6 +195,10 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$MKLROOT/lib/intel64
 make
 make install
 ```
+
+## --- NLopt ---
+
+Available from https://nlopt.readthedocs.io/en/latest/ with R counterpart from https://cran.r-project.org/web/packages/nloptr/index.html.
 
 ## --- GNU Octave ---
 
