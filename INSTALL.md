@@ -61,7 +61,7 @@ One can start usual from https://gmplib.org/ and https://www.mpfr.org/.
 sudo apt install libgmp-dev
 sudo apt install libmpfr-dev
 ```
-then one can install Rmpfr.
+then one can install Rmpfr. When installing as non-Admin, make sure issuing 'make check' for both libraries.
 
 ## --- GSL ---
 
