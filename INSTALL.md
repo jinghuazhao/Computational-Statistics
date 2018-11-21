@@ -7,6 +7,7 @@ The list contains the following
 * boost
 * eigen
 * GNU Octave
+* GMP/MPFR
 * GSL
 * LAPACK
   * OpenBLAS
@@ -53,6 +54,15 @@ It is installed with
 ```bash
 sudo apt install libeigen3-dev
 ```
+## --- GMP/MPFR ---
+
+One can start usual from https://gmplib.org/ and https://www.mpfr.org/.
+```bash
+sudo apt install libgmp-dev
+sudo apt install libmpfr-dev
+```
+then one can install Rmpfr.
+
 ## --- GSL ---
 
 ```bash
