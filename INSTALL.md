@@ -61,7 +61,13 @@ One can start usual from https://gmplib.org/ and https://www.mpfr.org/.
 sudo apt install libgmp-dev
 sudo apt install libmpfr-dev
 ```
-then one can install Rmpfr. When installing as non-Admin, make sure issuing 'make check' for both libraries.
+then one can install Rmpfr. When installing as non-Admin, make sure issuing 'make check' for both libraries. As MPFR is dependent on GMP, it is necessary to use
+```bash
+cd /home/jhz22/Downloads/mpfr-4.0.1
+./configure --prefix=/scratch/jhz22 --with-gmp-build=/home/jhz22/Downloads/gmp-6.1.2
+make check
+```
+for instance.
 
 ## --- GSL ---
 
