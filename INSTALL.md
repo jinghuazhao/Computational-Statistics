@@ -197,7 +197,7 @@ make install
 
 One can consult [Intel® Math Kernel Library Link Line Advisor](https://software.intel.com/en-us/articles/intel-mkl-link-line-advisor) and [Free access to Intel® Compilers, Performance libraries, Analysis tools and more...](https://software.intel.com/en-us/articles/free-ipsxe-tools-and-libraries).
 
-Alternatively, it is conviently available from Anaconda,
+For instance, it is conviently available from Anaconda,
 ```bash
 conda install -c intel mkl
 ```
