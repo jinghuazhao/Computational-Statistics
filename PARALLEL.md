@@ -50,7 +50,16 @@ sinfo 	| reports the state of partitions and nodes managed by Slurm (it has a va
 squeue 	| reports the state of jobs (it has a variety of filtering, sorting, and formatting options), by default, reports the running jobs in priority order followed by the pending jobs in priority order
 srun 	| used to submit a job for execution in real time
 
-e.g., squeue -u $USER -r; qstat -u $USER
+e.g., squeue -u $USER -r; qstat -u $USER; also
+
+* scontrol show config
+* scontrol show partition
+* scontrol show job [jobid]
+* sview
+* saccount -j jobid
+
+* array job, https://slurm.schedmd.com/job_array.html
+
 * dependency, https://hpc.nih.gov/docs/job_dependencies.html
 * examples, https://github.com/statgen/SLURM-examples
 * temporary directories, https://help.rc.ufl.edu/doc/Temporary_Directories
