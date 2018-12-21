@@ -8,8 +8,6 @@ sudo dpkg -i code_1.23.1-1525968403_amd64.deb
 ```
 but it requires `libgconf-2-4`; when failed to install use `sudo apt --fix-broken install`.
 
-## Langudage notes
-
 ### Java
 
 The IDE of choice is NetBeans (e.g., DEPICT and JAM); however 8.1 from `apt install` under Ubuntu 18.04 crashes
