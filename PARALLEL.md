@@ -52,7 +52,7 @@ srun 	| used to submit a job for execution in real time
 
 e.g., squeue -u $USER -r; qstat -u $USER; also scontrol show config; scontrol show partition; scontrol show job [jobid] and sview
 
-* array job, https://slurm.schedmd.com/job_array.html
+* job array, https://slurm.schedmd.com/job_array.html
 * dependency, https://hpc.nih.gov/docs/job_dependencies.html
 * examples, https://github.com/statgen/SLURM-examples
 * temporary directories, https://help.rc.ufl.edu/doc/Temporary_Directories
