@@ -67,11 +67,10 @@ e.g., squeue -u $USER -r; qstat -u $USER; also scontrol show config; scontrol sh
 
 > If a personal Singularity container is used, make sure that the $SINGULARITYENV_TMPDIR variable is set within the job to export the local scratch location into the Singularity container. 
 
-Examples of an interactive session,
+Examples of an interactive session can be simply `sintr`, or
 ```bash
-sintr -N1 -n 1 -c 1 –p all -t 2:0:0
+srun -N1 -n 1 -c 1 -p short -t 2:0:0 --pty bash -i
 ```
-or simply `sintr`.
 
 ## SGE to SLURM
 
