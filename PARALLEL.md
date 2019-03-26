@@ -69,7 +69,7 @@ e.g., squeue -u $USER -r; qstat -u $USER; also scontrol show config; scontrol sh
 
 Examples of an interactive session can be simply `sintr`, or
 ```bash
-srun -N1 -n1 -c1 -p long -t 1-2:0:0 --pty bash -i
+srun -N1 -n1 -c6 -p medium -t 4:0:0 --pty bash -i
 ```
 
 ## SGE to SLURM
