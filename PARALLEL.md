@@ -75,3 +75,49 @@ srun -N1 -n1 -c6 -p medium -t 18:0:0 --pty bash -i
 ## SGE to SLURM
 
 Conversion is documented at https://srcc.stanford.edu/sge-slurm-conversion.
+
+## EXAMPLES
+
+We intended to convert a large number of PDF files (INTERVAL.*.manhattn.pdf) to PNG with smaller file sizes. To start, we build a file list,
+
+```bash
+ls *pdf | \
+sed 's/INTERVAL.//g;s/.manhattan.pdf//g' > INTERVAL.list
+```
+We do this with GNU parallel as follows,
+```bash
+cat INTERVAL.list | \
+parallel -C' ' '
+  echo {}
+  pdftopng -r 300 INTERVAL.{}.manhattan.pdf
+  mv {}-000001.png INTERVAL.{}.png
+'
+```
+or with SLURM,
+```bash
+#!/bin/bash
+
+#SBATCH --ntasks=1
+#SBATCH --job-name=pdftopng
+#SBATCH --time=6:00:00
+#SBATCH --cpus-per-task=8
+#SBATCH --partition=short
+#SBATCH --array=1-50
+#SBATCH --output=work/pdftopng_%A_%a.out
+#SBATCH --error=work/pdftopng_%A_%a.err
+#SBATCH --export ALL
+
+. /etc/profile.d/modules.sh
+module load default-cardio
+module load slurm
+module load use.own
+
+export p=$(awk 'NR==ENVIRON["SLURM_ARRAY_TASK_ID"]' INTERVAL.list)
+export TMPDIR=/scratch/jhz22/tmp
+
+echo ${p}
+pdftopng -r 300 INTERVAL.${p}.manhattan.pdf ${p}
+mv ${p}-000001.png INTERVAL.${p}.png
+
+```
+Note that this is a single parameter case and it is possible to allow for more parameters in both cases.
