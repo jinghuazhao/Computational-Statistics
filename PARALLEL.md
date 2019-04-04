@@ -120,4 +120,6 @@ pdftopng -r 300 INTERVAL.${p}.manhattan.pdf ${p}
 mv ${p}-000001.png INTERVAL.${p}.png
 
 ```
-Note that this is a single parameter case and it is possible to allow for more parameters in both cases.
+This is a single parameter case and it is possible to allow for more parameters in both cases.
+
+Note also that the option `--array=1-50` instructs the system to schedule jobs and in jobs with large memory usage it is more preferable to change to `--array 1-50%4` so that a maximum of four jobs will be run simultaneously.
