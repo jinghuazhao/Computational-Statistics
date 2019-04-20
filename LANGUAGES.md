@@ -98,4 +98,4 @@ pp.close()
 
 ### R
 
-Information on R and RStudio can be seen from https://github.com/jinghuazhao/Computational-Statistics.
+Information on R and RStudio can be seen from installation section of this, https://github.com/jinghuazhao/Computational-Statistics.
