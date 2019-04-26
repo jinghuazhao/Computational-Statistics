@@ -48,6 +48,28 @@ It is installed with
 ```bash
 sudo apt install libboost-all-dev
 ```
+
+To install it manually from source, as for a particular version, https://stackoverflow.com/questions/12578499/how-to-install-boost-on-ubuntu
+```bash
+wget -O boost_1_58_0.tar.gz https://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.tar.gz
+tar xvfz boost_1_58_0.tar.gz
+cd boost_1_58_0
+./bootstrap.sh --prefix=/usr/local
+./b2
+```
+and we can test with example
+```cpp
+#include <iostream>
+#include <boost/array.hpp>
+
+using namespace std;
+int main(){
+  boost::array<int, 4> arr = {{1,2,3,4}};
+  cout << "hi" << arr[0];
+  return 0;
+}
+```
+
 ## --- eigen ---
 
 It is installed with
