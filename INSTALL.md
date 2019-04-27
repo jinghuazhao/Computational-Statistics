@@ -51,7 +51,7 @@ sudo apt install libboost-all-dev
 
 To install it manually from source, as for a particular version, https://stackoverflow.com/questions/12578499/how-to-install-boost-on-ubuntu
 ```bash
-wget -O boost_1_58_0.tar.gz https://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.tar.gz
+wget https://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.tar.gz
 tar xvfz boost_1_58_0.tar.gz
 cd boost_1_58_0
 ./bootstrap.sh --prefix=/usr/local
