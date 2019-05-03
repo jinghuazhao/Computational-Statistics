@@ -54,7 +54,7 @@ To install it manually from source, as for a particular version, https://stackov
 wget https://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.tar.gz
 tar xvfz boost_1_58_0.tar.gz
 cd boost_1_58_0
-./bootstrap.sh --prefix=/usr/local
+./bootstrap.sh
 ./b2
 ```
 With a successful built, the following directory is suggested to be added to compiler include paths:
