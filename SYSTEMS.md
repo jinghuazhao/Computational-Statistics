@@ -58,6 +58,16 @@ set path=%path%;D:/ProgramData/Anaconda2;D:/ProgramData/Anaconda2/Library/bin
 ```
 Miniconda is available from https://conda.io/miniconda.html. 
 
+Installation from scratch,
+```bash
+wget https://repo.anaconda.com/archive/Anaconda2-2019.03-Linux-ppc64le.sh
+sh Anaconda2-2019.03-Linux-ppc64le.sh
+# do not activate at startup
+conda config --set auto_activate_base false
+export PYTHONPATH=/scratch/jhz22/lib/python2.7/site-packages/
+```
+Examine .bashrc for changes.
+
 ## GitHub
 
 See [physalia](https://github.com/jinghuazhao/physalia) for information.
