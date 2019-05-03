@@ -57,6 +57,14 @@ cd boost_1_58_0
 ./bootstrap.sh --prefix=/usr/local
 ./b2
 ```
+With a successful built, the following directory is suggested to be added to compiler include paths:
+
+    boost_1_58_0
+
+The following directory should be added to linker library paths:
+
+    boost_1_58_0/stage/lib
+
 and we can test with example
 ```cpp
 #include <iostream>
