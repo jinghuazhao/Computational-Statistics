@@ -2,6 +2,37 @@
 
 There are multiple routes to install particular software; one may prefer to install them as standable but it may also come handy use mini-environments such as Anaconda, Miniconda, Linuxbrew or those already in system (e.g. Ubuntu) archive.
 
+## Ubuntu
+
+This command identifies version of Ubuntu: `lsb_release -a`.
+
+Releases are available from http://releases.ubuntu.com.
+
+Non-root installation may be necessary, e.g.,
+```bash
+apt download gir1.2-webkit-3.0
+apt -i gir1.2-webkit-3.0_2.4.11-3ubuntu3_amd64.deb --force-not-root --root=$HOME
+```
+Alternatively, we use source package, typically
+```bash
+apt-get source package
+cd package
+./configure --prefix=$HOME
+make
+make install
+```
+To unpack a package, one can do
+```bash
+dpkg -x package.deb dir
+```
+When a package URL is available, we can use wget, ar x, tar xvfz combination to do so.
+
+Its archive, http://archive.ubuntu.com/ubuntu/pool/universe, includes beagle, eigensoft, plink, plink-1.9, among others, which can be installed canonically with ```sudo apt install```.
+
+```bash
+sudo apt-get install libcanberra-gtk3-module
+```
+
 ## Oracle VirtualBox
 
 The guest additions under Fedora 28 is furnished with
@@ -89,37 +120,6 @@ echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >>~/.profile
 echo 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' >>~/.profile
 echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >>~/.profile
 PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-```
-
-## Ubuntu
-
-This command identifies version of Ubuntu: `lsb_release -a`.
-
-Releases are available from http://releases.ubuntu.com.
-
-Non-root installation may be necessary, e.g.,
-```bash
-apt download gir1.2-webkit-3.0
-apt -i gir1.2-webkit-3.0_2.4.11-3ubuntu3_amd64.deb --force-not-root --root=$HOME
-```
-Alternatively, we use source package, typically
-```bash
-apt-get source package
-cd package
-./configure --prefix=$HOME
-make
-make install
-```
-To unpack a package, one can do
-```bash
-dpkg -x package.deb dir
-```
-When a package URL is available, we can use wget, ar x, tar xvfz combination to do so.
-
-Its archive, http://archive.ubuntu.com/ubuntu/pool/universe, includes beagle, eigensoft, plink, plink-1.9, among others, which can be installed canonically with ```sudo apt install```.
-
-```bash
-sudo apt-get install libcanberra-gtk3-module
 ```
 
 ## modules
