@@ -93,6 +93,8 @@ PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
 ## Ubuntu
 
+This command identifies version of Ubuntu: `lsb_release -a`.
+
 Releases are available from http://releases.ubuntu.com.
 
 Its archive, http://archive.ubuntu.com/ubuntu/pool/universe, includes beagle, eigensoft, plink, plink-1.9, among others, which can be installed canonically with ```sudo apt install```.
