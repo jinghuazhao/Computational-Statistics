@@ -97,6 +97,25 @@ This command identifies version of Ubuntu: `lsb_release -a`.
 
 Releases are available from http://releases.ubuntu.com.
 
+Non-root installation may be necessary, e.g.,
+```bash
+apt download gir1.2-webkit-3.0
+apt -i gir1.2-webkit-3.0_2.4.11-3ubuntu3_amd64.deb --force-not-root --root=$HOME
+```
+Alternatively, we use source package, typically
+```bash
+apt-get source package
+cd package
+./configure --prefix=$HOME
+make
+make install
+```
+To unpack a package, one can do
+```bash
+dpkg -x package.deb dir
+```
+When a package URL is available, we can use wget, ar x, tar xvfz combination to do so.
+
 Its archive, http://archive.ubuntu.com/ubuntu/pool/universe, includes beagle, eigensoft, plink, plink-1.9, among others, which can be installed canonically with ```sudo apt install```.
 
 ```bash
