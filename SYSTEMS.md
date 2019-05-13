@@ -4,9 +4,9 @@ There are multiple routes to install particular software; one may prefer to inst
 
 ## Ubuntu
 
-This command identifies version of Ubuntu: `lsb_release -a`.
+Releases are available from http://releases.ubuntu.com and packages are listed at https://packages.ubuntu.com/.
 
-Releases are available from http://releases.ubuntu.com.
+This command identifies version of Ubuntu: `lsb_release -a`.
 
 Non-root installation may be necessary, e.g.,
 ```bash
