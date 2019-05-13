@@ -2,29 +2,29 @@
 
 Name | URLs
 -----|-----------------------------------
-Armedillo | http://arma.sourceforge.net/
-boost | https://www.boost.org/
-eigen | http://eigen.tuxfamily.org
-GNU Octave | https://www.gnu.org/software/octave/
-GSL | https://www.gnu.org/software/gsl/
-LAPACK | http://www.netlib.org/lapack/
-OpenBLAS | https://www.openblas.net/
-netlib-java | https://github.com/fommil/netlib-java
-MKL | https://software.intel.com/en-us/mkl
-Maple | https://www.maplesoft.com/
-Mathematica | https://www.wolfram.com/mathematica/
-MATLAB | https://www.mathworks.com/
-NAG | https://www.nag.co.uk
-Python | https://www.python.org/
-SageMath | http://www.sagemath.org/
-Stata | https://www.stata.com/
-SAS | https://www.sas.com/
-R | https://www.r-project.org/
-Stan | http://mc-stan.org/
-BUGS | https://www.mrc-bsu.cam.ac.uk/software/bugs/
-JAGS | http://mcmc-jags.sourceforge.net/
-OpenBUGS | www.openbugs.net/
-Visual Studio Code | https://code.visualstudio.com/
+[Armedillo](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#Armedillo) | http://arma.sourceforge.net/
+[boost](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#boost) | https://www.boost.org/
+[eigen](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#eigen) | http://eigen.tuxfamily.org
+[GNU Octave](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#GNU-Octave) | https://www.gnu.org/software/octave/
+[GSL](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#GSL) | https://www.gnu.org/software/gsl/
+[LAPACK](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#LAPACK) | http://www.netlib.org/lapack/
+[OpenBLAS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#OpenBLAS) | https://www.openblas.net/
+[netlib-java](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#netlib-java) | https://github.com/fommil/netlib-java
+[MKL](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#MKL) | https://software.intel.com/en-us/mkl
+[Maple](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#maple) | https://www.maplesoft.com/
+[Mathematica](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#Mathematica) | https://www.wolfram.com/mathematica/
+[MATLAB](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#MATLAB) | https://www.mathworks.com/
+[NAG](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#NAG) | https://www.nag.co.uk
+[Python](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#python) | https://www.python.org/
+[SageMath](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#SageMath) | http://www.sagemath.org/
+[Stata](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#Stata) | https://www.stata.com/
+[SAS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#SAS) | https://www.sas.com/
+[R](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#R) | https://www.r-project.org/
+[Stan](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#Stan) | http://mc-stan.org/
+[BUGS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#BUGS) | https://www.mrc-bsu.cam.ac.uk/software/bugs/
+[JAGS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#JAGS) | http://mcmc-jags.sourceforge.net/
+[OpenBUGS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#OpenBUGS) | www.openbugs.net/
+[Visual Studio Code](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#Visual-Studio-Code) | https://code.visualstudio.com/
 
 which serve as backbone for a variety of projects including those in genetics.
 
