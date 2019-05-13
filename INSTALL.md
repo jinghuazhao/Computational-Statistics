@@ -1,5 +1,8 @@
 # Installation notes
 
+This section lists software which serve as backbone for a variety of projects including those in genetics.
+Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher.
+
 Name | URLs
 -----|-----------------------------------
 [Armedillo](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#armadillo) | http://arma.sourceforge.net/
@@ -27,12 +30,6 @@ Name | URLs
 [JAGS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#jags-430) | http://mcmc-jags.sourceforge.net/
 [OpenBUGS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#OpenBUGS) | www.openbugs.net/
 [Visual Studio Code](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#visual-studio-code) | https://code.visualstudio.com/
-
-which serve as backbone for a variety of projects including those in genetics.
-
-# Notes
-
-Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher.
 
 ## Armadillo
 
