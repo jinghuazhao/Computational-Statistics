@@ -1,33 +1,30 @@
 # Installation notes
 
-# List
-
-The list contains the following
-* Armedillo
-* boost
-* eigen
-* GNU Octave
-* GMP/MPFR
-* GSL
-* LAPACK
-  * OpenBLAS
-  * netlib-java
-* MKL
-* Maple
-* Mathematica
-* MATLAB
-* NAG
-* NLopt
-* Python
-* SageMath
-* Stata
-* SAS
-* R
-* Stan
-* BUGS
-* JAGS
-* OpenBUGS
-* Visual Studio Code
+Name | URLs
+-----|-----------------------------------
+Armedillo | http://arma.sourceforge.net/
+boost | https://www.boost.org/
+eigen | http://eigen.tuxfamily.org
+GNU Octave | https://www.gnu.org/software/octave/
+GSL | https://www.gnu.org/software/gsl/
+LAPACK | http://www.netlib.org/lapack/
+OpenBLAS | https://www.openblas.net/
+netlib-java | https://github.com/fommil/netlib-java
+MKL | https://software.intel.com/en-us/mkl
+Maple | https://www.maplesoft.com/
+Mathematica | https://www.wolfram.com/mathematica/
+MATLAB | https://www.mathworks.com/
+NAG | https://www.nag.co.uk
+Python | https://www.python.org/
+SageMath | http://www.sagemath.org/
+Stata | https://www.stata.com/
+SAS | https://www.sas.com/
+R | https://www.r-project.org/
+Stan | http://mc-stan.org/
+BUGS | https://www.mrc-bsu.cam.ac.uk/software/bugs/
+JAGS | http://mcmc-jags.sourceforge.net/
+OpenBUGS | www.openbugs.net/
+Visual Studio Code | https://code.visualstudio.com/
 
 which serve as backbone for a variety of projects including those in genetics.
 
@@ -35,14 +32,14 @@ which serve as backbone for a variety of projects including those in genetics.
 
 Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher.
 
-## --- Armadillo ---
+## Armadillo
 
 It is available with
 ```bash
 sudo apt install libarmadillo-dev
 ```
 
-## --- boost ---
+## boost
 
 It is installed with
 ```bash
@@ -79,13 +76,13 @@ int main(){
 }
 ```
 
-## --- eigen ---
+## eigen
 
 It is installed with
 ```bash
 sudo apt install libeigen3-dev
 ```
-## --- GMP/MPFR ---
+## GMP/MPFR
 
 One can start usual from https://gmplib.org/ and https://www.mpfr.org/.
 ```bash
@@ -100,13 +97,13 @@ make check
 ```
 for instance.
 
-## --- GSL ---
+## GSL
 
 ```bash
 sudo apt install libgsl-dev
 ```
 
-## --- JAGS-4.3.0 ---
+## JAGS-4.3.0
 
 These are required at least under Federa 28,
 ```bash
@@ -193,7 +190,7 @@ R CMD INSTALL runjags_2.0.4-2.tar.gz --configure-args='
 ```
 but somehow runjags is always points to lib64 for libjags.so, so when libjags.so is in lib instead it is necessary to create symbolic links from lib64.
 
-## --- BLAS and LAPACK ---
+## BLAS and LAPACK
 
 The pre-built version is straightforward for Fedora with
 ```bash
@@ -224,7 +221,7 @@ make
 make install
 ```
 
-## --- MKL ---
+## MKL
 
 One can consult [Intel® Math Kernel Library Link Line Advisor](https://software.intel.com/en-us/articles/intel-mkl-link-line-advisor) and [Free access to Intel® Compilers, Performance libraries, Analysis tools and more...](https://software.intel.com/en-us/articles/free-ipsxe-tools-and-libraries).
 
@@ -245,26 +242,26 @@ make
 make install
 ```
 
-## --- NLopt ---
+## NLopt
 
 Available from https://nlopt.readthedocs.io/en/latest/ with R counterpart from https://cran.r-project.org/web/packages/nloptr/index.html.
 
-## --- GNU Octave ---
+## GNU Octave
 
 It is available with,
 ```bash
 sudo apt install octave
 ```
 
-## --- python ---
+## python
 
 It is possible to conduct survival analysis with [lifelines](https://lifelines.readthedocs.io/en/latest/index.html),
 ```bash
 pip install lifelines
 ```
-## --- R ---
+## R
 
-### Fedora 28
+Fedora 28
 
 The R-release is built as follows,
 ```bash
@@ -461,41 +458,12 @@ However, compile error is still persistent except when dropping the option `--ex
 
 It is therefore recommended to get around with RStudio daily builds, https://dailies.rstudio.com/.
 
-## --- SageMath ---
+## SageMath
 
 ```bash
 sudo apt install sagemath
 ```
 
-## --- stan ---
+## stan
 
 cmdstan is now available from https://github.com/stan-dev/cmdstan along with other repositories there. Interfaces are listed at http://mc-stan.org/users/interfaces/index.html.
-
-
-# URLs
-
-Name | URLs
------|-----------------------------------
-Armedillo | http://arma.sourceforge.net/
-boost | https://www.boost.org/
-eigen | http://eigen.tuxfamily.org
-GNU Octave | https://www.gnu.org/software/octave/
-GSL | https://www.gnu.org/software/gsl/
-LAPACK | http://www.netlib.org/lapack/
-OpenBLAS | https://www.openblas.net/
-netlib-java | https://github.com/fommil/netlib-java
-MKL | https://software.intel.com/en-us/mkl
-Maple | https://www.maplesoft.com/
-Mathematica | https://www.wolfram.com/mathematica/
-MATLAB | https://www.mathworks.com/
-NAG | https://www.nag.co.uk
-Python | https://www.python.org/
-SageMath | http://www.sagemath.org/
-Stata | https://www.stata.com/
-SAS | https://www.sas.com/
-R | https://www.r-project.org/
-Stan | http://mc-stan.org/
-BUGS | https://www.mrc-bsu.cam.ac.uk/software/bugs/
-JAGS | http://mcmc-jags.sourceforge.net/
-OpenBUGS | www.openbugs.net/
-Visual Studio Code | https://code.visualstudio.com/
