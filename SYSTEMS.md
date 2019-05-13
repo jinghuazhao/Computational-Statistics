@@ -25,7 +25,7 @@ To unpack a package, one can do
 ```bash
 dpkg -x package.deb dir
 ```
-When a package URL is available, we can use wget, ar x, tar xvfz combination to do so.
+When a package URL is available, we can use wget, ar x, xz -d, tar xvf combination to do so.
 
 Its archive, http://archive.ubuntu.com/ubuntu/pool/universe, includes beagle, eigensoft, plink, plink-1.9, among others, which can be installed canonically with ```sudo apt install```.
 
