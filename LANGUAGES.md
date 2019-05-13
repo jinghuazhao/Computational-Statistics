@@ -33,6 +33,13 @@ for instance, as used in [VEP](../VEP).
 
 ### Python
 
+To disable upgrade of pip, add 
+```config
+[global]
+disable-pip-version-check = True
+```
+option to `$HOME/.config/pip/pip.conf`
+
 To install a particular version of package, e.g.,
 ```bash
 sudo -H pip install pandas==0.20.1
