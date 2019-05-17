@@ -102,6 +102,12 @@ f = plotGraph()
 pp.savefig(f)
 pp.close()
 ```
+To install jupyter-book,
+```bash
+module load python/2.7.10
+python -m pip install jupyter-book --user
+```
+and we can check for $HOME/.local/lib/python2.7/site-packages
 
 ### R
 
