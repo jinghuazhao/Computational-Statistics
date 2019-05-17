@@ -107,7 +107,10 @@ To install jupyter-book,
 module load python/2.7.10
 python -m pip install jupyter-book --user
 ```
-and we can check for $HOME/.local/lib/python2.7/site-packages
+and we can check for $HOME/.local/lib/python2.7/site-packages and start from /home/jhz22/.local/bin. We can install notebook similarly.
+```bash
+python -m pip install notebook --user
+```
 
 ### R
 
