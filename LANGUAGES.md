@@ -114,7 +114,7 @@ python -m pip install notebook --user
 Owing to recent changes, it is more appropriate to use python3
 ```bash
 module load python/3.5.1
-export PYTHONPATH=/usr/local/Cluster-Apps/python/3.5.1/lib/python3.5/site-packages:/home/jhz22/.local/lib/python3.4/site-packages
+export PYTHONPATH=/usr/local/Cluster-Apps/python/3.5.1/lib/python3.5/site-packages:/home/jhz22/.local/lib/python3.5/site-packages
 python3 -m pip install jupyter-book --user
 ```
 
