@@ -9,8 +9,6 @@ a.k.a Literate programming.
 * [Pweave](http://mpastell.com/pweave/).
 * [Sweave](https://www.rdocumentation.org/packages/utils/versions/3.6.0/topics/Sweave).
 
-An attempt to model reproducibility is here,
-
-* Conceptualizing Reproducibility Using Simulations and Theory ([CRUST](https://github.com/gnardin/CRUST)).
+An attempt to model reproducibility is Conceptualizing Reproducibility Using Simulations and Theory ([CRUST](https://github.com/gnardin/CRUST)).
 
 > Devezer B, Nardin LG, Baumgaertner B, Buzbas EO. Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity. PLoS One. 2019 May 15;14(5):e0216125. doi: 10.1371/journal.pone.0216125. eCollection 2019.
