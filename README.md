@@ -10,3 +10,4 @@ As yet this repository covers these aspects:
 2. [Language notes](LANGUAGES.md)
 3. [Parallel computing](PARALLEL.md)
 4. [System notes](SYSTEMS.md)
+5. [Reproducibility](REPRODUCE.md)
