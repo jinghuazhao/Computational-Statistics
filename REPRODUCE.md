@@ -6,8 +6,8 @@ a.k.a Literate programming.
 * [CWEB](https://www-cs-faculty.stanford.edu/~knuth/cweb.html).
 * [knitr](https://github.com/yihui/knitr).
 * [noweb](https://github.com/nrnrnr/noweb) abd its [Tufs site](https://www.cs.tufts.edu/~nr/noweb/).
-* [Pweave](http://mpastell.com/pweave/).
-* [Sweave](https://www.rdocumentation.org/packages/utils/versions/3.6.0/topics/Sweave).
+* [Pweave and ptangle](http://mpastell.com/pweave/).
+* [Sweave and Stangle](https://www.rdocumentation.org/packages/utils/versions/3.6.0/topics/Sweave).
 
 An attempt to model reproducibility is Conceptualizing Reproducibility Using Simulations and Theory ([CRUST](https://github.com/gnardin/CRUST)).
 
