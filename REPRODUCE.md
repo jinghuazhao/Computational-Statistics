@@ -1,4 +1,6 @@
-# Reproducibility
+# Reproducible research
+
+a.k.a Literate programming.
 
 * [bookdown](https://github.com/rstudio/bookdown).
 * [CWEB](https://www-cs-faculty.stanford.edu/~knuth/cweb.html).
