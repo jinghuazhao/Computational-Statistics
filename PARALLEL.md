@@ -74,8 +74,9 @@ scontrol show config | sed -n '/^MaxArraySize/s/.*= *//p'
 
 Examples of an interactive session can be simply `sintr`, or
 ```bash
-srun -N1 -n1 -c6 -p medium -t 18:0:0 --pty bash -i
+srun -N1 -n1 -c6 -p short,medium,long -t 12:0:0 --pty bash -i
 ```
+so that the earliest available partition will be used.
 
 ## SGE to SLURM
 
