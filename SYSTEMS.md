@@ -37,6 +37,7 @@ sudo apt-get install libcanberra-gtk3-module
 
 The guest additions under Fedora 28 is furnished with
 ```bash
+sudo dnf update
 sudo dnf install gcc kernel-devel kernel-headers dkms make bzip2 perl
 cd /run/media/jhz22/VBox_GAs_5.2.12/
 sudo ./VBoxLinuxAdditions.run
