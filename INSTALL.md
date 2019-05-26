@@ -124,6 +124,23 @@ make
 make install
 ```
 
+It turns out the easiest to install rjags package is to download it and work manually, e.g.,
+```bash
+R --no-save <<END
+  download.packages("rjags",".")
+END
+tar xvfz rjags_4-8.tar.gz
+cd rjags
+rm configure
+cd src
+(
+  echo CPP_FLAGS=-I/usr/local/include/JAGS
+  echo LDFLAGS=-L/usr/local/lib
+) > Makevars
+cd ../..
+R CMD INSTALL rjags
+```
+
 The rjags package can be installed as follows,
 ```bash
 export PKG_CONFIG_PATH=/scratch/jhz22/lib/pkgconfig
