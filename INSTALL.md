@@ -295,6 +295,7 @@ sudo dnf install libcurl-devel
 sudo dnf install libX11 libX11-devel libXt libXt-devel
 sudo dnf install bzip2-devel
 sudo dnf install xz-devel
+sudo dnf install pandoc
 sudo dnf install texlive-collection-latex
 sudo dnf install texlive-collection-fontsextra
 sudo dnf install texinfo-tex
