@@ -2,11 +2,11 @@
 
 There are multiple routes to install particular software; one may prefer to install them as standable but it may also come handy use mini-environments such as Anaconda, Miniconda, Linuxbrew or those already in system (e.g. Ubuntu) archive.
 
+To find out information on the system: `lsb_release -a`. Under Fedora, you may be prompted to install package `redhat-lsb-core`. Related commands are `uname -a` and `lscpu`.
+
 ## Ubuntu
 
 Releases are available from http://releases.ubuntu.com and packages are listed at https://packages.ubuntu.com/.
-
-This command identifies version of Ubuntu: `lsb_release -a`.
 
 Non-root installation may be necessary, e.g.,
 ```bash
