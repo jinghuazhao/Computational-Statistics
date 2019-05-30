@@ -276,7 +276,7 @@ pip install lifelines
 ```
 ## R
 
-Fedora 28
+### Fedora 28
 
 The R-release is built as follows,
 ```bash
