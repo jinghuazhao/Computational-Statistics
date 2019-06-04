@@ -314,10 +314,10 @@ R-devel CMD check --as-cran gap_1.1-22.tar.gz
 
 For check with R-devel, these can be used explicitly,
 ```bash
-R-devel CMD check --configure-args=" \
- CC=/usr/bin/gcc \
- CXX=/usr/g++ \
- FC=/usr/bin/gfortran \
+R-devel CMD check --configure-args="\
+ CC=\"/usr/bin/gcc\" \
+ CXX=\"/usr/bin/g++\" \
+ FC=\"/usr/bin/gfortran\" \
  CFLAGS=\"-g -O2 -Wall -pedantic -mtune=native\" \
  FFLAGS=\"-g -O2 -mtune=native -Wall -pedantic\" \
  CXXFLAGS=\"-g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses\" \
