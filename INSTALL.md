@@ -314,7 +314,7 @@ R-devel CMD check --as-cran gap_1.1-22.tar.gz
 
 For check with R-devel, these can be used explicitly,
 ```bash
-R-devel CMD INSTALL --configure-args="\
+R-devel CMD INSTALL --configure-args="
  CC=\"/usr/bin/gcc\" \
  CXX=\"/usr/bin/g++\" \
  FC=\"/usr/bin/gfortran\" \
