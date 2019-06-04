@@ -321,7 +321,7 @@ R-devel CMD check --configure-args="\
  CFLAGS=\"-g -O2 -Wall -pedantic -mtune=native\" \
  FFLAGS=\"-g -O2 -mtune=native -Wall -pedantic\" \
  CXXFLAGS=\"-g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses\" \
- LDFLAGS=\"-L/usr/lib64 -L/usr/lib64" gap_1.1-26.tar.gz
+ LDFLAGS=\"-L/usr/lib64 -L/usr/lib64\"" gap_1.1-26.tar.gz
  ```
 which is more restrictive than the default --as-cran above.
 
