@@ -321,8 +321,9 @@ export CFLAGS="-g -O2 -Wall -pedantic -mtune=native"
 export FFLAGS="-g -O2 -mtune=native -Wall -pedantic"
 export CXXFLAGS="-g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses"
 export LDFLAGS="-L/usr/lib64 -L/usr/lib64"
+R-devel CMD INSTALL gap_1.2.tar.gz
 ```
-with configure and
+with check on foreign language calls or
 ```bash
 R-devel CMD INSTALL --configure-args="
  CC=\"/usr/bin/gcc\" \
