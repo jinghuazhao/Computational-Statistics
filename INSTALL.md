@@ -312,7 +312,17 @@ ln -s $HOME/R/R-devel/bin/R $HOME/bin/R-devel
 R-devel CMD check --as-cran gap_1.1-22.tar.gz
 ```
 
-For check with R-devel, these can be used explicitly,
+For R-devel, these can be used explicitly,
+```bash
+export CC="/usr/bin/gcc"
+export CXX="/usr/bin/g++"
+export FC="/usr/bin/gfortran"
+export CFLAGS="-g -O2 -Wall -pedantic -mtune=native"
+export FFLAGS="-g -O2 -mtune=native -Wall -pedantic"
+export CXXFLAGS="-g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses"
+export LDFLAGS="-L/usr/lib64 -L/usr/lib64"
+```
+with configure and
 ```bash
 R-devel CMD INSTALL --configure-args="
  CC=\"/usr/bin/gcc\" \
