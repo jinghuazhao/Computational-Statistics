@@ -8,6 +8,10 @@ sudo dpkg -i code_1.23.1-1525968403_amd64.deb
 ```
 but it requires `libgconf-2-4`; when failed to install use `sudo apt --fix-broken install`.
 
+### Fortran
+
+Information on modernising Fortran could be very useful in foreign language calls (e.g., R), http://fortranwiki.org/fortran/show/Modernizing+Old+Fortran.
+
 ### Java
 
 The IDE of choice is NetBeans (e.g., DEPICT and JAM); however 8.1 from `apt install` under Ubuntu 18.04 crashes
