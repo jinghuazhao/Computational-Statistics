@@ -131,7 +131,7 @@ PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
 ## AWS
 
-[he Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws).
+[The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws).
 
 ## modules
 
