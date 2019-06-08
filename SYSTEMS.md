@@ -129,6 +129,10 @@ echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >>~/.pr
 PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 ```
 
+## AWS
+
+[he Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws).
+
 ## modules
 
 It is a system that allows you to easily change between different versions of compilers and other software.
