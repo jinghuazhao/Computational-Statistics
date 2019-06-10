@@ -2,7 +2,7 @@
 
 There are multiple routes to install particular software; one may prefer to install them as standable but it may also come handy use mini-environments such as Anaconda, Miniconda, Linuxbrew or those already in system (e.g. Ubuntu) archive.
 
-A rich source of tips is [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line).
+A rich source of tips are in [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) and [awesome-shell](https://github.com/alebcay/awesome-shell).
 
 The LSB (Linux Standard Base) and distribution information is given with
 ```bash
