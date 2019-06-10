@@ -270,6 +270,8 @@ sudo apt install octave
 
 ## python
 
+A useful resource is code from [Pattern Recognition and Machine Learning](https://github.com/ctgk/PRML).
+
 It is possible to conduct survival analysis with [lifelines](https://lifelines.readthedocs.io/en/latest/index.html),
 ```bash
 pip install lifelines
