@@ -410,6 +410,13 @@ install.packages("ggplot2",INSTALL_opts="--library=/usr/local/lib/R/site-library
 source("https://bioconductor.org/biocLite.R")
 biocLite("packagename")
 ```
+Currently, R 3.6.0 has resorted to BiocManager,
+```r
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install()
+```
+
 **GitHub**. We could set this up via `sudo apt install r-cran-devtools`. This is then through `devtools::install_github()`.
 ```r
 library(devtools)
