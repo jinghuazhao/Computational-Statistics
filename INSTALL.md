@@ -518,3 +518,25 @@ sudo apt install sagemath
 ## stan
 
 cmdstan is now available from https://github.com/stan-dev/cmdstan along with other repositories there. Interfaces are listed at http://mc-stan.org/users/interfaces/index.html.
+
+Information on installing RStan is described here,
+
+https://github.com/stan-dev/rstan/wiki/Installing-RStan-on-Linux
+
+On our HPC system under gcc 4.8.5 there are error message
+```
+> library(rstan)
+Loading required package: ggplot2
+Registered S3 methods overwritten by 'ggplot2':
+  method         from
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+Loading required package: StanHeaders
+Error: package or namespace load failed for ‘rstan’ in dyn.load(file, DLLpath = DLLpath, ...):
+ unable to load shared object '/rds-d4/user/jhz22/hpc-work/R/rstan/libs/rstan.so':
+  /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /rds-d4/user/jhz22/hpc-work/R/rstan/libs/rstan.so)
+> q()
+
+```
+which can be resolved with `module load gcc/5.2.0` before invoking R.
