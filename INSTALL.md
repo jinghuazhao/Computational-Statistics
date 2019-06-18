@@ -410,7 +410,7 @@ install.packages("ggplot2",INSTALL_opts="--library=/usr/local/lib/R/site-library
 source("https://bioconductor.org/biocLite.R")
 biocLite("packagename")
 ```
-Currently, R 3.6.0 has resorted to BiocManager,
+From R 3.5 or greater there is BiocManager,
 ```r
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
