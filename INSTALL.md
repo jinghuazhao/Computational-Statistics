@@ -29,6 +29,7 @@ Name | URLs
 [BUGS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#bugs) | https://www.mrc-bsu.cam.ac.uk/software/bugs/
 [JAGS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#jags-430) | http://mcmc-jags.sourceforge.net/
 [OpenBUGS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#OpenBUGS) | www.openbugs.net/
+[unixODBC]((https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#unixODBC) | http://www.unixodbc.org/
 
 ## Armadillo
 
@@ -540,3 +541,15 @@ Error: package or namespace load failed for ‘rstan’ in dyn.load(file, DLLpat
 
 ```
 which can be resolved with `module load gcc/5.2.0` before invoking R.
+
+## unixODBC
+
+It is quite standard to install, i.e.,
+```bash
+wget ftp://ftp.unixodbc.org/pub/unixODBC/unixODBC-2.3.7.tar.gz
+tar xvfz unixODBC-2.3.7.tar.gz
+cd unixODBC-2.3.7
+./configure --prefix=/scratch/jhz22
+make
+make install
+```
