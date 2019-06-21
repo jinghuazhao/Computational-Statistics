@@ -29,7 +29,7 @@ Name | URLs
 [BUGS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#bugs) | https://www.mrc-bsu.cam.ac.uk/software/bugs/
 [JAGS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#jags-430) | http://mcmc-jags.sourceforge.net/
 [OpenBUGS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#OpenBUGS) | www.openbugs.net/
-[unixODBC]((https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#unixODBC) | http://www.unixodbc.org/
+[unixODBC](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#unixODBC) | http://www.unixodbc.org/
 
 ## Armadillo
 
