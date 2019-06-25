@@ -553,3 +553,15 @@ cd unixODBC-2.3.7
 make
 make install
 ```
+There have been many discussions regarding "C++11 standard requested but CXX11 is not defined" and this could be fixed with changes to
+$R_HOME/etc/Makeconf such that 
+```
+CXX11 = g++ -std=c++11 -fPIC
+```
+then
+
+```bash
+module load gcc/5.2.0
+R CMD INSTALL odbc
+```
+This is necessary for `gtx` for instance. 
