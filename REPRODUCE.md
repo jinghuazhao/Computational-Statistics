@@ -5,7 +5,7 @@ a.k.a Literate programming.
 * [bookdown](https://github.com/rstudio/bookdown).
 * [CWEB](https://www-cs-faculty.stanford.edu/~knuth/cweb.html).
 * [knitr](https://github.com/yihui/knitr).
-* [noweb](https://github.com/nrnrnr/noweb) abd its [Tufs site](https://www.cs.tufts.edu/~nr/noweb/).
+* [noweb](https://github.com/nrnrnr/noweb) abd its [Tufts site](https://www.cs.tufts.edu/~nr/noweb/).
 * [Pweave and ptangle](http://mpastell.com/pweave/).
 * [Sweave and Stangle](https://www.rdocumentation.org/packages/utils/versions/3.6.0/topics/Sweave).
 
