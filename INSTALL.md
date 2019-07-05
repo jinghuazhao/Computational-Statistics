@@ -8,7 +8,7 @@ Name | URLs
 [Armedillo](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#armadillo) | http://arma.sourceforge.net/
 [boost](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#boost) | https://www.boost.org/
 [eigen](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#eigen) | http://eigen.tuxfamily.org
-[GMP/MPFR](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#gmpmpfr) |
+[GMP/MPFR](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#gmpmpfr) | https://gmplib.org/, https://www.mpfr.org/
 [GNU Octave](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#gnu-octave) | https://www.gnu.org/software/octave/
 [GSL](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#GSL) | https://www.gnu.org/software/gsl/
 [LAPACK](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#blas-and-lapack) | http://www.netlib.org/lapack/
