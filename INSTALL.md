@@ -416,8 +416,8 @@ From R 3.5 or greater there is BiocManager,
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install()
-``
-See`https://bioconductor.org/install/.
+```
+See https://bioconductor.org/install/.
 
 **GitHub**. We could set this up via `sudo apt install r-cran-devtools`. This is then through `devtools::install_github()`.
 ```r
