@@ -1,4 +1,21 @@
-# System notes
+This is a skeleton to list items to be detailed in the near future.
+
+## Contents
+
+---
+
+* [Ubuntu](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#ubuntu)
+* [Oracle VirtualBox](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#oracle-virtualbox)
+* [Anaconda](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#anaconda)
+* [GitHub](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#github)
+* [Mercurial](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#mercurial)
+* [Linuxbrew](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#linuxbrew)
+* [AWS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#aws)
+* [modules](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#modules)
+* [docker](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#docker)
+* [OpenVPN](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#openvpn)
+
+---
 
 There are multiple routes to install particular software; one may prefer to install them as standable but it may also come handy use mini-environments such as Anaconda, Miniconda, Linuxbrew or those already in system (e.g. Ubuntu) archive.
 
@@ -110,7 +127,9 @@ Examine .bashrc for changes.
 
 See [physalia](https://github.com/jinghuazhao/physalia) for information.
 
-## hg
+## mercurial
+
+This is associated with the familiar `hg` command as used for instance by `qctool`.
 
 It is the executable file for Mercurial source code management system,
 ```bash
