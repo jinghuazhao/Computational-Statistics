@@ -337,7 +337,17 @@ R-devel CMD INSTALL --configure-args="
  CXXFLAGS=\"-g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses\" \
  LDFLAGS=\"-L/usr/lib64 -L/usr/lib64\"" gap_1.1-26.tar.gz
  ```
-which is more restrictive than the default --as-cran above.
+which is more restrictive than the default --as-cran above. A simpler setup is also possible with `~/.R/Makevars`, e.g.,
+```bash
+CC = gcc
+CXX = g++
+CXX11 = g++
+FC = gfortran
+F77 = gfortran
+F90 = gfortran
+CFLAGS = -std=c99
+CXXFLAGS = -std=c++11
+```
 
 ### Ubuntu 18.04
 
