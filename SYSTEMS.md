@@ -175,3 +175,8 @@ See [https://www.docker.com/](https://www.docker.com/).
 ## OpenVPN
 
 See [https://github.com/OpenVPN/openvpn-gui](https://github.com/OpenVPN/openvpn-gui).
+
+Usage example:
+```bash
+sudo openvpn --config myconfig.vopn
+```
