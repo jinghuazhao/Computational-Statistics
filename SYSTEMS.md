@@ -6,6 +6,7 @@ This is a skeleton to list items to be detailed in the near future.
 
 * [Ubuntu](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#ubuntu)
 * [Oracle VirtualBox](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#oracle-virtualbox)
+* [Windows Subsystem for Linux](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#WSL)
 * [Anaconda](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#anaconda)
 * [GitHub](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#github)
 * [Mercurial](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#mercurial)
@@ -87,6 +88,26 @@ VBoxManage modifyhd --compact "ubuntu18.04.vdi"
 [vdi.md](https://github.com/jinghuazhao/GDCT/blob/master/vdi.md) as in GWAS-2017 and now listed in [GDCT](https://github.com/jinghuazhao/GDCT)
 
 Since one may allocate only part of RAM to VirtualBox, it is often necessary to run program under MS-DOS, e.g., sections on DEPICT.
+
+## WSL
+
+It is very easy to work with mobaXterm. When started, create a session for WSL which directs you to Windows Apps store. Obtain Ubutun, and install.
+```bash
+sudo apt update
+sudo apt install nautilus
+sudo apt install firefox
+```
+etc. By default C:\ is /mht/c. To establish other drives, one can do
+```bash
+sudo mkdir /mnt/d
+sudo mount -t drvfs D: /mnt/d
+sudo unmount /mnt/d
+```
+It is also possible to map network drive, it is sufficient to do so
+```bash
+sudo mkdir /mnt/u
+sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
+```
 
 ## Anaconda
 
