@@ -103,7 +103,7 @@ sudo mkdir /mnt/d
 sudo mount -t drvfs D: /mnt/d
 sudo umount /mnt/d
 ```
-It is also possible to map network drive, it is sufficient to do so
+It is also possible to map network drive, e.g.,
 ```bash
 sudo mkdir /mnt/u
 sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
