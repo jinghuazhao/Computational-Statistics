@@ -101,7 +101,7 @@ etc. By default C:\ is /mnt/c. To establish other drives, one can do
 ```bash
 sudo mkdir /mnt/d
 sudo mount -t drvfs D: /mnt/d
-sudo unmount /mnt/d
+sudo umount /mnt/d
 ```
 It is also possible to map network drive, it is sufficient to do so
 ```bash
