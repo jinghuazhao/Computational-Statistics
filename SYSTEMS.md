@@ -97,7 +97,7 @@ sudo apt update
 sudo apt install nautilus
 sudo apt install firefox
 ```
-etc. By default C:\ is /mht/c. To establish other drives, one can do
+etc. By default C:\ is /mnt/c. To establish other drives, one can do
 ```bash
 sudo mkdir /mnt/d
 sudo mount -t drvfs D: /mnt/d
