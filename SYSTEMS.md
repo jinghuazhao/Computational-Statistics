@@ -59,6 +59,8 @@ sudo apt-get install libcanberra-gtk3-module
 
 ## Oracle VirtualBox
 
+To use VirtualBox under Windows 7, one needs to enable virtualisation within security section of BIOS setup.
+
 The guest additions under Fedora 28 is furnished with
 ```bash
 sudo dnf update
