@@ -59,7 +59,10 @@ sudo apt-get install libcanberra-gtk3-module
 
 ## Oracle VirtualBox
 
-To use VirtualBox under Windows 7, one needs to enable virtualisation within security section of BIOS setup.
+To use VirtualBox under Windows 7, one needs to enable virtualisation within security section of BIOS setup. To find out system info, one can run
+```
+systeminfo
+```
 
 A useful tip is from https://blog.csdn.net/xz360717118/article/details/67638548
 ```
