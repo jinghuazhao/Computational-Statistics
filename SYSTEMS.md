@@ -87,7 +87,7 @@ InprocServer32  修改 第一行（默认）的值为 C:\Windows\system32\oleaut
 
 4，完事。（我修改了完了 也没试用，直接重启电脑 然后成功了）
 ```
-After Step 4 finishes, there is no need to reboot Windows.
+Actually, there is no need to reboot Windows at Step 4.
 
 The guest additions under Fedora 28 is furnished with
 ```bash
