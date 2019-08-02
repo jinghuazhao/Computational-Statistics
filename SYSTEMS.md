@@ -61,6 +61,30 @@ sudo apt-get install libcanberra-gtk3-module
 
 To use VirtualBox under Windows 7, one needs to enable virtualisation within security section of BIOS setup.
 
+A useful tip is from https://blog.csdn.net/xz360717118/article/details/67638548
+```
+Failed to instantiate CLSID_VirtualBox w/ IVirtualBox, but CLSID_VirtualBox w/ IUnknown works.
+2017年03月28日 16:50:30 一只猪儿虫 阅读数 17551 标签： virtualbox win7 更多
+个人分类： 服务器
+版权声明：本文为博主原创文章，未经博主允许不得转载。 https://blog.csdn.net/xz360717118/article/details/67638548
+
+我是 win7 64位
+
+解决办法：
+
+1， win+r 快捷键打开 “运行”，输入regedit 打开注册表
+
+
+2，找到 HKEY_CLASSES_ROOT\CLSID\{00020420-0000-0000-C000-000000000046}
+InprocServer32 修改 第一行（默认）的值为 C:\Windows\system32\oleaut32.dll
+
+
+3，找到HKEY_CLASSES_ROOT\CLSID\{00020424-0000-0000-C000-000000000046}
+InprocServer32  修改 第一行（默认）的值为 C:\Windows\system32\oleaut32.dll
+
+4，完事。（我修改了完了 也没试用，直接重启电脑 然后成功了）
+```
+
 The guest additions under Fedora 28 is furnished with
 ```bash
 sudo dnf update
