@@ -91,7 +91,7 @@ Since one may allocate only part of RAM to VirtualBox, it is often necessary to 
 
 ## WSL
 
-It is very easy to work with mobaXterm. When started, create a session for WSL which directs you to Windows Apps store. Obtain Ubutun, and install.
+It is very easy to work with mobaXterm. When started, create a session for WSL which directs you to Windows Apps store. Obtain Ubuntu, and install.
 ```bash
 sudo apt update
 sudo apt install nautilus
