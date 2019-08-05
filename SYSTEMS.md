@@ -138,7 +138,7 @@ It is also possible to map network drive, e.g.,
 sudo mkdir /mnt/u
 sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 ```
-See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.
+One can install gnome desktop by `sudo apt install ubuntu-gnome-desktop`. See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.
 
 ## Anaconda
 
