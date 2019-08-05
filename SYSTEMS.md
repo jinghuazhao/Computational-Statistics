@@ -56,6 +56,8 @@ Its archive, http://archive.ubuntu.com/ubuntu/pool/universe, includes beagle, ei
 ```bash
 sudo apt-get install libcanberra-gtk3-module
 ```
+It is useful to use `sudo apt install tasksel`, then one can use `sudo tasksel`.
+
 
 ## Oracle VirtualBox
 
