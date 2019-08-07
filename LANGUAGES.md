@@ -129,7 +129,7 @@ python3 -m pip install jupyter-book --user
 Information on R and RStudio can be seen from installation section of this, https://github.com/jinghuazhao/Computational-Statistics.
 
 The use of double-byte characters needs specific handling, e.g.,
-``bash
+```bash
 # on Bash
 iconv myfile -f UTF-8 -t ISO-8859-1 -c
 ```
