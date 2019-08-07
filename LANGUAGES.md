@@ -127,3 +127,16 @@ python3 -m pip install jupyter-book --user
 ### R
 
 Information on R and RStudio can be seen from installation section of this, https://github.com/jinghuazhao/Computational-Statistics.
+
+The use of double-byte characters needs specific handling, e.g.,
+``bash
+# on Bash
+iconv myfile -f UTF-8 -t ISO-8859-1 -c
+```
+and
+```r
+# in R
+Sys.setlocale("LC_ALL", "C")
+```
+# https://stackoverflow.com/questions/4993837/r-invalid-multibyte-string
+
