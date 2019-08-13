@@ -35,6 +35,11 @@ Otherwise for a consecutive sequence we use qdel {id1..id2}.
 
 ## SLURM
 
+Under Ubuntu, it can be installed with
+```bash
+sudo apt install slurm-client
+```
+
 General information is available from https://slurm.schedmd.com/.
 
 A list of commands and their descriptions, http://www.arc.ox.ac.uk/content/slurm-job-scheduler
