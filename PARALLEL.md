@@ -19,7 +19,7 @@ if
 ```bash
 module load parallel/20131222
 ```
-The lastest, http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2, can be used instead.
+The latest, http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2, can be used instead.
 
 ## SGE
 
