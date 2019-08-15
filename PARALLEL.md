@@ -42,7 +42,7 @@ sudo apt install slurm-client
 
 General information is available from https://slurm.schedmd.com/.
 
-A list of commands and their descriptions, http://www.arc.ox.ac.uk/content/slurm-job-scheduler
+Job scheduling examples on CentOS 6 and RHEL 7, https://www.arc.ox.ac.uk/arc-systems-0.
 
 command | description
 --------|-------------
