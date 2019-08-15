@@ -1,11 +1,5 @@
 # Parallel computing
 
-# LIST
-
-* GNU Parallel
-* SGE
-* SLURM
-
 ## GNU parallel
 
 It has home https://www.gnu.org/software/parallel/ -- note especially with its --env to pass environment variables.
