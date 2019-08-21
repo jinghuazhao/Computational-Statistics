@@ -124,7 +124,18 @@ LDFLAGS="-L/scratch/jhz22/lib64" ./configure --prefix=/scratch/jhz22 --with-blas
 make
 make install
 ```
+Under MKL, we have
+```bash
+#22-7-2014 MRC-Epid JHZ
 
+export MKL_NUM_THREAD=15
+export MKL=/home/jhz22/intel/composer_xe_2013.4.183/mkl
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$MKLROOT/lib/intel64
+/genetics/data/software/intel/composer_xe_2013.4.183/mkl/bin/mklvars.sh intel64
+./configure --prefix=/home/jhz22 --disable-shared --with-lapack \
+--with-blas="-fopenmp -m64 -I$MKL/include -L$MKL/lib/intel64 -lmkl_gf_lp64 -lmkl_gnu_thread -lmkl_core -lpthread -lm"
+make
+```
 It turns out the easiest to install rjags package is to download it and work manually, e.g.,
 ```bash
 R --no-save <<END
@@ -141,8 +152,7 @@ cd src
 cd ../..
 R CMD INSTALL rjags
 ```
-
-The rjags package can be installed as follows,
+The rjags package can also be installed as follows,
 ```bash
 export PKG_CONFIG_PATH=/scratch/jhz22/lib/pkgconfig
 
@@ -257,7 +267,20 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$MKLROOT/lib/intel64
 make
 make install
 ```
-
+and
+```bash
+# https://software.intel.com/en-us/articles/build-r-301-with-intel-c-compiler-and-intel-mkl-on-linux#
+export ICC_OPT="-mkl -xHOST -fp-model strict"
+export CC="icc $ICC_OPT"
+export CXX="icpc $ICC_OPT"
+export FC="ifort -mkl -xHOST"
+export F77="ifort -mkl -xHOST"
+export FPICFLAGS=" -fPIC"
+export AR=xiar
+export LD=xild
+export MKL="-lmkl_gf_lp64 -lmkl_intel_thread  -lmkl_core -liomp5 -lpthread"
+./configure --prefix=/home/jhz22/R-devel --enable-R-shlib --with-x=no --with-blas=-lmkl LDFLAGS=-L/home/jhz22/lib CPPFLAGS=-I/home/jhz22/include
+```
 ## NLopt
 
 Available from https://nlopt.readthedocs.io/en/latest/ with R counterpart from https://cran.r-project.org/web/packages/nloptr/index.html.
