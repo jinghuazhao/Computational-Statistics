@@ -371,6 +371,15 @@ F90 = gfortran
 CFLAGS = -std=c99
 CXXFLAGS = -std=c++11
 ```
+Another example is as follows,
+```bash
+# 5-6-2019 JHZ
+
+./configure --prefix=/rds-d4/user/jhz22/hpc-work \
+            --enable-R-shlib \
+            CPPFLAGS=-I/rds-d4/user/jhz22/hpc-work/include \
+            LDFLAGS=-L/rds-d4/user/jhz22/hpc-work/lib
+```
 
 ### Ubuntu 18.04
 
