@@ -8,6 +8,43 @@ sudo dpkg -i code_1.23.1-1525968403_amd64.deb
 ```
 but it requires `libgconf-2-4`; when failed to install use `sudo apt --fix-broken install`.
 
+### C
+
+There have been multiple instances for suggesting migration from`tempnam` to `mkstemp` (`/usr/include/stdlib.h` under Bash but not Windows) and `mktemp`
+-- the following code illustrates its use under both Bash and Windows, Nevertheless these are not standard routines, one still needs to add
+ `char *mktemp(char *)` for instance.
+```c
+#include <stdio.h>
+#include <fcntl.h>      /* for open flags */
+#include <limits.h>     /* for PATH_MAX */
+
+int main(void)
+{
+        static char template[] = "/tmp/myfileXXXXXX";
+        char fname[PATH_MAX];
+        static char mesg[] =
+                "Here's lookin' at you, kid!\n";        /* beats "hello, world" */
+        int fd;
+
+        strcpy(fname, template);
+        mktemp(fname);
+
+        /* RACE CONDITION WINDOW OPENS */
+
+        printf("Filename is %s\n", fname);
+
+        /* RACE CONDITION WINDOW LASTS TO HERE */
+
+        fd = open(fname, O_CREAT|O_RDWR|O_TRUNC, 0600);
+        write(fd, mesg, strlen(mesg));
+        close(fd);
+
+        /* unlink(fname); */
+
+        return 0;
+}
+```
+
 ### Fortran
 
 Information on modernising Fortran could be very useful in foreign language calls (e.g., R),
