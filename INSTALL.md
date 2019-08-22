@@ -442,6 +442,8 @@ It seems the --arch x84 option is very useful for using all available RAM; to ma
 
 When this fails, remove large objects in your code and start R with `--vanilla` option.
 
+To upgrade R, it is useful to install `installr` for its `updateR()`.
+
 ### Package installation
 
 **CRAN**. It is typically done with `install.packages()`
