@@ -362,12 +362,14 @@ R-devel CMD INSTALL --configure-args="
  ```
 which is more restrictive than the default --as-cran above. A simpler setup is also possible with `~/.R/Makevars`, e.g.,
 ```bash
-CC=/usr/bin/gcc
-CXX=/usr/bin/g++
-FC=/usr/bin/gfortran
-CFLAGS=-g -O2 -Wall -pedantic -mtune=native
-FFLAGS=-g -O2 -mtune=native -Wall -pedantic
-CXXFLAGS=-I/usr/include -g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses
+CC = gcc
+CXX = g++
+CXX11 = g++
+FC = gfortran
+F77 = gfortran
+F90 = gfortran
+CFLAGS = -std=c99 -I/usr/include -g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses -Wimplicit-function-declaration
+CXXFLAGS = -std=c++11
 ```
 Another example is as follows,
 ```bash
