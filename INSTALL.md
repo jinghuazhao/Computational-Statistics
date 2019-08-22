@@ -430,7 +430,7 @@ To build packages on Windows, download Rtools from https://cran.r-project.org/ a
 ```dos
 rem 22/8/2019 JHZ
 
-set path=C:\Program Files\R\R-3.6.1\bin\x64;c:\Rtools\bin;%PATH%;c:\Rtools\mingw_64\bin;c:\Rtools\mingw_32\bin
+set path=C:\Program Files\R\R-3.6.1\bin;c:\Rtools\bin;%PATH%;c:\Rtools\mingw_64\bin;c:\Rtools\mingw_32\bin
 set lib=c:\Rtools\mingw_64\lib;c:\Rtools\mingw_32\include
 set include=c:\Rtools\mingw_64\include;c:\Rtools\mingw_32\include
 ```
