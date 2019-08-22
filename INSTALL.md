@@ -430,9 +430,9 @@ To set up bzip2, lzma/pcre, curl and then R assuming lapack is already installed
 
 To build packages on Windows, download Rtools from https://cran.r-project.org/ and install to C:\Rtools
 ```dos
-rem 29/8/2019 JHZ
+rem 22/8/2019 JHZ
 
-set path=C:\Users\jhz22\R-3.5.1\bin;c:\Rtools\bin;%PATH%;c:\Rtools\mingw_64\bin;c:\Rtools\mingw_32\bin
+set path=C:\Users\jhz22\R-3.6.1\bin;c:\Rtools\bin;%PATH%;c:\Rtools\mingw_64\bin;c:\Rtools\mingw_32\bin
 set lib=c:\Rtools\mingw_64\lib;c:\Rtools\mingw_32\include
 set include=c:\Rtools\mingw_64\include;c:\Rtools\mingw_32\include
 ```
