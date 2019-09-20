@@ -611,3 +611,10 @@ module load gcc/5.2.0
 R CMD INSTALL odbc
 ```
 This is necessary for `gtx` for instance. 
+
+## zlib
+
+Try
+```bash
+sudo apt-get install libz-dev
+```
