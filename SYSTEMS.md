@@ -37,7 +37,7 @@ Often it is helpful to run
 sudo apt update
 sudo apt upgrade
 ```
-to be in line with the current release.
+to be in line with the current release; one can check for updates with `sudo apt list --upgradable`.
 
 The Unity desktop can be installed with
 ```bash
