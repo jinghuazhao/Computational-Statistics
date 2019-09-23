@@ -42,6 +42,7 @@ to be in line with the current release.
 The Unity desktop can be installed with
 ```bash
 sudo apt-get install unity-session
+sudo dpkg-reconfigure lightdm
 ```
 
 Non-root installation may be necessary, e.g.,
