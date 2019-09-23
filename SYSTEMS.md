@@ -32,6 +32,11 @@ Under Fedora, you may be prompted to install package `redhat-lsb-core`. Related 
 
 Releases are available from http://releases.ubuntu.com and packages are listed at https://packages.ubuntu.com/.
 
+The Unity desktop can be installed with
+```bash
+sudo apt-get install unity-session
+```
+
 Non-root installation may be necessary, e.g.,
 ```bash
 apt download gir1.2-webkit-3.0
