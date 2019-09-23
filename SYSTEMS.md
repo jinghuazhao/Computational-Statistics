@@ -32,6 +32,13 @@ Under Fedora, you may be prompted to install package `redhat-lsb-core`. Related 
 
 Releases are available from http://releases.ubuntu.com and packages are listed at https://packages.ubuntu.com/.
 
+Often it is helpful to run
+```bash
+sudo apt update
+sudo apt upgrade
+```
+to be in line with the current release.
+
 The Unity desktop can be installed with
 ```bash
 sudo apt-get install unity-session
