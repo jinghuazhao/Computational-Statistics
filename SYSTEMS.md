@@ -39,6 +39,13 @@ sudo apt upgrade
 ```
 to be in line with the current release; one can check for updates with `sudo apt list --upgradable`.
 
+The nautilus desktop can be reset with
+```bash
+sudo apt install gnome-tweak-tool
+gnome-tweaks
+nautilus-desktop
+```
+
 The Unity desktop can be installed with
 ```bash
 sudo apt-get install unity-session
