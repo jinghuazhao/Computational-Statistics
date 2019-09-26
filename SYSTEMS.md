@@ -162,7 +162,7 @@ sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 ```
 See https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/. See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.
 
-ubuntu-wsl is a set of WSL utilities, which could be installed with
+`ubuntu-wsl` is a set of WSL utilities, which could be installed with
 ```bash
 sudo apt install ubuntu-wsl
 ```
