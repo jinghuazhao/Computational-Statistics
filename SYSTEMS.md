@@ -166,7 +166,7 @@ See https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/.
 ```bash
 sudo apt install ubuntu-wsl
 ```
-for executables at `/usr/bin`, e.g., `wslvar PATH` for \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
+for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
 
 ## Anaconda
 
