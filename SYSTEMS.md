@@ -162,6 +162,14 @@ sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 ```
 See https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/. See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.
 
+**ubuntu-wsl**
+
+This could be installed with
+```bash
+sudo apt install ubuntu-wsl
+```
+for executables at `/usr/bin`, e.g., `wslvar PATH` for \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
+
 ## Anaconda
 
 Once installed, it is customary to make several channels accessible,
