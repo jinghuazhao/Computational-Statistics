@@ -143,6 +143,8 @@ Since one may allocate only part of RAM to VirtualBox, it is often necessary to 
 
 ## WSL
 
+A description on PowerShell is here, https://docs.microsoft.com/en-us/windows/wsl/install-win10.
+
 After installation, it can be invoked from a MS-DOS prompt with
 ```
 wsl
