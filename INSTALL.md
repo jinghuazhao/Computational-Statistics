@@ -612,6 +612,14 @@ R CMD INSTALL odbc
 ```
 This is necessary for `gtx` for instance. 
 
+## web site
+
+The permission needs to be set, e.g., 
+```bash
+chmod -R +r /public/home/$USER/public_html
+find /public/home/$USER/public_html -type d -exec chmod +x {} \;
+```
+
 ## zlib
 
 Try
