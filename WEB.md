@@ -1,5 +1,13 @@
 # Web-related notes
 
+## file permissions for web site
+
+The permission needs to be set, e.g.,
+```bash
+chmod -R +r /public/home/$USER/public_html
+find /public/home/$USER/public_html -type d -exec chmod +x {} \;
+```
+
 ## non-interactive authentication
 
 ### ftp
@@ -41,12 +49,4 @@ lcd /home/jhz22/U/Downloads/
 put *
 bye
 EOF
-```
-
-## file permissions for web site
-
-The permission needs to be set, e.g.,
-```bash
-chmod -R +r /public/home/$USER/public_html
-find /public/home/$USER/public_html -type d -exec chmod +x {} \;
 ```
