@@ -11,3 +11,4 @@ As yet this repository covers these aspects:
 3. [Parallel computing](PARALLEL.md)
 4. [Reproducible research](REPRODUCE.md)
 5. [System notes](SYSTEMS.md)
+6. [Web-related notes][WEB.md]
