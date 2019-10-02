@@ -1,6 +1,6 @@
 # Web-related notes
 
-## non-interactive authenication
+## non-interactive authentication
 
 ### ftp
 
