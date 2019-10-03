@@ -13,14 +13,13 @@ find /public/home/$USER/public_html -type d -exec chmod +x {} \;
 ```
 Note that the synchronisation works equally well for backup of files locally.
 
-## non-interactive authentication
+## Sophisticated file transfer program
 
-Both approaches below require `lftp` which is also associated with `libreadline.so.6`.
-This can be installed with
+`lftp` enables non-interactive authentication for both `ftp` and `sftp`, which can be installed with
 ```bash
 sudo apt install lftp
 ```
-Note in both cases delimiters are required between commands.
+Note in both cases command delimiters are required.
 
 ### ftp
 
