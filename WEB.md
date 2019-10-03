@@ -42,18 +42,16 @@ END
 ### sftp
 
 ```bash
-#!/bin/sh
+#!/bin/bash
 
 HOST=
 USER=
 PASS=
 
-echo "Starting to sftp..."
-
+cd /home/${USER}/U/Downloads
 lftp -u ${USER},${PASS} sftp://${HOST} <<EOF
-cd jps
-lcd /home/${USER}/U/Downloads/
-put *
-bye
+cd jps;
+put *;
+bye;
 EOF
 ```
