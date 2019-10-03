@@ -16,6 +16,11 @@ Note that the synchronisation works equally well for backup of files locally.
 ## non-interactive authentication
 
 Both approaches below require `lftp` which is also associated with `libreadline.so.6`.
+This can be installed with
+``bash
+sudo apt install lftp
+```
+Note in both cases delimiters are required between commands.
 
 ### ftp
 
@@ -34,8 +39,8 @@ set ftp:list-options -a;
 open '$FTPURL'
 lcd $LCD;
 cd $RCD;
-mirror --parallel=15 --log=/home/$USER/work/ftp.log --verbose
-bye
+mirror --parallel=15 --log=/home/$USER/work/ftp.log --verbose;
+bye;
 END
 ```
 
