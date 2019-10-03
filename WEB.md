@@ -35,7 +35,7 @@ RCD=
 
 lftp $HOST <<END
 set ftp:list-options -a;
-open '$FTPURL'
+open '$FTPURL';
 lcd $LCD;
 cd $RCD;
 mirror --parallel=15 --log=/home/$USER/work/ftp.log --verbose;
