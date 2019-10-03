@@ -15,7 +15,7 @@ Note that the synchronisation works equally well for backup of files locally.
 
 ## Sophisticated file transfer program
 
-`lftp` enables non-interactive authentication for both `ftp` and `sftp`, which can be installed with
+Non-interactive authentication for both `ftp` and `sftp` can be anabled by`lftp`, which can be installed with
 ```bash
 sudo apt install lftp
 ```
