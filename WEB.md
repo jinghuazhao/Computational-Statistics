@@ -17,7 +17,7 @@ Note that the synchronisation works equally well for backup of files locally.
 
 Both approaches below require `lftp` which is also associated with `libreadline.so.6`.
 This can be installed with
-``bash
+```bash
 sudo apt install lftp
 ```
 Note in both cases delimiters are required between commands.
