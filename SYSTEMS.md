@@ -28,6 +28,11 @@ lsb_release -a
 ```
 Under Fedora, you may be prompted to install package `redhat-lsb-core`. Related commands are `uname -a` and `lscpu`.
 
+The CPU speed can be seen with 
+```bash
+ watch -n.1 "cat /proc/cpuinfo | grep \"^[c]pu MHz\""
+```
+
 ## Ubuntu
 
 Releases are available from http://releases.ubuntu.com and packages are listed at https://packages.ubuntu.com/.
