@@ -26,6 +26,8 @@ The LSB (Linux Standard Base) and distribution information is given with
 ```bash
 lsb_release -a
 ```
+Under Ubuntu, this could be made available with `sudo apt-get install lsb-core`.
+
 Under Fedora, you may be prompted to install package `redhat-lsb-core`. Related commands are `uname -a` and `lscpu`.
 
 The CPU speed can be seen with 
