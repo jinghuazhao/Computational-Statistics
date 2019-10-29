@@ -118,6 +118,9 @@ InprocServer32  修改 第一行（默认）的值为 C:\Windows\system32\oleaut
 ```
 Actually, there is no need to reboot Windows at Step 4.
 
+It is possible that installation of Ubuntu could be freezed, in which case one can proceed with disabling 3D Acceleration
+and increasing the number of CPUs to 2-4, see [https://www.maketecheasier.com/fix-ubuntu-freezing-virtualbox/](https://www.maketecheasier.com/fix-ubuntu-freezing-virtualbox/).
+
 The guest additions under Fedora 28 is furnished with
 ```bash
 sudo dnf update
