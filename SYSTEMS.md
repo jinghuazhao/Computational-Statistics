@@ -122,7 +122,7 @@ It is possible that installation of Ubuntu could be freezed, in which case a pro
 and increasing the number of CPUs to 2-4, see [https://www.maketecheasier.com/fix-ubuntu-freezing-virtualbox/](https://www.maketecheasier.com/fix-ubuntu-freezing-virtualbox/).
 
 However, our experiment showed that one can enable 3D Acceleration and two CPUs for installation but it is necessary to disable 3D Acceleration and 
-reset CPU to be one for a system with one CPU after installation. The system informatino can be obtained under Windows 10 with `systeminfo` command.
+reset CPU to be one for a system with one CPU after installation. The system informatino can be obtained with `systeminfo` command as described above.
 
 The guest additions under Fedora 28 is furnished with
 ```bash
