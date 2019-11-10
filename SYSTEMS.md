@@ -226,6 +226,8 @@ export PYTHONPATH=/scratch/jhz22/lib/python2.7/site-packages/
 ```
 Examine .bashrc for changes.
 
+See [https://docs.anaconda.com/anaconda/user-guide/getting-started/](https://docs.anaconda.com/anaconda/user-guide/getting-started/) to get started.
+
 ## GitHub
 
 See [physalia](https://github.com/jinghuazhao/physalia) for information.
