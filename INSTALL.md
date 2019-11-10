@@ -588,6 +588,12 @@ Error: package or namespace load failed for ‘rstan’ in dyn.load(file, DLLpat
 ```
 which can be resolved with `module load gcc/5.2.0` before invoking R.
 
+For error message `C++14 standard requested but CXX14 is not defined` we modify $HOME/.R/Makevars as follows,
+```
+CXX14 = g++ -std=c++1y -fPIC
+```
+see [https://github.com/stan-dev/rstan/issues/569](https://github.com/stan-dev/rstan/issues/569) but adding -fPIC and as in unixOBD below.
+
 ## unixODBC
 
 It is quite standard to install, i.e.,
