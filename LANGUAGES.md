@@ -8,6 +8,8 @@ sudo dpkg -i code_1.23.1-1525968403_amd64.deb
 ```
 but it requires `libgconf-2-4`; when failed to install use `sudo apt --fix-broken install`.
 
+See [https://code.visualstudio.com/docs/python/python-tutorial](https://code.visualstudio.com/docs/python/python-tutorial) for the hello world example.
+
 ### C
 
 There have been multiple instances for suggesting migration from`tempnam` to `mkstemp` (`/usr/include/stdlib.h` under Bash but not Windows) and `mktemp`
