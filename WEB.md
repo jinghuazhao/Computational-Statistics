@@ -59,3 +59,15 @@ put *;
 bye;
 EOF
 ```
+
+### djvulibre
+
+```bash
+wget https://github.com/barak/djvulibre/archive/debian/3.5.27.1-14.zip
+unzip  3.5.27.1-14.zip |more
+cd djvulibre-debian-3.5.27.1-14/
+./autogen.sh
+configure --prefix=/rds-d4/user/jhz22/hpc-work/
+make
+make install
+```
