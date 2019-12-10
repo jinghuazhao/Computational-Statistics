@@ -203,7 +203,7 @@ sudo cp /etc/xrdp/xrdp.ini  /etc/xrdp/xrdp.ini.bak
 # sudo pico /etc/xrdp/xrdp.ini
 sudo echo xfce4-session > ~/.xsession
 sudo /etc/init.d/xrdp restart
-# check for IPv4 address from Windows and start rdp
+# check for IPv4 address from Windows and start rdp to ip:3390
 ipconfig
 ```
 
