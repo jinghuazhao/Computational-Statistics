@@ -191,6 +191,22 @@ sudo apt install ubuntu-wsl
 ```
 for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
 
+To install desktop via xrdp:
+
+```bash
+sudo apt update
+sudo apt install xorg
+sudo apt install xfce4
+sudo apt install xrdp
+sudo cp /etc/xrdp/xrdp.ini  /etc/xrdp/xrdp.ini.bak
+# change to 3389 -> 3390
+# sudo pico /etc/xrdp/xrdp.ini
+sudo echo xfce4-session > ~/.xsession
+sudo /etc/init.d/xrdp restart
+# check for IPv4 address from Windows and start rdp
+ipconfig
+```
+
 ## Anaconda
 
 Once installed, it is customary to make several channels accessible,
