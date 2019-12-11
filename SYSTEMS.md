@@ -10,6 +10,7 @@ This is a skeleton to list items to be detailed in the near future.
 * [Anaconda](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#anaconda)
 * [GitHub](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#github)
 * [Mercurial](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#mercurial)
+* [LibraOffice](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#libraoffice)
 * [Linuxbrew](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#linuxbrew)
 * [AWS](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#aws)
 * [modules](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#modules)
@@ -255,6 +256,14 @@ This is associated with the familiar `hg` command as used for instance by `qctoo
 It is the executable file for Mercurial source code management system,
 ```bash
 sudo apt install mercurial
+```
+
+## libraOffice
+
+```bash
+sudo add-apt-repository ppa:libreoffice/ppa
+sudo apt-get update
+sudo apt-get install libreoffice
 ```
 
 ## Linuxbrew
