@@ -204,13 +204,16 @@ xfce4-session &
 or work with xrdp:
 ```bash
 sudo apt install xrdp
-sudo cp /etc/xrdp/xrdp.ini  /etc/xrdp/xrdp.ini.bak
-# change to 3389 -> 3390
-# sudo pico /etc/xrdp/xrdp.ini
+sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
+sudo sed -i 's/port=3389/port=3390/' /etc/xrdp/xrdp.ini
 sudo /etc/init.d/xrdp restart
-# check for IPv4 address from Windows and start rdp to ip:3390
+```
+Now check IPv4 address from Windows with,
+```windows
 ipconfig
 ```
+and start and start rdp to <IPv4 address>:3390.
+
 
 ## Anaconda
 
