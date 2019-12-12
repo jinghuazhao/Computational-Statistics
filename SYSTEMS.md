@@ -197,6 +197,7 @@ It is attractive to use xfce4, which can be made available with
 sudo apt update
 sudo apt install xorg
 sudo apt install xfce4
+sudo echo xfce4-session > ~/.xsession
 xfce4-session &
 ```
 
@@ -206,7 +207,6 @@ sudo apt install xrdp
 sudo cp /etc/xrdp/xrdp.ini  /etc/xrdp/xrdp.ini.bak
 # change to 3389 -> 3390
 # sudo pico /etc/xrdp/xrdp.ini
-sudo echo xfce4-session > ~/.xsession
 sudo /etc/init.d/xrdp restart
 # check for IPv4 address from Windows and start rdp to ip:3390
 ipconfig
