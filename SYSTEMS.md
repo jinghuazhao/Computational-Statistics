@@ -212,7 +212,7 @@ Now check IPv4 address from Windows with,
 ```windows
 ipconfig
 ```
-and start and start rdp to <IPv4 address>:3390.
+and start and start rdp to \<IPv4 address\>:3390.
 
 
 ## Anaconda
