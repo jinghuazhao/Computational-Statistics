@@ -192,12 +192,16 @@ sudo apt install ubuntu-wsl
 ```
 for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
 
-To install desktop via xrdp:
-
+It is attractive to use xfce4, which can be made available with
 ```bash
 sudo apt update
 sudo apt install xorg
 sudo apt install xfce4
+xfce4-session &
+```
+
+or work with xrdp:
+```bash
 sudo apt install xrdp
 sudo cp /etc/xrdp/xrdp.ini  /etc/xrdp/xrdp.ini.bak
 # change to 3389 -> 3390
