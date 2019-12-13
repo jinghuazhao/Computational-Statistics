@@ -20,6 +20,7 @@ Name | URLs
 [MATLAB](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#matlab) | https://www.mathworks.com/
 [NAG](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#nag) | https://www.nag.co.uk
 [NLopt](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#nlopt) | https://nlopt.readthedocs.io/en/latest/
+[PSPP]() | 
 [Python](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#python) | https://www.python.org/
 [SageMath](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#sagemath) | http://www.sagemath.org/
 [Stata](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#stata) | https://www.stata.com/
@@ -291,6 +292,30 @@ It is available with,
 ```bash
 sudo apt install octave
 ```
+
+## PSPP
+
+```bash
+sudo apt install pspp
+```
+
+We have a simple SPSS command file as follows,
+```sps
+* Example sps file
+data list / v0 to v2 1-9.
+begin data.
+12 12 89
+56 12 77
+78 12 73
+90 91
+37 97 85
+end data.
+descript all
+  /stat=all
+  /format=serial.
+```
+then we could start `pspp example.sps`. Related utilities are pspp-convert.
+
 
 ## python
 
