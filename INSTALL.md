@@ -531,6 +531,13 @@ We can mirror R packages from $HOME to /scratch as follows,
 rsync -avrzP /home/$USER/R /scratch/$USER/R
 ```
 
+**Reinstallation**
+
+This could be done with
+```r
+update.packages(checkBuilt = TRUE, ask = FALSE)	
+```
+
 ### RStudio
 
 The distribution has problem loading or creating R script, so it is tempting to install from https://github.com/rstudio/rstudio/. 
