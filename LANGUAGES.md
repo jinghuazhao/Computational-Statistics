@@ -1,5 +1,7 @@
 # Language notes
 
+This page collects information on Visual Studio Code, Fortran, Java, Perl, and R.
+
 ## Visual Studio Code
 
 There is a pointer from https://github.com/Microsoft/vscode to https://code.visualstudio.com/Download. Once downloaded, it can be installed with
@@ -178,4 +180,3 @@ and
 Sys.setlocale("LC_ALL", "C")
 ```
 See https://stackoverflow.com/questions/4993837/r-invalid-multibyte-string
-
