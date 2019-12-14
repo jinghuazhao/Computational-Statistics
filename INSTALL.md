@@ -20,7 +20,7 @@ Name | URLs
 [MATLAB](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#matlab) | https://www.mathworks.com/
 [NAG](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#nag) | https://www.nag.co.uk
 [NLopt](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#nlopt) | https://nlopt.readthedocs.io/en/latest/
-[PSPP](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#pspp) | 
+[PSPP](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#pspp) | https://www.gnu.org/software/pspp/
 [Python](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#python) | https://www.python.org/
 [SageMath](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#sagemath) | http://www.sagemath.org/
 [Stata](https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#stata) | https://www.stata.com/
