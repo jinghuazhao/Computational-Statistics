@@ -1,4 +1,4 @@
-# 2-10-2019 JHZ
+# 14-12-2019 JHZ
 
 git add README.md
 git commit -m "README"
@@ -7,4 +7,6 @@ do
    git add $d
    git commit -m "$d"
 done
+git add src
+git commit -m "source programs"
 git push
