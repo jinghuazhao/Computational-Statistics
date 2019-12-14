@@ -316,7 +316,7 @@ descript all
 ```
 then we could start `pspp example.sps`. Related utilities are pspp-convert.
 
-pspppire graphical interface to PSPP 
+It is more interestin to use `pspppire`, the graphical interface to PSPP, with `plot.sps`
 ```sps
 * Example sps file
 data list
@@ -339,7 +339,7 @@ examine v0
 
 We could then run psppire with
 ```bash
-psppire example.sps
+psppire plot.sps
 ```
 
 ## python
