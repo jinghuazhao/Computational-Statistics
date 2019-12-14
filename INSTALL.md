@@ -299,7 +299,7 @@ sudo apt install octave
 sudo apt install pspp
 ```
 
-A simple SPSS command file [example.sps](src/example.sps) and another [plot.sps](plot.sps) can be called with
+A simple SPSS command file [example.sps](src/example.sps) and another [plot.sps](src/plot.sps) can be called with
 ```bash
 pspp example.sps 
 psppire plot.sps
