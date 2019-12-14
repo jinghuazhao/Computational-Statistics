@@ -295,6 +295,7 @@ sudo apt install octave
 
 ## PSPP
 
+This can be made available with
 ```bash
 sudo apt install pspp
 ```
