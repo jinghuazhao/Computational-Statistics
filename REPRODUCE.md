@@ -4,6 +4,7 @@ a.k.a Literate programming.
 
 * [bookdown](https://github.com/rstudio/bookdown).
 * [CWEB](https://www-cs-faculty.stanford.edu/~knuth/cweb.html).
+* [Jupyter](https://jupyter.org/).
 * [knitr](https://github.com/yihui/knitr).
 * [noweb](https://github.com/nrnrnr/noweb) and its [Tufts site](https://www.cs.tufts.edu/~nr/noweb/).
 * [Pweave and ptangle](http://mpastell.com/pweave/).
