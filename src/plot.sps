@@ -15,4 +15,3 @@ end data.
 
 examine v0
   /plot=all.
-
