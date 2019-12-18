@@ -299,6 +299,7 @@ This can be made available with
 ```bash
 sudo apt install pspp
 ```
+Prebuilt Fedora package can be downloaded from here, https://apps.fedoraproject.org/packages/pspp.
 
 A simple SPSS command file [example.sps](src/example.sps) and another [plot.sps](src/plot.sps) can be called with
 ```bash
