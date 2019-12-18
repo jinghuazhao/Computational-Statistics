@@ -76,7 +76,7 @@ sudo apt install cython
 sudo perl -MCPAN -e shell
 install DBI
 ```
-for instance, as used in [VEP](../VEP).
+for instance, as used in [VEP](https://github.com/jinghuazhao/software-notes/blob/master/AA.md).
 
 ### Python
 
