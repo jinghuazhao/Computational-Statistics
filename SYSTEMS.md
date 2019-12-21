@@ -141,6 +141,9 @@ sudo mount -t vboxsf -o uid=jhz22 D /home/jhz22/D
 killall VBoxClient
 sudo VBoxClient-all
 ```
+
+For Fedora 31, see https://www.if-not-true-then-false.com/2010/install-virtualbox-guest-additions-on-fedora-centos-red-hat-rhel/.
+
 Here are the steps, quoting http://www.netreliant.com/news/8/17/Compacting-VirtualBox-Disk-Images-Linux-Guests.html, for compressing large .vdi:
 ```bash
 # Linux
