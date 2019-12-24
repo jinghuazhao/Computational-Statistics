@@ -300,18 +300,18 @@ Under Ubuntu, this can be made available with
 sudo apt install pspp
 ```
 
+For Fedora, we have
+```bash
+sudo dnf install pspp
+```
+which will install libpq, gsl, gtksourceview3, spread-sheet-widget as well, see https://apps.fedoraproject.org/packages/pspp.
+
 A simple SPSS command file [example.sps](src/example.sps) and another [plot.sps](src/plot.sps) can be called with
 ```bash
 pspp example.sps 
 psppire plot.sps
 ```
 respectively. Related utilities are `pspp-convert`.
-
-For Fedora, we have
-```bash
-sudo dnf install pspp
-```
-which will install libpq, gsl, gtksourceview3, spread-sheet-widget as well, see https://apps.fedoraproject.org/packages/pspp.
 
 ## python
 
