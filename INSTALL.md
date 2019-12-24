@@ -299,7 +299,6 @@ Under Ubuntu, this can be made available with
 ```bash
 sudo apt install pspp
 ```
-Prebuilt Fedora package can be downloaded from here, https://apps.fedoraproject.org/packages/pspp.
 
 A simple SPSS command file [example.sps](src/example.sps) and another [plot.sps](src/plot.sps) can be called with
 ```bash
@@ -312,7 +311,7 @@ For Fedora, we have
 ```bash
 sudo dnf install pspp
 ```
-which will install libpq, gsl, gtksourceview3, spread-sheet-widget as well.
+which will install libpq, gsl, gtksourceview3, spread-sheet-widget as well, see https://apps.fedoraproject.org/packages/pspp.
 
 ## python
 
