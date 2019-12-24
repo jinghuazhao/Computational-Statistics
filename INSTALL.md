@@ -295,7 +295,7 @@ sudo apt install octave
 
 ## PSPP
 
-This can be made available with
+Under Ubuntu, this can be made available with
 ```bash
 sudo apt install pspp
 ```
@@ -308,6 +308,11 @@ psppire plot.sps
 ```
 respectively. Related utilities are `pspp-convert`.
 
+For Fedora, we have
+```bash
+sudo dnf install pspp
+```
+which will install libpq, gsl, gtksourceview3, spread-sheet-widget as well.
 
 ## python
 
