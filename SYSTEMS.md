@@ -4,6 +4,7 @@ This is a skeleton to list items to be detailed in the near future.
 
 ---
 
+* [FreeDOS and Linux](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#freedosandlinux)
 * [Ubuntu](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#ubuntu)
 * [Oracle VirtualBox](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#oracle-virtualbox)
 * [Windows Subsystem for Linux](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#WSL)
@@ -18,6 +19,19 @@ This is a skeleton to list items to be detailed in the near future.
 * [OpenVPN](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#openvpn)
 
 ---
+
+## FreeDOS and Linux
+
+> FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or develop embedded systems. Any program that works on MS-DOS should also run on FreeDOS.
+
+The software is available from http://www.freedos.org/. It is notable that v1.3 provides liveCD and liteUSB which could be useful.
+
+Here describes how to convert VMDK format to iso, https://www.ilovefreesoftware.com/26/featured/how-to-convert-vmdk-to-iso-in-windows.html, e.g.,
+```dos
+qemu-img convert -f vmdk FD13LITE.VMDK pd.raw
+dd if=pd.raw of=pd.iso
+```
+We can then resot to rufus, https://rufus.ie/, to generate a booktable USB allowing for disk partition by `fdisk` -- in fact rufus itself can produce a bootable USB nevertheless with no utilities.
 
 There are multiple routes to install particular software; one may prefer to install them as standable but it may also come handy use mini-environments such as Anaconda, Miniconda, Linuxbrew or those already in system (e.g. Ubuntu) archive.
 
