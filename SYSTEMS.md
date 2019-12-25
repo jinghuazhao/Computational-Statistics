@@ -4,7 +4,7 @@ This is a skeleton to list items to be detailed in the near future.
 
 ---
 
-* [FreeDOS and Linux](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#freedosandlinux)
+* [FreeDOS and Linux](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#freedos-and-linux)
 * [Ubuntu](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#ubuntu)
 * [Oracle VirtualBox](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#oracle-virtualbox)
 * [Windows Subsystem for Linux](https://github.com/jinghuazhao/Computational-Statistics/blob/master/SYSTEMS.md#WSL)
