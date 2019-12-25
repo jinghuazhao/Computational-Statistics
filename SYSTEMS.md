@@ -22,9 +22,11 @@ This is a skeleton to list items to be detailed in the near future.
 
 ## FreeDOS and Linux
 
+FreeDOS is available from http://www.freedos.org/. 
+
 > FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or develop embedded systems. Any program that works on MS-DOS should also run on FreeDOS.
 
-The software is available from http://www.freedos.org/. It is notable that v1.3 provides liveCD and liteUSB which could be useful.
+It is notable that v1.3 provides liveCD and liteUSB which could be useful.
 
 Here describes how to convert VMDK format to iso, https://www.ilovefreesoftware.com/26/featured/how-to-convert-vmdk-to-iso-in-windows.html, e.g.,
 ```dos
