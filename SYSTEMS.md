@@ -33,7 +33,7 @@ Here describes how to convert VMDK format to iso, https://www.ilovefreesoftware.
 qemu-img convert -f vmdk FD13LITE.VMDK pd.raw
 dd if=pd.raw of=pd.iso
 ```
-We can then resot to rufus, https://rufus.ie/, to generate a booktable USB allowing for disk partition by `fdisk` -- in fact rufus itself can produce a bootable USB nevertheless with no utilities.
+We can then use rufus, https://rufus.ie/, to generate a booktable USB allowing for disk partition by `fdisk` -- in fact rufus itself can produce a bootable USB nevertheless with no utilities.
 
 There are multiple routes to install particular software; one may prefer to install them as standable but it may also come handy use mini-environments such as Anaconda, Miniconda, Linuxbrew or those already in system (e.g. Ubuntu) archive.
 
