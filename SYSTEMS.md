@@ -189,7 +189,7 @@ wsl
 The command could also takes additional parameters.
 
 It is very easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its`Advanced WSL settings` tab, choose `Graphical environments`
-such as LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops.
+such as gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops.
 
 After started, create a session for WSL which directs you to Windows Apps store. Obtain Ubuntu, and install.
 ```bash
