@@ -71,3 +71,12 @@ configure --prefix=/rds-d4/user/jhz22/hpc-work/
 make
 make install
 ```
+
+### Google-chrome
+
+Installation is possible with
+```bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+```
+then the Google repository is also added.
