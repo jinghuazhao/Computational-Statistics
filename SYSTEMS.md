@@ -188,8 +188,9 @@ wsl
 ```
 The command could also takes additional parameters.
 
-It is very easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its`Advanced WSL settings` tab, choose `Graphical environments`
-such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops.
+It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its`Advanced WSL settings` tab, choose `Graphical environments`
+such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
+are `ubuntu-gnome-desktop`, `lubuntu-desktop`, `xubuntu-desktop`, respectively.
 
 After started, create a session for WSL which directs you to Windows Apps store. Obtain Ubuntu, and install.
 ```bash
@@ -216,7 +217,7 @@ sudo apt install ubuntu-wsl
 ```
 for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
 
-It is attractive to use xfce4, which can be made available with
+xfce4 can also be made available with
 ```bash
 sudo apt update
 sudo apt install xorg
