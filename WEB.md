@@ -80,3 +80,13 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 then the Google repository is also added.
+
+### Web site file permission
+
+The following commands set read permission to a web site.
+```bash
+chmod -R +r /public/home/jhz22/public_html
+find /public/home/jhz22/public_html -type d -exec chmod +x {} \;
+# example of -type f
+# find /public/home/jhz22/public_html -type f -exec unix2dos +x {} \;
+```
