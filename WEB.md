@@ -83,7 +83,7 @@ then the Google repository is also added.
 
 ### Web site file permission
 
-The following commands set read permission to a web site.
+The following commands set read permission to a web site hosted at `/public/$HOME/public_html`.
 ```bash
 chmod -R +r /public/$HOME/public_html
 find /public/$HOME/public_html -type d -exec chmod +x {} \;
