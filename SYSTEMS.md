@@ -239,6 +239,10 @@ ipconfig
 ```
 and start and start rdp to \<IPv4 address\>:3390.
 
+It might be hard to get going with firefox or Chrome for the Internet, but here is a simple way around,
+```wsl
+cmd.exe /c start https://github.com
+```
 
 ## Anaconda
 
