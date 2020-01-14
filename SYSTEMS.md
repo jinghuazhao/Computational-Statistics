@@ -248,7 +248,7 @@ One can actually generalise these, e.g.,
 ln -s /home/$USER/C/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe /home/$USER/bin/AcroRd32.exe
 ln -s /home/$USER/bin/AcroRd32.exe /home/$USER/bin/xpdf
 ```
-followed by a call to `AcroRd32.exe` and as `xpdf`, or directly call programs such as `calc.exe`, `mspaint.exe`.
+followed by a call to `AcroRd32.exe` and as `xpdf`, or directly call programs such as `calc.exe`, `ipconfig.exe`, `mspaint.exe`, `write.exe`.
 
 ## Anaconda
 
