@@ -235,7 +235,7 @@ sudo /etc/init.d/xrdp restart
 ```
 Now check IPv4 address from Windows with,
 ```windows
-ipconfig
+ipconfig.exe
 ```
 and start and start rdp to \<IPv4 address\>:3390.
 
