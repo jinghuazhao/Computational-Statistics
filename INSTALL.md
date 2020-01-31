@@ -356,11 +356,12 @@ while the following are necessary to build [the development version](https://sta
 ```bash
 sudo dnf install gcc-c++
 sudo dnf install gcc-gfortran
-sudo dnf install java-openjdk-devel
 sudo dnf install pcre-devel
+sudo dnf install java-1.8.0-openjdk-devel
 sudo dnf install readline-devel
 sudo dnf install libcurl-devel
-sudo dnf install libX11 libX11-devel libXt libXt-devel
+sudo dnf install libX11-devel
+sudo dnf install libXt-devel
 sudo dnf install bzip2-devel
 sudo dnf install xz-devel
 sudo dnf install pandoc
