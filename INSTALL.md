@@ -345,7 +345,7 @@ pip install lifelines
 ```
 ## R
 
-### Fedora 28
+### Fedora 31
 
 The R-release, including both the compiled and source package, is built as follows,
 ```bash
@@ -356,7 +356,6 @@ while the following are necessary to build [the development version](https://sta
 ```bash
 sudo dnf install gcc-c++
 sudo dnf install gcc-gfortran
-sudo dnf install compat-gcc-34-g77
 sudo dnf install java-openjdk-devel
 sudo dnf install pcre-devel
 sudo dnf install readline-devel
