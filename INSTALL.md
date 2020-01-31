@@ -347,12 +347,12 @@ pip install lifelines
 
 ### Fedora 28
 
-The R-release is built as follows,
+The R-release, including both the compiled and source package, is built as follows,
 ```bash
 sudo dnf install R
 sudo dnf install R-devel
 ```
-The following are necessary to build [R-devel](https://stat.ethz.ch/R/daily/R-devel.tar.gz),
+while the following are necessary to build [the development version](https://stat.ethz.ch/R/daily/R-devel.tar.gz),
 ```bash
 sudo dnf install gcc-c++
 sudo dnf install gcc-gfortran
