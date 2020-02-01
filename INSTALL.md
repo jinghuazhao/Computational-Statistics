@@ -365,7 +365,7 @@ sudo dnf install libXt-devel
 sudo dnf install bzip2-devel
 sudo dnf install xz-devel
 sudo dnf install pandoc
-sudo dnf install qpdf-devel
+sudo dnf install qpdf
 sudo dnf install texlive-collection-latex
 sudo dnf install texlive-collection-fontsextra
 sudo dnf install texinfo-tex
