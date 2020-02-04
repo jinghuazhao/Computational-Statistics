@@ -71,6 +71,14 @@ For software such as `cutadapt` cython is required,
 sudo apt install cython
 ```
 
+### JavaScript
+
+The mermaid diagram is illustrated with [mermaid.html](src/mermaid.html) using code available from here, https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js.
+
+The hello world example with plotly.js is https://plot.ly/javascript/getting-started/#hello-world-example and the 3D diagram is with [3d-scatter.html](src/3d-scatter.html) based on https://plot.ly/javascript/3d-scatter-plots/..
+
+The base64 encode/decode is with https://www.base64decode.org/.
+
 ### Perl
 ```bash
 sudo perl -MCPAN -e shell
