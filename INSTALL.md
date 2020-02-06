@@ -390,7 +390,7 @@ export FC="/usr/bin/gfortran"
 export CFLAGS="-g -O2 -Wall -pedantic -mtune=native"
 export FFLAGS="-g -O2 -mtune=native -Wall -pedantic"
 export CXXFLAGS="-g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses"
-export LDFLAGS="-L/usr/lib64 -L/usr/lib64"
+export LDFLAGS="-L/usr/lib64"
 R-devel CMD INSTALL gap_1.2.tar.gz
 ```
 with check on foreign language calls or
@@ -402,7 +402,7 @@ R-devel CMD INSTALL --configure-args="
  CFLAGS=\"-g -O2 -Wall -pedantic -mtune=native\" \
  FFLAGS=\"-g -O2 -mtune=native -Wall -pedantic\" \
  CXXFLAGS=\"-I/usr/include -g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses\" \
- LDFLAGS=\"-L/usr/lib64 -L/usr/lib64\"" gap_1.1-26.tar.gz
+ LDFLAGS=\"-L/usr/lib64\" gap_1.1-26.tar.gz
  ```
 which is more restrictive than the default --as-cran above. A simpler setup is also possible with `~/.R/Makevars`, e.g.,
 ```bash
