@@ -582,6 +582,23 @@ This could be done with
 update.packages(checkBuilt = TRUE, ask = FALSE)	
 ```
 
+**Specification of repository**
+
+One may see error message on package installation
+```
+> install.packages("plotly")
+
+--- Please select a CRAN mirror for use in this session ---
+
+Error in structure(.External(.C_dotTclObjv, objv), class = "tclObj") : 
+
+  [tcl] bad pad value "2m": must be positive screen distance.
+```
+but can be avoided with specificatino of repository.
+```r
+> install.packages("plotly", repos="https://cran.r-project.org")
+```
+
 ### RStudio
 
 The distribution has problem loading or creating R script, so it is tempting to install from https://github.com/rstudio/rstudio/. 
