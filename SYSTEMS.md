@@ -104,6 +104,8 @@ sudo apt-get install libcanberra-gtk3-module
 ```
 It is useful to use `sudo apt install tasksel`, then one can use `sudo tasksel`.
 
+Lastly, system hibernation can be done with `sudo systemctl hibernate`.
+
 
 ## Oracle VirtualBox
 
