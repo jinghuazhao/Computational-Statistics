@@ -53,6 +53,12 @@ The CPU speed can be seen with
 ```bash
  watch -n.1 "cat /proc/cpuinfo | grep \"^[c]pu MHz\""
 ```
+The screen utility is operated as follows,
+```bash
+screen -S <my-screen-session>
+screen -ls
+screen -r <my-screen-session-id>
+```
 
 ## Ubuntu
 
