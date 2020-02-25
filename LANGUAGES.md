@@ -189,3 +189,18 @@ and
 Sys.setlocale("LC_ALL", "C")
 ```
 See https://stackoverflow.com/questions/4993837/r-invalid-multibyte-string
+
+**plotly**
+
+It requires a number of software,
+```bash
+sudo dnf install udunits2-devel
+sudo dnf install cairo-devel
+sudo dnf install gdal gdal-devel
+sudo dnf install proj-devel proj-static
+sudo dnf install geos geos-devel
+```
+to be followed by
+```r
+install.packages("plotly",depend=TRUE,repos="https://cran.r-project.org")
+```
