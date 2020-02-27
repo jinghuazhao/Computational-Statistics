@@ -81,6 +81,21 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 then the Google repository is also added.
 
+### sphinx
+
+The sequence below follows,  https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html.
+```bash
+module load python/3.6
+virtualenv --system-site-package venv
+source venv/bin/activate
+pip install sphinx
+mkdir docs
+cd docs
+sphinx-quickstart
+make html
+pip install recommonmark
+```
+
 ### Web site file permission
 
 The following commands set read permission to a web site hosted at `/public/$HOME/public_html`.
