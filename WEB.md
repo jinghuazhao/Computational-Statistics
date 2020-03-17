@@ -83,14 +83,6 @@ make html
 pip install recommonmark
 ```
 
-### Web site file permission
-
-The following commands set read permission to a web site hosted at `/public/$HOME/public_html`.
-```bash
-chmod -R +r /public/$HOME/public_html
-find /public/$HOME/public_html -type d -exec chmod +x {} \;
-```
-
 ### Mobile tethering
 
 See information from here,
@@ -104,3 +96,11 @@ We can employ `rsync` to synchronise the working node to the web space, e.g.,
 rsync -avrzP $HOME/public_html shell.srcf.net:/public/$HOME
 ```
 Note that it works equally well for backup of files locally.
+
+### Web site file permission
+
+The following commands set read permission to a web site hosted at `/public/$HOME/public_html`.
+```bash
+chmod -R +r /public/$HOME/public_html
+find /public/$HOME/public_html -type d -exec chmod +x {} \;
+```
