@@ -103,3 +103,9 @@ The following commands set read permission to a web site hosted at `/public/$HOM
 chmod -R +r /public/$HOME/public_html
 find /public/$HOME/public_html -type d -exec chmod +x {} \;
 ```
+
+# Mobile tethering
+
+See information from here,
+
+https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering.
