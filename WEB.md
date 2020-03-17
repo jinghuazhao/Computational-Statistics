@@ -104,7 +104,7 @@ chmod -R +r /public/$HOME/public_html
 find /public/$HOME/public_html -type d -exec chmod +x {} \;
 ```
 
-# Mobile tethering
+### Mobile tethering
 
 See information from here,
 
