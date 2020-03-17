@@ -68,6 +68,12 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 then the Google repository is also added.
 
+### Mobile tethering
+
+See information from here,
+
+https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering.
+
 ### sphinx
 
 The sequence below follows,  https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html.
@@ -82,12 +88,6 @@ sphinx-quickstart
 make html
 pip install recommonmark
 ```
-
-### Mobile tethering
-
-See information from here,
-
-https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering.
 
 ## Synchronisation
 
