@@ -1,21 +1,5 @@
 # Web-related notes
 
-## file synchronisation
-
-We can employ `rsync` to synchronise the working node to the web space, e.g.,
-```bash
-rsync -avrzP $HOME/public_html shell.srcf.net:/public/$HOME
-```
-Note that it works equally well for backup of files locally.
-
-## Sophisticated file transfer program
-
-Non-interactive authentication for both `ftp` and `sftp` can be anabled by`lftp`, which can be installed with
-```bash
-sudo apt install lftp
-```
-Note in both cases command delimiters are required.
-
 ### ftp
 
 ```bash
@@ -104,3 +88,19 @@ find /public/$HOME/public_html -type d -exec chmod +x {} \;
 See information from here,
 
 https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering.
+
+## Synchronisation
+
+We can employ `rsync` to synchronise the working node to the web space, e.g.,
+```bash
+rsync -avrzP $HOME/public_html shell.srcf.net:/public/$HOME
+```
+Note that it works equally well for backup of files locally.
+
+## Sophisticated file transfer program
+
+Non-interactive authentication for both `ftp` and `sftp` can be anabled by`lftp`, which can be installed with
+```bash
+sudo apt install lftp
+```
+Note in both cases command delimiters are required.
