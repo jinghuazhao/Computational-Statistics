@@ -1,17 +1,12 @@
 # Web-related notes
 
-## file synchronisation and permissions for web site
+## file synchronisation
 
 We can employ `rsync` to synchronise the working node to the web space, e.g.,
 ```bash
 rsync -avrzP $HOME/public_html shell.srcf.net:/public/$HOME
 ```
-Then we set the file permissions at the web space, e.g.,
-```bash
-chmod -R +r /public/home/$USER/public_html
-find /public/home/$USER/public_html -type d -exec chmod +x {} \;
-```
-Note that the synchronisation works equally well for backup of files locally.
+Note that it works equally well for backup of files locally.
 
 ## Sophisticated file transfer program
 
