@@ -1,5 +1,16 @@
 # Web-related notes
 
+## Sophisticated file transfer program
+
+Non-interactive authentication for both `ftp` and `sftp` can be anabled by`lftp`, which can be installed with
+```bash
+# Fedora
+sudo dnf install lftp
+# Ubuntun
+sudo apt install lftp
+```
+Note in both cases command delimiters are required.
+
 ### ftp
 
 ```bash
@@ -38,14 +49,6 @@ put *;
 bye;
 EOF
 ```
-
-## Sophisticated file transfer program
-
-Non-interactive authentication for both `ftp` and `sftp` can be anabled by`lftp`, which can be installed with
-```bash
-sudo apt install lftp
-```
-Note in both cases command delimiters are required.
 
 ### djvulibre
 
