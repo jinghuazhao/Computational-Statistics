@@ -282,6 +282,18 @@ export LD=xild
 export MKL="-lmkl_gf_lp64 -lmkl_intel_thread  -lmkl_core -liomp5 -lpthread"
 ./configure --prefix=/home/jhz22/R-devel --enable-R-shlib --with-x=no --with-blas=-lmkl LDFLAGS=-L/home/jhz22/lib CPPFLAGS=-I/home/jhz22/include
 ```
+For Windows, see https://software.intel.com/content/www/us/en/develop/documentation/get-started-with-mkl-for-windows/top.html. The benchmark is available from here, https://github.com/pachamaltese/r-with-intel-mkl/blob/master/00-benchmark-scripts/1-r-benchmark-25.R.
+```dos
+cd "C:\Program Files\R\R-4.0.0\bin\x64"
+rename Rblas.dll Rblas.dll.orig
+rename Rlapack.dll Rlapack.dll.orig
+cd "C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\redist\intel64_win\mkl"
+copy mkl_rt.dll "C:\Program Files\R\R-4.0.0\bin\x64\Rblas.dll"
+copy mkl_rt.dll "C:\Program Files\R\R-4.0.0\bin\x64\Rlapack.dll"
+copy mkl_intel_thread.dll "C:\Program Files\R\R-4.0.0\bin\x64"
+```
+making this known the PATH.
+
 ## NLopt
 
 Available from https://nlopt.readthedocs.io/en/latest/ with R counterpart from https://cran.r-project.org/web/packages/nloptr/index.html.
