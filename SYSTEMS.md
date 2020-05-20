@@ -170,6 +170,11 @@ sudo VBoxClient-all
 
 For Fedora 31, see https://www.if-not-true-then-false.com/2010/install-virtualbox-guest-additions-on-fedora-centos-red-hat-rhel/.
 
+See https://www.nakivo.com/blog/make-virtualbox-full-screen/ on full-screen size, in particular,
+```dos
+"\Program Files\Oracle\VirtualBox\VBoxManage" setextradata "32" VBoxInternal2/EfiGraphicsResolution 1920x1080 for virtual machine 32.
+```
+
 Here are the steps, quoting http://www.netreliant.com/news/8/17/Compacting-VirtualBox-Disk-Images-Linux-Guests.html, for compressing large .vdi:
 ```bash
 # Linux
