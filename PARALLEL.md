@@ -128,3 +128,9 @@ mv ${p}-000001.png INTERVAL.${p}.png
 This is a single parameter case and it is possible to allow for more parameters in both cases.
 
 Note also that the option `--array=1-50` instructs the system to schedule jobs and in jobs with large memory usage it is more preferable to change to `--array 1-50%4` so that a maximum of four jobs will be run simultaneously.
+
+## Job scheduling
+
+echo "ls -l" | at 01:00
+
+crontab.guru, https://crontab.guru/examples.html
