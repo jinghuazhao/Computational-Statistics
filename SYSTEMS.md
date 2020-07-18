@@ -41,6 +41,11 @@ There are multiple routes to install particular Linux software; one may prefer t
 
 A rich source of tips are in [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) and [awesome-shell](https://github.com/alebcay/awesome-shell).
 
+The following command gives bit information (32 or 64)
+```bash
+getconf LONG_BIT
+```
+
 The LSB (Linux Standard Base) and distribution information is given with
 ```bash
 lsb_release -a
