@@ -343,7 +343,15 @@ PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
 ## AWS
 
+http://aws.amazon.com/
+
 [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws).
+
+E.g.,
+
+* https://sites.google.com/site/jpopgen/wgsa/create-an-aws-account
+* https://sites.google.com/site/jpopgen/wgsa/launch-an-instance
+* https://sites.google.com/site/jpopgen/wgsa/terminate-an-instance
 
 ## modules
 
