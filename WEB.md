@@ -77,6 +77,12 @@ See information from here,
 
 https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering.
 
+### Google document and EndNote
+
+It is possible to insert citation from an EndNote library, download as RTF more preferably OpenDocument format, and recover the citations through Tools --> Format paper, e.g.,
+
+https://libguides.jcu.edu.au/endnote/google-docs
+
 ### sphinx
 
 The sequence below follows,  https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html.
