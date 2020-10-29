@@ -115,8 +115,12 @@ sudo apt-get install libcanberra-gtk3-module
 ```
 It is useful to use `sudo apt install tasksel`, then one can use `sudo tasksel`.
 
-Lastly, system hibernation can be done with `sudo systemctl hibernate`.
+The system hibernation can be done with `sudo systemctl hibernate`.
 
+To enable color with nano, try
+```bash
+find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
+```
 
 ## Oracle VirtualBox
 
