@@ -115,12 +115,19 @@ sudo apt-get install libcanberra-gtk3-module
 ```
 It is useful to use `sudo apt install tasksel`, then one can use `sudo tasksel`.
 
-The system hibernation can be done with `sudo systemctl hibernate`.
-
+One would get error message such as "You must put some ‘source’ URIs in your sources.list" which can be done as follows
+```bash
+sudo apt-get update
+sudo nano /etc/apt/sources.list
+# uncomment deb-src here
+apt-get source hello
+```
 To enable color with nano, try
 ```bash
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 ```
+The system hibernation can be done with `sudo systemctl hibernate`.
+
 
 ## Oracle VirtualBox
 
