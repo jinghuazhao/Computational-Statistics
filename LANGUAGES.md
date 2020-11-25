@@ -204,3 +204,20 @@ to be followed by
 ```r
 install.packages("plotly",depend=TRUE,repos="https://cran.r-project.org")
 ```
+
+### typescript
+
+First, create hello.ts with two lines,
+```ts
+#!/usr/bin/env ts-node
+console.log('Hello world!');
+```
+and set up the environment,
+
+```
+npm install -g npm
+npm install typescript ts-node -g
+chmod +x hello.ts
+hello.ts
+```
+
