@@ -226,4 +226,4 @@ hello.ts
 It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
 `pandoc README.md -o README.docx`.
 
-See https://pandoc.org/.
+See https://pandoc.org/ and https://pandoc.org/try/.
