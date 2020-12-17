@@ -32,6 +32,7 @@ mirror --parallel=15 --log=/home/$USER/work/ftp.log --verbose;
 bye;
 END
 ```
+Note to put files is possible with -R option.
 
 ### sftp
 
