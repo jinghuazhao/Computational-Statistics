@@ -217,7 +217,7 @@ After installation, it can be invoked from a MS-DOS prompt with
 ```
 wsl
 ```
-The command could also takes additional parameters.
+The command could also takes additional parameters. Alternatively, one can create a desktop entry pointing to C:\Windows\system32\wsl.exe.
 
 It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its`Advanced WSL settings` tab, choose `Graphical environments`
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
