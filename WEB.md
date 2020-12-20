@@ -1,5 +1,12 @@
 # Web-related notes
 
+## wget
+
+A useful instance is as follows,
+```bash
+wget -nd --execute="robots = off" --mirror --convert-links --no-parent --wait=5 http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/csv/GTEx_V8/ge/
+```
+
 ## Sophisticated file transfer program
 
 Non-interactive authentication for both `ftp` and `sftp` can be anabled by`lftp`, which can be installed with
