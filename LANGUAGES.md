@@ -214,6 +214,7 @@ Calls from R
 Package examples for Fortran,
 * https://cran.r-project.org/web/packages/Delaporte/index.html.
 * https://cran.r-project.org/web/packages/spam/index.html
+* https://cran.r-project.org/web/packages/spam64/index.html
 
 Documentation
 * https://www.avrahamadler.com/2018/12/09/the-need-for-speed-part-1-building-an-r-package-with-fortran/
