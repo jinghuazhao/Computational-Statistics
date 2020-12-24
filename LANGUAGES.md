@@ -211,6 +211,10 @@ RFI: R to Modern Fortran Interface, https://github.com/t-kalinowski/RFI
 
 Package example for Fortran, https://cran.r-project.org/web/packages/Delaporte/index.html.
 
+https://www.avrahamadler.com/2018/12/09/the-need-for-speed-part-1-building-an-r-package-with-fortran/
+
+https://www.avrahamadler.com/2018/12/23/the-need-for-speed-part-2-c-vs-fortran-vs-c/
+
 ### typescript
 
 First, create hello.ts with two lines,
