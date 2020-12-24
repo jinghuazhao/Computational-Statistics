@@ -209,6 +209,8 @@ Basic examples using OpenMP with R, for C, C++, F77, and Fortran 2003 using Romp
 
 RFI: R to Modern Fortran Interface, https://github.com/t-kalinowski/RFI
 
+Package example for Fortran, https://cran.r-project.org/web/packages/Delaporte/index.html.
+
 ### typescript
 
 First, create hello.ts with two lines,
