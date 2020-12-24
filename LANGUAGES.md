@@ -205,6 +205,10 @@ to be followed by
 install.packages("plotly",depend=TRUE,repos="https://cran.r-project.org")
 ```
 
+Basic examples using OpenMP with R, for C, C++, F77, and Fortran 2003 using Romp, https://github.com/wrathematics/Romp
+
+RFI: R to Modern Fortran Interface, https://github.com/t-kalinowski/RFI
+
 ### typescript
 
 First, create hello.ts with two lines,
