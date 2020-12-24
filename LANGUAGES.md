@@ -209,6 +209,8 @@ Basic examples using OpenMP with R, for C, C++, F77, and Fortran 2003 using Romp
 
 RFI: R to Modern Fortran Interface, https://github.com/t-kalinowski/RFI
 
+Stanford Utility Tools for R packages using Fortran, https://bnaras.github.io/SUtools/articles/SUtools.html
+
 Package example for Fortran, https://cran.r-project.org/web/packages/Delaporte/index.html.
 
 https://www.avrahamadler.com/2018/12/09/the-need-for-speed-part-1-building-an-r-package-with-fortran/
