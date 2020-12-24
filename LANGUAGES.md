@@ -55,6 +55,10 @@ Information on modernising Fortran could be very useful in foreign language call
 
 http://fortranwiki.org/fortran/show/Modernizing+Old+Fortran.
 
+Debugging Fortran code with gdb
+
+https://undo.io/resources/debugging-fortran-code-gdb/
+
 ### Java
 
 The IDE of choice is NetBeans (e.g., DEPICT and JAM); however 8.1 from `apt install` under Ubuntu 18.04 crashes
