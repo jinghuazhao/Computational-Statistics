@@ -205,17 +205,20 @@ to be followed by
 install.packages("plotly",depend=TRUE,repos="https://cran.r-project.org")
 ```
 
-Basic examples using OpenMP with R, for C, C++, F77, and Fortran 2003 using Romp, https://github.com/wrathematics/Romp
+Calls from R
 
-RFI: R to Modern Fortran Interface, https://github.com/t-kalinowski/RFI
+* Basic examples using OpenMP with R, for C, C++, F77, and Fortran 2003 using Romp, https://github.com/wrathematics/Romp
+* RFI: R to Modern Fortran Interface, https://github.com/t-kalinowski/RFI
+* Stanford Utility Tools for R packages using Fortran, https://bnaras.github.io/SUtools/articles/SUtools.html
 
-Stanford Utility Tools for R packages using Fortran, https://bnaras.github.io/SUtools/articles/SUtools.html
+Package examples for Fortran,
+* https://cran.r-project.org/web/packages/Delaporte/index.html.
+* https://cran.r-project.org/web/packages/spam/index.html
 
-Package example for Fortran, https://cran.r-project.org/web/packages/Delaporte/index.html.
-
-https://www.avrahamadler.com/2018/12/09/the-need-for-speed-part-1-building-an-r-package-with-fortran/
-
-https://www.avrahamadler.com/2018/12/23/the-need-for-speed-part-2-c-vs-fortran-vs-c/
+Documentation
+* https://www.avrahamadler.com/2018/12/09/the-need-for-speed-part-1-building-an-r-package-with-fortran/
+* https://www.avrahamadler.com/2018/12/23/the-need-for-speed-part-2-c-vs-fortran-vs-c/
+* https://www.sciencedirect.com/science/article/pii/S2352711018300785?via%3Dihub
 
 ### typescript
 
