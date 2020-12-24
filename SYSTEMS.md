@@ -211,13 +211,16 @@ Additional note: 6.1.4 has problem with its Guess Additions. To enable copy/past
 
 Official page: https://github.com/microsoft/WSL
 
-A description on PowerShell is here, https://docs.microsoft.com/en-us/windows/wsl/install-win10.
+A description on PowerShell is here, https://docs.microsoft.com/en-us/windows/wsl/install-win10. To initiate from PowerShell, use
+```
+dism /online /enable-feature /feature-name:Microsoft-Windows-Subsystem-Linux /all /norestart
+```
 
 After installation, it can be invoked from a MS-DOS prompt with
 ```
-wsl
+wsl -help
 ```
-The command could also takes additional parameters. Alternatively, one can create a desktop entry pointing to C:\Windows\system32\wsl.exe.
+The command could also takes additional parameters, e.g., -d debian. Alternatively, one can create a desktop entry pointing to C:\Windows\system32\wsl.exe.
 
 It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its`Advanced WSL settings` tab, choose `Graphical environments`
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
