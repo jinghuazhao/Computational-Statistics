@@ -59,7 +59,7 @@ Debugging Fortran code
 
 * gdb https://undo.io/resources/debugging-fortran-code-gdb/
 * valgrind
-
+```
 program segfault1
   implicit none
   real, dimension(10) :: a
@@ -75,6 +75,7 @@ end program segfault1
 ! valgrind  --leak-check=full --dsymutil=yes --track-origins=yes ./segfault1
 ! MacOS --dsymutil=yes:
 ! valgrind  --leak-check=full --dsymutil=yes --track-origins=yes ./segfault1
+```
 
 ### Java
 
