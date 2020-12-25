@@ -55,9 +55,26 @@ Information on modernising Fortran could be very useful in foreign language call
 
 http://fortranwiki.org/fortran/show/Modernizing+Old+Fortran.
 
-Debugging Fortran code with gdb
+Debugging Fortran code
 
-https://undo.io/resources/debugging-fortran-code-gdb/
+* gdb https://undo.io/resources/debugging-fortran-code-gdb/
+* valgrind
+
+program segfault1
+  implicit none
+  real, dimension(10) :: a
+  integer :: i
+  a = 0.
+  do i = 1, 12
+     a(i) = i
+     print*,a(i)
+  end do
+end program segfault1
+
+! gfortran -g -Wall -Wextra -Wimplicit-interface -fPIC -fmax-errors=1 -fcheck=all -fbacktrace segfault1.f90 -o segfault1
+! valgrind  --leak-check=full --dsymutil=yes --track-origins=yes ./segfault1
+! MacOS --dsymutil=yes:
+! valgrind  --leak-check=full --dsymutil=yes --track-origins=yes ./segfault1
 
 ### Java
 
