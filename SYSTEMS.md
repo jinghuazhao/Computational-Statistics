@@ -404,6 +404,16 @@ Usually the `eval` line is sufficient.
 
 See [https://www.docker.com/](https://www.docker.com/).
 
+For Fedora 33, we have
+```bash
+udo dnf -y install dnf-plugins-core
+sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+sudo dnf install docker-ce docker-ce-cli containerd.io
+sudo systemctl start docker
+sudo docker pull eqtlcatalogue/susie-finemapping:v20.08.1
+sudo docker run eqtlcatalogue/susie-finemapping:v20.08.1
+```
+
 ## OpenVPN
 
 See [https://github.com/OpenVPN/openvpn-gui](https://github.com/OpenVPN/openvpn-gui).
