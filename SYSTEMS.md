@@ -402,7 +402,7 @@ Usually the `eval` line is sufficient.
 
 ## docker
 
-See [https://www.docker.com/](https://www.docker.com/).
+See [https://www.docker.com/](https://www.docker.com/) and https://docs.docker.com/.
 
 For Fedora 33, we have
 ```bash
@@ -412,6 +412,10 @@ sudo dnf install docker-ce docker-ce-cli containerd.io
 sudo systemctl start docker
 sudo docker pull eqtlcatalogue/susie-finemapping:v20.08.1
 sudo docker run eqtlcatalogue/susie-finemapping:v20.08.1
+# remove docker engine
+# sudo dnf remove docker-ce docker-ce-cli containerd.io
+# removed all images, containers, and volumes
+sudo rm -rf /var/lib/docker
 ```
 
 ## OpenVPN
