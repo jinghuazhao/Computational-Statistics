@@ -276,6 +276,9 @@ and start and start rdp to \<IPv4 address\>:3390.
 It might be hard to get going with firefox or Chrome for the Internet, but here is a simple way around,
 ```wsl
 cmd.exe /c start https://github.com
+echo cmd.exe /c start https://github.com > ${HOME}/bin/edge
+chmod +x ${HOME}/bin/edge
+edge
 ```
 In fact, it is easy with default applications under Windows, e.g., `cmd.exe /c u:/work/eQTL-MR.pptx` which opens up PowerPoint directly.
 
