@@ -256,7 +256,7 @@ xfce4 can also be made available with
 sudo apt update
 sudo apt install xorg
 sudo apt install xfce4
-sudo echo xfce4-session > ~/.xsession
+echo xfce4-session > ~/.xsession
 xfce4-session &
 ```
 
