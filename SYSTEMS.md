@@ -219,6 +219,8 @@ dism /online /enable-feature /feature-name:Microsoft-Windows-Subsystem-Linux /al
 After installation, it can be invoked from a MS-DOS prompt with
 ```
 wsl -help
+wsl --list
+wsl --distribution Ubuntu
 ```
 The command could also takes additional parameters, e.g., -d debian. Alternatively, one can create a desktop entry pointing to C:\Windows\system32\wsl.exe.
 
