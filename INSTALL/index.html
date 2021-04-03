@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>INSTALL - Computational Statistics</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "INSTALL";
+    var mkdocs_page_input_path = "INSTALL.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Computational Statistics</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">INSTALL</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#armadillo">Armadillo</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#boost">boost</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#eigen">eigen</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gmpmpfr">GMP/MPFR</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gsl">GSL</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#jags-430">JAGS-4.3.0</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#blas-and-lapack">BLAS and LAPACK</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mkl">MKL</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#nlopt">NLopt</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gnu-octave">GNU Octave</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#pspp">PSPP</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#python">python</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#r">R</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#fedora-31">Fedora 31</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ubuntu-1804">Ubuntu 18.04</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#windows">Windows</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#package-installation">Package installation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rstudio">RStudio</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sagemath">SageMath</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stan">stan</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#unixodbc">unixODBC</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#zlib">zlib</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../LANGUAGES/">LANGUAGES</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../PARALLEL/">PARALLEL</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../REPRODUCE/">REPRODUCE</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../SYSTEMS/">SYSTEM</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../WEB/">WEB</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Computational Statistics</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>INSTALL</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="installation-notes">Installation notes</h1>
+<p>This section lists software which serve as backbone for a variety of projects including those in genetics.
+Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>URLs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#armadillo">Armedillo</a></td>
+<td>http://arma.sourceforge.net/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#boost">boost</a></td>
+<td>https://www.boost.org/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#eigen">eigen</a></td>
+<td>http://eigen.tuxfamily.org</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#gmpmpfr">GMP/MPFR</a></td>
+<td>https://gmplib.org/, https://www.mpfr.org/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#gnu-octave">GNU Octave</a></td>
+<td>https://www.gnu.org/software/octave/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#GSL">GSL</a></td>
+<td>https://www.gnu.org/software/gsl/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#blas-and-lapack">LAPACK</a></td>
+<td>http://www.netlib.org/lapack/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#openblas">OpenBLAS</a></td>
+<td>https://www.openblas.net/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#netlib-java">netlib-java</a></td>
+<td>https://github.com/fommil/netlib-java</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#mkl">MKL</a></td>
+<td>https://software.intel.com/en-us/mkl</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#maple">Maple</a></td>
+<td>https://www.maplesoft.com/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#mathematica">Mathematica</a></td>
+<td>https://www.wolfram.com/mathematica/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#matlab">MATLAB</a></td>
+<td>https://www.mathworks.com/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#nag">NAG</a></td>
+<td>https://www.nag.co.uk</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#nlopt">NLopt</a></td>
+<td>https://nlopt.readthedocs.io/en/latest/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#pspp">PSPP</a></td>
+<td>https://www.gnu.org/software/pspp/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#python">Python</a></td>
+<td>https://www.python.org/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#sagemath">SageMath</a></td>
+<td>http://www.sagemath.org/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#stata">Stata</a></td>
+<td>https://www.stata.com/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#sas">SAS</a></td>
+<td>https://www.sas.com/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#r">R</a></td>
+<td>https://www.r-project.org/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#stan">Stan</a></td>
+<td>http://mc-stan.org/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#bugs">BUGS</a></td>
+<td>https://www.mrc-bsu.cam.ac.uk/software/bugs/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#jags-430">JAGS</a></td>
+<td>http://mcmc-jags.sourceforge.net/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#OpenBUGS">OpenBUGS</a></td>
+<td>www.openbugs.net/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jinghuazhao/Computational-Statistics/blob/master/INSTALL.md#unixODBC">unixODBC</a></td>
+<td>http://www.unixodbc.org/</td>
+</tr>
+</tbody>
+</table>
+<h2 id="armadillo">Armadillo</h2>
+<p>It is available with</p>
+<pre><code class="language-bash">sudo apt install libarmadillo-dev
+</code></pre>
+<h2 id="boost">boost</h2>
+<p>It is installed with</p>
+<pre><code class="language-bash">sudo apt install libboost-all-dev
+</code></pre>
+<p>To install it manually from source, as for a particular version, https://stackoverflow.com/questions/12578499/how-to-install-boost-on-ubuntu</p>
+<pre><code class="language-bash">wget https://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.tar.gz
+tar xvfz boost_1_58_0.tar.gz
+cd boost_1_58_0
+# ./b2 -h gives more options
+./bootstrap.sh --prefix=/scratch/jhz22
+./b2
+</code></pre>
+<p>With a successful built, the following directory is suggested to be added to compiler include paths:</p>
+<pre><code>boost_1_58_0
+</code></pre>
+<p>The following directory should be added to linker library paths:</p>
+<pre><code>boost_1_58_0/stage/lib
+</code></pre>
+<p>and we can test with example</p>
+<pre><code class="language-cpp">#include &lt;iostream&gt;
+#include &lt;boost/array.hpp&gt;
+
+using namespace std;
+int main(){
+  boost::array&lt;int, 4&gt; arr = {{1,2,3,4}};
+  cout &lt;&lt; &quot;hi&quot; &lt;&lt; arr[0];
+  return 0;
+}
+</code></pre>
+<h2 id="eigen">eigen</h2>
+<p>It is installed with</p>
+<pre><code class="language-bash">sudo apt install libeigen3-dev
+</code></pre>
+<h2 id="gmpmpfr">GMP/MPFR</h2>
+<p>One can start usual from https://gmplib.org/ and https://www.mpfr.org/.</p>
+<pre><code class="language-bash">sudo apt install libgmp-dev
+sudo apt install libmpfr-dev
+</code></pre>
+<p>then one can install Rmpfr. When installing as non-Admin, make sure issuing 'make check' for both libraries. As MPFR is dependent on GMP, it is necessary to use</p>
+<pre><code class="language-bash">cd /home/jhz22/Downloads/mpfr-4.0.1
+./configure --prefix=/scratch/jhz22 --with-gmp-build=/home/jhz22/Downloads/gmp-6.1.2
+make check
+</code></pre>
+<p>for instance.</p>
+<h2 id="gsl">GSL</h2>
+<pre><code class="language-bash">sudo apt install libgsl-dev
+</code></pre>
+<h2 id="jags-430">JAGS-4.3.0</h2>
+<p>These are required at least under Federa 28,</p>
+<pre><code class="language-bash">sudo dnf install automake
+sudo dnf install lapack-devel
+sudo dnf install mercurial
+</code></pre>
+<p>It is actually available from Ubuntu archive, i.e.,</p>
+<pre><code class="language-bash">sudo apt install jags
+sudo apt-get install r-cran-rjags
+</code></pre>
+<p>We can also work with sourceforge,</p>
+<pre><code class="language-bash">wget https://sourceforge.net/projects/mcmc-jags/files/JAGS/4.x/Source/JAGS-4.3.0.tar.gz
+tar xvfz JAGS-4.3.0.tar.gz
+cd JAGS-4.3.0
+LDFLAGS=&quot;-L/scratch/jhz22/lib64&quot; ./configure --prefix=/scratch/jhz22 --with-blas=-lblas --with-lapack=-llapack
+make
+make install
+</code></pre>
+<p>Under MKL, we have</p>
+<pre><code class="language-bash">#22-7-2014 MRC-Epid JHZ
+
+export MKL_NUM_THREAD=15
+export MKL=/home/jhz22/intel/composer_xe_2013.4.183/mkl
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$MKLROOT/lib/intel64
+/genetics/data/software/intel/composer_xe_2013.4.183/mkl/bin/mklvars.sh intel64
+./configure --prefix=/home/jhz22 --disable-shared --with-lapack \
+--with-blas=&quot;-fopenmp -m64 -I$MKL/include -L$MKL/lib/intel64 -lmkl_gf_lp64 -lmkl_gnu_thread -lmkl_core -lpthread -lm&quot;
+make
+</code></pre>
+<p>It turns out the easiest to install rjags package is to download it and work manually, e.g.,</p>
+<pre><code class="language-bash">R --no-save &lt;&lt;END
+  download.packages(&quot;rjags&quot;,&quot;.&quot;)
+END
+tar xvfz rjags_4-8.tar.gz
+cd rjags
+rm configure
+cd src
+(
+  echo CPP_FLAGS=-I/usr/local/include/JAGS
+  echo LDFLAGS=-L/usr/local/lib
+) &gt; Makevars
+cd ../..
+R CMD INSTALL rjags
+</code></pre>
+<p>The rjags package can also be installed as follows,</p>
+<pre><code class="language-bash">export PKG_CONFIG_PATH=/scratch/jhz22/lib/pkgconfig
+
+R CMD INSTALL rjags_4-6.tar.gz --configure-args='CPPFLAGS=&quot;-fPIC&quot; LDFLAGS=&quot;-L/scratch/jhz22/lib -ljags&quot;
+--with-jags-prefix=/scratch/jhz22
+--with-jags-libdir=/scratch/jhz22/lib
+--with-jags-includedir=/scratch/jhz22/include'
+</code></pre>
+<p>It may still be difficult to install, and we can try manually,</p>
+<pre><code class="language-bash">tar xfz rjags_4-6.tar.gz
+cd rjags
+mv configure configure.bak
+echo PKG_CPPFLAGS=-fPIC -I/scratch/$USER/include/JAGS &gt; src/Makevars
+echo PKG_LIBS=-L/scratch/$USER/lib -ljags &gt;&gt; src/Makevars
+cd -
+R CMD INSTALL rjags
+</code></pre>
+<p>After this, rjags should install as with R2jags.</p>
+<p>We can also install JAGS-related packages by establishing an Makevars in the src directory, e.g.,</p>
+<pre><code class="language-bash">R --no-save &lt;&lt;END
+download.packages(&quot;runjags&quot;,&quot;.&quot;)
+END
+tar xvfz runjags_2.0.4-2.tar.gz
+cd runjags
+mv configure configure.bak
+# modify jagsversions.h
+# cp Makevars.runjags src/Makevars
+cd -
+R CMD INSTALL runjags
+</code></pre>
+<p>We need to add modify runjags/src/jagsversions.h to proceed,</p>
+<pre><code class="language-c">#ifndef JAGS_VERSIONS_H_
+#define JAGS_VERSIONS_H_
+
+#include &lt;version.h&gt;
+#ifndef JAGS_MAJOR
+#define JAGS_MAJOR 4
+#endif
+
+#define JAGS_MAJOR_FORCED 0
+</code></pre>
+<p>where the Makevars.runjags has the following lines</p>
+<pre><code>PKG_CPPFLAGS=-I/scratch/jhz22/include
+PKG_LIBS=-L/scratch/jhz22/lib -ljags 
+
+OBJECTS= distributions/jags/DFunction.o distributions/jags/DPQFunction.o distributions/jags/PFunction.o distributions/jags/QFunction.o distributions/jags/RScalarDist.o distributions/DPar1.o distributions/DPar2.o distributions/DPar3.o distributions/DPar4.o distributions/DLomax.o distributions/DMouchel.o distributions/DGenPar.o distributions/DHalfCauchy.o runjags.o testrunjags.o
+</code></pre>
+<p>To get around these, one can mirror installation of rjags using the fact that runjags simply calls libjags.so though the source seemed for JAGS 3.x.x.,</p>
+<pre><code class="language-bash">export PKG_CONFIG_PATH=/rds-d4/user/jhz22/hpc-work/lib/pkgconfig
+export LDFLAGS=&quot;-L/rds-d4/user/jhz22/hpc-work/lib -ljags -lblas -llapack&quot;
+R CMD INSTALL runjags_2.0.4-2.tar.gz --configure-args='
+--with-jags-prefix=/rds-d4/user/jhz22/hpc-work
+--with-jags-libdir=/rds-d4/user/jhz22/hpc-work/lib
+--with-jags-includedir=/rds-d4/user/jhz22/hpc-work/include'
+</code></pre>
+<p>but somehow runjags is always points to lib64 for libjags.so, so when libjags.so is in lib instead it is necessary to create symbolic links from lib64.</p>
+<h2 id="blas-and-lapack">BLAS and LAPACK</h2>
+<p>The pre-built version is straightforward for Fedora with</p>
+<pre><code class="language-bash">sudo dnf install blas-devel
+sudo dnf install lapack-devel
+</code></pre>
+<p>and the counterpart for Ubuntu is</p>
+<pre><code class="language-bash">sudo apt install libblas-dev
+sudo apt install liblapack-dev
+</code></pre>
+<p>To install from http://www.netlib.org/lapack/, we proceed as follows,</p>
+<pre><code class="language-bash">wget http://www.netlib.org/lapack/lapack-3.8.0.tar.gz
+tar xvfz lapack-3.8.0.tar.gz
+cd lapack-3.8.0
+mkdir build
+cd build
+## ccmake .
+cmake ..
+make
+make install
+</code></pre>
+<p>It is necessary to invoke <code>ccmake ..</code> to change the default static to dyanmic library as well as target directory. However, in case this is working, one can proceed as follows,</p>
+<pre><code class="language-bash">cmake -DCMAKE_INSTALL_PREFIX=/rds-d4/user/jhz22/hpc-work -DCMAKE_BUILD_TYPE=RELEASE -DBUILD_SHARED_LIBS=ON -DCBLAS=ON -DLAPACKE=ON ..
+make
+make install
+</code></pre>
+<h2 id="mkl">MKL</h2>
+<p>One can consult <a href="https://software.intel.com/en-us/articles/intel-mkl-link-line-advisor">Intel® Math Kernel Library Link Line Advisor</a> and <a href="https://software.intel.com/en-us/articles/free-ipsxe-tools-and-libraries">Free access to Intel® Compilers, Performance libraries, Analysis tools and more...</a>.</p>
+<p>For instance, it is conviently available from Anaconda,</p>
+<pre><code class="language-bash">conda install -c intel mkl
+</code></pre>
+<p>Example use with R under RHEL,</p>
+<pre><code class="language-bash"># export OMP_NUM_THREADS=6
+export MKL_NUM_THREADS=15
+export MKLROOT=/genetics/data/software/intel/composer_xe_2013.4.183/mkl
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$MKLROOT/lib/intel64
+/genetics/data/software/intel/composer_xe_2013.4.183/mkl/bin/mklvars.sh intel64
+./configure --prefix=/genetics/data/software --enable-R-shlib --enable-threads=posix --with-lapack \
+ --with-blas=&quot;-fopenmp -m64 -I$MKLROOT/include -L$MKLROOT/lib/intel64 -lmkl_gf_lp64 -lmkl_gnu_thread -lmkl_core -lpthread -lm&quot;
+make
+make install
+</code></pre>
+<p>and</p>
+<pre><code class="language-bash"># https://software.intel.com/en-us/articles/build-r-301-with-intel-c-compiler-and-intel-mkl-on-linux#
+export ICC_OPT=&quot;-mkl -xHOST -fp-model strict&quot;
+export CC=&quot;icc $ICC_OPT&quot;
+export CXX=&quot;icpc $ICC_OPT&quot;
+export FC=&quot;ifort -mkl -xHOST&quot;
+export F77=&quot;ifort -mkl -xHOST&quot;
+export FPICFLAGS=&quot; -fPIC&quot;
+export AR=xiar
+export LD=xild
+export MKL=&quot;-lmkl_gf_lp64 -lmkl_intel_thread  -lmkl_core -liomp5 -lpthread&quot;
+./configure --prefix=/home/jhz22/R-devel --enable-R-shlib --with-x=no --with-blas=-lmkl LDFLAGS=-L/home/jhz22/lib CPPFLAGS=-I/home/jhz22/include
+</code></pre>
+<p>For Windows, see https://software.intel.com/content/www/us/en/develop/documentation/get-started-with-mkl-for-windows/top.html. The benchmark is available from here, https://github.com/pachamaltese/r-with-intel-mkl/blob/master/00-benchmark-scripts/1-r-benchmark-25.R.</p>
+<pre><code class="language-dos">cd &quot;C:\Program Files\R\R-4.0.0\bin\x64&quot;
+rename Rblas.dll Rblas.dll.orig
+rename Rlapack.dll Rlapack.dll.orig
+cd &quot;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\redist\intel64_win\mkl&quot;
+copy mkl_rt.dll &quot;C:\Program Files\R\R-4.0.0\bin\x64\Rblas.dll&quot;
+copy mkl_rt.dll &quot;C:\Program Files\R\R-4.0.0\bin\x64\Rlapack.dll&quot;
+copy mkl_intel_thread.dll &quot;C:\Program Files\R\R-4.0.0\bin\x64&quot;
+</code></pre>
+<p>making this known the PATH.</p>
+<h2 id="nlopt">NLopt</h2>
+<p>Available from https://nlopt.readthedocs.io/en/latest/ with R counterpart from https://cran.r-project.org/web/packages/nloptr/index.html.</p>
+<h2 id="gnu-octave">GNU Octave</h2>
+<p>It is available with,</p>
+<pre><code class="language-bash">sudo apt install octave
+</code></pre>
+<h2 id="pspp">PSPP</h2>
+<p>Under Ubuntu, this can be made available with</p>
+<pre><code class="language-bash">sudo apt install pspp
+</code></pre>
+<p>For Fedora, we have</p>
+<pre><code class="language-bash">sudo dnf install pspp
+</code></pre>
+<p>which will install libpq, gsl, gtksourceview3, spread-sheet-widget as well, see https://apps.fedoraproject.org/packages/pspp.</p>
+<p>Two simple SPSS command files <a href="../src/example.sps">example.sps</a> and <a href="../src/plot.sps">plot.sps</a> can be called with</p>
+<pre><code class="language-bash">pspp example.sps 
+psppire plot.sps
+</code></pre>
+<p>showing CLI and GUI, respectively. Related utilities are <code>pspp-convert</code>.</p>
+<p>It is possible to compile it directly by using</p>
+<ul>
+<li>gtksourceview 4.0.3 (4.4.0 is more demanding with Python 3.5, meson, Vala, etc.) and use PKG_CONFIG_PATH when appropriate</li>
+<li>spread-sheet-widget-0.3</li>
+<li>fribidi-1.0.8</li>
+<li>GTKSOURVIEW_CFLAGS and GTKSOURVIEW_LIBS in the configuration.</li>
+</ul>
+<pre><code class="language-bash">export PREFIX=/rds/user/$USER/hpc-work
+export GTKSOURCEVIEW_CFLAGS=-I${PREFIX}/includegtksourceview-4
+export GTKSOURCEVIEW_LIBS=&quot;-L${PREFIX}/lib -lgtksourceview-4&quot;
+./configure --prefix=${PREFIX}
+make
+make install
+</code></pre>
+<p>note that it is necessary to comment on the statement <code>kludge = gtk_source_view_get_type ();</code> from <code>src/ui/gui/widgets.c</code>
+and to remove the <code>PREFIX=</code> speficiation in the Perl part of compiling, i.e,</p>
+<pre><code>cd perl-module
+/usr/bin/perl Makefile.PL PREFIX=/rds/user/$USER/hpc-work OPTIMIZE=&quot;-g -O2 -I/rds-d4/user/$USER/hpc-work/include/fribidi -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/uuid -I/usr/include/libdrm -I/usr/include/pango-1.0 -I/usr/include/harfbuzz  &quot;
+</code></pre>
+<h2 id="python">python</h2>
+<p>A useful resource is code from <a href="https://github.com/ctgk/PRML">Pattern Recognition and Machine Learning</a>.</p>
+<p>It is possible to conduct survival analysis with <a href="https://lifelines.readthedocs.io/en/latest/index.html">lifelines</a>,</p>
+<pre><code class="language-bash">pip install lifelines
+</code></pre>
+<h2 id="r">R</h2>
+<h3 id="fedora-31">Fedora 31</h3>
+<p>The R-release, including both the compiled and source package, is built as follows,</p>
+<pre><code class="language-bash">sudo dnf install R
+sudo dnf install R-devel
+</code></pre>
+<p>while the following are necessary to build <a href="https://stat.ethz.ch/R/daily/R-devel.tar.gz">the development version</a>,</p>
+<pre><code class="language-bash">sudo dnf install gcc-c++
+sudo dnf install gcc-gfortran
+sudo dnf install pcre-devel
+sudo dnf install java-1.8.0-openjdk-devel
+sudo dnf install readline-devel
+sudo dnf install libcurl-devel
+sudo dnf install libX11-devel
+sudo dnf install libXt-devel
+sudo dnf install bzip2-devel
+sudo dnf install xz-devel
+sudo dnf install pandoc
+sudo dnf install qpdf
+sudo dnf install texlive-collection-latex
+sudo dnf install texlive-collection-fontsextra
+sudo dnf install texinfo-tex
+sudo dnf install texlive-collection-fontsrecommended
+sudo dnf install texlive-collection-latexrecommended
+./configure
+</code></pre>
+<p>This is necessary since gcc 9 is available and required for <a href="https://cran.r-project.org/submit.html">CRAN package submission</a>, e.g.,</p>
+<pre><code class="language-bash"># R-release to build
+R CMD build gap
+# R-devel to check
+ln -s $HOME/R/R-devel/bin/R $HOME/bin/R-devel
+R-devel CMD check --as-cran gap_1.1-22.tar.gz
+</code></pre>
+<p>For R-devel, these can be used explicitly,</p>
+<pre><code class="language-bash">export CC=&quot;/usr/bin/gcc&quot;
+export CXX=&quot;/usr/bin/g++&quot;
+export FC=&quot;/usr/bin/gfortran&quot;
+export CFLAGS=&quot;-g -O2 -Wall -pedantic -mtune=native&quot;
+export FFLAGS=&quot;-g -O2 -mtune=native -Wall -pedantic&quot;
+export CXXFLAGS=&quot;-g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses&quot;
+export LDFLAGS=&quot;-L/usr/lib64&quot;
+R-devel CMD INSTALL gap_1.2.tar.gz
+</code></pre>
+<p>with check on foreign language calls or</p>
+<pre><code class="language-bash">R-devel CMD INSTALL --configure-args=&quot;
+ CC=\&quot;/usr/bin/gcc\&quot; \
+ CXX=\&quot;/usr/bin/g++\&quot; \
+ FC=\&quot;/usr/bin/gfortran\&quot; \
+ CFLAGS=\&quot;-g -O2 -Wall -pedantic -mtune=native\&quot; \
+ FFLAGS=\&quot;-g -O2 -mtune=native -Wall -pedantic\&quot; \
+ CXXFLAGS=\&quot;-I/usr/include -g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses\&quot; \
+ LDFLAGS=\&quot;-L/usr/lib64\&quot; gap_1.1-26.tar.gz
+ ```
+which is more restrictive than the default --as-cran above. A simpler setup is also possible with `~/.R/Makevars`, e.g.,
+```bash
+CC = gcc
+CXX = g++
+CXX11 = g++
+FC = gfortran
+F77 = gfortran
+F90 = gfortran
+CFLAGS = -std=c99 -I/usr/include -g -O2 -Wall -pedantic -mtune=native -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-parentheses -Wimplicit-function-declaration
+CXXFLAGS = -std=c++11
+</code></pre>
+<p>Another example is as follows,</p>
+<pre><code class="language-bash">module load texlive
+./configure --prefix=/rds-d4/user/jhz22/hpc-work \
+            --enable-R-shlib \
+            CPPFLAGS=-I/rds-d4/user/jhz22/hpc-work/include \
+            LDFLAGS=-L/rds-d4/user/jhz22/hpc-work/lib
+</code></pre>
+<h3 id="ubuntu-1804">Ubuntu 18.04</h3>
+<p>The R environment is furnished with</p>
+<pre><code>sudo apt install r-base-core
+sudo apt install r-base-dev
+</code></pre>
+<p>and R_LIBS is set from .bashrc</p>
+<pre><code>export R_LIBS=/usr/local/lib/R/site-library/
+</code></pre>
+<p>Note that in fact <code>html.start()</code> in R points to /usr/local/lib/R/library/ instead, see below example in <code>MendelianRandomization</code>.</p>
+<p>To enable R-devel/package building, these are necessary</p>
+<pre><code class="language-bash">sudo apt install g++
+sudo apt install gfortran
+sudo apt install texlive
+sudo apt install texlive-fonts-extra
+sudo apt install texinfo
+sudo apt install texlive-fonts-recommended
+sudo apt install libreadline-dev
+</code></pre>
+<p>To set up bzip2, lzma/pcre, curl and then R assuming lapack is already installed,</p>
+<pre><code class="language-bash"># compile shared library Makefile-libbz2_so and then add -FPIC to CC and recompile
+# bzip2
+# make
+# make install PREFIX=$SHOME
+
+# xz
+# ./configure --prefix=SHOME/xz-5.2.3
+# make -j3
+# make install
+
+# pcre
+# ./configure  --prefix=$SHOME  --enable-utf8
+
+# curl
+# ./configure  --prefix=$SHOME --with-ssl
+# make &amp;&amp; make install
+./configure --prefix=/scratch/jhz22 --enable-R-shlib CPPFLAGS=&quot;-I/scratch/jhz22/include&quot; LDFLAGS=&quot;-L/scratch/jhz22/lib&quot;
+
+</code></pre>
+<h3 id="windows">Windows</h3>
+<p>To build packages on Windows, download Rtools from https://cran.r-project.org/ and install to C:\Rtools</p>
+<pre><code class="language-dos">rem 22/8/2019 JHZ
+
+set path=C:\Program Files\R\R-3.6.1\bin;c:\Rtools\bin;%PATH%;c:\Rtools\mingw_64\bin;c:\Rtools\mingw_32\bin
+set lib=c:\Rtools\mingw_64\lib;c:\Rtools\mingw_32\include
+set include=c:\Rtools\mingw_64\include;c:\Rtools\mingw_32\include
+</code></pre>
+<p>We can then run <code>R CMD INSTALL --binary gap</code>, say.</p>
+<p>It seems the --arch x84 option is very useful for using all available RAM; to make sure use call such as <code>D:\Program Files\R\R-3.5.0\bin\x64\R.exe"</code>.</p>
+<p>When this fails, remove large objects in your code and start R with <code>--vanilla</code> option.</p>
+<p>To upgrade R, it is useful to install <code>installr</code> for its <code>updateR()</code>.</p>
+<h3 id="package-installation">Package installation</h3>
+<p><strong>CRAN</strong>. It is typically done with <code>install.packages()</code></p>
+<pre><code class="language-r">install.packages(&quot;ggplot2&quot;,INSTALL_opts=&quot;--library=/usr/local/lib/R/site-library/&quot;)
+</code></pre>
+<p><strong>Bioconductor</strong>. This is done with <code>biocLite</code>.</p>
+<pre><code class="language-r">source(&quot;https://bioconductor.org/biocLite.R&quot;)
+biocLite(&quot;packagename&quot;)
+</code></pre>
+<p>From R 3.5 or greater there is BiocManager,</p>
+<pre><code class="language-r">if (!requireNamespace(&quot;BiocManager&quot;, quietly = TRUE))
+    install.packages(&quot;BiocManager&quot;)
+BiocManager::install()
+</code></pre>
+<p>See https://bioconductor.org/install/.</p>
+<p>Lastly, it is possible with <code>devtools::install_bioc()</code>.</p>
+<p><strong>GitHub</strong>. We could set this up via <code>sudo apt install r-cran-devtools</code>. This is then through <code>devtools::install_github()</code>.</p>
+<pre><code class="language-r">library(devtools)
+install_github(&quot;MRCIEU/TwoSampleMR&quot;,args=&quot;--library=/usr/local/lib/R/site-library&quot;,force=TRUE)
+</code></pre>
+<p>with dedicated location(s); however this is not always the case and an alternative is to use</p>
+<pre><code class="language-bash">sudo R CMD INSTALL &lt;packed/unpacked package&gt; -l $R_LIBS
+</code></pre>
+<p>to install into $R_LIBS.</p>
+<p>It is possible to point to a package, locally or remotely, e.g,</p>
+<pre><code class="language-r">install.packages(&quot;http://cnsgenomics.com/software/gsmr/static/gsmr_1.0.6.tar.gz&quot;,repos=NULL,type=&quot;source&quot;)
+</code></pre>
+<p>whose first argument is a URL.</p>
+<p><strong>Multiple precision arithmetic</strong>. This is modified from notes on SCALLOP-INF analysis.</p>
+<pre><code class="language-bash">sudo apt install libmpfr-dev
+R --no-save &lt;&lt;END
+require(&quot;Rmpfr&quot;)
+z &lt;- 20000
+Rmpfr::pnorm(-mpfr(z,100), mean = 0, sd = 1, lower.tail = TRUE, log.p = FALSE)
+Rmpfr::pnorm(-mpfr(z,100), mean = 0, sd = 1, lower.tail = TRUE, log.p = TRUE)
+# competitor
+-log10(2)-pnorm(-z,lower.tail=TRUE,log.p=TRUE)/log(10)
+END
+</code></pre>
+<p>The function <code>pnorm(-abs(z), lower.tail=TRUE, log.p=TRUE)</code> in R is doing surprisingly well and now an R/gap utility function.</p>
+<p><strong><code>tidy.R</code></strong>. The following code formats R source codes according to the R session,</p>
+<pre><code class="language-bash">function tidy()
+{
+  export input=$1
+R --vanilla &lt;&lt;END
+  options(keep.source = FALSE)
+  input &lt;- Sys.getenv(&quot;input&quot;)
+  source(input)
+  dump(ls(all = TRUE), file = paste0(input,&quot;_out&quot;))
+END
+}
+</code></pre>
+<p><strong>Package reinstallation</strong></p>
+<p>For instance to replace packages under gcc 4.4.7 to gcc 5.4.0, one can resinstall all packages as in /scratch/jhz22/R to /home/jhz22/R,</p>
+<pre><code class="language-bash">R --no-save &lt;&lt;END
+from &lt;- &quot;/scratch/jhz22/R&quot;
+to &lt;- &quot;/home/jhz22/R&quot;
+pkgs &lt;- unname(installed.packages(lib.loc = from)[, &quot;Package&quot;])
+pkgs
+install.packages(pkgs, lib=to, repos=&quot;https://cran.r-project.org&quot;)
+END
+</code></pre>
+<p><strong>Mirror</strong></p>
+<p>We can mirror R packages from $HOME to /scratch as follows,</p>
+<pre><code class="language-bash">rsync -avrzP /home/$USER/R /scratch/$USER/R
+</code></pre>
+<p><strong>Reinstallation</strong></p>
+<p>This could be done with</p>
+<pre><code class="language-r">update.packages(checkBuilt = TRUE, ask = FALSE) 
+</code></pre>
+<p><strong>Specification of repository</strong></p>
+<p>One may see error message on package installation</p>
+<pre><code>&gt; install.packages(&quot;plotly&quot;)
+
+--- Please select a CRAN mirror for use in this session ---
+
+Error in structure(.External(.C_dotTclObjv, objv), class = &quot;tclObj&quot;) : 
+
+  [tcl] bad pad value &quot;2m&quot;: must be positive screen distance.
+</code></pre>
+<p>but can be avoided with specificatino of repository.</p>
+<pre><code class="language-r">&gt; install.packages(&quot;plotly&quot;, repos=&quot;https://cran.r-project.org&quot;)
+</code></pre>
+<h3 id="rstudio">RStudio</h3>
+<p>The distribution has problem loading or creating R script, so it is tempting to install from https://github.com/rstudio/rstudio/. 
+This involves running scripts under directory dependencies/,</p>
+<pre><code>./install-dependencies-debian --exclude-qt-sdk
+</code></pre>
+<p>and then the following steps,</p>
+<pre><code>mkdir build
+cd build
+cmake .. -DRSTUDIO_TARGET=Desktop -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local/lib/rstudio
+</code></pre>
+<p>However, there is error with Java and Java 8 is required, see https://tecadmin.net/install-oracle-java-8-ubuntu-via-ppa/.</p>
+<pre><code>sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
+java -version
+</code></pre>
+<p>However, compile error is still persistent except when dropping the option <code>--exclude-qt-sdk</code> but unloadable.</p>
+<p>It is therefore recommended to get around with RStudio daily builds, https://dailies.rstudio.com/.</p>
+<h2 id="sagemath">SageMath</h2>
+<pre><code class="language-bash">sudo apt install sagemath
+</code></pre>
+<h2 id="stan">stan</h2>
+<p>cmdstan is now available from https://github.com/stan-dev/cmdstan along with other repositories there. Interfaces are listed at http://mc-stan.org/users/interfaces/index.html.</p>
+<p>Information on installing RStan is described here,</p>
+<p>https://github.com/stan-dev/rstan/wiki/Installing-RStan-on-Linux</p>
+<p>On our HPC system under gcc 4.8.5 there are error message</p>
+<pre><code>&gt; library(rstan)
+Loading required package: ggplot2
+Registered S3 methods overwritten by 'ggplot2':
+  method         from
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+Loading required package: StanHeaders
+Error: package or namespace load failed for ‘rstan’ in dyn.load(file, DLLpath = DLLpath, ...):
+ unable to load shared object '/rds-d4/user/jhz22/hpc-work/R/rstan/libs/rstan.so':
+  /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /rds-d4/user/jhz22/hpc-work/R/rstan/libs/rstan.so)
+&gt; q()
+
+</code></pre>
+<p>which can be resolved with <code>module load gcc/5.2.0</code> before invoking R.</p>
+<p>For error message <code>C++14 standard requested but CXX14 is not defined</code> we modify $HOME/.R/Makevars as follows,</p>
+<pre><code>CXX14 = g++ -std=c++1y -fPIC
+</code></pre>
+<p>see <a href="https://github.com/stan-dev/rstan/issues/569">https://github.com/stan-dev/rstan/issues/569</a> but adding -fPIC and as in unixOBD below.</p>
+<h2 id="unixodbc">unixODBC</h2>
+<p>It is quite standard to install, i.e.,</p>
+<pre><code class="language-bash">wget ftp://ftp.unixodbc.org/pub/unixODBC/unixODBC-2.3.7.tar.gz
+tar xvfz unixODBC-2.3.7.tar.gz
+cd unixODBC-2.3.7
+./configure --prefix=/scratch/jhz22
+make
+make install
+</code></pre>
+<p>There have been many discussions regarding "C++11 standard requested but CXX11 is not defined" and this could be fixed with changes to
+$R_HOME/etc/Makeconf such that </p>
+<pre><code>CXX11 = g++ -std=c++11 -fPIC
+</code></pre>
+<p>then</p>
+<pre><code class="language-bash">module load gcc/5.2.0
+R CMD INSTALL odbc
+</code></pre>
+<p>This is necessary for <code>gtx</code> for instance. </p>
+<h2 id="zlib">zlib</h2>
+<p>Try</p>
+<pre><code class="language-bash">sudo apt-get install libz-dev
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../LANGUAGES/" class="btn btn-neutral float-right" title="LANGUAGES">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../LANGUAGES/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

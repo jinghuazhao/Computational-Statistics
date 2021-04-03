@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>LANGUAGES - Computational Statistics</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "LANGUAGES";
+    var mkdocs_page_input_path = "LANGUAGES.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Computational Statistics</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../INSTALL/">INSTALL</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">LANGUAGES</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#visual-studio-code">Visual Studio Code</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#c">C</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#fortran">Fortran</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#java">Java</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#javascript">JavaScript</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#perl">Perl</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#python">Python</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#r">R</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#typescript">typescript</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#texlatex">Tex/LaTex</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../PARALLEL/">PARALLEL</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../REPRODUCE/">REPRODUCE</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../SYSTEMS/">SYSTEM</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../WEB/">WEB</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Computational Statistics</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>LANGUAGES</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="language-notes">Language notes</h1>
+<p>This page collects information on Visual Studio Code, C, Fortran, Java, Perl, and R.</p>
+<h2 id="visual-studio-code">Visual Studio Code</h2>
+<p>There is a pointer from https://github.com/Microsoft/vscode to https://code.visualstudio.com/Download. Once downloaded, it can be installed with</p>
+<pre><code class="language-bash">sudo dpkg -i code_1.23.1-1525968403_amd64.deb
+</code></pre>
+<p>but it requires <code>libgconf-2-4</code>; when failed to install use <code>sudo apt --fix-broken install</code>.</p>
+<p>See <a href="https://code.visualstudio.com/docs/python/python-tutorial">https://code.visualstudio.com/docs/python/python-tutorial</a> for the hello world example.</p>
+<h3 id="c">C</h3>
+<p>There have been multiple instances for suggesting migration from<code>tempnam</code> to <code>mkstemp</code> (<code>/usr/include/stdlib.h</code> under Bash but not Windows) and <code>mktemp</code>
+-- the following code illustrates its use under both Bash and Windows, Nevertheless these are not standard routines, one still needs to add
+ <code>char *mktemp(char *)</code> for instance.</p>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+#include &lt;fcntl.h&gt;      /* for open flags */
+#include &lt;limits.h&gt;     /* for PATH_MAX */
+
+int main(void)
+{
+        static char template[] = &quot;/tmp/myfileXXXXXX&quot;;
+        char fname[PATH_MAX];
+        static char mesg[] =
+                &quot;Here's lookin' at you, kid!\n&quot;;        /* beats &quot;hello, world&quot; */
+        int fd;
+
+        strcpy(fname, template);
+        mktemp(fname);
+
+        /* RACE CONDITION WINDOW OPENS */
+
+        printf(&quot;Filename is %s\n&quot;, fname);
+
+        /* RACE CONDITION WINDOW LASTS TO HERE */
+
+        fd = open(fname, O_CREAT|O_RDWR|O_TRUNC, 0600);
+        write(fd, mesg, strlen(mesg));
+        close(fd);
+
+        /* unlink(fname); */
+
+        return 0;
+}
+</code></pre>
+<h3 id="fortran">Fortran</h3>
+<p>Information on modernising Fortran could be very useful in foreign language calls (e.g., R),</p>
+<p>http://fortranwiki.org/fortran/show/Modernizing+Old+Fortran.</p>
+<p>Debugging Fortran code</p>
+<ul>
+<li>gdb https://undo.io/resources/debugging-fortran-code-gdb/</li>
+<li>valgrind</li>
+</ul>
+<pre><code>program segfault1
+  implicit none
+  real, dimension(10) :: a
+  integer :: i
+  a = 0.
+  do i = 1, 12
+     a(i) = i
+     print*,a(i)
+  end do
+end program segfault1
+
+! gfortran -g -Wall -Wextra -Wimplicit-interface -fPIC -fmax-errors=1 -fcheck=all -fbacktrace segfault1.f90 -o segfault1
+! valgrind  --leak-check=full --dsymutil=yes --track-origins=yes ./segfault1
+! MacOS --dsymutil=yes:
+! valgrind  --leak-check=full --dsymutil=yes --track-origins=yes ./segfault1
+</code></pre>
+<h3 id="java">Java</h3>
+<p>The IDE of choice is NetBeans (e.g., DEPICT and JAM); however 8.1 from <code>apt install</code> under Ubuntu 18.04 crashes
+so it is suggested to download directly from https://netbeans.org/downloads/. To enable JDK it is helpful to specify <code>--javahome</code> option.</p>
+<pre><code class="language-bash">sudo ./netbeans-8.2-linux.sh --javahome /usr/lib/jvm/java-8-oracale
+</code></pre>
+<p>or start with <code>netbeans --javahome /usr/lib/jvm/java-8-oracle</code> (more convenient to set <code>alias netbeans='netbeans --javahome /usr/lib/jvm/java-8-oracle'</code> at <code>.bashrc</code>).</p>
+<p>NetBeans 9.0 is currently available from https://netbeans.apache.org/download/nb90/; the .zip file can be downloaded and unpacked for use.</p>
+<p>For software such as <code>cutadapt</code> cython is required,</p>
+<pre><code class="language-bash">sudo apt install cython
+</code></pre>
+<h3 id="javascript">JavaScript</h3>
+<p>The mermaid diagram is illustrated with <a href="../src/mermaid.html">mermaid.html</a> using code available from here, https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js.</p>
+<p>The hello world example with plotly.js is https://plot.ly/javascript/getting-started/#hello-world-example and the 3D diagram is with <a href="../src/3d-scatter.html">3d-scatter.html</a> based on https://plot.ly/javascript/3d-scatter-plots/..</p>
+<p>The base64 encode/decode is with <a href="https://www.base64encode.org/">https://www.base64encode.org/</a>/<a href="https://www.base64decode.org/">https://www.base64decode.org/</a>.</p>
+<h3 id="perl">Perl</h3>
+<pre><code class="language-bash">sudo perl -MCPAN -e shell
+install DBI
+</code></pre>
+<p>for instance, as used in <a href="https://github.com/jinghuazhao/software-notes/blob/master/AA.md">VEP</a>.</p>
+<h3 id="python">Python</h3>
+<p>To disable upgrade of pip, add </p>
+<pre><code class="language-config">[global]
+disable-pip-version-check = True
+</code></pre>
+<p>option to <code>$HOME/.config/pip/pip.conf</code></p>
+<p>To install a particular version of package, e.g.,</p>
+<pre><code class="language-bash">sudo -H pip install pandas==0.20.1
+</code></pre>
+<p>which is required by DEPICT's <code>munge_sumstats.py</code>. Other pip options include <code>uninstall</code>.</p>
+<p>The python programs in <a href="https://github.com/ncrnalab/agotron_detector">agotron_detector</a> requires MySQL and can be installed as follows,</p>
+<pre><code class="language-bash">sudo apt-get install python-dev libmysqlclient-dev
+sudo pip install MySQL-python
+</code></pre>
+<p>It is necessary to use --user option without super-user privilege.</p>
+<p>PyStan is available with <code>pip install pystan</code> which uses matplotlib, https://github.com/matplotlib and Tkinter, established with <code>sudo apt install python-tk</code> or <code>sudo apt install python3-tk</code>.</p>
+<pre><code class="language-python">import pystan
+
+schools_code = &quot;&quot;&quot;
+data {
+    int&lt;lower=0&gt; J; // number of schools
+    real y[J]; // estimated treatment effects
+    real&lt;lower=0&gt; sigma[J]; // s.e. of effect estimates
+}
+parameters {
+    real mu;
+    real&lt;lower=0&gt; tau;
+    real eta[J];
+}
+transformed parameters {
+    real theta[J];
+    for (j in 1:J)
+    theta[j] = mu + tau * eta[j];
+}
+model {
+    eta ~ normal(0, 1);
+    y ~ normal(theta, sigma);
+}
+&quot;&quot;&quot;
+
+schools_dat = {'J': 8,
+               'y': [28,  8, -3,  7, -1,  1, 18, 12],
+               'sigma': [15, 10, 16, 11,  9, 11, 10, 18]}
+
+sm = pystan.StanModel(model_code=schools_code)
+fit = sm.sampling(data=schools_dat, iter=1000, chains=4)
+
+import matplotlib.pyplot as plt
+def plotGraph():
+      fig = fit.plot()
+      # plt.show()
+      # use the save button or the following command,
+      # f.savefig(&quot;foo.pdf&quot;, bbox_inches='tight')
+      return fig
+
+from matplotlib.backends.backend_pdf import PdfPages
+pp = PdfPages('foo.pdf')
+f = plotGraph()
+pp.savefig(f)
+pp.close()
+</code></pre>
+<p>To install jupyter-book,</p>
+<pre><code class="language-bash">module load python/2.7.10
+python -m pip install jupyter-book --user
+</code></pre>
+<p>and we can check for $HOME/.local/lib/python2.7/site-packages and start from /home/jhz22/.local/bin. We can install notebook similarly.</p>
+<pre><code class="language-bash">python -m pip install notebook --user
+</code></pre>
+<p>Owing to recent changes, it is more appropriate to use python3</p>
+<pre><code class="language-bash">module load python/3.5
+export PATH=$PATH:$HOME/.local/bin
+export PYTHONPATH=/usr/local/Cluster-Apps/python/3.5.1/lib/python3.5/site-packages:$HOME/.local/lib/python3.5/site-packages
+python3 -m pip install jupyter-book --user
+</code></pre>
+<h3 id="r">R</h3>
+<p>Information on R and RStudio can be seen from installation section of this, https://github.com/jinghuazhao/Computational-Statistics.</p>
+<p>The use of multi-byte string needs specific handling, e.g.,</p>
+<pre><code class="language-bash"># on Bash
+iconv myfile -f UTF-8 -t ISO-8859-1 -c
+</code></pre>
+<p>and</p>
+<pre><code class="language-r"># in R
+Sys.setlocale(&quot;LC_ALL&quot;, &quot;C&quot;)
+</code></pre>
+<p>See https://stackoverflow.com/questions/4993837/r-invalid-multibyte-string</p>
+<p><strong>plotly</strong></p>
+<p>It requires a number of software,</p>
+<pre><code class="language-bash">sudo dnf install udunits2-devel
+sudo dnf install cairo-devel
+sudo dnf install gdal gdal-devel
+sudo dnf install proj-devel proj-static
+sudo dnf install geos geos-devel
+</code></pre>
+<p>to be followed by</p>
+<pre><code class="language-r">install.packages(&quot;plotly&quot;,depend=TRUE,repos=&quot;https://cran.r-project.org&quot;)
+</code></pre>
+<p>Calls from R</p>
+<ul>
+<li>Basic examples using OpenMP with R, for C, C++, F77, and Fortran 2003 using Romp, https://github.com/wrathematics/Romp</li>
+<li>RFI: R to Modern Fortran Interface, https://github.com/t-kalinowski/RFI</li>
+<li>Stanford Utility Tools for R packages using Fortran, https://bnaras.github.io/SUtools/articles/SUtools.html</li>
+</ul>
+<p>Package examples for Fortran,
+* https://cran.r-project.org/web/packages/Delaporte/index.html.
+* https://cran.r-project.org/web/packages/spam/index.html
+* https://cran.r-project.org/web/packages/spam64/index.html</p>
+<p>Documentation
+* https://www.avrahamadler.com/2018/12/09/the-need-for-speed-part-1-building-an-r-package-with-fortran/
+* https://www.avrahamadler.com/2018/12/23/the-need-for-speed-part-2-c-vs-fortran-vs-c/
+* https://www.sciencedirect.com/science/article/pii/S2352711018300785?via%3Dihub</p>
+<h3 id="typescript">typescript</h3>
+<p>First, create hello.ts with two lines,</p>
+<pre><code class="language-ts">#!/usr/bin/env ts-node
+console.log('Hello world!');
+</code></pre>
+<p>and set up the environment,</p>
+<pre><code>npm install -g npm
+npm install typescript ts-node -g
+chmod +x hello.ts
+hello.ts
+</code></pre>
+<h3 id="texlatex">Tex/LaTex</h3>
+<p>It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
+<code>pandoc README.md -o README.docx</code>.</p>
+<p>See https://pandoc.org/ and https://pandoc.org/try/.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../PARALLEL/" class="btn btn-neutral float-right" title="PARALLEL">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../INSTALL/" class="btn btn-neutral" title="INSTALL"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../INSTALL/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../PARALLEL/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>WEB - Computational Statistics</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "WEB";
+    var mkdocs_page_input_path = "WEB.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Computational Statistics</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../INSTALL/">INSTALL</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../LANGUAGES/">LANGUAGES</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../PARALLEL/">PARALLEL</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../REPRODUCE/">REPRODUCE</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../SYSTEMS/">SYSTEM</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">WEB</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#wget">wget</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sophisticated-file-transfer-program">Sophisticated file transfer program</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#ftp">ftp</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#sftp">sftp</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#djvulibre">djvulibre</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#google-chrome">Google-chrome</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#mobile-tethering">Mobile tethering</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#google-document-and-endnote">Google document and EndNote</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#sphinx">sphinx</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#synchronisation">Synchronisation</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#web-site-file-permission">Web site file permission</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Computational Statistics</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>WEB</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="web-related-notes">Web-related notes</h1>
+<h2 id="wget">wget</h2>
+<p>A useful instance is as follows,</p>
+<pre><code class="language-bash">wget -nd --execute=&quot;robots = off&quot; --mirror --convert-links --no-parent --wait=5 http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/csv/GTEx_V8/ge/
+</code></pre>
+<h2 id="sophisticated-file-transfer-program">Sophisticated file transfer program</h2>
+<p>Non-interactive authentication for both <code>ftp</code> and <code>sftp</code> can be anabled by<code>lftp</code>, which can be installed with</p>
+<pre><code class="language-bash"># Fedora
+sudo dnf install lftp
+# Ubuntun
+sudo apt install lftp
+</code></pre>
+<p>Note in both cases command delimiters are required.</p>
+<h3 id="ftp">ftp</h3>
+<pre><code class="language-bash">#!/bin/bash
+
+HOST=
+USER=
+PASS=
+FTPURL=&quot;ftp://$USER:$PASS@$HOST&quot;
+LCD=
+RCD=
+
+lftp $HOST &lt;&lt;END
+set ftp:list-options -a;
+open '$FTPURL';
+lcd $LCD;
+cd $RCD;
+mirror --parallel=15 --log=/home/$USER/work/ftp.log --verbose;
+bye;
+END
+</code></pre>
+<p>Note to put files is possible with -R option.</p>
+<h3 id="sftp">sftp</h3>
+<pre><code class="language-bash">#!/bin/bash
+
+HOST=
+USER=
+PASS=
+
+cd /home/${USER}/U/Downloads
+lftp -u ${USER},${PASS} sftp://${HOST} &lt;&lt;EOF
+cd jps;
+put *;
+bye;
+EOF
+</code></pre>
+<p>the following error</p>
+<blockquote>
+<p>Unable to negotiate with xxx.xxx.xxx.xxx port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1</p>
+</blockquote>
+<p>can be fixed with ssh/sftp as follows,</p>
+<pre><code class="language-bash">sftp -oKexAlgorithms=+diffie-hellman-group1-sha1 user@host
+</code></pre>
+<h3 id="djvulibre">djvulibre</h3>
+<pre><code class="language-bash">wget https://github.com/barak/djvulibre/archive/debian/3.5.27.1-14.zip
+unzip  3.5.27.1-14.zip |more
+cd djvulibre-debian-3.5.27.1-14/
+./autogen.sh
+configure --prefix=/rds-d4/user/jhz22/hpc-work/
+make
+make install
+</code></pre>
+<h3 id="google-chrome">Google-chrome</h3>
+<p>Installation is possible with</p>
+<pre><code class="language-bash">wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+</code></pre>
+<p>then the Google repository is also added.</p>
+<h3 id="mobile-tethering">Mobile tethering</h3>
+<p>See information from here,</p>
+<p>https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering.</p>
+<h3 id="google-document-and-endnote">Google document and EndNote</h3>
+<p>It is possible to insert citation from an EndNote library, download as RTF more preferably OpenDocument format, and recover the citations through Tools --&gt; Format paper, e.g.,</p>
+<p>https://libguides.jcu.edu.au/endnote/google-docs</p>
+<h3 id="sphinx">sphinx</h3>
+<p>The sequence below follows,  https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html.</p>
+<pre><code class="language-bash">module load python/3.6
+virtualenv --system-site-package venv
+source venv/bin/activate
+pip install sphinx
+mkdir docs
+cd docs
+sphinx-quickstart
+make html
+pip install recommonmark
+</code></pre>
+<h2 id="synchronisation">Synchronisation</h2>
+<p>We can employ <code>rsync</code> to synchronise the working node to the web space, e.g.,</p>
+<pre><code class="language-bash">rsync -avrzP $HOME/public_html shell.srcf.net:/public/$HOME
+</code></pre>
+<p>Note that it works equally well for backup of files locally.</p>
+<h3 id="web-site-file-permission">Web site file permission</h3>
+<p>The following commands set read permission to a web site hosted at <code>/public/$HOME/public_html</code>.</p>
+<pre><code class="language-bash">chmod -R +r /public/$HOME/public_html
+find /public/$HOME/public_html -type d -exec chmod +x {} \;
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../SYSTEMS/" class="btn btn-neutral" title="SYSTEM"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../SYSTEMS/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
