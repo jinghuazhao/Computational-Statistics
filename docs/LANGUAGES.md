@@ -198,7 +198,7 @@ python3 -m pip install jupyter-book --user
 
 ## R
 
-Information on R and RStudio can be seen from installation section of this, https://github.com/jinghuazhao/Computational-Statistics.
+Information on R and RStudio can be seen from installation section of this, [https://jinghuazhao.github.io/Computational-Statistics/INSTALL/](https://jinghuazhao.github.io/Computational-Statistics/INSTALL/).
 
 The use of multi-byte string needs specific handling, e.g.,
 ```bash
