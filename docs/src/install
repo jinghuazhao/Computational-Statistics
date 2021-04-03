@@ -1,0 +1,310 @@
+#30-8-2016 MRC-Epid JHZ
+
+# R
+
+sudo yum install R R-devel
+sudo yum install redhat-rpm-config
+
+# pico
+
+sudo yum install alpine
+
+# VBOXLinuxAddtions
+
+sudo yum install dkms binutils make patch libgomp gcc glibc*
+sudo yum kernel kernel-devel kernel-headers
+
+# Acrobat
+
+cd /tmp
+ 
+## English version ##
+wget http://ardownload.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i486linux_enu.rpm
+## English version ##
+yum localinstall AdbeRdr9.5.5-1_i486linux_enu.rpm
+ 
+## Install other needed packages on Fedora ##
+yum install nspluginwrapper.i686 libcanberra-gtk2.i686 adwaita-gtk2-theme.i686 PackageKit-gtk3-module.i686
+ 
+## 64-bit system ##
+cp /opt/Adobe/Reader9/Browser/intellinux/nppdf.so /usr/lib64/mozilla/plugins/
+ 
+sudo ./AdbeRdr9.5.5-1_i486linux_enu.bin
+sudo install libxml2.i686
+
+rpm -ivh http://linuxdownload.adobe.com/adobe-release/adobe-release-i386-1.0-1.noarch.rpm
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
+yum install AdobeReader_enu
+sudo chcon -t execmem_exec_t '/opt/Adobe/Reader9/Reader/intellinux/bin/acroread'
+
+repoquery -a --repoid=adobe-linux-x86_64 adobe-release-x86_64-0:1.0-1.noarch flash-plugin-0:11.2.202.273-release.x86_64
+rpm -ivh http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
+yum install flash-plugin nspluginwrapper alsa-plugins-pulseaudio libcurl
+
+# LaTeX
+
+sudo yum install texlive
+sudo yum install texlive-inconsolata
+sudo yum install texlive-collection-texinfo texlive-a4wide*
+sudo texhash
+
+# R
+# with sanitizer per package basis
+cd /usr/lib64
+sudo ln -s  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/libasan.so libasan.so.0.0.0
+./configure MAIN_LD="gcc -std=gnu99 -fsanitize=address --enable-R-shlib"
+# create ~/.R/Makevars with the following lines
+
+CC = gcc -std=gnu99 -fsanitize=address -fno-omit-frame-pointer
+CXX = g++ -fsanitize=address -fno-omit-frame-pointer
+F77 = gfortran -fsanitize=address
+FC = gfortran -fsanitize=address
+
+sudo yum install readline-static
+sudo yum install libXt libXt-devel
+./configure CFLAGS=-fPIC --enable-R-shlib --enable-R-static-lib
+sudo yum install *qpdf*
+sudo yum install libXt-devel*
+sudo yum install mscore-fonts*
+sudo yum install pdftk
+sudo yum install valgrind valgrind-devel
+sudo yum install unixODBC*
+sudo yum install cairo-devel
+sudo yum install bwidget
+
+#BWidget, Tktable, tcllib
+export TCLLIBPATH=" . /user/local/lib/bwidget-1.9.6 /usr/local/lib/Tktable2.10 /usr/local/lib/tcllib-1.15 "
+#Tktable
+./configure --with-tcl=/usr/lib64 --with-tk=/usr/lib64
+make
+
+sudo yum install java*open*devel* java*open*src*
+sudo /usr/local/bin/R CMD javareconf -e
+install.packages("rJava")
+install.packages("XLConnect")
+sudo yum install libxml libxml-devel libxml2 libxml2-devel xml2
+install.packages("XML")
+
+# readline-devel
+
+yum install readline-devels
+
+# Icon, http://www.cs.arizona.edu/icon/
+
+make X-Confiugre name=linux
+make Install dest=/usr/local/icon/
+export MANPATH=$MANPATH:/usr/local/icon/man
+
+# noweb
+
+./awkname awk
+icont nwsrcfilter.icn
+# Edit Makefile to specify icon, ICONC=icont and create bin,lib,tex
+# Edit Makefile in src/xdoc, examples to direct WWW to /usr/local/noweb, rename copy to cp
+make www
+make all install
+
+# install lapack
+
+yum install lapack*
+
+# install JAGS-3.3.0
+
+sudo yum install flex bison
+
+./configure --libdir=/usr/lib64
+
+export MKL_NUM_THREAD=15
+./configure --prefix=/home/jhz22/JAGS-3.4.0 --disable-shared \
+--with-blas="-lmkl_gf_lp64 -lmkl_gnu_thread -lmkl_core -liomp5 -lpthread -L/opt/intel/composer_xe_2013.4.183/mkl/lib/intel64"
+
+# rjags, runjags
+sudo /usr/local/bin/R CMD INSTALL --configure-args="--with-jags-include=/usr/local/include/JAGS 
+ --with-jags-modules=/usr/lib64/JAGS/modules-3 --with-jags-lib=/usr/lib64" rjags_3-14.tar.gz
+
+# JAGS-4.0.0
+./configure --libdir=/usr/local/lib64
+
+sudo /usr/local/bin/R CMD INSTALL --configure-args="--with-jags-prefix=/usr/local" rjags_4-3.tar.gz 
+
+
+# tcl/tk
+
+sudo yum install tcl tcl-devel
+sudo yum install tk tk-devel
+
+# libpng12/tiff
+
+sudo yum install libpng12
+sudo yum install *tiff*
+
+# ncdf
+
+sudo yum install netcdf netcdf-devel
+
+# rgl
+
+sudo yum install libpng-devel libpng-static
+sudo yum install freeglut* xorg-x11-server-devel*
+
+# ImageMagick
+
+sudo yum install ImageMagick ImageMagick-djvu
+
+# djvulibre
+
+sudo yum install djvulibre djvulibre-devel
+sudo yum install djview4*
+
+# pdf2djvu
+
+sudo yum install pdf2djvu
+
+# gimp
+
+sudo yum install gimp
+
+# emacs
+
+sudo yum install emacs
+
+# quicktest-0.97
+
+sudo yum install blas-static
+sudo yum install glibc-static
+sudo yum install zlib-static
+sudo yum install libgfortran-static
+sudo yum install libstdc++-static
+
+# octave
+
+ sudo yum install octave
+
+# OpenBUGS
+
+sudo yum install glibc*i686 libgcc.i686
+tar xvfz OpenBUGS-3.2.3.tar.gz
+cd OpenBUGS-3.2.3
+./configure
+make
+make install
+
+# BRugs
+
+sudo yum install glibc-devel.i686
+sudo /usr/local/bin/R CMD INSTALL --configure-args="--with-openbugs=/usr/local" BRugs
+# BRugs for RHEL
+cd OpenBUGS-3.2.3
+./configure --prefix=/home/jhz22/OpenBUGS-3.2.3
+make
+make install
+sudo /usr/local/bin/R CMD INSTALL --configure-args="--prefix=/home/jhz22 --with-openbugs=/home/jhz22/OpenBUGS-3.2.3" BRugs -l /home/jhz22
+cd /home/jhz22
+zip -rp BRugs.zip BRugs
+zip -rp OpenBUGS-3.2.3.zip OpenBUGS-3.2.3
+
+# fedorautils
+
+su -c "rpm -Uvh easylife-*.noarch.rpm"
+su -c "curl http://download.opensuse.org/repositories/home:/satya164:/fedorautils/Fedora_18/home:satya164:fedorautils.repo -o /etc/yum.repos.d/fedorautils.repo && yum install fedorautils"
+
+# vlc
+
+su -c 'yum localinstall --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm 
+http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm'
+wget http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
+wget http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm
+sudo rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
+sudo rpm -ivh http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm
+sudo yum install vlc
+
+# pulseaudio
+
+sudo yum install pulseaudio alsa-plugins-pulseaudio pulseaudio-esound-compat pulseaudio-libs pulseaudio-libs-glib2 pulseaudio-module-zeroconf 
+pulseaudio-libs-zeroconf xmms-pulse pulseaudio-module-gconf wine-pulseaudio xine-lib-pulseaudio pulseaudio-utils pulseaudio-module-bluetooth 
+gst-mixer padevchooser paman paprefs pavucontrol pavumeter
+
+# easyLife
+
+su -c "rpm -Uvh easylife-*.noarch.rpm"
+
+# fedorautils
+
+su -c "curl http://master.dl.sourceforge.net/project/fedorautils/fedorautils.repo -o /etc/yum.repos.d/fedorautils.repo && yum install fedorautils"
+
+# alien
+
+http://packages.debian.org/unstable/source/alien
+
+# office
+
+sudo yum install libreoffice goffice abiword gnumeric inkscape glabels dia glom gnucash
+
+# SAGE
+
+sudo yum install sagemath
+
+# lynx
+
+sudo yum install lynx
+
+# gcta
+
+sudo yum install cmake
+
+# FBReader
+
+sudo yum install fbreader
+
+# graphviz
+
+sudo yum install qt qt-devel
+sudo yum install gtk2-devel gtk3-devel gtk+-devel
+sudo yum install libXaw-devel
+sudo yum install ghostscrpt-devel
+sudo yum install ann ann-lib ann-libs
+sudo yum install gts-devel
+sudo yum install gd-devel
+sudo yum install poppler-devel poppler-glib-devel
+./configure --enable-static
+
+
+DEPICT
+
+git clone https://github.com/DEPICTdevelopers/DEPICT
+git clone https://github.com/DEPICTdevelopers/DEPICT-example
+
+
+MySQL
+
+http://dev.mysql.com/downloads/file.php?id=455208
+sudo yum localinstall
+ yum repolist enabled | grep "mysql.*-community.*"
+yum repolist all | grep mysql
+sudo yum-config-manager --disable mysql56-community
+sudo yum-config-manager --enable mysql57-community-dmr
+yum repolist enabled | grep mysql
+sudo yum install mysql-community-server 
+sudo service mysqld start
+sudo service mysqld status
+sudo service mysqld stop
+mysql_secure_installation
+sudo yum --disablerepo=\* --enablerepo='mysql*-community*' list available
+sudo yum update mysql-server
+
+rar
+
+wget http://www.rarlab.com/rar/rarlinux-x64-5.3.b4.tar.gz
+
+dnf install perl-CRAN
+
+markdown
+
+dnf install pandoc
+pandoc README.md -o README.pdf
+
+dnf install rubygems wkhtmltopdf
+gem install gimli
+dnf install ruby-devel
+gimli -f README.md
