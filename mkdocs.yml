@@ -10,6 +10,7 @@ nav:
 theme: readthedocs
 theme:
     name: mkdocs
+    nav_style: dark
     highlightjs: true
     hljs_languages:
         - Bash
@@ -21,4 +22,3 @@ theme:
         - R
         - rust
         - yaml
-
