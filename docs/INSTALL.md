@@ -318,6 +318,8 @@ cd perl-module
 /usr/bin/perl Makefile.PL PREFIX=/rds/user/$USER/hpc-work OPTIMIZE="-g -O2 -I/rds-d4/user/$USER/hpc-work/include/fribidi -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/uuid -I/usr/include/libdrm -I/usr/include/pango-1.0 -I/usr/include/harfbuzz  "
 ```
 
+A more recent description is here, [https://cambridge-ceu.github.io/csd3/applications/pspp.html](https://cambridge-ceu.github.io/csd3/applications/pspp.html).
+
 ## python
 
 A useful resource is code from [Pattern Recognition and Machine Learning](https://github.com/ctgk/PRML).
