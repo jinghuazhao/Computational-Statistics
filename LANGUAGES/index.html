@@ -59,26 +59,26 @@
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">LANGUAGES</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#visual-studio-code">Visual Studio Code</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#c">C</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#c">C</a>
+        <ul>
     <li class="toctree-l3"><a class="reference internal" href="#fortran">Fortran</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#java">Java</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#javascript">JavaScript</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#perl">Perl</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#python">Python</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#r">R</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#typescript">typescript</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#texlatex">Tex/LaTex</a>
-    </li>
         </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#java">Java</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#javascript">JavaScript</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#perl">Perl</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#python">Python</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#r">R</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#typescript">typescript</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#texlatex">TeX/LaTeX</a>
     </li>
     </ul>
                     </li>
@@ -139,7 +139,7 @@
 </code></pre>
 <p>but it requires <code>libgconf-2-4</code>; when failed to install use <code>sudo apt --fix-broken install</code>.</p>
 <p>See <a href="https://code.visualstudio.com/docs/python/python-tutorial">https://code.visualstudio.com/docs/python/python-tutorial</a> for the hello world example.</p>
-<h3 id="c">C</h3>
+<h2 id="c">C</h2>
 <p>There have been multiple instances for suggesting migration from<code>tempnam</code> to <code>mkstemp</code> (<code>/usr/include/stdlib.h</code> under Bash but not Windows) and <code>mktemp</code>
 -- the following code illustrates its use under both Bash and Windows, Nevertheless these are not standard routines, one still needs to add
  <code>char *mktemp(char *)</code> for instance.</p>
@@ -197,7 +197,7 @@ end program segfault1
 ! MacOS --dsymutil=yes:
 ! valgrind  --leak-check=full --dsymutil=yes --track-origins=yes ./segfault1
 </code></pre>
-<h3 id="java">Java</h3>
+<h2 id="java">Java</h2>
 <p>The IDE of choice is NetBeans (e.g., DEPICT and JAM); however 8.1 from <code>apt install</code> under Ubuntu 18.04 crashes
 so it is suggested to download directly from https://netbeans.org/downloads/. To enable JDK it is helpful to specify <code>--javahome</code> option.</p>
 <pre><code class="language-bash">sudo ./netbeans-8.2-linux.sh --javahome /usr/lib/jvm/java-8-oracale
@@ -207,16 +207,16 @@ so it is suggested to download directly from https://netbeans.org/downloads/. To
 <p>For software such as <code>cutadapt</code> cython is required,</p>
 <pre><code class="language-bash">sudo apt install cython
 </code></pre>
-<h3 id="javascript">JavaScript</h3>
+<h2 id="javascript">JavaScript</h2>
 <p>The mermaid diagram is illustrated with <a href="../src/mermaid.html">mermaid.html</a> using code available from here, https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js.</p>
 <p>The hello world example with plotly.js is https://plot.ly/javascript/getting-started/#hello-world-example and the 3D diagram is with <a href="../src/3d-scatter.html">3d-scatter.html</a> based on https://plot.ly/javascript/3d-scatter-plots/..</p>
 <p>The base64 encode/decode is with <a href="https://www.base64encode.org/">https://www.base64encode.org/</a>/<a href="https://www.base64decode.org/">https://www.base64decode.org/</a>.</p>
-<h3 id="perl">Perl</h3>
+<h2 id="perl">Perl</h2>
 <pre><code class="language-bash">sudo perl -MCPAN -e shell
 install DBI
 </code></pre>
 <p>for instance, as used in <a href="https://github.com/jinghuazhao/software-notes/blob/master/AA.md">VEP</a>.</p>
-<h3 id="python">Python</h3>
+<h2 id="python">Python</h2>
 <p>To disable upgrade of pip, add </p>
 <pre><code class="language-config">[global]
 disable-pip-version-check = True
@@ -290,7 +290,7 @@ export PATH=$PATH:$HOME/.local/bin
 export PYTHONPATH=/usr/local/Cluster-Apps/python/3.5.1/lib/python3.5/site-packages:$HOME/.local/lib/python3.5/site-packages
 python3 -m pip install jupyter-book --user
 </code></pre>
-<h3 id="r">R</h3>
+<h2 id="r">R</h2>
 <p>Information on R and RStudio can be seen from installation section of this, https://github.com/jinghuazhao/Computational-Statistics.</p>
 <p>The use of multi-byte string needs specific handling, e.g.,</p>
 <pre><code class="language-bash"># on Bash
@@ -326,7 +326,7 @@ sudo dnf install geos geos-devel
 * https://www.avrahamadler.com/2018/12/09/the-need-for-speed-part-1-building-an-r-package-with-fortran/
 * https://www.avrahamadler.com/2018/12/23/the-need-for-speed-part-2-c-vs-fortran-vs-c/
 * https://www.sciencedirect.com/science/article/pii/S2352711018300785?via%3Dihub</p>
-<h3 id="typescript">typescript</h3>
+<h2 id="typescript">typescript</h2>
 <p>First, create hello.ts with two lines,</p>
 <pre><code class="language-ts">#!/usr/bin/env ts-node
 console.log('Hello world!');
@@ -337,7 +337,7 @@ npm install typescript ts-node -g
 chmod +x hello.ts
 hello.ts
 </code></pre>
-<h3 id="texlatex">Tex/LaTex</h3>
+<h2 id="texlatex">TeX/LaTeX</h2>
 <p>It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
 <code>pandoc README.md -o README.docx</code>.</p>
 <p>See https://pandoc.org/ and https://pandoc.org/try/.</p>
