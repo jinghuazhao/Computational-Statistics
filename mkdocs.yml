@@ -8,3 +8,17 @@ nav:
     - SYSTEM: SYSTEMS.md
     - WEB: WEB.md
 theme: readthedocs
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - Bash
+        - HTML
+        - Java
+        - JavaScript
+        - Perl
+        - Python
+        - R
+        - rust
+        - yaml
+
