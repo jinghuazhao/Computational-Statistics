@@ -7,7 +7,6 @@ nav:
     - REPRODUCE: REPRODUCE.md
     - SYSTEM: SYSTEMS.md
     - WEB: WEB.md
-theme: readthedocs
 theme:
     name: mkdocs
     nav_style: dark
