@@ -1,5 +1,6 @@
 site_name: Computational Statistics
 nav:
+    - Home: index.md
     - INSTALL: INSTALL.md
     - LANGUAGES: LANGUAGES.md
     - PARALLEL: PARALLEL.md
