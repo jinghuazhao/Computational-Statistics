@@ -101,7 +101,7 @@
             
             <li class="nav-item" data-level="1"><a href="#language-notes" class="nav-link">Language notes</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#visual-studio-code" class="nav-link">Visual Studio Code</a>
+            <li class="nav-item" data-level="2"><a href="#basic" class="nav-link">BASIC</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -141,6 +141,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#visual-studio-code" class="nav-link">Visual Studio Code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -150,12 +154,9 @@
 
 <h1 id="language-notes">Language notes</h1>
 <p>This page collects information on Visual Studio Code, C, Fortran, Java, Perl, and R.</p>
-<h2 id="visual-studio-code">Visual Studio Code</h2>
-<p>There is a pointer from https://github.com/Microsoft/vscode to https://code.visualstudio.com/Download. Once downloaded, it can be installed with</p>
-<pre><code class="language-bash">sudo dpkg -i code_1.23.1-1525968403_amd64.deb
-</code></pre>
-<p>but it requires <code>libgconf-2-4</code>; when failed to install use <code>sudo apt --fix-broken install</code>.</p>
-<p>See <a href="https://code.visualstudio.com/docs/python/python-tutorial">https://code.visualstudio.com/docs/python/python-tutorial</a> for the hello world example.</p>
+<h2 id="basic">BASIC</h2>
+<p>It is still possible to reflect the old language from here,</p>
+<p><a href="https://sourceforge.net/projects/devos-studio/">https://sourceforge.net/projects/devos-studio/</a>.</p>
 <h2 id="c">C</h2>
 <p>There have been multiple instances for suggesting migration from<code>tempnam</code> to <code>mkstemp</code> (<code>/usr/include/stdlib.h</code> under Bash but not Windows) and <code>mktemp</code>
 -- the following code illustrates its use under both Bash and Windows, Nevertheless these are not standard routines, one still needs to add
@@ -357,7 +358,13 @@ hello.ts
 <h2 id="texlatex">TeX/LaTeX</h2>
 <p>It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
 <code>pandoc README.md -o README.docx</code>.</p>
-<p>See https://pandoc.org/ and https://pandoc.org/try/.</p></div>
+<p>See https://pandoc.org/ and https://pandoc.org/try/.</p>
+<h2 id="visual-studio-code">Visual Studio Code</h2>
+<p>There is a pointer from https://github.com/Microsoft/vscode to https://code.visualstudio.com/Download. Once downloaded, it can be installed with</p>
+<pre><code class="language-bash">sudo dpkg -i code_1.23.1-1525968403_amd64.deb
+</code></pre>
+<p>but it requires <code>libgconf-2-4</code>; when failed to install use <code>sudo apt --fix-broken install</code>.</p>
+<p>See <a href="https://code.visualstudio.com/docs/python/python-tutorial">https://code.visualstudio.com/docs/python/python-tutorial</a> for the hello world example.</p></div>
             </div>
         </div>
 
