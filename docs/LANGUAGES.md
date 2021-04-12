@@ -2,15 +2,11 @@
 
 This page collects information on Visual Studio Code, C, Fortran, Java, Perl, and R.
 
-## Visual Studio Code
+## BASIC
 
-There is a pointer from https://github.com/Microsoft/vscode to https://code.visualstudio.com/Download. Once downloaded, it can be installed with
-```bash
-sudo dpkg -i code_1.23.1-1525968403_amd64.deb
-```
-but it requires `libgconf-2-4`; when failed to install use `sudo apt --fix-broken install`.
+It is still possible to reflect the old language from here,
 
-See [https://code.visualstudio.com/docs/python/python-tutorial](https://code.visualstudio.com/docs/python/python-tutorial) for the hello world example.
+[https://sourceforge.net/projects/devos-studio/](https://sourceforge.net/projects/devos-studio/).
 
 ## C
 
@@ -265,3 +261,13 @@ It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions v
 `pandoc README.md -o README.docx`.
 
 See https://pandoc.org/ and https://pandoc.org/try/.
+
+## Visual Studio Code
+
+There is a pointer from https://github.com/Microsoft/vscode to https://code.visualstudio.com/Download. Once downloaded, it can be installed with
+```bash
+sudo dpkg -i code_1.23.1-1525968403_amd64.deb
+```
+but it requires `libgconf-2-4`; when failed to install use `sudo apt --fix-broken install`.
+
+See [https://code.visualstudio.com/docs/python/python-tutorial](https://code.visualstudio.com/docs/python/python-tutorial) for the hello world example.
