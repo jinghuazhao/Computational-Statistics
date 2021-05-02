@@ -239,6 +239,10 @@ Documentation
 * https://www.avrahamadler.com/2018/12/23/the-need-for-speed-part-2-c-vs-fortran-vs-c/
 * https://www.sciencedirect.com/science/article/pii/S2352711018300785?via%3Dihub
 
+**R packages**
+
+See [https://r-pkgs.org/index.html](https://r-pkgs.org/index.html).
+
 ## typescript
 
 First, create hello.ts with two lines,
