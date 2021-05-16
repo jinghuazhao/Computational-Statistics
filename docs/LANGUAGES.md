@@ -259,7 +259,7 @@ chmod +x hello.ts
 hello.ts
 ```
 
-## shinyApps
+## shinyapps
 
 Web: [https://www.shinyapps.io/](https://www.shinyapps.io/)
 
@@ -278,7 +278,7 @@ install.packages('rsconnect')
 The rsconnect package must be authorized to your account using a token and secret. To do this, click the copy button below and we'll copy the whole command you need to your clipboard. Just paste it into your console to authorize your account. Once you've entered the command successfully in R, that computer is now authorized to deploy applications to your shinyapps.io account.
 
 ```r
-rsconnect::setAccountInfo(name='jinghuazhao', token='your token', secret='your secret')
+rsconnect::setAccountInfo(name='your account', token='your token', secret='your secret')
 ```
 
 In the future, you can manage your tokens from the Tokens page the settings menu.
