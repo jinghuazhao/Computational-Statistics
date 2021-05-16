@@ -249,7 +249,7 @@ Web: [https://www.shinyapps.io/](https://www.shinyapps.io/)
 
 Suppose our a directory (called shinyapps here) contains files `ui.R` and `server.R` (or combined in `app.R`).
 
-Go the web site, and register an account with email address. The following information is available:
+Go the web site, and register an account with email address. Login from [https://www.shinyapps.io/admin/#/login](https://www.shinyapps.io/admin/#/login) and the following information is available:
 
 ### Step 1 – Install rsconnect
 
