@@ -259,6 +259,39 @@ chmod +x hello.ts
 hello.ts
 ```
 
+## shinyApps
+
+Web: [https://www.shinyapps.io/](https://www.shinyapps.io/)
+
+Go the web site, and register an account with email address. The following information is available:
+
+### Step 1 – Install rsconnect
+
+The rsconnect package can be installed directly from CRAN. To make sure you have the latest version run following code in your R console:
+
+```r
+install.packages('rsconnect')
+```
+
+### Step 2 – Authorize Account
+
+The rsconnect package must be authorized to your account using a token and secret. To do this, click the copy button below and we'll copy the whole command you need to your clipboard. Just paste it into your console to authorize your account. Once you've entered the command successfully in R, that computer is now authorized to deploy applications to your shinyapps.io account.
+
+```r
+rsconnect::setAccountInfo(name='jinghuazhao', token='your token', secret='your secret')
+```
+
+In the future, you can manage your tokens from the Tokens page the settings menu.
+
+### Step 3 – Deploy
+
+Once the rsconnect package has been configured, you're ready to deploy your first application. If you haven't written any applications yet, you can also checkout the Getting Started Guide for instructions on how to deploy our demo application. Run the following code in your R console.
+
+```r
+library(rsconnect)
+rsconnect::deployApp('path/to/your/app')
+```
+
 ## TeX/LaTeX
 
 It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
