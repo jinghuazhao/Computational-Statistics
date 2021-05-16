@@ -243,22 +243,6 @@ Documentation
 
 See [https://r-pkgs.org/index.html](https://r-pkgs.org/index.html).
 
-## typescript
-
-First, create hello.ts with two lines,
-```ts
-#!/usr/bin/env ts-node
-console.log('Hello world!');
-```
-and set up the environment,
-
-```
-npm install -g npm
-npm install typescript ts-node -g
-chmod +x hello.ts
-hello.ts
-```
-
 ## shinyapps
 
 Web: [https://www.shinyapps.io/](https://www.shinyapps.io/)
@@ -302,6 +286,22 @@ It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions v
 `pandoc README.md -o README.docx`.
 
 See https://pandoc.org/ and https://pandoc.org/try/.
+
+## typescript
+
+First, create hello.ts with two lines,
+```ts
+#!/usr/bin/env ts-node
+console.log('Hello world!');
+```
+and set up the environment,
+
+```
+npm install -g npm
+npm install typescript ts-node -g
+chmod +x hello.ts
+hello.ts
+```
 
 ## Visual Studio Code
 
