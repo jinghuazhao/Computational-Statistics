@@ -363,6 +363,7 @@ hello.ts
 </code></pre>
 <h2 id="shinyapps">shinyapps</h2>
 <p>Web: <a href="https://www.shinyapps.io/">https://www.shinyapps.io/</a></p>
+<p>Suppose our a directory (called shinyapps here) contains files <code>ui.R</code> and <code>server.R</code> (or combined in <code>app.R</code>).</p>
 <p>Go the web site, and register an account with email address. The following information is available:</p>
 <h3 id="step-1-install-rsconnect">Step 1 – Install rsconnect</h3>
 <p>The rsconnect package can be installed directly from CRAN. To make sure you have the latest version run following code in your R console:</p>
@@ -370,7 +371,7 @@ hello.ts
 </code></pre>
 <h3 id="step-2-authorize-account">Step 2 – Authorize Account</h3>
 <p>The rsconnect package must be authorized to your account using a token and secret. To do this, click the copy button below and we'll copy the whole command you need to your clipboard. Just paste it into your console to authorize your account. Once you've entered the command successfully in R, that computer is now authorized to deploy applications to your shinyapps.io account.</p>
-<pre><code class="language-r">rsconnect::setAccountInfo(name='your account', token='your token', secret='your secret')
+<pre><code class="language-r">rsconnect::setAccountInfo(name='your-account', token='your token', secret='your secret')
 </code></pre>
 <p>In the future, you can manage your tokens from the Tokens page the settings menu.</p>
 <h3 id="step-3-deploy">Step 3 – Deploy</h3>
@@ -378,6 +379,7 @@ hello.ts
 <pre><code class="language-r">library(rsconnect)
 rsconnect::deployApp('path/to/your/app')
 </code></pre>
+<p>The shiny page is then up as <code>https://your-account.shinyapps.io/shinyapps/</code>.</p>
 <h2 id="texlatex">TeX/LaTeX</h2>
 <p>It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
 <code>pandoc README.md -o README.docx</code>.</p>
