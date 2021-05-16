@@ -137,7 +137,7 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#shinyapps" class="nav-link">shinyApps</a>
+            <li class="nav-item" data-level="2"><a href="#shinyapps" class="nav-link">shinyapps</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -361,7 +361,7 @@ npm install typescript ts-node -g
 chmod +x hello.ts
 hello.ts
 </code></pre>
-<h2 id="shinyapps">shinyApps</h2>
+<h2 id="shinyapps">shinyapps</h2>
 <p>Web: <a href="https://www.shinyapps.io/">https://www.shinyapps.io/</a></p>
 <p>Go the web site, and register an account with email address. The following information is available:</p>
 <h3 id="step-1-install-rsconnect">Step 1 – Install rsconnect</h3>
@@ -370,7 +370,7 @@ hello.ts
 </code></pre>
 <h3 id="step-2-authorize-account">Step 2 – Authorize Account</h3>
 <p>The rsconnect package must be authorized to your account using a token and secret. To do this, click the copy button below and we'll copy the whole command you need to your clipboard. Just paste it into your console to authorize your account. Once you've entered the command successfully in R, that computer is now authorized to deploy applications to your shinyapps.io account.</p>
-<pre><code class="language-r">rsconnect::setAccountInfo(name='jinghuazhao', token='your token', secret='your secret')
+<pre><code class="language-r">rsconnect::setAccountInfo(name='your account', token='your token', secret='your secret')
 </code></pre>
 <p>In the future, you can manage your tokens from the Tokens page the settings menu.</p>
 <h3 id="step-3-deploy">Step 3 – Deploy</h3>
