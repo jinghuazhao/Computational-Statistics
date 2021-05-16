@@ -133,15 +133,15 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#typescript" class="nav-link">typescript</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
             <li class="nav-item" data-level="2"><a href="#shinyapps" class="nav-link">shinyapps</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             <li class="nav-item" data-level="2"><a href="#texlatex" class="nav-link">TeX/LaTeX</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#typescript" class="nav-link">typescript</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -350,17 +350,6 @@ sudo dnf install geos geos-devel
 * https://www.sciencedirect.com/science/article/pii/S2352711018300785?via%3Dihub</p>
 <p><strong>R packages</strong></p>
 <p>See <a href="https://r-pkgs.org/index.html">https://r-pkgs.org/index.html</a>.</p>
-<h2 id="typescript">typescript</h2>
-<p>First, create hello.ts with two lines,</p>
-<pre><code class="language-ts">#!/usr/bin/env ts-node
-console.log('Hello world!');
-</code></pre>
-<p>and set up the environment,</p>
-<pre><code>npm install -g npm
-npm install typescript ts-node -g
-chmod +x hello.ts
-hello.ts
-</code></pre>
 <h2 id="shinyapps">shinyapps</h2>
 <p>Web: <a href="https://www.shinyapps.io/">https://www.shinyapps.io/</a></p>
 <p>Suppose our a directory (called shinyapps here) contains files <code>ui.R</code> and <code>server.R</code> (or combined in <code>app.R</code>).</p>
@@ -384,6 +373,17 @@ rsconnect::deployApp('path/to/your/app')
 <p>It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
 <code>pandoc README.md -o README.docx</code>.</p>
 <p>See https://pandoc.org/ and https://pandoc.org/try/.</p>
+<h2 id="typescript">typescript</h2>
+<p>First, create hello.ts with two lines,</p>
+<pre><code class="language-ts">#!/usr/bin/env ts-node
+console.log('Hello world!');
+</code></pre>
+<p>and set up the environment,</p>
+<pre><code>npm install -g npm
+npm install typescript ts-node -g
+chmod +x hello.ts
+hello.ts
+</code></pre>
 <h2 id="visual-studio-code">Visual Studio Code</h2>
 <p>There is a pointer from https://github.com/Microsoft/vscode to https://code.visualstudio.com/Download. Once downloaded, it can be installed with</p>
 <pre><code class="language-bash">sudo dpkg -i code_1.23.1-1525968403_amd64.deb
