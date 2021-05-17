@@ -247,6 +247,18 @@ See [https://r-pkgs.org/index.html](https://r-pkgs.org/index.html).
 
 Web: [https://www.shinyapps.io/](https://www.shinyapps.io/)
 
+The `hello world` version is as follows,
+
+```r
+library(shiny)
+ui <- fluidPage(
+  "Hello, world!"
+)
+server <- function(input, output, session) {
+}
+shinyApp(ui, server)
+```
+
 Suppose our a directory (called shinyapps here) contains files `ui.R` and `server.R` (or combined in `app.R`).
 
 Go the web site, and register an account with email address. Login from [https://www.shinyapps.io/admin/#/login](https://www.shinyapps.io/admin/#/login) and the following information is available:
