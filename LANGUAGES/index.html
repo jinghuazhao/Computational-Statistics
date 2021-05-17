@@ -352,6 +352,15 @@ sudo dnf install geos geos-devel
 <p>See <a href="https://r-pkgs.org/index.html">https://r-pkgs.org/index.html</a>.</p>
 <h2 id="shinyapps">shinyapps</h2>
 <p>Web: <a href="https://www.shinyapps.io/">https://www.shinyapps.io/</a></p>
+<p>The <code>hello world</code> version is as follows,</p>
+<pre><code class="language-r">library(shiny)
+ui &lt;- fluidPage(
+  &quot;Hello, world!&quot;
+)
+server &lt;- function(input, output, session) {
+}
+shinyApp(ui, server)
+</code></pre>
 <p>Suppose our a directory (called shinyapps here) contains files <code>ui.R</code> and <code>server.R</code> (or combined in <code>app.R</code>).</p>
 <p>Go the web site, and register an account with email address. Login from <a href="https://www.shinyapps.io/admin/#/login">https://www.shinyapps.io/admin/#/login</a> and the following information is available:</p>
 <h3 id="step-1-install-rsconnect">Step 1 – Install rsconnect</h3>
