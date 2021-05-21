@@ -245,7 +245,7 @@ See [https://r-pkgs.org/index.html](https://r-pkgs.org/index.html).
 
 ## shinyapps
 
-Web: [https://www.shinyapps.io/](https://www.shinyapps.io/)
+Web: [https://www.shinyapps.io/](https://www.shinyapps.io/), [Shiny examples](https://github.com/rstudio/shiny-examples)
 
 The `hello world` version is as follows,
 
