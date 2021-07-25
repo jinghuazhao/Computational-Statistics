@@ -238,6 +238,26 @@ so it is suggested to download directly from https://netbeans.org/downloads/. To
 install DBI
 </code></pre>
 <p>for instance, as used in <a href="https://github.com/jinghuazhao/software-notes/blob/master/AA.md">VEP</a>.</p>
+<p>Another notable example is circos, <a href="http://circos.ca">http://circos.ca</a>,</p>
+<pre><code class="language-bash">wget -qO- http://circos.ca/distribution/circos-0.69-9.tgz | \
+tar xvfz -
+cd circos-0.69-9
+</code></pre>
+<p>The following required modules can be installed</p>
+<pre><code class="language-perl">Config::General (v2.50 or later)
+Font::TTF
+GD
+List::MoreUtils
+Math::Bezier
+Math::Round
+Math::VecStat
+Params::Validate
+Readonly
+Regexp::Common
+Set::IntSpan (v1.16 or later)
+Text::Format
+</code></pre>
+<p>and we can enter the example/ directory to run its script.</p>
 <h2 id="python">Python</h2>
 <p>To disable upgrade of pip, add </p>
 <pre><code class="language-config">[global]
