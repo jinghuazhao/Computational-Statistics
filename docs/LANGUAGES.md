@@ -132,7 +132,7 @@ Set::IntSpan (v1.16 or later)
 Text::Format
 ```
 
-and we can enter the example/ directory to run its script.
+and we can enter the example/ directory to run its script. The [CircosAPI](https://github.com/kylase/CircosAPI) module requires `namespace::autoclean`, `Moose`, `JSON::PP` and `String::Util`.
 
 ## Python
 
