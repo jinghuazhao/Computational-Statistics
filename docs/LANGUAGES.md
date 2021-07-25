@@ -104,6 +104,34 @@ install DBI
 ```
 for instance, as used in [VEP](https://github.com/jinghuazhao/software-notes/blob/master/AA.md).
 
+Another notable example is circos, [http://circos.ca](http://circos.ca),
+
+```bash
+wget -qO- http://circos.ca/distribution/circos-0.69-9.tgz | \
+tar xvfz -
+cd circos-0.69-9
+bin/circos --modules
+```
+
+The following required modules can be installed
+
+```perl
+Config::General (v2.50 or later)
+Font::TTF
+GD
+List::MoreUtils
+Math::Bezier
+Math::Round
+Math::VecStat
+Params::Validate
+Readonly
+Regexp::Common
+Set::IntSpan (v1.16 or later)
+Text::Format
+```
+
+and we can enter the example/ directory to run its script.
+
 ## Python
 
 To disable upgrade of pip, add 
