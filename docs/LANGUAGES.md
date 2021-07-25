@@ -102,7 +102,7 @@ The base64 encode/decode is with [https://www.base64encode.org/](https://www.bas
 sudo perl -MCPAN -e shell
 install DBI
 ```
-for instance, as used in [VEP](https://github.com/jinghuazhao/software-notes/blob/master/AA.md).
+for instance, as used in [VEP](https://jinghuazhao.github.io/software-notes/AA/#vep).
 
 Another notable example is circos, [http://circos.ca](http://circos.ca),
 
