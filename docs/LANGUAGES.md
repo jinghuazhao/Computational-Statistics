@@ -111,6 +111,8 @@ wget -qO- http://circos.ca/distribution/circos-0.69-9.tgz | \
 tar xvfz -
 cd circos-0.69-9
 bin/circos --modules
+wget -qO- http://circos.ca/distribution/circos-tutorials-current.tgz | \
+tar xvfz -
 ```
 
 The following required modules can be installed
