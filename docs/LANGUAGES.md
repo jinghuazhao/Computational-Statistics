@@ -104,14 +104,16 @@ install DBI
 ```
 for instance, as used in [VEP](https://jinghuazhao.github.io/software-notes/AA/#vep).
 
-Another notable example is circos, [http://circos.ca](http://circos.ca),
+Another notable example is circos, [http://circos.ca](http://circos.ca) and its [Google group](https://groups.google.com/g/circos-data-visualization),
 
 ```bash
-wget -qO- http://circos.ca/distribution/circos-0.69-9.tgz | \
+wget -qO- http://www.circos.ca/distribution/circos-current.tgz | \
 tar xvfz -
 cd circos-0.69-9
 bin/circos --modules
 wget -qO- http://circos.ca/distribution/circos-tutorials-current.tgz | \
+tar xvfz -
+wget -qO- http://www.circos.ca/distribution/circos-tools-current.tgz | \
 tar xvfz -
 ```
 
