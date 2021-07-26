@@ -238,12 +238,14 @@ so it is suggested to download directly from https://netbeans.org/downloads/. To
 install DBI
 </code></pre>
 <p>for instance, as used in <a href="https://jinghuazhao.github.io/software-notes/AA/#vep">VEP</a>.</p>
-<p>Another notable example is circos, <a href="http://circos.ca">http://circos.ca</a>,</p>
-<pre><code class="language-bash">wget -qO- http://circos.ca/distribution/circos-0.69-9.tgz | \
+<p>Another notable example is circos, <a href="http://circos.ca">http://circos.ca</a> and its <a href="https://groups.google.com/g/circos-data-visualization">Google group</a>,</p>
+<pre><code class="language-bash">wget -qO- http://www.circos.ca/distribution/circos-current.tgz | \
 tar xvfz -
 cd circos-0.69-9
 bin/circos --modules
 wget -qO- http://circos.ca/distribution/circos-tutorials-current.tgz | \
+tar xvfz -
+wget -qO- http://www.circos.ca/distribution/circos-tools-current.tgz | \
 tar xvfz -
 </code></pre>
 <p>The following required modules can be installed</p>
