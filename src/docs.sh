@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-function old()
+function github_only()
 {
   git add README.md
   git commit -m "README"
@@ -14,11 +14,16 @@ function old()
   git push
 }
 
-module load python/3.7
-source ~/COVID-19/py37/bin/activate
-pip install mkdocs-mermaid2-plugin
+function github_pages()
+{
+  module load python/3.7
+  source ~/COVID-19/py37/bin/activate
+  pip install mkdocs-mermaid2-plugin
+}
+
 mkdocs build
 mkdocs gh-deploy
+
 git add .gitignore
 git add docs
 git add mkdocs.yml
