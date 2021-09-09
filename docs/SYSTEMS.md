@@ -212,6 +212,7 @@ After installation, it can be invoked from a MS-DOS prompt with
 wsl -help
 wsl --list
 wsl --distribution Ubuntu
+wsl --set-default Ubuntu-20.04
 ```
 The command could also takes additional parameters, e.g., -d debian. Alternatively, one can create a desktop entry pointing to C:\Windows\system32\wsl.exe.
 
