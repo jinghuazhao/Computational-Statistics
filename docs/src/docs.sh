@@ -29,6 +29,4 @@ git add .gitignore
 git add docs
 git add mkdocs.yml
 git commit -m "backup"
-git add src
-git commit -m "src"
 git push
