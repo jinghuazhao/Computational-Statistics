@@ -1,6 +1,6 @@
 site_name: Computational Statistics
 nav:
-    - Contents: README.md
+    - "": README.md
     - INSTALL: INSTALL.md
     - LANGUAGES: LANGUAGES.md
     - PARALLEL: PARALLEL.md
