@@ -189,6 +189,7 @@ Since one may allocate only part of RAM to VirtualBox, it is often necessary to 
 
 Additional note: 6.1.4 has problem with its Guess Additions. To enable copy/paste through clipboard one can use [VBoxGuestAdditions_6.1.97-136310.iso](https://www.virtualbox.org/download/testcase/VBoxGuestAdditions_6.1.97-136310.iso) as discused here, https://www.virtualbox.org/ticket/19336.
 
+When VirtualBox failed to start a session, one can enter MS-DOS prompt as adminstrator, and issue command `bcdedit /set hypervisorlaunchtype off` and restart the computer.
 
 ## Windows Hyper-V
 
