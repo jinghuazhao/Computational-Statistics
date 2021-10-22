@@ -406,7 +406,23 @@ rsconnect::deployApp('path/to/your/app')
 <h2 id="texlatex">TeX/LaTeX</h2>
 <p>It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
 <code>pandoc README.md -o README.docx</code>.</p>
-<p>See https://pandoc.org/ and https://pandoc.org/try/.</p>
+<p>See <a href="https://pandoc.org/">https://pandoc.org/</a> and <a href="https://pandoc.org/try/">https://pandoc.org/try/</a>.</p>
+<p>For Chinese language support, try</p>
+<pre><code class="language-bash">sudo apt-get install texlive-latex-base
+sudo apt-get install latex-cjk-all
+sudo apt-get install texlive-latex-extra
+sudo apt-get install texmaker
+sudo apt-get install texlive-xetex
+sudo apt-get install texlive-publishers
+</code></pre>
+<p>Now change latex to xelatex from Texmaker.</p>
+<pre><code class="language-latex">\documentclass{article}
+\usepackage(xeCJK}
+\begin{document}
+How are you?你好吗？
+\LaTeX
+\end{document}
+</code></pre>
 <h2 id="typescript">typescript</h2>
 <p>First, create hello.ts with two lines,</p>
 <pre><code class="language-ts">#!/usr/bin/env ts-node
