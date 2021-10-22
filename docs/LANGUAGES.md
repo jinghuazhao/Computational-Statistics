@@ -329,7 +329,28 @@ The shiny page is then up as `https://your-account.shinyapps.io/shinyapps/`.
 It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
 `pandoc README.md -o README.docx`.
 
-See https://pandoc.org/ and https://pandoc.org/try/.
+See [https://pandoc.org/](https://pandoc.org/) and [https://pandoc.org/try/](https://pandoc.org/try/).
+
+For Chinese language support, try
+
+```bash
+sudo apt-get install texlive-latex-base
+sudo apt-get install latex-cjk-all
+sudo apt-get install texlive-latex-extra
+sudo apt-get install texmaker
+sudo apt-get install texlive-xetex
+sudo apt-get install texlive-publishers
+```
+
+Now change latex to xelatex from Texmaker.
+```latex
+\documentclass{article}
+\usepackage(xeCJK}
+\begin{document}
+How are you?你好吗？
+\LaTeX
+\end{document}
+```
 
 ## typescript
 
