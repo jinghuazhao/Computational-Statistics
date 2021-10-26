@@ -122,8 +122,10 @@
 
 <h1 id="web-related-notes">Web-related notes</h1>
 <h2 id="wget">wget</h2>
-<p>A useful instance is as follows,</p>
+<p>Some useful instances are as follows,</p>
 <pre><code class="language-bash">wget -nd --execute=&quot;robots = off&quot; --mirror --convert-links --no-parent --wait=5 http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/csv/GTEx_V8/ge/
+wget --no-check-certificate https://omicscience.org/apps/pgwas/data/all.grch37.tabix.gz
+wget --no-check-certificate https://omicscience.org/apps/pgwas/data/all.grch37.tabix.gz.tbi
 </code></pre>
 <h2 id="sophisticated-file-transfer-program">Sophisticated file transfer program</h2>
 <p>Non-interactive authentication for both <code>ftp</code> and <code>sftp</code> can be anabled by<code>lftp</code>, which can be installed with</p>
