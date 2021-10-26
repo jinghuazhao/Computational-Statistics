@@ -2,9 +2,11 @@
 
 ## wget
 
-A useful instance is as follows,
+Some useful instances are as follows,
 ```bash
 wget -nd --execute="robots = off" --mirror --convert-links --no-parent --wait=5 http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/csv/GTEx_V8/ge/
+wget --no-check-certificate https://omicscience.org/apps/pgwas/data/all.grch37.tabix.gz
+wget --no-check-certificate https://omicscience.org/apps/pgwas/data/all.grch37.tabix.gz.tbi
 ```
 
 ## Sophisticated file transfer program
