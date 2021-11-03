@@ -4,18 +4,18 @@ This is a skeleton to list items to be detailed in the near future.
 
 ## FreeDOS and Linux
 
-FreeDOS is available from http://www.freedos.org/. 
+FreeDOS is available from [http://www.freedos.org/](http://www.freedos.org/).
 
 > FreeDOS is an open source DOS-compatible operating system that you can use to play classic DOS games, run legacy business software, or develop embedded systems. Any program that works on MS-DOS should also run on FreeDOS.
 
 It is notable that v1.3 provides liveCD and liteUSB which could be useful.
 
-Here describes how to convert VMDK format to iso, https://www.ilovefreesoftware.com/26/featured/how-to-convert-vmdk-to-iso-in-windows.html, e.g.,
+Here describes how to convert VMDK format to iso, [https://www.ilovefreesoftware.com/26/featured/how-to-convert-vmdk-to-iso-in-windows.html](https://www.ilovefreesoftware.com/26/featured/how-to-convert-vmdk-to-iso-in-windows.html), e.g.,
 ```dos
 qemu-img convert -f vmdk FD13LITE.VMDK pd.raw
 dd if=pd.raw of=pd.iso
 ```
-We can then use rufus, https://rufus.ie/, to generate a bootable USB allowing for disk partition by `fdisk` -- in fact rufus itself can produce a bootable USB nevertheless with no utilities.
+We can then use rufus, [https://rufus.ie/](https://rufus.ie/), to generate a bootable USB allowing for disk partition by `fdisk` -- in fact rufus itself can produce a bootable USB nevertheless with no utilities.
 
 This is useful to install Linux on very old computers, e.g., reorganise hard drive and then install Fedora from a liveUSB generated from Fedora Media Writer, [https://getfedora.org/en/workstation/download/](https://getfedora.org/en/workstation/download/).
 
