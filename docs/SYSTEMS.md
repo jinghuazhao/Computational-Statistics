@@ -47,6 +47,10 @@ screen -ls
 screen -r <my-screen-session-id>
 ```
 
+## Fedora
+
+This has already been covered above, i.e., [https://getfedora.org/workstation/download/](https://getfedora.org/workstation/download/).
+
 ## Ubuntu
 
 Releases are available from http://releases.ubuntu.com and packages are listed at https://packages.ubuntu.com/.
