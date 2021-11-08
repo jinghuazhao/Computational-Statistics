@@ -53,7 +53,7 @@ This has already been covered above, i.e., [https://getfedora.org/workstation/do
 
 ## Ubuntu
 
-Releases are available from http://releases.ubuntu.com and packages are listed at https://packages.ubuntu.com/.
+Releases are available from [http://releases.ubuntu.com](http://releases.ubuntu.com) and packages are listed at [https://packages.ubuntu.com/](https://packages.ubuntu.com/).
 
 Often it is helpful to run
 ```bash
