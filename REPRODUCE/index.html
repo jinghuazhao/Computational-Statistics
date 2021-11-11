@@ -101,6 +101,10 @@
             
             <li class="nav-item" data-level="1"><a href="#reproducible-research" class="nav-link">Reproducible research</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#bookmarks-for-pdf" class="nav-link">bookmarks for PDF</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -120,6 +124,12 @@
 <li><a href="https://www.rdocumentation.org/packages/utils/versions/3.6.0/topics/Sweave">Sweave and Stangle</a>.</li>
 </ul>
 <p>An attempt to model reproducibility is Conceptualizing Reproducibility Using Simulations and Theory (<a href="https://github.com/gnardin/CRUST">CRUST</a>).</p>
+<h2 id="bookmarks-for-pdf">bookmarks for PDF</h2>
+<p>This is for Ubuntu,</p>
+<pre><code class="language-bash">sudo apt install pdftk-java
+pdftk src.pdf dump_data output bookmarks.txt
+pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
+</code></pre>
 <blockquote>
 <p>Devezer B, Nardin LG, Baumgaertner B, Buzbas EO. Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity. PLoS One. 2019 May 15;14(5):e0216125. doi: 10.1371/journal.pone.0216125. eCollection 2019.</p>
 </blockquote></div>
