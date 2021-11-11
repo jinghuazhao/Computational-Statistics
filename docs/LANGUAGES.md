@@ -1,6 +1,6 @@
 # Language notes
 
-This page collects information on Visual Studio Code, C, Fortran, Java, Perl, and R.
+This page collects information on Visual Studio Code, C, Fortran, Java, Perl, python and R.
 
 ## BASIC
 

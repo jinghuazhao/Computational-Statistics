@@ -12,4 +12,14 @@ a.k.a Literate programming.
 
 An attempt to model reproducibility is Conceptualizing Reproducibility Using Simulations and Theory ([CRUST](https://github.com/gnardin/CRUST)).
 
+## bookmarks for PDF
+
+This is for Ubuntu,
+
+```bash
+sudo apt install pdftk-java
+pdftk src.pdf dump_data output bookmarks.txt
+pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
+```
+
 > Devezer B, Nardin LG, Baumgaertner B, Buzbas EO. Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity. PLoS One. 2019 May 15;14(5):e0216125. doi: 10.1371/journal.pone.0216125. eCollection 2019.
