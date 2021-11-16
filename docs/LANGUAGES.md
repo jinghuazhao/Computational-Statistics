@@ -1,6 +1,6 @@
 # Language notes
 
-This page collects information on Visual Studio Code, C, Fortran, Java, Perl, python and R.
+This page collects information on Visual Studio Code, C, C++, Fortran, Java, Perl, python and R.
 
 ## BASIC
 
@@ -44,6 +44,24 @@ int main(void)
         return 0;
 }
 ```
+
+## C++
+
+The use of Google Test is noted here,
+
+Web: [https://github.com/google/googletest](https://github.com/google/googletest).
+
+```bash
+wget -qO- https://github.com/google/googletest/archive/refs/tags/release-1.11.0.tar.gz | \
+tar xvfz -
+cd googletest-release-1.11.0
+mkdir build && cd build
+build ..
+make
+# amending set(CMAKE_INSTALL_PREFIX "/rds/user/jhz22/hpc-work") in `cmake_install.cmake`
+make install
+```
+Now it is possible to compile R/glmnet 4.1-3, i.e., `find_package(GTest 1.11 CONFIG REQUIRED)` of `src/glmnetpp/CMakeLists.txt`.
 
 ## Fortran
 
