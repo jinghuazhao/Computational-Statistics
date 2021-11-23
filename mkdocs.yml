@@ -1,4 +1,6 @@
 site_name: Computational Statistics
+repo_url: https://jinghuazhao.github.io/Computational-Statistics
+edit_uri: ""
 nav:
     - "": README.md
     - INSTALL: INSTALL.md
