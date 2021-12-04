@@ -4,7 +4,7 @@
 
 Web: [https://aria2.github.io/](https://aria2.github.io/).
 
-The first example, `aria2c -c -j10 -i ../urls.txt`, specifying that to continue (-c) interrupted download, to use 10 concurrent threads (-j10) and use links in `urls.txt`.
+The first example, `aria2c -c -j10 -i ../urls.txt`, specifies that to continue (-c) interrupted download, to use 10 concurrent threads (-j10) and use links in `urls.txt`.
 
 The second example uses - as input: `echo https://download.decode.is/s3/download?token=68278faa-0b69-47a0-8fcb-5e7f4057004d&file=10023_32_VDR_VDR.txt.gz | aria2c -i -`.
 
