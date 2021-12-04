@@ -104,6 +104,10 @@
             
             <li class="nav-item" data-level="1"><a href="#web-related-notes" class="nav-link">Web-related notes</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#aria2" class="nav-link">aria2</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#wget" class="nav-link">wget</a>
               <ul class="nav flex-column">
               </ul>
@@ -124,6 +128,10 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="web-related-notes">Web-related notes</h1>
+<h2 id="aria2">aria2</h2>
+<p>Web: <a href="https://aria2.github.io/">https://aria2.github.io/</a>.</p>
+<p>The first example, <code>aria2c -c -j10 -i ../urls.txt</code>, specifying that to continue (-c) interrupted download, to use 10 concurrent threads (-j10) and use links in <code>urls.txt</code>.</p>
+<p>The second example uses - as input: <code>echo https://download.decode.is/s3/download?token=68278faa-0b69-47a0-8fcb-5e7f4057004d&amp;file=10023_32_VDR_VDR.txt.gz | aria2c -i -</code>.</p>
 <h2 id="wget">wget</h2>
 <p>Some useful instances are as follows,</p>
 <pre><code class="language-bash">wget -nd --execute=&quot;robots = off&quot; --mirror --convert-links --no-parent --wait=5 http://ftp.ebi.ac.uk/pub/databases/spot/eQTL/csv/GTEx_V8/ge/
