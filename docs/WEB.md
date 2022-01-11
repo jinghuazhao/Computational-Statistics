@@ -103,6 +103,31 @@ See information from here,
 
 https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering.
 
+### locale
+
+This is an example to convert from French encoding,
+
+```bash
+#!/usr/bin/bash
+
+if [ ! -d ascii ]; then mkdir ascii; fi
+cd ascii
+echo $LANG
+export LANG=en_US.utf8
+iconv  -c -f UTF-8 -t "ASCII//TRANSLIT" ../"Data Graph Categorization.csv" > "Data Graph Categorization.csv"
+iconv  -c -f UTF-8 -t "ASCII//TRANSLIT" ../"Data Graph Coverage Text Books 1980-2016.csv" > "Data Graph Coverage Text Books 1980-2016.csv"
+iconv  -c -f UTF-8 -t "ASCII//TRANSLIT" ../"Data Graph Features.csv" > "Data Graph Features.csv"
+iconv  -c -f UTF-8 -t "ASCII//TRANSLIT" ../"R Code Data Analyses.R" > "R Code Data Analyses.R" # needs comment on -prev_p[order(-prev_p[,3]),]
+iconv  -c -f UTF-8 -t "ASCII//TRANSLIT" ../"R Code Figures.R" > "R Code Figures.R"
+R --no-save < "R Code Data Analyses.R"
+R --no-save < "R Code Figures.R"
+cd -
+```
+
+as in the following paper,
+
+Kossmeier et al. Charting the landscape of graphical displays for meta-analysis and systematic reviews: a comprehensive review, taxonomy, and feature analysis. BMC Medical Research Methodology (2020) 20:26, https://doi.org/10.1186/s12874-020-0911-9
+
 ### Google document and EndNote
 
 It is possible to insert citation from an EndNote library, download as RTF more preferably OpenDocument format, and recover the citations through Tools --> Format paper, e.g.,
