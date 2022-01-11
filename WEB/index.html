@@ -205,6 +205,25 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 <h3 id="mobile-tethering">Mobile tethering</h3>
 <p>See information from here,</p>
 <p>https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering.</p>
+<h3 id="locale">locale</h3>
+<p>This is an example to convert from French encoding,</p>
+<pre><code class="language-bash">#!/usr/bin/bash
+
+if [ ! -d ascii ]; then mkdir ascii; fi
+cd ascii
+echo $LANG
+export LANG=en_US.utf8
+iconv  -c -f UTF-8 -t &quot;ASCII//TRANSLIT&quot; ../&quot;Data Graph Categorization.csv&quot; &gt; &quot;Data Graph Categorization.csv&quot;
+iconv  -c -f UTF-8 -t &quot;ASCII//TRANSLIT&quot; ../&quot;Data Graph Coverage Text Books 1980-2016.csv&quot; &gt; &quot;Data Graph Coverage Text Books 1980-2016.csv&quot;
+iconv  -c -f UTF-8 -t &quot;ASCII//TRANSLIT&quot; ../&quot;Data Graph Features.csv&quot; &gt; &quot;Data Graph Features.csv&quot;
+iconv  -c -f UTF-8 -t &quot;ASCII//TRANSLIT&quot; ../&quot;R Code Data Analyses.R&quot; &gt; &quot;R Code Data Analyses.R&quot; # needs comment on -prev_p[order(-prev_p[,3]),]
+iconv  -c -f UTF-8 -t &quot;ASCII//TRANSLIT&quot; ../&quot;R Code Figures.R&quot; &gt; &quot;R Code Figures.R&quot;
+R --no-save &lt; &quot;R Code Data Analyses.R&quot;
+R --no-save &lt; &quot;R Code Figures.R&quot;
+cd -
+</code></pre>
+<p>as in the following paper,</p>
+<p>Kossmeier et al. Charting the landscape of graphical displays for meta-analysis and systematic reviews: a comprehensive review, taxonomy, and feature analysis. BMC Medical Research Methodology (2020) 20:26, https://doi.org/10.1186/s12874-020-0911-9</p>
 <h3 id="google-document-and-endnote">Google document and EndNote</h3>
 <p>It is possible to insert citation from an EndNote library, download as RTF more preferably OpenDocument format, and recover the citations through Tools --&gt; Format paper, e.g.,</p>
 <p>https://libguides.jcu.edu.au/endnote/google-docs</p>
