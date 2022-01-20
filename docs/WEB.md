@@ -128,6 +128,8 @@ as in the following paper,
 
 Kossmeier et al. Charting the landscape of graphical displays for meta-analysis and systematic reviews: a comprehensive review, taxonomy, and feature analysis. BMC Medical Research Methodology (2020) 20:26, https://doi.org/10.1186/s12874-020-0911-9
 
+Perhaps a somewhat easier way to do is through RStudio's `File` --> `Save with Encoding` and choose `UTF-8`.
+
 ### Google document and EndNote
 
 It is possible to insert citation from an EndNote library, download as RTF more preferably OpenDocument format, and recover the citations through Tools --> Format paper, e.g.,
