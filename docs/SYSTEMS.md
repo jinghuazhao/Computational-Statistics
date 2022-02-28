@@ -121,7 +121,7 @@ sudo apt install gnome-shell-extension
 sudo apt search gnome-shell-extension
 gnome-shell --help
 sudo apt install gnome-shell-extension-prefs
-sudo gnome-extensions install dash-to-dockmicxgx.gmail.com.v71.shell-extension.zip 
+sudo gnome-extensions install dash-to-dockmicxgx.gmail.com.v71.shell-extension.zip
 sudo apt install gnome-tweaks
 ```
 
