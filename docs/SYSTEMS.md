@@ -123,13 +123,26 @@ sudo apt install gnome-shell-extension
 sudo apt search gnome-shell-extension
 gnome-shell --help
 sudo apt install gnome-shell-extension-prefs
+# https://extensions.gnome.org/extension/307/dash-to-dock/
 sudo gnome-extensions install dash-to-dockmicxgx.gmail.com.v71.shell-extension.zip
 sudo apt install gnome-tweaks
 ```
 
 One of the must-haves, gnome-tweaks, removes GNOME Shell Extensions support from releasing version 40 and it is necessary to install
-`gnome-shell-extension-prefs`. After this, the Extension can enable 'dash-on-dock' as with user themes, e.g., Glassy/Glassy-dark through
-`gnome-tweaks` by unpacking the relevant files to `/usr/share/themes`.
+`gnome-shell-extension-prefs`. After this, the Extension can enable 'dash-on-dock' as with user themes and Glassy/Glassy-dark through
+`gnome-tweaks` by unpacking the relevant files to `/usr/share/themes`. For WhiteSur, we download and unpack them to .themes and .icons
+at the home directory, e.g., 
+
+```bash
+# https://www.gnome-look.org/p/1403328/
+mkdir ~/.themes
+cd ~/.themes
+tar fvzx WhiteSur-gtk-theme-2022-02-21.tar.gz
+./install.sh
+mkdir ~/.icons
+cd ~/.icons
+tar xf 01-WhiteSur.tar.xz
+```
 
 ## Oracle VirtualBox
 
