@@ -203,6 +203,9 @@ dd if=pd.raw of=pd.iso
 screen -ls
 screen -r &lt;my-screen-session-id&gt;
 </code></pre>
+<p>To enable color with nano, try</p>
+<pre><code class="language-bash">find /usr/share/nano/ -iname &quot;*.nanorc&quot; -exec echo include {} \; &gt;&gt; ~/.nanorc
+</code></pre>
 <h2 id="fedora">Fedora</h2>
 <p>This has already been covered above, i.e., <a href="https://getfedora.org/workstation/download/">https://getfedora.org/workstation/download/</a>.</p>
 <h2 id="ubuntu">Ubuntu</h2>
@@ -245,9 +248,6 @@ make install
 sudo nano /etc/apt/sources.list
 # uncomment deb-src here
 apt-get source hello
-</code></pre>
-<p>To enable color with nano, try</p>
-<pre><code class="language-bash">find /usr/share/nano/ -iname &quot;*.nanorc&quot; -exec echo include {} \; &gt;&gt; ~/.nanorc
 </code></pre>
 <p>The system hibernation can be done with <code>sudo systemctl hibernate</code>.</p>
 <p>Some operations on gnome extensions are given below,</p>
