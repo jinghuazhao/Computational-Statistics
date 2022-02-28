@@ -114,6 +114,19 @@ find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 ```
 The system hibernation can be done with `sudo systemctl hibernate`.
 
+Some operations on gnome extensions are given below,
+
+```bash
+sudo apt install gnome-shell-extension
+sudo apt search gnome-shell-extension
+gnome-shell --help
+sudo apt install gnome-shell-extension-prefs
+sudo apt install gnome-tweaks
+```
+
+One of the must-haves, gnome-tweaks, removes GNOME Shell Extensions support from releasing version 40 and it is necessary to install
+`gnome-shell-extension-prefs`. After this, the Extension can enable 'dash-on-dock' as with user themes, e.g., Glassy/Glassy-dark through
+`gnome-tweaks` by unpacking the relevant files to `/usr/share/themes`.
 
 ## Oracle VirtualBox
 
