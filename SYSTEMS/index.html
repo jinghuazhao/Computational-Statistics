@@ -250,6 +250,16 @@ apt-get source hello
 <pre><code class="language-bash">find /usr/share/nano/ -iname &quot;*.nanorc&quot; -exec echo include {} \; &gt;&gt; ~/.nanorc
 </code></pre>
 <p>The system hibernation can be done with <code>sudo systemctl hibernate</code>.</p>
+<p>Some operations on gnome extensions are given below,</p>
+<pre><code class="language-bash">sudo apt install gnome-shell-extension
+sudo apt search gnome-shell-extension
+gnome-shell --help
+sudo apt install gnome-shell-extension-prefs
+sudo apt install gnome-tweaks
+</code></pre>
+<p>One of the must-haves, gnome-tweaks, removes GNOME Shell Extensions support from releasing version 40 and it is necessary to install
+<code>gnome-shell-extension-prefs</code>. After this, the Extension can enable 'dash-on-dock' as with user themes, e.g., Glassy/Glassy-dark through
+<code>gnome-tweaks</code> by unpacking the relevant files to <code>/usr/share/themes</code>.</p>
 <h2 id="oracle-virtualbox">Oracle VirtualBox</h2>
 <p>To use VirtualBox under Windows 7, one needs to enable virtualisation within security section of BIOS setup. To find out system info, one can run</p>
 <pre><code>systeminfo
