@@ -47,6 +47,11 @@ screen -ls
 screen -r <my-screen-session-id>
 ```
 
+To enable color with nano, try
+```bash
+find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
+```
+
 ## Fedora
 
 This has already been covered above, i.e., [https://getfedora.org/workstation/download/](https://getfedora.org/workstation/download/).
@@ -108,10 +113,7 @@ sudo nano /etc/apt/sources.list
 # uncomment deb-src here
 apt-get source hello
 ```
-To enable color with nano, try
-```bash
-find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
-```
+
 The system hibernation can be done with `sudo systemctl hibernate`.
 
 Some operations on gnome extensions are given below,
