@@ -400,6 +400,20 @@ ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
 </code></pre>
 <p>followed by a call to <code>AcroRd32.exe</code> and as <code>xpdf</code>, or directly call a list of programs: <code>calc.exe</code>, <code>comp.exe</code>, <code>control.exe</code>,
 <code>curl.exe</code>, <code>fc.exe</code>, <code>find.exe</code>, <code>finger.exe</code>, <code>mspaint.exe</code>, <code>net.exe</code>, <code>sort.exe</code>, <code>tar.exe</code>, <code>whoami.exe</code>, <code>write.exe</code>, <code>xcopy.exe</code>.</p>
+<h3 id="ubuntu-2110">Ubuntu 21.10</h3>
+<p>This is also the latest release. It is possible to upgrade from 21.04 but here is how to do this directly,</p>
+<pre><code class="language-bash">wget https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
+mkdir d:\wsl
+wsl --import Ubuntu-2110 d:/WSL/Ubuntu-2110 d:/Downloads/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
+wsl -d Ubuntu-2110
+adduser jhz22
+usermod -aG sudo jhz22
+su jhz22
+ln -s /mnt/c C
+ln -s /mnt/D D
+# restart
+wsl -d Ubuntu-2110 -u jhz22
+</code></pre>
 <h2 id="anaconda">Anaconda</h2>
 <p>Once installed, it is customary to make several channels accessible,</p>
 <pre><code>conda config --add channels defaults
@@ -426,20 +440,6 @@ export PYTHONPATH=/scratch/jhz22/lib/python2.7/site-packages/
 </code></pre>
 <p>Examine .bashrc for changes.</p>
 <p>See <a href="https://docs.anaconda.com/anaconda/user-guide/getting-started/">https://docs.anaconda.com/anaconda/user-guide/getting-started/</a> to get started.</p>
-<h3 id="ubuntu-2110">Ubuntu 21.10</h3>
-<p>This is also the latest release. It is possible to upgrade from 21.04 but here is how to do this directly,</p>
-<pre><code class="language-bash">wget https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
-mkdir d:\wsl
-wsl --import Ubuntu-2110 d:/WSL/Ubuntu-2110 d:/Downloads/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
-wsl -d Ubuntu-2110
-adduser jhz22
-usermod -aG sudo jhz22
-su jhz22
-ln -s /mnt/c C
-ln -s /mnt/D D
-# restart
-wsl -d Ubuntu-2110 -u jhz22
-</code></pre>
 <h2 id="github">GitHub</h2>
 <p>See <a href="https://github.com/jinghuazhao/physalia">physalia</a> for information.</p>
 <p>It has been suggested to display math using the following premium in a GitHub page,</p>
