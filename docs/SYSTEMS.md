@@ -317,6 +317,24 @@ ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
 followed by a call to `AcroRd32.exe` and as `xpdf`, or directly call a list of programs: `calc.exe`, `comp.exe`, `control.exe`,
 `curl.exe`, `fc.exe`, `find.exe`, `finger.exe`, `mspaint.exe`, `net.exe`, `sort.exe`, `tar.exe`, `whoami.exe`, `write.exe`, `xcopy.exe`.
 
+### Ubuntu 21.10
+
+This is also the latest release. It is possible to upgrade from 21.04 but here is how to do this directly,
+
+```bash
+wget https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
+mkdir d:\wsl
+wsl --import Ubuntu-2110 d:/WSL/Ubuntu-2110 d:/Downloads/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
+wsl -d Ubuntu-2110
+adduser jhz22
+usermod -aG sudo jhz22
+su jhz22
+ln -s /mnt/c C
+ln -s /mnt/D D
+# restart
+wsl -d Ubuntu-2110 -u jhz22
+```
+
 ## Anaconda
 
 Once installed, it is customary to make several channels accessible,
@@ -353,24 +371,6 @@ export PYTHONPATH=/scratch/jhz22/lib/python2.7/site-packages/
 Examine .bashrc for changes.
 
 See [https://docs.anaconda.com/anaconda/user-guide/getting-started/](https://docs.anaconda.com/anaconda/user-guide/getting-started/) to get started.
-
-### Ubuntu 21.10
-
-This is also the latest release. It is possible to upgrade from 21.04 but here is how to do this directly,
-
-```bash
-wget https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
-mkdir d:\wsl
-wsl --import Ubuntu-2110 d:/WSL/Ubuntu-2110 d:/Downloads/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
-wsl -d Ubuntu-2110
-adduser jhz22
-usermod -aG sudo jhz22
-su jhz22
-ln -s /mnt/c C
-ln -s /mnt/D D
-# restart
-wsl -d Ubuntu-2110 -u jhz22
-```
 
 ## GitHub
 
