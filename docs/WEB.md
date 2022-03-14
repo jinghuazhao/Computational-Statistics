@@ -99,6 +99,23 @@ firefox http://127.0.0.1:8050
 
 The zip file is available from [https://github.com/plotly/dash-sample-apps/releases](https://github.com/plotly/dash-sample-apps/releases).
 
+The simplest version is R is done as follows,
+
+```r
+library(dash)
+app <- dash_app()
+
+app %>% set_layout("hello", "Dash")
+app %>% set_layout(div("hello"), "Dash")
+app %>% set_layout(list(div("hello"), "Dash"))
+app %>% set_layout("Conditional UI using an if statement: ",
+                   if (TRUE) "rendered",
+                   if (FALSE) "not rendered")
+app %>% set_layout(function() { div("Current time: ", Sys.time()) })
+app
+```
+
+The `dash` package is available from [https://CRAN.R-project.org/package=dash](https://CRAN.R-project.org/package=dash).
 
 ## djvulibre
 
