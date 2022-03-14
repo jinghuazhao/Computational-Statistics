@@ -116,7 +116,31 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#dash" class="nav-link">dash</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#djvulibre" class="nav-link">djvulibre</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#google-chrome" class="nav-link">Google-chrome</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#locale" class="nav-link">locale</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#sphinx" class="nav-link">sphinx</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#synchronisation" class="nav-link">Synchronisation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#web-site-file-permission" class="nav-link">Web site file permission</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -188,7 +212,7 @@ EOF
 <p>can be fixed with ssh/sftp as follows,</p>
 <pre><code class="language-bash">sftp -oKexAlgorithms=+diffie-hellman-group1-sha1 user@host
 </code></pre>
-<h3 id="dash">dash</h3>
+<h2 id="dash">dash</h2>
 <p>This illustrates under Ubuntu 21.10 the demo <code>dash-drug-discovery</code>, <a href="https://dash.gallery/dash-drug-discovery/">https://dash.gallery/dash-drug-discovery/</a>.</p>
 <pre><code class="language-bash">sudo apt install python3.9-venv
 python3 -m venv myvenv
@@ -202,7 +226,7 @@ cd dash-drug-discovery
 python app.py
 firefox http://127.0.0.1:8050
 </code></pre>
-<h3 id="djvulibre">djvulibre</h3>
+<h2 id="djvulibre">djvulibre</h2>
 <pre><code class="language-bash">wget https://github.com/barak/djvulibre/archive/debian/3.5.27.1-14.zip
 unzip  3.5.27.1-14.zip |more
 cd djvulibre-debian-3.5.27.1-14/
@@ -211,7 +235,7 @@ configure --prefix=/rds-d4/user/jhz22/hpc-work/
 make
 make install
 </code></pre>
-<h3 id="google-chrome">Google-chrome</h3>
+<h2 id="google-chrome">Google-chrome</h2>
 <p>Installation is possible with</p>
 <pre><code class="language-bash">wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
@@ -220,7 +244,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 <h3 id="mobile-tethering">Mobile tethering</h3>
 <p>See information from here,</p>
 <p>https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering.</p>
-<h3 id="locale">locale</h3>
+<h2 id="locale">locale</h2>
 <p>This is an example to convert from French encoding,</p>
 <pre><code class="language-bash">#!/usr/bin/bash
 
@@ -243,7 +267,7 @@ cd -
 <h3 id="google-document-and-endnote">Google document and EndNote</h3>
 <p>It is possible to insert citation from an EndNote library, download as RTF more preferably OpenDocument format, and recover the citations through Tools --&gt; Format paper, e.g.,</p>
 <p>https://libguides.jcu.edu.au/endnote/google-docs</p>
-<h3 id="sphinx">sphinx</h3>
+<h2 id="sphinx">sphinx</h2>
 <p>The sequence below follows,  https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html.</p>
 <pre><code class="language-bash">module load python/3.6
 virtualenv --system-site-package venv
@@ -260,7 +284,7 @@ pip install recommonmark
 <pre><code class="language-bash">rsync -avrzP $HOME/public_html shell.srcf.net:/public/$HOME
 </code></pre>
 <p>Note that it works equally well for backup of files locally.</p>
-<h3 id="web-site-file-permission">Web site file permission</h3>
+<h2 id="web-site-file-permission">Web site file permission</h2>
 <p>The following commands set read permission to a web site hosted at <code>/public/$HOME/public_html</code>.</p>
 <pre><code class="language-bash">chmod -R +r /public/$HOME/public_html
 find /public/$HOME/public_html -type d -exec chmod +x {} \;
