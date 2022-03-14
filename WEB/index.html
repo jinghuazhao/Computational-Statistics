@@ -227,6 +227,20 @@ python app.py
 firefox http://127.0.0.1:8050
 </code></pre>
 <p>The zip file is available from <a href="https://github.com/plotly/dash-sample-apps/releases">https://github.com/plotly/dash-sample-apps/releases</a>.</p>
+<p>The simplest version is R is done as follows,</p>
+<pre><code class="language-r">library(dash)
+app &lt;- dash_app()
+
+app %&gt;% set_layout(&quot;hello&quot;, &quot;Dash&quot;)
+app %&gt;% set_layout(div(&quot;hello&quot;), &quot;Dash&quot;)
+app %&gt;% set_layout(list(div(&quot;hello&quot;), &quot;Dash&quot;))
+app %&gt;% set_layout(&quot;Conditional UI using an if statement: &quot;,
+                   if (TRUE) &quot;rendered&quot;,
+                   if (FALSE) &quot;not rendered&quot;)
+app %&gt;% set_layout(function() { div(&quot;Current time: &quot;, Sys.time()) })
+app
+</code></pre>
+<p>The <code>dash</code> package is available from <a href="https://CRAN.R-project.org/package=dash">https://CRAN.R-project.org/package=dash</a>.</p>
 <h2 id="djvulibre">djvulibre</h2>
 <pre><code class="language-bash">wget https://github.com/barak/djvulibre/archive/debian/3.5.27.1-14.zip
 unzip  3.5.27.1-14.zip |more
