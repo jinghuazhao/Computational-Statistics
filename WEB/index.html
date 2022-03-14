@@ -188,6 +188,20 @@ EOF
 <p>can be fixed with ssh/sftp as follows,</p>
 <pre><code class="language-bash">sftp -oKexAlgorithms=+diffie-hellman-group1-sha1 user@host
 </code></pre>
+<h3 id="dash">dash</h3>
+<p>This illustrates under Ubuntu 21.10 the demo <code>dash-drug-discovery</code>, <a href="https://dash.gallery/dash-drug-discovery/">https://dash.gallery/dash-drug-discovery/</a>.</p>
+<pre><code class="language-bash">sudo apt install python3.9-venv
+python3 -m venv myvenv
+source myvenv/bin/activate
+pip install pandas
+pip install dash
+pip install gunicorn
+cd dash-drug-discovery/
+unzip -v dash-drug-discovery.zip
+cd dash-drug-discovery
+python app.py
+firefox http://127.0.0.1:8050
+</code></pre>
 <h3 id="djvulibre">djvulibre</h3>
 <pre><code class="language-bash">wget https://github.com/barak/djvulibre/archive/debian/3.5.27.1-14.zip
 unzip  3.5.27.1-14.zip |more
