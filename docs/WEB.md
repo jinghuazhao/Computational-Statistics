@@ -89,12 +89,14 @@ source myvenv/bin/activate
 pip install pandas
 pip install dash
 pip install gunicorn
-cd dash-drug-discovery/
-unzip -v dash-drug-discovery.zip
+unzip dash-drug-discovery.zip
 cd dash-drug-discovery
 python app.py
 firefox http://127.0.0.1:8050
 ```
+
+The zip file is available from [https://github.com/plotly/dash-sample-apps/releases](https://github.com/plotly/dash-sample-apps/releases).
+
 
 ## djvulibre
 
