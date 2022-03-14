@@ -78,7 +78,7 @@ can be fixed with ssh/sftp as follows,
 sftp -oKexAlgorithms=+diffie-hellman-group1-sha1 user@host
 ```
 
-### dash
+## dash
 
 This illustrates under Ubuntu 21.10 the demo `dash-drug-discovery`, [https://dash.gallery/dash-drug-discovery/](https://dash.gallery/dash-drug-discovery/).
 
@@ -96,7 +96,7 @@ python app.py
 firefox http://127.0.0.1:8050
 ```
 
-### djvulibre
+## djvulibre
 
 ```bash
 wget https://github.com/barak/djvulibre/archive/debian/3.5.27.1-14.zip
@@ -108,7 +108,7 @@ make
 make install
 ```
 
-### Google-chrome
+## Google-chrome
 
 Installation is possible with
 ```bash
@@ -123,7 +123,7 @@ See information from here,
 
 https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering.
 
-### locale
+## locale
 
 This is an example to convert from French encoding,
 
@@ -156,7 +156,7 @@ It is possible to insert citation from an EndNote library, download as RTF more 
 
 https://libguides.jcu.edu.au/endnote/google-docs
 
-### sphinx
+## sphinx
 
 The sequence below follows,  https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html.
 ```bash
@@ -179,7 +179,7 @@ rsync -avrzP $HOME/public_html shell.srcf.net:/public/$HOME
 ```
 Note that it works equally well for backup of files locally.
 
-### Web site file permission
+## Web site file permission
 
 The following commands set read permission to a web site hosted at `/public/$HOME/public_html`.
 ```bash
