@@ -78,6 +78,24 @@ can be fixed with ssh/sftp as follows,
 sftp -oKexAlgorithms=+diffie-hellman-group1-sha1 user@host
 ```
 
+### dash
+
+This illustrates under Ubuntu 21.10 the demo `dash-drug-discovery`, [https://dash.gallery/dash-drug-discovery/](https://dash.gallery/dash-drug-discovery/).
+
+```bash
+sudo apt install python3.9-venv
+python3 -m venv myvenv
+source myvenv/bin/activate
+pip install pandas
+pip install dash
+pip install gunicorn
+cd dash-drug-discovery/
+unzip -v dash-drug-discovery.zip
+cd dash-drug-discovery
+python app.py
+firefox http://127.0.0.1:8050
+```
+
 ### djvulibre
 
 ```bash
