@@ -17,9 +17,11 @@ wget --no-check-certificate https://omicscience.org/apps/pgwas/data/all.grch37.t
 wget --no-check-certificate https://omicscience.org/apps/pgwas/data/all.grch37.tabix.gz.tbi
 ```
 
-## Sophisticated file transfer program
+## lftp
 
-Non-interactive authentication for both `ftp` and `sftp` can be anabled by`lftp`, which can be installed with
+This is a sophisticated file transfer program.
+
+Non-interactive authentication for both `ftp` and `sftp` can be enabled by `lftp`, which can be installed with
 ```bash
 # Fedora
 sudo dnf install lftp
