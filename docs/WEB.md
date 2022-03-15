@@ -99,6 +99,8 @@ firefox http://127.0.0.1:8050
 
 The zip file is available from [https://github.com/plotly/dash-sample-apps/releases](https://github.com/plotly/dash-sample-apps/releases).
 
+A detailed example for instance can be seen from [https://realpython.com/python-dash/](https://realpython.com/python-dash/).
+
 The simplest version is R is done as follows,
 
 ```r
