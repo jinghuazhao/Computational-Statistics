@@ -82,7 +82,10 @@ sftp -oKexAlgorithms=+diffie-hellman-group1-sha1 user@host
 
 ## dash
 
+### Python
+
 This illustrates under Ubuntu 21.10 the demo `dash-drug-discovery`, [https://dash.gallery/dash-drug-discovery/](https://dash.gallery/dash-drug-discovery/).
+The source is a zipped file available from [https://github.com/plotly/dash-sample-apps/releases](https://github.com/plotly/dash-sample-apps/releases).
 
 ```bash
 sudo apt install python3.9-venv
@@ -94,14 +97,16 @@ pip install gunicorn
 unzip dash-drug-discovery.zip
 cd dash-drug-discovery
 python app.py
-firefox http://127.0.0.1:8050
 ```
 
-The zip file is available from [https://github.com/plotly/dash-sample-apps/releases](https://github.com/plotly/dash-sample-apps/releases).
+The last line starts `firefox` with URL http://127.0.0.1:8050.
 
-A detailed example for instance can be seen from [https://realpython.com/python-dash/](https://realpython.com/python-dash/).
+A detailed example in Python can be seen from [https://realpython.com/python-dash/](https://realpython.com/python-dash/).
 
-The simplest version is R is done as follows,
+### R
+
+The R package `dash` is available from [https://CRAN.R-project.org/package=dash](https://CRAN.R-project.org/package=dash), documented
+from [https://dash.plotly.com/r](https://dash.plotly.com/r), and the simplest demo is as follows,
 
 ```r
 library(dash)
@@ -116,10 +121,6 @@ app %>% set_layout("Conditional UI using an if statement: ",
 app %>% set_layout(function() { div("Current time: ", Sys.time()) })
 app
 ```
-
-with more details from [https://dash.plotly.com/r](https://dash.plotly.com/r).
-
-The `dash` package is available from [https://CRAN.R-project.org/package=dash](https://CRAN.R-project.org/package=dash).
 
 ## djvulibre
 
