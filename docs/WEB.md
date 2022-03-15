@@ -101,8 +101,6 @@ python app.py
 
 The last line starts `firefox` with URL http://127.0.0.1:8050.
 
-A detailed example in Python can be seen from [https://realpython.com/python-dash/](https://realpython.com/python-dash/).
-
 ### R
 
 The R package `dash` is available from [https://CRAN.R-project.org/package=dash](https://CRAN.R-project.org/package=dash), documented
