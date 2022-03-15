@@ -214,7 +214,9 @@ EOF
 <pre><code class="language-bash">sftp -oKexAlgorithms=+diffie-hellman-group1-sha1 user@host
 </code></pre>
 <h2 id="dash">dash</h2>
-<p>This illustrates under Ubuntu 21.10 the demo <code>dash-drug-discovery</code>, <a href="https://dash.gallery/dash-drug-discovery/">https://dash.gallery/dash-drug-discovery/</a>.</p>
+<h3 id="python">Python</h3>
+<p>This illustrates under Ubuntu 21.10 the demo <code>dash-drug-discovery</code>, <a href="https://dash.gallery/dash-drug-discovery/">https://dash.gallery/dash-drug-discovery/</a>.
+The source is a zipped file available from <a href="https://github.com/plotly/dash-sample-apps/releases">https://github.com/plotly/dash-sample-apps/releases</a>.</p>
 <pre><code class="language-bash">sudo apt install python3.9-venv
 python3 -m venv myvenv
 source myvenv/bin/activate
@@ -224,11 +226,12 @@ pip install gunicorn
 unzip dash-drug-discovery.zip
 cd dash-drug-discovery
 python app.py
-firefox http://127.0.0.1:8050
 </code></pre>
-<p>The zip file is available from <a href="https://github.com/plotly/dash-sample-apps/releases">https://github.com/plotly/dash-sample-apps/releases</a>.</p>
-<p>A detailed example for instance can be seen from <a href="https://realpython.com/python-dash/">https://realpython.com/python-dash/</a>.</p>
-<p>The simplest version is R is done as follows,</p>
+<p>The last line starts <code>firefox</code> with URL http://127.0.0.1:8050.</p>
+<p>A detailed example in Python can be seen from <a href="https://realpython.com/python-dash/">https://realpython.com/python-dash/</a>.</p>
+<h3 id="r">R</h3>
+<p>The R package <code>dash</code> is available from <a href="https://CRAN.R-project.org/package=dash">https://CRAN.R-project.org/package=dash</a>, documented
+from <a href="https://dash.plotly.com/r">https://dash.plotly.com/r</a>, and the simplest demo is as follows,</p>
 <pre><code class="language-r">library(dash)
 app &lt;- dash_app()
 
@@ -241,8 +244,6 @@ app %&gt;% set_layout(&quot;Conditional UI using an if statement: &quot;,
 app %&gt;% set_layout(function() { div(&quot;Current time: &quot;, Sys.time()) })
 app
 </code></pre>
-<p>with more details from <a href="https://dash.plotly.com/r">https://dash.plotly.com/r</a>.</p>
-<p>The <code>dash</code> package is available from <a href="https://CRAN.R-project.org/package=dash">https://CRAN.R-project.org/package=dash</a>.</p>
 <h2 id="djvulibre">djvulibre</h2>
 <pre><code class="language-bash">wget https://github.com/barak/djvulibre/archive/debian/3.5.27.1-14.zip
 unzip  3.5.27.1-14.zip |more
