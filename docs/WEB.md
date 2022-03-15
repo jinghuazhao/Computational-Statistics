@@ -117,6 +117,8 @@ app %>% set_layout(function() { div("Current time: ", Sys.time()) })
 app
 ```
 
+with more details from [https://dash.plotly.com/r](https://dash.plotly.com/r).
+
 The `dash` package is available from [https://CRAN.R-project.org/package=dash](https://CRAN.R-project.org/package=dash).
 
 ## djvulibre
