@@ -120,7 +120,7 @@ app %>% set_layout(function() { div("Current time: ", Sys.time()) })
 app
 ```
 
-A plotly figure can be passed on as follows,
+A plotly figure (e.g., [https://plotly-r.com/](https://plotly-r.com/)) can be passed on as follows,
 
 ```r
 library(plotly)
