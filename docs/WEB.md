@@ -99,7 +99,7 @@ cd dash-drug-discovery
 python app.py
 ```
 
-The last line starts `firefox` with URL http://127.0.0.1:8050.
+The output from last line is seen from `firefox` with URL http://127.0.0.1:8050.
 
 ### R
 
@@ -143,6 +143,8 @@ app$layout(
 
 app$run_server(debug=TRUE, dev_tools_hot_reload=FALSE)
 ```
+
+The view requires WebGL, see [https://get.webgl.org](https://get.webgl.org).
 
 ## djvulibre
 
