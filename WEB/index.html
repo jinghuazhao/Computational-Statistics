@@ -227,7 +227,7 @@ unzip dash-drug-discovery.zip
 cd dash-drug-discovery
 python app.py
 </code></pre>
-<p>The last line starts <code>firefox</code> with URL http://127.0.0.1:8050.</p>
+<p>The output from last line is seen from <code>firefox</code> with URL http://127.0.0.1:8050.</p>
 <h3 id="r">R</h3>
 <p>The R package <code>dash</code> is available from <a href="https://CRAN.R-project.org/package=dash">https://CRAN.R-project.org/package=dash</a>, documented
 from <a href="https://dash.plotly.com/r">https://dash.plotly.com/r</a>, and the simplest demo is as follows,</p>
@@ -264,6 +264,7 @@ app$layout(
 
 app$run_server(debug=TRUE, dev_tools_hot_reload=FALSE)
 </code></pre>
+<p>The view requires WebGL, see <a href="https://get.webgl.org">https://get.webgl.org</a>.</p>
 <h2 id="djvulibre">djvulibre</h2>
 <pre><code class="language-bash">wget https://github.com/barak/djvulibre/archive/debian/3.5.27.1-14.zip
 unzip  3.5.27.1-14.zip |more
