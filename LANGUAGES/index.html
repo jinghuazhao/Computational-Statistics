@@ -202,6 +202,23 @@ int main(void)
         return 0;
 }
 </code></pre>
+<p>A script for testing UTF-8 support by PCRE,</p>
+<pre><code class="language-c">#include &lt;pcre.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+
+int main() {
+    int supports_utf8;
+    if (pcre_config (PCRE_CONFIG_UTF8, &amp;supports_utf8)) {
+        fprintf(stderr, &quot;pcre_config() failed\n&quot;);
+        exit(EXIT_FAILURE);
+    }
+    printf(&quot;UTF-8 is supported: %s\n&quot;, supports_utf8 ? &quot;yes&quot; : &quot;no&quot;);
+    exit(EXIT_SUCCESS);
+}
+// gcc $(pkg-config --cflags --libs libpcre) pcreutf.c
+// pcretest -C
+</code></pre>
 <h2 id="c_1">C++</h2>
 <p>The use of Google Test is noted here,</p>
 <p>Web: <a href="https://github.com/google/googletest">https://github.com/google/googletest</a>.</p>
