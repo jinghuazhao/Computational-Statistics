@@ -62,6 +62,7 @@ int main() {
     exit(EXIT_SUCCESS);
 }
 // gcc $(pkg-config --cflags --libs libpcre) pcreutf.c
+// ./a.out
 // pcretest -C
 ```
 
