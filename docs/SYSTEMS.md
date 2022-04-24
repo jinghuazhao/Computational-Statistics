@@ -150,7 +150,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 64
 gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items true
 ```
 
-from dconf-editor, go to "org > gnome > shell > extensions > dash-to-dock" to customise.
+from dconf-editor, go to "org > gnome > shell > extensions > dash-to-dock" to customise, see [here](https://linuxconfig.org/how-to-customize-dock-panel-on-ubuntu-22-04-jammy-jellyfish-linux).
 
 ## Oracle VirtualBox
 
