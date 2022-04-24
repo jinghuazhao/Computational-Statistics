@@ -141,6 +141,11 @@ tar fvzx WhiteSur-gtk-theme-2022-02-21.tar.gz
 mkdir ~/.icons
 cd ~/.icons
 tar xf 01-WhiteSur.tar.xz
+gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
+gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode FIXED
+gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 64
+gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items true
 ```
 
 ## Oracle VirtualBox
