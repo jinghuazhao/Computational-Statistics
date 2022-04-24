@@ -270,12 +270,15 @@ tar fvzx WhiteSur-gtk-theme-2022-02-21.tar.gz
 mkdir ~/.icons
 cd ~/.icons
 tar xf 01-WhiteSur.tar.xz
+sudo apt install dconf-editor
+dconf-editor &amp;
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode FIXED
 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 64
 gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items true
 </code></pre>
+<p>from dconf-editor, go to "org &gt; gnome &gt; shell &gt; extensions &gt; dash-to-dock" to customise.</p>
 <h2 id="oracle-virtualbox">Oracle VirtualBox</h2>
 <p>To use VirtualBox under Windows 7, one needs to enable virtualisation within security section of BIOS setup. To find out system info, one can run</p>
 <pre><code>systeminfo
