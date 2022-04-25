@@ -134,12 +134,19 @@ by unpacking the relevant files to `/usr/share/themes`. For WhiteSur, we downloa
 
 ```bash
 # https://www.gnome-look.org/p/1403328/
+# https://github.com/vinceliuice/WhiteSur-gtk-theme
+# https://github.com/vinceliuice/WhiteSur-icon-theme
 mkdir ~/.themes
-cd ~/.themes
-tar fvzx WhiteSur-gtk-theme-2022-02-21.tar.gz
-./install.sh
 mkdir ~/.icons
+tar fvzx WhiteSur-gtk-theme-2022-02-21.tar.gz
+cd WhiteSur-gtk-theme-2022-02-21/
+./install.sh -s 220
+./tweaks.sh -d
+tar xfz WhiteSur-icon-theme-2022-03-18.tar.gz 
+cd WhiteSur-icon-theme-2022-03-18/
+/install.sh
 cd ~/.icons
+# https://www.gnome-look.org/p/1405756/
 tar xf 01-WhiteSur.tar.xz
 sudo apt install dconf-editor
 dconf-editor &
