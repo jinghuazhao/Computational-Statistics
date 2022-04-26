@@ -168,6 +168,8 @@ gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items true
 
 from dconf-editor, follow navigation "org > gnome > shell > extensions > dash-to-dock" to customise, see [here](https://linuxconfig.org/how-to-customize-dock-panel-on-ubuntu-22-04-jammy-jellyfish-linux).
 
+Finally, perhaps more appealing is the gnome extension `dash-to-panel`.
+
 ## Oracle VirtualBox
 
 To use VirtualBox under Windows 7, one needs to enable virtualisation within security section of BIOS setup. To find out system info, one can run
