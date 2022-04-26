@@ -259,7 +259,12 @@ sudo apt install gnome-shell-extension-prefs
 sudo gnome-extensions install dash-to-dockmicxgx.gmail.com.v71.shell-extension.zip
 sudo apt install gnome-tweaks
 </code></pre>
-<p>Note that <code>gnome-tweak-tool</code> has been updated to <code>gnome-tweaks</code>, which removes gnome shell extensions support from version 40 and it is possible 
+<p>Installation of dash-to-dock from GitHub proceeds as follows,</p>
+<pre><code class="language-bash">git clone https://github.com/micheleg/dash-to-dock
+sudo apt install gettext
+make -C dash-to-dock install
+</code></pre>
+<p>Note that <code>gnome-tweak-tool</code> used earlier on has been updated to <code>gnome-tweaks</code>, which removes gnome shell extensions support from version 40 and it is possible
 with <code>gnome-shell-extension-prefs</code>. Then the Extension apps enables 'dash-on-dock' as with user themes and Glassy/Glassy-dark through <code>gnome-tweaks</code> 
 by unpacking the relevant files to <code>/usr/share/themes</code>. For WhiteSur, various operations are given below,</p>
 <pre><code class="language-bash"># https://www.gnome-look.org/p/1403328/
