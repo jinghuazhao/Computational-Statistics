@@ -338,6 +338,7 @@ sudo mount -t vboxsf -o uid=jhz22 D /home/jhz22/D
 killall VBoxClient
 sudo VBoxClient-all
 </code></pre>
+<p>Another attempt is through VBoxMange, e.g., <code>VBoxManage.exe sharedfolder add "22.04" --name U --hostpath "U:\"</code>.</p>
 <p>For Fedora 31, see https://www.if-not-true-then-false.com/2010/install-virtualbox-guest-additions-on-fedora-centos-red-hat-rhel/.</p>
 <p>See https://www.nakivo.com/blog/make-virtualbox-full-screen/ on full-screen size, in particular,</p>
 <pre><code class="language-dos">&quot;\Program Files\Oracle\VirtualBox\VBoxManage&quot; setextradata &quot;32&quot; VBoxInternal2/EfiGraphicsResolution 1920x1080 for virtual machine 32.
