@@ -225,6 +225,8 @@ killall VBoxClient
 sudo VBoxClient-all
 ```
 
+Another attempt is through VBoxMange, e.g., `VBoxManage.exe sharedfolder add "22.04" --name U --hostpath "U:\"`.
+
 For Fedora 31, see https://www.if-not-true-then-false.com/2010/install-virtualbox-guest-additions-on-fedora-centos-red-hat-rhel/.
 
 See https://www.nakivo.com/blog/make-virtualbox-full-screen/ on full-screen size, in particular,
