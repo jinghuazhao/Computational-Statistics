@@ -32,6 +32,8 @@ Note in both cases command delimiters are required.
 
 Usage example: `lftp -c mirror https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90086001-GCST90087000/`.
 
+The options of mirror can be seen with `help mirror` inside lftp; once done type `quit` to exit.
+
 ### ftp
 
 ```bash
@@ -58,16 +60,14 @@ Note to put files is possible with -R option.
 ### sftp
 
 ```bash
-#!/bin/bash
+export HOST=
+export USER=
+export PASS=
 
-HOST=
-USER=
-PASS=
-
-cd /home/${USER}/U/Downloads
 lftp -u ${USER},${PASS} sftp://${HOST} <<EOF
-cd jps;
-put *;
+cd genetic_data/for_Grace;
+lcd /rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/SCALLOP-Seq/rva;
+mirror --parallel=15 --continue --reverse --log=sftp.log --verbose;
 bye;
 EOF
 ```
