@@ -172,6 +172,7 @@ sudo apt install lftp
 </code></pre>
 <p>Note in both cases command delimiters are required.</p>
 <p>Usage example: <code>lftp -c mirror https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90086001-GCST90087000/</code>.</p>
+<p>The options of mirror can be seen with <code>help mirror</code> inside lftp; once done type <code>quit</code> to exit.</p>
 <h3 id="ftp">ftp</h3>
 <pre><code class="language-bash">#!/bin/bash
 
@@ -193,16 +194,14 @@ END
 </code></pre>
 <p>Note to put files is possible with -R option.</p>
 <h3 id="sftp">sftp</h3>
-<pre><code class="language-bash">#!/bin/bash
+<pre><code class="language-bash">export HOST=
+export USER=
+export PASS=
 
-HOST=
-USER=
-PASS=
-
-cd /home/${USER}/U/Downloads
 lftp -u ${USER},${PASS} sftp://${HOST} &lt;&lt;EOF
-cd jps;
-put *;
+cd genetic_data/for_Grace;
+lcd /rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/SCALLOP-Seq/rva;
+mirror --parallel=15 --continue --reverse --log=sftp.log --verbose;
 bye;
 EOF
 </code></pre>
