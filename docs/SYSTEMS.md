@@ -119,7 +119,7 @@ The system hibernation can be done with `sudo systemctl hibernate`.
 Some operations on gnome extensions are given below,
 
 ```bash
-sudo apt install gnome-shell-extension
+sudo apt install gnome-shell-extensions
 sudo apt search gnome-shell-extension
 gnome-shell --help
 sudo apt install gnome-shell-extension-prefs
