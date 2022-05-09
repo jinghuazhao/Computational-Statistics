@@ -64,8 +64,7 @@ export HOST=
 export USER=
 export PASS=
 
-lftp -u ${USER},${PASS} sftp://${HOST} <<EOF
-cd genetic_data/for_Grace;
+lftp -u ${USER},${PASS} sftp://${HOST}:/genetic_data/for_Grace <<EOF
 lcd /rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/SCALLOP-Seq/rva;
 mirror --parallel=15 --continue --reverse --log=sftp.log --verbose;
 bye;
