@@ -64,11 +64,8 @@ export HOST=
 export USER=
 export PASS=
 
-lftp -u ${USER},${PASS} sftp://${HOST}:/genetic_data/for_Grace <<EOF
-lcd /rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/SCALLOP-Seq/rva;
-mirror --parallel=15 --continue --reverse --log=sftp.log --verbose;
-bye;
-EOF
+export RVA=/rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/SCALLOP-Seq/rva
+lftp -c "open sftp://${USER}:${PASS}@${HOST}:/genetic_data/for_Grace;mirror -c -P=20 -R -v ${RVA}"
 ```
 
 the following error
