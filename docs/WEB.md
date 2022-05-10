@@ -68,6 +68,8 @@ export RVA=/rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/SCALLO
 lftp -c "open sftp://${USER}:${PASS}@${HOST}:/genetic_data/for_Grace;mirror -c -P=20 -R -v ${RVA}"
 ```
 
+See [https://linuxconfig.org/lftp-tutorial-on-linux-with-examples](https://linuxconfig.org/lftp-tutorial-on-linux-with-examples).
+
 the following error
 > Unable to negotiate with xxx.xxx.xxx.xxx port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
 
