@@ -215,6 +215,7 @@ screen -r &lt;my-screen-session-id&gt;
 sudo apt upgrade
 </code></pre>
 <p>to be in line with the current release; one can check for updates with <code>sudo apt list --upgradable</code>.</p>
+<p>To resize a virtual disk, follow steps here, <a href="https://blog.surges.eu/virtualbox-how-to-solve-the-issue-with-low-disk-space/">https://blog.surges.eu/virtualbox-how-to-solve-the-issue-with-low-disk-space/</a>.</p>
 <p>The nautilus desktop can be reset with</p>
 <pre><code class="language-bash">sudo apt install gnome-tweak-tool
 gnome-tweaks
@@ -424,7 +425,6 @@ ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
 <p>followed by a call to <code>AcroRd32.exe</code> and as <code>xpdf</code>, or directly call a list of programs: <code>calc.exe</code>, <code>comp.exe</code>, <code>control.exe</code>,
 <code>curl.exe</code>, <code>fc.exe</code>, <code>find.exe</code>, <code>finger.exe</code>, <code>mspaint.exe</code>, <code>net.exe</code>, <code>sort.exe</code>, <code>tar.exe</code>, <code>whoami.exe</code>, <code>write.exe</code>, <code>xcopy.exe</code>.</p>
 <h3 id="ubuntu-2110">Ubuntu 21.10</h3>
-<p>This is also the latest release. It is possible to upgrade from 21.04 but here is how to do this directly,</p>
 <pre><code class="language-bash">wget https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
 mkdir d:\wsl
 wsl --import Ubuntu-2110 d:/WSL/Ubuntu-2110 d:/Downloads/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
