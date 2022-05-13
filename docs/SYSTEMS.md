@@ -67,6 +67,8 @@ sudo apt upgrade
 ```
 to be in line with the current release; one can check for updates with `sudo apt list --upgradable`.
 
+To resize a virtual disk, follow steps here, [https://blog.surges.eu/virtualbox-how-to-solve-the-issue-with-low-disk-space/](https://blog.surges.eu/virtualbox-how-to-solve-the-issue-with-low-disk-space/).
+
 The nautilus desktop can be reset with
 ```bash
 sudo apt install gnome-tweak-tool
@@ -347,8 +349,6 @@ followed by a call to `AcroRd32.exe` and as `xpdf`, or directly call a list of p
 `curl.exe`, `fc.exe`, `find.exe`, `finger.exe`, `mspaint.exe`, `net.exe`, `sort.exe`, `tar.exe`, `whoami.exe`, `write.exe`, `xcopy.exe`.
 
 ### Ubuntu 21.10
-
-This is also the latest release. It is possible to upgrade from 21.04 but here is how to do this directly,
 
 ```bash
 wget https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
