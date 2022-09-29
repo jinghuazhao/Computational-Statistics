@@ -47,6 +47,8 @@ screen -ls
 screen -r <my-screen-session-id>
 ```
 
+An introduction to Linux Access Control Lists (ACLs), [https://www.redhat.com/sysadmin/linux-access-control-lists](https://www.redhat.com/sysadmin/linux-access-control-lists).
+
 To enable color with nano, try
 ```bash
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
