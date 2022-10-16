@@ -264,7 +264,7 @@ make
 </code></pre>
 <p>It turns out the easiest to install rjags package is to download it and work manually, e.g.,</p>
 <pre><code class="language-bash">R --no-save &lt;&lt;END
-  download.packages(&quot;rjags&quot;,&quot;.&quot;)
+  download.packages(&quot;rjags&quot;,&quot;.&quot;,repos=&quot;https://cran.r-project.org&quot;)
 END
 tar xvfz rjags_4-8.tar.gz
 cd rjags
