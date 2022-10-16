@@ -409,6 +409,46 @@ module load texlive
             LDFLAGS=-L/rds-d4/user/jhz22/hpc-work/lib
 ```
 
+On Fedora 35, we see the following messages from `R CMD check gap_1.2.3-6.tar.gz`,
+
+```
+Error(s) in re-building vignettes:
+  ...
+--- re-building ‘gap.Rmd’ using rmarkdown
+Quitting from lines 273-279 (gap.Rmd)
+Error: processing vignette 'gap.Rmd' failed with diagnostics:
+X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 5 could not be loaded
+--- failed re-building ‘gap.Rmd’
+--- re-building ‘shinygap.Rmd’ using rmarkdown
+--- finished re-building ‘shinygap.Rmd’
+--- re-building ‘jss.Rnw’ using Sweave
+--- finished re-building ‘jss.Rnw’
+
+SUMMARY: processing the following file failed:
+
+  ‘gap.Rmd’
+
+Error: Vignette re-building failed.
+Execution halted
+
+* checking PDF version of manual ... OK
+* checking HTML version of manual ... NOTE
+Skipping checking HTML validation: no command 'tidy' found
+Skipping checking math rendering: package 'V8' unavailable
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+
+```
+
+This is resolved by
+
+```bash
+sudo dnf install v8-devel
+sudo dnf install xorg-x11-fonts*
+Rscript -e 'install.packages(c("shniy","V8"))'
+```
+
 ### Ubuntu 18.04
 
 The R environment is furnished with
