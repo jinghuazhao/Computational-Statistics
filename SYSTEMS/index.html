@@ -363,17 +363,19 @@ VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 <p>Hyper-V can be enabled in many ways including using the Windows 10 control panel, PowerShell or using the Deployment Imaging Servicing and Management tool (DISM). This documents walks through each option.</p>
 <h2 id="wsl">WSL</h2>
 <p>Official page: https://github.com/microsoft/WSL</p>
-<p>A description on PowerShell is here, https://docs.microsoft.com/en-us/windows/wsl/install-win10. To initiate from PowerShell, use</p>
+<p>A description on PowerShell is here, <a href="https://learn.microsoft.com/en-us/windows/wsl/install">https://learn.microsoft.com/en-us/windows/wsl/install</a>. To initiate from PowerShell, use</p>
 <pre><code>dism /online /enable-feature /feature-name:Microsoft-Windows-Subsystem-Linux /all /norestart
 </code></pre>
 <p>After installation, it can be invoked from a MS-DOS prompt with</p>
 <pre><code>wsl -help
 wsl --list
 wsl --list --online
+wsl --list --verbose
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
+wsl --set-version Ubuntu-20.04 2
 </code></pre>
-<p>The command could also takes additional parameters, e.g., -d debian. Alternatively, one can create a desktop entry pointing to C:\Windows\system32\wsl.exe.</p>
+<p>The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.</p>
 <p>It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its<code>Advanced WSL settings</code> tab, choose <code>Graphical environments</code>
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
 are <code>ubuntu-gnome-desktop</code> (gnome-session-bin), <code>lubuntu-desktop</code>, <code>xubuntu-desktop</code> (in fact xfce4-session, xubuntu-core, xubuntu-default-settings), respectively.</p>
