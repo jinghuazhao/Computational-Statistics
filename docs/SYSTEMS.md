@@ -371,6 +371,10 @@ ln -s /mnt/f F
 wsl -d Ubuntu-2110 -u jhz22
 ```
 
+### Ubuntu 22.04
+
+This is available, for instance [https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz](https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz).
+
 ## Anaconda
 
 Once installed, it is customary to make several channels accessible,
