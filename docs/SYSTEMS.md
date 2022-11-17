@@ -268,7 +268,7 @@ Hyper-V can be enabled in many ways including using the Windows 10 control panel
 
 Official page: https://github.com/microsoft/WSL
 
-A description on PowerShell is here, https://docs.microsoft.com/en-us/windows/wsl/install-win10. To initiate from PowerShell, use
+A description on PowerShell is here, [https://learn.microsoft.com/en-us/windows/wsl/install](https://learn.microsoft.com/en-us/windows/wsl/install). To initiate from PowerShell, use
 ```
 dism /online /enable-feature /feature-name:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
@@ -278,10 +278,12 @@ After installation, it can be invoked from a MS-DOS prompt with
 wsl -help
 wsl --list
 wsl --list --online
+wsl --list --verbose
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
+wsl --set-version Ubuntu-20.04 2
 ```
-The command could also takes additional parameters, e.g., -d debian. Alternatively, one can create a desktop entry pointing to C:\Windows\system32\wsl.exe.
+The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.
 
 It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its`Advanced WSL settings` tab, choose `Graphical environments`
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
