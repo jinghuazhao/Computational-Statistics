@@ -282,6 +282,7 @@ wsl --list --verbose
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
 wsl --set-version Ubuntu-20.04 2
+wsl --unregister Ubuntu-20.04
 ```
 The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.
 
@@ -364,7 +365,8 @@ adduser jhz22
 usermod -aG sudo jhz22
 su jhz22
 ln -s /mnt/c C
-ln -s /mnt/D D
+ln -s /mnt/d D
+ln -s /mnt/f F
 # restart
 wsl -d Ubuntu-2110 -u jhz22
 ```
