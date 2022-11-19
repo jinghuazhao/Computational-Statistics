@@ -288,6 +288,27 @@ wsl --unregister Ubuntu-20.04
 ```
 The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.
 
+To migrate from WSL 1 to WSL 2 with this command, [https://logfetch.com/wsl2-uncompressed/](https://logfetch.com/wsl2-uncompressed/)
+```bash
+wsl --set-version Ubuntu 2
+```
+and return with error messages,
+```
+Conversion in progress, this may take a few minutes...
+For information on key differences with WSL 2 please visit https://aka.ms/wsl2
+The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
+and unencrypted and must not be sparse.
+```
+In order to fix this, open up File Explorer and navigate to:
+
+C:\Users\YOUR_USER\AppData\Local\Packages\CanonicalGroupLimited...
+
+Right click on LocalState, then Properties, then Advanced.
+
+Ensure Compress contents to save disk space and Encrypt contents to secure data are both deselected.
+
+Click OK, then Apply, then Apply changes to this folder only
+
 It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its`Advanced WSL settings` tab, choose `Graphical environments`
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
 are `ubuntu-gnome-desktop` (gnome-session-bin), `lubuntu-desktop`, `xubuntu-desktop` (in fact xfce4-session, xubuntu-core, xubuntu-default-settings), respectively.
@@ -432,6 +453,8 @@ It has been suggested to display math using the following premium in a GitHub pa
 }
 </script>
 ```
+
+A current repository on GitHub is here, [https://cambridge-ceu.github.io/GitHub-matters/](https://cambridge-ceu.github.io/GitHub-matters/).
 
 ## mercurial
 
