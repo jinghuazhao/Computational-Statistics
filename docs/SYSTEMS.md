@@ -256,6 +256,8 @@ Additional note: 6.1.4 has problem with its Guess Additions. To enable copy/past
 
 When VirtualBox failed to start a session, one can enter MS-DOS prompt as adminstrator, and issue command `bcdedit /set hypervisorlaunchtype off` and restart the computer.
 
+When there is error message `VirtualBox Failed to open session for Virtual Machine`, then right click the machine and `Discard Saved state`. Otherwise, uninstall VirtualBox and reinstall.
+
 ## Windows Hyper-V
 
 Web page: [https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
