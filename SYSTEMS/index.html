@@ -378,6 +378,20 @@ wsl --set-version Ubuntu-20.04 2
 wsl --unregister Ubuntu-20.04
 </code></pre>
 <p>The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.</p>
+<p>To migrate from WSL 1 to WSL 2 with this command, <a href="https://logfetch.com/wsl2-uncompressed/">https://logfetch.com/wsl2-uncompressed/</a></p>
+<pre><code class="language-bash">wsl --set-version Ubuntu 2
+</code></pre>
+<p>and return with error messages,</p>
+<pre><code>Conversion in progress, this may take a few minutes...
+For information on key differences with WSL 2 please visit https://aka.ms/wsl2
+The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
+and unencrypted and must not be sparse.
+</code></pre>
+<p>In order to fix this, open up File Explorer and navigate to:</p>
+<p>C:\Users\YOUR_USER\AppData\Local\Packages\CanonicalGroupLimited...</p>
+<p>Right click on LocalState, then Properties, then Advanced.</p>
+<p>Ensure Compress contents to save disk space and Encrypt contents to secure data are both deselected.</p>
+<p>Click OK, then Apply, then Apply changes to this folder only</p>
 <p>It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its<code>Advanced WSL settings</code> tab, choose <code>Graphical environments</code>
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
 are <code>ubuntu-gnome-desktop</code> (gnome-session-bin), <code>lubuntu-desktop</code>, <code>xubuntu-desktop</code> (in fact xfce4-session, xubuntu-core, xubuntu-default-settings), respectively.</p>
@@ -486,6 +500,7 @@ export PYTHONPATH=/scratch/jhz22/lib/python2.7/site-packages/
 }
 &lt;/script&gt;
 </code></pre>
+<p>A current repository on GitHub is here, <a href="https://cambridge-ceu.github.io/GitHub-matters/">https://cambridge-ceu.github.io/GitHub-matters/</a>.</p>
 <h2 id="mercurial">mercurial</h2>
 <p>This is associated with the familiar <code>hg</code> command as used for instance by <code>qctool</code>.</p>
 <p>It is the executable file for Mercurial source code management system,</p>
