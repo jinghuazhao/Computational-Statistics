@@ -174,6 +174,8 @@ from dconf-editor, follow navigation "org > gnome > shell > extensions > dash-to
 
 Finally, perhaps more appealing is the gnome extension `dash-to-panel`.
 
+Here is information on file sharing, <https://www.c-sharpcorner.com/article/how-to-share-files-between-ubuntu-and-windows-10/>
+
 ## Oracle VirtualBox
 
 To use VirtualBox under Windows 7, one needs to enable virtualisation within security section of BIOS setup. To find out system info, one can run
