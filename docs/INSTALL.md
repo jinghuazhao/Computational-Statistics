@@ -446,7 +446,7 @@ This is resolved by
 ```bash
 sudo dnf install v8-devel
 sudo dnf install xorg-x11-fonts*
-Rscript -e 'install.packages(c("shniy","V8"))'
+Rscript -e 'install.packages(c("shniy","V8"),repos="https://cran.r-project.org")'
 ```
 
 ### Ubuntu 18.04
