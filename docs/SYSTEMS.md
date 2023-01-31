@@ -358,7 +358,7 @@ sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
 sudo sed -i 's/port=3389/port=3390/' /etc/xrdp/xrdp.ini
 sudo /etc/init.d/xrdp restart
 ```
-One can add line `sudo service xrdp restart` to `~/.bashrc`. Moreover from an (Administrator) start up directory such as %UserProfile%, create a file
+One can add line `sudo service xrdp start` to `~/.bashrc`. Moreover from an (Administrator) start up directory such as %UserProfile%, create a file
 named `.wslconfig` with lines such as
 
 ```
