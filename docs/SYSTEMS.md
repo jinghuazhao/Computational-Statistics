@@ -345,6 +345,8 @@ sudo apt install ubuntu-wsl
 ```
 for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
 
+`wslconfig/u <distribution>` to uninstall a distribution.
+
 ### xfce4 & rdp
 
 xfce4 can also be made available with
