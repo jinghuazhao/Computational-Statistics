@@ -419,6 +419,10 @@ sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 </code></pre>
 <p>for executables at <code>/usr/bin</code>, e.g., <code>wslvar PATH</code> for Windows' \%PATH environment variable and <code>wslsys</code> for basic information, <code>wslusc</code> to create a short cut on Windows desktop.</p>
 <p><code>wslconfig/u &lt;distribution&gt;</code> to uninstall a distribution.</p>
+<p>Location of the distros are found by</p>
+<pre><code>cd %LocalAppData%\Packages\
+cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
+</code></pre>
 <h3 id="xfce4-rdp">xfce4 &amp; rdp</h3>
 <p>xfce4 can also be made available with</p>
 <pre><code class="language-bash">sudo apt update
@@ -453,6 +457,15 @@ echo cmd.exe /c start https://github.com &gt; ${HOME}/bin/edge
 chmod +x ${HOME}/bin/edge
 edge
 </code></pre>
+<h3 id="compression-of-disk">Compression of disk</h3>
+<pre><code class="language-bash">wsl --shutdown
+diskpart
+select vdist file=&quot;D:\wsl\Ubuntu-2204\ext4.vhdx&quot;
+compact vdisk
+echo &quot;%LocalAppData%\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\ext4.vhdx&quot;
+select vdisk file=&quot;C:\Users\User\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\ext4.vhdx&quot;
+compact vdisk
+</code></pre>
 <h3 id="windows-applications">Windows applications</h3>
 <p>In fact, it is easy with default applications under Windows, e.g., <code>cmd.exe /c u:/work/eQTL-MR.pptx</code> which opens up PowerPoint directly.</p>
 <p>One can actually generalise these, e.g., </p>
@@ -474,12 +487,6 @@ ln -s /mnt/d D
 ln -s /mnt/f F
 # restart
 wsl -d Ubuntu-2110 -u jhz22
-</code></pre>
-<h3 id="compression-of-disk">Compression of disk</h3>
-<pre><code class="language-bash">wsl --shutdown
-diskpart
-select vdist file=&quot;D:\wsl\Ubuntu-2204\ext4.vhdx&quot;
-compact vdisk
 </code></pre>
 <h3 id="ubuntu-2204">Ubuntu 22.04</h3>
 <p>This is available, for instance <a href="https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz">https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz</a>.</p>
