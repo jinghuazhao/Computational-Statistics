@@ -274,17 +274,20 @@ Control Panel --> Programs --> Programs and Features -> Turn Windows Features on
 
 Official page: https://github.com/microsoft/WSL
 
+To check version of Windows, issue `winver` (MS-Dos Prompt: Windows + r, cmd, winver).
+
 A description on PowerShell is here, [https://learn.microsoft.com/en-us/windows/wsl/install](https://learn.microsoft.com/en-us/windows/wsl/install). To initiate from PowerShell, use
 ```
 dism /online /enable-feature /feature-name:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism /online / enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
-After installation, it can be invoked from a MS-DOS prompt with
+After installation, it can be invoked from a MS-DOS Prompt with
 ```
 wsl -help
 wsl --list
 wsl --list --online
-wsl --list --verbose
+wsl --list --verbose --all
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
 wsl --set-version Ubuntu-20.04 2
@@ -418,6 +421,15 @@ ln -s /mnt/d D
 ln -s /mnt/f F
 # restart
 wsl -d Ubuntu-2110 -u jhz22
+```
+
+### Compression of disk
+
+```bash
+wsl --shutdown
+diskpart
+select vdist file="D:\wsl\Ubuntu-2204\ext4.vhdx"
+compact vdisk
 ```
 
 ### Ubuntu 22.04
