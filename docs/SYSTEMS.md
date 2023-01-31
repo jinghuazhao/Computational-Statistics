@@ -376,6 +376,9 @@ ipconfig.exe
 ```
 and start and start rdp to \<IPv4 address\>:3390.
 
+It may happen with a dark screen with rdp, simply execute `wsl --shutdown` to reninitialize.
+
+
 It might be hard to get going with firefox or Chrome for the Internet, but here is a simple way around,
 ```wsl
 cmd.exe /c start https://github.com
