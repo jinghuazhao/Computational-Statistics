@@ -279,7 +279,7 @@ To check version of Windows, issue `winver` (MS-Dos Prompt: Windows + r, cmd, wi
 A description on PowerShell is here, [https://learn.microsoft.com/en-us/windows/wsl/install](https://learn.microsoft.com/en-us/windows/wsl/install). To initiate from PowerShell, use
 ```
 dism /online /enable-feature /feature-name:Microsoft-Windows-Subsystem-Linux /all /norestart
-dism /online / enable-feature /featurename:VirtualMachinePlatform /all /norestart
+dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
 After installation, it can be invoked from a MS-DOS Prompt with
