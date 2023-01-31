@@ -347,6 +347,13 @@ for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environme
 
 `wslconfig/u <distribution>` to uninstall a distribution.
 
+Location of the distros are found by
+
+```
+cd %LocalAppData%\Packages\
+cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
+```
+
 ### xfce4 & rdp
 
 xfce4 can also be made available with
@@ -396,6 +403,18 @@ chmod +x ${HOME}/bin/edge
 edge
 ```
 
+### Compression of disk
+
+```bash
+wsl --shutdown
+diskpart
+select vdist file="D:\wsl\Ubuntu-2204\ext4.vhdx"
+compact vdisk
+echo "%LocalAppData%\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\ext4.vhdx"
+select vdisk file="C:\Users\User\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\ext4.vhdx"
+compact vdisk
+```
+
 ### Windows applications
 
 In fact, it is easy with default applications under Windows, e.g., `cmd.exe /c u:/work/eQTL-MR.pptx` which opens up PowerPoint directly.
@@ -423,15 +442,6 @@ ln -s /mnt/d D
 ln -s /mnt/f F
 # restart
 wsl -d Ubuntu-2110 -u jhz22
-```
-
-### Compression of disk
-
-```bash
-wsl --shutdown
-diskpart
-select vdist file="D:\wsl\Ubuntu-2204\ext4.vhdx"
-compact vdisk
 ```
 
 ### Ubuntu 22.04
