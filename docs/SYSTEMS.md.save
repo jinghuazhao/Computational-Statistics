@@ -342,8 +342,6 @@ sudo apt install ubuntu-wsl
 ```
 for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
 
-### xfce4 & rdp
-
 xfce4 can also be made available with
 ```bash
 sudo apt update
@@ -360,7 +358,7 @@ sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
 sudo sed -i 's/port=3389/port=3390/' /etc/xrdp/xrdp.ini
 sudo /etc/init.d/xrdp restart
 ```
-One can add line `sudo service xrdp start` to `~/.bashrc`. Moreover from a start up directory such as %UserProfile%, create a file
+One can add line `sudo service xrdp restart` to `~/.bashrc`. Moreover from an (Administrator) start up directory such as %UserProfile%, create a file
 named `.wslconfig` with lines such as
 
 ```
@@ -370,18 +368,13 @@ swap=4GB
 localhostForwarding=true
 ```
 
-The remote desktop can be started from DOS prompt `mstsc` for localhost:3390 (127.0.0.1:3390, or 3389 otherwise). Programs such as FireFox can be started.
+and 
 
 Now check IPv4 address from Windows with,
 ```windows
 ipconfig.exe
 ```
 and start and start rdp to \<IPv4 address\>:3390.
-
-To avoid a dark screen, select Applications --> Settings --> Light Locker Settings --> Automatically lock the screen --> Never, Apply.
-
-One may also execute `wsl --shutdown` to reninitialize.
-
 
 It might be hard to get going with firefox or Chrome for the Internet, but here is a simple way around,
 ```wsl
@@ -390,9 +383,6 @@ echo cmd.exe /c start https://github.com > ${HOME}/bin/edge
 chmod +x ${HOME}/bin/edge
 edge
 ```
-
-### Windows applications
-
 In fact, it is easy with default applications under Windows, e.g., `cmd.exe /c u:/work/eQTL-MR.pptx` which opens up PowerPoint directly.
 
 One can actually generalise these, e.g., 
