@@ -416,6 +416,7 @@ sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 <pre><code class="language-bash">sudo apt install ubuntu-wsl
 </code></pre>
 <p>for executables at <code>/usr/bin</code>, e.g., <code>wslvar PATH</code> for Windows' \%PATH environment variable and <code>wslsys</code> for basic information, <code>wslusc</code> to create a short cut on Windows desktop.</p>
+<h3 id="xfce4-rdp">xfce4 &amp; rdp</h3>
 <p>xfce4 can also be made available with</p>
 <pre><code class="language-bash">sudo apt update
 sudo apt install xorg
@@ -429,7 +430,7 @@ sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
 sudo sed -i 's/port=3389/port=3390/' /etc/xrdp/xrdp.ini
 sudo /etc/init.d/xrdp restart
 </code></pre>
-<p>One can add line <code>sudo service xrdp start</code> to <code>~/.bashrc</code>. Moreover from an (Administrator) start up directory such as %UserProfile%, create a file
+<p>One can add line <code>sudo service xrdp start</code> to <code>~/.bashrc</code>. Moreover from a start up directory such as %UserProfile%, create a file
 named <code>.wslconfig</code> with lines such as</p>
 <pre><code>processors=4
 memory=4GB
@@ -448,6 +449,7 @@ echo cmd.exe /c start https://github.com &gt; ${HOME}/bin/edge
 chmod +x ${HOME}/bin/edge
 edge
 </code></pre>
+<h3 id="windows-applications">Windows applications</h3>
 <p>In fact, it is easy with default applications under Windows, e.g., <code>cmd.exe /c u:/work/eQTL-MR.pptx</code> which opens up PowerPoint directly.</p>
 <p>One can actually generalise these, e.g., </p>
 <pre><code class="language-wsl">ln -s $HOME/C/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe /home/$USER/bin/AcroRd32.exe
