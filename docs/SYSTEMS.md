@@ -342,6 +342,8 @@ sudo apt install ubuntu-wsl
 ```
 for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
 
+### xfce4 & rdp
+
 xfce4 can also be made available with
 ```bash
 sudo apt update
@@ -358,7 +360,7 @@ sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
 sudo sed -i 's/port=3389/port=3390/' /etc/xrdp/xrdp.ini
 sudo /etc/init.d/xrdp restart
 ```
-One can add line `sudo service xrdp start` to `~/.bashrc`. Moreover from an (Administrator) start up directory such as %UserProfile%, create a file
+One can add line `sudo service xrdp start` to `~/.bashrc`. Moreover from a start up directory such as %UserProfile%, create a file
 named `.wslconfig` with lines such as
 
 ```
@@ -386,6 +388,9 @@ echo cmd.exe /c start https://github.com > ${HOME}/bin/edge
 chmod +x ${HOME}/bin/edge
 edge
 ```
+
+### Windows applications
+
 In fact, it is easy with default applications under Windows, e.g., `cmd.exe /c u:/work/eQTL-MR.pptx` which opens up PowerPoint directly.
 
 One can actually generalise these, e.g., 
