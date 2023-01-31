@@ -358,6 +358,18 @@ sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
 sudo sed -i 's/port=3389/port=3390/' /etc/xrdp/xrdp.ini
 sudo /etc/init.d/xrdp restart
 ```
+One can add line `sudo service xrdp restart` to `~/.bashrc`. Moreover from an (Administrator) start up directory such as %UserProfile%, create a file
+named `.wslconfig` with lines such as
+
+```
+processors=4
+memory=4GB
+swap=4GB
+localhostForwarding=true
+```
+
+The remote desktop can be started from DOS prompt `mstsc` for localhost:3390 (127.0.0.1:3390, or 3389 otherwise). Programs such as FireFox can be started.
+
 Now check IPv4 address from Windows with,
 ```windows
 ipconfig.exe
