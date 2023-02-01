@@ -394,7 +394,8 @@ The remote desktop can be started from DOS prompt `mstsc` for localhost:3390 (12
 
 We can use check IPv4 address from Windoww as follows,
 ```windows
-ipconfig.exe
+systeminfo
+# ipconfig.exe works similarly.
 ```
 and start and start rdp to \<IPv4 address\>:3390.
 
