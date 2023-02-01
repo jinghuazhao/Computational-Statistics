@@ -367,6 +367,7 @@ VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 <h2 id="wsl">WSL</h2>
 <p>Official page: https://github.com/microsoft/WSL</p>
 <p>To check version of Windows, issue <code>winver</code> (MS-DOS Prompt: Windows + r, cmd, winver).</p>
+<h3 id="installation">Installation</h3>
 <p>A description on PowerShell is here, <a href="https://learn.microsoft.com/en-us/windows/wsl/install">https://learn.microsoft.com/en-us/windows/wsl/install</a>. To initiate from PowerShell, use</p>
 <pre><code>dism /online /enable-feature /feature-name:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
@@ -463,20 +464,6 @@ echo &quot;%LocalAppData%\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1
 select vdisk file=&quot;C:\Users\User\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\ext4.vhdx&quot;
 compact vdisk
 </code></pre>
-<h3 id="windows-applications">Windows applications</h3>
-<p>To start firefox or Chrome, here is a simple way,</p>
-<pre><code class="language-wsl">cmd.exe /c start https://github.com
-echo cmd.exe /c start https://github.com &gt; ${HOME}/bin/edge
-chmod +x ${HOME}/bin/edge
-edge
-</code></pre>
-<p>In fact, it is easy with default applications under Windows, e.g., <code>cmd.exe /c u:/work/eQTL-MR.pptx</code> which opens up PowerPoint directly.</p>
-<p>One can actually generalise these, e.g., </p>
-<pre><code class="language-wsl">ln -s $HOME/C/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe /home/$USER/bin/AcroRd32.exe
-ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
-</code></pre>
-<p>followed by a call to <code>AcroRd32.exe</code> and as <code>xpdf</code>, or directly call a list of programs: <code>calc.exe</code>, <code>comp.exe</code>, <code>control.exe</code>,
-<code>curl.exe</code>, <code>fc.exe</code>, <code>find.exe</code>, <code>finger.exe</code>, <code>mspaint.exe</code>, <code>net.exe</code>, <code>sort.exe</code>, <code>tar.exe</code>, <code>whoami.exe</code>, <code>write.exe</code>, <code>xcopy.exe</code>.</p>
 <h3 id="downloading-specific-distributions">Downloading specific distributions,</h3>
 <pre><code class="language-bash"># Ubuntu 21.10
 wget https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
@@ -494,6 +481,20 @@ wsl -d Ubuntu-2110 -u jhz22
 # Ubuntu 22.04
 # https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz
 </code></pre>
+<h3 id="windows-applications">Windows applications</h3>
+<p>To start firefox or Chrome, here is a simple way,</p>
+<pre><code class="language-wsl">cmd.exe /c start https://github.com
+echo cmd.exe /c start https://github.com &gt; ${HOME}/bin/edge
+chmod +x ${HOME}/bin/edge
+edge
+</code></pre>
+<p>In fact, it is easy with default applications under Windows, e.g., <code>cmd.exe /c u:/work/eQTL-MR.pptx</code> which opens up PowerPoint directly.</p>
+<p>One can actually generalise these, e.g., </p>
+<pre><code class="language-wsl">ln -s $HOME/C/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe /home/$USER/bin/AcroRd32.exe
+ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
+</code></pre>
+<p>followed by a call to <code>AcroRd32.exe</code> and as <code>xpdf</code>, or directly call a list of programs: <code>calc.exe</code>, <code>comp.exe</code>, <code>control.exe</code>,
+<code>curl.exe</code>, <code>fc.exe</code>, <code>find.exe</code>, <code>finger.exe</code>, <code>mspaint.exe</code>, <code>net.exe</code>, <code>sort.exe</code>, <code>tar.exe</code>, <code>whoami.exe</code>, <code>write.exe</code>, <code>xcopy.exe</code>.</p>
 <h2 id="anaconda">Anaconda</h2>
 <p>Once installed, it is customary to make several channels accessible,</p>
 <pre><code>conda config --add channels defaults
