@@ -276,6 +276,8 @@ Official page: https://github.com/microsoft/WSL
 
 To check version of Windows, issue `winver` (MS-DOS Prompt: Windows + r, cmd, winver).
 
+### Installation
+
 A description on PowerShell is here, [https://learn.microsoft.com/en-us/windows/wsl/install](https://learn.microsoft.com/en-us/windows/wsl/install). To initiate from PowerShell, use
 ```
 dism /online /enable-feature /feature-name:Microsoft-Windows-Subsystem-Linux /all /norestart
@@ -413,26 +415,6 @@ select vdisk file="C:\Users\User\AppData\Local\Packages\CanonicalGroupLimited.Ub
 compact vdisk
 ```
 
-### Windows applications
-
-To start firefox or Chrome, here is a simple way,
-```wsl
-cmd.exe /c start https://github.com
-echo cmd.exe /c start https://github.com > ${HOME}/bin/edge
-chmod +x ${HOME}/bin/edge
-edge
-```
-
-In fact, it is easy with default applications under Windows, e.g., `cmd.exe /c u:/work/eQTL-MR.pptx` which opens up PowerPoint directly.
-
-One can actually generalise these, e.g., 
-```wsl
-ln -s $HOME/C/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe /home/$USER/bin/AcroRd32.exe
-ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
-```
-followed by a call to `AcroRd32.exe` and as `xpdf`, or directly call a list of programs: `calc.exe`, `comp.exe`, `control.exe`,
-`curl.exe`, `fc.exe`, `find.exe`, `finger.exe`, `mspaint.exe`, `net.exe`, `sort.exe`, `tar.exe`, `whoami.exe`, `write.exe`, `xcopy.exe`.
-
 ### Downloading specific distributions,
 
 ```bash
@@ -452,6 +434,26 @@ wsl -d Ubuntu-2110 -u jhz22
 # Ubuntu 22.04
 # https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz
 ```
+
+### Windows applications
+
+To start firefox or Chrome, here is a simple way,
+```wsl
+cmd.exe /c start https://github.com
+echo cmd.exe /c start https://github.com > ${HOME}/bin/edge
+chmod +x ${HOME}/bin/edge
+edge
+```
+
+In fact, it is easy with default applications under Windows, e.g., `cmd.exe /c u:/work/eQTL-MR.pptx` which opens up PowerPoint directly.
+
+One can actually generalise these, e.g., 
+```wsl
+ln -s $HOME/C/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe /home/$USER/bin/AcroRd32.exe
+ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
+```
+followed by a call to `AcroRd32.exe` and as `xpdf`, or directly call a list of programs: `calc.exe`, `comp.exe`, `control.exe`,
+`curl.exe`, `fc.exe`, `find.exe`, `finger.exe`, `mspaint.exe`, `net.exe`, `sort.exe`, `tar.exe`, `whoami.exe`, `write.exe`, `xcopy.exe`.
 
 ## Anaconda
 
