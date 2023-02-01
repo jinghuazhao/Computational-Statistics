@@ -449,6 +449,13 @@ swap=4GB
 localhostForwarding=true
 </code></pre>
 <p>The remote desktop can be started from DOS prompt <code>mstsc</code> for localhost:3390 (127.0.0.1:3390). Programs such as FireFox can be started.</p>
+<p>To avoid running the service from every terminal session, amend the service xrdp as follows,</p>
+<pre><code class="language-bash">export plus=$(service --status-all 2&gt;&amp;1 | grep xrdp | cut -d' ' -f3)
+if [[ &quot;$plus&quot; != &quot;+&quot; ]]; then
+   echo $plus
+   sudo service xrdp start
+fi
+</code></pre>
 <p>We can use check IPv4 address from Windoww as follows,</p>
 <pre><code class="language-windows">systeminfo
 # ipconfig.exe works similarly.
