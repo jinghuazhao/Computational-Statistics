@@ -274,7 +274,7 @@ Control Panel --> Programs --> Programs and Features -> Turn Windows Features on
 
 Official page: https://github.com/microsoft/WSL
 
-To check version of Windows, issue `winver` (MS-Dos Prompt: Windows + r, cmd, winver).
+To check version of Windows, issue `winver` (MS-DOS Prompt: Windows + r, cmd, winver).
 
 A description on PowerShell is here, [https://learn.microsoft.com/en-us/windows/wsl/install](https://learn.microsoft.com/en-us/windows/wsl/install). To initiate from PowerShell, use
 ```
@@ -296,12 +296,14 @@ wsl --unregister Ubuntu-20.04
 The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.
 
 To migrate from WSL 1 to WSL 2 with this command, [https://logfetch.com/wsl2-uncompressed/](https://logfetch.com/wsl2-uncompressed/)
+
 ```bash
 wsl --set-version Ubuntu 2
 ```
 and return with error messages,
 ```
 Conversion in progress, this may take a few minutes...
+
 For information on key differences with WSL 2 please visit https://aka.ms/wsl2
 The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
 and unencrypted and must not be sparse.
@@ -318,7 +320,8 @@ Click OK, then Apply, then Apply changes to this folder only
 
 It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its`Advanced WSL settings` tab, choose `Graphical environments`
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
-are `ubuntu-gnome-desktop` (gnome-session-bin), `lubuntu-desktop`, `xubuntu-desktop` (in fact xfce4-session, xubuntu-core, xubuntu-default-settings), respectively.
+are `ubuntu-gnome-desktop` (gnome-session-bin), `lubuntu-desktop`, `xubuntu-desktop` (in fact xfce4-session, xubuntu-core,
+xubuntu-default-settings), respectively.
 
 After started, create a session for WSL which directs you to Windows Apps store. Obtain Ubuntu, and install.
 ```bash
@@ -337,12 +340,15 @@ It is also possible to map network drive, e.g.,
 sudo mkdir /mnt/u
 sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 ```
-See https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/. See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.
+
+See https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/.
+See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.
 
 `ubuntu-wsl` is a set of WSL utilities, which could be installed with
 ```bash
 sudo apt install ubuntu-wsl
 ```
+
 for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
 
 `wslconfig/u <distribution>` to uninstall a distribution.
@@ -384,7 +390,7 @@ localhostForwarding=true
 
 The remote desktop can be started from DOS prompt `mstsc` for localhost:3390 (127.0.0.1:3390, or 3389 otherwise). Programs such as FireFox can be started.
 
-Now check IPv4 address from Windows with,
+We can use check IPv4 address from Windoww as follows,
 ```windows
 ipconfig.exe
 ```
@@ -394,14 +400,6 @@ To avoid a dark screen, select Applications --> Settings --> Light Locker Settin
 
 One may also execute `wsl --shutdown` to reninitialize.
 
-
-It might be hard to get going with firefox or Chrome for the Internet, but here is a simple way around,
-```wsl
-cmd.exe /c start https://github.com
-echo cmd.exe /c start https://github.com > ${HOME}/bin/edge
-chmod +x ${HOME}/bin/edge
-edge
-```
 
 ### Compression of disk
 
@@ -417,6 +415,14 @@ compact vdisk
 
 ### Windows applications
 
+To start firefox or Chrome, here is a simple way,
+```wsl
+cmd.exe /c start https://github.com
+echo cmd.exe /c start https://github.com > ${HOME}/bin/edge
+chmod +x ${HOME}/bin/edge
+edge
+```
+
 In fact, it is easy with default applications under Windows, e.g., `cmd.exe /c u:/work/eQTL-MR.pptx` which opens up PowerPoint directly.
 
 One can actually generalise these, e.g., 
@@ -427,9 +433,10 @@ ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
 followed by a call to `AcroRd32.exe` and as `xpdf`, or directly call a list of programs: `calc.exe`, `comp.exe`, `control.exe`,
 `curl.exe`, `fc.exe`, `find.exe`, `finger.exe`, `mspaint.exe`, `net.exe`, `sort.exe`, `tar.exe`, `whoami.exe`, `write.exe`, `xcopy.exe`.
 
-### Ubuntu 21.10
+### Downloading specific distributions,
 
 ```bash
+# Ubuntu 21.10
 wget https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
 mkdir d:\wsl
 wsl --import Ubuntu-2110 d:/WSL/Ubuntu-2110 d:/Downloads/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
@@ -442,11 +449,9 @@ ln -s /mnt/d D
 ln -s /mnt/f F
 # restart
 wsl -d Ubuntu-2110 -u jhz22
+# Ubuntu 22.04
+# https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz
 ```
-
-### Ubuntu 22.04
-
-This is available, for instance [https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz](https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz).
 
 ## Anaconda
 
