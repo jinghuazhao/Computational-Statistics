@@ -366,7 +366,7 @@ VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 <p>Control Panel --&gt; Programs --&gt; Programs and Features -&gt; Turn Windows Features on or off: Hyper-V, Virtual Machine Platforms.</p>
 <h2 id="wsl">WSL</h2>
 <p>Official page: https://github.com/microsoft/WSL</p>
-<p>To check version of Windows, issue <code>winver</code> (MS-Dos Prompt: Windows + r, cmd, winver).</p>
+<p>To check version of Windows, issue <code>winver</code> (MS-DOS Prompt: Windows + r, cmd, winver).</p>
 <p>A description on PowerShell is here, <a href="https://learn.microsoft.com/en-us/windows/wsl/install">https://learn.microsoft.com/en-us/windows/wsl/install</a>. To initiate from PowerShell, use</p>
 <pre><code>dism /online /enable-feature /feature-name:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
@@ -387,6 +387,7 @@ wsl --unregister Ubuntu-20.04
 </code></pre>
 <p>and return with error messages,</p>
 <pre><code>Conversion in progress, this may take a few minutes...
+
 For information on key differences with WSL 2 please visit https://aka.ms/wsl2
 The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
 and unencrypted and must not be sparse.
@@ -398,7 +399,8 @@ and unencrypted and must not be sparse.
 <p>Click OK, then Apply, then Apply changes to this folder only</p>
 <p>It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its<code>Advanced WSL settings</code> tab, choose <code>Graphical environments</code>
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
-are <code>ubuntu-gnome-desktop</code> (gnome-session-bin), <code>lubuntu-desktop</code>, <code>xubuntu-desktop</code> (in fact xfce4-session, xubuntu-core, xubuntu-default-settings), respectively.</p>
+are <code>ubuntu-gnome-desktop</code> (gnome-session-bin), <code>lubuntu-desktop</code>, <code>xubuntu-desktop</code> (in fact xfce4-session, xubuntu-core,
+xubuntu-default-settings), respectively.</p>
 <p>After started, create a session for WSL which directs you to Windows Apps store. Obtain Ubuntu, and install.</p>
 <pre><code class="language-bash">sudo apt update
 sudo apt install nautilus
@@ -413,7 +415,8 @@ sudo umount /mnt/d
 <pre><code class="language-bash">sudo mkdir /mnt/u
 sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 </code></pre>
-<p>See https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/. See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.</p>
+<p>See https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/.
+See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.</p>
 <p><code>ubuntu-wsl</code> is a set of WSL utilities, which could be installed with</p>
 <pre><code class="language-bash">sudo apt install ubuntu-wsl
 </code></pre>
@@ -445,18 +448,12 @@ swap=4GB
 localhostForwarding=true
 </code></pre>
 <p>The remote desktop can be started from DOS prompt <code>mstsc</code> for localhost:3390 (127.0.0.1:3390, or 3389 otherwise). Programs such as FireFox can be started.</p>
-<p>Now check IPv4 address from Windows with,</p>
+<p>We can use check IPv4 address from Windoww as follows,</p>
 <pre><code class="language-windows">ipconfig.exe
 </code></pre>
 <p>and start and start rdp to \&lt;IPv4 address>:3390.</p>
 <p>To avoid a dark screen, select Applications --&gt; Settings --&gt; Light Locker Settings --&gt; Automatically lock the screen --&gt; Never, Apply.</p>
 <p>One may also execute <code>wsl --shutdown</code> to reninitialize.</p>
-<p>It might be hard to get going with firefox or Chrome for the Internet, but here is a simple way around,</p>
-<pre><code class="language-wsl">cmd.exe /c start https://github.com
-echo cmd.exe /c start https://github.com &gt; ${HOME}/bin/edge
-chmod +x ${HOME}/bin/edge
-edge
-</code></pre>
 <h3 id="compression-of-disk">Compression of disk</h3>
 <pre><code class="language-bash">wsl --shutdown
 diskpart
@@ -467,6 +464,12 @@ select vdisk file=&quot;C:\Users\User\AppData\Local\Packages\CanonicalGroupLimit
 compact vdisk
 </code></pre>
 <h3 id="windows-applications">Windows applications</h3>
+<p>To start firefox or Chrome, here is a simple way,</p>
+<pre><code class="language-wsl">cmd.exe /c start https://github.com
+echo cmd.exe /c start https://github.com &gt; ${HOME}/bin/edge
+chmod +x ${HOME}/bin/edge
+edge
+</code></pre>
 <p>In fact, it is easy with default applications under Windows, e.g., <code>cmd.exe /c u:/work/eQTL-MR.pptx</code> which opens up PowerPoint directly.</p>
 <p>One can actually generalise these, e.g., </p>
 <pre><code class="language-wsl">ln -s $HOME/C/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe /home/$USER/bin/AcroRd32.exe
@@ -474,8 +477,9 @@ ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
 </code></pre>
 <p>followed by a call to <code>AcroRd32.exe</code> and as <code>xpdf</code>, or directly call a list of programs: <code>calc.exe</code>, <code>comp.exe</code>, <code>control.exe</code>,
 <code>curl.exe</code>, <code>fc.exe</code>, <code>find.exe</code>, <code>finger.exe</code>, <code>mspaint.exe</code>, <code>net.exe</code>, <code>sort.exe</code>, <code>tar.exe</code>, <code>whoami.exe</code>, <code>write.exe</code>, <code>xcopy.exe</code>.</p>
-<h3 id="ubuntu-2110">Ubuntu 21.10</h3>
-<pre><code class="language-bash">wget https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
+<h3 id="downloading-specific-distributions">Downloading specific distributions,</h3>
+<pre><code class="language-bash"># Ubuntu 21.10
+wget https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
 mkdir d:\wsl
 wsl --import Ubuntu-2110 d:/WSL/Ubuntu-2110 d:/Downloads/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
 wsl -d Ubuntu-2110
@@ -487,9 +491,9 @@ ln -s /mnt/d D
 ln -s /mnt/f F
 # restart
 wsl -d Ubuntu-2110 -u jhz22
+# Ubuntu 22.04
+# https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz
 </code></pre>
-<h3 id="ubuntu-2204">Ubuntu 22.04</h3>
-<p>This is available, for instance <a href="https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz">https://cloud-images.ubuntu.com/releases/22.04/release-20220923/ubuntu-22.04-server-cloudimg-arm64-wsl.rootfs.tar.gz</a>.</p>
 <h2 id="anaconda">Anaconda</h2>
 <p>Once installed, it is customary to make several channels accessible,</p>
 <pre><code>conda config --add channels defaults
