@@ -390,19 +390,18 @@ swap=4GB
 localhostForwarding=true
 ```
 
-The remote desktop can be started from DOS prompt `mstsc` for localhost:3390 (127.0.0.1:3390, or 3389 otherwise). Programs such as FireFox can be started.
+The remote desktop can be started from DOS prompt `mstsc` for localhost:3390 (127.0.0.1:3390). Programs such as FireFox can be started.
 
 We can use check IPv4 address from Windoww as follows,
 ```windows
 systeminfo
 # ipconfig.exe works similarly.
 ```
-and start and start rdp to \<IPv4 address\>:3390.
+and start rdp to \<IPv4 address\>:3390.
 
 To avoid a dark screen, select Applications --> Settings --> Light Locker Settings --> Automatically lock the screen --> Never, Apply.
 
 One may also execute `wsl --shutdown` to reninitialize.
-
 
 ### Compression of disk
 
