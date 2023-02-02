@@ -427,13 +427,6 @@ See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.</p>
 <pre><code class="language-bash">sudo apt install ubuntu-wsl
 </code></pre>
 <p>for executables at <code>/usr/bin</code>, e.g., <code>wslvar PATH</code> for Windows' \%PATH environment variable and <code>wslsys</code> for basic information, <code>wslusc</code> to create a short cut on Windows desktop.</p>
-<h3 id="uninstallation">Uninstallation</h3>
-<p>This is achieved by</p>
-<pre><code class="language-bash"># via wsl
-wsl --unregister Ubuntu-20.04
-# via wslconfig
-wslconfig /u Ubuntu-20.04
-</code></pre>
 <h3 id="xfce4-rdp">xfce4 &amp; rdp</h3>
 <p>xfce4 can also be made available with</p>
 <pre><code class="language-bash">sudo apt update
@@ -511,6 +504,13 @@ ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
 </code></pre>
 <p>followed by a call to <code>AcroRd32.exe</code> and as <code>xpdf</code>, or directly call a list of programs: <code>calc.exe</code>, <code>comp.exe</code>, <code>control.exe</code>,
 <code>curl.exe</code>, <code>fc.exe</code>, <code>find.exe</code>, <code>finger.exe</code>, <code>mspaint.exe</code>, <code>net.exe</code>, <code>sort.exe</code>, <code>tar.exe</code>, <code>whoami.exe</code>, <code>write.exe</code>, <code>xcopy.exe</code>.</p>
+<h3 id="uninstallation">Uninstallation</h3>
+<p>This is achieved by</p>
+<pre><code class="language-bash"># via wsl
+wsl --unregister Ubuntu-20.04
+# via wslconfig
+wslconfig /u Ubuntu-20.04
+</code></pre>
 <h2 id="anaconda">Anaconda</h2>
 <p>Once installed, it is customary to make several channels accessible,</p>
 <pre><code>conda config --add channels defaults
