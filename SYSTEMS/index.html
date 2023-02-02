@@ -367,7 +367,7 @@ VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 <h2 id="wsl">WSL</h2>
 <p>Official page: <a href="https://github.com/microsoft/WSL">https://github.com/microsoft/WSL</a></p>
 <p>To check version of Windows, issue <code>winver</code> (MS-DOS Prompt: Windows + r, cmd, winver).</p>
-<h3 id="installation">Installation</h3>
+<h3 id="installation-and-setup">Installation and setup</h3>
 <p>A description on PowerShell is here, <a href="https://learn.microsoft.com/en-us/windows/wsl/install">https://learn.microsoft.com/en-us/windows/wsl/install</a>. To initiate from PowerShell, use</p>
 <pre><code>dism /online /enable-feature /feature-name:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
@@ -380,7 +380,7 @@ wsl --list --verbose
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
 </code></pre>
-<p>The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.</p>
+<p>The command could also takes additional parameters, e.g., -d debian. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.</p>
 <p>Location of the distros are found by</p>
 <pre><code>cd %LocalAppData%\Packages\
 cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
@@ -393,23 +393,23 @@ wsl --set-version Ubuntu-20.04 2
 # WSL as a whole
 wsl --set-default-version 2
 </code></pre>
-<p>and return with error messages, <a href="https://logfetch.com/wsl2-uncompressed/">https://logfetch.com/wsl2-uncompressed/</a></p>
+<p>and return with error messages,</p>
 <pre><code>Conversion in progress, this may take a few minutes...
 
 For information on key differences with WSL 2 please visit https://aka.ms/wsl2
 The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
 and unencrypted and must not be sparse.
 </code></pre>
-<p>In order to fix this, open up File Explorer and navigate to:</p>
+<p>To fix this, as in <a href="https://logfetch.com/wsl2-uncompressed/">https://logfetch.com/wsl2-uncompressed/</a>, open up File Explorer and navigate to:</p>
 <p>C:\Users\YOUR_USER\AppData\Local\Packages\CanonicalGroupLimited...</p>
 <p>Right click on <strong>LocalState</strong>, then <strong>Properties</strong>, then <strong>Advanced</strong>.</p>
 <p>Ensure <strong>Compress contents to save disk space</strong> and <strong>Encrypt contents to secure data</strong> are both deselected.</p>
 <p>Click <strong>OK</strong>, then <strong>Apply</strong>, then <strong>Apply changes to this folder only</strong></p>
-<p>Software mobaXterm, <a href="https://mobaxterm.mobatek.net/">https://mobaxterm.mobatek.net/</a> offers at its<code>Advanced WSL settings</code>, <code>Graphical environments</code>
+<p>Software mobaXterm, <a href="https://mobaxterm.mobatek.net/">https://mobaxterm.mobatek.net/</a> offers <code>Advanced WSL settings</code>, <code>Graphical environments</code>
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
 are <code>ubuntu-gnome-desktop</code> (gnome-session-bin), <code>lubuntu-desktop</code>, <code>xubuntu-desktop</code> (in fact xfce4-session, xubuntu-core,
 xubuntu-default-settings), respectively.</p>
-<p>After started, create a session for WSL which directs you to Windows Apps store. Obtain Ubuntu, and install.</p>
+<p>After started, create a session for WSL, open it and install software.</p>
 <pre><code class="language-bash">sudo apt update
 sudo apt install nautilus
 sudo apt install firefox
@@ -419,7 +419,7 @@ sudo apt install firefox
 sudo mount -t drvfs D: /mnt/d
 sudo umount /mnt/d
 </code></pre>
-<p>It is also possible to map network drive, e.g.,</p>
+<p>The network drive can also be mapped, e.g.,</p>
 <pre><code class="language-bash">sudo mkdir /mnt/u
 sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 </code></pre>
