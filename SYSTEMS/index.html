@@ -396,15 +396,15 @@ wsl --set-default-version 2
 <p>and return with error messages, <a href="https://logfetch.com/wsl2-uncompressed/">https://logfetch.com/wsl2-uncompressed/</a></p>
 <pre><code>Conversion in progress, this may take a few minutes...
 
-For information on key differences with WSL 2 please visit &lt;https://aka.ms/wsl2&gt;
+For information on key differences with WSL 2 please visit https://aka.ms/wsl2
 The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
 and unencrypted and must not be sparse.
 </code></pre>
 <p>In order to fix this, open up File Explorer and navigate to:</p>
 <p>C:\Users\YOUR_USER\AppData\Local\Packages\CanonicalGroupLimited...</p>
-<p>Right click on LocalState, then Properties, then Advanced.</p>
-<p>Ensure Compress contents to save disk space and Encrypt contents to secure data are both deselected.</p>
-<p>Click OK, then Apply, then Apply changes to this folder only</p>
+<p>Right click on <strong>LocalState</strong>, then <strong>Properties</strong>, then <strong>Advanced</strong>.</p>
+<p>Ensure <strong>Compress contents to save disk space</strong> and <strong>Encrypt contents to secure data</strong> are both deselected.</p>
+<p>Click <strong>OK</strong>, then <strong>Apply</strong>, then <strong>Apply changes to this folder only</strong></p>
 <p>It is easy to work with mobaXterm, <a href="https://mobaxterm.mobatek.net/">https://mobaxterm.mobatek.net/</a>. At its<code>Advanced WSL settings</code> tab, choose <code>Graphical environments</code>
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
 are <code>ubuntu-gnome-desktop</code> (gnome-session-bin), <code>lubuntu-desktop</code>, <code>xubuntu-desktop</code> (in fact xfce4-session, xubuntu-core,
@@ -463,7 +463,7 @@ fi
 # ipconfig.exe works similarly.
 </code></pre>
 <p>and start rdp to \&lt;IPv4 address>:3390.</p>
-<p>To avoid a dark screen, select Applications --&gt; Settings --&gt; Light Locker Settings --&gt; Automatically lock the screen --&gt; Never, Apply.</p>
+<p>To avoid a dark screen, select <strong>Applications</strong> --&gt; <strong>Settings</strong> --&gt; <strong>Light Locker Settings</strong> --&gt; <strong>Automatically lock the screen</strong> --&gt; <strong>Never</strong>, <strong>Apply</strong>.</p>
 <p>One may also execute <code>wsl --shutdown</code> to reninitialize.</p>
 <h3 id="compression-of-disk">Compression of disk</h3>
 <pre><code class="language-bash">wsl --shutdown
