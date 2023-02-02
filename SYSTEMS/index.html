@@ -376,13 +376,16 @@ dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 <pre><code>wsl -help
 wsl --list
 wsl --list --online
-wsl --list --verbose --all
+wsl --list --verbose
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
 wsl --set-version Ubuntu-20.04 2
-wsl --unregister Ubuntu-20.04
 </code></pre>
 <p>The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.</p>
+<p>Location of the distros are found by</p>
+<pre><code>cd %LocalAppData%\Packages\
+cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
+</code></pre>
 <p>To migrate from WSL 1 to WSL 2 with this command, <a href="https://logfetch.com/wsl2-uncompressed/">https://logfetch.com/wsl2-uncompressed/</a></p>
 <pre><code class="language-bash">wsl --set-version Ubuntu 2
 wsl --set-default-version 2
@@ -424,10 +427,12 @@ See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.</p>
 <pre><code class="language-bash">sudo apt install ubuntu-wsl
 </code></pre>
 <p>for executables at <code>/usr/bin</code>, e.g., <code>wslvar PATH</code> for Windows' \%PATH environment variable and <code>wslsys</code> for basic information, <code>wslusc</code> to create a short cut on Windows desktop.</p>
-<p><code>wslconfig/u &lt;distribution&gt;</code> to uninstall a distribution.</p>
-<p>Location of the distros are found by</p>
-<pre><code>cd %LocalAppData%\Packages\
-cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
+<h3 id="uninstallation">Uninstallation</h3>
+<p>This is achieved by</p>
+<pre><code class="language-bash"># via wsl
+wsl --unregister Ubuntu-20.04
+# via wslconfig
+wslconfig /u Ubuntu-20.04
 </code></pre>
 <h3 id="xfce4-rdp">xfce4 &amp; rdp</h3>
 <p>xfce4 can also be made available with</p>
