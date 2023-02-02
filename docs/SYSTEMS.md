@@ -302,6 +302,8 @@ cd %LocalAppData%\Packages\
 cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
 ```
 
+For old Windoes build, there is complaint about writing BIOS then an update called `wsl_update_x64.msi` is required. A comparison of WSL 1 and WSL 2 can be seen from <https://aka.ms/wsl2> (<https://learn.microsoft.com/en-us/windows/wsl/compare-versions>).
+
 To migrate from WSL 1 to WSL 2 with this command,
 
 ```bash
@@ -317,7 +319,7 @@ and return with error messages, [https://logfetch.com/wsl2-uncompressed/](https:
 ```
 Conversion in progress, this may take a few minutes...
 
-For information on key differences with WSL 2 please visit https://aka.ms/wsl2
+For information on key differences with WSL 2 please visit <https://aka.ms/wsl2>
 The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
 and unencrypted and must not be sparse.
 ```
@@ -332,9 +334,7 @@ Ensure Compress contents to save disk space and Encrypt contents to secure data 
 
 Click OK, then Apply, then Apply changes to this folder only
 
-For old Windoes build, there is complaint about writing BIOS then an update called `wsl_update_x64.msi` is required. A comparison of WSL 1 and WSL 2 can be seen from <https://aka.ms/wsl2> (<https://learn.microsoft.com/en-us/windows/wsl/compare-versions>).
-
-It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its`Advanced WSL settings` tab, choose `Graphical environments`
+It is easy to work with mobaXterm, <https://mobaxterm.mobatek.net/>. At its`Advanced WSL settings` tab, choose `Graphical environments`
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
 are `ubuntu-gnome-desktop` (gnome-session-bin), `lubuntu-desktop`, `xubuntu-desktop` (in fact xfce4-session, xubuntu-core,
 xubuntu-default-settings), respectively.
@@ -357,8 +357,9 @@ sudo mkdir /mnt/u
 sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 ```
 
-See https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/.
-See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.
+See <https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/>.
+
+See also <https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/>.
 
 `ubuntu-wsl` is a set of WSL utilities, which could be installed with
 ```bash
