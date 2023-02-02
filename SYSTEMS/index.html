@@ -365,7 +365,7 @@ VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 <p>Hyper-V can be enabled in many ways including using the Windows 10 control panel, PowerShell or using the Deployment Imaging Servicing and Management tool (DISM). This documents walks through each option:</p>
 <p>Control Panel --&gt; Programs --&gt; Programs and Features -&gt; Turn Windows Features on or off: Hyper-V, Virtual Machine Platforms.</p>
 <h2 id="wsl">WSL</h2>
-<p>Official page: https://github.com/microsoft/WSL</p>
+<p>Official page: <a href="https://github.com/microsoft/WSL">https://github.com/microsoft/WSL</a></p>
 <p>To check version of Windows, issue <code>winver</code> (MS-DOS Prompt: Windows + r, cmd, winver).</p>
 <h3 id="installation">Installation</h3>
 <p>A description on PowerShell is here, <a href="https://learn.microsoft.com/en-us/windows/wsl/install">https://learn.microsoft.com/en-us/windows/wsl/install</a>. To initiate from PowerShell, use</p>
@@ -385,6 +385,7 @@ wsl --unregister Ubuntu-20.04
 <p>The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.</p>
 <p>To migrate from WSL 1 to WSL 2 with this command, <a href="https://logfetch.com/wsl2-uncompressed/">https://logfetch.com/wsl2-uncompressed/</a></p>
 <pre><code class="language-bash">wsl --set-version Ubuntu 2
+wsl --set-default-version 2
 </code></pre>
 <p>and return with error messages,</p>
 <pre><code>Conversion in progress, this may take a few minutes...
@@ -398,6 +399,7 @@ and unencrypted and must not be sparse.
 <p>Right click on LocalState, then Properties, then Advanced.</p>
 <p>Ensure Compress contents to save disk space and Encrypt contents to secure data are both deselected.</p>
 <p>Click OK, then Apply, then Apply changes to this folder only</p>
+<p>For old Windoes build, there is complaint about writing BIOS then an update called <code>wsl_update_x64.msi</code> is required. A comparison of WSL 1 and WSL 2 can be seen from <a href="https://aka.ms/wsl2">https://aka.ms/wsl2</a> (<a href="https://learn.microsoft.com/en-us/windows/wsl/compare-versions">https://learn.microsoft.com/en-us/windows/wsl/compare-versions</a>).</p>
 <p>It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its<code>Advanced WSL settings</code> tab, choose <code>Graphical environments</code>
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
 are <code>ubuntu-gnome-desktop</code> (gnome-session-bin), <code>lubuntu-desktop</code>, <code>xubuntu-desktop</code> (in fact xfce4-session, xubuntu-core,
@@ -472,7 +474,8 @@ echo &quot;%LocalAppData%\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1
 select vdisk file=&quot;C:\Users\User\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\ext4.vhdx&quot;
 compact vdisk
 </code></pre>
-<h3 id="downloading-specific-distributions">Downloading specific distributions,</h3>
+<h3 id="downloading-specific-distributions">Downloading specific distributions</h3>
+<p>The list is available from <a href="https://learn.microsoft.com/en-us/windows/wsl/install-manual">https://learn.microsoft.com/en-us/windows/wsl/install-manual</a> but alternatives are also possible.</p>
 <pre><code class="language-bash"># Ubuntu 21.10
 wget https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64-wsl.rootfs.tar.gz
 mkdir d:\wsl
