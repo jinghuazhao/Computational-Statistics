@@ -379,7 +379,6 @@ wsl --list --online
 wsl --list --verbose
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
-wsl --set-version Ubuntu-20.04 2
 </code></pre>
 <p>The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.</p>
 <p>Location of the distros are found by</p>
@@ -387,7 +386,10 @@ wsl --set-version Ubuntu-20.04 2
 cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
 </code></pre>
 <p>To migrate from WSL 1 to WSL 2 with this command,</p>
-<pre><code class="language-bash">wsl --set-version Ubuntu 2
+<pre><code class="language-bash"># A distribution only
+wsl --set-version Ubuntu 2
+wsl --set-version Ubuntu-20.04 2
+# WSL as a whole
 wsl --set-default-version 2
 </code></pre>
 <p>and return with error messages, <a href="https://logfetch.com/wsl2-uncompressed/">https://logfetch.com/wsl2-uncompressed/</a></p>
