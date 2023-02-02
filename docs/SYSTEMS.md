@@ -272,7 +272,7 @@ Control Panel --> Programs --> Programs and Features -> Turn Windows Features on
 
 ## WSL
 
-Official page: https://github.com/microsoft/WSL
+Official page: <https://github.com/microsoft/WSL>
 
 To check version of Windows, issue `winver` (MS-DOS Prompt: Windows + r, cmd, winver).
 
@@ -301,6 +301,7 @@ To migrate from WSL 1 to WSL 2 with this command, [https://logfetch.com/wsl2-unc
 
 ```bash
 wsl --set-version Ubuntu 2
+wsl --set-default-version 2
 ```
 and return with error messages,
 ```
@@ -319,6 +320,8 @@ Right click on LocalState, then Properties, then Advanced.
 Ensure Compress contents to save disk space and Encrypt contents to secure data are both deselected.
 
 Click OK, then Apply, then Apply changes to this folder only
+
+For old Windoes build, there is complaint about writing BIOS then an update called `wsl_update_x64.msi` is required. A comparison of WSL 1 and WSL 2 can be seen from <https://aka.ms/wsl2> (<https://learn.microsoft.com/en-us/windows/wsl/compare-versions>).
 
 It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its`Advanced WSL settings` tab, choose `Graphical environments`
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
@@ -425,7 +428,9 @@ select vdisk file="C:\Users\User\AppData\Local\Packages\CanonicalGroupLimited.Ub
 compact vdisk
 ```
 
-### Downloading specific distributions,
+### Downloading specific distributions
+
+The list is available from <https://learn.microsoft.com/en-us/windows/wsl/install-manual> but alternatives are also possible.
 
 ```bash
 # Ubuntu 21.10
