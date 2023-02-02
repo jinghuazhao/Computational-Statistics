@@ -319,7 +319,7 @@ and return with error messages, [https://logfetch.com/wsl2-uncompressed/](https:
 ```
 Conversion in progress, this may take a few minutes...
 
-For information on key differences with WSL 2 please visit <https://aka.ms/wsl2>
+For information on key differences with WSL 2 please visit https://aka.ms/wsl2
 The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
 and unencrypted and must not be sparse.
 ```
@@ -328,11 +328,11 @@ In order to fix this, open up File Explorer and navigate to:
 
 C:\Users\YOUR_USER\AppData\Local\Packages\CanonicalGroupLimited...
 
-Right click on LocalState, then Properties, then Advanced.
+Right click on **LocalState**, then **Properties**, then **Advanced**.
 
-Ensure Compress contents to save disk space and Encrypt contents to secure data are both deselected.
+Ensure **Compress contents to save disk space** and **Encrypt contents to secure data** are both deselected.
 
-Click OK, then Apply, then Apply changes to this folder only
+Click **OK**, then **Apply**, then **Apply changes to this folder only**
 
 It is easy to work with mobaXterm, <https://mobaxterm.mobatek.net/>. At its`Advanced WSL settings` tab, choose `Graphical environments`
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
@@ -415,7 +415,7 @@ systeminfo
 ```
 and start rdp to \<IPv4 address\>:3390.
 
-To avoid a dark screen, select Applications --> Settings --> Light Locker Settings --> Automatically lock the screen --> Never, Apply.
+To avoid a dark screen, select **Applications** --> **Settings** --> **Light Locker Settings** --> **Automatically lock the screen** --> **Never**, **Apply**.
 
 One may also execute `wsl --shutdown` to reninitialize.
 
