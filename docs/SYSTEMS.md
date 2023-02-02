@@ -268,7 +268,7 @@ Enable Hyper-V to create virtual machines on Windows 10.
 
 Hyper-V can be enabled in many ways including using the Windows 10 control panel, PowerShell or using the Deployment Imaging Servicing and Management tool (DISM). This documents walks through each option:
 
-Control **Panel** --> **Programs** --> **Programs and Features** --> **Turn Windows Features on or off**: **Hyper-V**, **Virtual Machine Platforms**.
+**Control Panel** --> **Programs** --> **Programs and Features** --> **Turn Windows Features on or off**: **Hyper-V**, **Virtual Machine Platforms**.
 
 ## WSL
 
