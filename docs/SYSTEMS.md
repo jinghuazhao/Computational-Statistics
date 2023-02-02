@@ -289,13 +289,19 @@ After installation, it can be invoked from a MS-DOS Prompt with
 wsl -help
 wsl --list
 wsl --list --online
-wsl --list --verbose --all
+wsl --list --verbose
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
 wsl --set-version Ubuntu-20.04 2
-wsl --unregister Ubuntu-20.04
 ```
 The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.
+
+Location of the distros are found by
+
+```
+cd %LocalAppData%\Packages\
+cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
+```
 
 To migrate from WSL 1 to WSL 2 with this command, [https://logfetch.com/wsl2-uncompressed/](https://logfetch.com/wsl2-uncompressed/)
 
@@ -356,13 +362,15 @@ sudo apt install ubuntu-wsl
 
 for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
 
-`wslconfig/u <distribution>` to uninstall a distribution.
+### Uninstallation
 
-Location of the distros are found by
+This is achieved by
 
-```
-cd %LocalAppData%\Packages\
-cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
+```bash
+# via wsl
+wsl --unregister Ubuntu-20.04
+# via wslconfig
+wslconfig /u Ubuntu-20.04
 ```
 
 ### xfce4 & rdp
