@@ -303,13 +303,15 @@ cd %LocalAppData%\Packages\
 cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
 ```
 
-To migrate from WSL 1 to WSL 2 with this command, [https://logfetch.com/wsl2-uncompressed/](https://logfetch.com/wsl2-uncompressed/)
+To migrate from WSL 1 to WSL 2 with this command,
 
 ```bash
 wsl --set-version Ubuntu 2
 wsl --set-default-version 2
 ```
-and return with error messages,
+
+and return with error messages, [https://logfetch.com/wsl2-uncompressed/](https://logfetch.com/wsl2-uncompressed/)
+
 ```
 Conversion in progress, this may take a few minutes...
 
@@ -317,6 +319,7 @@ For information on key differences with WSL 2 please visit https://aka.ms/wsl2
 The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
 and unencrypted and must not be sparse.
 ```
+
 In order to fix this, open up File Explorer and navigate to:
 
 C:\Users\YOUR_USER\AppData\Local\Packages\CanonicalGroupLimited...
