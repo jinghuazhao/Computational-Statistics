@@ -365,17 +365,6 @@ sudo apt install ubuntu-wsl
 
 for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
 
-### Uninstallation
-
-This is achieved by
-
-```bash
-# via wsl
-wsl --unregister Ubuntu-20.04
-# via wslconfig
-wslconfig /u Ubuntu-20.04
-```
-
 ### xfce4 & rdp
 
 xfce4 can also be made available with
@@ -480,6 +469,17 @@ ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
 ```
 followed by a call to `AcroRd32.exe` and as `xpdf`, or directly call a list of programs: `calc.exe`, `comp.exe`, `control.exe`,
 `curl.exe`, `fc.exe`, `find.exe`, `finger.exe`, `mspaint.exe`, `net.exe`, `sort.exe`, `tar.exe`, `whoami.exe`, `write.exe`, `xcopy.exe`.
+
+### Uninstallation
+
+This is achieved by
+
+```bash
+# via wsl
+wsl --unregister Ubuntu-20.04
+# via wslconfig
+wslconfig /u Ubuntu-20.04
+```
 
 ## Anaconda
 
