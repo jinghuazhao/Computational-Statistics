@@ -304,7 +304,7 @@ cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
 
 For old Windoes build, there is complaint about writing BIOS then an update called `wsl_update_x64.msi` is required. A comparison of WSL 1 and WSL 2 can be seen from <https://aka.ms/wsl2> (<https://learn.microsoft.com/en-us/windows/wsl/compare-versions>).
 
-To migrate from WSL 1 to WSL 2 with this command,
+To migrate from WSL 1 to WSL 2, several options are possible,
 
 ```bash
 # A distribution only
@@ -334,7 +334,7 @@ Ensure **Compress contents to save disk space** and **Encrypt contents to secure
 
 Click **OK**, then **Apply**, then **Apply changes to this folder only**
 
-It is easy to work with mobaXterm, <https://mobaxterm.mobatek.net/>. At its`Advanced WSL settings` tab, choose `Graphical environments`
+Software mobaXterm, <https://mobaxterm.mobatek.net/> offers at its`Advanced WSL settings`, `Graphical environments`
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
 are `ubuntu-gnome-desktop` (gnome-session-bin), `lubuntu-desktop`, `xubuntu-desktop` (in fact xfce4-session, xubuntu-core,
 xubuntu-default-settings), respectively.
@@ -396,7 +396,7 @@ swap=4GB
 localhostForwarding=true
 ```
 
-The remote desktop can be started from DOS prompt `mstsc` for localhost:3390 (127.0.0.1:3390). Programs such as FireFox can be started.
+The remote desktop can be started from DOS Prompt `mstsc` for localhost:3390 (127.0.0.1:3390). Programs such as FireFox can be started.
 
 To avoid running the service from every terminal session, amend the service xrdp as follows,
 
@@ -408,10 +408,10 @@ if [[ "$plus" != "+" ]]; then
 fi
 ```
 
-We can use check IPv4 address from Windoww as follows,
+We can use check IPv4 address from Windows as follows,
 ```windows
 systeminfo
-# ipconfig.exe works similarly.
+# ipconfig works similarly.
 ```
 and start rdp to \<IPv4 address\>:3390.
 
@@ -463,9 +463,9 @@ chmod +x ${HOME}/bin/edge
 edge
 ```
 
-In fact, it is easy with default applications under Windows, e.g., `cmd.exe /c u:/work/eQTL-MR.pptx` which opens up PowerPoint directly.
+It is possible with default applications under Windows, e.g., `cmd.exe /c u:/work/eQTL-MR.pptx` which opens up PowerPoint directly.
 
-One can actually generalise these, e.g., 
+One can actually generalize these, e.g.,
 ```wsl
 ln -s $HOME/C/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe /home/$USER/bin/AcroRd32.exe
 ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
