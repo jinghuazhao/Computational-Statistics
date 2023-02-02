@@ -385,6 +385,7 @@ wsl --set-default Ubuntu-20.04
 <pre><code>cd %LocalAppData%\Packages\
 cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
 </code></pre>
+<p>For old Windoes build, there is complaint about writing BIOS then an update called <code>wsl_update_x64.msi</code> is required. A comparison of WSL 1 and WSL 2 can be seen from <a href="https://aka.ms/wsl2">https://aka.ms/wsl2</a> (<a href="https://learn.microsoft.com/en-us/windows/wsl/compare-versions">https://learn.microsoft.com/en-us/windows/wsl/compare-versions</a>).</p>
 <p>To migrate from WSL 1 to WSL 2 with this command,</p>
 <pre><code class="language-bash"># A distribution only
 wsl --set-version Ubuntu 2
@@ -395,7 +396,7 @@ wsl --set-default-version 2
 <p>and return with error messages, <a href="https://logfetch.com/wsl2-uncompressed/">https://logfetch.com/wsl2-uncompressed/</a></p>
 <pre><code>Conversion in progress, this may take a few minutes...
 
-For information on key differences with WSL 2 please visit https://aka.ms/wsl2
+For information on key differences with WSL 2 please visit &lt;https://aka.ms/wsl2&gt;
 The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
 and unencrypted and must not be sparse.
 </code></pre>
@@ -404,8 +405,7 @@ and unencrypted and must not be sparse.
 <p>Right click on LocalState, then Properties, then Advanced.</p>
 <p>Ensure Compress contents to save disk space and Encrypt contents to secure data are both deselected.</p>
 <p>Click OK, then Apply, then Apply changes to this folder only</p>
-<p>For old Windoes build, there is complaint about writing BIOS then an update called <code>wsl_update_x64.msi</code> is required. A comparison of WSL 1 and WSL 2 can be seen from <a href="https://aka.ms/wsl2">https://aka.ms/wsl2</a> (<a href="https://learn.microsoft.com/en-us/windows/wsl/compare-versions">https://learn.microsoft.com/en-us/windows/wsl/compare-versions</a>).</p>
-<p>It is easy to work with mobaXterm, https://mobaxterm.mobatek.net/. At its<code>Advanced WSL settings</code> tab, choose <code>Graphical environments</code>
+<p>It is easy to work with mobaXterm, <a href="https://mobaxterm.mobatek.net/">https://mobaxterm.mobatek.net/</a>. At its<code>Advanced WSL settings</code> tab, choose <code>Graphical environments</code>
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
 are <code>ubuntu-gnome-desktop</code> (gnome-session-bin), <code>lubuntu-desktop</code>, <code>xubuntu-desktop</code> (in fact xfce4-session, xubuntu-core,
 xubuntu-default-settings), respectively.</p>
@@ -423,8 +423,8 @@ sudo umount /mnt/d
 <pre><code class="language-bash">sudo mkdir /mnt/u
 sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
 </code></pre>
-<p>See https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/.
-See also https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/.</p>
+<p>See <a href="https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/">https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/</a>.</p>
+<p>See also <a href="https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/">https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/</a>.</p>
 <p><code>ubuntu-wsl</code> is a set of WSL utilities, which could be installed with</p>
 <pre><code class="language-bash">sudo apt install ubuntu-wsl
 </code></pre>
