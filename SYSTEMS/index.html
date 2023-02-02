@@ -386,7 +386,7 @@ wsl --set-default Ubuntu-20.04
 cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
 </code></pre>
 <p>For old Windoes build, there is complaint about writing BIOS then an update called <code>wsl_update_x64.msi</code> is required. A comparison of WSL 1 and WSL 2 can be seen from <a href="https://aka.ms/wsl2">https://aka.ms/wsl2</a> (<a href="https://learn.microsoft.com/en-us/windows/wsl/compare-versions">https://learn.microsoft.com/en-us/windows/wsl/compare-versions</a>).</p>
-<p>To migrate from WSL 1 to WSL 2 with this command,</p>
+<p>To migrate from WSL 1 to WSL 2, several options are possible,</p>
 <pre><code class="language-bash"># A distribution only
 wsl --set-version Ubuntu 2
 wsl --set-version Ubuntu-20.04 2
@@ -405,7 +405,7 @@ and unencrypted and must not be sparse.
 <p>Right click on <strong>LocalState</strong>, then <strong>Properties</strong>, then <strong>Advanced</strong>.</p>
 <p>Ensure <strong>Compress contents to save disk space</strong> and <strong>Encrypt contents to secure data</strong> are both deselected.</p>
 <p>Click <strong>OK</strong>, then <strong>Apply</strong>, then <strong>Apply changes to this folder only</strong></p>
-<p>It is easy to work with mobaXterm, <a href="https://mobaxterm.mobatek.net/">https://mobaxterm.mobatek.net/</a>. At its<code>Advanced WSL settings</code> tab, choose <code>Graphical environments</code>
+<p>Software mobaXterm, <a href="https://mobaxterm.mobatek.net/">https://mobaxterm.mobatek.net/</a> offers at its<code>Advanced WSL settings</code>, <code>Graphical environments</code>
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
 are <code>ubuntu-gnome-desktop</code> (gnome-session-bin), <code>lubuntu-desktop</code>, <code>xubuntu-desktop</code> (in fact xfce4-session, xubuntu-core,
 xubuntu-default-settings), respectively.</p>
@@ -450,7 +450,7 @@ memory=4GB
 swap=4GB
 localhostForwarding=true
 </code></pre>
-<p>The remote desktop can be started from DOS prompt <code>mstsc</code> for localhost:3390 (127.0.0.1:3390). Programs such as FireFox can be started.</p>
+<p>The remote desktop can be started from DOS Prompt <code>mstsc</code> for localhost:3390 (127.0.0.1:3390). Programs such as FireFox can be started.</p>
 <p>To avoid running the service from every terminal session, amend the service xrdp as follows,</p>
 <pre><code class="language-bash">export plus=$(service --status-all 2&gt;&amp;1 | grep xrdp | cut -d' ' -f3)
 if [[ &quot;$plus&quot; != &quot;+&quot; ]]; then
@@ -458,9 +458,9 @@ if [[ &quot;$plus&quot; != &quot;+&quot; ]]; then
    sudo service xrdp start
 fi
 </code></pre>
-<p>We can use check IPv4 address from Windoww as follows,</p>
+<p>We can use check IPv4 address from Windows as follows,</p>
 <pre><code class="language-windows">systeminfo
-# ipconfig.exe works similarly.
+# ipconfig works similarly.
 </code></pre>
 <p>and start rdp to \&lt;IPv4 address>:3390.</p>
 <p>To avoid a dark screen, select <strong>Applications</strong> --&gt; <strong>Settings</strong> --&gt; <strong>Light Locker Settings</strong> --&gt; <strong>Automatically lock the screen</strong> --&gt; <strong>Never</strong>, <strong>Apply</strong>.</p>
@@ -499,8 +499,8 @@ echo cmd.exe /c start https://github.com &gt; ${HOME}/bin/edge
 chmod +x ${HOME}/bin/edge
 edge
 </code></pre>
-<p>In fact, it is easy with default applications under Windows, e.g., <code>cmd.exe /c u:/work/eQTL-MR.pptx</code> which opens up PowerPoint directly.</p>
-<p>One can actually generalise these, e.g., </p>
+<p>It is possible with default applications under Windows, e.g., <code>cmd.exe /c u:/work/eQTL-MR.pptx</code> which opens up PowerPoint directly.</p>
+<p>One can actually generalize these, e.g.,</p>
 <pre><code class="language-wsl">ln -s $HOME/C/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe /home/$USER/bin/AcroRd32.exe
 ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
 </code></pre>
