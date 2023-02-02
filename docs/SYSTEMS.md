@@ -276,7 +276,7 @@ Official page: <https://github.com/microsoft/WSL>
 
 To check version of Windows, issue `winver` (MS-DOS Prompt: Windows + r, cmd, winver).
 
-### Installation
+### Installation and setup
 
 A description on PowerShell is here, [https://learn.microsoft.com/en-us/windows/wsl/install](https://learn.microsoft.com/en-us/windows/wsl/install). To initiate from PowerShell, use
 ```
@@ -293,7 +293,7 @@ wsl --list --verbose
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
 ```
-The command could also takes additional parameters, e.g., -d debian. The last command uses WSL2. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.
+The command could also takes additional parameters, e.g., -d debian. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.
 
 Location of the distros are found by
 
@@ -314,7 +314,7 @@ wsl --set-version Ubuntu-20.04 2
 wsl --set-default-version 2
 ```
 
-and return with error messages, [https://logfetch.com/wsl2-uncompressed/](https://logfetch.com/wsl2-uncompressed/)
+and return with error messages,
 
 ```
 Conversion in progress, this may take a few minutes...
@@ -324,7 +324,7 @@ The requested operation could not be completed due to a virtual disk system limi
 and unencrypted and must not be sparse.
 ```
 
-In order to fix this, open up File Explorer and navigate to:
+To fix this, as in <https://logfetch.com/wsl2-uncompressed/>, open up File Explorer and navigate to:
 
 C:\Users\YOUR_USER\AppData\Local\Packages\CanonicalGroupLimited...
 
@@ -334,12 +334,12 @@ Ensure **Compress contents to save disk space** and **Encrypt contents to secure
 
 Click **OK**, then **Apply**, then **Apply changes to this folder only**
 
-Software mobaXterm, <https://mobaxterm.mobatek.net/> offers at its`Advanced WSL settings`, `Graphical environments`
+Software mobaXterm, <https://mobaxterm.mobatek.net/> offers `Advanced WSL settings`, `Graphical environments`
 such as Gnome-desktop/LDXE-desktop/XFCE4-desktop so as to create sessions using graphical desktops. The corresponding installations
 are `ubuntu-gnome-desktop` (gnome-session-bin), `lubuntu-desktop`, `xubuntu-desktop` (in fact xfce4-session, xubuntu-core,
 xubuntu-default-settings), respectively.
 
-After started, create a session for WSL which directs you to Windows Apps store. Obtain Ubuntu, and install.
+After started, create a session for WSL, open it and install software.
 ```bash
 sudo apt update
 sudo apt install nautilus
@@ -351,7 +351,7 @@ sudo mkdir /mnt/d
 sudo mount -t drvfs D: /mnt/d
 sudo umount /mnt/d
 ```
-It is also possible to map network drive, e.g.,
+The network drive can also be mapped, e.g.,
 ```bash
 sudo mkdir /mnt/u
 sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
