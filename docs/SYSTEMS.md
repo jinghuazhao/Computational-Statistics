@@ -376,6 +376,8 @@ Example applications include gedit, gimp, nautilus, vlc, x11-apps, microsoft-edg
 
 In case of problems, try Intel® Driver & Support Assistant (Intel® DSA), <https://www.intel.co.uk/content/www/uk/en/support/detect.html>.
 
+The flowblade GUI is available with `sudo apt-get install flowblade`.
+
 ### xfce4 & rdp
 
 xfce4 can also be made available with
