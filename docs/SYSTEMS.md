@@ -418,12 +418,7 @@ if [[ "$plus" != "+" ]]; then
 fi
 ```
 
-We can use check IPv4 address from Windows as follows,
-```windows
-systeminfo
-# ipconfig works similarly.
-```
-and start rdp to \<IPv4 address\>:3390.
+Earlier note: We can use check IPv4 address from Windows as follows with `systeminfo` (or `ipconfig`) and start rdp to \<IPv4 address\>:3390.
 
 To avoid a dark screen, select **Applications** --> **Settings** --> **Light Locker Settings** --> **Automatically lock the screen** --> **Never**, **Apply**.
 
