@@ -368,6 +368,12 @@ sudo apt install ubuntu-wsl
 
 for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
 
+### Linux GUI
+
+This is available from <https://www.intel.com/content/www/us/en/download/19344/intel-graphics-windows-dch-drivers.html>.
+
+Example applications include gedit, gimp, nautilus, vlc, x11-apps, microsoft-edge (<https://www.microsoftedgeinsider.com/en-us/download?platform=linux-deb>).
+
 ### xfce4 & rdp
 
 xfce4 can also be made available with
