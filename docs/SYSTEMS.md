@@ -374,6 +374,8 @@ This is available from <https://www.intel.com/content/www/us/en/download/19344/i
 
 Example applications include gedit, gimp, nautilus, vlc, x11-apps, microsoft-edge (<https://www.microsoftedgeinsider.com/en-us/download?platform=linux-deb>).
 
+In case of problems, try Intel® Driver & Support Assistant (Intel® DSA), <https://www.intel.co.uk/content/www/uk/en/support/detect.html>.
+
 ### xfce4 & rdp
 
 xfce4 can also be made available with
