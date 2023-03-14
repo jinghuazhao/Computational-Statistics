@@ -463,11 +463,7 @@ if [[ &quot;$plus&quot; != &quot;+&quot; ]]; then
    sudo service xrdp start
 fi
 </code></pre>
-<p>We can use check IPv4 address from Windows as follows,</p>
-<pre><code class="language-windows">systeminfo
-# ipconfig works similarly.
-</code></pre>
-<p>and start rdp to \&lt;IPv4 address>:3390.</p>
+<p>Earlier note: We can use check IPv4 address from Windows as follows with <code>systeminfo</code> (or <code>ipconfig</code>) and start rdp to \&lt;IPv4 address>:3390.</p>
 <p>To avoid a dark screen, select <strong>Applications</strong> --&gt; <strong>Settings</strong> --&gt; <strong>Light Locker Settings</strong> --&gt; <strong>Automatically lock the screen</strong> --&gt; <strong>Never</strong>, <strong>Apply</strong>.</p>
 <p>One may also execute <code>wsl --shutdown</code> to reninitialize.</p>
 <h3 id="compression-of-disk">Compression of disk</h3>
