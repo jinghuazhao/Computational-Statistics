@@ -34,7 +34,7 @@ Usage example: `lftp -c mirror https://ftp.ebi.ac.uk/pub/databases/gwas/summary_
 
 The options of mirror can be seen with `help mirror` inside lftp; once done type `quit` to exit.
 
-### ftp
+### --- ftp ---
 
 ```bash
 #!/bin/bash
@@ -57,7 +57,7 @@ END
 ```
 Note to put files is possible with -R option.
 
-### sftp
+### --- sftp ---
 
 ```bash
 export HOST=
@@ -80,7 +80,7 @@ sftp -oKexAlgorithms=+diffie-hellman-group1-sha1 user@host
 
 ## dash
 
-### Python
+### --- Python ---
 
 This illustrates under Ubuntu 21.10 the demo `dash-drug-discovery`, [https://dash.gallery/dash-drug-discovery/](https://dash.gallery/dash-drug-discovery/).
 The source is a zipped file available from [https://github.com/plotly/dash-sample-apps/releases](https://github.com/plotly/dash-sample-apps/releases).
@@ -99,7 +99,7 @@ python app.py
 
 The output from last line is seen from `firefox` with URL http://127.0.0.1:8050.
 
-### R
+### --- R ---
 
 The R package `dash` is available from [https://CRAN.R-project.org/package=dash](https://CRAN.R-project.org/package=dash), documented
 from [https://dash.plotly.com/r](https://dash.plotly.com/r), and the simplest demo is as follows,
