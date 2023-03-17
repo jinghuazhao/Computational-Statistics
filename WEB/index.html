@@ -173,7 +173,7 @@ sudo apt install lftp
 <p>Note in both cases command delimiters are required.</p>
 <p>Usage example: <code>lftp -c mirror https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90086001-GCST90087000/</code>.</p>
 <p>The options of mirror can be seen with <code>help mirror</code> inside lftp; once done type <code>quit</code> to exit.</p>
-<h3 id="ftp">ftp</h3>
+<h3 id="-ftp-">--- ftp ---</h3>
 <pre><code class="language-bash">#!/bin/bash
 
 HOST=
@@ -193,7 +193,7 @@ bye;
 END
 </code></pre>
 <p>Note to put files is possible with -R option.</p>
-<h3 id="sftp">sftp</h3>
+<h3 id="-sftp-">--- sftp ---</h3>
 <pre><code class="language-bash">export HOST=
 export USER=
 export PASS=
@@ -210,7 +210,7 @@ lftp -c &quot;open sftp://${USER}:${PASS}@${HOST}:/genetic_data/for_Grace;mirror
 <pre><code class="language-bash">sftp -oKexAlgorithms=+diffie-hellman-group1-sha1 user@host
 </code></pre>
 <h2 id="dash">dash</h2>
-<h3 id="python">Python</h3>
+<h3 id="-python-">--- Python ---</h3>
 <p>This illustrates under Ubuntu 21.10 the demo <code>dash-drug-discovery</code>, <a href="https://dash.gallery/dash-drug-discovery/">https://dash.gallery/dash-drug-discovery/</a>.
 The source is a zipped file available from <a href="https://github.com/plotly/dash-sample-apps/releases">https://github.com/plotly/dash-sample-apps/releases</a>.</p>
 <pre><code class="language-bash">sudo apt install python3.9-venv
@@ -224,7 +224,7 @@ cd dash-drug-discovery
 python app.py
 </code></pre>
 <p>The output from last line is seen from <code>firefox</code> with URL http://127.0.0.1:8050.</p>
-<h3 id="r">R</h3>
+<h3 id="-r-">--- R ---</h3>
 <p>The R package <code>dash</code> is available from <a href="https://CRAN.R-project.org/package=dash">https://CRAN.R-project.org/package=dash</a>, documented
 from <a href="https://dash.plotly.com/r">https://dash.plotly.com/r</a>, and the simplest demo is as follows,</p>
 <pre><code class="language-r">library(dash)
