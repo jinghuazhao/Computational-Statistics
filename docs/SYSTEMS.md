@@ -355,6 +355,7 @@ The network drive can also be mapped, e.g.,
 ```bash
 sudo mkdir /mnt/u
 sudo mount -t drvfs '\\me-filer1.medschl.cam.ac.uk\home$\jhz22' /mnt/u
+sudo mount -t drvfs U: /mnt/u
 ```
 
 See <https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/>.

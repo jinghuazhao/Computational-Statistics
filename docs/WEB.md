@@ -25,7 +25,7 @@ Non-interactive authentication for both `ftp` and `sftp` can be enabled by `lftp
 ```bash
 # Fedora
 sudo dnf install lftp
-# Ubuntun
+# Ubuntu
 sudo apt install lftp
 ```
 Note in both cases command delimiters are required.
