@@ -485,7 +485,25 @@ hello.ts
 <p>See <a href="https://code.visualstudio.com/docs/python/python-tutorial">https://code.visualstudio.com/docs/python/python-tutorial</a> for the hello world example.</p>
 <h2 id="codegpt">CodeGPT</h2>
 <p>We could install <code>Visual Studio Code</code>, add CodeGPT extension; under Windows Ctrl-Shit-P we saarch <code>CodeGPT: Set API Key</code> to key in the key from <a href="https://platform.openai.com/account/api-keys">https://platform.openai.com/account/api-keys</a>. We could sign up/in from <a href="https://platform.openai.com/overview">https://platform.openai.com/overview</a>, e.g., via MicrsoSoft account.</p>
-<p>Then we create a file, start with a comment, e.g., '# to draw a forest plot' and Ctrl-Shift-i to obtain the code.</p></div>
+<p>Then we create a file, start with a comment, e.g., '# to draw a forest plot' and Ctrl-Shift-i to obtain the code.</p>
+<p>Here is one of the results given,</p>
+<pre><code class="language-r"># First, create a dataset with the relevant values for your forest plot
+study_names &lt;- c(&quot;Study A&quot;, &quot;Study B&quot;, &quot;Study C&quot;, &quot;Study D&quot;)
+odds_ratios &lt;- c(1.2, 1.5, 0.8, 0.6)
+lo_ci &lt;- c(0.9, 1.0, 0.5, 0.3)
+hi_ci &lt;- c(1.5, 2.0, 1.2, 0.9)
+
+# Combine data into a data frame
+df &lt;- data.frame(study_names, odds_ratios, lo_ci, hi_ci)
+
+# Load the 'meta' package for the forest plot function
+library(meta)
+
+# Create the forest plot
+forest(df$odds_ratios, ci.lb = df$lo_ci, ci.ub = df$hi_ci,
+       slab = df$study_names, xlab = &quot;Odds Ratio&quot;,
+       main = &quot;Forest Plot Example&quot;)
+</code></pre></div>
             </div>
         </div>
 
