@@ -423,7 +423,7 @@ See [https://code.visualstudio.com/docs/python/python-tutorial](https://code.vis
 
 ## CodeGPT
 
-We could install `Visual Studio Code`, add CodeGPT extension; under Windows Ctrl-Shit-P we saarch `CodeGPT: Set API Key` to key in the key from <https://platform.openai.com/account/api-keys>. We could sign up/in from <https://platform.openai.com/overview>, e.g., via MicrsoSoft account.
+We could install `Visual Studio Code`, add CodeGPT extension; `Ctrl-Shit-P` we saarch `CodeGPT: Set API Key` to key in the key from <https://platform.openai.com/account/api-keys>. We could sign up/in from <https://platform.openai.com/overview>, e.g., via MicrsoSoft account.
 
 Then we create a file, start with a comment, e.g., '# to draw a forest plot' and Ctrl-Shift-i to obtain the code.
 
