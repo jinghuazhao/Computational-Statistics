@@ -410,6 +410,8 @@ hello.ts
 
 ## Visual Studio Code
 
+It is available from <https://code.visualstudio.com/download>, so we could download a .tar.gz file and unpack.
+
 There is a pointer from https://github.com/Microsoft/vscode to https://code.visualstudio.com/Download. Once downloaded, it can be installed with
 ```bash
 sudo dpkg -i code_1.23.1-1525968403_amd64.deb
@@ -417,3 +419,10 @@ sudo dpkg -i code_1.23.1-1525968403_amd64.deb
 but it requires `libgconf-2-4`; when failed to install use `sudo apt --fix-broken install`.
 
 See [https://code.visualstudio.com/docs/python/python-tutorial](https://code.visualstudio.com/docs/python/python-tutorial) for the hello world example.
+
+
+## CodeGPT
+
+We could install `Visual Studio Code`, add CodeGPT extension; under Windows Ctrl-Shit-P we saarch `CodeGPT: Set API Key` to key in the key from <https://platform.openai.com/account/api-keys>. We could sign up/in from <https://platform.openai.com/overview>, e.g., via MicrsoSoft account.
+
+Then we create a file, start with a comment, e.g., '# to draw a forest plot' and Ctrl-Shift-i to obtain the code.
