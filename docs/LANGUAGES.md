@@ -426,3 +426,25 @@ See [https://code.visualstudio.com/docs/python/python-tutorial](https://code.vis
 We could install `Visual Studio Code`, add CodeGPT extension; under Windows Ctrl-Shit-P we saarch `CodeGPT: Set API Key` to key in the key from <https://platform.openai.com/account/api-keys>. We could sign up/in from <https://platform.openai.com/overview>, e.g., via MicrsoSoft account.
 
 Then we create a file, start with a comment, e.g., '# to draw a forest plot' and Ctrl-Shift-i to obtain the code.
+
+Here is one of the results given,
+
+```r
+# First, create a dataset with the relevant values for your forest plot
+study_names <- c("Study A", "Study B", "Study C", "Study D")
+odds_ratios <- c(1.2, 1.5, 0.8, 0.6)
+lo_ci <- c(0.9, 1.0, 0.5, 0.3)
+hi_ci <- c(1.5, 2.0, 1.2, 0.9)
+
+# Combine data into a data frame
+df <- data.frame(study_names, odds_ratios, lo_ci, hi_ci)
+
+# Load the 'meta' package for the forest plot function
+library(meta)
+
+# Create the forest plot
+forest(df$odds_ratios, ci.lb = df$lo_ci, ci.ub = df$hi_ci,
+       slab = df$study_names, xlab = "Odds Ratio",
+       main = "Forest Plot Example")
+```
+
