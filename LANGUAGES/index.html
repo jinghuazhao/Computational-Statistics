@@ -156,6 +156,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#codegpt" class="nav-link">CodeGPT</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -473,11 +477,15 @@ chmod +x hello.ts
 hello.ts
 </code></pre>
 <h2 id="visual-studio-code">Visual Studio Code</h2>
+<p>It is available from <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a>, so we could download a .tar.gz file and unpack.</p>
 <p>There is a pointer from https://github.com/Microsoft/vscode to https://code.visualstudio.com/Download. Once downloaded, it can be installed with</p>
 <pre><code class="language-bash">sudo dpkg -i code_1.23.1-1525968403_amd64.deb
 </code></pre>
 <p>but it requires <code>libgconf-2-4</code>; when failed to install use <code>sudo apt --fix-broken install</code>.</p>
-<p>See <a href="https://code.visualstudio.com/docs/python/python-tutorial">https://code.visualstudio.com/docs/python/python-tutorial</a> for the hello world example.</p></div>
+<p>See <a href="https://code.visualstudio.com/docs/python/python-tutorial">https://code.visualstudio.com/docs/python/python-tutorial</a> for the hello world example.</p>
+<h2 id="codegpt">CodeGPT</h2>
+<p>We could install <code>Visual Studio Code</code>, add CodeGPT extension; under Windows Ctrl-Shit-P we saarch <code>CodeGPT: Set API Key</code> to key in the key from <a href="https://platform.openai.com/account/api-keys">https://platform.openai.com/account/api-keys</a>. We could sign up/in from <a href="https://platform.openai.com/overview">https://platform.openai.com/overview</a>, e.g., via MicrsoSoft account.</p>
+<p>Then we create a file, start with a comment, e.g., '# to draw a forest plot' and Ctrl-Shift-i to obtain the code.</p></div>
             </div>
         </div>
 
