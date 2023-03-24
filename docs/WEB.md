@@ -17,6 +17,8 @@ wget --no-check-certificate https://omicscience.org/apps/pgwas/data/all.grch37.t
 wget --no-check-certificate https://omicscience.org/apps/pgwas/data/all.grch37.tabix.gz.tbi
 ```
 
+To keep the original timestamp, use -S option.
+
 ## lftp
 
 This is a sophisticated file transfer program.
@@ -36,25 +38,28 @@ The options of mirror can be seen with `help mirror` inside lftp; once done type
 
 ### --- ftp ---
 
-```bash
-#!/bin/bash
+The following code is used to download release_43 of GENCODE.
 
-HOST=
-USER=
-PASS=
-FTPURL="ftp://$USER:$PASS@$HOST"
-LCD=
-RCD=
+```bash
+#!/usr/bin/bash
+
+HOST=ftp.ebi.ac.uk
+USER=anonymous
+PASS=s@cam.ac.uk
+FTPURL=ftp://$USER:$PASS@$HOST
+LCD=.
+RCD=/pub/databases/gencode/Gencode_human/release_43
 
 lftp $HOST <<END
 set ftp:list-options -a;
 open '$FTPURL';
 lcd $LCD;
 cd $RCD;
-mirror --parallel=15 --log=/home/$USER/work/ftp.log --verbose;
+mirror --parallel=15 --log=ftp.log --verbose;
 bye;
 END
 ```
+
 Note to put files is possible with -R option.
 
 ### --- sftp ---
