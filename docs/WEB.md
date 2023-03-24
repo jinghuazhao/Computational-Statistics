@@ -38,7 +38,9 @@ The options of mirror can be seen with `help mirror` inside lftp; once done type
 
 ### --- ftp ---
 
-The following code is used to download release_43 of GENCODE.
+We use GENCODE, <https://www.gencodegenes.org/human/> (<https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/>), to illustrate,
+
+The following code is used to download release_43.
 
 ```bash
 #!/usr/bin/bash
