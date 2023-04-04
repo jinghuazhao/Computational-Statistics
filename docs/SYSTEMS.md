@@ -385,7 +385,7 @@ export SHORTCUTS_PATH=/usr/share/flowblade/Flowblade/res
 /usr/bin/flowblade
 ```
 
-to avoid error from `/bin/flowblade`, <https://github.com/jliljebl/flowblade/issues/857>.
+or `cd /bin;./flowblade`, <https://github.com/jliljebl/flowblade/issues/857>.
 
 ### xfce4 & rdp
 
