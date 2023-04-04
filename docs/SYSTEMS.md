@@ -379,7 +379,7 @@ In case of problems, try Intel® Driver & Support Assistant (Intel® DSA), <http
 
 The flowblade GUI is available with `sudo apt-get install flowblade`. After installation, one can start with
 
-``bash
+```bash
 export PYTHONPATH=/usr/share/flowblade/Flowblade:/usr/share/flowblade/Flowblade/vieweditor/:/usr/share/flowblade/Flowblade/tools
 export SHORTCUTS_PATH=/usr/share/flowblade/Flowblade/res
 /usr/bin/flowblade
