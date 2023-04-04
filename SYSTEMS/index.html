@@ -434,10 +434,19 @@ sudo mount -t drvfs U: /mnt/u
 <p>This is available from <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps">https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps</a>.</p>
 <p>Example applications include gedit, gimp, nautilus, vlc, x11-apps, microsoft-edge (<a href="https://www.microsoftedgeinsider.com/en-us/download?platform=linux-deb">https://www.microsoftedgeinsider.com/en-us/download?platform=linux-deb</a>).</p>
 <p>In case of problems, try Intel® Driver &amp; Support Assistant (Intel® DSA), <a href="https://www.intel.co.uk/content/www/uk/en/support/detect.html">https://www.intel.co.uk/content/www/uk/en/support/detect.html</a>.</p>
-<p>The flowblade GUI is available with <code>sudo apt-get install flowblade</code>.</p>
-<h3 id="xfce4-rdp">xfce4 &amp; rdp</h3>
-<p>xfce4 can also be made available with</p>
-<pre><code class="language-bash">sudo apt update
+<p>The flowblade GUI is available with <code>sudo apt-get install flowblade</code>. After installation, one can start with</p>
+<p>``bash
+export PYTHONPATH=/usr/share/flowblade/Flowblade:/usr/share/flowblade/Flowblade/vieweditor/:/usr/share/flowblade/Flowblade/tools
+export SHORTCUTS_PATH=/usr/share/flowblade/Flowblade/res
+/usr/bin/flowblade</p>
+<pre><code>
+to avoid error from `/bin/flowblade`, &lt;https://github.com/jliljebl/flowblade/issues/857&gt;.
+
+### xfce4 &amp; rdp
+
+xfce4 can also be made available with
+```bash
+sudo apt update
 sudo apt install xorg
 sudo apt install xfce4
 echo xfce4-session &gt; ~/.xsession
