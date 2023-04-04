@@ -377,7 +377,15 @@ Example applications include gedit, gimp, nautilus, vlc, x11-apps, microsoft-edg
 
 In case of problems, try Intel® Driver & Support Assistant (Intel® DSA), <https://www.intel.co.uk/content/www/uk/en/support/detect.html>.
 
-The flowblade GUI is available with `sudo apt-get install flowblade`.
+The flowblade GUI is available with `sudo apt-get install flowblade`. After installation, one can start with
+
+``bash
+export PYTHONPATH=/usr/share/flowblade/Flowblade:/usr/share/flowblade/Flowblade/vieweditor/:/usr/share/flowblade/Flowblade/tools
+export SHORTCUTS_PATH=/usr/share/flowblade/Flowblade/res
+/usr/bin/flowblade
+```
+
+to avoid error from `/bin/flowblade`, <https://github.com/jliljebl/flowblade/issues/857>.
 
 ### xfce4 & rdp
 
