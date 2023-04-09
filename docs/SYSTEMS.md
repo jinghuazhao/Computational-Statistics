@@ -377,6 +377,8 @@ Example applications include gedit, gimp, nautilus, vlc, x11-apps, microsoft-edg
 
 In case of problems, try Intel® Driver & Support Assistant (Intel® DSA), <https://www.intel.co.uk/content/www/uk/en/support/detect.html>.
 
+For octave, we can start with `octave --gui` and open scripts [julia.m](src/julia.m) and [juliatest.m](src/juliatest.m), select `run` and then `save and run` for figure [julia.tiff](src/julia.tiff).
+
 The flowblade GUI is available with `sudo apt-get install flowblade`. After installation, one can start with
 
 ```bash
