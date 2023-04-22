@@ -615,9 +615,9 @@ PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
 E.g.,
 
-* https://sites.google.com/site/jpopgen/wgsa/create-an-aws-account
-* https://sites.google.com/site/jpopgen/wgsa/launch-an-instance
-* https://sites.google.com/site/jpopgen/wgsa/terminate-an-instance
+* <https://sites.google.com/site/jpopgen/wgsa/create-an-aws-account>
+* <https://sites.google.com/site/jpopgen/wgsa/launch-an-instance>
+* <https://sites.google.com/site/jpopgen/wgsa/terminate-an-instance>
 
 ## modules
 
