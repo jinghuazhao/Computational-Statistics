@@ -274,6 +274,10 @@ When there is error message `VirtualBox Failed to open session for Virtual Machi
 
 VirtualBox 7.x.x is considerably easier to set up.
 
+## SystemRescue
+
+See <https://www.system-rescue.org/>
+
 ## Windows Hyper-V
 
 Web page: [https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
