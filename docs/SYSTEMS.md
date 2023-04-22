@@ -103,7 +103,7 @@ dpkg -x package.deb dir
 ```
 When a package URL is available, we can use wget, ar x, xz -d, tar xvf combination to do so.
 
-Its archive, http://archive.ubuntu.com/ubuntu/pool/universe, includes beagle, eigensoft, plink, plink-1.9, among others, which can be installed canonically with ```sudo apt install```.
+Its archive, <http://archive.ubuntu.com/ubuntu/pool/universe>, includes beagle, eigensoft, plink, plink-1.9, among others, which can be installed canonically with ```sudo apt install```.
 
 ```bash
 sudo apt-get install libcanberra-gtk3-module
@@ -185,12 +185,12 @@ To use VirtualBox under Windows 7, one needs to enable virtualisation within sec
 systeminfo
 ```
 
-A useful tip is from https://blog.csdn.net/xz360717118/article/details/67638548
+A useful tip is from <https://blog.csdn.net/xz360717118/article/details/67638548>
 ```
 Failed to instantiate CLSID_VirtualBox w/ IVirtualBox, but CLSID_VirtualBox w/ IUnknown works.
 2017年03月28日 16:50:30 一只猪儿虫 阅读数 17551 标签： virtualbox win7 更多
 个人分类： 服务器
-版权声明：本文为博主原创文章，未经博主允许不得转载。 https://blog.csdn.net/xz360717118/article/details/67638548
+版权声明：本文为博主原创文章，未经博主允许不得转载。 <https://blog.csdn.net/xz360717118/article/details/67638548>
 
 我是 win7 64位
 
@@ -543,7 +543,7 @@ Other installations include perl, R. Note that conda under Windows is in typical
 ```
 set path=%path%;D:/ProgramData/Anaconda2;D:/ProgramData/Anaconda2/Library/bin
 ```
-Miniconda is available from https://conda.io/miniconda.html. 
+Miniconda is available from <https://conda.io/miniconda.html>.
 
 Installation from scratch,
 ```bash
@@ -597,7 +597,7 @@ sudo apt-get install libreoffice
 
 ## Linuxbrew
 
-Follow http://linuxbrew.sh/ and possibly https://docs.brew.sh
+Follow <http://linuxbrew.sh/> and possibly <https://docs.brew.sh>
 ```bash
 sudo apt-get install build-essential
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
@@ -609,7 +609,7 @@ PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
 ## AWS
 
-http://aws.amazon.com/
+<http://aws.amazon.com/>
 
 [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws).
 
