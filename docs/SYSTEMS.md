@@ -178,6 +178,8 @@ Here is information on file sharing, <https://www.c-sharpcorner.com/article/how-
 
 ## Oracle VirtualBox
 
+### Windows 7
+
 To use VirtualBox under Windows 7, one needs to enable virtualisation within security section of BIOS setup. To find out system info, one can run
 ```
 systeminfo
@@ -214,6 +216,8 @@ and increasing the number of CPUs to 2-4, see [https://www.maketecheasier.com/fi
 However, our experiment showed that one can enable 3D Acceleration and two CPUs for installation but it is necessary to disable 3D Acceleration and 
 reset CPU to be one for a system with one CPU after installation. The system informatino can be obtained with `systeminfo` command as described above.
 
+### Fedora & shared folders
+
 The guest additions under Fedora 28 is furnished with
 ```bash
 sudo dnf update
@@ -233,14 +237,16 @@ sudo VBoxClient-all
 
 Another attempt is through VBoxMange, e.g., `VBoxManage.exe sharedfolder add "22.04" --name U --hostpath "U:\"`.
 
-For Fedora 31, see https://www.if-not-true-then-false.com/2010/install-virtualbox-guest-additions-on-fedora-centos-red-hat-rhel/.
+For Fedora 31, see <https://www.if-not-true-then-false.com/2010/install-virtualbox-guest-additions-on-fedora-centos-red-hat-rhel/>.
 
-See https://www.nakivo.com/blog/make-virtualbox-full-screen/ on full-screen size, in particular,
+See <https://www.nakivo.com/blog/make-virtualbox-full-screen/> on full-screen size, in particular,
 ```dos
 "\Program Files\Oracle\VirtualBox\VBoxManage" setextradata "32" VBoxInternal2/EfiGraphicsResolution 1920x1080 for virtual machine 32.
 ```
 
-Here are the steps, quoting http://www.netreliant.com/news/8/17/Compacting-VirtualBox-Disk-Images-Linux-Guests.html, for compressing large .vdi:
+### Compression
+
+Here are the steps, quoting <http://www.netreliant.com/news/8/17/Compacting-VirtualBox-Disk-Images-Linux-Guests.html>, for compressing large .vdi:
 ```bash
 # Linux
 dd if=/dev/zero of=zerofillfile bs=1M
@@ -250,17 +256,23 @@ path D:\Program Files\Oracle\VirtualBox
 VBoxManage modifyhd --compact "ubuntu18.04.vdi"
 ```
 
+### Further information
+
 CloneVDI is described in this thread, <https://forums.virtualbox.org/viewtopic.php?f=6&t=22422>.
+
+Moreover, <https://www.maketecheasier.com/shrink-your-virtualbox-vm/> and <http://bytefreaks.net/windows/reclaim-empty-space-from-virtualbox-vdi-disk-images-by-shrinking>.
 
 [vdi.md](https://github.com/jinghuazhao/GDCT/blob/master/vdi.md) as in GWAS-2017 and now listed in [GDCT](https://github.com/jinghuazhao/GDCT)
 
 Since one may allocate only part of RAM to VirtualBox, it is often necessary to run program under MS-DOS, e.g., sections on DEPICT.
 
-Additional note: 6.1.4 has problem with its Guess Additions. To enable copy/paste through clipboard one can use [VBoxGuestAdditions_6.1.97-136310.iso](https://www.virtualbox.org/download/testcase/VBoxGuestAdditions_6.1.97-136310.iso) as discused here, https://www.virtualbox.org/ticket/19336.
+Additional note: 6.1.4 has problem with its Guest Additions. To enable copy/paste through clipboard one can use [VBoxGuestAdditions_6.1.97-136310.iso](https://www.virtualbox.org/download/testcase/VBoxGuestAdditions_6.1.97-136310.iso) as discused here, https://www.virtualbox.org/ticket/19336.
 
 When VirtualBox failed to start a session, one can enter MS-DOS prompt as adminstrator, and issue command `bcdedit /set hypervisorlaunchtype off` and restart the computer.
 
 When there is error message `VirtualBox Failed to open session for Virtual Machine`, then right click the machine and `Discard Saved state`. Otherwise, uninstall VirtualBox and reinstall.
+
+VirtualBox 7.x.x is considerably easier to set up.
 
 ## Windows Hyper-V
 
