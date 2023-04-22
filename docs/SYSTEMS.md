@@ -190,7 +190,7 @@ A useful tip is from <https://blog.csdn.net/xz360717118/article/details/67638548
 Failed to instantiate CLSID_VirtualBox w/ IVirtualBox, but CLSID_VirtualBox w/ IUnknown works.
 2017年03月28日 16:50:30 一只猪儿虫 阅读数 17551 标签： virtualbox win7 更多
 个人分类： 服务器
-版权声明：本文为博主原创文章，未经博主允许不得转载。 <https://blog.csdn.net/xz360717118/article/details/67638548>
+版权声明：本文为博主原创文章，未经博主允许不得转载。 https://blog.csdn.net/xz360717118/article/details/67638548
 
 我是 win7 64位
 
