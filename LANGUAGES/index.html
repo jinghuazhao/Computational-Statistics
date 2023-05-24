@@ -379,6 +379,23 @@ export PATH=$PATH:$HOME/.local/bin
 export PYTHONPATH=/usr/local/Cluster-Apps/python/3.5.1/lib/python3.5/site-packages:$HOME/.local/lib/python3.5/site-packages
 python3 -m pip install jupyter-book --user
 </code></pre>
+<p>To convert from <code>parquet</code> to <code>csv</code> is done as follows,</p>
+<pre><code class="language-python">import pandas as pd
+import pyspark
+import pyarrow
+import sys
+import os
+
+fn = sys.argv[1]
+print(fn)
+
+df = pd.read_parquet(fn)
+
+outfn = &quot;&quot;.join(&quot;GTEx_Analysis_v8_EUR_eQTL_all_associations_csv/&quot; + os.path.splitext(os.path.basename(fn))[0] + &quot;.csv&quot;) 
+print(outfn)
+
+df.to_csv(outfn)
+</code></pre>
 <h2 id="r">R</h2>
 <p>Information on R and RStudio can be seen from installation section of this, <a href="https://jinghuazhao.github.io/Computational-Statistics/INSTALL/">https://jinghuazhao.github.io/Computational-Statistics/INSTALL/</a>.</p>
 <p>The use of multi-byte string needs specific handling, e.g.,</p>
