@@ -264,6 +264,26 @@ export PYTHONPATH=/usr/local/Cluster-Apps/python/3.5.1/lib/python3.5/site-packag
 python3 -m pip install jupyter-book --user
 ```
 
+To convert from `parquet` to `csv` is done as follows,
+
+```python
+import pandas as pd
+import pyspark
+import pyarrow
+import sys
+import os
+    
+fn = sys.argv[1]
+print(fn)
+
+df = pd.read_parquet(fn)
+
+outfn = "".join("GTEx_Analysis_v8_EUR_eQTL_all_associations_csv/" + os.path.splitext(os.path.basename(fn))[0] + ".csv") 
+print(outfn)
+
+df.to_csv(outfn)
+```
+
 ## R
 
 Information on R and RStudio can be seen from installation section of this, [https://jinghuazhao.github.io/Computational-Statistics/INSTALL/](https://jinghuazhao.github.io/Computational-Statistics/INSTALL/).
