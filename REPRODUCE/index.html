@@ -114,6 +114,16 @@
             </li>
               </ul>
             </li>
+            
+            <li class="nav-item" data-level="1"><a href="#label-fig-polar" class="nav-link">| label: fig-polar</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#fig-cap-a-line-plot-on-a-polar-axis" class="nav-link">| fig-cap: "A line plot on a polar axis"</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
@@ -154,24 +164,21 @@ py -m pip install matplotlib
 </code></pre>
 <p>Optionally, one install RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).</p>
 <p>Now we intend to render <code>matplotlib.qmd</code>,</p>
-<pre><code class="language-python">---
-title: &quot;matplotlib demo&quot;
+<blockquote>
+<hr />
+<p>title: "matplotlib demo"
 format:
   html:
     code-fold: true
-jupyter: python3
----
-
-For a demonstration of a line plot on a polar axis, see @fig-polar.
-
-```{python}
-#| label: fig-polar
-#| fig-cap: &quot;A line plot on a polar axis&quot;
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
+jupyter: python3</p>
+<hr />
+<p>For a demonstration of a line plot on a polar axis, see @fig-polar.</p>
+<p>```{python}</p>
+<h1 id="label-fig-polar">| label: fig-polar</h1>
+<h1 id="fig-cap-a-line-plot-on-a-polar-axis">| fig-cap: "A line plot on a polar axis"</h1>
+<p>import numpy as np
+import matplotlib.pyplot as plt</p>
+<p>r = np.arange(0, 2, 0.01)
 theta = 2 * np.pi * r
 fig, ax = plt.subplots(
   subplot_kw = {'projection': 'polar'} 
@@ -179,13 +186,10 @@ fig, ax = plt.subplots(
 ax.plot(theta, r)
 ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
-plt.show()
-</code></pre>
-<pre><code>
-which is done by
-
-```bash
-quarto render matplotlib.qmd
+plt.show()</p>
+</blockquote>
+<p>which is done by</p>
+<pre><code class="language-bash">quarto render matplotlib.qmd
 </code></pre>
 <blockquote>
 <p>Devezer B, Nardin LG, Baumgaertner B, Buzbas EO. Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity. PLoS One. 2019 May 15;14(5):e0216125. doi: 10.1371/journal.pone.0216125. eCollection 2019.</p>
