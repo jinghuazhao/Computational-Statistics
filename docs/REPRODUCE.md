@@ -41,6 +41,6 @@ py -m pip install numpy
 py -m pip install matplotlib
 quarto render matplotlib.qmd
 ```
-Optionally, one install RStudio or Visual Studio Code (code ctrl-+/- to enlarge/shrink fonts).
+Optionally, one install RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).
 
 > Devezer B, Nardin LG, Baumgaertner B, Buzbas EO. Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity. PLoS One. 2019 May 15;14(5):e0216125. doi: 10.1371/journal.pone.0216125. eCollection 2019.
