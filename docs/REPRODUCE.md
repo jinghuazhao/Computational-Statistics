@@ -32,15 +32,51 @@ Under Windows, however it is relatively simple involving these steps
 2. Install quarto, e.g., quato-1.3.450, from <https://quarto.org>
 3. Install python from <https://www.python.org/downloads/>
 
-```
+```bash
 # Program files\quarto\bin\tools
 deno upgrade
 py -m pip install tinytex
 py -m pip install jupyter
 py -m pip install numpy
 py -m pip install matplotlib
-quarto render matplotlib.qmd
 ```
 Optionally, one install RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).
+
+Now we intend to render `matplotlib.qmd`,
+
+```python
+---
+title: "matplotlib demo"
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+For a demonstration of a line plot on a polar axis, see @fig-polar.
+
+```{python}
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+which is done by
+
+```bash
+quarto render matplotlib.qmd
+```
 
 > Devezer B, Nardin LG, Baumgaertner B, Buzbas EO. Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity. PLoS One. 2019 May 15;14(5):e0216125. doi: 10.1371/journal.pone.0216125. eCollection 2019.
