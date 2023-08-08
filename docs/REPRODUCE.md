@@ -22,7 +22,7 @@ pdftk src.pdf dump_data output bookmarks.txt
 pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 ```
 
-## quanto
+## quarto
 
 This is extensively documented under Linxu, <https://cambridge-ceu.github.io/csd3/applications/quarto.html>.
 
