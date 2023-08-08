@@ -24,7 +24,7 @@ pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 
 ## quarto
 
-This is extensively documented under Linxu, <https://cambridge-ceu.github.io/csd3/applications/quarto.html>.
+This is extensively documented under Linux, <https://cambridge-ceu.github.io/csd3/applications/quarto.html>.
 
 Under Windows, however it is relatively simple involving these steps
 
