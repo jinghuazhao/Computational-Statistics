@@ -22,4 +22,25 @@ pdftk src.pdf dump_data output bookmarks.txt
 pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 ```
 
+## quanto
+
+This is extensively documented under Linxu, <https://cambridge-ceu.github.io/csd3/applications/quarto.html>.
+
+Under Windows, however it is relatively simple involving these steps
+
+1. Install R, e.g., R-4.3.1
+2. Install quarto, e.g., quato-1.3.450, from <https://quarto.org>
+3. Install python from <https://www.python.org/downloads/>
+
+```
+# Program files\quarto\bin\tools
+deno upgrade
+py -m pip install tinytex
+py -m pip install jupyter
+py -m pip install numpy
+py -m pip install matplotlib
+quarto render matplotlib.qmd
+```
+Optionally, one install RStudio or Visual Studio Code (code ctrl-+/- to enlarge/shrink fonts).
+
 > Devezer B, Nardin LG, Baumgaertner B, Buzbas EO. Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity. PLoS One. 2019 May 15;14(5):e0216125. doi: 10.1371/journal.pone.0216125. eCollection 2019.
