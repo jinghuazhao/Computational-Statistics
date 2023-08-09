@@ -51,8 +51,10 @@ format:
     code-fold: true
 jupyter: python3
 ---
-
+```
+```
 For a demonstration of a line plot on a polar axis, see @fig-polar.
+```
 
 ```{python}
 #| label: fig-polar
@@ -70,8 +72,6 @@ ax.plot(theta, r)
 ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
-```
-
 ```
 
 which is done by `quarto render matplotlib.qmd`.
