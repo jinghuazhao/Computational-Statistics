@@ -73,10 +73,6 @@ plt.show()
 ```
 ```
 
-which is done by
-
-```bash
-quarto render matplotlib.qmd
-```
+which is done by `quarto render matplotlib.qmd`.
 
 > Devezer B, Nardin LG, Baumgaertner B, Buzbas EO. Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity. PLoS One. 2019 May 15;14(5):e0216125. doi: 10.1371/journal.pone.0216125. eCollection 2019.
