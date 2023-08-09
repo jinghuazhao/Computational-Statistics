@@ -72,12 +72,8 @@ Now we intend to render `matplotlib.qmd` adapted from <https://quarto.org>,
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="in">ax.set_rticks([0.5, 1, 1.5, 2])</span></span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="in">ax.grid(True)</span></span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="in">plt.show()</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>You’ll note that there are some special comments at the top of the code block. These are cell level options that make the figure <a href='/docs/authoring/cross-references'>cross-referenceable</a>.</p>
-<p>This document would result in the following rendered output:</p>
-<p><img src="../../images/hello-jupyter.png" class="border img-fluid" alt="Example output where header reads: matplotlib demo, the body reads: For a demonstration of a line plot on a polar axis, see Figure 1. Below the body text is a toggleable field to reveal the code, and the Figure 1 image with a caption that reads: Figure 1: A line plot on a polar axis."></p>
-<p>You can produce a wide variety of output types from executable code blocks, including plots, tabular output from data frames, and plain text output (e.g.&nbsp;printing the results of statistical summaries).</p>
-<p>There are many options which control the behavior of code execution and output.</p>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<p>You’ll note that there are some special comments at the top of the code block.</p>
 </section>
 
 which is done by `quarto render matplotlib.qmd`.
