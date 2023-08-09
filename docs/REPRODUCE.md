@@ -52,8 +52,6 @@ format:
 jupyter: python3
 ---
 For a demonstration of a line plot on a polar axis, see @fig-polar.
-```
-```
 ```{python}
 #| label: fig-polar
 #| fig-cap: "A line plot on a polar axis"
