@@ -43,7 +43,7 @@ py -m pip install matplotlib
 Optionally, one install RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).
 
 Now we intend to render `matplotlib.qmd`,
-
+    > ```
     > ---
     > title: "matplotlib demo"
     > format:
@@ -70,6 +70,7 @@ Now we intend to render `matplotlib.qmd`,
     > ax.set_rticks([0.5, 1, 1.5, 2])
     > ax.grid(True)
     > plt.show()
+    > ```
     > ```
 
 which is done by
