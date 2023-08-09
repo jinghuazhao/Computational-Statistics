@@ -71,6 +71,7 @@ plt.show()
 ```
 ```
 ```
+```
 
 which is done by `quarto render matplotlib.qmd`.
 
