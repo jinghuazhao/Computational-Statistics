@@ -45,7 +45,6 @@ Optionally, one install RStudio or Visual Studio Code (Extension Quarto availabl
 Now we intend to render `matplotlib.qmd` adapted from <https://quarto.org>,
 
 <section id="matplotlib.qmd" class="level5">
-<h3 class="anchored" data-anchor-id="code-blocks">Code Blocks</h3>
 <p>It contains a code block that uses braces around the language name (e.g.&nbsp;<code>```{python}</code>) are executable, and will be run by Quarto during render. Here is a simple example:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "matplotlib demo"</span></span>
