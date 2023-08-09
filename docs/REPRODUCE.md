@@ -72,7 +72,6 @@ Now we intend to render `matplotlib.qmd` adapted from <https://quarto.org>, rend
 <span id="cb-26"><a href="#cb-26" aria-hidden="true" tabindex="-1"></a><span class="in">plt.show()</span></span>
 <span id="cb-27"><a href="#cb-27" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 </div>
-
 ## Reference
 
 Devezer B, Nardin LG, Baumgaertner B, Buzbas EO. Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity. *PLoS One*. 2019 May 15;14(5):e0216125. doi: 10.1371/journal.pone.0216125. eCollection 2019.
