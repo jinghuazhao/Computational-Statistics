@@ -42,11 +42,11 @@ py -m pip install matplotlib
 ```
 Optionally, one install RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).
 
-Now we intend to render `matplotlib.qmd`,
+Now we intend to render `matplotlib.qmd` adapted from <https://quarto.org>,
 
-<section id="code-blocks" class="level4">
+<section id="matplotlib.qmd" class="level5">
 <h3 class="anchored" data-anchor-id="code-blocks">Code Blocks</h3>
-<p>Code blocks that use braces around the language name (e.g.&nbsp;<code>```{python}</code>) are executable, and will be run by Quarto during render. Here is a simple example:</p>
+<p>It contains a code block that uses braces around the language name (e.g.&nbsp;<code>```{python}</code>) are executable, and will be run by Quarto during render. Here is a simple example:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "matplotlib demo"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
@@ -74,6 +74,11 @@ Now we intend to render `matplotlib.qmd`,
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="in">ax.grid(True)</span></span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="in">plt.show()</span></span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>You’ll note that there are some special comments at the top of the code block. These are cell level options that make the figure <a href='/docs/authoring/cross-references'>cross-referenceable</a>.</p>
+<p>This document would result in the following rendered output:</p>
+<p><img src="../../images/hello-jupyter.png" class="border img-fluid" alt="Example output where header reads: matplotlib demo, the body reads: For a demonstration of a line plot on a polar axis, see Figure 1. Below the body text is a toggleable field to reveal the code, and the Figure 1 image with a caption that reads: Figure 1: A line plot on a polar axis."></p>
+<p>You can produce a wide variety of output types from executable code blocks, including plots, tabular output from data frames, and plain text output (e.g.&nbsp;printing the results of statistical summaries).</p>
+<p>There are many options which control the behavior of code execution and output.</p>
 </section>
 
 which is done by `quarto render matplotlib.qmd`.
