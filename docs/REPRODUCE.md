@@ -43,34 +43,8 @@ py -m pip install matplotlib
 Optionally, one install RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).
 
 Now we intend to render `matplotlib.qmd`,
-```
----
-title: "matplotlib demo"
-format:
-  html:
-    code-fold: true
-jupyter: python3
----
-For a demonstration of a line plot on a polar axis, see @fig-polar.
-```{python}
-#| label: fig-polar
-#| fig-cap: "A line plot on a polar axis"
 
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'}
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-```
-<section id="code-blocks" class="level3">
+<section id="code-blocks" class="level4">
 <h3 class="anchored" data-anchor-id="code-blocks">Code Blocks</h3>
 <p>Code blocks that use braces around the language name (e.g.&nbsp;<code>```{python}</code>) are executable, and will be run by Quarto during render. Here is a simple example:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
