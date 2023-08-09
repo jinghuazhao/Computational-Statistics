@@ -42,35 +42,35 @@ py -m pip install matplotlib
 ```
 Optionally, one install RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).
 
-Now we intend to render `matplotlib.qmd` adapted from <https://quarto.org>, It contains a code block that uses braces around the language name (e.g.&nbsp;<code>```{python}</code>) are executable, and will be run by Quarto during render, i.e., `quarto render matplotlib.qmd`.
+Now we intend to render `matplotlib.qmd` adapted from <https://quarto.org>, rendered by `quarto render matplotlib.qmd`.
 
-<div class="sourceCode" id="cb"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "matplotlib demo"</span></span>
-<span id="cb1-3"><a href="#cb-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
-<span id="cb1-4"><a href="#cb-4" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
-<span id="cb1-5"><a href="#cb-5" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
-<span id="cb1-6"><a href="#cb-6" aria-hidden="true" tabindex="-1"></a><span class="an">jupyter:</span><span class="co"> python3</span></span>
-<span id="cb1-7"><a href="#cb-7" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-8"><a href="#cb-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb-9" aria-hidden="true" tabindex="-1"></a>For a demonstration of a line plot on a polar axis, see @fig-polar.</span>
-<span id="cb1-10"><a href="#cb-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb-11" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
-<span id="cb1-12"><a href="#cb-12" aria-hidden="true" tabindex="-1"></a><span class="in">#| label: fig-polar</span></span>
-<span id="cb1-13"><a href="#cb-13" aria-hidden="true" tabindex="-1"></a><span class="in">#| fig-cap: "A line plot on a polar axis"</span></span>
-<span id="cb1-14"><a href="#cb-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb-15" aria-hidden="true" tabindex="-1"></a><span class="in">import numpy as np</span></span>
-<span id="cb1-16"><a href="#cb-16" aria-hidden="true" tabindex="-1"></a><span class="in">import matplotlib.pyplot as plt</span></span>
-<span id="cb1-17"><a href="#cb-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb-18" aria-hidden="true" tabindex="-1"></a><span class="in">r = np.arange(0, 2, 0.01)</span></span>
-<span id="cb1-19"><a href="#cb-19" aria-hidden="true" tabindex="-1"></a><span class="in">theta = 2 * np.pi * r</span></span>
-<span id="cb1-20"><a href="#cb-20" aria-hidden="true" tabindex="-1"></a><span class="in">fig, ax = plt.subplots(</span></span>
-<span id="cb1-21"><a href="#cb-21" aria-hidden="true" tabindex="-1"></a><span class="in">  subplot_kw = {'projection': 'polar'} </span></span>
-<span id="cb1-22"><a href="#cb-22" aria-hidden="true" tabindex="-1"></a><span class="in">)</span></span>
-<span id="cb1-23"><a href="#cb-23" aria-hidden="true" tabindex="-1"></a><span class="in">ax.plot(theta, r)</span></span>
-<span id="cb1-24"><a href="#cb-24" aria-hidden="true" tabindex="-1"></a><span class="in">ax.set_rticks([0.5, 1, 1.5, 2])</span></span>
-<span id="cb1-25"><a href="#cb-25" aria-hidden="true" tabindex="-1"></a><span class="in">ax.grid(True)</span></span>
-<span id="cb1-26"><a href="#cb-26" aria-hidden="true" tabindex="-1"></a><span class="in">plt.show()</span></span>
-<span id="cb1-27"><a href="#cb-27" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<div class="sourceCode" id="cb"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb-1"><a href="#cb-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb-2"><a href="#cb-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "matplotlib demo"</span></span>
+<span id="cb-3"><a href="#cb-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb-4"><a href="#cb-4" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb-5"><a href="#cb-5" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
+<span id="cb-6"><a href="#cb-6" aria-hidden="true" tabindex="-1"></a><span class="an">jupyter:</span><span class="co"> python3</span></span>
+<span id="cb-7"><a href="#cb-7" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb-8"><a href="#cb-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb-9"><a href="#cb-9" aria-hidden="true" tabindex="-1"></a>For a demonstration of a line plot on a polar axis, see @fig-polar.</span>
+<span id="cb-10"><a href="#cb-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb-11"><a href="#cb-11" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb-12"><a href="#cb-12" aria-hidden="true" tabindex="-1"></a><span class="in">#| label: fig-polar</span></span>
+<span id="cb-13"><a href="#cb-13" aria-hidden="true" tabindex="-1"></a><span class="in">#| fig-cap: "A line plot on a polar axis"</span></span>
+<span id="cb-14"><a href="#cb-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb-15"><a href="#cb-15" aria-hidden="true" tabindex="-1"></a><span class="in">import numpy as np</span></span>
+<span id="cb-16"><a href="#cb-16" aria-hidden="true" tabindex="-1"></a><span class="in">import matplotlib.pyplot as plt</span></span>
+<span id="cb-17"><a href="#cb-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb-18"><a href="#cb-18" aria-hidden="true" tabindex="-1"></a><span class="in">r = np.arange(0, 2, 0.01)</span></span>
+<span id="cb-19"><a href="#cb-19" aria-hidden="true" tabindex="-1"></a><span class="in">theta = 2 * np.pi * r</span></span>
+<span id="cb-20"><a href="#cb-20" aria-hidden="true" tabindex="-1"></a><span class="in">fig, ax = plt.subplots(</span></span>
+<span id="cb-21"><a href="#cb-21" aria-hidden="true" tabindex="-1"></a><span class="in">  subplot_kw = {'projection': 'polar'} </span></span>
+<span id="cb-22"><a href="#cb-22" aria-hidden="true" tabindex="-1"></a><span class="in">)</span></span>
+<span id="cb-23"><a href="#cb-23" aria-hidden="true" tabindex="-1"></a><span class="in">ax.plot(theta, r)</span></span>
+<span id="cb-24"><a href="#cb-24" aria-hidden="true" tabindex="-1"></a><span class="in">ax.set_rticks([0.5, 1, 1.5, 2])</span></span>
+<span id="cb-25"><a href="#cb-25" aria-hidden="true" tabindex="-1"></a><span class="in">ax.grid(True)</span></span>
+<span id="cb-26"><a href="#cb-26" aria-hidden="true" tabindex="-1"></a><span class="in">plt.show()</span></span>
+<span id="cb-27"><a href="#cb-27" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 </div>
 
 ## Reference
