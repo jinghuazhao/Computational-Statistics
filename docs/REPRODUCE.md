@@ -73,7 +73,6 @@ Now we intend to render `matplotlib.qmd` adapted from <https://quarto.org>,
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="in">ax.grid(True)</span></span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="in">plt.show()</span></span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<p>You’ll note that there are some special comments at the top of the code block.</p>
 </section>
 
 which is done by `quarto render matplotlib.qmd`.
