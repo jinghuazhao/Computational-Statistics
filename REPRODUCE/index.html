@@ -112,20 +112,6 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#_1" class="nav-link">```</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#label-fig-polar" class="nav-link">| label: fig-polar</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#fig-cap-a-line-plot-on-a-polar-axis" class="nav-link">| fig-cap: "A line plot on a polar axis"</a>
-              <ul class="nav flex-column">
               </ul>
             </li>
         </ul>
@@ -168,31 +154,34 @@ py -m pip install matplotlib
 </code></pre>
 <p>Optionally, one install RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).</p>
 <p>Now we intend to render <code>matplotlib.qmd</code>,</p>
-<blockquote>
-<h2 id="_1">```</h2>
-<p>title: "matplotlib demo"
-format:
-  html:
-    code-fold: true
-jupyter: python3</p>
-<hr />
-<p>For a demonstration of a line plot on a polar axis, see @fig-polar.</p>
-<p>```{python}</p>
-<h1 id="label-fig-polar">| label: fig-polar</h1>
-<h1 id="fig-cap-a-line-plot-on-a-polar-axis">| fig-cap: "A line plot on a polar axis"</h1>
-<p>import numpy as np
-import matplotlib.pyplot as plt</p>
-<p>r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'}
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-<code></code></p>
-</blockquote>
+<pre><code>&gt; ---
+&gt; title: &quot;matplotlib demo&quot;
+&gt; format:
+&gt;   html:
+&gt;     code-fold: true
+&gt; jupyter: python3
+&gt; ---
+&gt; 
+&gt; For a demonstration of a line plot on a polar axis, see @fig-polar.
+&gt; 
+&gt; ```{python}
+&gt; #| label: fig-polar
+&gt; #| fig-cap: &quot;A line plot on a polar axis&quot;
+&gt; 
+&gt; import numpy as np
+&gt; import matplotlib.pyplot as plt
+&gt; 
+&gt; r = np.arange(0, 2, 0.01)
+&gt; theta = 2 * np.pi * r
+&gt; fig, ax = plt.subplots(
+&gt;   subplot_kw = {'projection': 'polar'}
+&gt; )
+&gt; ax.plot(theta, r)
+&gt; ax.set_rticks([0.5, 1, 1.5, 2])
+&gt; ax.grid(True)
+&gt; plt.show()
+&gt; ```
+</code></pre>
 <p>which is done by</p>
 <pre><code class="language-bash">quarto render matplotlib.qmd
 </code></pre>
