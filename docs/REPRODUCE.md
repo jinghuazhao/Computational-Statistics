@@ -34,12 +34,14 @@ Under Windows, however it is simpler which involves these steps
 
 2. Install python from <https://www.python.org/downloads/>
 
+    > ```
     > rem  Program files\quarto\bin\tools
     > deno upgrade
     > py -m pip install tinytex
     > py -m pip install jupyter
     > py -m pip install numpy
     > py -m pip install matplotlib
+    > ```
 
 3. Install quarto, e.g., quato-1.3.450, from <https://quarto.org>
 
