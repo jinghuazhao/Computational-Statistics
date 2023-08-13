@@ -29,18 +29,20 @@ This is extensively documented under Linux, <https://cambridge-ceu.github.io/csd
 Under Windows, however it is relatively simple involving these steps
 
 1. Install R, e.g., R-4.3.1
-2. Install quarto, e.g., quato-1.3.450, from <https://quarto.org>
-3. Install python from <https://www.python.org/downloads/>
+    Optionally, one install RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).
 
-```bash
-# Program files\quarto\bin\tools
-deno upgrade
-py -m pip install tinytex
-py -m pip install jupyter
-py -m pip install numpy
-py -m pip install matplotlib
-```
-Optionally, one install RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).
+2. Install python from <https://www.python.org/downloads/>
+
+    ```bash
+    # Program files\quarto\bin\tools
+    deno upgrade
+    py -m pip install tinytex
+    py -m pip install jupyter
+    py -m pip install numpy
+    py -m pip install matplotlib
+    ```
+
+3. Install quarto, e.g., quato-1.3.450, from <https://quarto.org>
 
 Now we intend to render `matplotlib.qmd` adapted from <https://quarto.org>, rendered by `quarto render matplotlib.qmd`.
 <div class="sourceCode" id="cb"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb-1"><a href="#cb-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
