@@ -145,14 +145,14 @@ pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 <p>This is extensively documented under Linux, <a href="https://cambridge-ceu.github.io/csd3/applications/quarto.html">https://cambridge-ceu.github.io/csd3/applications/quarto.html</a>.</p>
 <p>Under Windows, however it is simpler which involves these steps</p>
 <ol>
-<li>Install R, e.g., R-4.3.1</li>
-</ol>
+<li>
+<p>Install R, e.g., R-4.3.1</p>
 <blockquote>
 <p>Optionally, one installs RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).</p>
 </blockquote>
-<ol>
-<li>Install python from <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></li>
-</ol>
+</li>
+<li>
+<p>Install python from <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
 <blockquote>
 <p>rem  Program files\quarto\bin\tools
 deno upgrade
@@ -161,8 +161,10 @@ py -m pip install jupyter
 py -m pip install numpy
 py -m pip install matplotlib</p>
 </blockquote>
-<ol>
-<li>Install quarto, e.g., quato-1.3.450, from <a href="https://quarto.org">https://quarto.org</a></li>
+</li>
+<li>
+<p>Install quarto, e.g., quato-1.3.450, from <a href="https://quarto.org">https://quarto.org</a></p>
+</li>
 </ol>
 <p>Now we intend to render <code>matplotlib.qmd</code> adapted from <a href="https://quarto.org">https://quarto.org</a>, rendered by <code>quarto render matplotlib.qmd</code>.</p>
 <div class="sourceCode" id="cb"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb-1"><a href="#cb-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
