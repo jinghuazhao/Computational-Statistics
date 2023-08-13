@@ -30,18 +30,18 @@ Under Windows, however it is simpler which involves these steps
 
 1. Install R, e.g., R-4.3.1
 
-   Optionally, one installs RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).
+  Optionally, one installs RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).
 
 2. Install python from <https://www.python.org/downloads/>
 
-   ```dos
-   rem  Program files\quarto\bin\tools
-   deno upgrade
-   py -m pip install tinytex
-   py -m pip install jupyter
-   py -m pip install numpy
-   py -m pip install matplotlib
-   ```
+  ```dos
+  rem  Program files\quarto\bin\tools
+  deno upgrade
+  py -m pip install tinytex
+  py -m pip install jupyter
+  py -m pip install numpy
+  py -m pip install matplotlib
+  ```
 
 3. Install quarto, e.g., quato-1.3.450, from <https://quarto.org>
 
