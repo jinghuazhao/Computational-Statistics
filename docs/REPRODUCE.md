@@ -34,7 +34,7 @@ Under Windows, however it is relatively simple involving these steps
 
 2. Install python from <https://www.python.org/downloads/>
 
-    ```bash
+    ```dos
     # Program files\quarto\bin\tools
     deno upgrade
     py -m pip install tinytex
