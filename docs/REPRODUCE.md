@@ -29,6 +29,7 @@ This is extensively documented under Linux, <https://cambridge-ceu.github.io/csd
 Under Windows, however it is relatively simple involving these steps
 
 1. Install R, e.g., R-4.3.1
+
     Optionally, one install RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).
 
 2. Install python from <https://www.python.org/downloads/>
