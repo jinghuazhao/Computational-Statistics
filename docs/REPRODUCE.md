@@ -14,10 +14,9 @@ An attempt to model reproducibility is Conceptualizing Reproducibility Using Sim
 
 ## bookmarks for PDF
 
-This is for Ubuntu,
+To install for Ubuntu, `sudo snap install pdftk` and for Fedora, `sudo dnf install pdftk-java`.
 
 ```bash
-sudo snap install pdftk
 pdftk src.pdf dump_data output bookmarks.txt
 pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 ```
