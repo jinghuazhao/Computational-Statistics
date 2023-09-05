@@ -17,7 +17,7 @@ An attempt to model reproducibility is Conceptualizing Reproducibility Using Sim
 This is for Ubuntu,
 
 ```bash
-sudo apt install pdftk-java
+sudo snap install pdftk
 pdftk src.pdf dump_data output bookmarks.txt
 pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 ```
