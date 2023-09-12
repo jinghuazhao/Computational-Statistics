@@ -661,3 +661,14 @@ Usage example:
 ```bash
 sudo openvpn --config myconfig.vopn
 ```
+
+## Time Zone
+
+An example under Fedora,
+
+```bash
+timedatectl list_timezones
+timedatectl set-timezone Europe/London
+```
+
+which is useful to synchronise with files obtained from elsewhere.
