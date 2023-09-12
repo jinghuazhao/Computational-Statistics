@@ -168,6 +168,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#time-zone" class="nav-link">Time Zone</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -634,7 +638,13 @@ sudo rm -rf /var/lib/docker
 <p>See <a href="https://github.com/OpenVPN/openvpn-gui">https://github.com/OpenVPN/openvpn-gui</a>.</p>
 <p>Usage example:</p>
 <pre><code class="language-bash">sudo openvpn --config myconfig.vopn
-</code></pre></div>
+</code></pre>
+<h2 id="time-zone">Time Zone</h2>
+<p>An example under Fedora,</p>
+<pre><code class="language-bash">timedatectl list_timezones
+timedatectl set-timezone Europe/London
+</code></pre>
+<p>which is useful to synchronise with files obtained from elsewhere.</p></div>
             </div>
         </div>
 
