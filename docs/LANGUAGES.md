@@ -66,6 +66,83 @@ int main() {
 // pcretest -C
 ```
 
+The following is Timsort implementation,
+
+```c
+#include <stdio.h>
+
+#define MIN_RUN 32
+
+// 插入排序算法
+void insertionSort(int arr[], int left, int right) {
+    for (int i = left + 1; i <= right; i++) {
+        int key = arr[i];
+        int j = i - 1;
+        while (j >= left && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = key;
+    }
+}
+
+// 归并函数
+void merge(int arr[], int left, int mid, int right) {
+    int len1 = mid - left + 1;
+    int len2 = right - mid;
+    int L[len1], R[len2];
+
+    for (int i = 0; i < len1; i++)
+        L[i] = arr[left + i];
+    for (int j = 0; j < len2; j++)
+        R[j] = arr[mid + 1 + j];
+
+    int i = 0, j = 0, k = left;
+
+    while (i < len1 && j < len2) {
+        if (L[i] <= R[j])
+            arr[k++] = L[i++];
+        else
+            arr[k++] = R[j++];
+    }
+
+    while (i < len1)
+        arr[k++] = L[i++];
+    while (j < len2)
+        arr[k++] = R[j++];
+}
+
+// Timsort 算法
+void timSort(int arr[], int n) {
+    for (int i = 0; i < n; i += MIN_RUN)
+        insertionSort(arr, i, (i + MIN_RUN - 1) < n ? (i + MIN_RUN - 1)
+                      : (n - 1));
+
+    for (int size = MIN_RUN; size < n; size *= 2) {
+        for (int left = 0; left < n; left += 2 * size) {
+            int mid = left + size - 1;
+            int right = (left + 2 * size - 1) < (n - 1) ?
+              (left + 2 * size - 1) : (n - 1);
+            merge(arr, left, mid, right);
+        }
+    }
+}
+
+int main() {
+    int arr[] = {12, 11, 13, 5, 6, 7};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    printf("Original array: ");
+    for (int i = 0; i < n; i++)
+        printf("%d ", arr[i]);
+
+    timSort(arr, n);
+
+    printf("\nSorted array: ");
+    for (int i = 0; i < n; i++)
+        printf("%d ", arr[i]);
+    return 0;
+}
+```
 
 ## C++
 
