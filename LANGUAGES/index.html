@@ -224,6 +224,81 @@ int main() {
 // ./a.out
 // pcretest -C
 </code></pre>
+<p>The following is Timsort implementation,</p>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+
+#define MIN_RUN 32
+
+// 插入排序算法
+void insertionSort(int arr[], int left, int right) {
+    for (int i = left + 1; i &lt;= right; i++) {
+        int key = arr[i];
+        int j = i - 1;
+        while (j &gt;= left &amp;&amp; arr[j] &gt; key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = key;
+    }
+}
+
+// 归并函数
+void merge(int arr[], int left, int mid, int right) {
+    int len1 = mid - left + 1;
+    int len2 = right - mid;
+    int L[len1], R[len2];
+
+    for (int i = 0; i &lt; len1; i++)
+        L[i] = arr[left + i];
+    for (int j = 0; j &lt; len2; j++)
+        R[j] = arr[mid + 1 + j];
+
+    int i = 0, j = 0, k = left;
+
+    while (i &lt; len1 &amp;&amp; j &lt; len2) {
+        if (L[i] &lt;= R[j])
+            arr[k++] = L[i++];
+        else
+            arr[k++] = R[j++];
+    }
+
+    while (i &lt; len1)
+        arr[k++] = L[i++];
+    while (j &lt; len2)
+        arr[k++] = R[j++];
+}
+
+// Timsort 算法
+void timSort(int arr[], int n) {
+    for (int i = 0; i &lt; n; i += MIN_RUN)
+        insertionSort(arr, i, (i + MIN_RUN - 1) &lt; n ? (i + MIN_RUN - 1)
+                      : (n - 1));
+
+    for (int size = MIN_RUN; size &lt; n; size *= 2) {
+        for (int left = 0; left &lt; n; left += 2 * size) {
+            int mid = left + size - 1;
+            int right = (left + 2 * size - 1) &lt; (n - 1) ?
+              (left + 2 * size - 1) : (n - 1);
+            merge(arr, left, mid, right);
+        }
+    }
+}
+
+int main() {
+    int arr[] = {12, 11, 13, 5, 6, 7};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    printf(&quot;Original array: &quot;);
+    for (int i = 0; i &lt; n; i++)
+        printf(&quot;%d &quot;, arr[i]);
+
+    timSort(arr, n);
+
+    printf(&quot;\nSorted array: &quot;);
+    for (int i = 0; i &lt; n; i++)
+        printf(&quot;%d &quot;, arr[i]);
+    return 0;
+}
+</code></pre>
 <h2 id="c_1">C++</h2>
 <p>The use of Google Test is noted here,</p>
 <p>Web: <a href="https://github.com/google/googletest">https://github.com/google/googletest</a>.</p>
