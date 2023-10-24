@@ -144,6 +144,14 @@ int main() {
 }
 ```
 
+y `gcc timsort.c -o timsort` and `timsort` to get
+
+```
+Original array: 12 11 13 5 6 7
+Sorted array: 5 6 7 11 12 13 14:40
+```
+
+
 ## C++
 
 The use of Google Test is noted here,

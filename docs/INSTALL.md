@@ -3,6 +3,33 @@
 This section lists software which serve as backbone for a variety of projects including those in genetics.
 Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher.
 
+## Environment modules
+
+Web: <https://modules.readthedocs.io/en/latest/>
+
+It is preferable to allow for installation of multiple applications. The following scripts show how this is done under Ubunto.
+
+```bash
+wget http://archive.ubuntu.com/ubuntu/pool/universe/m/modules/modules_5.2.0.orig.tar.xz
+tar xf modules_5.2.0.orig.tar.xz
+cd modules-5.2.0
+sudo apt-get install tcl-dev tk-dev
+./configure
+make
+sudo make install
+ls /usr/local/Modules
+source /usr/local/Modules/init/bash
+sudo ln -s /usr/local/Modules/init/profile.sh /etc/profile.d/modules.sh
+sudo ln -s /usr/local/Modules/init/profile.csh /etc/profile.d/modules.csh
+echo -e "\n# For initiating Modules" | sudo tee -a /etc/bash.bashrc > /dev/null  # Append a line to the end of this file with no return message.
+echo ". /etc/profile.d/modules.sh" | sudo tee -a /etc/bash.bashrc > /dev/null
+less /usr/local/Modules/init/profile.sh
+module avail
+module list
+```
+
+According to <https://www.microbialsystems.cn/en/post/xubuntu_env_modules/>. Instances at work is shown here, <https://cambridge-ceu.github.io/csd3/systems/ceuadmin.html>.
+
 ## Armadillo
 
 It is available with
