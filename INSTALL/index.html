@@ -104,6 +104,10 @@
             
             <li class="nav-item" data-level="1"><a href="#installation-notes" class="nav-link">Installation notes</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#environment-modules" class="nav-link">Environment modules</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#armadillo" class="nav-link">Armadillo</a>
               <ul class="nav flex-column">
               </ul>
@@ -182,6 +186,27 @@
 <h1 id="installation-notes">Installation notes</h1>
 <p>This section lists software which serve as backbone for a variety of projects including those in genetics.
 Illustration is given for some under Ubutun except R-devel which is with Fedora whose C/C++ version is higher.</p>
+<h2 id="environment-modules">Environment modules</h2>
+<p>Web: <a href="https://modules.readthedocs.io/en/latest/">https://modules.readthedocs.io/en/latest/</a></p>
+<p>It is preferable to allow for installation of multiple applications. The following scripts show how this is done under Ubunto.</p>
+<pre><code class="language-bash">wget http://archive.ubuntu.com/ubuntu/pool/universe/m/modules/modules_5.2.0.orig.tar.xz
+tar xf modules_5.2.0.orig.tar.xz
+cd modules-5.2.0
+sudo apt-get install tcl-dev tk-dev
+./configure
+make
+sudo make install
+ls /usr/local/Modules
+source /usr/local/Modules/init/bash
+sudo ln -s /usr/local/Modules/init/profile.sh /etc/profile.d/modules.sh
+sudo ln -s /usr/local/Modules/init/profile.csh /etc/profile.d/modules.csh
+echo -e &quot;\n# For initiating Modules&quot; | sudo tee -a /etc/bash.bashrc &gt; /dev/null  # Append a line to the end of this file with no return message.
+echo &quot;. /etc/profile.d/modules.sh&quot; | sudo tee -a /etc/bash.bashrc &gt; /dev/null
+less /usr/local/Modules/init/profile.sh
+module avail
+module list
+</code></pre>
+<p>According to <a href="https://www.microbialsystems.cn/en/post/xubuntu_env_modules/">https://www.microbialsystems.cn/en/post/xubuntu_env_modules/</a>. Instances at work is shown here, <a href="https://cambridge-ceu.github.io/csd3/systems/ceuadmin.html">https://cambridge-ceu.github.io/csd3/systems/ceuadmin.html</a>.</p>
 <h2 id="armadillo">Armadillo</h2>
 <p>It is available with</p>
 <pre><code class="language-bash">sudo apt install libarmadillo-dev
