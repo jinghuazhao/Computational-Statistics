@@ -172,6 +172,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#web-linux-ssh-terminal" class="nav-link">Web-Linux ssh terminal</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -644,7 +648,32 @@ sudo rm -rf /var/lib/docker
 <pre><code class="language-bash">timedatectl list_timezones
 timedatectl set-timezone Europe/London
 </code></pre>
-<p>which is useful to synchronise with files obtained from elsewhere.</p></div>
+<p>which is useful to synchronise with files obtained from elsewhere.</p>
+<h2 id="web-linux-ssh-terminal">Web-Linux ssh terminal</h2>
+<h3 id="shellinabox">ShellinaBox</h3>
+<pre><code class="language-bash">sudo apt update
+sudo apt-get install shellinabox
+sudo systemctl enable shellinaboxd
+# restart/start/stop
+sudo service shellinabox restart
+sudo systemctl start shellinaboxd
+sudo systemctl restart shellinaboxd
+sudo systemctl stop shellinaboxd
+# alternatives which work
+sudo /etc/init.d/shellinabox start
+sudo /etc/init.d/shellinabox stop
+/etc/init.d/shellinabox status
+</code></pre>
+<p>so <code>firefox https://127.0.0.1:4200 &amp;</code> allows for login from firefox.</p>
+<h3 id="cpolar">cpolar</h3>
+<p>Web: <a href="https://www.cpolar.com">https://www.cpolar.com</a> (<a href="https://dashboard.cpolar.com/signup">https://dashboard.cpolar.com/signup</a>, <a href="https://dashboard.cpolar.com/login">https://dashboard.cpolar.com/login</a>, <a href="https://dashboard.cpolar.com/get-started">https://dashboard.cpolar.com/get-started</a>)</p>
+<pre><code class="language-bash">sudo apt install curl
+curl -L https://www.cpolar.com/static/downloads/install-release-cpolar.sh | sudo bash
+cpolar
+sudo systemctl enable cpolar
+sudo systemctl start cpolar
+firefox localhost:9200 &amp;
+</code></pre></div>
             </div>
         </div>
 
