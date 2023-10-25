@@ -672,3 +672,37 @@ timedatectl set-timezone Europe/London
 ```
 
 which is useful to synchronise with files obtained from elsewhere.
+
+## Web-Linux ssh terminal
+
+### ShellinaBox
+
+```bash
+sudo apt update
+sudo apt-get install shellinabox
+sudo systemctl enable shellinaboxd
+# restart/start/stop
+sudo service shellinabox restart
+sudo systemctl start shellinaboxd
+sudo systemctl restart shellinaboxd
+sudo systemctl stop shellinaboxd
+# alternatives which work
+sudo /etc/init.d/shellinabox start
+sudo /etc/init.d/shellinabox stop
+/etc/init.d/shellinabox status
+```
+
+so `firefox https://127.0.0.1:4200 &` allows for login from firefox.
+
+### cpolar
+
+Web: <https://www.cpolar.com> (<https://dashboard.cpolar.com/signup>, <https://dashboard.cpolar.com/login>, <https://dashboard.cpolar.com/get-started>)
+
+```bash
+sudo apt install curl
+curl -L https://www.cpolar.com/static/downloads/install-release-cpolar.sh | sudo bash
+cpolar
+sudo systemctl enable cpolar
+sudo systemctl start cpolar
+firefox localhost:9200 &
+```
