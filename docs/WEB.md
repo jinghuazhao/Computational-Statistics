@@ -19,6 +19,8 @@ wget --no-check-certificate https://omicscience.org/apps/pgwas/data/all.grch37.t
 
 To keep the original timestamp, use -S option.
 
+It could be the appropriate way to download directory from a GitHub repository, e.g., `git clone https://github.com/statgen/locuszoom.git` for `https://github.com/statgen/locuszoom/tree/develop/examples/data`.
+
 ## lftp
 
 This is a sophisticated file transfer program.
