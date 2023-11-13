@@ -136,7 +136,11 @@
 </ul>
 <p>An attempt to model reproducibility is Conceptualizing Reproducibility Using Simulations and Theory (<a href="https://github.com/gnardin/CRUST">CRUST</a>).</p>
 <h2 id="bookmarks-for-pdf">bookmarks for PDF</h2>
-<p>To install for Ubuntu, <code>sudo snap install pdftk</code> and for Fedora, <code>sudo dnf install pdftk-java</code>.</p>
+<p>To install for Ubuntu, </p>
+<pre><code class="language-bash">sudo snap install pdftk       # version 2.02-4, or
+sudo apt  install pdftk-java  # version 3.2.2-1
+</code></pre>
+<p>and for Fedora, <code>sudo dnf install pdftk-java</code>.</p>
 <pre><code class="language-bash">pdftk src.pdf dump_data output bookmarks.txt
 pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 </code></pre>
