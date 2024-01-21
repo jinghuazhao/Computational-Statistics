@@ -623,6 +623,32 @@ E.g.,
 
 It is a system that allows you to easily change between different versions of compilers and other software.
 
+Here explains how to set up globally,
+
+```bash
+# https://www.microbialsystems.cn/en/post/xubuntu_env_modules/
+
+wget http://archive.ubuntu.com/ubuntu/pool/universe/m/modules/modules_5.2.0.orig.tar.xz
+xz -d modules_5.2.0.orig.tar.xz
+tar xvf modules_5.2.0.orig.tar
+cd modules-5.2.0
+sudo apt-get install tcl-dev tk-dev
+./configure
+make
+sudo make install
+ls /usr/local/Modules
+source /usr/local/Modules/init/bash
+sudo ln -s /usr/local/Modules/init/profile.sh /etc/profile.d/modules.sh
+sudo ln -s /usr/local/Modules/init/profile.csh /etc/profile.d/modules.csh
+echo -e "\n# For initiating Modules" | sudo tee -a /etc/bash.bashrc > /dev/null  # Append a line to the end of this file with no return message.
+echo ". /etc/profile.d/modules.sh" | sudo tee -a /etc/bash.bashrc > /dev/null
+less /usr/local/Modules/init/profile.sh
+module avail
+module list
+```
+
+Modification can be seen, e.g.,
+
 ```bash
 function module ()
 {
