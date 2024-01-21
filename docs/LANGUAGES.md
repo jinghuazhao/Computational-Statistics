@@ -2,6 +2,28 @@
 
 This page collects information on Visual Studio Code, C, C++, Fortran, Java, Perl, python and R.
 
+## Ada
+
+Web: <https://www.adaic.org/>
+
+From `hello.adb`,
+
+```ada
+with Ada.Text_IO;
+
+procedure Hello is
+begin
+   Ada.Text_IO.Put_Line ("Hello, World!");
+end Hello;
+```
+
+We run
+
+```bash
+gnatmake hello
+hello
+```
+
 ## BASIC
 
 It is still possible to reflect the old language from here,
