@@ -255,14 +255,16 @@ v8 12.1.285.6
 typescript 5.3.3
 ```
 
-The mermaid diagram is illustrated with [mermaid.html](src/mermaid.html) using code available from here, https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js.
+The mermaid diagram is illustrated with [mermaid.html](src/mermaid.html) using code available from here, <https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js>.
 
 The call can be embedded in markdown document,
 
-> <script type="module">
->   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
->   mermaid.initialize({ startOnLoad: true });
-> </script>
+```
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+```
 
 The hello world example with plotly.js is https://plot.ly/javascript/getting-started/#hello-world-example and the 3D diagram is with [3d-scatter.html](src/3d-scatter.html) based on https://plot.ly/javascript/3d-scatter-plots/..
 
