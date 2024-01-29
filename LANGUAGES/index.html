@@ -366,7 +366,25 @@ so it is suggested to download directly from https://netbeans.org/downloads/. To
 <pre><code class="language-bash">sudo apt install cython
 </code></pre>
 <h2 id="javascript">JavaScript</h2>
+<p>A current JavaScript/TypeScript interpreter is deno, <a href="https://anaconda.org/conda-forge/deno/files">https://anaconda.org/conda-forge/deno/files</a>.</p>
+<pre><code class="language-bash">wget https://anaconda.org/conda-forge/deno/1.40.2/download/linux-64/deno-1.40.2-hfc7925d_0.conda -O deno.conda
+unzip deno.conda
+tar --use-compress-program=unzstd -xvf pkg-deno-1.40.2-hfc7925d_0.tar.zst
+deno --version
+</code></pre>
+<p>giving</p>
+<pre><code>deno 1.40.2 (release, x86_64-unknown-linux-gnu)
+v8 12.1.285.6
+typescript 5.3.3
+</code></pre>
 <p>The mermaid diagram is illustrated with <a href="../src/mermaid.html">mermaid.html</a> using code available from here, https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js.</p>
+<p>The call can be embedded in markdown document,</p>
+<blockquote>
+<p><script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script></p>
+</blockquote>
 <p>The hello world example with plotly.js is https://plot.ly/javascript/getting-started/#hello-world-example and the 3D diagram is with <a href="../src/3d-scatter.html">3d-scatter.html</a> based on https://plot.ly/javascript/3d-scatter-plots/..</p>
 <p>The base64 encode/decode is with <a href="https://www.base64encode.org/">https://www.base64encode.org/</a>/<a href="https://www.base64decode.org/">https://www.base64decode.org/</a>.</p>
 <h2 id="perl">Perl</h2>
