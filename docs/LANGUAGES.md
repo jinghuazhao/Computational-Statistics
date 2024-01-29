@@ -238,7 +238,33 @@ sudo apt install cython
 
 ## JavaScript
 
+A current JavaScript/TypeScript interpreter is deno, <https://anaconda.org/conda-forge/deno/files>.
+
+```bash
+wget https://anaconda.org/conda-forge/deno/1.40.2/download/linux-64/deno-1.40.2-hfc7925d_0.conda -O deno.conda
+unzip deno.conda
+tar --use-compress-program=unzstd -xvf pkg-deno-1.40.2-hfc7925d_0.tar.zst
+deno --version
+```
+
+giving
+
+```
+deno 1.40.2 (release, x86_64-unknown-linux-gnu)
+v8 12.1.285.6
+typescript 5.3.3
+```
+
 The mermaid diagram is illustrated with [mermaid.html](src/mermaid.html) using code available from here, https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js.
+
+The call can be embedded in markdown document,
+
+```
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+```
 
 The hello world example with plotly.js is https://plot.ly/javascript/getting-started/#hello-world-example and the 3D diagram is with [3d-scatter.html](src/3d-scatter.html) based on https://plot.ly/javascript/3d-scatter-plots/..
 
