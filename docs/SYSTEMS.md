@@ -256,6 +256,20 @@ path D:\Program Files\Oracle\VirtualBox
 VBoxManage modifyhd --compact "ubuntu18.04.vdi"
 ```
 
+## OVA file
+
+This is useful, e.g., [Windows 11 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/).
+
+Import the OVA file into Oracle VirtualBox:
+
+- Open Oracle VirtualBox.
+- Select FileImport Appliance.
+- Click Folder to browse to the directory where the OVA file was downloaded.
+- Select the Okta Access Gateway OVA file, and then click Open.
+- Click Next.
+
+See <https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.htm>.
+
 ### Further information
 
 CloneVDI is described in this thread, <https://forums.virtualbox.org/viewtopic.php?f=6&t=22422>.
