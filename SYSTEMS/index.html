@@ -117,6 +117,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#ova-file" class="nav-link">OVA file</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#systemrescue" class="nav-link">SystemRescue</a>
               <ul class="nav flex-column">
               </ul>
@@ -366,6 +370,17 @@ rem Windows
 path D:\Program Files\Oracle\VirtualBox
 VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 </code></pre>
+<h2 id="ova-file">OVA file</h2>
+<p>This is useful, e.g., <a href="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/">Windows 11 development environment</a>.</p>
+<p>Import the OVA file into Oracle VirtualBox:</p>
+<ul>
+<li>Open Oracle VirtualBox.</li>
+<li>Select FileImport Appliance.</li>
+<li>Click Folder to browse to the directory where the OVA file was downloaded.</li>
+<li>Select the Okta Access Gateway OVA file, and then click Open.</li>
+<li>Click Next.</li>
+</ul>
+<p>See <a href="https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.htm">https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.htm</a>.</p>
 <h3 id="further-information">Further information</h3>
 <p>CloneVDI is described in this thread, <a href="https://forums.virtualbox.org/viewtopic.php?f=6&amp;t=22422">https://forums.virtualbox.org/viewtopic.php?f=6&amp;t=22422</a>.</p>
 <p>Moreover, <a href="https://www.maketecheasier.com/shrink-your-virtualbox-vm/">https://www.maketecheasier.com/shrink-your-virtualbox-vm/</a> and <a href="http://bytefreaks.net/windows/reclaim-empty-space-from-virtualbox-vdi-disk-images-by-shrinking">http://bytefreaks.net/windows/reclaim-empty-space-from-virtualbox-vdi-disk-images-by-shrinking</a>.</p>
