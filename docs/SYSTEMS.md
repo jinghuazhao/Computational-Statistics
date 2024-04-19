@@ -746,3 +746,7 @@ sudo systemctl enable cpolar
 sudo systemctl start cpolar
 firefox localhost:9200 &
 ```
+
+## Featured articles
+
+Don't like your Linux desktop? Here's how to install an alternative, <https://www.zdnet.com/article/dont-like-your-linux-desktop-heres-how-to-install-an-alternative/>.
