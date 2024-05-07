@@ -1,5 +1,7 @@
 # Parallel computing
 
+Recent notes are available from <https://cambridge-ceu.github.io/csd3/systems/ParallelComputing.html>.
+
 ## GNU parallel
 
 It has home <https://www.gnu.org/software/parallel/> -- note especially with its --env to pass environment variables.
