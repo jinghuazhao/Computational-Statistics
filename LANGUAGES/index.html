@@ -573,6 +573,247 @@ shinyApp(ui, server)
 rsconnect::deployApp('path/to/your/app')
 </code></pre>
 <p>The shiny page is then up as <code>https://your-account.shinyapps.io/shinyapps/</code>.</p>
+<p>A more sophisticated Dashboard using the <code>Gapminer</code> dataset is copied here from R-bloggers.</p>
+<pre><code class="language-R">library(shiny)
+library(dplyr)
+library(purrr)
+library(gapminder)
+library(highcharter)
+
+ui &lt;- fluidPage(
+  tags$head(
+    tags$link(rel = &quot;stylesheet&quot;, type = &quot;text/css&quot;, href = &quot;styles.css&quot;)
+  ),
+  sidebarLayout(
+    sidebarPanel(
+      titlePanel(&quot;R Shiny Highcharts&quot;),
+      selectInput(
+        inputId = &quot;inContinent&quot;,
+        label = &quot;Continent:&quot;,
+        choices = unique(gapminder$continent),
+        selected = &quot;Europe&quot;
+      ),
+      selectInput(
+        inputId = &quot;inYearMin&quot;,
+        label = &quot;Start year:&quot;,
+        choices = unique(gapminder$year)[1:length(unique(gapminder$year)) - 1],
+        selected = min(gapminder$year)
+      ),
+      selectInput(
+        inputId = &quot;inYearMax&quot;,
+        label = &quot;End year:&quot;,
+        choices = unique(gapminder$year)[2:length(unique(gapminder$year))],
+        selected = max(gapminder$year)
+      ),
+      width = 3
+    ),
+    mainPanel(
+      tags$h3(&quot;Latest stats:&quot;),
+      tags$div(
+        tags$div(
+          tags$p(&quot;# Countries:&quot;),
+          textOutput(outputId = &quot;outNCountries&quot;)
+        ) %&gt;% tagAppendAttributes(class = &quot;stat-card&quot;),
+        tags$div(
+          tags$p(&quot;Median life exp:&quot;),
+          textOutput(outputId = &quot;outMedLifeExp&quot;)
+        ) %&gt;% tagAppendAttributes(class = &quot;stat-card&quot;),
+        tags$div(
+          tags$p(&quot;Median population:&quot;),
+          textOutput(outputId = &quot;outMedPop&quot;)
+        ) %&gt;% tagAppendAttributes(class = &quot;stat-card&quot;),
+        tags$div(
+          tags$p(&quot;Median GDP:&quot;),
+          textOutput(outputId = &quot;outMedGDP&quot;)
+        ) %&gt;% tagAppendAttributes(class = &quot;stat-card&quot;)
+      ) %&gt;% tagAppendAttributes(class = &quot;stat-card-container&quot;),
+      tags$div(
+        tags$h3(&quot;Summary stats:&quot;),
+        tags$div(
+          tags$div(
+            highchartOutput(outputId = &quot;chartLifeExpByYear&quot;, height = 500)
+          ) %&gt;% tagAppendAttributes(class = &quot;chart-card&quot;),
+          tags$div(
+            highchartOutput(outputId = &quot;chartGDPByYear&quot;, height = 500)
+          ) %&gt;% tagAppendAttributes(class = &quot;chart-card&quot;),
+        ) %&gt;% tagAppendAttributes(class = &quot;base-charts-container&quot;)
+      ) %&gt;% tagAppendAttributes(class = &quot;card-container&quot;),
+      tags$div(
+        tags$h3(&quot;Drilldown:&quot;),
+        tags$div(
+          highchartOutput(outputId = &quot;chartDrilldown&quot;, height = 500)
+        ) %&gt;% tagAppendAttributes(class = &quot;chart-card chart-card-full&quot;)
+      ) %&gt;% tagAppendAttributes(class = &quot;card-container&quot;),
+      width = 9
+    ) %&gt;% tagAppendAttributes(class = &quot;main-container&quot;)
+  )
+)
+
+server &lt;- function(input, output) {
+  data_cards &lt;- reactive({
+    gapminder %&gt;%
+      filter(
+        continent == input$inContinent,
+        year == max(year)
+      ) %&gt;%
+      summarise(
+        nCountries = n_distinct(country),
+        medianLifeExp = median(lifeExp),
+        medianPopM = median(pop / 1e6),
+        medianGDP = median(gdpPercap)
+      )
+  })
+
+  data_charts &lt;- reactive({
+    gapminder %&gt;%
+      filter(
+        continent == input$inContinent,
+        between(year, as.integer(input$inYearMin), as.integer(input$inYearMax))
+      ) %&gt;%
+      group_by(year) %&gt;%
+      summarise(
+        medianLifeExp = round(median(lifeExp), 1),
+        medianGDP = round(median(gdpPercap), 2)
+      )
+  })
+
+  drilldown_chart_base_data &lt;- reactive({
+    gapminder %&gt;%
+      filter(
+        continent == input$inContinent,
+        year == max(year)
+      ) %&gt;%
+      group_by(country) %&gt;%
+      summarise(
+        pop = round(pop, 1)
+      ) %&gt;%
+      arrange(desc(pop))
+  })
+
+  drilldown_chart_drilldown_data &lt;- reactive({
+    gapminder %&gt;%
+      filter(
+        continent == input$inContinent,
+        between(year, as.integer(input$inYearMin), as.integer(input$inYearMax))
+      ) %&gt;%
+      group_nest(country) %&gt;%
+      mutate(
+        id = country,
+        type = &quot;column&quot;,
+        data = map(data, mutate, name = year, y = pop),
+        data = map(data, list_parse)
+      )
+  })
+
+
+  output$outNCountries &lt;- renderText({
+    data_cards()$nCountries
+  })
+  output$outMedLifeExp &lt;- renderText({
+    paste(round(data_cards()$medianLifeExp, 1), &quot;years&quot;)
+  })
+  output$outMedPop &lt;- renderText({
+    paste0(round(data_cards()$medianPopM, 2), &quot;M&quot;)
+  })
+  output$outMedGDP &lt;- renderText({
+    paste0(&quot;$&quot;, round(data_cards()$medianGDP, 2))
+  })
+
+  output$chartLifeExpByYear &lt;- renderHighchart({
+    hchart(data_charts(), &quot;column&quot;, hcaes(x = year, y = medianLifeExp), color = &quot;#0198f9&quot;, name = &quot;Median life expectancy&quot;) |&gt;
+      hc_title(text = &quot;Median life expectancy by year&quot;, align = &quot;left&quot;) |&gt;
+      hc_xAxis(title = list(text = &quot;Year&quot;)) |&gt;
+      hc_yAxis(title = list(text = &quot;Life expectancy&quot;))
+  })
+
+  output$chartGDPByYear &lt;- renderHighchart({
+    hchart(data_charts(), &quot;line&quot;, hcaes(x = year, y = medianGDP), color = &quot;#800000&quot;, name = &quot;Median GDP&quot;) |&gt;
+      hc_title(text = &quot;Median GDP by year&quot;, align = &quot;left&quot;) |&gt;
+      hc_xAxis(title = list(text = &quot;Year&quot;)) |&gt;
+      hc_yAxis(title = list(text = &quot;GDP&quot;))
+  })
+
+  output$chartDrilldown &lt;- renderHighchart({
+    hchart(
+      drilldown_chart_base_data(),
+      &quot;column&quot;,
+      hcaes(x = country, y = pop, drilldown = country),
+      name = &quot;Population&quot;
+    ) %&gt;%
+      hc_drilldown(
+        allowPointDrilldown = TRUE,
+        series = list_parse(drilldown_chart_drilldown_data())
+      ) |&gt;
+      hc_colors(c(&quot;#004c5f&quot;)) |&gt;
+      hc_title(text = &quot;Population report&quot;, align = &quot;left&quot;) |&gt;
+      hc_xAxis(title = list(text = &quot;&quot;)) |&gt;
+      hc_yAxis(title = list(text = &quot;Population&quot;))
+  })
+}
+
+shinyApp(ui = ui, server = server)
+</code></pre>
+<p>and the <code>www/styles.css</code> is here,</p>
+<pre><code class="language-css">www/styles.css
+@import url('https:/s.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&amp;display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -family: 'Poppins', sans-serif;
+  -weight: 400;
+}
+
+.main-container {
+  padding-top: 1rem;
+}
+
+.stat-card-container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1rem;
+}
+
+.stat-card {
+  border: 2px solid #f2f2f2;
+  border-bottom: 2px solid #0198f9;
+  width: 100%;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+.stat-card &gt; p {
+  text-transform: uppercase;
+  color: #808080;
+}
+
+.stat-card &gt; div.shiny-text-output {
+  -size: 3rem;
+  -weight: 700;
+}
+
+.card-container {
+  padding-top: 2rem;
+}
+
+.base-charts-container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1rem;
+}
+
+.chart-card {
+  border: 2px solid #f2f2f2;
+  width: 50%;
+}
+
+.chart-card-full {
+  width: 100%;
+}
+</code></pre>
 <h2 id="texlatex">TeX/LaTeX</h2>
 <p>It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
 <code>pandoc README.md -o README.docx</code>.</p>
