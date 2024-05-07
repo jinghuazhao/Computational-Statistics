@@ -2,24 +2,24 @@
 
 ## GNU parallel
 
-It has home https://www.gnu.org/software/parallel/ -- note especially with its --env to pass environment variables.
+It has home <https://www.gnu.org/software/parallel/> -- note especially with its --env to pass environment variables.
 
 Under Ubuntu, GNU parallel is easily installed as follows,
 ```{bash}
 sudo apt install parallel
 ```
-Earlier version had issues with temporary direvtory, e.g., https://stackoverflow.com/questions/24398941/gnu-parallel-unlink-error
+Earlier version had issues with temporary direvtory, e.g., <https://stackoverflow.com/questions/24398941/gnu-parallel-unlink-error>
 if 
 ```bash
 module load parallel/20131222
 ```
-The latest, http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2, can be used instead.
+The latest, <http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2>, can be used instead.
 
 ## SGE
 
 Sun Grid Engine has a [wiki entry](https://en.wikipedia.org/wiki/Oracle_Grid_Engine).
 
-https://peteris.rocks/blog/sun-grid-engine-installation-on-ubuntu-server/.
+<https://peteris.rocks/blog/sun-grid-engine-installation-on-ubuntu-server/>.
 
 To delete SGE jobs shown in qstat, use 
 ```bash
@@ -34,9 +34,9 @@ Under Ubuntu, it can be installed with
 sudo apt install slurm-client
 ```
 
-General information is available from https://slurm.schedmd.com/.
+General information is available from <https://slurm.schedmd.com/>.
 
-Job scheduling examples on CentOS 6 and RHEL 7, https://www.arc.ox.ac.uk/arc-systems-0.
+Job scheduling examples on CentOS 6 and RHEL 7, <https://www.arc.ox.ac.uk/arc-systems-0>.
 
 command | description
 --------|-------------
@@ -56,10 +56,10 @@ To see environmental variables, e.g., MaxArraySize, we use
 scontrol show config | sed -n '/^MaxArraySize/s/.*= *//p'
 ```
 
-* job array, https://slurm.schedmd.com/job_array.html
-* dependency, https://hpc.nih.gov/docs/job_dependencies.html
-* examples, https://github.com/statgen/SLURM-examples
-* temporary directories, https://help.rc.ufl.edu/doc/Temporary_Directories
+* job array, <https://slurm.schedmd.com/job_array.html>
+* dependency, <https://hpc.nih.gov/docs/job_dependencies.html>
+* examples, >https://github.com/statgen/SLURM-examples>
+* temporary directories, <https://help.rc.ufl.edu/doc/Temporary_Directories>
 
 > When a SLURM job starts, the scheduler creates a temporary directory for the job on the compute node's local hard drive. This $SLURM_TMPDIR directory is very useful for jobs that need to use or generate a large number of small files, as the /ufrc parallel filesystem is optimized for large file streaming and is less suitable for small files.
 
@@ -79,7 +79,7 @@ so that the earliest available partition will be used.
 
 ## SGE to SLURM
 
-Conversion is documented at https://srcc.stanford.edu/sge-slurm-conversion.
+Conversion is documented at <https://srcc.stanford.edu/sge-slurm-conversion>.
 
 ## EXAMPLES
 
@@ -133,4 +133,4 @@ Note also that the option `--array=1-50` instructs the system to schedule jobs a
 
 echo "ls -l" | at 01:00
 
-crontab.guru, https://crontab.guru/examples.html
+crontab.guru, <https://crontab.guru/examples.html>
