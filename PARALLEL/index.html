@@ -134,18 +134,18 @@
 
 <h1 id="parallel-computing">Parallel computing</h1>
 <h2 id="gnu-parallel">GNU parallel</h2>
-<p>It has home https://www.gnu.org/software/parallel/ -- note especially with its --env to pass environment variables.</p>
+<p>It has home <a href="https://www.gnu.org/software/parallel/">https://www.gnu.org/software/parallel/</a> -- note especially with its --env to pass environment variables.</p>
 <p>Under Ubuntu, GNU parallel is easily installed as follows,</p>
 <pre><code>sudo apt install parallel
 </code></pre>
-<p>Earlier version had issues with temporary direvtory, e.g., https://stackoverflow.com/questions/24398941/gnu-parallel-unlink-error
+<p>Earlier version had issues with temporary direvtory, e.g., <a href="https://stackoverflow.com/questions/24398941/gnu-parallel-unlink-error">https://stackoverflow.com/questions/24398941/gnu-parallel-unlink-error</a>
 if </p>
 <pre><code class="language-bash">module load parallel/20131222
 </code></pre>
-<p>The latest, http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2, can be used instead.</p>
+<p>The latest, <a href="http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2">http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2</a>, can be used instead.</p>
 <h2 id="sge">SGE</h2>
 <p>Sun Grid Engine has a <a href="https://en.wikipedia.org/wiki/Oracle_Grid_Engine">wiki entry</a>.</p>
-<p>https://peteris.rocks/blog/sun-grid-engine-installation-on-ubuntu-server/.</p>
+<p><a href="https://peteris.rocks/blog/sun-grid-engine-installation-on-ubuntu-server/">https://peteris.rocks/blog/sun-grid-engine-installation-on-ubuntu-server/</a>.</p>
 <p>To delete SGE jobs shown in qstat, use </p>
 <pre><code class="language-bash">qstat | grep $USER | cut -d&quot; &quot; -f1 | xargs qdel
 </code></pre>
@@ -154,8 +154,8 @@ if </p>
 <p>Under Ubuntu, it can be installed with</p>
 <pre><code class="language-bash">sudo apt install slurm-client
 </code></pre>
-<p>General information is available from https://slurm.schedmd.com/.</p>
-<p>Job scheduling examples on CentOS 6 and RHEL 7, https://www.arc.ox.ac.uk/arc-systems-0.</p>
+<p>General information is available from <a href="https://slurm.schedmd.com/">https://slurm.schedmd.com/</a>.</p>
+<p>Job scheduling examples on CentOS 6 and RHEL 7, <a href="https://www.arc.ox.ac.uk/arc-systems-0">https://www.arc.ox.ac.uk/arc-systems-0</a>.</p>
 <table>
 <thead>
 <tr>
@@ -203,10 +203,10 @@ if </p>
 <pre><code class="language-bash">scontrol show config | sed -n '/^MaxArraySize/s/.*= *//p'
 </code></pre>
 <ul>
-<li>job array, https://slurm.schedmd.com/job_array.html</li>
-<li>dependency, https://hpc.nih.gov/docs/job_dependencies.html</li>
-<li>examples, https://github.com/statgen/SLURM-examples</li>
-<li>temporary directories, https://help.rc.ufl.edu/doc/Temporary_Directories</li>
+<li>job array, <a href="https://slurm.schedmd.com/job_array.html">https://slurm.schedmd.com/job_array.html</a></li>
+<li>dependency, <a href="https://hpc.nih.gov/docs/job_dependencies.html">https://hpc.nih.gov/docs/job_dependencies.html</a></li>
+<li>examples, &gt;https://github.com/statgen/SLURM-examples&gt;</li>
+<li>temporary directories, <a href="https://help.rc.ufl.edu/doc/Temporary_Directories">https://help.rc.ufl.edu/doc/Temporary_Directories</a></li>
 </ul>
 <blockquote>
 <p>When a SLURM job starts, the scheduler creates a temporary directory for the job on the compute node's local hard drive. This $SLURM_TMPDIR directory is very useful for jobs that need to use or generate a large number of small files, as the /ufrc parallel filesystem is optimized for large file streaming and is less suitable for small files.</p>
@@ -220,7 +220,7 @@ if </p>
 </code></pre>
 <p>so that the earliest available partition will be used.</p>
 <h2 id="sge-to-slurm">SGE to SLURM</h2>
-<p>Conversion is documented at https://srcc.stanford.edu/sge-slurm-conversion.</p>
+<p>Conversion is documented at <a href="https://srcc.stanford.edu/sge-slurm-conversion">https://srcc.stanford.edu/sge-slurm-conversion</a>.</p>
 <h2 id="examples">EXAMPLES</h2>
 <p>We intended to convert a large number of PDF files (INTERVAL.*.manhattn.pdf) to PNG with smaller file sizes. To start, we build a file list,</p>
 <pre><code class="language-bash">ls *pdf | \
@@ -264,7 +264,7 @@ mv ${p}-000001.png INTERVAL.${p}.png
 <p>Note also that the option <code>--array=1-50</code> instructs the system to schedule jobs and in jobs with large memory usage it is more preferable to change to <code>--array 1-50%4</code> so that a maximum of four jobs will be run simultaneously.</p>
 <h2 id="job-scheduling">Job scheduling</h2>
 <p>echo "ls -l" | at 01:00</p>
-<p>crontab.guru, https://crontab.guru/examples.html</p></div>
+<p>crontab.guru, <a href="https://crontab.guru/examples.html">https://crontab.guru/examples.html</a></p></div>
             </div>
         </div>
 
