@@ -194,6 +194,19 @@ bye;
 END
 </code></pre>
 <p>Note to put files is possible with -R option.</p>
+<p>There might be issue with certificate which can be around (though not recommented!), as in the example involving <code>tandem</code> (<a href="https://www.thegpm.org/TANDEM/">https://www.thegpm.org/TANDEM/</a>),</p>
+<pre><code class="language-bash"># FTP server details
+HOST=&quot;ftp.thegpm.org&quot;
+USER=&quot;anonymous&quot;
+PASS=&quot;s@cam.ac.uk&quot;
+FTPURL=&quot;ftp://${USER}:${PASS}@${HOST}&quot;
+
+# Local and remote directories
+LCD=&quot;.&quot;
+RCD=&quot;/&quot;
+
+lftp -u &quot;$USER&quot;,&quot;$PASS&quot; -e 'set ftp:ssl-allow no; lcd &quot;$LCD&quot;; cd &quot;$RCD&quot;; mirror --parallel=15 --log=ftp.log --verbose; bye' $HOST
+</code></pre>
 <h3 id="-sftp-">--- sftp ---</h3>
 <pre><code class="language-bash">export HOST=
 export USER=
