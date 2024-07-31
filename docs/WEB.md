@@ -66,6 +66,22 @@ END
 
 Note to put files is possible with -R option.
 
+There might be issue with certificate which can be around (though not recommented!), as in the example involving `tandem` (<https://www.thegpm.org/TANDEM/>),
+
+```bash
+# FTP server details
+HOST="ftp.thegpm.org"
+USER="anonymous"
+PASS="s@cam.ac.uk"
+FTPURL="ftp://${USER}:${PASS}@${HOST}"
+
+# Local and remote directories
+LCD="."
+RCD="/"
+
+lftp -u "$USER","$PASS" -e 'set ftp:ssl-allow no; lcd "$LCD"; cd "$RCD"; mirror --parallel=15 --log=ftp.log --verbose; bye' $HOST
+```
+
 ### --- sftp ---
 
 ```bash
