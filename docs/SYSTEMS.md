@@ -276,6 +276,16 @@ From the official ISO location, <https://aka.ms/DownloadWindows11>, select  "Dow
 
 See also <https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/>.
 
+Verification information is here, <https://www.microsoft.com/en-us/software-download/windows11>, e.g., from Windows PowerShell,
+
+```
+Get-FileHash D:\Downloads\Win11_23H2_EnglishInternational_x64v2.iso
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          705AC061688FFD7F5721DA844D01DF85433856EAFAA8441ECE94B270685CA2DB       D:\Downloads\Win11_23H2_EnglishInternational_x64v2.iso
+```
+
 ### Further information
 
 CloneVDI is described in this thread, <https://forums.virtualbox.org/viewtopic.php?f=6&t=22422>.
