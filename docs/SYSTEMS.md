@@ -270,6 +270,12 @@ Import the OVA file into Oracle VirtualBox:
 
 See <https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.htm>.
 
+## Windows 11
+
+From the official ISO location, <https://aka.ms/DownloadWindows11>, select  "Download Windows 11 Disk Image (ISO) for x64 devices."  "Download Windows 11 Disk Image (ISO) for x64 devices.".
+
+See also <https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/>.
+
 ### Further information
 
 CloneVDI is described in this thread, <https://forums.virtualbox.org/viewtopic.php?f=6&t=22422>.
