@@ -272,7 +272,7 @@ See <https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.ht
 
 ## Windows 11
 
-From the official ISO location, <https://aka.ms/DownloadWindows11>, select  "Download Windows 11 Disk Image (ISO) for x64 devices."  "Download Windows 11 Disk Image (ISO) for x64 devices.".
+From the official ISO location, <https://aka.ms/DownloadWindows11>, select  "Download Windows 11 Disk Image (ISO) for x64 devices.".
 
 See also <https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/>.
 
