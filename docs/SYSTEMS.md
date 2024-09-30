@@ -274,8 +274,6 @@ See <https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.ht
 
 From the official ISO location, <https://aka.ms/DownloadWindows11>, select  "Download Windows 11 Disk Image (ISO) for x64 devices.".
 
-See also <https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/>.
-
 Verification information is here, <https://www.microsoft.com/en-us/software-download/windows11>, e.g., from Windows PowerShell,
 
 ```
@@ -285,6 +283,8 @@ Algorithm       Hash                                                            
 ---------       ----                                                                   ----
 SHA256          705AC061688FFD7F5721DA844D01DF85433856EAFAA8441ECE94B270685CA2DB       D:\Downloads\Win11_23H2_EnglishInternational_x64v2.iso
 ```
+
+See also <https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/>.
 
 ### Further information
 
