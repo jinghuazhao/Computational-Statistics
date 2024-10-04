@@ -391,13 +391,183 @@ VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 <p>See <a href="https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.htm">https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.htm</a>.</p>
 <h2 id="windows-11">Windows 11</h2>
 <p>From the official ISO location, <a href="https://aka.ms/DownloadWindows11">https://aka.ms/DownloadWindows11</a>, select  "Download Windows 11 Disk Image (ISO) for x64 devices.".</p>
-<p>Verification information is here, <a href="https://www.microsoft.com/en-us/software-download/windows11">https://www.microsoft.com/en-us/software-download/windows11</a>, e.g., from Windows PowerShell,</p>
+<p><code>Verify your download</code> after download, <a href="https://www.microsoft.com/en-us/software-download/windows11">https://www.microsoft.com/en-us/software-download/windows11</a>, from Windows PowerShell,</p>
 <pre><code>Get-FileHash D:\Downloads\Win11_23H2_EnglishInternational_x64v2.iso
 
 Algorithm       Hash                                                                   Path
 ---------       ----                                                                   ----
 SHA256          705AC061688FFD7F5721DA844D01DF85433856EAFAA8441ECE94B270685CA2DB       D:\Downloads\Win11_23H2_EnglishInternational_x64v2.iso
 </code></pre>
+<p>and also</p>
+<pre><code>Get-FileHash D:\Downloads\Win11_24H2_EnglishInternational_x64.iso
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          D5A4C97C3E835C43B1B9A31933327C001766CE314608BA912F2FFFC876044309       D:\Downloads\Win11_24H2_EnglishInternational_x64.iso
+</code></pre>
+<p>as listed here, <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/?view=powershell-7.4">https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/?view=powershell-7.4</a>.</p>
+<p>Hash values for the ISO files for Each Language</p>
+<table>
+<thead>
+<tr>
+<th>Country Locale</th>
+<th>Hash Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arabic 64-bit</td>
+<td>97ED2DF27DEBE5A8E94FB37BE4383EB8516D5C24117793BDA5C1E13568D3F754</td>
+</tr>
+<tr>
+<td>Bulgarian 64-bit</td>
+<td>1C1BD6E96290521B7E4F814ACA30C2CC4C7FAB1E3076439418673B90954A1FFC</td>
+</tr>
+<tr>
+<td>Chinese Simplified 64-bit</td>
+<td>BD1ECBA89BC59B7B62EF12C88C4E70D456EDAC10B969ECB3299EBD458B1F0FB3</td>
+</tr>
+<tr>
+<td>Chinese Traditional 64-bit</td>
+<td>B92C3D6D428D12CF78A8D287B8FB28FFBC44D4A36B74C1B121C3CF443DC67ED2</td>
+</tr>
+<tr>
+<td>Croatian 64-bit</td>
+<td>95C7008AB1B0BA65212A36FB728AC93B9D7611400A78393FE7B319ED5B74AC5C</td>
+</tr>
+<tr>
+<td>Czech 64-bit</td>
+<td>76120E535DB895D0EA69F47D55B836940821352A010DEDFCBCFC1E22E619FC4B</td>
+</tr>
+<tr>
+<td>Danish 64-bit</td>
+<td>D5D34DFFE45BA557581ADA14AC025DB8AA58989D054706061B7D0E5B47F5FDB9</td>
+</tr>
+<tr>
+<td>Dutch 64-bit</td>
+<td>EE9BC545673D8F954A1EDAC691D749438D3E4DFA10A75D2519F79E3708D79FDC</td>
+</tr>
+<tr>
+<td>English 64-bit</td>
+<td>B56B911BF18A2CEAEB3904D87E7C770BDF92D3099599D61AC2497B91BF190B11</td>
+</tr>
+<tr>
+<td>English International 64-bit</td>
+<td>D5A4C97C3E835C43B1B9A31933327C001766CE314608BA912F2FFFC876044309</td>
+</tr>
+<tr>
+<td>Estonian 64-bit</td>
+<td>D12DC03FA15A7F436A800692E9BA30DBDDAA4CD6122DD71719A2898E953B5407</td>
+</tr>
+<tr>
+<td>Finnish 64-bit</td>
+<td>D6057E058021A9DF8A02B7BB16331D88C38E8BB63D5AD897D094E0DF6C6ADB5A</td>
+</tr>
+<tr>
+<td>French 64-bit</td>
+<td>B73AA55DB50D2AD348F61C6537DA05C0D6DED78A143763454E977BE85B444119</td>
+</tr>
+<tr>
+<td>French Canadian 64-bit</td>
+<td>3CA47351DAD16BD3F7AFA27CDEB321DD726B79859DE8D2769359C7621DE38EC4</td>
+</tr>
+<tr>
+<td>German 64-bit</td>
+<td>96E036F1219F9EE59F96312CE43EC7DF093E768383A77132750271940926A013</td>
+</tr>
+<tr>
+<td>Greek 64-bit</td>
+<td>92248F9F5A8735337D4B0DCCE4DD13348F8718858590FD9D1EB00020B5AFB33A</td>
+</tr>
+<tr>
+<td>Hebrew 64-bit</td>
+<td>27D8090B9266A2DAC04E403FE63E46ADE661A5661BF26CA5EBB1A2F13245E86F</td>
+</tr>
+<tr>
+<td>Hungarian 64-bit</td>
+<td>7B58807592AEB2FC5DDF5AF9749FA023CE9165AA4A1BF4F4741709F8AA2EE9D3</td>
+</tr>
+<tr>
+<td>Italian 64-bit</td>
+<td>D95EC65EC06B4036835C7571FE0108159848D2883EF5DA3A67E480130B1F5862</td>
+</tr>
+<tr>
+<td>Japanese 64-bit</td>
+<td>A1E1BCB6C014F39E4A324EC24DB1B745EE62617D29A450BF7B2596A3DCCECD7D</td>
+</tr>
+<tr>
+<td>Korean 64-bit</td>
+<td>63ED86ADFC53F464649478F931EAE39A42DB3FD86C266C9B5AF7F8E19D318C51</td>
+</tr>
+<tr>
+<td>Latvian 64-bit</td>
+<td>F4C2BF7C16576E6D631070D7B7CF6F55E8359D0729B571C570DC6F39D77D9EA6</td>
+</tr>
+<tr>
+<td>Lithuanian 64-bit</td>
+<td>23B14643B0AD6FDD0231EA201C5E1B000912EE3A0542F1B1F6907DB470AE7D7B</td>
+</tr>
+<tr>
+<td>Norwegian 64-bit</td>
+<td>6CBD6C3FED9CE08AF85420F19D01C287FC58EC0C42DC7409D1D5C341CEB6492B</td>
+</tr>
+<tr>
+<td>Polish 64-bit</td>
+<td>654273603A945EBA3B185FD5D2C22207A0EB788B5E3402F71E6D0839B3026943</td>
+</tr>
+<tr>
+<td>Brazilian Portuguese 64-bit</td>
+<td>1BC63E9C62FE3EB7E46778F24C790933770FA7430304583BBDF96B47A5D61F1F</td>
+</tr>
+<tr>
+<td>Portuguese 64-bit</td>
+<td>FAAFEDFC301A381B0712FC8DB9F0A16ADE2716B998DD4855D0A38172A9A87AB4</td>
+</tr>
+<tr>
+<td>Romanian 64-bit</td>
+<td>8B23AD43DF35EB75FADDFDFC85D616A001A4D72C757E5286011E3DC9452A5862</td>
+</tr>
+<tr>
+<td>Russian 64-bit</td>
+<td>D0FBDB93864BF6C8ADE844473C9600EBB031C8BB656A272C736E45DFBD9B3BC9</td>
+</tr>
+<tr>
+<td>Serbian Latin 64-bit</td>
+<td>566047460EEA2F0E0D36E7A378DCFEEA79D7D3C0328227646BE4AB9AC39A9E36</td>
+</tr>
+<tr>
+<td>Slovak 64-bit</td>
+<td>5B77F2B5F7C77ABF68E628AC37A8841BB1058B7173C1C76DC5A5F6C5BBA855FD</td>
+</tr>
+<tr>
+<td>Slovenian 64-bit</td>
+<td>73F0DC7CC15885F565C76D78D54E4E4D9934720FFE583B52EFDDA2E2457402D7</td>
+</tr>
+<tr>
+<td>Spanish 64-bit</td>
+<td>708AF7C9AC63B7EB045CA9B196568758B6C1749E8D13CADE61FAACBC7C66D142</td>
+</tr>
+<tr>
+<td>Spanish (Mexico) 64-bit</td>
+<td>BA7A9B9A2052DEF8C24BCB88C76A47B2E6A6C6EE547EED226B9702C5C63AFC69</td>
+</tr>
+<tr>
+<td>Swedish 64-bit</td>
+<td>F3674D377253E2D12635FDEAB76193E80BD80C56A41D10AB9CCEFDB0CDF1AD82</td>
+</tr>
+<tr>
+<td>Thai 64-bit</td>
+<td>CAD5590347376103E369D7E04941B94C037F4CC6C75D81DC50E194FFA87C8CF8</td>
+</tr>
+<tr>
+<td>Turkish 64-bit</td>
+<td>A47E054FE0B762F5B48D08E2B6F768F4B1CA0BC6DB831A76E829F92E578483AF</td>
+</tr>
+<tr>
+<td>Ukrainian 64-bit</td>
+<td>68BABB954E4BFDF8A03ABC188D5120CF12D4DCA3CAE68EB1BFD4B64F872826E2</td>
+</tr>
+</tbody>
+</table>
 <p>See also <a href="https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/">https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/</a>.</p>
 <h3 id="further-information">Further information</h3>
 <p>CloneVDI is described in this thread, <a href="https://forums.virtualbox.org/viewtopic.php?f=6&amp;t=22422">https://forums.virtualbox.org/viewtopic.php?f=6&amp;t=22422</a>.</p>
