@@ -338,6 +338,30 @@ Thai 64-bit |   CAD5590347376103E369D7E04941B94C037F4CC6C75D81DC50E194FFA87C8CF8
 Turkish 64-bit |        A47E054FE0B762F5B48D08E2B6F768F4B1CA0BC6DB831A76E829F92E578483AF
 Ukrainian 64-bit |      68BABB954E4BFDF8A03ABC188D5120CF12D4DCA3CAE68EB1BFD4B64F872826E2
 
+Some changes as from October 2024,
+
+```
+Microsoft Windows [Version 10.0.22631.4249]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\CompatMarkers" /f 2>NUL
+The operation completed successfully.
+
+C:\Windows\System32>reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Shared" /f 2>NUL
+The operation completed successfully.
+
+C:\Windows\System32>reg.exe delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\TargetVersionUpgradeExperienceIndicators" /f 2>NUL
+The operation completed successfully.
+
+C:\Windows\System32>reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\HwReqChk" /f /v HwReqChkVars /t REG_MULTI_SZ /s , /d "SQ_SecureBootCapable=TRUE,SQ_SecureBootEnabled=TRUE,SQ_TpmVersion=2,SQ_RamMB=8192,"
+The operation completed successfully.
+
+C:\Windows\System32>
+C:\Windows\System32>reg.exe add "HKLM\SYSTEM\Setup\MoSetup" /f /v AllowUpgradesWithUnsupportedTPMOrCPU /t REG_DWORD /d 1
+The operation completed successfully.
+
+C:\Windows\System32>
+```
 
 See also <https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/>.
 
