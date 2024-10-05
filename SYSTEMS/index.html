@@ -568,6 +568,28 @@ SHA256          D5A4C97C3E835C43B1B9A31933327C001766CE314608BA912F2FFFC876044309
 </tr>
 </tbody>
 </table>
+<p>Some changes as from October 2024,</p>
+<pre><code>Microsoft Windows [Version 10.0.22631.4249]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32&gt;reg.exe delete &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\CompatMarkers&quot; /f 2&gt;NUL
+The operation completed successfully.
+
+C:\Windows\System32&gt;reg.exe delete &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Shared&quot; /f 2&gt;NUL
+The operation completed successfully.
+
+C:\Windows\System32&gt;reg.exe delete &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\TargetVersionUpgradeExperienceIndicators&quot; /f 2&gt;NUL
+The operation completed successfully.
+
+C:\Windows\System32&gt;reg.exe add &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\HwReqChk&quot; /f /v HwReqChkVars /t REG_MULTI_SZ /s , /d &quot;SQ_SecureBootCapable=TRUE,SQ_SecureBootEnabled=TRUE,SQ_TpmVersion=2,SQ_RamMB=8192,&quot;
+The operation completed successfully.
+
+C:\Windows\System32&gt;
+C:\Windows\System32&gt;reg.exe add &quot;HKLM\SYSTEM\Setup\MoSetup&quot; /f /v AllowUpgradesWithUnsupportedTPMOrCPU /t REG_DWORD /d 1
+The operation completed successfully.
+
+C:\Windows\System32&gt;
+</code></pre>
 <p>See also <a href="https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/">https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/</a>.</p>
 <h3 id="further-information">Further information</h3>
 <p>CloneVDI is described in this thread, <a href="https://forums.virtualbox.org/viewtopic.php?f=6&amp;t=22422">https://forums.virtualbox.org/viewtopic.php?f=6&amp;t=22422</a>.</p>
