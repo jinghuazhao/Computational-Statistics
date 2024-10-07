@@ -363,7 +363,7 @@ The operation completed successfully.
 C:\Windows\System32>
 ```
 
-See also <https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/>.
+See also <https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/> & Rufus, <https://rufus.ie/en/>.
 
 ### Further information
 
