@@ -178,6 +178,10 @@ Here is information on file sharing, <https://www.c-sharpcorner.com/article/how-
 
 ## Oracle VirtualBox
 
+### 7.1.4
+
+This requires Visual Studio C++ 2.19, which can be downloaded, e.g. <https://aka.ms/vs/17/release/vc_redist.x64.exe>.
+
 ### Windows 7
 
 To use VirtualBox under Windows 7, one needs to enable virtualisation within security section of BIOS setup. To find out system info, one can run
