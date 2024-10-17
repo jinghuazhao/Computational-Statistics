@@ -375,7 +375,7 @@ cd MediaCreationTool.bat
 MediaCreationTool.bat
 ```
 
-and also <>https://massgrave.dev/windows_11_links.
+and also <https://massgrave.dev/windows_11_links>.
 
 ### Further information
 
