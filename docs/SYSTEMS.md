@@ -272,6 +272,8 @@ See <https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.ht
 
 ## Windows 11
 
+### Official site
+
 From the official ISO location, <https://aka.ms/DownloadWindows11>, select  "Download Windows 11 Disk Image (ISO) for x64 devices.".
 
 `Verify your download` after download, <https://www.microsoft.com/en-us/software-download/windows11>, from Windows PowerShell,
@@ -364,6 +366,16 @@ C:\Windows\System32>
 ```
 
 See also ZDNET, <https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/> & Rufus, <https://rufus.ie/en/>.
+
+### Build
+
+```bash
+git clone https://github.com/AveYo/MediaCreationTool.bat
+cd MediaCreationTool.bat
+MediaCreationTool.bat
+```
+
+and also <>https://massgrave.dev/windows_11_links.
 
 ### Further information
 
