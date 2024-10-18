@@ -371,7 +371,7 @@ C:\Windows\System32>
 
 See also ZDNET, <https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/> & Rufus, <https://rufus.ie/en/>.
 
-### Build
+### Build on the fly
 
 ```bash
 git clone https://github.com/AveYo/MediaCreationTool.bat
@@ -379,7 +379,7 @@ cd MediaCreationTool.bat
 MediaCreationTool.bat
 ```
 
-and also <https://massgrave.dev/windows_11_links>.
+and also <https://massgrave.dev/windows_11_links>, <https://github.com/Raphire/Win11Debloat>.
 
 ### Further information
 
