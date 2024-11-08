@@ -371,6 +371,8 @@ C:\Windows\System32>
 
 See also ZDNET, <https://www.zdnet.com/article/how-to-upgrade-your-incompatible-windows-10-pc-to-windows-11/> & Rufus, <https://rufus.ie/en/>.
 
+It is reported that the changes above have been implemented in Rufus 4.6.
+
 ### Build on the fly
 
 ```bash
