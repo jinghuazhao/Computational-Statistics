@@ -127,7 +127,20 @@
 └── templates
     └── index.html
 </code></pre>
-<p>By default, <code>python app.py</code> will enable <code>http://127.0.0.1:5000</code>.</p>
+<p>which uses environment variable from <code>export OPENAI_API_KEY=$(grep sk ~/doc/OpenAI)</code>.</p>
+<p>By default, <code>python app.py</code> will enable <code>http://127.0.0.1:5000</code>:</p>
+<pre><code>$ python app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (inotify)
+ * Debugger is active!
+ * Debugger PIN: 711-120-470
+127.0.0.1 - - [05/Dec/2024 21:48:34] &quot;GET / HTTP/1.1&quot; 200 -
+127.0.0.1 - - [05/Dec/2024 21:48:34] &quot;GET / HTTP/1.1&quot; 200 -
+</code></pre>
 <p>Considerable coverage has been given on Flask, e.g., <a href="https://cambridge-ceu.github.io/GitHub-matters/Flask/">https://cambridge-ceu.github.io/GitHub-matters/Flask/</a>.</p></div>
             </div>
         </div>
