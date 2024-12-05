@@ -1,8 +1,8 @@
 """
 file name: app.py
 Description: Building a ChatGPT Clone with Flask framework
-__copyright__ = "Copyright 2024, MartinYTech, Jing Hua Zhao"
-__author__=  Jing Hua Zhao
+__copyright__ = "Copyright 2024, holders"
+__author__=  authors
 __modified__= 05/12/2024
 """
 
