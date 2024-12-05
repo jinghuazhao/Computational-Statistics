@@ -9,4 +9,6 @@ The repository intends to make it easier to keep pace with releases of Linux sys
 * [PARALLEL](PARALLEL.md). Parallel computing.
 * [REPRODUCE](REPRODUCE.md). Reproducible research.
 * [SYSTEMS](SYSTEMS.md). System-related materials.
-* [WEB](WEB.md). Web-related notes.
+* WEB:
+  - Utilities, web-related notes
+  - Flask, ChatGPT under Flask
