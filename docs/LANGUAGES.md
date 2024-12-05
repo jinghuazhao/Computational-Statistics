@@ -821,6 +821,36 @@ but it requires `libgconf-2-4`; when failed to install use `sudo apt --fix-broke
 See [https://code.visualstudio.com/docs/python/python-tutorial](https://code.visualstudio.com/docs/python/python-tutorial) for the hello world example.
 
 
+## ChatGPT
+
+We have `export OPENAI_API_KEY=$(grep sk ~/doc/OpenAI)`, and our first session:
+
+```python
+import os
+import openai
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+if openai.api_key is None:
+    raise ValueError("API key not found. Please set the OPENAI_API_KEY environment variable.")
+
+question = input("What is your question? ")
+
+response = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[
+        {"role": "user", "content": question},
+    ],
+    max_tokens=512,
+    n=1,
+    stop=None,
+    temperature=0.8,
+)
+
+print(response)
+answer = response['choices'][0]['message']['content']
+print("OpenAI: " + answer)
+```
+
 ## CodeGPT
 
 We need sign up/in for an API key from <https://platform.openai.com/overview>, e.g., via your MicrsoSoft account.
