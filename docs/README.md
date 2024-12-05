@@ -10,5 +10,5 @@ The repository intends to make it easier to keep pace with releases of Linux sys
 * [REPRODUCE](REPRODUCE.md). Reproducible research.
 * [SYSTEMS](SYSTEMS.md). System-related materials.
 * WEB:
-  - Utilities, web-related notes
-  - Flask, ChatGPT under Flask
+    - [Utilities](Utilities.md), web-related notes
+    - [Flask](ChatGPT/README.md), ChatGPT under Flask
