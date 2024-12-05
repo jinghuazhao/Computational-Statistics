@@ -259,7 +259,3 @@ The following commands set read permission to a web site hosted at `/public/$HOM
 chmod -R +r /public/$HOME/public_html
 find /public/$HOME/public_html -type d -exec chmod +x {} \;
 ```
-
-## ChatGPT
-
-This is with [ChatGPT](ChatGPT).
