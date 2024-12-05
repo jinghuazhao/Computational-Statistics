@@ -11,4 +11,4 @@ The repository intends to make it easier to keep pace with releases of Linux sys
 * [SYSTEMS](SYSTEMS.md). System-related materials.
 * WEB:
     - [Utilities](Utilities.md), web-related notes
-    - [Flask](ChatGPT/README.md), ChatGPT under Flask
+    - [Flask](Flask/README.md), ChatGPT under Flask
