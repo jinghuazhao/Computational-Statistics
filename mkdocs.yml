@@ -9,8 +9,8 @@ nav:
     - REPRODUCE: REPRODUCE.md
     - SYSTEMS: SYSTEMS.md
     - WEB:
-      "Utilties": WEB.md
-      "Flask": Flask/README.md
+      - "Utilties": WEB.md
+      - "Flask": Flask/README.md
 theme:
     name: mkdocs
     nav_style: dark
