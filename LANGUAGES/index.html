@@ -157,6 +157,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#chatgpt" class="nav-link">ChatGPT</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#codegpt" class="nav-link">CodeGPT</a>
               <ul class="nav flex-column">
               </ul>
@@ -852,6 +856,32 @@ hello.ts
 </code></pre>
 <p>but it requires <code>libgconf-2-4</code>; when failed to install use <code>sudo apt --fix-broken install</code>.</p>
 <p>See <a href="https://code.visualstudio.com/docs/python/python-tutorial">https://code.visualstudio.com/docs/python/python-tutorial</a> for the hello world example.</p>
+<h2 id="chatgpt">ChatGPT</h2>
+<p>We have <code>export OPENAI_API_KEY=$(grep sk ~/doc/OpenAI)</code>, and our first session:</p>
+<pre><code class="language-python">import os
+import openai
+
+openai.api_key = os.getenv(&quot;OPENAI_API_KEY&quot;)
+if openai.api_key is None:
+    raise ValueError(&quot;API key not found. Please set the OPENAI_API_KEY environment variable.&quot;)
+
+question = input(&quot;What is your question? &quot;)
+
+response = openai.ChatCompletion.create(
+    model=&quot;gpt-3.5-turbo&quot;,
+    messages=[
+        {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: question},
+    ],
+    max_tokens=512,
+    n=1,
+    stop=None,
+    temperature=0.8,
+)
+
+print(response)
+answer = response['choices'][0]['message']['content']
+print(&quot;OpenAI: &quot; + answer)
+</code></pre>
 <h2 id="codegpt">CodeGPT</h2>
 <p>We need sign up/in for an API key from <a href="https://platform.openai.com/overview">https://platform.openai.com/overview</a>, e.g., via your MicrsoSoft account.</p>
 <p>From <code>Visual Studio Code</code>, add extension <code>CodeGPT</code>; <code>Ctrl-Shit-p</code> to saarch for <code>CodeGPT: Set API Key</code> and enter the key given above from <a href="https://platform.openai.com/account/api-keys">https://platform.openai.com/account/api-keys</a>.</p>
