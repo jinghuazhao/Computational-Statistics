@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>WEB - Computational Statistics</title>
+        <title>Utilties - Computational Statistics</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -57,8 +57,18 @@
                             <li class="navitem">
                                 <a href="../SYSTEMS/" class="nav-link">SYSTEMS</a>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">WEB</a>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">WEB <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Utilties</a>
+</li>
+                                    
+<li>
+    <a href="../Flask/" class="dropdown-item">Flask</a>
+</li>
+                                </ul>
                             </li>
                         </ul>
 
@@ -74,7 +84,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
+                                <a rel="next" href="../Flask/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -138,10 +148,6 @@
               </ul>
             </li>
             <li class="nav-item" data-level="2"><a href="#web-site-file-permission" class="nav-link">Web site file permission</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#chatgpt" class="nav-link">ChatGPT</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -341,9 +347,7 @@ pip install recommonmark
 <p>The following commands set read permission to a web site hosted at <code>/public/$HOME/public_html</code>.</p>
 <pre><code class="language-bash">chmod -R +r /public/$HOME/public_html
 find /public/$HOME/public_html -type d -exec chmod +x {} \;
-</code></pre>
-<h2 id="chatgpt">ChatGPT</h2>
-<p>This is with <a href="ChatGPT">ChatGPT</a>.</p></div>
+</code></pre></div>
             </div>
         </div>
 
