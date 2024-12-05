@@ -12,3 +12,5 @@ Flask/
 ```
 
 By default, `python app.py` will enable `http://127.0.0.1:5000`.
+
+Considerable coverage has been given on Flask, e.g., <https://cambridge-ceu.github.io/GitHub-matters/Flask/>.
