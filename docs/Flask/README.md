@@ -29,4 +29,4 @@ Press CTRL+C to quit
 127.0.0.1 - - [05/Dec/2024 21:48:34] "GET / HTTP/1.1" 200 -
 ```
 
-Considerable coverage has been given on Flask, e.g., <https://cambridge-ceu.github.io/GitHub-matters/Flask/>, <https://cambridge-ceu.github.io/CEU-scientific-meetings/Flask/>.
+Considerable coverage has been given on Flask, e.g., <https://cambridge-ceu.github.io/GitHub-matters/Flask/>, and WSGI is touched upon here, <https://cambridge-ceu.github.io/CEU-scientific-meetings/Flask/>.
