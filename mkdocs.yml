@@ -9,6 +9,8 @@ nav:
     - REPRODUCE: REPRODUCE.md
     - SYSTEMS: SYSTEMS.md
     - WEB:
+      - AI.md
+      - Computing.md
       - "Flask": Flask/README.md
       - "Utilties": Utilities.md
 theme:
