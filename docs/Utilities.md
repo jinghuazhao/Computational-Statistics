@@ -2,7 +2,7 @@
 
 ## aria2
 
-Web: [https://aria2.github.io/](https://aria2.github.io/).
+Web: <https://aria2.github.io/>.
 
 The first example, `aria2c -c -j10 -i ../urls.txt`, specifies that to continue (-c) interrupted download, to use 10 concurrent threads (-j10) and use links in `urls.txt`.
 
@@ -93,7 +93,7 @@ export RVA=/rds/project/jmmh2/rds-jmmh2-projects/olink_proteomics/scallop/SCALLO
 lftp -c "open sftp://${USER}:${PASS}@${HOST}:/genetic_data/for_Grace;mirror -c -P=20 -R -v ${RVA}"
 ```
 
-See [https://linuxconfig.org/lftp-tutorial-on-linux-with-examples](https://linuxconfig.org/lftp-tutorial-on-linux-with-examples).
+See <https://linuxconfig.org/lftp-tutorial-on-linux-with-examples>.
 
 the following error
 > Unable to negotiate with xxx.xxx.xxx.xxx port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
@@ -107,8 +107,8 @@ sftp -oKexAlgorithms=+diffie-hellman-group1-sha1 user@host
 
 ### --- Python ---
 
-This illustrates under Ubuntu 21.10 the demo `dash-drug-discovery`, [https://dash.gallery/dash-drug-discovery/](https://dash.gallery/dash-drug-discovery/).
-The source is a zipped file available from [https://github.com/plotly/dash-sample-apps/releases](https://github.com/plotly/dash-sample-apps/releases).
+This illustrates under Ubuntu 21.10 the demo `dash-drug-discovery`, <https://dash.gallery/dash-drug-discovery/>.
+The source is a zipped file available from <https://github.com/plotly/dash-sample-apps/releases>.
 
 ```bash
 sudo apt install python3.9-venv
@@ -126,8 +126,8 @@ The output from last line is seen from `firefox` with URL http://127.0.0.1:8050.
 
 ### --- R ---
 
-The R package `dash` is available from [https://CRAN.R-project.org/package=dash](https://CRAN.R-project.org/package=dash), documented
-from [https://dash.plotly.com/r](https://dash.plotly.com/r), and the simplest demo is as follows,
+The R package `dash` is available from <https://CRAN.R-project.org/package=dash>, documented
+from <https://dash.plotly.com/r>, and the simplest demo is as follows,
 
 ```r
 library(dash)
@@ -143,7 +143,7 @@ app %>% set_layout(function() { div("Current time: ", Sys.time()) })
 app
 ```
 
-A plotly figure (e.g., [https://plotly-r.com/](https://plotly-r.com/)) can be passed on as follows,
+A plotly figure (e.g., <https://plotly-r.com/> can be passed on as follows,
 
 ```r
 library(plotly)
@@ -167,7 +167,7 @@ app$layout(
 app$run_server(debug=TRUE, dev_tools_hot_reload=FALSE)
 ```
 
-The view requires WebGL, see [https://get.webgl.org](https://get.webgl.org).
+The view requires WebGL, see <https://get.webgl.org>.
 
 ## djvulibre
 
@@ -194,7 +194,7 @@ then the Google repository is also added.
 
 See information from here,
 
-https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering.
+<https://ee.co.uk/help/help-new/network-and-coverage/tethering-or-sharing-internet/how-do-i-share-my-devices-data-connection-through-a-personal-hotspot-or-tethering>.
 
 ## locale
 
@@ -227,7 +227,7 @@ Perhaps a somewhat easier way to do is through RStudio's `File` --> `Save with E
 
 It is possible to insert citation from an EndNote library, download as RTF more preferably OpenDocument format, and recover the citations through Tools --> Format paper, e.g.,
 
-https://libguides.jcu.edu.au/endnote/google-docs
+<https://libguides.jcu.edu.au/endnote/google-docs>
 
 ## sphinx
 
