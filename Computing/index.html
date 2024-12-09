@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Computing resources - Computational Statistics</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/Bash.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/HTML.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/Java.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/JavaScript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/Perl.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/Python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/R.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/rust.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="..">Computational Statistics</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link"></a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../INSTALL/" class="nav-link">INSTALL</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../LANGUAGES/" class="nav-link">LANGUAGES</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../PARALLEL/" class="nav-link">PARALLEL</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../REPRODUCE/" class="nav-link">REPRODUCE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../SYSTEMS/" class="nav-link">SYSTEMS</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">WEB <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../AI/" class="dropdown-item">AI</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Computing resources</a>
+</li>
+                                    
+<li>
+    <a href="../Flask/" class="dropdown-item">Flask</a>
+</li>
+                                    
+<li>
+    <a href="../Utilities/" class="dropdown-item">Utilties</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../AI/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Flask/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/jinghuazhao/Computational-Statistics" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#computing-resources" class="nav-link">Computing resources</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#online-publications" class="nav-link">Online publications</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#reference-management" class="nav-link">Reference management</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#organisations" class="nav-link">Organisations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#linux-sites" class="nav-link">Linux sites</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#online-documentationsoftwareutilities" class="nav-link">Online documentation/software/utilities</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="computing-resources">Computing resources</h1>
+<h2 id="online-publications">Online publications</h2>
+<ul>
+<li>Cambridge English Dictionary, <a href="https://dictionary.cambridge.org/dictionary/">https://dictionary.cambridge.org/dictionary/</a></li>
+<li>Free literature for your device, <a href="https://www.planetebook.com/">https://www.planetebook.com/</a></li>
+<li>Handbook of Statistics, <a href="https://www.sciencedirect.com/handbook/handbook-of-statistics">https://www.sciencedirect.com/handbook/handbook-of-statistics</a></li>
+<li>Merriam-Webster dictionary, <a href="https://www.merriam-webster.com/">https://www.merriam-webster.com/</a></li>
+<li>ManyBooks, <a href="https://manybooks.net/">https://manybooks.net/</a></li>
+<li>Springer Link, <a href="https://link.springer.com/">https://link.springer.com/</a></li>
+<li>The book of statistical proofs, <a href="https://statproofbook.github.io/">https://statproofbook.github.io/</a></li>
+</ul>
+<h2 id="reference-management">Reference management</h2>
+<ul>
+<li>AuthorArranger, <a href="https://authorarranger.nci.nih.gov/">https://authorarranger.nci.nih.gov/</a></li>
+<li>citavi, <a href="https://www.citavi.com/">https://www.citavi.com/</a></li>
+<li>EndNote, <a href="https://support.clarivate.com/Endnote/s/?language=en_US">https://support.clarivate.com/Endnote/s/?language=en_US</a> (<a href="http://www.myendnoteweb.com">MyEndNoteWeb</a>)</li>
+<li>JabRef, <a href="https://www.jabref.org/">https://www.jabref.org/</a></li>
+<li>Lead2Amazon, <a href="https://lead.to/amazon/uk/">https://lead.to/amazon/uk/</a></li>
+<li>Mendeley, <a href="https://www.mendeley.com/">https://www.mendeley.com/</a></li>
+<li>Papers, <a href="https://www.papersapp.com/">https://www.papersapp.com/</a></li>
+<li>ProQuest, <a href="https://about.proquest.com/en/">https://about.proquest.com/en/</a> (<a href="https://refworks.proquest.com/">https://refworks.proquest.com/</a>)</li>
+<li>PubMed, <a href="https://pubmed.ncbi.nlm.nih.gov/">https://pubmed.ncbi.nlm.nih.gov/</a></li>
+<li>Qiqqa, <a href="https://github.com/jimmejardine/qiqqa-open-source">https://github.com/jimmejardine/qiqqa-open-source</a></li>
+<li>Sciwheel, <a href="https://sciwheel.com/work/#/get-started">get started</a> (<a href="https://sciwheel.com/work/#/guide/gdocs">Google Docs add-on</a>, <a href="https://sciwheel.com/work/faq/word-365-addin">MicroSoft Word add-on</a>)</li>
+<li>Web of science, <a href="https://www.webofscience.com/wos/woscc/basic-search">https://www.webofscience.com/wos/woscc/basic-search</a></li>
+<li>Zotero, <a href="https://www.zotero.org/">https://www.zotero.org/</a> (<a href="https://zbib.org/">https://zbib.org/</a>)</li>
+</ul>
+<h2 id="organisations">Organisations</h2>
+<ul>
+<li>Apache, <a href="https://httpd.apache.org/">https://httpd.apache.org/</a></li>
+<li>APKmirror, <a href="https://www.apkmirror.com/">https://www.apkmirror.com/</a></li>
+<li>ARIA, <a href="https://www.aria.org.uk/">https://www.aria.org.uk/</a> (<a href="https://substack.com/@ariaresearch">https://substack.com/@ariaresearch</a>)</li>
+<li>CRA, <a href="https://cra.org/">https://cra.org/</a></li>
+<li>CRAN, <a href="https://cran.r-project.org/">https://cran.r-project.org/</a></li>
+<li>CS rankings, <a href="https://csrankings.org/">https://csrankings.org/</a></li>
+<li>CyberChef, <a href="https://gchq.github.io/CyberChef/">https://gchq.github.io/CyberChef/</a></li>
+<li>Google, <a href="https://www.google.co.uk/">https://www.google.co.uk/</a><ul>
+<li>Adwords keywords planner, <a href="https://ads.google.com/home/tools/keyword-planner/">https://ads.google.com/home/tools/keyword-planner/</a></li>
+<li>App Engine, <a href="https://cloud.google.com/appengine/">https://cloud.google.com/appengine/</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf">Check My Links</a></li>
+<li>DeepMind, <a href="https://deepmind.google/">https://deepmind.google/</a></li>
+<li>Gemini, <a href="https://ai.google.dev/">https://ai.google.dev/</a></li>
+<li>My groups, <a href="https://groups.google.com/my-groups">https://groups.google.com/my-groups</a></li>
+<li>Search console, <a href="https://search.google.com/search-console/about">https://search.google.com/search-console/about</a></li>
+<li>Translate, <a href="https://translate.google.co.uk/">https://translate.google.co.uk/</a></li>
+</ul>
+</li>
+<li>MicroSoft, <a href="https://www.microsoft.com/">https://www.microsoft.com/</a><ul>
+<li>Account, <a href="https://account.live.com/consent/Manage?uaid=00be9fb584174427b1cffb995d934b24">https://account.live.com/consent/Manage?uaid=00be9fb584174427b1cffb995d934b24</a></li>
+<li>Bing webmaster tool, <a href="https://www.bing.com/webmasters/about">https://www.bing.com/webmasters/about</a></li>
+<li>Bing image creator, <a href="https://www.bing.com/images/create/">https://www.bing.com/images/create/</a></li>
+<li>dotnet, <a href="https://dotnet.microsoft.com/en-us/">https://dotnet.microsoft.com/en-us/</a></li>
+<li><a href="https://www.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes">Forms</a></li>
+<li>GatesNotes, <a href="https://www.gatesnotes.com/">https://www.gatesnotes.com/</a></li>
+<li>Hotmail, <a href="https://outlook.live.com/owa/">https://outlook.live.com/owa/</a></li>
+<li>LINQpad, <a href="https://www.linqpad.net/">https://www.linqpad.net/</a></li>
+<li>Support, <a href="https://support.microsoft.com/en-us">https://support.microsoft.com/en-us</a></li>
+<li>Sway, <a href="https://sway.office.com/">https://sway.office.com/</a></li>
+<li>Windows 11 virtual machines, <a href="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/">https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/</a></li>
+</ul>
+</li>
+<li>Mozilla, <a href="https://www.mozilla.org/en-GB/about/">https://www.mozilla.org/en-GB/about/</a></li>
+<li>MySQL, <a href="https://dev.mysql.com/">https://dev.mysql.com/</a></li>
+<li>Paper with code, <a href="https://paperswithcode.com/">https://paperswithcode.com/</a></li>
+<li>Raspberry Pi OS, <a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a></li>
+<li>Science Media Centre, <a href="https://www.sciencemediacentre.org/">https://www.sciencemediacentre.org/</a></li>
+<li>Twitter, <a href="https://github.com/twitter">https://github.com/twitter</a></li>
+<li>zenodo, <a href="https://zenodo.org/">https://zenodo.org/</a></li>
+<li>Western Digital, <a href="https://www.westerndigital.com/">https://www.westerndigital.com/</a></li>
+</ul>
+<h2 id="linux-sites">Linux sites</h2>
+<ul>
+<li>Entroware, <a href="https://www.entroware.com/store/index.php">https://www.entroware.com/store/index.php</a></li>
+<li>Fedora, <a href="https://getfedora.org/">https://getfedora.org/</a></li>
+<li>GNU parallel, <a href="https://www.biostars.org/p/63816/">https://www.biostars.org/p/63816/</a></li>
+<li>linuxconfig.org, <a href="https://linuxconfig.org/">https://linuxconfig.org/</a></li>
+<li>Linux command, <a href="https://wangchujiang.com/linux-command/">https://wangchujiang.com/linux-command/</a></li>
+<li>mythic-beasts, <a href="https://www.mythic-beasts.com/">https://www.mythic-beasts.com/</a></li>
+<li>OBI download, <a href="https://www.oracle.com/middleware/technologies/business-intelligence-v12213-downloads.html">https://www.oracle.com/middleware/technologies/business-intelligence-v12213-downloads.html</a></li>
+<li>SRCF, <a href="https://www.srcf.net/">https://www.srcf.net/</a> (site, <a href="https://jhz22.user.srcf.net/">https://jhz22.user.srcf.net/</a>)</li>
+<li>VirtualBox, <a href="https://www.virtualbox.org/">https://www.virtualbox.org/</a> (all downloads, <a href="https://download.virtualbox.org/virtualbox/">https://download.virtualbox.org/virtualbox/</a>)</li>
+</ul>
+<h2 id="online-documentationsoftwareutilities">Online documentation/software/utilities</h2>
+<ul>
+<li>Adobe online, <a href="https://www.adobe.com/uk/acrobat/online.html">https://www.adobe.com/uk/acrobat/online.html</a></li>
+<li>Aiseesoft background remover, <a href="https://www.aiseesoft.com/online-bg-remover/">https://www.aiseesoft.com/online-bg-remover/</a></li>
+<li>apexCharts.js,  <a href="https://apexcharts.com/">https://apexcharts.com/</a></li>
+<li>Avalonia Visual Basic6, <a href="https://github.com/BAndysc/AvaloniaVisualBasic6">https://github.com/BAndysc/AvaloniaVisualBasic6</a></li>
+<li>balenaEtcher, <a href="https://etcher.balena.io/">https://etcher.balena.io/</a></li>
+<li>Brave, <a href="https://brave.com/">https://brave.com/</a></li>
+<li>brms, <a href="https://paul-buerkner.github.io/brms/index.html">https://paul-buerkner.github.io/brms/index.html</a> (<a href="https://cran.r-project.org/web/packages/brms/index.html">CRAN</a>)</li>
+<li>Calibre, <a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a></li>
+<li>Click, <a href="https://click.palletsprojects.com">https://click.palletsprojects.com</a></li>
+<li>ConvertWizard, <a href="https://convertwizard.com/">https://convertwizard.com/</a></li>
+<li>Dillinger, <a href="https://dillinger.io/">https://dillinger.io/</a></li>
+<li>Django 5.0 documentation, <a href="https://docs.djangoproject.com/en/5.0/">https://docs.djangoproject.com/en/5.0/</a></li>
+<li>DjVuLibre, <a href="http://djvu.sourceforge.net/">http://djvu.sourceforge.net/</a></li>
+<li>djvu.org, <a href="http://djvu.org">http://djvu.org</a></li>
+<li>epub reader online, <a href="https://epub-reader.online/">https://epub-reader.online/</a></li>
+<li>equation editor, <a href="https://editor.codecogs.com/">https://editor.codecogs.com/</a></li>
+<li>flapjax, <a href="https://www.flapjax-lang.org/">https://www.flapjax-lang.org/</a></li>
+<li>flask, <a href="https://flask.palletsprojects.com/">https://flask.palletsprojects.com/</a></li>
+<li>foxit, <a href="https://www.foxitsoftware.com/">https://www.foxitsoftware.com/</a></li>
+<li>freeCAD, <a href="https://www.freecad.org/">https://www.freecad.org/</a></li>
+<li>gravis, <a href="https://robert-haas.github.io/gravis-docs/index.html">https://robert-haas.github.io/gravis-docs/index.html</a></li>
+<li>HivisionIDPhotos, <a href="https://swanhub.co/ZeYiLin/HivisionIDPhotos">https://swanhub.co/ZeYiLin/HivisionIDPhotos</a> (<a href="https://github.com/Zeyi-Lin/HivisionIDPhotos">GitHub</a></li>
+<li>Icecream PDF Editor, <a href="https://icecreamapps.com/PDF-Editor/">https://icecreamapps.com/PDF-Editor/</a></li>
+<li>iLoveIMG, <a href="https://www.iloveimg.com/">https://www.iloveimg.com/</a></li>
+<li>iLovePDF, <a href="https://www.ilovepdf.com/">https://www.ilovepdf.com/</a></li>
+<li>IMGonline.com.ua, <a href="https://www.imgonline.com.ua/eng/resize-image.php">https://www.imgonline.com.ua/eng/resize-image.php</a></li>
+<li>INBO tutorials, <a href="https://inbo.github.io/tutorials/">https://inbo.github.io/tutorials/</a></li>
+<li>jinja, <a href="https://jinja.palletsprojects.com/">https://jinja.palletsprojects.com/</a></li>
+<li>jqplay, <a href="https://jqplay.org/">https://jqplay.org/</a></li>
+<li>JSEditor, <a href="https://jseditor.io/">https://jseditor.io/</a></li>
+<li>Krite, <a href="https://krita.org/en/">https://krita.org/en/</a></li>
+<li>MConverter, <a href="https://mconverter.eu/">https://mconverter.eu/</a> (<a href="https://mconverter.eu/convert/docx/html/">docx2html</a>)</li>
+<li>Mermaid, <a href="https://mermaid.js.org/">https://mermaid.js.org/</a> (live editor, <a href="https://mermaid.live/">https://mermaid.live/</a>)</li>
+<li>MobaXterm, <a href="https://mobaxterm.mobatek.net/">https://mobaxterm.mobatek.net/</a></li>
+<li>nbviewer, <a href="https://nbviewer.org/">https://nbviewer.org/</a></li>
+<li>OddPrints, <a href="https://www.oddprints.com/">https://www.oddprints.com/</a></li>
+<li>Oh My Posh, <a href="https://ohmyposh.dev/">https://ohmyposh.dev/</a></li>
+<li>Online2PDF, <a href="https://online2pdf.com/docx2pdf">https://online2pdf.com/docx2pdf</a></li>
+<li>PaddleOCR, <a href="https://github.com/PaddlePaddle/PaddleOCR">https://github.com/PaddlePaddle/PaddleOCR</a></li>
+<li>pdf24, <a href="https://en.pdf24.org/">https://en.pdf24.org/</a></li>
+<li>pdf2djvu, <a href="https://pdf2djvu.com/">https://pdf2djvu.com/</a></li>
+<li>PDFgear, <a href="https://www.pdfgear.com/">https://www.pdfgear.com/</a></li>
+<li>pdf-Xchange, <a href="https://www.pdf-xchange.com/">https://www.pdf-xchange.com/</a> (discontinued <a href="https://www.pdf-xchange.com/product/downloads/discontinued">viewer</a>)</li>
+<li>png2pdf, <a href="https://png2pdf.com/">https://png2pdf.com/</a></li>
+<li>PhotoScissors, <a href="https://photoscissors.com/">https://photoscissors.com/</a></li>
+<li>QGIS, <a href="https://www.qgis.org/">https://www.qgis.org/</a></li>
+<li>quarto, <a href="https://quarto.org/">https://quarto.org/</a></li>
+<li>RStudio, <a href="https://www.rstudio.com/">https://www.rstudio.com/</a> <a href="https://www.rstudio.com/products/rstudio/download/">download</a> (<a href="https://mastering-shiny.org/">Mastering Shiny</a>, <a href="https://www.shinyapps.io/">shinyapps</a>)</li>
+<li>Rufus, <a href="https://rufus.ie/en/">https://rufus.ie/en/</a></li>
+<li>Scribus, <a href="https://sourceforge.net/projects/scribus/">https://sourceforge.net/projects/scribus/</a></li>
+<li>Speedtest, <a href="https://www.speedtest.net/">https://www.speedtest.net/</a></li>
+<li>Template-Rcpp, <a href="https://github.com/stsds/Template-Rcpp">https://github.com/stsds/Template-Rcpp</a> (LinkedIn <a href="https://www.linkedin.com/feed/update/urn:li:activity:7136774813066358785/">post</a>)</li>
+<li>text-utils, <a href="https://www.text-utils.com/">https://www.text-utils.com/</a></li>
+<li>time.is, <a href="https://time.is/">https://time.is/</a></li>
+<li>Tabby, <a href="https://tabby.sh">https://tabby.sh</a></li>
+<li>Typora, <a href="https://typora.io/">https://typora.io/</a></li>
+<li>uLisp, <a href="http://www.ulisp.com/">http://www.ulisp.com/</a></li>
+<li>WebGL, <a href="https://get.webgl.org/">https://get.webgl.org/</a></li>
+<li>WinToHDD, <a href="https://www.easyuefi.com/wintohdd/index.html">https://www.easyuefi.com/wintohdd/index.html</a> (also <a href="https://www.easyuefi.com/index-us.html">easyUEFI</a>)</li>
+<li>WSGI, <a href="https://wsgi.readthedocs.io/">https://wsgi.readthedocs.io/</a></li>
+<li>yaak, <a href="https://yaak.app/">https://yaak.app/</a></li>
+<li>yozosoft, <a href="https://www.yozosoft.com/">https://www.yozosoft.com/</a></li>
+<li>zotero-gpt, <a href="https://github.com/MuiseDestiny/zotero-gpt">https://github.com/MuiseDestiny/zotero-gpt</a></li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
