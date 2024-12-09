@@ -9,4 +9,4 @@ The repository intends to make it easier to keep pace with releases of Linux sys
 * [PARALLEL](PARALLEL.md). Parallel computing.
 * [REPRODUCE](REPRODUCE.md). Reproducible research.
 * [SYSTEMS](SYSTEMS.md). System-related materials.
-* WEB: [Flask](Flask/README.md), [Utilities](Utilities.md)
+* WEB: [AI-related sites](AI.md), [Computing resources](Computing.md), [Flask](Flask/README.md), [Utilities](Utilities.md)
