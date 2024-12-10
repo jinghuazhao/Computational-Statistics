@@ -128,7 +128,7 @@
 - Quarto, <https://quarto.org/>
 - RStudio, <https://posit.co/> (<https://www.rstudio.com/>)
     - [download](https://www.rstudio.com/products/rstudio/download/)
-    - [Mastering Shiny](https://mastering-shiny.org/
+    - [Mastering Shiny](https://mastering-shiny.org/)
     - [Positron](https://positron.posit.co/)
     - [shinyapps](https://www.shinyapps.io/)
 - Rufus, <https://rufus.ie/en/>
