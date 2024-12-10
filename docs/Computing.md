@@ -93,12 +93,12 @@
 - Django 5.0 documentation, <https://docs.djangoproject.com/en/5.0/>
 - DjVuLibre, <http://djvu.sourceforge.net/>
 - djvu.org, <http://djvu.org>
-- epub reader online, <https://epub-reader.online/>
-- equation editor, <https://editor.codecogs.com/>
-- flapjax, <https://www.flapjax-lang.org/>
-- flask, <https://flask.palletsprojects.com/>
-- foxit, <https://www.foxitsoftware.com/>
-- freeCAD, <https://www.freecad.org/>
+- EPUB reader online, <https://epub-reader.online/>
+- Equation Editor, <https://editor.codecogs.com/>
+- Flapjax, <https://www.flapjax-lang.org/>
+- Flask, <https://flask.palletsprojects.com/>
+- Foxit, <https://www.foxitsoftware.com/>
+- FreeCAD, <https://www.freecad.org/>
 - gravis, <https://robert-haas.github.io/gravis-docs/index.html>
 - HivisionIDPhotos, <https://swanhub.co/ZeYiLin/HivisionIDPhotos> ([GitHub](https://github.com/Zeyi-Lin/HivisionIDPhotos)
 - Icecream PDF Editor, <https://icecreamapps.com/PDF-Editor/>
@@ -106,7 +106,7 @@
 - iLovePDF, <https://www.ilovepdf.com/>
 - IMGonline.com.ua, <https://www.imgonline.com.ua/eng/resize-image.php>
 - INBO tutorials, <https://inbo.github.io/tutorials/>
-- jinja, <https://jinja.palletsprojects.com/>
+- Jinja, <https://jinja.palletsprojects.com/>
 - jqplay, <https://jqplay.org/>
 - JSEditor, <https://jseditor.io/>
 - Krite, <https://krita.org/en/>
@@ -118,11 +118,11 @@
 - Oh My Posh, <https://ohmyposh.dev/>
 - Online2PDF, <https://online2pdf.com/docx2pdf>
 - PaddleOCR, <https://github.com/PaddlePaddle/PaddleOCR>
-- pdf24, <https://en.pdf24.org/>
-- pdf2djvu, <https://pdf2djvu.com/>
+- PDF24, <https://en.pdf24.org/>
+- PDF2DJVU, <https://pdf2djvu.com/>
 - PDFgear, <https://www.pdfgear.com/>
-- pdf-Xchange, <https://www.pdf-xchange.com/> (discontinued [viewer](https://www.pdf-xchange.com/product/downloads/discontinued))
-- png2pdf, <https://png2pdf.com/>
+- PDF-XCHANGE, <https://www.pdf-xchange.com/> (discontinued [viewer](https://www.pdf-xchange.com/product/downloads/discontinued))
+- PNG2PDF, <https://png2pdf.com/>
 - PhotoScissors, <https://photoscissors.com/>
 - QGIS, <https://www.qgis.org/>
 - quarto, <https://quarto.org/>
@@ -139,7 +139,7 @@
 - WebGL, <https://get.webgl.org/>
 - WinToHDD, <https://www.easyuefi.com/wintohdd/index.html> (also [easyUEFI](https://www.easyuefi.com/index-us.html))
 - WSGI, <https://wsgi.readthedocs.io/>
-- yaak, <https://yaak.app/>
+- Yaak, <https://yaak.app/>
 - yozosoft, <https://www.yozosoft.com/>
 - zotero-gpt, <https://github.com/MuiseDestiny/zotero-gpt>
 
