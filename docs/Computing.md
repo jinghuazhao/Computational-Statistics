@@ -125,7 +125,7 @@
 - PNG2PDF, <https://png2pdf.com/>
 - PhotoScissors, <https://photoscissors.com/>
 - QGIS, <https://www.qgis.org/>
-- quarto, <https://quarto.org/>
+- Quarto, <https://quarto.org/>
 - RStudio, <https://www.rstudio.com/> [download](https://www.rstudio.com/products/rstudio/download/) ([Mastering Shiny](https://mastering-shiny.org/), [shinyapps](https://www.shinyapps.io/))
 - Rufus, <https://rufus.ie/en/>
 - Scribus, <https://sourceforge.net/projects/scribus/>
