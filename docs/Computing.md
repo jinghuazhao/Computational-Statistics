@@ -126,7 +126,11 @@
 - PhotoScissors, <https://photoscissors.com/>
 - QGIS, <https://www.qgis.org/>
 - Quarto, <https://quarto.org/>
-- RStudio, <https://www.rstudio.com/> [download](https://www.rstudio.com/products/rstudio/download/) ([Mastering Shiny](https://mastering-shiny.org/), [shinyapps](https://www.shinyapps.io/))
+- RStudio, <https://posit.co/> (<https://www.rstudio.com/>)
+    - [download](https://www.rstudio.com/products/rstudio/download/)
+    - [Mastering Shiny](https://mastering-shiny.org/
+    - [Positron](https://positron.posit.co/)
+    - [shinyapps](https://www.shinyapps.io/)
 - Rufus, <https://rufus.ie/en/>
 - Scribus, <https://sourceforge.net/projects/scribus/>
 - Speedtest, <https://www.speedtest.net/>
@@ -142,4 +146,3 @@
 - Yaak, <https://yaak.app/>
 - yozosoft, <https://www.yozosoft.com/>
 - zotero-gpt, <https://github.com/MuiseDestiny/zotero-gpt>
-
