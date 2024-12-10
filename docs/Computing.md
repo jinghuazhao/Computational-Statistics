@@ -124,6 +124,7 @@
 - PDF-XCHANGE, <https://www.pdf-xchange.com/> (discontinued [viewer](https://www.pdf-xchange.com/product/downloads/discontinued))
 - PNG2PDF, <https://png2pdf.com/>
 - PhotoScissors, <https://photoscissors.com/>
+* Prime Numbers Generator and Checker, <https://www.numberempire.com/primenumbers.php>
 - QGIS, <https://www.qgis.org/>
 - Quarto, <https://quarto.org/>
 - RStudio, <https://posit.co/> (<https://www.rstudio.com/>)
