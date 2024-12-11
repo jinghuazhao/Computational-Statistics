@@ -84,11 +84,13 @@
 - apexCharts.js,  <https://apexcharts.com/>
 - Avalonia Visual Basic6, <https://github.com/BAndysc/AvaloniaVisualBasic6>
 - balenaEtcher, <https://etcher.balena.io/>
+- b-inary, <https://b-inary.github.io/prime/>
 - Brave, <https://brave.com/>
 - brms, <https://paul-buerkner.github.io/brms/index.html> ([CRAN](https://cran.r-project.org/web/packages/brms/index.html))
 - Calibre, <https://calibre-ebook.com/>
 - Click, <https://click.palletsprojects.com>
 - ConvertWizard, <https://convertwizard.com/>
+- dcode, <https://www.dcode.fr/primality-test>
 - Dillinger, <https://dillinger.io/>
 - Django 5.0 documentation, <https://docs.djangoproject.com/en/5.0/>
 - DjVuLibre, <http://djvu.sourceforge.net/>
