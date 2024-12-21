@@ -112,6 +112,7 @@
 - jqplay, <https://jqplay.org/>
 - JSEditor, <https://jseditor.io/>
 - Krite, <https://krita.org/en/>
+- markitdown, <https://github.com/microsoft/markitdown>
 - MConverter, <https://mconverter.eu/> ([docx2html](https://mconverter.eu/convert/docx/html/))
 - Mermaid, <https://mermaid.js.org/> (live editor, <https://mermaid.live/>)
 - MobaXterm, <https://mobaxterm.mobatek.net/>
