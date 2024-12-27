@@ -9,6 +9,8 @@
     - Chatbot Arena, <https://lmarena.ai/>
 - ChatPDF, <https://www.chatpdf.com/>
 - Crayon, <https://www.craiyon.com/>
+- DeepSeek AI,
+    - GitHub, <https://github.com/deepseek-ai/DeepSeek-V3> ([blog](https://venturebeat.com/ai/deepseek-v3-ultra-large-open-source-ai-outperforms-llama-and-qwen-on-launch/))
 - fast.ai, <https://github.com/fastai>
 - Google, <https://www.google.com/>
     - Colab, <https://colab.research.google.com/>
@@ -43,6 +45,8 @@
     3. LangChain (>> OpenAI Assistants), <https://github.com/langchain-ai/langchain>
     4. Flowwise (>> Relevance AI), <https://github.com/FlowiseAI/Flowise>
     5. Lite LLM (>> [Martian AI](https://withmartian.com/)), <https://github.com/BerriAI/litellm>
+- Open WebUI, <https://openwebui.com/>
+    - GitHub, <https://github.com/open-webui/open-webui> ([blog](https://simonwillison.net/2024/Dec/27/open-webui/))
 - PaddlePaddle, <https://github.com/PaddlePaddle>
 - Perplexity AI, <https://www.perplexity.ai/> (search)
 - Reka, <https://chat.reka.ai/>

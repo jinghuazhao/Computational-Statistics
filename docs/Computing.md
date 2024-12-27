@@ -82,6 +82,7 @@
 - Adobe online, <https://www.adobe.com/uk/acrobat/online.html>
 - Aiseesoft background remover, <https://www.aiseesoft.com/online-bg-remover/>
 - apexCharts.js,  <https://apexcharts.com/>
+- Astral, <https://docs.astral.sh/> (uv, Ruff)
 - Avalonia Visual Basic6, <https://github.com/BAndysc/AvaloniaVisualBasic6>
 - balenaEtcher, <https://etcher.balena.io/>
 - b-inary, <https://b-inary.github.io/prime/>
