@@ -149,6 +149,7 @@
 - WinToHDD, <https://www.easyuefi.com/wintohdd/index.html> (also [easyUEFI](https://www.easyuefi.com/index-us.html))
 - WinToUSB, <https://www.neowin.net/software/wintousb-94/>
 - WSGI, <https://wsgi.readthedocs.io/>
+- Wunbuntu, <https://wubuntu.org/>
 - Yaak, <https://yaak.app/>
 - yozosoft, <https://www.yozosoft.com/>
 - zotero-gpt, <https://github.com/MuiseDestiny/zotero-gpt>
