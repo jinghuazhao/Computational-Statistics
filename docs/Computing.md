@@ -1,70 +1,5 @@
 # Computing resources
 
-## Online publications
-
-- Cambridge English Dictionary, <https://dictionary.cambridge.org/dictionary/>
-- Free literature for your device, <https://www.planetebook.com/>
-- Handbook of Statistics, <https://www.sciencedirect.com/handbook/handbook-of-statistics>
-- Merriam-Webster dictionary, <https://www.merriam-webster.com/>
-- ManyBooks, <https://manybooks.net/>
-- Springer Link, <https://link.springer.com/>
-- The book of statistical proofs, <https://statproofbook.github.io/>
-
-## Reference management
-
-- AuthorArranger, <https://authorarranger.nci.nih.gov/>
-- citavi, <https://www.citavi.com/>
-- EndNote, <https://support.clarivate.com/Endnote/s/?language=en_US> ([MyEndNoteWeb](http://www.myendnoteweb.com))
-- JabRef, <https://www.jabref.org/>
-- Lead2Amazon, <https://lead.to/amazon/uk/>
-- Mendeley, <https://www.mendeley.com/>
-- Papers, <https://www.papersapp.com/>
-- ProQuest, <https://about.proquest.com/en/> (<https://refworks.proquest.com/>)
-- PubMed, <https://pubmed.ncbi.nlm.nih.gov/>
-- Qiqqa, <https://github.com/jimmejardine/qiqqa-open-source>
-- Sciwheel, [get started](https://sciwheel.com/work/#/get-started) ([Google Docs add-on](https://sciwheel.com/work/#/guide/gdocs), [MicroSoft Word add-on](https://sciwheel.com/work/faq/word-365-addin))
-- Web of science, <https://www.webofscience.com/wos/woscc/basic-search>
-- Zotero, <https://www.zotero.org/> (<https://zbib.org/>)
-
-## Organisations
-
-- Apache, <https://httpd.apache.org/>
-- APKmirror, <https://www.apkmirror.com/>
-- ARIA, <https://www.aria.org.uk/> (<https://substack.com/@ariaresearch>)
-- CRA, <https://cra.org/>
-- CRAN, <https://cran.r-project.org/>
-- CS rankings, <https://csrankings.org/>
-- CyberChef, <https://gchq.github.io/CyberChef/>
-- Google, <https://www.google.co.uk/>
-    * Adwords keywords planner, <https://ads.google.com/home/tools/keyword-planner/>
-    * App Engine, <https://cloud.google.com/appengine/>
-    * [Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf)
-    * DeepMind, <https://deepmind.google/>
-    * Gemini, <https://ai.google.dev/>
-    * My groups, <https://groups.google.com/my-groups>
-    * Search console, <https://search.google.com/search-console/about>
-    * Translate, <https://translate.google.co.uk/>
-- MicroSoft, <https://www.microsoft.com/>
-    * Account, <https://account.live.com/consent/Manage?uaid=00be9fb584174427b1cffb995d934b24>
-    * Bing webmaster tool, <https://www.bing.com/webmasters/about>
-    * Bing image creator, <https://www.bing.com/images/create/>
-    * dotnet, <https://dotnet.microsoft.com/en-us/>
-    * [Forms](https://www.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes)
-    * GatesNotes, <https://www.gatesnotes.com/>
-    * Hotmail, <https://outlook.live.com/owa/>
-    * LINQpad, <https://www.linqpad.net/>
-    * Support, <https://support.microsoft.com/en-us>
-    * Sway, <https://sway.office.com/>
-    * Windows 11 virtual machines, <https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/>
-- Mozilla, <https://www.mozilla.org/en-GB/about/>
-- MySQL, <https://dev.mysql.com/>
-- Paper with code, <https://paperswithcode.com/>
-- Raspberry Pi OS, <https://www.raspberrypi.com/software/>
-- Science Media Centre, <https://www.sciencemediacentre.org/>
-- Twitter, <https://github.com/twitter>
-- zenodo, <https://zenodo.org/>
-- Western Digital, <https://www.westerndigital.com/>
-
 ## Linux sites
 
 - Entroware, <https://www.entroware.com/store/index.php>
@@ -153,3 +88,68 @@
 - Yaak, <https://yaak.app/>
 - yozosoft, <https://www.yozosoft.com/>
 - zotero-gpt, <https://github.com/MuiseDestiny/zotero-gpt>
+
+## Online publications
+
+- Cambridge English Dictionary, <https://dictionary.cambridge.org/dictionary/>
+- Free literature for your device, <https://www.planetebook.com/>
+- Handbook of Statistics, <https://www.sciencedirect.com/handbook/handbook-of-statistics>
+- Merriam-Webster dictionary, <https://www.merriam-webster.com/>
+- ManyBooks, <https://manybooks.net/>
+- Springer Link, <https://link.springer.com/>
+- The book of statistical proofs, <https://statproofbook.github.io/>
+
+## Organisations
+
+- Apache, <https://httpd.apache.org/>
+- APKmirror, <https://www.apkmirror.com/>
+- ARIA, <https://www.aria.org.uk/> (<https://substack.com/@ariaresearch>)
+- CRA, <https://cra.org/>
+- CRAN, <https://cran.r-project.org/>
+- CS rankings, <https://csrankings.org/>
+- CyberChef, <https://gchq.github.io/CyberChef/>
+- Google, <https://www.google.co.uk/>
+    * Adwords keywords planner, <https://ads.google.com/home/tools/keyword-planner/>
+    * App Engine, <https://cloud.google.com/appengine/>
+    * [Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf)
+    * DeepMind, <https://deepmind.google/>
+    * Gemini, <https://ai.google.dev/>
+    * My groups, <https://groups.google.com/my-groups>
+    * Search console, <https://search.google.com/search-console/about>
+    * Translate, <https://translate.google.co.uk/>
+- MicroSoft, <https://www.microsoft.com/>
+    * Account, <https://account.live.com/consent/Manage?uaid=00be9fb584174427b1cffb995d934b24>
+    * Bing webmaster tool, <https://www.bing.com/webmasters/about>
+    * Bing image creator, <https://www.bing.com/images/create/>
+    * dotnet, <https://dotnet.microsoft.com/en-us/>
+    * [Forms](https://www.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes)
+    * GatesNotes, <https://www.gatesnotes.com/>
+    * Hotmail, <https://outlook.live.com/owa/>
+    * LINQpad, <https://www.linqpad.net/>
+    * Support, <https://support.microsoft.com/en-us>
+    * Sway, <https://sway.office.com/>
+    * Windows 11 virtual machines, <https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/>
+- Mozilla, <https://www.mozilla.org/en-GB/about/>
+- MySQL, <https://dev.mysql.com/>
+- Paper with code, <https://paperswithcode.com/>
+- Raspberry Pi OS, <https://www.raspberrypi.com/software/>
+- Science Media Centre, <https://www.sciencemediacentre.org/>
+- Twitter, <https://github.com/twitter>
+- zenodo, <https://zenodo.org/>
+- Western Digital, <https://www.westerndigital.com/>
+
+## Reference management
+
+- AuthorArranger, <https://authorarranger.nci.nih.gov/>
+- citavi, <https://www.citavi.com/>
+- EndNote, <https://support.clarivate.com/Endnote/s/?language=en_US> ([MyEndNoteWeb](http://www.myendnoteweb.com))
+- JabRef, <https://www.jabref.org/>
+- Lead2Amazon, <https://lead.to/amazon/uk/>
+- Mendeley, <https://www.mendeley.com/>
+- Papers, <https://www.papersapp.com/>
+- ProQuest, <https://about.proquest.com/en/> (<https://refworks.proquest.com/>)
+- PubMed, <https://pubmed.ncbi.nlm.nih.gov/>
+- Qiqqa, <https://github.com/jimmejardine/qiqqa-open-source>
+- Sciwheel, [get started](https://sciwheel.com/work/#/get-started) ([Google Docs add-on](https://sciwheel.com/work/#/guide/gdocs), [MicroSoft Word add-on](https://sciwheel.com/work/faq/word-365-addin))
+- Web of science, <https://www.webofscience.com/wos/woscc/basic-search>
+- Zotero, <https://www.zotero.org/> (<https://zbib.org/>)
