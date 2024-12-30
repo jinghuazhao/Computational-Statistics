@@ -96,6 +96,7 @@
 - Handbook of Statistics, <https://www.sciencedirect.com/handbook/handbook-of-statistics>
 - Merriam-Webster dictionary, <https://www.merriam-webster.com/>
 - ManyBooks, <https://manybooks.net/>
+- Professional paper writing services, <https://essayservice.com/>
 - Springer Link, <https://link.springer.com/>
 - The book of statistical proofs, <https://statproofbook.github.io/>
 
