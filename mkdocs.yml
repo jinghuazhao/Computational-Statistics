@@ -10,8 +10,9 @@ nav:
     - SYSTEMS: SYSTEMS.md
     - WEB:
       - AI.md
-      - Computing.md
-        - "mythic-beasts": src/mythic-beasts.md
+      - Computing:
+        - Computing: Computing.md
+        - mythic-beasts: src/mythic-beasts.md
       - Flask: Flask/README.md
       - Utilties: Utilities.md
 theme:
