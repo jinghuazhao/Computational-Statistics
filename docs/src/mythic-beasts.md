@@ -1,5 +1,7 @@
 # mythic-beasts
 
+***ChatGPT***
+
 **Mythic Beasts** is a UK-based cloud hosting provider that offers a variety of services including domain registration, web hosting, cloud infrastructure, and managed services. It's particularly known for its flexibility, customer support, and focus on developers and businesses that need robust hosting solutions.
 
 ### **Key Services Provided by Mythic Beasts:**
