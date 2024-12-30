@@ -11,7 +11,7 @@ nav:
     - WEB:
       - AI.md
       - Computing:
-        - Computing: Computing.md
+        - "Computing resources": Computing.md
         - mythic-beasts: src/mythic-beasts.md
       - Flask: Flask/README.md
       - Utilties: Utilities.md
