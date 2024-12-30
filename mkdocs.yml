@@ -11,9 +11,9 @@ nav:
     - WEB:
       - AI.md
       - Computing.md
-        - mythic-beasts: src/mythic-beasts.md
-      - "Flask": Flask/README.md
-      - "Utilties": Utilities.md
+        - "mythic-beasts": src/mythic-beasts.md
+      - Flask: Flask/README.md
+      - Utilties: Utilities.md
 theme:
     name: mkdocs
     nav_style: dark
