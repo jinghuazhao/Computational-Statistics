@@ -21,6 +21,7 @@
     - HuggingChat, <https://huggingface.co/chat/>
     - Llama-3.3-70B-Instruct, <https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct>
     - Models, <https://huggingface.co/models>
+- Keras, <https://keras.io/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
 - Meta, <https://www.facebook.com/business>
     - Llama, <https://www.llama.com/> ([terms](https://ai.meta.com/llama/license/))
