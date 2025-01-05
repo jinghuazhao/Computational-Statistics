@@ -27,13 +27,13 @@ head(data,1)
 
 plbr <- plumber::Plumber$new()
 plbr$handle("GET", "/data", function(req, res) {
-  filename <- req$args$filename
+  protein <- req$args$protein
   region <- req$args$region
-  if (is.null(filename) || is.null(region)) {
+  if (is.null(protein) || is.null(region)) {
     res$status <- 400
-    return(list(error = "Both 'filename' and 'region' must be provided"))
+    return(list(error = "Both 'protein' and 'region' must be provided"))
   }
-  filename <- file.path("METAL_dr",filename)
+  filename <- file.path("METAL_dr",paste0(protein,"_dr-1.tbl.gz"))
   print(filename)
   if (!file.exists(filename)) {
     res$status <- 404
@@ -64,5 +64,5 @@ Running swagger Docs at http://127.0.0.1:8001/__docs__/
 
 So we get query results in JSON format from
 
-- **browser**: http://localhost:8001/data?filename=ZPI_dr-1.tbl.gz&region=1:10000-20000
-- **curl**: curl "http://localhost:8001/data?filename=ZPI_dr-1.tbl.gz&region=1:10000-20000"
+- **browser**: http://localhost:8001/data?protein=ZPI&region=1:10000-20000
+- **curl**: curl "http://localhost:8001/data?protein=ZPI&region=1:10000-20000"
