@@ -14,6 +14,7 @@ nav:
         - "Computing resources": Computing.md
         - mythic-beasts: src/mythic-beasts.md
       - Flask: Flask/README.md
+      - plumber: plumber.md
       - Utilties: Utilities.md
 theme:
     name: mkdocs
