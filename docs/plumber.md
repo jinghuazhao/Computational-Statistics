@@ -13,8 +13,8 @@ get_data <- function(filename, region)
     stop(paste("File", filename, "not found"))
   }
   query_result <- seqminer::tabix.read(filename, region)
-  hdr <- c("Chromosome", "Position", "MarkerName", "Allele1", "Allele2", "Freq1", "FreqSE", "MinFreq", 
-           "MaxFreq", "Effect", "StdErr", "logP", "Direction", "HetISq", "HetChiSq", "HetDf", "logHetP", "N")
+  hdr <- c("Chromosome", "Position", "MarkerName", "Allele1", "Allele2", "Freq1", "FreqSE", "MinFreq", "MaxFreq",
+           "Effect", "StdErr", "logP", "Direction", "HetISq", "HetChiSq", "HetDf", "logHetP", "N")
   df <- read.table(text = paste(query_result, collapse = "\n"), sep = "\t", col.names=hdr)
   return(df)
 }
