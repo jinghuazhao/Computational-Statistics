@@ -40,7 +40,7 @@ plbr$handle("GET", "/data", function(req, res) {
     return(list(error = paste("File", filename, "not found")))
   }
   data <- get_data(filename, region)
-  json_data <- toJSON(data, dataframe = "rows")
+  json_data <- toJSON(data, dataframe = "rows", na = "null")
   res$setHeader("Content-Type", "application/json")
   return(json_data)
 })
