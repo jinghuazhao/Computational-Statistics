@@ -185,7 +185,7 @@ plbr$handle(&quot;GET&quot;, &quot;/data&quot;, function(req, res) {
     return(list(error = paste(&quot;File&quot;, filename, &quot;not found&quot;)))
   }
   data &lt;- get_data(filename, region)
-  json_data &lt;- toJSON(data, dataframe = &quot;rows&quot;)
+  json_data &lt;- toJSON(data, dataframe = &quot;rows&quot;, na = &quot;null&quot;)
   res$setHeader(&quot;Content-Type&quot;, &quot;application/json&quot;)
   return(json_data)
 })
