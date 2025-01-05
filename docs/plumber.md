@@ -64,5 +64,5 @@ Running swagger Docs at http://127.0.0.1:8001/__docs__/
 
 So we get query results in JSON format from
 
-- browser: http://localhost:8001/data?filename=ZPI_dr-1.tbl.gz&region=1:10000-20000
-- curl: curl "http://localhost:8001/data?filename=ZPI_dr-1.tbl.gz&region=1:10000-20000"
+- **browser**: http://localhost:8001/data?filename=ZPI_dr-1.tbl.gz&region=1:10000-20000
+- **curl**: curl "http://localhost:8001/data?filename=ZPI_dr-1.tbl.gz&region=1:10000-20000"
