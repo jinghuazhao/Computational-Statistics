@@ -1,4 +1,6 @@
-# ChatGPT under Flask
+# Flask
+
+Considerable coverage has been given on Flask, e.g., <https://cambridge-ceu.github.io/GitHub-matters/Flask/>, and WSGI is touched upon here, <https://cambridge-ceu.github.io/CEU-matters/Flask/>.
 
 As ususal, this is furnished with [`app.py`](app.py) and [`config.py`](config.py) with [`templates`](templates) in its simplest form.
 
@@ -29,4 +31,4 @@ Press CTRL+C to quit
 127.0.0.1 - - [05/Dec/2024 21:48:34] "GET / HTTP/1.1" 200 -
 ```
 
-Considerable coverage has been given on Flask, e.g., <https://cambridge-ceu.github.io/GitHub-matters/Flask/>, and WSGI is touched upon here, <https://cambridge-ceu.github.io/CEU-matters/Flask/>.
+Note that we actually showcase a API for ChatGPT.
