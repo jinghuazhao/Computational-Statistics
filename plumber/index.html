@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>REPRODUCE - Computational Statistics</title>
+        <title>plumber - Computational Statistics</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -51,13 +51,13 @@
                             <li class="navitem">
                                 <a href="../PARALLEL/" class="nav-link">PARALLEL</a>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">REPRODUCE</a>
+                            <li class="navitem">
+                                <a href="../REPRODUCE/" class="nav-link">REPRODUCE</a>
                             </li>
                             <li class="navitem">
                                 <a href="../SYSTEMS/" class="nav-link">SYSTEMS</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">WEB <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -84,7 +84,7 @@
 </li>
                                     
 <li>
-    <a href="../plumber/" class="dropdown-item">plumber</a>
+    <a href="./" class="dropdown-item active">plumber</a>
 </li>
                                     
 <li>
@@ -101,12 +101,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../PARALLEL/" class="nav-link">
+                                <a rel="prev" href="../Flask/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../SYSTEMS/" class="nav-link">
+                                <a rel="next" href="../Utilities/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -131,20 +131,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#reproducible-research" class="nav-link">Reproducible research</a>
+            <li class="nav-item" data-level="1"><a href="#plumber-an-api-generator-in-r" class="nav-link">plumber -- An API generator in R</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#bookmarks-for-pdf" class="nav-link">bookmarks for PDF</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#quarto" class="nav-link">quarto</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#reference" class="nav-link">Reference</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -152,83 +140,64 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="reproducible-research">Reproducible research</h1>
-<p>a.k.a Literate programming.</p>
+<h1 id="plumber-an-api-generator-in-r">plumber -- An API generator in R</h1>
+<pre><code class="language-r">library(plumber)
+library(seqminer)
+library(jsonlite)
+
+get_data &lt;- function(filename, region)
+{
+  if (!file.exists(filename)) {
+    stop(paste(&quot;File&quot;, filename, &quot;not found&quot;))
+  }
+  query_result &lt;- seqminer::tabix.read(filename, region)
+  hdr &lt;- c(&quot;Chromosome&quot;, &quot;Position&quot;, &quot;MarkerName&quot;, &quot;Allele1&quot;, &quot;Allele2&quot;, &quot;Freq1&quot;, &quot;FreqSE&quot;, &quot;MinFreq&quot;, 
+           &quot;MaxFreq&quot;, &quot;Effect&quot;, &quot;StdErr&quot;, &quot;logP&quot;, &quot;Direction&quot;, &quot;HetISq&quot;, &quot;HetChiSq&quot;, &quot;HetDf&quot;, &quot;logHetP&quot;, &quot;N&quot;)
+  df &lt;- read.table(text = paste(query_result, collapse = &quot;\n&quot;), sep = &quot;\t&quot;, col.names=hdr)
+  return(df)
+}
+
+options(width = 200)
+filename &lt;- file.path(&quot;METAL_dr&quot;,&quot;ZPI_dr-1.tbl.gz&quot;)
+region &lt;- &quot;1:10000-20000&quot;
+data &lt;- get_data(filename, region)
+head(data,1)
+
+plbr &lt;- plumber::Plumber$new()
+plbr$handle(&quot;GET&quot;, &quot;/data&quot;, function(req, res) {
+  filename &lt;- req$args$filename
+  region &lt;- req$args$region
+  if (is.null(filename) || is.null(region)) {
+    res$status &lt;- 400
+    return(list(error = &quot;Both 'filename' and 'region' must be provided&quot;))
+  }
+  filename &lt;- file.path(&quot;METAL_dr&quot;,filename)
+  print(filename)
+  if (!file.exists(filename)) {
+    res$status &lt;- 404
+    return(list(error = paste(&quot;File&quot;, filename, &quot;not found&quot;)))
+  }
+  data &lt;- get_data(filename, region)
+  json_data &lt;- toJSON(data, dataframe = &quot;rows&quot;)
+  res$setHeader(&quot;Content-Type&quot;, &quot;application/json&quot;)
+  return(json_data)
+})
+plbr$run(port = 8001)
+</code></pre>
+<p>We see that,</p>
+<pre><code>&gt; head(data,1)
+  Chromosome Position   MarkerName Allele1 Allele2  Freq1 FreqSE MinFreq MaxFreq      Effect    StdErr  logP Direction HetISq HetChiSq HetDf logHetP    N
+1          1    10352 1:10352_T_TA       t      ta 0.6147 0.0038  0.6122  0.6273 -0.05283738 0.0335632 -0.94    +--???    5.2    2.109     2 -0.4579 2491
+</code></pre>
+<p>and</p>
+<pre><code>Running plumber API at http://127.0.0.1:8001
+Running swagger Docs at http://127.0.0.1:8001/__docs__/
+</code></pre>
+<p>So we get query results in JSON format from</p>
 <ul>
-<li><a href="https://github.com/rstudio/bookdown">bookdown</a>.</li>
-<li><a href="https://www-cs-faculty.stanford.edu/~knuth/cweb.html">CWEB</a>.</li>
-<li><a href="https://jupyter.org/">Jupyter</a>.</li>
-<li><a href="https://yihui.org/knitr/">knitr</a>.</li>
-<li><a href="https://github.com/nrnrnr/noweb">noweb</a> and its <a href="https://www.cs.tufts.edu/~nr/noweb/">Tufts site</a>.</li>
-<li><a href="http://mpastell.com/pweave/">Pweave and ptangle</a>.</li>
-<li><a href="https://www.rdocumentation.org/packages/utils/versions/3.6.0/topics/Sweave">Sweave and Stangle</a>.</li>
-</ul>
-<p>An attempt to model reproducibility is Conceptualizing Reproducibility Using Simulations and Theory (<a href="https://github.com/gnardin/CRUST">CRUST</a>).</p>
-<h2 id="bookmarks-for-pdf">bookmarks for PDF</h2>
-<p>To install for Ubuntu, </p>
-<pre><code class="language-bash">sudo snap install pdftk       # version 2.02-4, or
-sudo apt  install pdftk-java  # version 3.2.2-1
-</code></pre>
-<p>and for Fedora, <code>sudo dnf install pdftk-java</code>.</p>
-<pre><code class="language-bash">pdftk src.pdf dump_data output bookmarks.txt
-pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
-</code></pre>
-<h2 id="quarto">quarto</h2>
-<p>This is extensively documented under Linux, <a href="https://cambridge-ceu.github.io/csd3/applications/quarto.html">https://cambridge-ceu.github.io/csd3/applications/quarto.html</a>.</p>
-<p>Under Windows, however it is simpler which involves these steps</p>
-<ol>
-<li>
-<p>Install R, e.g., R-4.3.1</p>
-<blockquote>
-<p>Optionally, one installs RStudio or Visual Studio Code (Extension Quarto available, ctrl-+/- to enlarge/shrink fonts).</p>
-</blockquote>
-</li>
-<li>
-<p>Install python from <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
-<blockquote>
-<p><code>rem  Program files\quarto\bin\tools
-deno upgrade
-py -m pip install tinytex
-py -m pip install jupyter
-py -m pip install numpy
-py -m pip install matplotlib</code></p>
-</blockquote>
-</li>
-<li>
-<p>Install quarto, e.g., quato-1.3.450, from <a href="https://quarto.org">https://quarto.org</a></p>
-</li>
-</ol>
-<p>Now we intend to render <code>matplotlib.qmd</code> adapted from <a href="https://quarto.org">https://quarto.org</a>, rendered by <code>quarto render matplotlib.qmd</code>.</p>
-<div class="sourceCode" id="cb"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb-1"><a href="#cb-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb-2"><a href="#cb-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "matplotlib demo"</span></span>
-<span id="cb-3"><a href="#cb-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
-<span id="cb-4"><a href="#cb-4" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
-<span id="cb-5"><a href="#cb-5" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
-<span id="cb-6"><a href="#cb-6" aria-hidden="true" tabindex="-1"></a><span class="an">jupyter:</span><span class="co"> python3</span></span>
-<span id="cb-7"><a href="#cb-7" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb-8"><a href="#cb-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb-9"><a href="#cb-9" aria-hidden="true" tabindex="-1"></a>For a demonstration of a line plot on a polar axis, see @fig-polar.</span>
-<span id="cb-10"><a href="#cb-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb-11"><a href="#cb-11" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
-<span id="cb-12"><a href="#cb-12" aria-hidden="true" tabindex="-1"></a><span class="in">#| label: fig-polar</span></span>
-<span id="cb-13"><a href="#cb-13" aria-hidden="true" tabindex="-1"></a><span class="in">#| fig-cap: "A line plot on a polar axis"</span></span>
-<span id="cb-14"><a href="#cb-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb-15"><a href="#cb-15" aria-hidden="true" tabindex="-1"></a><span class="in">import numpy as np</span></span>
-<span id="cb-16"><a href="#cb-16" aria-hidden="true" tabindex="-1"></a><span class="in">import matplotlib.pyplot as plt</span></span>
-<span id="cb-17"><a href="#cb-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb-18"><a href="#cb-18" aria-hidden="true" tabindex="-1"></a><span class="in">r = np.arange(0, 2, 0.01)</span></span>
-<span id="cb-19"><a href="#cb-19" aria-hidden="true" tabindex="-1"></a><span class="in">theta = 2 * np.pi * r</span></span>
-<span id="cb-20"><a href="#cb-20" aria-hidden="true" tabindex="-1"></a><span class="in">fig, ax = plt.subplots(</span></span>
-<span id="cb-21"><a href="#cb-21" aria-hidden="true" tabindex="-1"></a><span class="in">  subplot_kw = {'projection': 'polar'} </span></span>
-<span id="cb-22"><a href="#cb-22" aria-hidden="true" tabindex="-1"></a><span class="in">)</span></span>
-<span id="cb-23"><a href="#cb-23" aria-hidden="true" tabindex="-1"></a><span class="in">ax.plot(theta, r)</span></span>
-<span id="cb-24"><a href="#cb-24" aria-hidden="true" tabindex="-1"></a><span class="in">ax.set_rticks([0.5, 1, 1.5, 2])</span></span>
-<span id="cb-25"><a href="#cb-25" aria-hidden="true" tabindex="-1"></a><span class="in">ax.grid(True)</span></span>
-<span id="cb-26"><a href="#cb-26" aria-hidden="true" tabindex="-1"></a><span class="in">plt.show()</span></span>
-<span id="cb-27"><a href="#cb-27" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-</div>
-<h2 id="reference">Reference</h2>
-<p>Devezer B, Nardin LG, Baumgaertner B, Buzbas EO. Scientific discovery in a model-centric framework: Reproducibility, innovation, and epistemic diversity. <em>PLoS One</em>. 2019 May 15;14(5):e0216125. doi: 10.1371/journal.pone.0216125. eCollection 2019.</p></div>
+<li>browser: http://localhost:8001/data?filename=ZPI_dr-1.tbl.gz&amp;region=1:10000-20000</li>
+<li>curl: curl "http://localhost:8001/data?filename=ZPI_dr-1.tbl.gz&amp;region=1:10000-20000"</li>
+</ul></div>
             </div>
         </div>
 
