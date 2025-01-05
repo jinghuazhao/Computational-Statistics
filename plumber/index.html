@@ -166,13 +166,13 @@ head(data,1)
 
 plbr &lt;- plumber::Plumber$new()
 plbr$handle(&quot;GET&quot;, &quot;/data&quot;, function(req, res) {
-  filename &lt;- req$args$filename
+  protein &lt;- req$args$protein
   region &lt;- req$args$region
-  if (is.null(filename) || is.null(region)) {
+  if (is.null(protein) || is.null(region)) {
     res$status &lt;- 400
-    return(list(error = &quot;Both 'filename' and 'region' must be provided&quot;))
+    return(list(error = &quot;Both 'protein' and 'region' must be provided&quot;))
   }
-  filename &lt;- file.path(&quot;METAL_dr&quot;,filename)
+  filename &lt;- file.path(&quot;METAL_dr&quot;,paste0(protein,&quot;_dr-1.tbl.gz&quot;))
   print(filename)
   if (!file.exists(filename)) {
     res$status &lt;- 404
@@ -196,8 +196,8 @@ Running swagger Docs at http://127.0.0.1:8001/__docs__/
 </code></pre>
 <p>So we get query results in JSON format from</p>
 <ul>
-<li><strong>browser</strong>: http://localhost:8001/data?filename=ZPI_dr-1.tbl.gz&amp;region=1:10000-20000</li>
-<li><strong>curl</strong>: curl "http://localhost:8001/data?filename=ZPI_dr-1.tbl.gz&amp;region=1:10000-20000"</li>
+<li><strong>browser</strong>: http://localhost:8001/data?protein=ZPI&amp;region=1:10000-20000</li>
+<li><strong>curl</strong>: curl "http://localhost:8001/data?protein=ZPI&amp;region=1:10000-20000"</li>
 </ul></div>
             </div>
         </div>
