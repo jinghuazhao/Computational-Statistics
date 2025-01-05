@@ -204,7 +204,23 @@ Running swagger Docs at http://127.0.0.1:8001/__docs__/
 <ul>
 <li><strong>browser</strong>: http://localhost:8001/data?protein=ZPI&amp;region=1:10000-20000</li>
 <li><strong>curl</strong>: curl "http://localhost:8001/data?protein=ZPI&amp;region=1:10000-20000"</li>
-</ul></div>
+</ul>
+<p>Some additional work is needed to get output from <code>curl</code> to a tab-delimited data,</p>
+<pre><code class="language-bash">curl &quot;http://localhost:8001/data?protein=APOB&amp;region=1:10000-20000&quot; | jq -r '.[0] | fromjson | .[] |
+  [
+    .Chromosome, .Position, .MarkerName, .Allele1, .Allele2, .Freq1,
+    .Effect, .StdErr, .logP, .Direction, .HetISq, .HetChiSq, .HetDf, .logHetP, .N
+  ] | @tsv'
+</code></pre>
+<p>Explanation:</p>
+<ol>
+<li>.[0]: Access the first element in the outer array (the string containing the JSON).</li>
+<li>fromjson: Parse the string into a proper JSON object.</li>
+<li>.[]: Iterate over the array inside the parsed JSON.</li>
+<li>[ ... ]: Create an array of the values you want in your TSV output. Each value inside the array corresponds to a column in the TSV file.</li>
+<li>@tsv: Convert the array into tab-separated values.</li>
+</ol>
+<p>Note also that only selected columns are kept.</p></div>
             </div>
         </div>
 
