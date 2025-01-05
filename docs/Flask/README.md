@@ -31,4 +31,4 @@ Press CTRL+C to quit
 127.0.0.1 - - [05/Dec/2024 21:48:34] "GET / HTTP/1.1" 200 -
 ```
 
-Note that we actually showcase a API for ChatGPT.
+Note that we actually showcase an API for ChatGPT.
