@@ -152,8 +152,8 @@ get_data &lt;- function(filename, region)
     stop(paste(&quot;File&quot;, filename, &quot;not found&quot;))
   }
   query_result &lt;- seqminer::tabix.read(filename, region)
-  hdr &lt;- c(&quot;Chromosome&quot;, &quot;Position&quot;, &quot;MarkerName&quot;, &quot;Allele1&quot;, &quot;Allele2&quot;, &quot;Freq1&quot;, &quot;FreqSE&quot;, &quot;MinFreq&quot;, 
-           &quot;MaxFreq&quot;, &quot;Effect&quot;, &quot;StdErr&quot;, &quot;logP&quot;, &quot;Direction&quot;, &quot;HetISq&quot;, &quot;HetChiSq&quot;, &quot;HetDf&quot;, &quot;logHetP&quot;, &quot;N&quot;)
+  hdr &lt;- c(&quot;Chromosome&quot;, &quot;Position&quot;, &quot;MarkerName&quot;, &quot;Allele1&quot;, &quot;Allele2&quot;, &quot;Freq1&quot;, &quot;FreqSE&quot;, &quot;MinFreq&quot;, &quot;MaxFreq&quot;,
+           &quot;Effect&quot;, &quot;StdErr&quot;, &quot;logP&quot;, &quot;Direction&quot;, &quot;HetISq&quot;, &quot;HetChiSq&quot;, &quot;HetDf&quot;, &quot;logHetP&quot;, &quot;N&quot;)
   df &lt;- read.table(text = paste(query_result, collapse = &quot;\n&quot;), sep = &quot;\t&quot;, col.names=hdr)
   return(df)
 }
