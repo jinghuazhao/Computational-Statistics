@@ -66,17 +66,18 @@ So we get query results in JSON format from
 - **browser**: http://localhost:8001/data?protein=ZPI&region=1:10000-20000
 - **curl**: curl "http://localhost:8001/data?protein=ZPI&region=1:10000-20000"
 
-Some additional work is needed to get output from `curl` to a tab-delimited data,
+Additional work required to get output from `curl` to a tab-delimited data,
 
 ```bash
-curl "http://localhost:8001/data?protein=APOB&region=1:10000-20000" | jq -r '.[0] | fromjson | .[] |
+curl "http://localhost:8001/data?protein=APOB&region=1:10000-20000" | \
+jq -r '.[0] | fromjson | .[] |
   [
     .Chromosome, .Position, .MarkerName, .Allele1, .Allele2, .Freq1,
     .Effect, .StdErr, .logP, .Direction, .HetISq, .HetChiSq, .HetDf, .logHetP, .N
   ] | @tsv'
 ```
 
-Explanation:
+where
 
 1. .[0]: Access the first element in the outer array (the string containing the JSON).
 2. fromjson: Parse the string into a proper JSON object.
@@ -84,18 +85,12 @@ Explanation:
 4. [ ... ]: Create an array of the values you want in your TSV output. Each value inside the array corresponds to a column in the TSV file.
 5. @tsv: Convert the array into tab-separated values.
 
-Note also that only selected columns (as in 4) are kept. We could also manually add the header as follows,
+Note also that only selected columns (as in 4) are kept. The simplest way to have the header is add it manually,
 
 ```bash
 (
-  echo -e "Chromosome\tPosition\tMarkerName\tAllele1\tAllele2\tFreq1\tEffect\tStdErr\tlogP\tDirection\tHetISq\tHetChiSq\tHetDf\tlogHetP\tN"
-  curl "http://localhost:8001/data?protein=APOB&region=1:10000-20000" | \
-  jq -r '
-    .[0] | fromjson | .[] |
-    [
-      .Chromosome, .Position, .MarkerName, .Allele1, .Allele2, .Freq1,
-      .Effect, .StdErr, .logP, .Direction, .HetISq, .HetChiSq, .HetDf, .logHetP, .N
-    ] | @tsv
-  '
+  echo "Chromosome|Position|MarkerName|Allele1|Allele2|Freq1|Effect|StdErr|logP|Direction|HetISq|HetChiSq|HetDf|logHetP|N" | \
+  sed 's/|/\t/g'
+  curl command as above.
 )
 ```
