@@ -13,8 +13,10 @@ get_data <- function(filename, region)
     stop(paste("File", filename, "not found"))
   }
   query_result <- seqminer::tabix.read(filename, region)
-  hdr <- c("Chromosome", "Position", "MarkerName", "Allele1", "Allele2", "Freq1", "FreqSE", "MinFreq", "MaxFreq",
-           "Effect", "StdErr", "logP", "Direction", "HetISq", "HetChiSq", "HetDf", "logHetP", "N")
+  hdr <- c("Chromosome", "Position",
+           "MarkerName", "Allele1", "Allele2", "Freq1", "FreqSE", "MinFreq", "MaxFreq",
+           "Effect", "StdErr", "logP",
+           "Direction", "HetISq", "HetChiSq", "HetDf", "logHetP", "N")
   df <- read.table(text = paste(query_result, collapse = "\n"), sep = "\t", col.names=hdr)
   return(df)
 }
@@ -85,4 +87,18 @@ Explanation:
 4. [ ... ]: Create an array of the values you want in your TSV output. Each value inside the array corresponds to a column in the TSV file.
 5. @tsv: Convert the array into tab-separated values.
 
-Note also that only selected columns are kept.
+Note also that only selected columns (as in 4) are kept. We could also manually add the header as follows,
+
+```bash
+(
+  echo -e "Chromosome\tPosition\tMarkerName\tAllele1\tAllele2\tFreq1\tEffect\tStdErr\tlogP\tDirection\tHetISq\tHetChiSq\tHetDf\tlogHetP\tN"
+  curl "http://localhost:8001/data?protein=APOB&region=1:10000-20000" | \
+  jq -r '
+    .[0] | fromjson | .[] |
+    [
+      .Chromosome, .Position, .MarkerName, .Allele1, .Allele2, .Freq1,
+      .Effect, .StdErr, .logP, .Direction, .HetISq, .HetChiSq, .HetDf, .logHetP, .N
+    ] | @tsv
+  '
+)
+```
