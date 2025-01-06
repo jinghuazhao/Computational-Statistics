@@ -158,8 +158,10 @@ get_data &lt;- function(filename, region)
     stop(paste(&quot;File&quot;, filename, &quot;not found&quot;))
   }
   query_result &lt;- seqminer::tabix.read(filename, region)
-  hdr &lt;- c(&quot;Chromosome&quot;, &quot;Position&quot;, &quot;MarkerName&quot;, &quot;Allele1&quot;, &quot;Allele2&quot;, &quot;Freq1&quot;, &quot;FreqSE&quot;, &quot;MinFreq&quot;, &quot;MaxFreq&quot;,
-           &quot;Effect&quot;, &quot;StdErr&quot;, &quot;logP&quot;, &quot;Direction&quot;, &quot;HetISq&quot;, &quot;HetChiSq&quot;, &quot;HetDf&quot;, &quot;logHetP&quot;, &quot;N&quot;)
+  hdr &lt;- c(&quot;Chromosome&quot;, &quot;Position&quot;,
+           &quot;MarkerName&quot;, &quot;Allele1&quot;, &quot;Allele2&quot;, &quot;Freq1&quot;, &quot;FreqSE&quot;, &quot;MinFreq&quot;, &quot;MaxFreq&quot;,
+           &quot;Effect&quot;, &quot;StdErr&quot;, &quot;logP&quot;,
+           &quot;Direction&quot;, &quot;HetISq&quot;, &quot;HetChiSq&quot;, &quot;HetDf&quot;, &quot;logHetP&quot;, &quot;N&quot;)
   df &lt;- read.table(text = paste(query_result, collapse = &quot;\n&quot;), sep = &quot;\t&quot;, col.names=hdr)
   return(df)
 }
@@ -220,7 +222,19 @@ Running swagger Docs at http://127.0.0.1:8001/__docs__/
 <li>[ ... ]: Create an array of the values you want in your TSV output. Each value inside the array corresponds to a column in the TSV file.</li>
 <li>@tsv: Convert the array into tab-separated values.</li>
 </ol>
-<p>Note also that only selected columns are kept.</p></div>
+<p>Note also that only selected columns (as in 4) are kept. We could also manually add the header as follows,</p>
+<pre><code class="language-bash">(
+  echo -e &quot;Chromosome\tPosition\tMarkerName\tAllele1\tAllele2\tFreq1\tEffect\tStdErr\tlogP\tDirection\tHetISq\tHetChiSq\tHetDf\tlogHetP\tN&quot;
+  curl &quot;http://localhost:8001/data?protein=APOB&amp;region=1:10000-20000&quot; | \
+  jq -r '
+    .[0] | fromjson | .[] |
+    [
+      .Chromosome, .Position, .MarkerName, .Allele1, .Allele2, .Freq1,
+      .Effect, .StdErr, .logP, .Direction, .HetISq, .HetChiSq, .HetDf, .logHetP, .N
+    ] | @tsv
+  '
+)
+</code></pre></div>
             </div>
         </div>
 
