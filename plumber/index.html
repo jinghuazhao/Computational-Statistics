@@ -204,14 +204,15 @@ Running swagger Docs at http://127.0.0.1:8001/__docs__/
 <li><strong>browser</strong>: http://localhost:8001/data?protein=ZPI&amp;region=1:10000-20000</li>
 <li><strong>curl</strong>: curl "http://localhost:8001/data?protein=ZPI&amp;region=1:10000-20000"</li>
 </ul>
-<p>Some additional work is needed to get output from <code>curl</code> to a tab-delimited data,</p>
-<pre><code class="language-bash">curl &quot;http://localhost:8001/data?protein=APOB&amp;region=1:10000-20000&quot; | jq -r '.[0] | fromjson | .[] |
+<p>Additional work required to get output from <code>curl</code> to a tab-delimited data,</p>
+<pre><code class="language-bash">curl &quot;http://localhost:8001/data?protein=APOB&amp;region=1:10000-20000&quot; | \
+jq -r '.[0] | fromjson | .[] |
   [
     .Chromosome, .Position, .MarkerName, .Allele1, .Allele2, .Freq1,
     .Effect, .StdErr, .logP, .Direction, .HetISq, .HetChiSq, .HetDf, .logHetP, .N
   ] | @tsv'
 </code></pre>
-<p>Explanation:</p>
+<p>where</p>
 <ol>
 <li>.[0]: Access the first element in the outer array (the string containing the JSON).</li>
 <li>fromjson: Parse the string into a proper JSON object.</li>
@@ -219,17 +220,11 @@ Running swagger Docs at http://127.0.0.1:8001/__docs__/
 <li>[ ... ]: Create an array of the values you want in your TSV output. Each value inside the array corresponds to a column in the TSV file.</li>
 <li>@tsv: Convert the array into tab-separated values.</li>
 </ol>
-<p>Note also that only selected columns (as in 4) are kept. We could also manually add the header as follows,</p>
+<p>Note also that only selected columns (as in 4) are kept. The simplest way to have the header is add it manually,</p>
 <pre><code class="language-bash">(
-  echo -e &quot;Chromosome\tPosition\tMarkerName\tAllele1\tAllele2\tFreq1\tEffect\tStdErr\tlogP\tDirection\tHetISq\tHetChiSq\tHetDf\tlogHetP\tN&quot;
-  curl &quot;http://localhost:8001/data?protein=APOB&amp;region=1:10000-20000&quot; | \
-  jq -r '
-    .[0] | fromjson | .[] |
-    [
-      .Chromosome, .Position, .MarkerName, .Allele1, .Allele2, .Freq1,
-      .Effect, .StdErr, .logP, .Direction, .HetISq, .HetChiSq, .HetDf, .logHetP, .N
-    ] | @tsv
-  '
+  echo &quot;Chromosome|Position|MarkerName|Allele1|Allele2|Freq1|Effect|StdErr|logP|Direction|HetISq|HetChiSq|HetDf|logHetP|N&quot; | \
+  sed 's/|/\t/g'
+  curl command as above.
 )
 </code></pre></div>
             </div>
