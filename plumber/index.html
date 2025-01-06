@@ -154,9 +154,6 @@ library(jsonlite)
 
 get_data &lt;- function(filename, region)
 {
-  if (!file.exists(filename)) {
-    stop(paste(&quot;File&quot;, filename, &quot;not found&quot;))
-  }
   query_result &lt;- seqminer::tabix.read(filename, region)
   hdr &lt;- c(&quot;Chromosome&quot;, &quot;Position&quot;,
            &quot;MarkerName&quot;, &quot;Allele1&quot;, &quot;Allele2&quot;, &quot;Freq1&quot;, &quot;FreqSE&quot;, &quot;MinFreq&quot;, &quot;MaxFreq&quot;,
@@ -184,7 +181,7 @@ plbr$handle(&quot;GET&quot;, &quot;/data&quot;, function(req, res) {
   print(filename)
   if (!file.exists(filename)) {
     res$status &lt;- 404
-    return(list(error = paste(&quot;File&quot;, filename, &quot;not found&quot;)))
+    return(list(error = paste(&quot;File for&quot;, protein, &quot;not found&quot;)))
   }
   data &lt;- get_data(filename, region)
   json_data &lt;- toJSON(data, dataframe = &quot;rows&quot;, na = &quot;null&quot;)
