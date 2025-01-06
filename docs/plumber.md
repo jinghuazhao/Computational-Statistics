@@ -9,9 +9,6 @@ library(jsonlite)
 
 get_data <- function(filename, region)
 {
-  if (!file.exists(filename)) {
-    stop(paste("File", filename, "not found"))
-  }
   query_result <- seqminer::tabix.read(filename, region)
   hdr <- c("Chromosome", "Position",
            "MarkerName", "Allele1", "Allele2", "Freq1", "FreqSE", "MinFreq", "MaxFreq",
@@ -39,7 +36,7 @@ plbr$handle("GET", "/data", function(req, res) {
   print(filename)
   if (!file.exists(filename)) {
     res$status <- 404
-    return(list(error = paste("File", filename, "not found")))
+    return(list(error = paste("File for", protein, "not found")))
   }
   data <- get_data(filename, region)
   json_data <- toJSON(data, dataframe = "rows", na = "null")
