@@ -17,6 +17,9 @@
     - Colab, <https://colab.research.google.com/>
     - DeepMind, <https://deepmind.google/>
     - Gemini, <https://gemini.google.com/>
+- Gymnasium at Farama Foundation
+    - GitHub, <https://github.com/Farama-Foundation/Gymnasium>
+    - Web site, <https://gymnasium.farama.org/>
 - Hugging Face, <https://huggingface.co>
     - Datasets, <https://huggingface.co/datasets>
     - HuggingChat, <https://huggingface.co/chat/>
