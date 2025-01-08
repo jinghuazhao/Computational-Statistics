@@ -8,6 +8,7 @@
     - LMSYS Org, <https://lmsys.org/>
     - Chatbot Arena, <https://lmarena.ai/>
 - ChatPDF, <https://www.chatpdf.com/>
+- Cohere, <https://cohere.com/>
 - Crayon, <https://www.craiyon.com/>
 - DeepSeek AI,
     - GitHub, <https://github.com/deepseek-ai/DeepSeek-V3> ([blog](https://venturebeat.com/ai/deepseek-v3-ultra-large-open-source-ai-outperforms-llama-and-qwen-on-launch/))
