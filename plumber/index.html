@@ -139,6 +139,14 @@
             
             <li class="nav-item" data-level="1"><a href="#plumber" class="nav-link">plumber</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#setup" class="nav-link">Setup</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#httpuv" class="nav-link">httpuv</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -148,6 +156,8 @@
 
 <h1 id="plumber">plumber</h1>
 <p>It is labelled as <code>an API generator in R</code>, which has tested through Caprion data as follows.</p>
+<h2 id="setup">Setup</h2>
+<p>As noted elsewhere, <code>libsodium</code> is required for installation of the R package.</p>
 <pre><code class="language-r">library(plumber)
 library(seqminer)
 library(jsonlite)
@@ -229,6 +239,38 @@ jq -r '.[0] |
   sed 's/|/\t/g'
   curl command as above.
 )
+</code></pre>
+<h2 id="httpuv">httpuv</h2>
+<p>This is alternative to <code>plumber</code>,</p>
+<pre><code class="language-r">library(httpuv)
+s &lt;- startServer(&quot;0.0.0.0&quot;, 5000,
+  list(
+    call = function(req) {
+      list(
+        status = 200L,
+        headers = list(
+          'Content-Type' = 'text/html',
+          'Access-Control-Allow-Origin' = '*',
+          'Access-Control-Allow-Methods' = 'GET, POST, OPTIONS',
+          'Access-Control-Allow-Headers' = 'Content-Type'
+        ),
+        body = &quot;Hello world!&quot;
+      )
+    },
+    staticPaths = list(
+      &quot;/assets&quot; = &quot;content/assets/&quot;,
+      &quot;/lib&quot; = staticPath(
+        &quot;content/lib&quot;,
+        indexhtml = FALSE
+      ),
+      &quot;/lib/dynamic&quot; = excludeStaticPath()
+    ),
+    staticPathOptions = staticPathOptions(
+      indexhtml = TRUE
+    )
+  )
+)
+$stop()
 </code></pre></div>
             </div>
         </div>
