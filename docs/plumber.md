@@ -1,6 +1,6 @@
 # plumber
 
-It is labelled as `an API generator in R`, which has tested through Caprion data as follows.
+It is `an API generator in R`, which has been tested through Caprion data as follows.
 
 ## Setup
 
@@ -135,5 +135,5 @@ s <- startServer("0.0.0.0", 5000,
     )
   )
 )
-$stop()
+s$stop()
 ```
