@@ -2,6 +2,10 @@
 
 It is labelled as `an API generator in R`, which has tested through Caprion data as follows.
 
+## Setup
+
+As noted elsewhere, `libsodium` is required for installation of the R package.
+
 ```r
 library(plumber)
 library(seqminer)
@@ -96,4 +100,40 @@ Note also that only selected columns (as in 4) are kept. The simplest way to hav
   sed 's/|/\t/g'
   curl command as above.
 )
+```
+
+## httpuv
+
+This is alternative to `plumber`,
+
+```r
+library(httpuv)
+s <- startServer("0.0.0.0", 5000,
+  list(
+    call = function(req) {
+      list(
+        status = 200L,
+        headers = list(
+          'Content-Type' = 'text/html',
+          'Access-Control-Allow-Origin' = '*',
+          'Access-Control-Allow-Methods' = 'GET, POST, OPTIONS',
+          'Access-Control-Allow-Headers' = 'Content-Type'
+        ),
+        body = "Hello world!"
+      )
+    },
+    staticPaths = list(
+      "/assets" = "content/assets/",
+      "/lib" = staticPath(
+        "content/lib",
+        indexhtml = FALSE
+      ),
+      "/lib/dynamic" = excludeStaticPath()
+    ),
+    staticPathOptions = staticPathOptions(
+      indexhtml = TRUE
+    )
+  )
+)
+$stop()
 ```
