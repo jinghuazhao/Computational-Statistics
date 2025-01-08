@@ -58,3 +58,4 @@
 - Reka, <https://chat.reka.ai/>
 - Stability AI, <https://stability.ai/>
 - Stable diffusion, <https://github.com/CompVis>
+- xAI, <https://x.ai/>
