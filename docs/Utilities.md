@@ -231,7 +231,7 @@ It is possible to insert citation from an EndNote library, download as RTF more 
 
 ## sphinx
 
-The sequence below follows,  https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html.
+The sequence below follows, <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>.
 ```bash
 module load python/3.6
 virtualenv --system-site-package venv
