@@ -13,7 +13,7 @@
 - Databricks, <https://www.databricks.com/>
 - DeepSeek AI,
     - GitHub, <https://github.com/deepseek-ai/DeepSeek-V3> ([blog](https://venturebeat.com/ai/deepseek-v3-ultra-large-open-source-ai-outperforms-llama-and-qwen-on-launch/))
-    - HuggingFace, <https://huggingface.co/deepseek-ai/DeepSeek-V3-Base>
+    - Hugging Face, <https://huggingface.co/deepseek-ai/DeepSeek-V3-Base>
 - fast.ai, <https://github.com/fastai>
 - Google, <https://www.google.com/>
     - Colab, <https://colab.research.google.com/>
