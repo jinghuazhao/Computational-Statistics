@@ -34,11 +34,13 @@
     - Nougat, <https://facebookresearch.github.io/nougat/>
 - MicroSoft
     - Bing Image Creator, <https://www.bing.com/images/create/>
+    - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://arxiv.org/abs/2412.08905>)
 - Midjourney, <https://www.midjourney.com/home>
 - No-Code LLM App Builders
     - Dify, <https://dify.ai/>
     - Flowwise AI, <https://flowiseai.com/>
     - LangFlow, <https://www.langflow.org/>
+- Ollama, <https://ollama.com/>
 - OpenAI, <https://openai.com/>
     - ChatGPT, <https://chatgpt.com/>
     - CLIP, <https://openai.com/index/clip/>
