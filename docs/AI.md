@@ -36,7 +36,7 @@
     - Nougat, <https://facebookresearch.github.io/nougat/>
 - MicroSoft
     - Bing Image Creator, <https://www.bing.com/images/create/>
-    - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://arxiv.org/abs/2412.08905>)
+    - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://huggingface.co/papers/2412.08905>)
 - Midjourney, <https://www.midjourney.com/home>
 - No-Code LLM App Builders
     - Dify, <https://dify.ai/>
