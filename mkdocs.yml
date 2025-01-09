@@ -11,12 +11,12 @@ nav:
     - WEB:
       - AI.md
       - Computing:
-        - "Computing resources": Computing.md
-        - Utilties: Utilities.md
+        - "Computing resources": Web/Computing.md
+        - Utilties: Web/Utilities.md
       - Internet:
-        - Flask: Flask/README.md
-        - mythic-beasts: src/mythic-beasts.md
-        - plumber: plumber.md
+        - Flask: Web/Flask/README.md
+        - mythic-beasts: Web/mythic-beasts.md
+        - plumber: Web/plumber.md
 theme:
     name: mkdocs
     nav_style: dark
