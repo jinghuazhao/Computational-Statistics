@@ -11,13 +11,12 @@ nav:
       - REPRODUCE: REPRODUCE.md
       - SYSTEMS: SYSTEMS.md
     - RESOURCE:
-      - Computing:
-        - Resources: Web/Computing.md
-        - Utilities: Web/Utilities.md
       - Internet:
         - Flask: Web/Flask/README.md
         - mythic-beasts: Web/mythic-beasts.md
         - plumber: Web/plumber.md
+      - Resources: Web/Computing.md
+      - Utilities: Web/Utilities.md
 theme:
     name: mkdocs
     nav_style: dark
