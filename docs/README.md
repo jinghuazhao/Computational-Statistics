@@ -13,5 +13,5 @@ The repository intends to make it easier to keep pace with releases of Linux sys
     * [SYSTEMS](SYSTEMS.md). System-related materials.
 - RESOURCE
     * Internet. [Flask](Web/Flask/README.md), [mythic-beasts](Web/mythic-beasts.md), [plumber](Web/plumber.md).
-    * [Resources](Web/Computing.md).
+    * [Computing resources](Web/Computing.md).
     * [Utilities](Web/Utilities.md).
