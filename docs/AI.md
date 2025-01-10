@@ -1,4 +1,4 @@
-# AI-related sites
+# AI
 
 - AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
 - Anthropic, <https://www.anthropic.com/>
