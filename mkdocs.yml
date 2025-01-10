@@ -10,7 +10,7 @@ nav:
       - PARALLEL: PARALLEL.md
       - REPRODUCE: REPRODUCE.md
       - SYSTEMS: SYSTEMS.md
-    - RESOURCE:
+    - WEB:
       - Internet:
         - Flask: Web/Flask/README.md
         - mythic-beasts: Web/mythic-beasts.md
