@@ -7,7 +7,7 @@
 - GNU parallel, <https://www.biostars.org/p/63816/>
 - linuxconfig.org, <https://linuxconfig.org/>
 - Linux command, <https://wangchujiang.com/linux-command/>
-- mythic-beasts, <https://www.mythic-beasts.com/> ([A comparison by ChatGPT](Web/mythic-beasts.md))
+- mythic-beasts, <https://www.mythic-beasts.com/> ([A comparison by ChatGPT](mythic-beasts.md))
 - OBI download, <https://www.oracle.com/middleware/technologies/business-intelligence-v12213-downloads.html>
 - SRCF, <https://www.srcf.net/> (site, <https://jhz22.user.srcf.net/>)
 - VirtualBox, <https://www.virtualbox.org/> (all downloads, <https://download.virtualbox.org/virtualbox/>)
