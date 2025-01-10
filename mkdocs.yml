@@ -3,16 +3,17 @@ repo_url: https://github.com/jinghuazhao/Computational-Statistics
 edit_uri: ""
 nav:
     - "": README.md
-    - AI.md
-    - INSTALL: INSTALL.md
-    - LANGUAGES: LANGUAGES.md
-    - PARALLEL: PARALLEL.md
-    - REPRODUCE: REPRODUCE.md
-    - SYSTEMS: SYSTEMS.md
-    - WEB:
+    - AI: AI.md
+    - SETUP:
+      - INSTALL: INSTALL.md
+      - LANGUAGES: LANGUAGES.md
+      - PARALLEL: PARALLEL.md
+      - REPRODUCE: REPRODUCE.md
+      - SYSTEMS: SYSTEMS.md
+    - RESOURCE:
       - Computing:
-        - "Computing resources": Web/Computing.md
-        - Utilties: Web/Utilities.md
+        - Resources: Web/Computing.md
+        - Utilities: Web/Utilities.md
       - Internet:
         - Flask: Web/Flask/README.md
         - mythic-beasts: Web/mythic-beasts.md
