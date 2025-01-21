@@ -12,8 +12,11 @@
 - Crayon, <https://www.craiyon.com/>
 - Databricks, <https://www.databricks.com/>
 - DeepSeek AI,
-    - GitHub, <https://github.com/deepseek-ai/DeepSeek-V3> ([blog](https://venturebeat.com/ai/deepseek-v3-ultra-large-open-source-ai-outperforms-llama-and-qwen-on-launch/))
-    - Hugging Face, <https://huggingface.co/deepseek-ai/DeepSeek-V3-Base>
+    - DeepSeek-R1, <https://github.com/deepseek-ai/DeepSeek-R1>, ([blog](https://analyticsindiamag.com/ai-news-updates/deepseek-crushes-openai-o1-with-an-mit-licensed-model-developers-are-losing-it/))
+    - Chat, <https://chat.deepseek.com/>
+    - DeepSeek-V3
+        - GitHub, <https://github.com/deepseek-ai/DeepSeek-V3> ([blog](https://venturebeat.com/ai/deepseek-v3-ultra-large-open-source-ai-outperforms-llama-and-qwen-on-launch/))
+        - Hugging Face, <https://huggingface.co/deepseek-ai/DeepSeek-V3-Base>
 - diffbot, <https://www.diffbot.com/>
     - Diffy Chat, <https://diffy.chat/>
     - GitHub, <https://github.com/diffbot>
