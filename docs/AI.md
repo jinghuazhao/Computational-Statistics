@@ -12,10 +12,10 @@
 - Crayon, <https://www.craiyon.com/>
 - Databricks, <https://www.databricks.com/>
 - DeepSeek AI,
+    - Chat, <https://chat.deepseek.com/>
     - DeepSeek-R1
         - GitHub, <https://github.com/deepseek-ai/DeepSeek-R1>, ([blog](https://analyticsindiamag.com/ai-news-updates/deepseek-crushes-openai-o1-with-an-mit-licensed-model-developers-are-losing-it/))
         - Hugging Face, <https://huggingface.co/deepseek-ai/DeepSeek-R1>
-    - Chat, <https://chat.deepseek.com/>
     - DeepSeek-V3
         - GitHub, <https://github.com/deepseek-ai/DeepSeek-V3> ([blog](https://venturebeat.com/ai/deepseek-v3-ultra-large-open-source-ai-outperforms-llama-and-qwen-on-launch/))
         - Hugging Face, <https://huggingface.co/deepseek-ai/DeepSeek-V3-Base>
