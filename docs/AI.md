@@ -11,7 +11,7 @@
 - Cohere, <https://cohere.com/>
 - Crayon, <https://www.craiyon.com/>
 - Databricks, <https://www.databricks.com/>
-- DeepSeek AI,
+- DeepSeek AI, <https://www.deepseek.com/>
     - Chat, <https://chat.deepseek.com/>
     - DeepSeek-R1
         - GitHub, <https://github.com/deepseek-ai/DeepSeek-R1>, ([blog](https://analyticsindiamag.com/ai-news-updates/deepseek-crushes-openai-o1-with-an-mit-licensed-model-developers-are-losing-it/))
