@@ -38,6 +38,8 @@
     - Papers, <https://huggingface.co/papers>
 - Keras, <https://keras.io/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
+- LLM, <https://llm.datasette.io/en/stable/>
+- llm-Ollama plugin, <https://github.com/taketwo/llm-ollama>
 - Meta, <https://www.facebook.com/business>
     - Llama, <https://www.llama.com/> ([terms](https://ai.meta.com/llama/license/))
     - Meta AI, <https://www.meta.ai/>
