@@ -182,6 +182,13 @@ sudo apt  install pdftk-java  # version 3.2.2-1
 <pre><code class="language-bash">pdftk src.pdf dump_data output bookmarks.txt
 pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 </code></pre>
+<p>A <a href="../src/bookmarks.txt">bookmarks.txt</a> example is converted to <a href="../src/books.txt">books.txt</a> as follows,</p>
+<pre><code class="language-bash">awk '!/-/ {print}
+     $0 ~ /BookmarkTitle: [0-9]{3} - (.*)/ {
+        text = substr($0, RSTART + 21);
+        print &quot;BookmarkTitle: &quot; text;
+     }' bookmarks.txt &gt; books.txt
+</code></pre>
 <h2 id="quarto">quarto</h2>
 <p>This is extensively documented under Linux, <a href="https://cambridge-ceu.github.io/csd3/applications/quarto.html">https://cambridge-ceu.github.io/csd3/applications/quarto.html</a>.</p>
 <p>Under Windows, however it is simpler which involves these steps</p>

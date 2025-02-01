@@ -1,0 +1,6572 @@
+InfoBegin
+InfoKey: ModDate
+InfoValue: D:20250201092342Z
+InfoBegin
+InfoKey: Producer
+InfoValue: iLovePDF
+InfoBegin
+InfoKey: Author
+InfoValue: m5361
+PdfID0: 3bcb0cef54ab19e466a411f761ed5af2
+PdfID1: 6df57dc92b24a4311b722b50192bcb75
+NumberOfPages: 864
+BookmarkBegin
+BookmarkTitle: 0
+BookmarkLevel: 1
+BookmarkPageNumber: 1
+BookmarkBegin
+BookmarkTitle: 001 - Inside front cover
+BookmarkLevel: 1
+BookmarkPageNumber: 2
+BookmarkBegin
+BookmarkTitle: Inside front cover
+BookmarkLevel: 2
+BookmarkPageNumber: 2
+BookmarkBegin
+BookmarkTitle: 002 - Title page
+BookmarkLevel: 1
+BookmarkPageNumber: 3
+BookmarkBegin
+BookmarkTitle: Front matter
+BookmarkLevel: 2
+BookmarkPageNumber: 3
+BookmarkBegin
+BookmarkTitle: Physical Medicine and Rehabilitation Secrets
+BookmarkLevel: 3
+BookmarkPageNumber: 3
+BookmarkBegin
+BookmarkTitle: 003 - Copyright
+BookmarkLevel: 1
+BookmarkPageNumber: 4
+BookmarkBegin
+BookmarkTitle: Copyright
+BookmarkLevel: 2
+BookmarkPageNumber: 4
+BookmarkBegin
+BookmarkTitle: 004 - Dedication
+BookmarkLevel: 1
+BookmarkPageNumber: 5
+BookmarkBegin
+BookmarkTitle: Dedication
+BookmarkLevel: 2
+BookmarkPageNumber: 5
+BookmarkBegin
+BookmarkTitle: 005 - Dedication
+BookmarkLevel: 1
+BookmarkPageNumber: 7
+BookmarkBegin
+BookmarkTitle: Dedication
+BookmarkLevel: 2
+BookmarkPageNumber: 7
+BookmarkBegin
+BookmarkTitle: 006 - List of contributors
+BookmarkLevel: 1
+BookmarkPageNumber: 8
+BookmarkBegin
+BookmarkTitle: List of Contributors
+BookmarkLevel: 2
+BookmarkPageNumber: 8
+BookmarkBegin
+BookmarkTitle: 007 - Acknowledgments
+BookmarkLevel: 1
+BookmarkPageNumber: 19
+BookmarkBegin
+BookmarkTitle: Acknowledgments
+BookmarkLevel: 2
+BookmarkPageNumber: 19
+BookmarkBegin
+BookmarkTitle: 008  -  Contents - 
+BookmarkLevel: 1
+BookmarkPageNumber: 20
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PR28&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U1Gc0~1
+BookmarkLevel: 2
+BookmarkPageNumber: 20
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PR29&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U0Ex0
+BookmarkLevel: 2
+BookmarkPageNumber: 21
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PR30&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U2nC9
+BookmarkLevel: 2
+BookmarkPageNumber: 22
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PR31&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3824
+BookmarkLevel: 2
+BookmarkPageNumber: 23
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PR32&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3dMm
+BookmarkLevel: 2
+BookmarkPageNumber: 24
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PR33&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U2sJR
+BookmarkLevel: 2
+BookmarkPageNumber: 25
+BookmarkBegin
+BookmarkTitle: 008 - Preface
+BookmarkLevel: 1
+BookmarkPageNumber: 26
+BookmarkBegin
+BookmarkTitle: Preface
+BookmarkLevel: 2
+BookmarkPageNumber: 26
+BookmarkBegin
+BookmarkTitle: 009 - Preamble to the fourth edition of 
+BookmarkLevel: 1
+BookmarkPageNumber: 29
+BookmarkBegin
+BookmarkTitle: Preamble to the Fourth Edition of : Answering the Call
+BookmarkLevel: 2
+BookmarkPageNumber: 29
+BookmarkBegin
+BookmarkTitle: 010 - Introduction_ Pm&amp;r education in the social media age
+BookmarkLevel: 1
+BookmarkPageNumber: 30
+BookmarkBegin
+BookmarkTitle: Introduction: PM&amp;R education in the social media age
+BookmarkLevel: 2
+BookmarkPageNumber: 30
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 34
+BookmarkBegin
+BookmarkTitle: 011 - Foreword
+BookmarkLevel: 1
+BookmarkPageNumber: 35
+BookmarkBegin
+BookmarkTitle: Foreword
+BookmarkLevel: 2
+BookmarkPageNumber: 35
+BookmarkBegin
+BookmarkTitle: 012 - Contents
+BookmarkLevel: 1
+BookmarkPageNumber: 36
+BookmarkBegin
+BookmarkTitle: Contents
+BookmarkLevel: 2
+BookmarkPageNumber: 36
+BookmarkBegin
+BookmarkTitle: Part I: Fundamentals of physical medicine and rehabilitation
+BookmarkLevel: 3
+BookmarkPageNumber: 36
+BookmarkBegin
+BookmarkTitle: Section 1: The interdisciplinary team: Origins, interactions, and scope of interventions&#8195;1
+BookmarkLevel: 4
+BookmarkPageNumber: 36
+BookmarkBegin
+BookmarkTitle: Section 2: Scientific foundations of physiatric care&#8195;15
+BookmarkLevel: 4
+BookmarkPageNumber: 36
+BookmarkBegin
+BookmarkTitle: Section 3 Learning in rehabilitation&#8195;38
+BookmarkLevel: 4
+BookmarkPageNumber: 36
+BookmarkBegin
+BookmarkTitle: Part II: The rehabilitation assessment
+BookmarkLevel: 3
+BookmarkPageNumber: 36
+BookmarkBegin
+BookmarkTitle: Section 4 Physical and psychological evaluation: Recognizing strengths and resilience&#8195;42
+BookmarkLevel: 4
+BookmarkPageNumber: 36
+BookmarkBegin
+BookmarkTitle: Part III: Electro-physiological assessment
+BookmarkLevel: 3
+BookmarkPageNumber: 37
+BookmarkBegin
+BookmarkTitle: Section 5 Electrodiagnostic evaluation of neuromuscular conditions&#8195;82
+BookmarkLevel: 4
+BookmarkPageNumber: 37
+BookmarkBegin
+BookmarkTitle: Part IV: Management
+BookmarkLevel: 3
+BookmarkPageNumber: 37
+BookmarkBegin
+BookmarkTitle: Section 6 Coordination of person-centered transdisciplinary care&#8195;115
+BookmarkLevel: 4
+BookmarkPageNumber: 37
+BookmarkBegin
+BookmarkTitle: Section 7 Therapeutic modalities&#8195;121
+BookmarkLevel: 4
+BookmarkPageNumber: 37
+BookmarkBegin
+BookmarkTitle: Section 8 Interventional procedures&#8195;185
+BookmarkLevel: 4
+BookmarkPageNumber: 37
+BookmarkBegin
+BookmarkTitle: Section 9 Impairment and activity limitation focused interventions&#8195;213
+BookmarkLevel: 4
+BookmarkPageNumber: 38
+BookmarkBegin
+BookmarkTitle: Part V: Patient populations
+BookmarkLevel: 3
+BookmarkPageNumber: 38
+BookmarkBegin
+BookmarkTitle: Section 10: Musculoskeletal&#8195;295
+BookmarkLevel: 4
+BookmarkPageNumber: 38
+BookmarkBegin
+BookmarkTitle: Section 11: Neurological rehabilitation&#8195;380
+BookmarkLevel: 4
+BookmarkPageNumber: 39
+BookmarkBegin
+BookmarkTitle: Section 12 Other organ based rehabilitation&#8195;445
+BookmarkLevel: 4
+BookmarkPageNumber: 39
+BookmarkBegin
+BookmarkTitle: Section 13 Chronic pain&#8195;497
+BookmarkLevel: 4
+BookmarkPageNumber: 40
+BookmarkBegin
+BookmarkTitle: Section 14 Lifetime development with optimal function&#8195;548
+BookmarkLevel: 4
+BookmarkPageNumber: 40
+BookmarkBegin
+BookmarkTitle: Section 15 Person centered life role: Work and play&#8195;586
+BookmarkLevel: 4
+BookmarkPageNumber: 40
+BookmarkBegin
+BookmarkTitle: Section 16 Community participation of people with disabilities&#8195;609
+BookmarkLevel: 4
+BookmarkPageNumber: 41
+BookmarkBegin
+BookmarkTitle: Section 17 Past, present, and future of rehabilitation&#8195;621
+BookmarkLevel: 4
+BookmarkPageNumber: 41
+BookmarkBegin
+BookmarkTitle: Part VI: Online chapters
+BookmarkLevel: 3
+BookmarkPageNumber: 41
+BookmarkBegin
+BookmarkTitle: Section 18 Emerging topics&#8195;622.e1
+BookmarkLevel: 4
+BookmarkPageNumber: 41
+BookmarkBegin
+BookmarkTitle: 013 - The top secrets_ Pm&amp;r&#8217;s 100 fundamental principles
+BookmarkLevel: 1
+BookmarkPageNumber: 42
+BookmarkBegin
+BookmarkTitle: The Top Secrets: PM&amp;Rs 100 Fundamental Principles
+BookmarkLevel: 2
+BookmarkPageNumber: 42
+BookmarkBegin
+BookmarkTitle: 014 - CHAPTER 1 - What is physiatry_
+BookmarkLevel: 1
+BookmarkPageNumber: 51
+BookmarkBegin
+BookmarkTitle: 1 What is physiatry?
+BookmarkLevel: 2
+BookmarkPageNumber: 51
+BookmarkBegin
+BookmarkTitle: Acknowledgments
+BookmarkLevel: 3
+BookmarkPageNumber: 57
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 57
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 57
+BookmarkBegin
+BookmarkTitle: 015 - CHAPTER 2 - The physiatric consultation_ Acute treatment, immediate rehabilitation, future enablement, and system designs
+BookmarkLevel: 1
+BookmarkPageNumber: 58
+BookmarkBegin
+BookmarkTitle: 2 The physiatric consultation: Acute treatment, immediate rehabilitation, future enablement, and system designs
+BookmarkLevel: 2
+BookmarkPageNumber: 58
+BookmarkBegin
+BookmarkTitle: Acknowledgment
+BookmarkLevel: 3
+BookmarkPageNumber: 63
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 63
+BookmarkBegin
+BookmarkTitle: 016 - CHAPTER 3 - Anatomy and kinesiology of the musculoskeletal system
+BookmarkLevel: 1
+BookmarkPageNumber: 65
+BookmarkBegin
+BookmarkTitle: 3 Anatomy and kinesiology of the musculoskeletal system
+BookmarkLevel: 2
+BookmarkPageNumber: 65
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 72
+BookmarkBegin
+BookmarkTitle: 017 - CHAPTER 4 - Nervous system anatomy_ Central and peripheral
+BookmarkLevel: 1
+BookmarkPageNumber: 73
+BookmarkBegin
+BookmarkTitle: 4 Nervous system anatomy: Central and peripheral
+BookmarkLevel: 2
+BookmarkPageNumber: 73
+BookmarkBegin
+BookmarkTitle: Central nervous system
+BookmarkLevel: 3
+BookmarkPageNumber: 73
+BookmarkBegin
+BookmarkTitle: Cerebrum
+BookmarkLevel: 3
+BookmarkPageNumber: 81
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 81
+BookmarkBegin
+BookmarkTitle: Recommended readings
+BookmarkLevel: 3
+BookmarkPageNumber: 81
+BookmarkBegin
+BookmarkTitle: 018 - CHAPTER 5 - Neurophysiology and cognitive neuroscience_ From membranes to functional brain networks
+BookmarkLevel: 1
+BookmarkPageNumber: 84
+BookmarkBegin
+BookmarkTitle: 5 Neurophysiology and cognitive neuroscience: From membranes to functional brain networks
+BookmarkLevel: 2
+BookmarkPageNumber: 84
+BookmarkBegin
+BookmarkTitle: Recommended Websites&#8233;
+BookmarkLevel: 3
+BookmarkPageNumber: 84
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 85
+BookmarkBegin
+BookmarkTitle: Neuroscience&#8212;from cellular level to functional systems:
+BookmarkLevel: 4
+BookmarkPageNumber: 85
+BookmarkBegin
+BookmarkTitle: Structural and functional neuroanatomy:
+BookmarkLevel: 4
+BookmarkPageNumber: 85
+BookmarkBegin
+BookmarkTitle: Cognitive and linguistic neuroscience:
+BookmarkLevel: 4
+BookmarkPageNumber: 89
+BookmarkBegin
+BookmarkTitle: Clinical manifestations of damage to functional systems of the brain:
+BookmarkLevel: 4
+BookmarkPageNumber: 89
+BookmarkBegin
+BookmarkTitle: 019 - CHAPTER 6 - Educating learners in pm&amp;r_ The value of longitudinal learning
+BookmarkLevel: 1
+BookmarkPageNumber: 93
+BookmarkBegin
+BookmarkTitle: 6 Educating learners in PM&amp;R: The value of longitudinal learning
+BookmarkLevel: 2
+BookmarkPageNumber: 93
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 96
+BookmarkBegin
+BookmarkTitle: 020 - CHAPTER 7 - Communication strategies for rehabilitation professionals_ Empowerment medicine catalyzes personal potential actualization
+BookmarkLevel: 1
+BookmarkPageNumber: 97
+BookmarkBegin
+BookmarkTitle: 7 Communication strategies for rehabilitation professionals: Empowerment medicine catalyzes personal potential actualization
+BookmarkLevel: 2
+BookmarkPageNumber: 97
+BookmarkBegin
+BookmarkTitle: Dedication
+BookmarkLevel: 3
+BookmarkPageNumber: 107
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 107
+BookmarkBegin
+BookmarkTitle: 021 - CHAPTER 8 - Environment as personal habitat_ Ecology of function and participation from interior body to the metaverse
+BookmarkLevel: 1
+BookmarkPageNumber: 108
+BookmarkBegin
+BookmarkTitle: 8 Environment as personal habitat: Ecology of function and participation from interior body to the metaverse
+BookmarkLevel: 2
+BookmarkPageNumber: 108
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 116
+BookmarkBegin
+BookmarkTitle: Ramps
+BookmarkLevel: 3
+BookmarkPageNumber: 116
+BookmarkBegin
+BookmarkTitle: Accessible house design and universal design
+BookmarkLevel: 3
+BookmarkPageNumber: 116
+BookmarkBegin
+BookmarkTitle: Bathrooms
+BookmarkLevel: 3
+BookmarkPageNumber: 116
+BookmarkBegin
+BookmarkTitle: Kitchens
+BookmarkLevel: 3
+BookmarkPageNumber: 116
+BookmarkBegin
+BookmarkTitle: Home automation
+BookmarkLevel: 3
+BookmarkPageNumber: 116
+BookmarkBegin
+BookmarkTitle: Ceiling lifts and elevators
+BookmarkLevel: 3
+BookmarkPageNumber: 117
+BookmarkBegin
+BookmarkTitle: Assessment tools
+BookmarkLevel: 3
+BookmarkPageNumber: 117
+BookmarkBegin
+BookmarkTitle: Recommended readings
+BookmarkLevel: 3
+BookmarkPageNumber: 117
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 117
+BookmarkBegin
+BookmarkTitle: 022 - CHAPTER 9 - Psychological methods through rehabilitation_ Theory, assessment, and intervention
+BookmarkLevel: 1
+BookmarkPageNumber: 118
+BookmarkBegin
+BookmarkTitle: 9 Psychological methods through rehabilitation: Theory, assessment, and intervention
+BookmarkLevel: 2
+BookmarkPageNumber: 118
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 3
+BookmarkPageNumber: 122
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 122
+BookmarkBegin
+BookmarkTitle: 023 - CHAPTER 10 - Neuromusculoskeletal evaluation of the rehabilitation patient_ Integrating different pieces of the puzzle to localize lesion, assess function, and plan therapy
+BookmarkLevel: 1
+BookmarkPageNumber: 124
+BookmarkBegin
+BookmarkTitle: 10 Neuromusculoskeletal evaluation of the rehabilitation patient: Integrating different pieces of the puzzle to localize lesion, assess function, and plan therapy
+BookmarkLevel: 2
+BookmarkPageNumber: 124
+BookmarkBegin
+BookmarkTitle: Cranial nerve evaluation
+BookmarkLevel: 3
+BookmarkPageNumber: 125
+BookmarkBegin
+BookmarkTitle: Motor examination
+BookmarkLevel: 3
+BookmarkPageNumber: 126
+BookmarkBegin
+BookmarkTitle: Range of motion
+BookmarkLevel: 3
+BookmarkPageNumber: 127
+BookmarkBegin
+BookmarkTitle: Manual muscle testing (MMT)
+BookmarkLevel: 3
+BookmarkPageNumber: 128
+BookmarkBegin
+BookmarkTitle: Sensory evaluation
+BookmarkLevel: 3
+BookmarkPageNumber: 128
+BookmarkBegin
+BookmarkTitle: Sensory and motor anatomic landmark
+BookmarkLevel: 3
+BookmarkPageNumber: 128
+BookmarkBegin
+BookmarkTitle: Cerebellar assessment
+BookmarkLevel: 3
+BookmarkPageNumber: 129
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 134
+BookmarkBegin
+BookmarkTitle: Next step references
+BookmarkLevel: 3
+BookmarkPageNumber: 134
+BookmarkBegin
+BookmarkTitle: 024 - CHAPTER 11 - Gait_ A clinical and biomechanical overview
+BookmarkLevel: 1
+BookmarkPageNumber: 135
+BookmarkBegin
+BookmarkTitle: 11 Gait: A clinical and biomechanical overview
+BookmarkLevel: 2
+BookmarkPageNumber: 135
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 135
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 139
+BookmarkBegin
+BookmarkTitle: 025 - CHAPTER 12 - Basic electrodiagnosis_ Interpretation of electrical manifestations of neuromuscular disorders
+BookmarkLevel: 1
+BookmarkPageNumber: 141
+BookmarkBegin
+BookmarkTitle: 12 Basic electrodiagnosis: Interpretation of electrical manifestations of neuromuscular disorders
+BookmarkLevel: 2
+BookmarkPageNumber: 141
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 145
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 150
+BookmarkBegin
+BookmarkTitle: 026 - CHAPTER 13 - Radiculopathies_ Clinical manifestations, differential diagnoses, electrodiagnostic approach, and management
+BookmarkLevel: 1
+BookmarkPageNumber: 154
+BookmarkBegin
+BookmarkTitle: 13 Radiculopathies: Clinical manifestations, differential diagnoses, electrodiagnostic approach, and management
+BookmarkLevel: 2
+BookmarkPageNumber: 154
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 164
+BookmarkBegin
+BookmarkTitle: 027 - CHAPTER 14 - Peripheral neuropathy_ Diagnosis, prevention, and rehabilitation
+BookmarkLevel: 1
+BookmarkPageNumber: 165
+BookmarkBegin
+BookmarkTitle: 14 Peripheral neuropathy: Diagnosis, prevention, and rehabilitation
+BookmarkLevel: 2
+BookmarkPageNumber: 165
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 3
+BookmarkPageNumber: 165
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 172
+BookmarkBegin
+BookmarkTitle: 028 - CHAPTER 15 - Neuromuscular junction disorders_ Physiology, clinical manifestations, and electrodiagnosis
+BookmarkLevel: 1
+BookmarkPageNumber: 173
+BookmarkBegin
+BookmarkTitle: 15 Neuromuscular junction disorders: Physiology, clinical manifestations, and electrodiagnosis
+BookmarkLevel: 2
+BookmarkPageNumber: 173
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 176
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 177
+BookmarkBegin
+BookmarkTitle: 029 - CHAPTER 16 - Person-centered rehabilitation_ Interdisciplinary context-specific treatment requires component customization
+BookmarkLevel: 1
+BookmarkPageNumber: 179
+BookmarkBegin
+BookmarkTitle: 16 Person-centered rehabilitation: Interdisciplinary context-specific treatment requires component customization
+BookmarkLevel: 2
+BookmarkPageNumber: 179
+BookmarkBegin
+BookmarkTitle: Website
+BookmarkLevel: 3
+BookmarkPageNumber: 179
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 184
+BookmarkBegin
+BookmarkTitle: 030 - CHAPTER 17 - Manual medicine_ Philosophy, assessment, and manipulative techniques
+BookmarkLevel: 1
+BookmarkPageNumber: 185
+BookmarkBegin
+BookmarkTitle: 17 Manual medicine: Philosophy, assessment, and manipulative techniques
+BookmarkLevel: 2
+BookmarkPageNumber: 185
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 185
+BookmarkBegin
+BookmarkTitle: 031 - CHAPTER 18 - Traction, manipulation, and massage_ Selection application and outcome
+BookmarkLevel: 1
+BookmarkPageNumber: 192
+BookmarkBegin
+BookmarkTitle: 18 Traction, manipulation, and massage: Selection application and outcome
+BookmarkLevel: 2
+BookmarkPageNumber: 192
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 192
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 3
+BookmarkPageNumber: 196
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 196
+BookmarkBegin
+BookmarkTitle: 032 - CHAPTER 19 - Exercise
+BookmarkLevel: 1
+BookmarkPageNumber: 197
+BookmarkBegin
+BookmarkTitle: 19 Exercise
+BookmarkLevel: 2
+BookmarkPageNumber: 197
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 3
+BookmarkPageNumber: 207
+BookmarkBegin
+BookmarkTitle: Next step references
+BookmarkLevel: 3
+BookmarkPageNumber: 207
+BookmarkBegin
+BookmarkTitle: 033 - CHAPTER 20 - Physical modalities_ Therapeutic agents in the clinic
+BookmarkLevel: 1
+BookmarkPageNumber: 210
+BookmarkBegin
+BookmarkTitle: 20 Physical modalities: Therapeutic agents in the clinic
+BookmarkLevel: 2
+BookmarkPageNumber: 210
+BookmarkBegin
+BookmarkTitle: Important facts about physical agents
+BookmarkLevel: 3
+BookmarkPageNumber: 210
+BookmarkBegin
+BookmarkTitle: Heat and cold
+BookmarkLevel: 3
+BookmarkPageNumber: 210
+BookmarkBegin
+BookmarkTitle: 034 - CHAPTER 21 - Electrotherapy_ Medical treatments using electricity
+BookmarkLevel: 1
+BookmarkPageNumber: 217
+BookmarkBegin
+BookmarkTitle: 21 Electrotherapy: Medical treatments using electricity
+BookmarkLevel: 2
+BookmarkPageNumber: 217
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 221
+BookmarkBegin
+BookmarkTitle: 035 - CHAPTER 22 - Nutrition and diet in rehabilitation_ Optimizing outcomes
+BookmarkLevel: 1
+BookmarkPageNumber: 223
+BookmarkBegin
+BookmarkTitle: 22 Nutrition and diet in rehabilitation: Optimizing outcomes
+BookmarkLevel: 2
+BookmarkPageNumber: 223
+BookmarkBegin
+BookmarkTitle: Recommended readings
+BookmarkLevel: 3
+BookmarkPageNumber: 227
+BookmarkBegin
+BookmarkTitle: 036 - CHAPTER 23 - Medication therapy management to achieve enablement_ Recognizing indications and targeting outcomes
+BookmarkLevel: 1
+BookmarkPageNumber: 228
+BookmarkBegin
+BookmarkTitle: 23 Medication therapy management to achieve enablement: Recognizing indications and targeting outcomes
+BookmarkLevel: 2
+BookmarkPageNumber: 228
+BookmarkBegin
+BookmarkTitle: Medication safety
+BookmarkLevel: 3
+BookmarkPageNumber: 228
+BookmarkBegin
+BookmarkTitle: Recommended readings
+BookmarkLevel: 3
+BookmarkPageNumber: 229
+BookmarkBegin
+BookmarkTitle: 037 - CHAPTER 24 - Complementary, alternative, and integrative medicine_ Incorporating diverse approaches to maximize physical medicine and rehabilitation outcomes
+BookmarkLevel: 1
+BookmarkPageNumber: 237
+BookmarkBegin
+BookmarkTitle: 24 Complementary, alternative, and integrative medicine: Incorporating diverse approaches to maximize physical medicine and rehabilitation outcomes
+BookmarkLevel: 2
+BookmarkPageNumber: 237
+BookmarkBegin
+BookmarkTitle: Collaborative medicine
+BookmarkLevel: 3
+BookmarkPageNumber: 237
+BookmarkBegin
+BookmarkTitle: Clinical research evidence hierarchy
+BookmarkLevel: 4
+BookmarkPageNumber: 240
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 241
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 3
+BookmarkPageNumber: 241
+BookmarkBegin
+BookmarkTitle: Journals
+BookmarkLevel: 3
+BookmarkPageNumber: 241
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 241
+BookmarkBegin
+BookmarkTitle: 038 - CHAPTER 25 - Regeneration and rehabilitation medicine_ Innovation through synergy
+BookmarkLevel: 1
+BookmarkPageNumber: 247
+BookmarkBegin
+BookmarkTitle: 25 Regeneration and rehabilitation medicine: Innovation through synergy
+BookmarkLevel: 2
+BookmarkPageNumber: 247
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 247
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 252
+BookmarkBegin
+BookmarkTitle: 039 - CHAPTER 26 - Fundamentals of medical acupuncture_ Scientific foundation and clinical applications
+BookmarkLevel: 1
+BookmarkPageNumber: 254
+BookmarkBegin
+BookmarkTitle: 26 Fundamentals of medical acupuncture: Scientific foundation and clinical applications
+BookmarkLevel: 2
+BookmarkPageNumber: 254
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 254
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 254
+BookmarkBegin
+BookmarkTitle: 040 - CHAPTER 27 - Peripheral injections_ Medications, joints, bursae, tendon sheaths_insertions, and applications of botulinum toxin
+BookmarkLevel: 1
+BookmarkPageNumber: 259
+BookmarkBegin
+BookmarkTitle: 27 Peripheral injections: Medications, joints, bursae, tendon sheaths/insertions, and applications of botulinum toxin
+BookmarkLevel: 2
+BookmarkPageNumber: 259
+BookmarkBegin
+BookmarkTitle: Injection medications: Anesthetics
+BookmarkLevel: 3
+BookmarkPageNumber: 259
+BookmarkBegin
+BookmarkTitle: Injection medications: Steroids
+BookmarkLevel: 3
+BookmarkPageNumber: 260
+BookmarkBegin
+BookmarkTitle: Injection techniques
+BookmarkLevel: 3
+BookmarkPageNumber: 261
+BookmarkBegin
+BookmarkTitle: Joints
+BookmarkLevel: 3
+BookmarkPageNumber: 261
+BookmarkBegin
+BookmarkTitle: Bursae
+BookmarkLevel: 3
+BookmarkPageNumber: 262
+BookmarkBegin
+BookmarkTitle: Tendons/enthesopathies
+BookmarkLevel: 3
+BookmarkPageNumber: 263
+BookmarkBegin
+BookmarkTitle: Treatment of muscle overactivity with botulinum toxin
+BookmarkLevel: 3
+BookmarkPageNumber: 265
+BookmarkBegin
+BookmarkTitle: Anticoagulation
+BookmarkLevel: 4
+BookmarkPageNumber: 266
+BookmarkBegin
+BookmarkTitle: Joint
+BookmarkLevel: 3
+BookmarkPageNumber: 266
+BookmarkBegin
+BookmarkTitle: Bursa
+BookmarkLevel: 3
+BookmarkPageNumber: 267
+BookmarkBegin
+BookmarkTitle: Hip
+BookmarkLevel: 4
+BookmarkPageNumber: 267
+BookmarkBegin
+BookmarkTitle: Knee
+BookmarkLevel: 4
+BookmarkPageNumber: 267
+BookmarkBegin
+BookmarkTitle: Knee
+BookmarkLevel: 4
+BookmarkPageNumber: 267
+BookmarkBegin
+BookmarkTitle: Heel
+BookmarkLevel: 4
+BookmarkPageNumber: 268
+BookmarkBegin
+BookmarkTitle: Tendon
+BookmarkLevel: 4
+BookmarkPageNumber: 268
+BookmarkBegin
+BookmarkTitle: Anatomy and pathophysiology
+BookmarkLevel: 4
+BookmarkPageNumber: 268
+BookmarkBegin
+BookmarkTitle: Diagnostic test
+BookmarkLevel: 4
+BookmarkPageNumber: 268
+BookmarkBegin
+BookmarkTitle: Treatment
+BookmarkLevel: 4
+BookmarkPageNumber: 268
+BookmarkBegin
+BookmarkTitle: Hamstring tendinitis
+BookmarkLevel: 4
+BookmarkPageNumber: 268
+BookmarkBegin
+BookmarkTitle: Etiology
+BookmarkLevel: 5
+BookmarkPageNumber: 268
+BookmarkBegin
+BookmarkTitle: Clinical exam
+BookmarkLevel: 5
+BookmarkPageNumber: 268
+BookmarkBegin
+BookmarkTitle: Treatment
+BookmarkLevel: 5
+BookmarkPageNumber: 268
+BookmarkBegin
+BookmarkTitle: Posterior tibial tendinitis
+BookmarkLevel: 4
+BookmarkPageNumber: 269
+BookmarkBegin
+BookmarkTitle: Etiology
+BookmarkLevel: 5
+BookmarkPageNumber: 269
+BookmarkBegin
+BookmarkTitle: Clinical exam
+BookmarkLevel: 5
+BookmarkPageNumber: 269
+BookmarkBegin
+BookmarkTitle: Treatment
+BookmarkLevel: 5
+BookmarkPageNumber: 269
+BookmarkBegin
+BookmarkTitle: Plantar fasciitis
+BookmarkLevel: 4
+BookmarkPageNumber: 269
+BookmarkBegin
+BookmarkTitle: Etiology
+BookmarkLevel: 5
+BookmarkPageNumber: 269
+BookmarkBegin
+BookmarkTitle: Clinical exam
+BookmarkLevel: 5
+BookmarkPageNumber: 269
+BookmarkBegin
+BookmarkTitle: Treatment
+BookmarkLevel: 5
+BookmarkPageNumber: 269
+BookmarkBegin
+BookmarkTitle: Botox
+BookmarkLevel: 6
+BookmarkPageNumber: 269
+BookmarkBegin
+BookmarkTitle: 56 What are the risks for developing neutralizing antibodies to botox and what are the clinical tests for non-responders?
+BookmarkLevel: 7
+BookmarkPageNumber: 269
+BookmarkBegin
+BookmarkTitle: Risks
+BookmarkLevel: 6
+BookmarkPageNumber: 269
+BookmarkBegin
+BookmarkTitle: Clinical tests for non-responders
+BookmarkLevel: 6
+BookmarkPageNumber: 270
+BookmarkBegin
+BookmarkTitle: 57 What are the best injection techniques to use: EMG, ultrasound, or E-STIM?
+BookmarkLevel: 7
+BookmarkPageNumber: 270
+BookmarkBegin
+BookmarkTitle: 58 Do neurotoxin volume and dilution matter?
+BookmarkLevel: 7
+BookmarkPageNumber: 270
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 270
+BookmarkBegin
+BookmarkTitle: 041 - CHAPTER 28 - Physiatric image-guided spine interventions_ Aggressively treating those patients we can improve
+BookmarkLevel: 1
+BookmarkPageNumber: 272
+BookmarkBegin
+BookmarkTitle: 28 Physiatric image-guided spine interventions: Aggressively treating those patients we can improve
+BookmarkLevel: 2
+BookmarkPageNumber: 272
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 281
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 281
+BookmarkBegin
+BookmarkTitle: 042 - CHAPTER 29 - Rehabilitation of patients with severe visual or hearing impairments_ Innovations for person-centered function
+BookmarkLevel: 1
+BookmarkPageNumber: 285
+BookmarkBegin
+BookmarkTitle: 29 Rehabilitation of patients with severe visual or hearing impairments: Innovations for person-centered function
+BookmarkLevel: 2
+BookmarkPageNumber: 285
+BookmarkBegin
+BookmarkTitle: References&#8233;
+BookmarkLevel: 3
+BookmarkPageNumber: 287
+BookmarkBegin
+BookmarkTitle: 043 - CHAPTER 30 - Assessing and treating speech and language impairments_ Joining the conversation
+BookmarkLevel: 1
+BookmarkPageNumber: 293
+BookmarkBegin
+BookmarkTitle: 30 Assessing and treating speech and language impairments: Joining the conversation
+BookmarkLevel: 2
+BookmarkPageNumber: 293
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 300
+BookmarkBegin
+BookmarkTitle: 044 - CHAPTER 31 - Recognition, assessment, and treatment of swallowing impairments_ Engulfing transdisciplinary solutions
+BookmarkLevel: 1
+BookmarkPageNumber: 301
+BookmarkBegin
+BookmarkTitle: 31 Recognition, assessment, and treatment of swallowing impairments: Engulfing transdisciplinary solutions
+BookmarkLevel: 2
+BookmarkPageNumber: 301
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 301
+BookmarkBegin
+BookmarkTitle: 045 - CHAPTER 32 - Neurogenic bowel dysfunction_ Evaluation and adaptive management
+BookmarkLevel: 1
+BookmarkPageNumber: 308
+BookmarkBegin
+BookmarkTitle: 32 Neurogenic bowel dysfunction: Evaluation and adaptive management
+BookmarkLevel: 2
+BookmarkPageNumber: 308
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 308
+BookmarkBegin
+BookmarkTitle: 046 - CHAPTER 33 - Neurogenic bladder
+BookmarkLevel: 1
+BookmarkPageNumber: 318
+BookmarkBegin
+BookmarkTitle: 33 Neurogenic bladder
+BookmarkLevel: 2
+BookmarkPageNumber: 318
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 322
+BookmarkBegin
+BookmarkTitle: 047 - CHAPTER 34 - Sexuality despite disability_ Intimate and reproductive solutions
+BookmarkLevel: 1
+BookmarkPageNumber: 324
+BookmarkBegin
+BookmarkTitle: 34 Sexuality despite disability: Intimate and reproductive solutions
+BookmarkLevel: 2
+BookmarkPageNumber: 324
+BookmarkBegin
+BookmarkTitle: Further reading
+BookmarkLevel: 3
+BookmarkPageNumber: 331
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 3
+BookmarkPageNumber: 331
+BookmarkBegin
+BookmarkTitle: 048 - Chapter 35 - Lower limb orthosis
+BookmarkLevel: 1
+BookmarkPageNumber: 332
+BookmarkBegin
+BookmarkTitle: 35 Lower limb orthosis
+BookmarkLevel: 2
+BookmarkPageNumber: 332
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 332
+BookmarkBegin
+BookmarkTitle: 049 - CHAPTER 36 - Upper limb orthosis
+BookmarkLevel: 1
+BookmarkPageNumber: 335
+BookmarkBegin
+BookmarkTitle: 36 Upper limb orthosis
+BookmarkLevel: 2
+BookmarkPageNumber: 335
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 341
+BookmarkBegin
+BookmarkTitle: 050 - CHAPTER 37 - Spinal orthoses_ Principles, designs, indications, and limitations
+BookmarkLevel: 1
+BookmarkPageNumber: 342
+BookmarkBegin
+BookmarkTitle: 37 Spinal orthoses: Principles, designs, indications, and limitations
+BookmarkLevel: 2
+BookmarkPageNumber: 342
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 357
+BookmarkBegin
+BookmarkTitle: 051 - CHAPTER 38 - Amputation rehabilitation_ Risk, physiatric approach, and lower extremity principles
+BookmarkLevel: 1
+BookmarkPageNumber: 358
+BookmarkBegin
+BookmarkTitle: 38 Amputation rehabilitation: Risk, physiatric approach, and lower extremity principles
+BookmarkLevel: 2
+BookmarkPageNumber: 358
+BookmarkBegin
+BookmarkTitle: 052 - CHAPTER 39 - Wheelchair provision_ A person-centered interdisciplinary process
+BookmarkLevel: 1
+BookmarkPageNumber: 365
+BookmarkBegin
+BookmarkTitle: 39 Wheelchair provision: A person-centered interdisciplinary process
+BookmarkLevel: 2
+BookmarkPageNumber: 365
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 370
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 3
+BookmarkPageNumber: 370
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 370
+BookmarkBegin
+BookmarkTitle: Articles
+BookmarkLevel: 3
+BookmarkPageNumber: 370
+BookmarkBegin
+BookmarkTitle: 053 - CHAPTER 40 - Soft tissue and musculoskeletal injury_ Diagnosis and rehabilitation
+BookmarkLevel: 1
+BookmarkPageNumber: 372
+BookmarkBegin
+BookmarkTitle: 40 Soft tissue and musculoskeletal injury: Diagnosis and rehabilitation
+BookmarkLevel: 2
+BookmarkPageNumber: 372
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 375
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 375
+BookmarkBegin
+BookmarkTitle: 054 - CHAPTER 41 - Myopathy_ Diagnosis and rehabilitation
+BookmarkLevel: 1
+BookmarkPageNumber: 377
+BookmarkBegin
+BookmarkTitle: 41 Myopathy: Diagnosis and rehabilitation
+BookmarkLevel: 2
+BookmarkPageNumber: 377
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 377
+BookmarkBegin
+BookmarkTitle: Recommended readings
+BookmarkLevel: 3
+BookmarkPageNumber: 378
+BookmarkBegin
+BookmarkTitle: 055 - CHAPTER 42 - Osteoporosis_ Diagnosis, medical management, and rehabilitation
+BookmarkLevel: 1
+BookmarkPageNumber: 384
+BookmarkBegin
+BookmarkTitle: 42 Osteoporosis: Diagnosis, medical management, and rehabilitation
+BookmarkLevel: 2
+BookmarkPageNumber: 384
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 391
+BookmarkBegin
+BookmarkTitle: 056 - CHAPTER 43 - Fall, fracture, and joint replacement rehabilitation_ Synchronizing independent preventive strategies to reequilibrate patient function
+BookmarkLevel: 1
+BookmarkPageNumber: 392
+BookmarkBegin
+BookmarkTitle: 43 Fall, fracture, and joint replacement rehabilitation: Synchronizing independent preventive strategies to reequilibrate patient function
+BookmarkLevel: 2
+BookmarkPageNumber: 392
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 397
+BookmarkBegin
+BookmarkTitle: 057 - CHAPTER 44 - The hip_ Anatomy, examination, diagnoses, imaging, treatment, and rehabilitation
+BookmarkLevel: 1
+BookmarkPageNumber: 398
+BookmarkBegin
+BookmarkTitle: 44 The hip: Anatomy, examination, diagnoses, imaging, treatment, and rehabilitation
+BookmarkLevel: 2
+BookmarkPageNumber: 398
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 405
+BookmarkBegin
+BookmarkTitle: 058 - CHAPTER 45 - The shoulder_ Anatomy, pathology, and diagnosis
+BookmarkLevel: 1
+BookmarkPageNumber: 406
+BookmarkBegin
+BookmarkTitle: 45 The shoulder: Anatomy, pathology, and diagnosis
+BookmarkLevel: 2
+BookmarkPageNumber: 406
+BookmarkBegin
+BookmarkTitle: Anatomy and biomechanics
+BookmarkLevel: 3
+BookmarkPageNumber: 406
+BookmarkBegin
+BookmarkTitle: Clinical presentation
+BookmarkLevel: 3
+BookmarkPageNumber: 409
+BookmarkBegin
+BookmarkTitle: Differential diagnosis
+BookmarkLevel: 3
+BookmarkPageNumber: 411
+BookmarkBegin
+BookmarkTitle: Treatment
+BookmarkLevel: 3
+BookmarkPageNumber: 413
+BookmarkBegin
+BookmarkTitle: Acknowledgement
+BookmarkLevel: 3
+BookmarkPageNumber: 416
+BookmarkBegin
+BookmarkTitle: 059 - CHAPTER 46 - The elbow_ Anatomy, pathology, and management
+BookmarkLevel: 1
+BookmarkPageNumber: 417
+BookmarkBegin
+BookmarkTitle: 46 The elbow: Anatomy, pathology, and management
+BookmarkLevel: 2
+BookmarkPageNumber: 417
+BookmarkBegin
+BookmarkTitle: Elbow anatomy and biomechanics
+BookmarkLevel: 3
+BookmarkPageNumber: 417
+BookmarkBegin
+BookmarkTitle: Anterior elbow
+BookmarkLevel: 3
+BookmarkPageNumber: 418
+BookmarkBegin
+BookmarkTitle: Lateral elbow
+BookmarkLevel: 3
+BookmarkPageNumber: 419
+BookmarkBegin
+BookmarkTitle: Medial elbow
+BookmarkLevel: 3
+BookmarkPageNumber: 419
+BookmarkBegin
+BookmarkTitle: Posterior elbow
+BookmarkLevel: 3
+BookmarkPageNumber: 420
+BookmarkBegin
+BookmarkTitle: Nerve pathology
+BookmarkLevel: 3
+BookmarkPageNumber: 420
+BookmarkBegin
+BookmarkTitle: Pronator syndrome (median nerve)
+BookmarkLevel: 4
+BookmarkPageNumber: 420
+BookmarkBegin
+BookmarkTitle: Posterior interosseous nerve syndrome (deep branch of the radial nerve)
+BookmarkLevel: 4
+BookmarkPageNumber: 420
+BookmarkBegin
+BookmarkTitle: Cubital tunnel syndrome (ulnar nerve)
+BookmarkLevel: 4
+BookmarkPageNumber: 420
+BookmarkBegin
+BookmarkTitle: Elbow trauma
+BookmarkLevel: 3
+BookmarkPageNumber: 420
+BookmarkBegin
+BookmarkTitle: Recommended readings
+BookmarkLevel: 3
+BookmarkPageNumber: 421
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 421
+BookmarkBegin
+BookmarkTitle: 060 - CHAPTER 47 - The knee_ Anatomy, pathology, diagnosis, and rehabilitation
+BookmarkLevel: 1
+BookmarkPageNumber: 423
+BookmarkBegin
+BookmarkTitle: 47 The knee: Anatomy, pathology, diagnosis, and rehabilitation
+BookmarkLevel: 2
+BookmarkPageNumber: 423
+BookmarkBegin
+BookmarkTitle: Anterior knee
+BookmarkLevel: 3
+BookmarkPageNumber: 425
+BookmarkBegin
+BookmarkTitle: Medial knee
+BookmarkLevel: 3
+BookmarkPageNumber: 426
+BookmarkBegin
+BookmarkTitle: Lateral knee
+BookmarkLevel: 3
+BookmarkPageNumber: 427
+BookmarkBegin
+BookmarkTitle: Posterior knee
+BookmarkLevel: 3
+BookmarkPageNumber: 428
+BookmarkBegin
+BookmarkTitle: Intraarticular
+BookmarkLevel: 3
+BookmarkPageNumber: 428
+BookmarkBegin
+BookmarkTitle: Meniscal tears
+BookmarkLevel: 3
+BookmarkPageNumber: 428
+BookmarkBegin
+BookmarkTitle: Osteoarthritis
+BookmarkLevel: 3
+BookmarkPageNumber: 430
+BookmarkBegin
+BookmarkTitle: Acknowledgment
+BookmarkLevel: 3
+BookmarkPageNumber: 432
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 432
+BookmarkBegin
+BookmarkTitle: Recommended readings
+BookmarkLevel: 3
+BookmarkPageNumber: 432
+BookmarkBegin
+BookmarkTitle: 061 - CHAPTER 48 - The foot and ankle_ Clinical presentation, diagnosis, and treatment
+BookmarkLevel: 1
+BookmarkPageNumber: 434
+BookmarkBegin
+BookmarkTitle: 48 The foot and ankle: Clinical presentation, diagnosis, and treatment
+BookmarkLevel: 2
+BookmarkPageNumber: 434
+BookmarkBegin
+BookmarkTitle: 062 - CHAPTER 49 - The hand and WRIST_ Top 25 questions that you were afraid to ask
+BookmarkLevel: 1
+BookmarkPageNumber: 440
+BookmarkBegin
+BookmarkTitle: 49 The hand and wrist: Top 25 questions that you were afraid to ask
+BookmarkLevel: 2
+BookmarkPageNumber: 440
+BookmarkBegin
+BookmarkTitle: 063 - CHAPTER 50 - Low back pain_ Clinical, diagnostic, and management pearls
+BookmarkLevel: 1
+BookmarkPageNumber: 446
+BookmarkBegin
+BookmarkTitle: 50 Low back pain: Clinical, diagnostic, and management pearls
+BookmarkLevel: 2
+BookmarkPageNumber: 446
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 456
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 457
+BookmarkBegin
+BookmarkTitle: Patient education and self-help resources
+BookmarkLevel: 3
+BookmarkPageNumber: 457
+BookmarkBegin
+BookmarkTitle: 064 - CHAPTER 51 - Neck pain_ Anatomy, pathophysiology, and diagnosis
+BookmarkLevel: 1
+BookmarkPageNumber: 461
+BookmarkBegin
+BookmarkTitle: 51 Neck pain: Anatomy, pathophysiology, and diagnosis
+BookmarkLevel: 2
+BookmarkPageNumber: 461
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 461
+BookmarkBegin
+BookmarkTitle: 065 - CHAPTER 52 - Emerging mechanisms and methods for neurorehabilitation_ Theory and application
+BookmarkLevel: 1
+BookmarkPageNumber: 465
+BookmarkBegin
+BookmarkTitle: 52 Emerging mechanisms and methods for neurorehabilitation: Theory and application
+BookmarkLevel: 2
+BookmarkPageNumber: 465
+BookmarkBegin
+BookmarkTitle: Acknowledgement
+BookmarkLevel: 3
+BookmarkPageNumber: 472
+BookmarkBegin
+BookmarkTitle: 066 - CHAPTER 53 - Motor neuron disease_ Diagnosis and proactive rehabilitation
+BookmarkLevel: 1
+BookmarkPageNumber: 473
+BookmarkBegin
+BookmarkTitle: 53 Motor neuron disease: Diagnosis and proactive rehabilitation
+BookmarkLevel: 2
+BookmarkPageNumber: 473
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 481
+BookmarkBegin
+BookmarkTitle: Works referenced (online-only content)
+BookmarkLevel: 3
+BookmarkPageNumber: 488
+BookmarkBegin
+BookmarkTitle: 067 - CHAPTER 54 - Spinal cord injury medicine_ Translating systems adaptations into personal visions
+BookmarkLevel: 1
+BookmarkPageNumber: 489
+BookmarkBegin
+BookmarkTitle: 54 Spinal cord injury medicine: Translating systems adaptations into personal visions
+BookmarkLevel: 2
+BookmarkPageNumber: 489
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 489
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 496
+BookmarkBegin
+BookmarkTitle: 068 - CHAPTER 55 - Multiple sclerosis_ Clinical patterns, symptom management, and rehabilitation
+BookmarkLevel: 1
+BookmarkPageNumber: 505
+BookmarkBegin
+BookmarkTitle: 55 Multiple sclerosis: Clinical patterns, symptom management, and rehabilitation
+BookmarkLevel: 2
+BookmarkPageNumber: 505
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 505
+BookmarkBegin
+BookmarkTitle: 069 - CHAPTER 56 - Movement disorders_ Fundamentals of classification and treatment
+BookmarkLevel: 1
+BookmarkPageNumber: 512
+BookmarkBegin
+BookmarkTitle: 56 Movement disorders: Fundamentals of classification and treatment
+BookmarkLevel: 2
+BookmarkPageNumber: 512
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 519
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 519
+BookmarkBegin
+BookmarkTitle: 070 - CHAPTER 57 - Cerebrovascular disease
+BookmarkLevel: 1
+BookmarkPageNumber: 520
+BookmarkBegin
+BookmarkTitle: 57 Cerebrovascular disease
+BookmarkLevel: 2
+BookmarkPageNumber: 520
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 530
+BookmarkBegin
+BookmarkTitle: 071 - CHAPTER 58 - Traumatic brain injury_ Etiology, pathophysiology, and complications
+BookmarkLevel: 1
+BookmarkPageNumber: 541
+BookmarkBegin
+BookmarkTitle: 58 Traumatic brain injury: Etiology, pathophysiology, and complications
+BookmarkLevel: 2
+BookmarkPageNumber: 541
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 548
+BookmarkBegin
+BookmarkTitle: 072 - CHAPTER 59 - Cardiac rehabilitation_ Lifestyle, exercise &amp; risk factors modification
+BookmarkLevel: 1
+BookmarkPageNumber: 550
+BookmarkBegin
+BookmarkTitle: 59 Cardiac rehabilitation: Lifestyle, exercise &amp; risk factors modification
+BookmarkLevel: 2
+BookmarkPageNumber: 550
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 550
+BookmarkBegin
+BookmarkTitle: 073 - CHAPTER 60 - Peripheral vascular disease and lymphedema; localization and intervention
+BookmarkLevel: 1
+BookmarkPageNumber: 557
+BookmarkBegin
+BookmarkTitle: 60 Peripheral vascular disease and lymphedema; localization and intervention
+BookmarkLevel: 2
+BookmarkPageNumber: 557
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 559
+BookmarkBegin
+BookmarkTitle: 074 - CHAPTER 61 - Pulmonary rehabilitation_ Improving dyspnea, endurance and wellbeing
+BookmarkLevel: 1
+BookmarkPageNumber: 563
+BookmarkBegin
+BookmarkTitle: 61 Pulmonary rehabilitation: Improving dyspnea, endurance and wellbeing
+BookmarkLevel: 2
+BookmarkPageNumber: 563
+BookmarkBegin
+BookmarkTitle: Ventilatory impairment (CO&#8322; retention)
+BookmarkLevel: 3
+BookmarkPageNumber: 563
+BookmarkBegin
+BookmarkTitle: Obstructive diseases (oxygenation impairment)
+BookmarkLevel: 3
+BookmarkPageNumber: 567
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 4
+BookmarkPageNumber: 571
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 3
+BookmarkPageNumber: 571
+BookmarkBegin
+BookmarkTitle: 075 - CHAPTER 62 - Cancer rehabilitation_ Focus on functional quality of life in the oncologic population
+BookmarkLevel: 1
+BookmarkPageNumber: 583
+BookmarkBegin
+BookmarkTitle: 62 Cancer rehabilitation: Focus on functional quality of life in the oncologic population
+BookmarkLevel: 2
+BookmarkPageNumber: 583
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 588
+BookmarkBegin
+BookmarkTitle: 076 - CHAPTER 63 - Rheumatic disorders
+BookmarkLevel: 1
+BookmarkPageNumber: 591
+BookmarkBegin
+BookmarkTitle: 63 Rheumatic disorders
+BookmarkLevel: 2
+BookmarkPageNumber: 591
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 601
+BookmarkBegin
+BookmarkTitle: 077 - CHAPTER 64 - Pressure injuries (pressure ulcers)_ Etiology, prevention, assessment, and treatment
+BookmarkLevel: 1
+BookmarkPageNumber: 602
+BookmarkBegin
+BookmarkTitle: 64 Pressure injuries (pressure ulcers): Etiology, prevention, assessment, and treatment
+BookmarkLevel: 2
+BookmarkPageNumber: 602
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 605
+BookmarkBegin
+BookmarkTitle: 078 - CHAPTER 65 - Burn rehabilitation_ Guidance of healing and optimal participation
+BookmarkLevel: 1
+BookmarkPageNumber: 606
+BookmarkBegin
+BookmarkTitle: 65 Burn rehabilitation: Guidance of healing and optimal participation
+BookmarkLevel: 2
+BookmarkPageNumber: 606
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 611
+BookmarkBegin
+BookmarkTitle: 079 - CHAPTER 66 - Organ transplantation_ Medical and rehabilitation management
+BookmarkLevel: 1
+BookmarkPageNumber: 613
+BookmarkBegin
+BookmarkTitle: 66 Organ transplantation: Medical and rehabilitation management
+BookmarkLevel: 2
+BookmarkPageNumber: 613
+BookmarkBegin
+BookmarkTitle: Introduction
+BookmarkLevel: 3
+BookmarkPageNumber: 613
+BookmarkBegin
+BookmarkTitle: General medical management of organ transplant patients
+BookmarkLevel: 3
+BookmarkPageNumber: 613
+BookmarkBegin
+BookmarkTitle: Immunosuppressant medications
+BookmarkLevel: 4
+BookmarkPageNumber: 614
+BookmarkBegin
+BookmarkTitle: Medical management of liver/kidney transplant
+BookmarkLevel: 3
+BookmarkPageNumber: 614
+BookmarkBegin
+BookmarkTitle: Liver transplant
+BookmarkLevel: 4
+BookmarkPageNumber: 614
+BookmarkBegin
+BookmarkTitle: Kidney transplant
+BookmarkLevel: 4
+BookmarkPageNumber: 614
+BookmarkBegin
+BookmarkTitle: Rehabilitation management of liver/kidney transplants
+BookmarkLevel: 3
+BookmarkPageNumber: 615
+BookmarkBegin
+BookmarkTitle: Pre-op
+BookmarkLevel: 4
+BookmarkPageNumber: 615
+BookmarkBegin
+BookmarkTitle: Post-op
+BookmarkLevel: 4
+BookmarkPageNumber: 615
+BookmarkBegin
+BookmarkTitle: Discharge planning
+BookmarkLevel: 4
+BookmarkPageNumber: 616
+BookmarkBegin
+BookmarkTitle: Medical management of heart and lung transplant
+BookmarkLevel: 3
+BookmarkPageNumber: 616
+BookmarkBegin
+BookmarkTitle: Heart transplant
+BookmarkLevel: 4
+BookmarkPageNumber: 616
+BookmarkBegin
+BookmarkTitle: Lung transplant
+BookmarkLevel: 4
+BookmarkPageNumber: 616
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 617
+BookmarkBegin
+BookmarkTitle: 080 - CHAPTER 67 - Chronic pain_ Assessment and interdisciplinary intervention
+BookmarkLevel: 1
+BookmarkPageNumber: 620
+BookmarkBegin
+BookmarkTitle: 67 Chronic pain: Assessment and interdisciplinary intervention
+BookmarkLevel: 2
+BookmarkPageNumber: 620
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 626
+BookmarkBegin
+BookmarkTitle: 081 - CHAPTER 68 - Central pain_ Pathophysiology, diagnosis, and treatment&#8212;a challenging diagnosis
+BookmarkLevel: 1
+BookmarkPageNumber: 630
+BookmarkBegin
+BookmarkTitle: 68 Central pain: Pathophysiology, diagnosis, and treatmenta challenging diagnosis
+BookmarkLevel: 2
+BookmarkPageNumber: 630
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 630
+BookmarkBegin
+BookmarkTitle: 082 - CHAPTER 69 - Spinal segmental sensitization_ Diagnosis and management
+BookmarkLevel: 1
+BookmarkPageNumber: 634
+BookmarkBegin
+BookmarkTitle: 69 Spinal segmental sensitization: Diagnosis and management
+BookmarkLevel: 2
+BookmarkPageNumber: 634
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 637
+BookmarkBegin
+BookmarkTitle: 083 - CHAPTER 70 - Central and peripheral manifestations of myofascial pain syndromes and fibromyalgia_ Diagnosis patterns and diverse interventions
+BookmarkLevel: 1
+BookmarkPageNumber: 647
+BookmarkBegin
+BookmarkTitle: 70 Central and peripheral manifestations of myofascial pain syndromes and fibromyalgia: Diagnosis patterns and diverse interventions
+BookmarkLevel: 2
+BookmarkPageNumber: 647
+BookmarkBegin
+BookmarkTitle: Myofascial pain syndrome
+BookmarkLevel: 3
+BookmarkPageNumber: 647
+BookmarkBegin
+BookmarkTitle: Diagnosis
+BookmarkLevel: 4
+BookmarkPageNumber: 647
+BookmarkBegin
+BookmarkTitle: Peripheral and central sensitization: Pathophysiology and treatment approach to MPS
+BookmarkLevel: 4
+BookmarkPageNumber: 649
+BookmarkBegin
+BookmarkTitle: Fibromyalgia
+BookmarkLevel: 3
+BookmarkPageNumber: 654
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 654
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 3
+BookmarkPageNumber: 660
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 660
+BookmarkBegin
+BookmarkTitle: Course
+BookmarkLevel: 3
+BookmarkPageNumber: 660
+BookmarkBegin
+BookmarkTitle: 084 - CHAPTER 71 - Peripheral neuropathic pain_ Classifications, mechanisms, and treatments
+BookmarkLevel: 1
+BookmarkPageNumber: 661
+BookmarkBegin
+BookmarkTitle: 71 Peripheral neuropathic pain: Classifications, mechanisms, and treatments
+BookmarkLevel: 2
+BookmarkPageNumber: 661
+BookmarkBegin
+BookmarkTitle: This subtype does not encompass entrapment neuropathies.
+BookmarkLevel: 3
+BookmarkPageNumber: 665
+BookmarkBegin
+BookmarkTitle: Symmetrical painful neuropathic pain disorders
+BookmarkLevel: 4
+BookmarkPageNumber: 665
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 666
+BookmarkBegin
+BookmarkTitle: 085 - CHAPTER 72 - Complex regional pain syndrome_ Diagnosis and management
+BookmarkLevel: 1
+BookmarkPageNumber: 667
+BookmarkBegin
+BookmarkTitle: 72 Complex regional pain syndrome: Diagnosis and management
+BookmarkLevel: 2
+BookmarkPageNumber: 667
+BookmarkBegin
+BookmarkTitle: Clinical presentation and diagnosis
+BookmarkLevel: 3
+BookmarkPageNumber: 667
+BookmarkBegin
+BookmarkTitle: Diagnostic criteria for complex regional pain syndrome
+BookmarkLevel: 3
+BookmarkPageNumber: 668
+BookmarkBegin
+BookmarkTitle: Pathophysiology
+BookmarkLevel: 3
+BookmarkPageNumber: 669
+BookmarkBegin
+BookmarkTitle: Management
+BookmarkLevel: 3
+BookmarkPageNumber: 670
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 673
+BookmarkBegin
+BookmarkTitle: 086 - CHAPTER 73 - Pediatric rehabilitation_ Maximizing potentials one step at a time
+BookmarkLevel: 1
+BookmarkPageNumber: 674
+BookmarkBegin
+BookmarkTitle: 73 Pediatric rehabilitation: Maximizing potentials one step at a time
+BookmarkLevel: 2
+BookmarkPageNumber: 674
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 677
+BookmarkBegin
+BookmarkTitle: 087 - CHAPTER 74 - Development_ The head-to-toe continuum and life course
+BookmarkLevel: 1
+BookmarkPageNumber: 678
+BookmarkBegin
+BookmarkTitle: 74 Development: The head-to-toe continuum and life course
+BookmarkLevel: 2
+BookmarkPageNumber: 678
+BookmarkBegin
+BookmarkTitle: Books&#8233;
+BookmarkLevel: 3
+BookmarkPageNumber: 682
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 683
+BookmarkBegin
+BookmarkTitle: 088 - CHAPTER 75 - Neural tube defects_ Pathology, complications, and rehabilitation
+BookmarkLevel: 1
+BookmarkPageNumber: 684
+BookmarkBegin
+BookmarkTitle: 75 Neural tube defects: Pathology, complications, and rehabilitation
+BookmarkLevel: 2
+BookmarkPageNumber: 684
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 687
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 687
+BookmarkBegin
+BookmarkTitle: 089 - CHAPTER 76 - Cerebral palsy
+BookmarkLevel: 1
+BookmarkPageNumber: 688
+BookmarkBegin
+BookmarkTitle: 76 Cerebral palsy
+BookmarkLevel: 2
+BookmarkPageNumber: 688
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 693
+BookmarkBegin
+BookmarkTitle: 090 - CHAPTER 77 - Spinal deformity_ Recognition and intervention
+BookmarkLevel: 1
+BookmarkPageNumber: 694
+BookmarkBegin
+BookmarkTitle: 77 Spinal deformity: Recognition and intervention
+BookmarkLevel: 2
+BookmarkPageNumber: 694
+BookmarkBegin
+BookmarkTitle: Degenerative scoliosis: Causes, symptoms, diagnosis, treatment
+BookmarkLevel: 3
+BookmarkPageNumber: 694
+BookmarkBegin
+BookmarkTitle: Cobb angle measurement
+BookmarkLevel: 4
+BookmarkPageNumber: 695
+BookmarkBegin
+BookmarkTitle: Scoliosis in adults: Symptoms, diagnosis, and treatments
+BookmarkLevel: 4
+BookmarkPageNumber: 697
+BookmarkBegin
+BookmarkTitle: Osmosis: Lordosis, kyphosis, and scoliosis
+BookmarkLevel: 4
+BookmarkPageNumber: 697
+BookmarkBegin
+BookmarkTitle: Myelopathy versus radiculopathy&#8212;
+BookmarkLevel: 3
+BookmarkPageNumber: 698
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 701
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 701
+BookmarkBegin
+BookmarkTitle: 091 - CHAPTER 78 - Juvenile idiopathic arthritis_ Children can get arthritis too
+BookmarkLevel: 1
+BookmarkPageNumber: 702
+BookmarkBegin
+BookmarkTitle: 78 Juvenile idiopathic arthritis: Children can get arthritis too
+BookmarkLevel: 2
+BookmarkPageNumber: 702
+BookmarkBegin
+BookmarkTitle: Recommended readings
+BookmarkLevel: 3
+BookmarkPageNumber: 705
+BookmarkBegin
+BookmarkTitle: 092 - CHAPTER 79 - Geriatric rehabilitation_ Maintaining resilience, sustaining passions, and cultivating vibrancy
+BookmarkLevel: 1
+BookmarkPageNumber: 706
+BookmarkBegin
+BookmarkTitle: 79 Geriatric rehabilitation: Maintaining resilience, sustaining passions, and cultivating vibrancy
+BookmarkLevel: 2
+BookmarkPageNumber: 706
+BookmarkBegin
+BookmarkTitle: Further reading
+BookmarkLevel: 3
+BookmarkPageNumber: 711
+BookmarkBegin
+BookmarkTitle: 093 - CHAPTER 80 - Physiatric sports medicine_ Functional diagnosis, focal interventions, and rehabilitation for prevention
+BookmarkLevel: 1
+BookmarkPageNumber: 724
+BookmarkBegin
+BookmarkTitle: 80 Physiatric sports medicine: Functional diagnosis, focal interventions, and rehabilitation for prevention
+BookmarkLevel: 2
+BookmarkPageNumber: 724
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 731
+BookmarkBegin
+BookmarkTitle: 094 - CHAPTER 81 - Vocational rehabilitation and personhood_ A physiatrist&#8217;s vital calling
+BookmarkLevel: 1
+BookmarkPageNumber: 732
+BookmarkBegin
+BookmarkTitle: 81 Vocational rehabilitation and personhood: A physiatrists vital calling
+BookmarkLevel: 2
+BookmarkPageNumber: 732
+BookmarkBegin
+BookmarkTitle: Further reading
+BookmarkLevel: 3
+BookmarkPageNumber: 737
+BookmarkBegin
+BookmarkTitle: Article
+BookmarkLevel: 3
+BookmarkPageNumber: 737
+BookmarkBegin
+BookmarkTitle: 095 - CHAPTER 82 - Impairment and disability rating_ Estimation of work capacity
+BookmarkLevel: 1
+BookmarkPageNumber: 738
+BookmarkBegin
+BookmarkTitle: 82 Impairment and disability rating: Estimation of work capacity
+BookmarkLevel: 2
+BookmarkPageNumber: 738
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 742
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 742
+BookmarkBegin
+BookmarkTitle: 096 - CHAPTER 83 - Performing arts rehabilitation_ Harmonic performer orchestrations
+BookmarkLevel: 1
+BookmarkPageNumber: 743
+BookmarkBegin
+BookmarkTitle: 83 Performing arts rehabilitation: Harmonic performer orchestrations
+BookmarkLevel: 2
+BookmarkPageNumber: 743
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 743
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 3
+BookmarkPageNumber: 746
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 746
+BookmarkBegin
+BookmarkTitle: 097 - CHAPTER 84 - Health policy, legislation, and reimbursement_ Important facets of physiatric practice
+BookmarkLevel: 1
+BookmarkPageNumber: 747
+BookmarkBegin
+BookmarkTitle: 84 Health policy, legislation, and reimbursement: Important facets of physiatric practice
+BookmarkLevel: 2
+BookmarkPageNumber: 747
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 747
+BookmarkBegin
+BookmarkTitle: 098 - CHAPTER 85 - International physical medicine and rehabilitation_ Global synergy and collaboration to maximize rehabilitation potential
+BookmarkLevel: 1
+BookmarkPageNumber: 751
+BookmarkBegin
+BookmarkTitle: 85 International physical medicine and rehabilitation: Global synergy and collaboration to maximize rehabilitation potential
+BookmarkLevel: 2
+BookmarkPageNumber: 751
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 757
+BookmarkBegin
+BookmarkTitle: 099 - CHAPTER 86 - Epilogue_ The past, present, and future of physical medicine and rehabilitation
+BookmarkLevel: 1
+BookmarkPageNumber: 762
+BookmarkBegin
+BookmarkTitle: 86 Epilogue: The past, present, and future of physical medicine and rehabilitation
+BookmarkLevel: 2
+BookmarkPageNumber: 762
+BookmarkBegin
+BookmarkTitle: The past
+BookmarkLevel: 3
+BookmarkPageNumber: 762
+BookmarkBegin
+BookmarkTitle: The present
+BookmarkLevel: 3
+BookmarkPageNumber: 763
+BookmarkBegin
+BookmarkTitle: The future
+BookmarkLevel: 3
+BookmarkPageNumber: 763
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 763
+BookmarkBegin
+BookmarkTitle: 100 - CHAPTER E87 - Learning and practicing physical medicine and rehabilitation_ Clinician centered methodologies
+BookmarkLevel: 1
+BookmarkPageNumber: 764
+BookmarkBegin
+BookmarkTitle: E87 Learning and practicing physical medicine and rehabilitation: Clinician centered methodologies
+BookmarkLevel: 2
+BookmarkPageNumber: 764
+BookmarkBegin
+BookmarkTitle: Learning
+BookmarkLevel: 3
+BookmarkPageNumber: 764
+BookmarkBegin
+BookmarkTitle: Learning physiatry
+BookmarkLevel: 3
+BookmarkPageNumber: 768
+BookmarkBegin
+BookmarkTitle: Sustained interactive strategies: Mentorship
+BookmarkLevel: 3
+BookmarkPageNumber: 771
+BookmarkBegin
+BookmarkTitle: Psychology of learning
+BookmarkLevel: 3
+BookmarkPageNumber: 772
+BookmarkBegin
+BookmarkTitle: Learning in the twenty-first century
+BookmarkLevel: 3
+BookmarkPageNumber: 772
+BookmarkBegin
+BookmarkTitle: Self-directed learning plans
+BookmarkLevel: 3
+BookmarkPageNumber: 776
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 776
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 778
+BookmarkBegin
+BookmarkTitle: Books
+BookmarkLevel: 3
+BookmarkPageNumber: 778
+BookmarkBegin
+BookmarkTitle: 101 - CHAPTER E88 - Genomic prediction in populations_ Advancing pm&amp;r practice
+BookmarkLevel: 1
+BookmarkPageNumber: 779
+BookmarkBegin
+BookmarkTitle: E88 Genomic prediction in populations: Advancing PM&amp;R practice
+BookmarkLevel: 2
+BookmarkPageNumber: 779
+BookmarkBegin
+BookmarkTitle: Websites
+BookmarkLevel: 3
+BookmarkPageNumber: 779
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 787
+BookmarkBegin
+BookmarkTitle: 102 - CHAPTER E89 - Fascia_ Anatomy, pathology, and rehabilitation
+BookmarkLevel: 1
+BookmarkPageNumber: 788
+BookmarkBegin
+BookmarkTitle: E89 Fascia: Anatomy, pathology, and rehabilitation
+BookmarkLevel: 2
+BookmarkPageNumber: 788
+BookmarkBegin
+BookmarkTitle: Anatomy
+BookmarkLevel: 3
+BookmarkPageNumber: 788
+BookmarkBegin
+BookmarkTitle: Pathology
+BookmarkLevel: 3
+BookmarkPageNumber: 791
+BookmarkBegin
+BookmarkTitle: Management/rehabilitation
+BookmarkLevel: 3
+BookmarkPageNumber: 793
+BookmarkBegin
+BookmarkTitle: Fascia and acupuncture
+BookmarkLevel: 3
+BookmarkPageNumber: 794
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 795
+BookmarkBegin
+BookmarkTitle: Video presentation
+BookmarkLevel: 3
+BookmarkPageNumber: 795
+BookmarkBegin
+BookmarkTitle: 103 - CHAPTER E90 - Medicine through the lens of the autonomic nervous system_ A thermographic approach
+BookmarkLevel: 1
+BookmarkPageNumber: 796
+BookmarkBegin
+BookmarkTitle: E90 Medicine through the lens of the autonomic nervous system: A thermographic approach
+BookmarkLevel: 2
+BookmarkPageNumber: 796
+BookmarkBegin
+BookmarkTitle: Bibliography: Autonomic nervous system chapter
+BookmarkLevel: 3
+BookmarkPageNumber: 816
+BookmarkBegin
+BookmarkTitle: Websites:
+BookmarkLevel: 3
+BookmarkPageNumber: 816
+BookmarkBegin
+BookmarkTitle: 104 - CHAPTER E91 - Musculoskeletal ultrasound_ Fundamental principles and case studies
+BookmarkLevel: 1
+BookmarkPageNumber: 817
+BookmarkBegin
+BookmarkTitle: E91 Musculoskeletal ultrasound: Fundamental principles and case studies
+BookmarkLevel: 2
+BookmarkPageNumber: 817
+BookmarkBegin
+BookmarkTitle: Fundamental principles
+BookmarkLevel: 3
+BookmarkPageNumber: 817
+BookmarkBegin
+BookmarkTitle: Case studies
+BookmarkLevel: 3
+BookmarkPageNumber: 819
+BookmarkBegin
+BookmarkTitle: Bibliography
+BookmarkLevel: 3
+BookmarkPageNumber: 821
+BookmarkBegin
+BookmarkTitle: 105 - CHAPTER E92 - Standardizing the measurements_ Optimizing outcomes for clinical success
+BookmarkLevel: 1
+BookmarkPageNumber: 822
+BookmarkBegin
+BookmarkTitle: E92 Standardizing the measurements: Optimizing outcomes for clinical success
+BookmarkLevel: 2
+BookmarkPageNumber: 822
+BookmarkBegin
+BookmarkTitle: Mortality and morbidity rates
+BookmarkLevel: 3
+BookmarkPageNumber: 822
+BookmarkBegin
+BookmarkTitle: Patient-reported outcome measures (PROMS)
+BookmarkLevel: 3
+BookmarkPageNumber: 823
+BookmarkBegin
+BookmarkTitle: Relative value unit
+BookmarkLevel: 3
+BookmarkPageNumber: 823
+BookmarkBegin
+BookmarkTitle: Quality of life measures
+BookmarkLevel: 3
+BookmarkPageNumber: 823
+BookmarkBegin
+BookmarkTitle: References
+BookmarkLevel: 3
+BookmarkPageNumber: 823
+BookmarkBegin
+BookmarkTitle: 106 - Index - 
+BookmarkLevel: 1
+BookmarkPageNumber: 824
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA623&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U1M
+BookmarkLevel: 2
+BookmarkPageNumber: 824
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA624&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U2-
+BookmarkLevel: 2
+BookmarkPageNumber: 825
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA625&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U00
+BookmarkLevel: 2
+BookmarkPageNumber: 826
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA626&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U28
+BookmarkLevel: 2
+BookmarkPageNumber: 827
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA627&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U2e
+BookmarkLevel: 2
+BookmarkPageNumber: 828
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA628&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U2Xi
+BookmarkLevel: 2
+BookmarkPageNumber: 829
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA629&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U0Wj
+BookmarkLevel: 2
+BookmarkPageNumber: 830
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA630&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U0QI
+BookmarkLevel: 2
+BookmarkPageNumber: 831
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA631&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3v6
+BookmarkLevel: 2
+BookmarkPageNumber: 832
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA632&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3U8
+BookmarkLevel: 2
+BookmarkPageNumber: 833
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA633&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U1Cd
+BookmarkLevel: 2
+BookmarkPageNumber: 834
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA634&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U1kk
+BookmarkLevel: 2
+BookmarkPageNumber: 835
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA635&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3Cb
+BookmarkLevel: 2
+BookmarkPageNumber: 836
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA636&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U2Nv
+BookmarkLevel: 2
+BookmarkPageNumber: 837
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA637&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U1Q6
+BookmarkLevel: 2
+BookmarkPageNumber: 838
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA638&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U2W8
+BookmarkLevel: 2
+BookmarkPageNumber: 839
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA639&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U06C
+BookmarkLevel: 2
+BookmarkPageNumber: 840
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA640&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3ks
+BookmarkLevel: 2
+BookmarkPageNumber: 841
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA641&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U1YQ
+BookmarkLevel: 2
+BookmarkPageNumber: 842
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA642&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3O4
+BookmarkLevel: 2
+BookmarkPageNumber: 843
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA643&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U096
+BookmarkLevel: 2
+BookmarkPageNumber: 844
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA644&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U03e
+BookmarkLevel: 2
+BookmarkPageNumber: 845
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA645&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U1C_
+BookmarkLevel: 2
+BookmarkPageNumber: 846
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA646&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3y8
+BookmarkLevel: 2
+BookmarkPageNumber: 847
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA647&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U1KG
+BookmarkLevel: 2
+BookmarkPageNumber: 848
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA648&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3nF
+BookmarkLevel: 2
+BookmarkPageNumber: 849
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA649&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U0tl
+BookmarkLevel: 2
+BookmarkPageNumber: 850
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA650&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U0fX
+BookmarkLevel: 2
+BookmarkPageNumber: 851
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA651&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3E6
+BookmarkLevel: 2
+BookmarkPageNumber: 852
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA652&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3Vm
+BookmarkLevel: 2
+BookmarkPageNumber: 853
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA653&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U0yc
+BookmarkLevel: 2
+BookmarkPageNumber: 854
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA654&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U1Om
+BookmarkLevel: 2
+BookmarkPageNumber: 855
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA655&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U2kD
+BookmarkLevel: 2
+BookmarkPageNumber: 856
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA656&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U0Ak
+BookmarkLevel: 2
+BookmarkPageNumber: 857
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA657&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U3xf
+BookmarkLevel: 2
+BookmarkPageNumber: 858
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA658&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U17p
+BookmarkLevel: 2
+BookmarkPageNumber: 859
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA659&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U0KU
+BookmarkLevel: 2
+BookmarkPageNumber: 860
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA660&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U2lQ
+BookmarkLevel: 2
+BookmarkPageNumber: 861
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA661&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U0HJ
+BookmarkLevel: 2
+BookmarkPageNumber: 862
+BookmarkBegin
+BookmarkTitle: id=frqjEAAAQBAJ&amp;pg=PA662&amp;img=1&amp;zoom=3&amp;hl=en&amp;bul=1&amp;sig=ACfU3U11Y
+BookmarkLevel: 2
+BookmarkPageNumber: 863
+BookmarkBegin
+BookmarkTitle: 107 - Inside back cover
+BookmarkLevel: 1
+BookmarkPageNumber: 864
+BookmarkBegin
+BookmarkTitle: Inside back cover
+BookmarkLevel: 2
+BookmarkPageNumber: 864
+PageMediaBegin
+PageMediaNumber: 1
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 2
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 3
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 4
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 5
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 6
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 7
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 8
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 9
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 10
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 11
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 12
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 13
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 14
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 15
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 16
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 17
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 18
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 19
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 20
+PageMediaRotation: 0
+PageMediaRect: 0 0 432.676 649.014
+PageMediaDimensions: 432.676 649.014
+PageMediaBegin
+PageMediaNumber: 21
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 22
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 23
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 24
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 25
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 26
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 27
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 28
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 29
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 30
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 31
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 32
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 33
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 34
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 35
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 36
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 37
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 38
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 39
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 40
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 41
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 42
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 43
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 44
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 45
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 46
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 47
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 48
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 49
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 50
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 51
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 52
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 53
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 54
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 55
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 56
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 57
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 58
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 59
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 60
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 61
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 62
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 63
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 64
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 65
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 66
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 67
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 68
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 69
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 70
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 71
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 72
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 73
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 74
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 75
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 76
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 77
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 78
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 79
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 80
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 81
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 82
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 83
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 84
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 85
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 86
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 87
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 88
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 89
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 90
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 91
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 92
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 93
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 94
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 95
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 96
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 97
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 98
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 99
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 100
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 101
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 102
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 103
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 104
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 105
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 106
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 107
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 108
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 109
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 110
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 111
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 112
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 113
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 114
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 115
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 116
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 117
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 118
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 119
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 120
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 121
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 122
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 123
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 124
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 125
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 126
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 127
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 128
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 129
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 130
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 131
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 132
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 133
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 134
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 135
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 136
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 137
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 138
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 139
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 140
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 141
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 142
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 143
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 144
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 145
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 146
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 147
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 148
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 149
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 150
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 151
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 152
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 153
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 154
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 155
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 156
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 157
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 158
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 159
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 160
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 161
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 162
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 163
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 164
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 165
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 166
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 167
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 168
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 169
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 170
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 171
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 172
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 173
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 174
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 175
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 176
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 177
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 178
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 179
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 180
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 181
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 182
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 183
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 184
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 185
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 186
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 187
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 188
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 189
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 190
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 191
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 192
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 193
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 194
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 195
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 196
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 197
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 198
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 199
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 200
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 201
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 202
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 203
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 204
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 205
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 206
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 207
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 208
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 209
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 210
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 211
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 212
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 213
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 214
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 215
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 216
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 217
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 218
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 219
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 220
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 221
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 222
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 223
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 224
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 225
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 226
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 227
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 228
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 229
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 230
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 231
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 232
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 233
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 234
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 235
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 236
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 237
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 238
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 239
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 240
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 241
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 242
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 243
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 244
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 245
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 246
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 247
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 248
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 249
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 250
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 251
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 252
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 253
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 254
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 255
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 256
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 257
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 258
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 259
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 260
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 261
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 262
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 263
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 264
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 265
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 266
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 267
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 268
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 269
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 270
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 271
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 272
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 273
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 274
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 275
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 276
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 277
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 278
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 279
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 280
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 281
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 282
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 283
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 284
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 285
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 286
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 287
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 288
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 289
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 290
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 291
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 292
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 293
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 294
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 295
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 296
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 297
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 298
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 299
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 300
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 301
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 302
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 303
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 304
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 305
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 306
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 307
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 308
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 309
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 310
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 311
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 312
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 313
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 314
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 315
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 316
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 317
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 318
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 319
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 320
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 321
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 322
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 323
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 324
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 325
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 326
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 327
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 328
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 329
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 330
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 331
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 332
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 333
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 334
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 335
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 336
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 337
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 338
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 339
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 340
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 341
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 342
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 343
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 344
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 345
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 346
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 347
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 348
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 349
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 350
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 351
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 352
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 353
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 354
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 355
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 356
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 357
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 358
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 359
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 360
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 361
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 362
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 363
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 364
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 365
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 366
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 367
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 368
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 369
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 370
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 371
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 372
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 373
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 374
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 375
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 376
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 377
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 378
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 379
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 380
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 381
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 382
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 383
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 384
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 385
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 386
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 387
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 388
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 389
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 390
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 391
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 392
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 393
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 394
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 395
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 396
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 397
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 398
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 399
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 400
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 401
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 402
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 403
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 404
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 405
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 406
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 407
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 408
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 409
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 410
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 411
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 412
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 413
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 414
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 415
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 416
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 417
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 418
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 419
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 420
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 421
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 422
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 423
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 424
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 425
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 426
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 427
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 428
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 429
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 430
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 431
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 432
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 433
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 434
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 435
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 436
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 437
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 438
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 439
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 440
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 441
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 442
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 443
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 444
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 445
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 446
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 447
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 448
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 449
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 450
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 451
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 452
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 453
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 454
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 455
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 456
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 457
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 458
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 459
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 460
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 461
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 462
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 463
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 464
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 465
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 466
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 467
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 468
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 469
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 470
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 471
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 472
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 473
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 474
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 475
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 476
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 477
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 478
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 479
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 480
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 481
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 482
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 483
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 484
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 485
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 486
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 487
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 488
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 489
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 490
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 491
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 492
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 493
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 494
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 495
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 496
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 497
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 498
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 499
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 500
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 501
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 502
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 503
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 504
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 505
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 506
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 507
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 508
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 509
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 510
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 511
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 512
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 513
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 514
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 515
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 516
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 517
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 518
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 519
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 520
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 521
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 522
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 523
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 524
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 525
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 526
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 527
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 528
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 529
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 530
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 531
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 532
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 533
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 534
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 535
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 536
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 537
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 538
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 539
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 540
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 541
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 542
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 543
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 544
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 545
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 546
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 547
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 548
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 549
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 550
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 551
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 552
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 553
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 554
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 555
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 556
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 557
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 558
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 559
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 560
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 561
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 562
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 563
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 564
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 565
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 566
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 567
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 568
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 569
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 570
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 571
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 572
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 573
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 574
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 575
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 576
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 577
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 578
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 579
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 580
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 581
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 582
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 583
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 584
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 585
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 586
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 587
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 588
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 589
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 590
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 591
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 592
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 593
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 594
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 595
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 596
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 597
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 598
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 599
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 600
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 601
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 602
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 603
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 604
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 605
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 606
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 607
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 608
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 609
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 610
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 611
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 612
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 613
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 614
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 615
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 616
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 617
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 618
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 619
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 620
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 621
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 622
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 623
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 624
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 625
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 626
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 627
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 628
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 629
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 630
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 631
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 632
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 633
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 634
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 635
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 636
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 637
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 638
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 639
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 640
+PageMediaRotation: 90
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 641
+PageMediaRotation: 90
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 642
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 643
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 644
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 645
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 646
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 647
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 648
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 649
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 650
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 651
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 652
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 653
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 654
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 655
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 656
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 657
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 658
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 659
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 660
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 661
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 662
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 663
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 664
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 665
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 666
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 667
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 668
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 669
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 670
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 671
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 672
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 673
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 674
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 675
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 676
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 677
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 678
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 679
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 680
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 681
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 682
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 683
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 684
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 685
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 686
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 687
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 688
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 689
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 690
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 691
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 692
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 693
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 694
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 695
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 696
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 697
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 698
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 699
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 700
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 701
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 702
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 703
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 704
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 705
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 706
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 707
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 708
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 709
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 710
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 711
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 712
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 713
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 714
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 715
+PageMediaRotation: 90
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 716
+PageMediaRotation: 90
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 717
+PageMediaRotation: 90
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 718
+PageMediaRotation: 90
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 719
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 720
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 721
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 722
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 723
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 724
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 725
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 726
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 727
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 728
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 729
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 730
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 731
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 732
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 733
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 734
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 735
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 736
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 737
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 738
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 739
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 740
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 741
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 742
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 743
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 744
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 745
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 746
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 747
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 748
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 749
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 750
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 751
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 752
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 753
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 754
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 755
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 756
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 757
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 758
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 759
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 760
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 761
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 762
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 763
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 764
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 765
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 766
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 767
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 768
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 769
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 770
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 771
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 772
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 773
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 774
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 775
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 776
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 777
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 778
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 779
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 780
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 781
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 782
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 783
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 784
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 785
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 786
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 787
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 788
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 789
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 790
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 791
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 792
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 793
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 794
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 795
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 796
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 797
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 798
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 799
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 800
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 801
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 802
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 803
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 804
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 805
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 806
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 807
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 808
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 809
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 810
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 811
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 812
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 813
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 814
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 815
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 816
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 817
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 818
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 819
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 820
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 821
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 822
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 823
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
+PageMediaBegin
+PageMediaNumber: 824
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 825
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 826
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 827
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 828
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 829
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 830
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 831
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 832
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 833
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 834
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 835
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 836
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 837
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 838
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 839
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 840
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 841
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 842
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 843
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 844
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 845
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 846
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 847
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 848
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 849
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 850
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 851
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 852
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 853
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 854
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 855
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 856
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 857
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 858
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 859
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 860
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 861
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 862
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 863
+PageMediaRotation: 0
+PageMediaRect: 0 0 431.741 647.482
+PageMediaDimensions: 431.741 647.482
+PageMediaBegin
+PageMediaNumber: 864
+PageMediaRotation: 0
+PageMediaRect: 0 0 432 648
+PageMediaDimensions: 432 648
