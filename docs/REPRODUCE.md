@@ -28,6 +28,16 @@ pdftk src.pdf dump_data output bookmarks.txt
 pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 ```
 
+A [bookmarks.txt](src/bookmarks.txt) example is converted to [books.txt](src/books.txt) as follows,
+
+```bash
+awk '!/-/ {print}
+     $0 ~ /BookmarkTitle: [0-9]{3} - (.*)/ {
+        text = substr($0, RSTART + 21);
+        print "BookmarkTitle: " text;
+     }' bookmarks.txt > books.txt
+```
+
 ## quarto
 
 This is extensively documented under Linux, <https://cambridge-ceu.github.io/csd3/applications/quarto.html>.
