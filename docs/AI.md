@@ -4,9 +4,6 @@
 - Anthropic, <https://www.anthropic.com/>
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
-    - GitHub, <https://github.com/lm-sys>
-    - LMSYS Org, <https://lmsys.org/>
-    - Chatbot Arena, <https://lmarena.ai/>
 - ChatPDF, <https://www.chatpdf.com/>
 - Cohere, <https://cohere.com/>
 - Crayon, <https://www.craiyon.com/>
@@ -36,10 +33,14 @@
     - Llama-3.3-70B-Instruct, <https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct>
     - Models, <https://huggingface.co/models>
     - Papers, <https://huggingface.co/papers>
+- kaggle, <https://www.kaggle.com/>
 - Keras, <https://keras.io/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
 - LLM, <https://llm.datasette.io/en/stable/>
 - llm-Ollama plugin, <https://github.com/taketwo/llm-ollama>
+- LMSYS Org, <https://lmsys.org/>
+  - Chatbot Arena, <https://lmarena.ai/> (<https://web.lmarena.ai/>)
+  - GitHub, <https://github.com/lm-sys>
 - Meta, <https://www.facebook.com/business>
     - Llama, <https://www.llama.com/> ([terms](https://ai.meta.com/llama/license/))
     - Meta AI, <https://www.meta.ai/>
