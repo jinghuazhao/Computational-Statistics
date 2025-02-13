@@ -57,10 +57,12 @@
 - OddPrints, <https://www.oddprints.com/>
 - Oh My Posh, <https://ohmyposh.dev/>
 - Online2PDF, <https://online2pdf.com/docx2pdf>
+- online-convert, <https://document.online-convert.com/>
 - PaddleOCR, <https://github.com/PaddlePaddle/PaddleOCR>
 - PDF24, <https://en.pdf24.org/>
 - PDF2DJVU, <https://pdf2djvu.com/>
 - PDFgear, <https://www.pdfgear.com/>
+- PDFocr, <https://pdfocr.org/>
 - PDF-XCHANGE, <https://www.pdf-xchange.com/> (discontinued [viewer](https://www.pdf-xchange.com/product/downloads/discontinued))
 - PNG2PDF, <https://png2pdf.com/>
 - PhotoScissors, <https://photoscissors.com/>
@@ -75,6 +77,7 @@
     - [shinyapps](https://www.shinyapps.io/)
 - Rufus, <https://rufus.ie/en/>
 - Scribus, <https://sourceforge.net/projects/scribus/>
+- smallpdf, <https://smallpdf.com/>
 - Speedtest, <https://www.speedtest.net/>
 - Template-Rcpp, <https://github.com/stsds/Template-Rcpp> (LinkedIn [post](https://www.linkedin.com/feed/update/urn:li:activity:7136774813066358785/))
 - text-utils, <https://www.text-utils.com/>
@@ -140,6 +143,7 @@
 - Twitter, <https://github.com/twitter>
 - zenodo, <https://zenodo.org/>
 - Western Digital, <https://www.westerndigital.com/>
+- xodo, <https://xodo.com/>
 
 ## Reference management
 
