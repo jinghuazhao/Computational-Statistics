@@ -5,7 +5,7 @@
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
 - AnythingLLM*, <https://anythingllm.com/>
-- Cheery Studio*, <https://cherry-ai.com/>
+- Cherry Studio*, <https://cherry-ai.com/>
 - ChatPDF, <https://www.chatpdf.com/>
 - Cohere, <https://cohere.com/>
 - Crayon, <https://www.craiyon.com/>
