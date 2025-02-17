@@ -80,6 +80,7 @@
 - smallpdf, <https://smallpdf.com/>
 - Speedtest, <https://www.speedtest.net/>
 - Template-Rcpp, <https://github.com/stsds/Template-Rcpp> (LinkedIn [post](https://www.linkedin.com/feed/update/urn:li:activity:7136774813066358785/))
+- Tesseract, <https://tesseract-ocr.github.io/>
 - text-utils, <https://www.text-utils.com/>
 - time.is, <https://time.is/>
 - Tabby, <https://tabby.sh>
