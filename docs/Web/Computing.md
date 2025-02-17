@@ -23,6 +23,7 @@
 - b-inary, <https://b-inary.github.io/prime/>
 - Brave, <https://brave.com/>
 - brms, <https://paul-buerkner.github.io/brms/index.html> ([CRAN](https://cran.r-project.org/web/packages/brms/index.html))
+- bukenghezi (不坑盒子), <https://www.bukenghezi.com/>
 - Calibre, <https://calibre-ebook.com/>
 - Click, <https://click.palletsprojects.com>
 - ConvertWizard, <https://convertwizard.com/>
