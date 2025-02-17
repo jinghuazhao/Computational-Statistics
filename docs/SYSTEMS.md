@@ -44,7 +44,15 @@ The screen utility is operated as follows,
 ```bash
 screen -S <my-screen-session>
 screen -ls
+Ctrl-A, D
 screen -r <my-screen-session-id>
+```
+
+The directory tree are shown with
+
+```bash
+tree -L 2
+tree -d
 ```
 
 An introduction to Linux Access Control Lists (ACLs), [https://www.redhat.com/sysadmin/linux-access-control-lists](https://www.redhat.com/sysadmin/linux-access-control-lists).

@@ -252,6 +252,8 @@ rsync -avrzP $HOME/public_html shell.srcf.net:/public/$HOME
 ```
 Note that it works equally well for backup of files locally.
 
+A replacement of `cp` is furnished with `rsync -av --progress source/ destination/`.
+
 ## Web site file permission
 
 The following commands set read permission to a web site hosted at `/public/$HOME/public_html`.
