@@ -374,6 +374,7 @@ pip install recommonmark
 <pre><code class="language-bash">rsync -avrzP $HOME/public_html shell.srcf.net:/public/$HOME
 </code></pre>
 <p>Note that it works equally well for backup of files locally.</p>
+<p>A replacement of <code>cp</code> is furnished with <code>rsync -av --progress source/ destination/</code>.</p>
 <h2 id="web-site-file-permission">Web site file permission</h2>
 <p>The following commands set read permission to a web site hosted at <code>/public/$HOME/public_html</code>.</p>
 <pre><code class="language-bash">chmod -R +r /public/$HOME/public_html
