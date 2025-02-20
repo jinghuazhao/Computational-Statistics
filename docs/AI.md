@@ -1,11 +1,9 @@
-# AI-related sites (*=App)
+# AI-related sites
 
 - AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
 - Anthropic, <https://www.anthropic.com/>
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
-- AnythingLLM*, <https://anythingllm.com/>
-- Cherry Studio*, <https://cherry-ai.com/>
 - ChatPDF, <https://www.chatpdf.com/>
 - Cohere, <https://cohere.com/>
 - Crayon, <https://www.craiyon.com/>
@@ -76,3 +74,4 @@
 - Stability AI, <https://stability.ai/>
 - Stable diffusion, <https://github.com/CompVis>
 - xAI, <https://x.ai/>
+    - Grok3, <https://grok.com/>
