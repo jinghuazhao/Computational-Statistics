@@ -36,7 +36,7 @@
 - Equation Editor, <https://editor.codecogs.com/>
 - Flapjax, <https://www.flapjax-lang.org/>
 - Flask, <https://flask.palletsprojects.com/>
-- Foxit, <https://www.foxitsoftware.com/>
+- Foxit, <https://www.foxitsoftware.com/>, <https://www.foxit.com/pdf-to-ppt/>
 - FreeCAD, <https://www.freecad.org/>
 - gravis, <https://robert-haas.github.io/gravis-docs/index.html>
 - HivisionIDPhotos, <https://swanhub.co/ZeYiLin/HivisionIDPhotos> ([GitHub](https://github.com/Zeyi-Lin/HivisionIDPhotos)
