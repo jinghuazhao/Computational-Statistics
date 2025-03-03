@@ -12,8 +12,8 @@ The repository intends to make it easier to keep pace with releases of Linux sys
     * [mythic-beasts](mythic-beasts.md).
     * [plumber](plumber.md).
 - Setup
-    * [Installation notes](INSTALL.md). Installation and setup.
-    * [Language notes](LANGUAGES.md). Language-related contents.
-    * [Parallel computing](PARALLEL.md). Parallel computing.
-    * [Reproducible research](REPRODUCE.md). Reproducible research.
-    * [Systems](SYSTEMS.md). System-related materials.
+    * [Installation notes](INSTALL.md).
+    * [Language notes](LANGUAGES.md).
+    * [Parallel computing](PARALLEL.md).
+    * [Reproducible research](REPRODUCE.md).
+    * [System-related materials](SYSTEMS.md).
