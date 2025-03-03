@@ -4,13 +4,13 @@ edit_uri: ""
 nav:
     - "": README.md
     - AI: AI.md
+    - Computing: Computing.md
     - Download: download.md
     - Internet:
       - Flask: Flask/README.md
       - mythic-beasts: mythic-beasts.md
       - plumber: plumber.md
-    - Resource: Computing.md
-    - SETUP:
+    - Setup:
       - INSTALL: INSTALL.md
       - LANGUAGES: LANGUAGES.md
       - PARALLEL: PARALLEL.md
