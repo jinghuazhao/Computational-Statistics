@@ -10,12 +10,12 @@ nav:
       - PARALLEL: PARALLEL.md
       - REPRODUCE: REPRODUCE.md
       - SYSTEMS: SYSTEMS.md
-    - WEB:
-      - Internet:
-        - Flask: Web/Flask/README.md
-        - mythic-beasts: Web/mythic-beasts.md
-        - plumber: Web/plumber.md
-      - "Computing resources": Web/Computing.md
+    - Internet:
+      - Flask: Flask/README.md
+      - mythic-beasts: mythic-beasts.md
+      - plumber: plumber.md
+    - Resources:
+      - "Computing resources": Computing.md
       - Utilities: Web/Utilities.md
 theme:
     name: mkdocs
