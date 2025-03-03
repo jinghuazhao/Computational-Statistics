@@ -16,7 +16,7 @@ nav:
       - plumber: plumber.md
     - Resources:
       - "Computing resources": Computing.md
-      - Utilities: Web/Utilities.md
+      - Utilities: Utilities.md
 theme:
     name: mkdocs
     nav_style: dark
