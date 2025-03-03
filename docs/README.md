@@ -6,7 +6,7 @@ The repository intends to make it easier to keep pace with releases of Linux sys
 
 - AI: [AI-related sites](AI.md).
 - Computing: [Computing resources](Computing.md).
-- [Download](download.md).
+- Download: [Utitlities for downloads](download.md).
 - Internet
     * [Flask](Flask/README.md).
     * [mythic-beasts](mythic-beasts.md).
