@@ -15,7 +15,7 @@ nav:
       - "Language notes": LANGUAGES.md
       - "Parallel computing": PARALLEL.md
       - "Reproducible research": REPRODUCE.md
-      - "Systems": SYSTEMS.md
+      - "System-related materials": SYSTEMS.md
 theme:
     name: mkdocs
     nav_style: dark
