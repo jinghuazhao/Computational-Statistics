@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>plumber - Computational Statistics</title>
-        <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Flask - Computational Statistics</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/Bash.min.js"></script>
@@ -29,7 +29,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="../..">Computational Statistics</a>
+                <a class="navbar-brand" href="..">Computational Statistics</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -40,57 +40,56 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="../.." class="nav-link"></a>
+                                <a href=".." class="nav-link"></a>
                             </li>
                             <li class="navitem">
-                                <a href="../../AI/" class="nav-link">AI</a>
+                                <a href="../AI/" class="nav-link">AI</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SETUP <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../INSTALL/" class="dropdown-item">INSTALL</a>
+    <a href="../INSTALL/" class="dropdown-item">INSTALL</a>
 </li>
                                     
 <li>
-    <a href="../../LANGUAGES/" class="dropdown-item">LANGUAGES</a>
+    <a href="../LANGUAGES/" class="dropdown-item">LANGUAGES</a>
 </li>
                                     
 <li>
-    <a href="../../PARALLEL/" class="dropdown-item">PARALLEL</a>
+    <a href="../PARALLEL/" class="dropdown-item">PARALLEL</a>
 </li>
                                     
 <li>
-    <a href="../../REPRODUCE/" class="dropdown-item">REPRODUCE</a>
+    <a href="../REPRODUCE/" class="dropdown-item">REPRODUCE</a>
 </li>
                                     
 <li>
-    <a href="../../SYSTEMS/" class="dropdown-item">SYSTEMS</a>
+    <a href="../SYSTEMS/" class="dropdown-item">SYSTEMS</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">WEB <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Internet <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-  <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Internet</a>
-    <ul class="dropdown-menu">
-            
 <li>
-    <a href="../Flask/" class="dropdown-item">Flask</a>
+    <a href="./" class="dropdown-item active">Flask</a>
 </li>
-            
+                                    
 <li>
     <a href="../mythic-beasts/" class="dropdown-item">mythic-beasts</a>
 </li>
-            
+                                    
 <li>
-    <a href="./" class="dropdown-item active">plumber</a>
+    <a href="../plumber/" class="dropdown-item">plumber</a>
 </li>
-    </ul>
-  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
                                     
 <li>
     <a href="../Computing/" class="dropdown-item">Computing resources</a>
@@ -110,12 +109,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../mythic-beasts/" class="nav-link">
+                                <a rel="prev" href="../SYSTEMS/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../Computing/" class="nav-link">
+                                <a rel="next" href="../mythic-beasts/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -140,16 +139,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#plumber" class="nav-link">plumber</a>
+            <li class="nav-item" data-level="1"><a href="#flask" class="nav-link">Flask</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#setup" class="nav-link">Setup</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#httpuv" class="nav-link">httpuv</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -157,124 +148,31 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="plumber">plumber</h1>
-<p>It is <code>an API generator in R</code>, which has been tested through Caprion data as follows.</p>
-<h2 id="setup">Setup</h2>
-<p>As noted elsewhere, <code>libsodium</code> is required for installation of the R package.</p>
-<pre><code class="language-r">library(plumber)
-library(seqminer)
-library(jsonlite)
-
-get_data &lt;- function(filename, region)
-{
-  query_result &lt;- seqminer::tabix.read(filename, region)
-  hdr &lt;- c(&quot;Chromosome&quot;, &quot;Position&quot;,
-           &quot;MarkerName&quot;, &quot;Allele1&quot;, &quot;Allele2&quot;, &quot;Freq1&quot;, &quot;FreqSE&quot;, &quot;MinFreq&quot;, &quot;MaxFreq&quot;,
-           &quot;Effect&quot;, &quot;StdErr&quot;, &quot;logP&quot;,
-           &quot;Direction&quot;, &quot;HetISq&quot;, &quot;HetChiSq&quot;, &quot;HetDf&quot;, &quot;logHetP&quot;, &quot;N&quot;)
-  df &lt;- read.table(text = paste(query_result, collapse = &quot;\n&quot;), sep = &quot;\t&quot;, col.names=hdr)
-  return(df)
-}
-
-options(width = 200)
-filename &lt;- file.path(&quot;METAL_dr&quot;,&quot;ZPI_dr-1.tbl.gz&quot;)
-region &lt;- &quot;1:10000-20000&quot;
-data &lt;- get_data(filename, region)
-head(data,1)
-
-plbr &lt;- plumber::Plumber$new()
-plbr$handle(&quot;GET&quot;, &quot;/data&quot;, function(req, res) {
-  protein &lt;- req$args$protein
-  region &lt;- req$args$region
-  if (is.null(protein) || is.null(region)) {
-    res$status &lt;- 400
-    return(list(error = &quot;Both 'protein' and 'region' must be provided&quot;))
-  }
-  filename &lt;- file.path(&quot;METAL_dr&quot;,paste0(protein,&quot;_dr-1.tbl.gz&quot;))
-  print(filename)
-  if (!file.exists(filename)) {
-    res$status &lt;- 404
-    return(list(error = paste(&quot;File for&quot;, protein, &quot;not found&quot;)))
-  }
-  data &lt;- get_data(filename, region)
-  json_data &lt;- toJSON(data, dataframe = &quot;rows&quot;, na = &quot;null&quot;)
-  res$setHeader(&quot;Content-Type&quot;, &quot;application/json&quot;)
-  return(json_data)
-})
-plbr$run(port = 8001)
+<h1 id="flask">Flask</h1>
+<p>Considerable coverage has been given on Flask, e.g., <a href="https://cambridge-ceu.github.io/GitHub-matters/Flask/">https://cambridge-ceu.github.io/GitHub-matters/Flask/</a>, and WSGI is touched upon here, <a href="https://cambridge-ceu.github.io/CEU-matters/Flask/">https://cambridge-ceu.github.io/CEU-matters/Flask/</a>.</p>
+<p>As ususal, this is furnished with <a href="app.py"><code>app.py</code></a> and <a href="config.py"><code>config.py</code></a> with <a href="templates"><code>templates</code></a> in its simplest form.</p>
+<pre><code>Flask/
+├── app.py
+├── config.py
+├── README.md (this file)
+└── templates
+    └── index.html
 </code></pre>
-<p>We see that,</p>
-<pre><code>&gt; head(data,1)
-  Chromosome Position   MarkerName Allele1 Allele2  Freq1 FreqSE MinFreq MaxFreq      Effect    StdErr  logP Direction HetISq HetChiSq HetDf logHetP    N
-1          1    10352 1:10352_T_TA       t      ta 0.6147 0.0038  0.6122  0.6273 -0.05283738 0.0335632 -0.94    +--???    5.2    2.109     2 -0.4579 2491
+<p>which uses environment variable from <code>export OPENAI_API_KEY=$(grep sk ~/doc/OpenAI)</code>.</p>
+<p>By default, <code>python app.py</code> will enable <code>http://127.0.0.1:5000</code>:</p>
+<pre><code>$ python app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (inotify)
+ * Debugger is active!
+ * Debugger PIN: 711-120-470
+127.0.0.1 - - [05/Dec/2024 21:48:34] &quot;GET / HTTP/1.1&quot; 200 -
+127.0.0.1 - - [05/Dec/2024 21:48:34] &quot;GET / HTTP/1.1&quot; 200 -
 </code></pre>
-<p>and</p>
-<pre><code>Running plumber API at http://127.0.0.1:8001
-Running swagger Docs at http://127.0.0.1:8001/__docs__/
-</code></pre>
-<p>So we get query results in JSON format from</p>
-<ul>
-<li><strong>browser</strong>: http://localhost:8001/data?protein=ZPI&amp;region=1:10000-20000</li>
-<li><strong>curl</strong>: curl "http://localhost:8001/data?protein=ZPI&amp;region=1:10000-20000"</li>
-</ul>
-<p>Additional work required to get output from <code>curl</code> to a tab-delimited data,</p>
-<pre><code class="language-bash">curl &quot;http://localhost:8001/data?protein=APOB&amp;region=1:10000-20000&quot; | \
-jq -r '.[0] |
-   fromjson |
-   .[] |
-   [
-     .Chromosome, .Position, .MarkerName, .Allele1, .Allele2, .Freq1,
-     .Effect, .StdErr, .logP, .Direction, .HetISq, .HetChiSq, .HetDf, .logHetP, .N
-   ] |
-   @tsv'
-</code></pre>
-<p>where</p>
-<ol>
-<li><strong>.[0]</strong>: Access the first element in the outer array (the string containing the JSON).</li>
-<li><strong>fromjson</strong>: Parse the string into a JSON object.</li>
-<li><strong>.[]</strong>: Iterate over the array inside the parsed JSON.</li>
-<li><strong>[ ... ]</strong>: Create an array of the values needed, each corresponds to a column in the TSV output.</li>
-<li><strong>@tsv</strong>: Convert the array into tab-separated values.</li>
-</ol>
-<p>Note also that only selected columns (as in 4) are kept. The simplest way to have the header is add it manually,</p>
-<pre><code class="language-bash">(
-  echo &quot;Chromosome|Position|MarkerName|Allele1|Allele2|Freq1|Effect|StdErr|logP|Direction|HetISq|HetChiSq|HetDf|logHetP|N&quot; | \
-  sed 's/|/\t/g'
-  curl command as above.
-)
-</code></pre>
-<h2 id="httpuv">httpuv</h2>
-<p>This is alternative to <code>plumber</code>,</p>
-<pre><code class="language-r">library(httpuv)
-s &lt;- startServer(&quot;0.0.0.0&quot;, 5000,
-  list(
-    call = function(req) {
-      list(
-        status = 200L,
-        headers = list(
-          'Content-Type' = 'text/html',
-          'Access-Control-Allow-Origin' = '*',
-          'Access-Control-Allow-Methods' = 'GET, POST, OPTIONS',
-          'Access-Control-Allow-Headers' = 'Content-Type'
-        ),
-        body = &quot;Hello world!&quot;
-      )
-    },
-    staticPaths = list(
-      &quot;/assets&quot; = &quot;content/assets/&quot;,
-      &quot;/lib&quot; = staticPath(
-        &quot;content/lib&quot;,
-        indexhtml = FALSE
-      ),
-      &quot;/lib/dynamic&quot; = excludeStaticPath()
-    ),
-    staticPathOptions = staticPathOptions(
-      indexhtml = TRUE
-    )
-  )
-)
-s$stop()
-</code></pre></div>
+<p>Note that we actually showcase an API for ChatGPT.</p></div>
             </div>
         </div>
 
@@ -282,14 +180,14 @@ s$stop()
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="../../js/jquery-3.6.0.min.js"></script>
-        <script src="../../js/bootstrap.min.js"></script>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
         <script>
-            var base_url = "../..",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../../js/base.js"></script>
-        <script src="../../search/main.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
