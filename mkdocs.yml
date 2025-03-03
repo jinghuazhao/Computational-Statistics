@@ -4,12 +4,6 @@ edit_uri: ""
 nav:
     - "": README.md
     - AI: AI.md
-    - SETUP:
-      - INSTALL: INSTALL.md
-      - LANGUAGES: LANGUAGES.md
-      - PARALLEL: PARALLEL.md
-      - REPRODUCE: REPRODUCE.md
-      - SYSTEMS: SYSTEMS.md
     - Internet:
       - Flask: Flask/README.md
       - mythic-beasts: mythic-beasts.md
@@ -17,6 +11,12 @@ nav:
     - Resources:
       - "Computing resources": Computing.md
       - Utilities: Utilities.md
+    - SETUP:
+      - INSTALL: INSTALL.md
+      - LANGUAGES: LANGUAGES.md
+      - PARALLEL: PARALLEL.md
+      - REPRODUCE: REPRODUCE.md
+      - SYSTEMS: SYSTEMS.md
 theme:
     name: mkdocs
     nav_style: dark
