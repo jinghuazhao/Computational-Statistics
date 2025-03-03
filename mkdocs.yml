@@ -14,7 +14,7 @@ nav:
       - "Installation notes": INSTALL.md
       - "Language notes": LANGUAGES.md
       - "Parallel computing": PARALLEL.md
-      - "[Reproducible research": REPRODUCE.md
+      - "Reproducible research": REPRODUCE.md
       - "Systems": SYSTEMS.md
 theme:
     name: mkdocs
