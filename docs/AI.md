@@ -32,9 +32,9 @@
 - Hugging Face, <https://huggingface.co>
     - Datasets, <https://huggingface.co/datasets>
     - HuggingChat, <https://huggingface.co/chat/>
-    - Llama-3.3-70B-Instruct, <https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct>
-    - Models, <https://huggingface.co/models>
+    - Models, <https://huggingface.co/models> (Llama-3.3-70B-Instruct, <https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct>)
     - Papers, <https://huggingface.co/papers>
+    - Spaces, <https://huggingface.co/spaces>
 - kaggle, <https://www.kaggle.com/>
 - Keras, <https://keras.io/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
