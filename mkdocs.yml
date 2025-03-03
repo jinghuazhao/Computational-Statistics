@@ -9,8 +9,7 @@ nav:
       - Flask: Flask/README.md
       - mythic-beasts: mythic-beasts.md
       - plumber: plumber.md
-    - Resources:
-      - "Computing resources": Computing.md
+    - Resource: Computing.md
     - SETUP:
       - INSTALL: INSTALL.md
       - LANGUAGES: LANGUAGES.md
