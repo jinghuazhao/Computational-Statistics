@@ -1,7 +1,7 @@
 # AI-related sites (*=App)
 
 - AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
-- Ai2, <https://allenai.org/> [OLMoE}(https://github.com/allenai/OLMoE) [arXiv](https://arxiv.org/abs/2409.02060)
+- Ai2, <https://allenai.org/> [OLMoE](https://github.com/allenai/OLMoE) [arXiv](https://arxiv.org/abs/2409.02060)
 - Anthropic, <https://www.anthropic.com/>
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
