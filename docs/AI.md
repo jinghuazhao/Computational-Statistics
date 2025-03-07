@@ -52,6 +52,11 @@
     - Bing Image Creator, <https://www.bing.com/images/create/>
     - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://huggingface.co/papers/2412.08905>)
 - Midjourney, <https://www.midjourney.com/home>
+    - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
+    - Background removal, <https://huggingface.co/spaces/not-lain/background-removal>
+- Mistral, <https://mistral.ai/>
+    - Le Chat, <https://chat.mistral.ai/>
+    - Mistral OCR, <https://mistral.ai/news/mistral-ocr>
 - No-Code LLM App Builders
     - Dify, <https://dify.ai/>
     - Flowwise AI, <https://flowiseai.com/>
