@@ -120,6 +120,7 @@
     * Adwords keywords planner, <https://ads.google.com/home/tools/keyword-planner/>
     * App Engine, <https://cloud.google.com/appengine/>
     * [Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf)
+    * Colab, <https://colab.research.google.com/>
     * DeepMind, <https://deepmind.google/>
     * Gemini, <https://ai.google.dev/>
     * My groups, <https://groups.google.com/my-groups>
