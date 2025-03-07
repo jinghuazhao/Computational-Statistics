@@ -56,7 +56,7 @@
     - Background removal, <https://huggingface.co/spaces/not-lain/background-removal>
 - Mistral, <https://mistral.ai/>
     - Le Chat, <https://chat.mistral.ai/>
-    - Mistral OCR, <https://mistral.ai/news/mistral-ocr>
+    - Mistral OCR, <https://console.mistral.ai/>
 - No-Code LLM App Builders
     - Dify, <https://dify.ai/>
     - Flowwise AI, <https://flowiseai.com/>
