@@ -88,6 +88,7 @@
 - Tabby, <https://tabby.sh>
 - Typora, <https://typora.io/>
 - uLisp, <http://www.ulisp.com/>
+- wails, <https://wails.io/>
 - WebGL, <https://get.webgl.org/>
 - WinToHDD, <https://www.easyuefi.com/wintohdd/index.html> (also [easyUEFI](https://www.easyuefi.com/index-us.html))
 - WinToUSB, <https://www.neowin.net/software/wintousb-94/>

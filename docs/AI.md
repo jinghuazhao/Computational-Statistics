@@ -82,3 +82,4 @@
 - Stability AI, <https://stability.ai/>
 - Stable diffusion, <https://github.com/CompVis>
 - xAI, <https://x.ai/>
+    - Grok, <https://grok.com/>
