@@ -41,6 +41,8 @@
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
 - LLM, <https://llm.datasette.io/en/stable/>
 - llm-Ollama plugin, <https://github.com/taketwo/llm-ollama>
+- LLM Calc*, <https://llm-calc.rayfernando.ai/?quant=fp16>
+- LM Studio*, <https://lmstudio.ai/>
 - LMSYS Org, <https://lmsys.org/>
     - Chatbot Arena, <https://lmarena.ai/> (<https://web.lmarena.ai/>)
     - GitHub, <https://github.com/lm-sys>
