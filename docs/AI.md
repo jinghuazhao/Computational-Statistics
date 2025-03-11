@@ -40,7 +40,7 @@
 - Keras, <https://keras.io/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
 - LLM, <https://llm.datasette.io/en/stable/>
-- llm-Ollama plugin, <https://github.com/taketwo/llm-ollama>
+    - llm-ollama plugin, <https://github.com/taketwo/llm-ollama>
 - LLM Calc*, <https://llm-calc.rayfernando.ai/?quant=fp16>
 - LM Studio*, <https://lmstudio.ai/>
 - LMSYS Org, <https://lmsys.org/>
