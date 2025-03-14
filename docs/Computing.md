@@ -125,6 +125,7 @@
     * [Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf)
     * Colab, <https://colab.research.google.com/>
     * DeepMind, <https://deepmind.google/>
+    * Fonts, <https://fonts.google.com/>
     * Gemini, <https://ai.google.dev/>
     * My groups, <https://groups.google.com/my-groups>
     * Search console, <https://search.google.com/search-console/about>
