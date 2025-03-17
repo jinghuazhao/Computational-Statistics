@@ -54,6 +54,7 @@
     - Nougat, <https://facebookresearch.github.io/nougat/>
 - MicroSoft
     - Bing Image Creator, <https://www.bing.com/images/create/>
+    - GraphRAG, <https://microsoft.github.io/graphrag/>
     - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://huggingface.co/papers/2412.08905>)
 - Midjourney, <https://www.midjourney.com/home>
     - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
