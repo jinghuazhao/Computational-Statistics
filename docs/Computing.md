@@ -16,6 +16,7 @@
 
 - Adobe online, <https://www.adobe.com/uk/acrobat/online.html>
 - Aiseesoft background remover, <https://www.aiseesoft.com/online-bg-remover/>
+- AlexNet, <https://github.com/computerhistory/AlexNet-Source-Code/>
 - apexCharts.js,  <https://apexcharts.com/>
 - app.diagrams.net, <https://app.diagrams.net/>
 - Astral, <https://docs.astral.sh/> (uv, Ruff)
