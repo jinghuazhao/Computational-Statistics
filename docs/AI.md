@@ -39,6 +39,9 @@
     - Models, <https://huggingface.co/models> (Llama-3.3-70B-Instruct, <https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct>)
     - Papers, <https://huggingface.co/papers>
     - Spaces, <https://huggingface.co/spaces>
+    - ---
+    - GGUF, <https://huggingface.co/models?library=gguf>
+    - GGUF conversion, <https://huggingface.co/spaces/ggml-org/gguf-my-repo>
 - kaggle, <https://www.kaggle.com/>
 - Keras, <https://keras.io/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
