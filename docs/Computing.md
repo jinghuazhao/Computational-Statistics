@@ -132,6 +132,10 @@
     * My groups, <https://groups.google.com/my-groups>
     * Search console, <https://search.google.com/search-console/about>
     * Translate, <https://translate.google.co.uk/>
+- Meta, <https://github.com/facebook>
+    * folly, <https://github.com/facebook/folly>
+    * react, <https://github.com/facebook/react>
+    * zstd, <https://github.com/facebook/zstd>
 - MicroSoft, <https://www.microsoft.com/>
     * Account, <https://account.live.com/consent/Manage?uaid=00be9fb584174427b1cffb995d934b24>
     * Bing webmaster tool, <https://www.bing.com/webmasters/about>
@@ -142,7 +146,9 @@
     * Hotmail, <https://outlook.live.com/owa/>
     * LINQpad, <https://www.linqpad.net/>
     * Support, <https://support.microsoft.com/en-us>
+    * STL, <https://github.com/microsoft/STL>
     * Sway, <https://sway.office.com/>
+    * Visual Studio Code, <https://code.visualstudio.com/>
     * Windows 11 virtual machines, <https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/>
 - Mozilla, <https://www.mozilla.org/en-GB/about/>
 - MySQL, <https://dev.mysql.com/>
