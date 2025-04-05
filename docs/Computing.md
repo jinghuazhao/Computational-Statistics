@@ -81,6 +81,7 @@
     - [Positron](https://positron.posit.co/)
     - [shinyapps](https://www.shinyapps.io/)
 - Rufus, <https://rufus.ie/en/>
+- RustDesk, <https://rustdesk.com/>
 - Scribus, <https://sourceforge.net/projects/scribus/>
 - smallpdf, <https://smallpdf.com/>
 - Speedtest, <https://www.speedtest.net/>
