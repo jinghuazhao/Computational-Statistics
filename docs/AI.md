@@ -37,11 +37,10 @@
     - Datasets, <https://huggingface.co/datasets>
     - HuggingChat, <https://huggingface.co/chat/>
     - Models, <https://huggingface.co/models>
+        - GGUF, <https://huggingface.co/models?library=gguf>
     - Papers, <https://huggingface.co/papers>
     - Spaces, <https://huggingface.co/spaces>
-    - ---
-    - GGUF, <https://huggingface.co/models?library=gguf>
-    - GGUF conversion, <https://huggingface.co/spaces/ggml-org/gguf-my-repo>
+        - GGUF conversion, <https://huggingface.co/spaces/ggml-org/gguf-my-repo>
 - kaggle, <https://www.kaggle.com/>
 - Keras, <https://keras.io/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
