@@ -37,8 +37,6 @@
     - Datasets, <https://huggingface.co/datasets>
     - HuggingChat, <https://huggingface.co/chat/>
     - Models, <https://huggingface.co/models>
-        - Llama-3.3-70B-Instruct, <https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct>
-        - Llama 4 at unsloth AI, <https://huggingface.co/unsloth>
     - Papers, <https://huggingface.co/papers>
     - Spaces, <https://huggingface.co/spaces>
     - ---
@@ -56,6 +54,8 @@
     - GitHub, <https://github.com/lm-sys>
 - Meta, <https://www.facebook.com/business>
     - Llama, <https://www.llama.com/> ([terms](https://ai.meta.com/llama/license/))
+        - Meta Llama, <https://huggingface.co/meta-llama>
+        - Meta Llama by unsloth AI, <https://huggingface.co/unsloth>
     - Meta AI, <https://www.meta.ai/>
     - Nougat, <https://facebookresearch.github.io/nougat/>
 - MicroSoft
