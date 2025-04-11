@@ -93,5 +93,7 @@
 - Reka, <https://chat.reka.ai/>
 - Stability AI, <https://stability.ai/>
 - Stable diffusion, <https://github.com/CompVis>
+- wandb.ai, <https://wandb.ai/>
+    - cb20qq, <https://wandb.ai/cb20qq-university-of-cambridge>
 - xAI, <https://x.ai/>
     - Grok, <https://grok.com/>
