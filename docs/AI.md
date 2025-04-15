@@ -25,6 +25,7 @@
     - Diffy Chat, <https://diffy.chat/>
     - GitHub, <https://github.com/diffbot>
 - fast.ai, <https://github.com/fastai>
+- GitHub models, <https://github.com/marketplace?type=models>
 - Google, <https://www.google.com/>
     - AI studio, <https://aistudio.google.com/>
     - Colab, <https://colab.research.google.com/>
