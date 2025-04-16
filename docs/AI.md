@@ -25,6 +25,8 @@
     - Diffy Chat, <https://diffy.chat/>
     - GitHub, <https://github.com/diffbot>
 - fast.ai, <https://github.com/fastai>
+- FlagAI-Open, <https://github.com/FlagAI-Open>
+    - GitHub, <https://github.com/FlagAI-Open/OpenSeek>
 - GitHub models, <https://github.com/marketplace?type=models>
 - Google, <https://www.google.com/>
     - AI studio, <https://aistudio.google.com/>
