@@ -62,6 +62,7 @@
     - Nougat, <https://facebookresearch.github.io/nougat/>
 - MicroSoft
     - Bing Image Creator, <https://www.bing.com/images/create/>
+    - BitNet b1.58 2B4T - Scaling Native 1-bit LLM, <https://huggingface.co/microsoft/bitnet-b1.58-2B-4T>
     - GraphRAG, <https://microsoft.github.io/graphrag/> ([GitHub](https://github.com/microsoft/graphrag))
     - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://huggingface.co/papers/2412.08905>)
 - Midjourney, <https://www.midjourney.com/home>
