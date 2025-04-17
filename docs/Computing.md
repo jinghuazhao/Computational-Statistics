@@ -59,6 +59,7 @@
 - Mermaid, <https://mermaid.js.org/> (live editor, <https://mermaid.live/>)
 - MobaXterm, <https://mobaxterm.mobatek.net/>
 - nbviewer, <https://nbviewer.org/>
+- OBS Studio, <https://obsproject.com/>
 - OddPrints, <https://www.oddprints.com/>
 - Oh My Posh, <https://ohmyposh.dev/>
 - Online2PDF, <https://online2pdf.com/>
@@ -83,6 +84,7 @@
 - Rufus, <https://rufus.ie/en/>
 - RustDesk, <https://rustdesk.com/>
 - Scribus, <https://sourceforge.net/projects/scribus/>
+- shareX, <https://getsharex.com/>
 - smallpdf, <https://smallpdf.com/>
 - Speedtest, <https://www.speedtest.net/>
 - Template-Rcpp, <https://github.com/stsds/Template-Rcpp> (LinkedIn [post](https://www.linkedin.com/feed/update/urn:li:activity:7136774813066358785/))
