@@ -159,9 +159,10 @@
 - Raspberry Pi OS, <https://www.raspberrypi.com/software/>
 - Science Media Centre, <https://www.sciencemediacentre.org/>
 - Twitter, <https://github.com/twitter>
-- zenodo, <https://zenodo.org/>
+- VMware by Broadcom workstation and fusion, <https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion>
 - Western Digital, <https://www.westerndigital.com/>
 - xodo, <https://xodo.com/>
+- zenodo, <https://zenodo.org/>
 
 ## Reference management
 
