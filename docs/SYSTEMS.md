@@ -517,6 +517,8 @@ See <https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/
 
 See also <https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/>.
 
+According to <https://ubuntu.com//blog/ubuntu-wsl-new-format-available>, Ubuntu can be installed with `wsl --install ubuntu` and `wsl --install --from-file ubuntu.tar.wsl` with <https://publicwsldistros.blob.core.windows.net/wsldistrostorage/Ubuntu2404-250130_x64.wsl>.
+
 `ubuntu-wsl` is a set of WSL utilities, which could be installed with
 ```bash
 sudo apt install ubuntu-wsl
