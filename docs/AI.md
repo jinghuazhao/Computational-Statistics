@@ -64,6 +64,7 @@
     - Bing Image Creator, <https://www.bing.com/images/create/>
     - BitNet, <https://github.com/microsoft/BitNet>
     - GraphRAG, <https://microsoft.github.io/graphrag/> ([GitHub](https://github.com/microsoft/graphrag))
+    - MAI-DS-R1, <https://github.com/marketplace/models/azureml/MAI-DS-R1/playground?compare_to=DeepSeek-R1>
     - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://huggingface.co/papers/2412.08905>)
 - Midjourney, <https://www.midjourney.com/home>
     - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
