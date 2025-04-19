@@ -27,7 +27,6 @@
 - fast.ai, <https://github.com/fastai>
 - FlagAI-Open, <https://github.com/FlagAI-Open>
     - GitHub, <https://github.com/FlagAI-Open/OpenSeek>
-- GitHub models, <https://github.com/marketplace?type=models>
 - Google, <https://www.google.com/>
     - AI studio, <https://aistudio.google.com/>
     - Colab, <https://colab.research.google.com/>
@@ -63,6 +62,7 @@
 - MicroSoft
     - Bing Image Creator, <https://www.bing.com/images/create/>
     - BitNet, <https://github.com/microsoft/BitNet>
+    - GitHub models, <https://github.com/marketplace?type=models>
     - GraphRAG, <https://microsoft.github.io/graphrag/> ([GitHub](https://github.com/microsoft/graphrag))
     - MAI-DS-R1, <https://github.com/marketplace/models/azureml/MAI-DS-R1/playground?compare_to=DeepSeek-R1>
     - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://huggingface.co/papers/2412.08905>)
