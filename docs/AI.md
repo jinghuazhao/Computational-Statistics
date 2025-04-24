@@ -49,6 +49,7 @@
 - LangChain AI, <https://www.langchain.com/>
     - GitHub, <https://github.com/langchain-ai>
         - LangChain MCP Adapters, <https://github.com/langchain-ai/langchain-mcp-adapters>
+    - Documentation, <https://python.langchain.com/>
 - LLM, <https://llm.datasette.io/en/stable/>
     - llm-ollama plugin, <https://github.com/taketwo/llm-ollama>
 - LLM Calc*, <https://llm-calc.rayfernando.ai/?quant=fp16>
