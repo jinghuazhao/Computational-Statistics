@@ -8,9 +8,7 @@
 - Anthropic, <https://www.anthropic.com/>
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
-- ChatPDF, <https://www.chatpdf.com/>
 - Cohere, <https://cohere.com/>
-- Crayon, <https://www.craiyon.com/>
 - Databricks, <https://www.databricks.com/>
 - DeepSeek AI, <https://www.deepseek.com/>
     - Chat, <https://chat.deepseek.com/>
@@ -102,7 +100,9 @@
 ## Applications
 
 - AnythingLLM, <https://anythingllm.com/>
+- ChatPDF, <https://www.chatpdf.com/>
 - Cherry Studio, <https://cherry-ai.com/>
+- Crayon, <https://www.craiyon.com/>
 - Cursor AI, <https://www.cursor.com/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
 - LLM Calc, <https://llm-calc.rayfernando.ai/?quant=fp16>
