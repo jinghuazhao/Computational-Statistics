@@ -32,6 +32,7 @@
     - Colab(oratory), <https://colab.research.google.com/>
     - DeepMind, <https://deepmind.google/>
     - Gemini, <https://gemini.google.com/>
+    - TensorFlow, <https://www.tensorflow.org/>
 - Gymnasium at Farama Foundation
     - GitHub, <https://github.com/Farama-Foundation/Gymnasium>
     - Web site, <https://gymnasium.farama.org/>
@@ -60,6 +61,7 @@
         - Meta Llama by unsloth AI, <https://huggingface.co/unsloth>
     - Meta AI, <https://www.meta.ai/>
     - Nougat, <https://facebookresearch.github.io/nougat/>
+    - PyTorch, <https://pytorch.org/>
 - MicroSoft
     - Bing Image Creator, <https://www.bing.com/images/create/>
     - BitNet, <https://github.com/microsoft/BitNet>
