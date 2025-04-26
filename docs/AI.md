@@ -1,14 +1,25 @@
-# AI-related sites (*=App)
+# AI-related sites
 
-- AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
+## Applications
+
+- AnythingLLM*, <https://anythingllm.com/>
+- Cherry Studio*, <https://cherry-ai.com/>
+- Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
+- LLM Calc*, <https://llm-calc.rayfernando.ai/?quant=fp16>
+- LM Studio*, <https://lmstudio.ai/>
+- No-Code LLM App Builders
+    - Dify, <https://dify.ai/>
+    - Flowwise AI, <https://flowiseai.com/>
+    - LangFlow, <https://www.langflow.org/>
+
+## AI Providers
+
 - Ai2, <https://allenai.org/>
     - [OLMoE](https://github.com/allenai/OLMoE) ([arXiv](https://arxiv.org/abs/2409.02060), [OLMo 2 32B](https://allenai.org/blog/olmo2-32B))
     - Playground, <https://playground.allenai.org/>
 - Anthropic, <https://www.anthropic.com/>
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
-- AnythingLLM*, <https://anythingllm.com/>
-- Cherry Studio*, <https://cherry-ai.com/>
 - ChatPDF, <https://www.chatpdf.com/>
 - Cohere, <https://cohere.com/>
 - Crayon, <https://www.craiyon.com/>
@@ -45,15 +56,12 @@
         - GGUF conversion, <https://huggingface.co/spaces/ggml-org/gguf-my-repo>
 - kaggle, <https://www.kaggle.com/>
 - Keras, <https://keras.io/>
-- Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
 - LangChain AI, <https://www.langchain.com/>
     - Documentation, <https://python.langchain.com/>
     - GitHub, <https://github.com/langchain-ai>
         - LangChain MCP Adapters, <https://github.com/langchain-ai/langchain-mcp-adapters>
 - LLM, <https://llm.datasette.io/en/stable/>
     - llm-ollama plugin, <https://github.com/taketwo/llm-ollama>
-- LLM Calc*, <https://llm-calc.rayfernando.ai/?quant=fp16>
-- LM Studio*, <https://lmstudio.ai/>
 - LMSYS Org, <https://lmsys.org/>
     - Chatbot Arena, <https://lmarena.ai/> (<https://web.lmarena.ai/>)
     - GitHub, <https://github.com/lm-sys>
@@ -76,10 +84,6 @@
 - Mistral, <https://mistral.ai/>
     - Le Chat, <https://chat.mistral.ai/>
     - Mistral OCR, <https://console.mistral.ai/>
-- No-Code LLM App Builders
-    - Dify, <https://dify.ai/>
-    - Flowwise AI, <https://flowiseai.com/>
-    - LangFlow, <https://www.langflow.org/>
 - Ollama, <https://ollama.com/>
     - GitHub, <https://github.com/ollama/ollama>
     - library, <https://ollama.com/library>
@@ -106,3 +110,7 @@
     - cb20qq, <https://wandb.ai/cb20qq-university-of-cambridge>
 - xAI, <https://x.ai/>
     - Grok, <https://grok.com/>
+
+## Regulatory Bodies
+
+- AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
