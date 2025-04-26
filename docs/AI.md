@@ -5,6 +5,9 @@
 - Ai2, <https://allenai.org/>
     - [OLMoE](https://github.com/allenai/OLMoE) ([arXiv](https://arxiv.org/abs/2409.02060), [OLMo 2 32B](https://allenai.org/blog/olmo2-32B))
     - Playground, <https://playground.allenai.org/>
+- Alibaba, <https://github.com/QwenLM>
+    - Qwen chat, <https://chat.qwen.ai/>
+    - I2VGen-XL, <https://i2vgen-xl.github.io/>
 - Anthropic, <https://www.anthropic.com/>
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
@@ -64,9 +67,6 @@
     - GraphRAG, <https://microsoft.github.io/graphrag/> ([GitHub](https://github.com/microsoft/graphrag))
     - MAI-DS-R1, <https://github.com/marketplace/models/azureml/MAI-DS-R1/playground?compare_to=DeepSeek-R1>
     - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://huggingface.co/papers/2412.08905>)
-- Midjourney, <https://www.midjourney.com/home>
-    - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
-    - Background removal, <https://huggingface.co/spaces/not-lain/background-removal>
 - Mistral, <https://mistral.ai/>
     - Le Chat, <https://chat.mistral.ai/>
     - Mistral OCR, <https://console.mistral.ai/>
@@ -79,19 +79,14 @@
     - DALL·E 3, <https://openai.com/index/dall-e-3/>
     - GitHub, <https://github.com/openai>
     - sora, <https://openai.com/index/sora/>
-- Open-source LLMs
-    1. DeepEval (>> Humanloop), <https://github.com/confident-ai/deepeval>
-    2. Llama-3.1 (>> Open AI GPT-4), <https://huggingface.co/meta-llama/Llama-3.1-8B>
-    3. LangChain (>> OpenAI Assistants), <https://github.com/langchain-ai/langchain>
-    4. Flowwise (>> Relevance AI), <https://github.com/FlowiseAI/Flowise>
-    5. Lite LLM (>> [Martian AI](https://withmartian.com/)), <https://github.com/BerriAI/litellm>
 - Open WebUI, <https://openwebui.com/>
     - GitHub, <https://github.com/open-webui/open-webui> ([blog](https://simonwillison.net/2024/Dec/27/open-webui/))
 - PaddlePaddle, <https://github.com/PaddlePaddle>
 - Perplexity AI, <https://www.perplexity.ai/> (search)
 - Reka, <https://chat.reka.ai/>
-- Stability AI, <https://stability.ai/>
-- Stable diffusion, <https://github.com/CompVis>
+- Stable diffusion
+    - CompVis, <https://github.com/CompVis>
+    - Stability AI, <https://stability.ai/>
 - wandb.ai, <https://wandb.ai/>
     - cb20qq, <https://wandb.ai/cb20qq-university-of-cambridge>
 - xAI, <https://x.ai/>
@@ -106,6 +101,9 @@
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
 - LLM Calc, <https://llm-calc.rayfernando.ai/?quant=fp16>
 - LM Studio, <https://lmstudio.ai/>
+- Midjourney, <https://www.midjourney.com/home>
+    - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
+    - Background removal, <https://huggingface.co/spaces/not-lain/background-removal>
 - No-Code LLM App Builders
     - Cursor AI, <https://www.cursor.com/>
     - Dify, <https://dify.ai/>
@@ -115,3 +113,11 @@
 ## Regulatory Bodies
 
 - AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
+
+## [User contribution](https://dev.to/guybuildingai/top-5-open-source-alternatives-for-llm-development-you-must-know-about-p30)
+
+1. DeepEval (>> Humanloop), <https://github.com/confident-ai/deepeval>
+2. Llama-3.1 (>> Open AI GPT-4), <https://huggingface.co/meta-llama/Llama-3.1-8B>
+3. LangChain (>> OpenAI Assistants), <https://github.com/langchain-ai/langchain>
+4. Flowwise (>> Relevance AI), <https://github.com/FlowiseAI/Flowise>
+5. Lite LLM (>> [Martian AI](https://withmartian.com/)), <https://github.com/BerriAI/litellm>
