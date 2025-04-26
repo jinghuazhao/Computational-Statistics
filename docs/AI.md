@@ -4,6 +4,7 @@
 
 - AnythingLLM, <https://anythingllm.com/>
 - Cherry Studio, <https://cherry-ai.com/>
+- Cursor AI, <https://www.cursor.com/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
 - LLM Calc, <https://llm-calc.rayfernando.ai/?quant=fp16>
 - LM Studio, <https://lmstudio.ai/>
