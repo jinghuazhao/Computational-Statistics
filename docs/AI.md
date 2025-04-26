@@ -79,14 +79,13 @@
     - DALL·E 3, <https://openai.com/index/dall-e-3/>
     - GitHub, <https://github.com/openai>
     - sora, <https://openai.com/index/sora/>
-- Open WebUI, <https://openwebui.com/>
-    - GitHub, <https://github.com/open-webui/open-webui> ([blog](https://simonwillison.net/2024/Dec/27/open-webui/))
 - PaddlePaddle, <https://github.com/PaddlePaddle>
 - Perplexity AI, <https://www.perplexity.ai/> (search)
 - Reka, <https://chat.reka.ai/>
-- Stable diffusion
+- Stable diffusion, <https://stabledifffusion.com/>
     - CompVis, <https://github.com/CompVis>
     - Stability AI, <https://stability.ai/>
+    - WebUI, <https://stabledifffusion.com/webui/> ([GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui))
 - wandb.ai, <https://wandb.ai/>
     - cb20qq, <https://wandb.ai/cb20qq-university-of-cambridge>
 - xAI, <https://x.ai/>
@@ -109,6 +108,8 @@
     - Dify, <https://dify.ai/>
     - Flowwise AI, <https://flowiseai.com/>
     - LangFlow, <https://www.langflow.org/>
+- Open WebUI, <https://openwebui.com/>
+    - GitHub, <https://github.com/open-webui/open-webui> ([blog](https://simonwillison.net/2024/Dec/27/open-webui/))
 
 ## Regulatory Bodies
 
