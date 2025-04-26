@@ -1,6 +1,8 @@
 site_name: Computational Statistics
 repo_url: https://github.com/jinghuazhao/Computational-Statistics
+
 edit_uri: ""
+
 nav:
     - "": README.md
     - AI: AI.md
@@ -16,6 +18,7 @@ nav:
       - "Parallel computing": PARALLEL.md
       - "Reproducible research": REPRODUCE.md
       - "System-related materials": SYSTEMS.md
+
 theme:
     name: mkdocs
     nav_style: dark
@@ -30,3 +33,6 @@ theme:
         - R
         - rust
         - yaml
+
+validation:
+  unrecognized_links: ignore
