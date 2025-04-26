@@ -29,7 +29,7 @@
     - GitHub, <https://github.com/FlagAI-Open/OpenSeek>
 - Google, <https://www.google.com/>
     - AI studio, <https://aistudio.google.com/>
-    - Colab, <https://colab.research.google.com/>
+    - Colab(oratory), <https://colab.research.google.com/>
     - DeepMind, <https://deepmind.google/>
     - Gemini, <https://gemini.google.com/>
 - Gymnasium at Farama Foundation
