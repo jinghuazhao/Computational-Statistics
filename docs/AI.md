@@ -114,7 +114,7 @@
 
 - AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
 
-## [User contribution](https://dev.to/guybuildingai/top-5-open-source-alternatives-for-llm-development-you-must-know-about-p30)
+## User contribution: [top-5 alternatives](https://dev.to/guybuildingai/top-5-open-source-alternatives-for-llm-development-you-must-know-about-p30)
 
 1. DeepEval (>> Humanloop), <https://github.com/confident-ai/deepeval>
 2. Llama-3.1 (>> Open AI GPT-4), <https://huggingface.co/meta-llama/Llama-3.1-8B>
