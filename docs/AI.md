@@ -1,18 +1,5 @@
 # AI-related sites
 
-## Applications
-
-- AnythingLLM, <https://anythingllm.com/>
-- Cherry Studio, <https://cherry-ai.com/>
-- Cursor AI, <https://www.cursor.com/>
-- Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
-- LLM Calc, <https://llm-calc.rayfernando.ai/?quant=fp16>
-- LM Studio, <https://lmstudio.ai/>
-- No-Code LLM App Builders
-    - Dify, <https://dify.ai/>
-    - Flowwise AI, <https://flowiseai.com/>
-    - LangFlow, <https://www.langflow.org/>
-
 ## AI Providers
 
 - Ai2, <https://allenai.org/>
@@ -111,6 +98,19 @@
     - cb20qq, <https://wandb.ai/cb20qq-university-of-cambridge>
 - xAI, <https://x.ai/>
     - Grok, <https://grok.com/>
+
+## Applications
+
+- AnythingLLM, <https://anythingllm.com/>
+- Cherry Studio, <https://cherry-ai.com/>
+- Cursor AI, <https://www.cursor.com/>
+- Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
+- LLM Calc, <https://llm-calc.rayfernando.ai/?quant=fp16>
+- LM Studio, <https://lmstudio.ai/>
+- No-Code LLM App Builders
+    - Dify, <https://dify.ai/>
+    - Flowwise AI, <https://flowiseai.com/>
+    - LangFlow, <https://www.langflow.org/>
 
 ## Regulatory Bodies
 
