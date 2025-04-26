@@ -2,11 +2,11 @@
 
 ## Applications
 
-- AnythingLLM*, <https://anythingllm.com/>
-- Cherry Studio*, <https://cherry-ai.com/>
+- AnythingLLM, <https://anythingllm.com/>
+- Cherry Studio, <https://cherry-ai.com/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
-- LLM Calc*, <https://llm-calc.rayfernando.ai/?quant=fp16>
-- LM Studio*, <https://lmstudio.ai/>
+- LLM Calc, <https://llm-calc.rayfernando.ai/?quant=fp16>
+- LM Studio, <https://lmstudio.ai/>
 - No-Code LLM App Builders
     - Dify, <https://dify.ai/>
     - Flowwise AI, <https://flowiseai.com/>
