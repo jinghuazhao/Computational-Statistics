@@ -32,6 +32,7 @@
     - Colab(oratory), <https://colab.research.google.com/>
     - DeepMind, <https://deepmind.google/>
     - Gemini, <https://gemini.google.com/>
+    - HuggingFace, <https://huggingface.co/google>
     - TensorFlow, <https://www.tensorflow.org/>
 - Gymnasium at Farama Foundation
     - GitHub, <https://github.com/Farama-Foundation/Gymnasium>
@@ -56,6 +57,7 @@
     - Chatbot Arena, <https://lmarena.ai/> (<https://web.lmarena.ai/>)
     - GitHub, <https://github.com/lm-sys>
 - Meta, <https://www.facebook.com/business>
+    - HuggingFace, <https://huggingface.co/facebook>
     - Llama, <https://www.llama.com/> ([terms](https://ai.meta.com/llama/license/))
         - Meta Llama, <https://huggingface.co/meta-llama>
         - Meta Llama by unsloth AI, <https://huggingface.co/unsloth>
@@ -67,6 +69,7 @@
     - BitNet, <https://github.com/microsoft/BitNet>
     - GitHub models, <https://github.com/marketplace?type=models>
     - GraphRAG, <https://microsoft.github.io/graphrag/> ([GitHub](https://github.com/microsoft/graphrag))
+    - HuggingFace, <https://huggingface.co/microsoft>
     - MAI-DS-R1, <https://github.com/marketplace/models/azureml/MAI-DS-R1/playground?compare_to=DeepSeek-R1>
     - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://huggingface.co/papers/2412.08905>)
 - Mistral, <https://mistral.ai/>
