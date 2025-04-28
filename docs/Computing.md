@@ -53,7 +53,7 @@
 - jqplay, <https://jqplay.org/>
 - JSEditor, <https://jseditor.io/>
 - Krite, <https://krita.org/en/>
-- markitdown, <https://github.com/microsoft/markitdown>
+- markitdown, <https://github.com/microsoft/markitdown> ([MarkItDown-MCP](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp))
 - MConverter, <https://mconverter.eu/> ([docx2html](https://mconverter.eu/convert/docx/html/))
 - md, <https://doocs.github.io/md/>
 - Mermaid, <https://mermaid.js.org/> (live editor, <https://mermaid.live/>)
