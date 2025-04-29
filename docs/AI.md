@@ -5,9 +5,11 @@
 - Ai2, <https://allenai.org/>
     - [OLMoE](https://github.com/allenai/OLMoE) ([arXiv](https://arxiv.org/abs/2409.02060), [OLMo 2 32B](https://allenai.org/blog/olmo2-32B))
     - Playground, <https://playground.allenai.org/>
-- Alibaba, <https://github.com/QwenLM>
-    - Qwen chat, <https://chat.qwen.ai/>
+- Alibaba, <https://www.alibaba.com/>
+    - GitHub, <https://github.com/QwenLM>
+    - HuggingFace, <https://huggingface.co/Qwen>
     - I2VGen-XL, <https://i2vgen-xl.github.io/>
+    - Qwen3, <https://qwenlm.github.io/blog/qwen3/>
 - Anthropic, <https://www.anthropic.com/>
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
