@@ -80,6 +80,7 @@
 - Ollama, <https://ollama.com/>
     - GitHub, <https://github.com/ollama/ollama>
     - library, <https://ollama.com/library>
+    - Registry, <https://registry.ollama.ai/>
 - OpenAI, <https://openai.com/>
     - ChatGPT, <https://chatgpt.com/>
     - CLIP, <https://openai.com/index/clip/>
