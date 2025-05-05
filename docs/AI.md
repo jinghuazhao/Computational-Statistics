@@ -56,8 +56,10 @@
 - LLM, <https://llm.datasette.io/en/stable/>
     - llm-ollama plugin, <https://github.com/taketwo/llm-ollama>
 - LMSYS Org, <https://lmsys.org/>
-    - Chatbot Arena, <https://lmarena.ai/> (<https://web.lmarena.ai/>)
+    - Chatbot Arena, <https://lmarena.ai/>
     - GitHub, <https://github.com/lm-sys>
+    - LeaderBoard, <https://lmarena.ai/?leaderboard>
+    - Web, <<https://web.lmarena.ai>
 - Meta, <https://www.facebook.com/business>
     - HuggingFace, <https://huggingface.co/facebook>
     - Llama, <https://www.llama.com/> ([terms](https://ai.meta.com/llama/license/))
