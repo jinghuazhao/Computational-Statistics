@@ -1,3 +1,5 @@
+
+
 # AI-related sites
 
 ## AI Providers
@@ -98,7 +100,6 @@
     - WebUI, <https://stabledifffusion.com/webui/> ([GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui))
 - Ubiquitous Knowledge Processing Lab (UKPLab), <https://github.com/UKPLab>
     - sentence-transformers, <https://www.sbert.net/>
-    - Hugging Face, <https://huggingface.co/models?library=sentence-transformers>
 - wandb.ai, <https://wandb.ai/>
     - cb20qq, <https://wandb.ai/cb20qq-university-of-cambridge>
 - xAI, <https://x.ai/>
