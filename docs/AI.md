@@ -35,6 +35,7 @@
     - DeepMind, <https://deepmind.google/>
     - Gemini, <https://gemini.google.com/>
     - HuggingFace, <https://huggingface.co/google> ([Stable Difficusion XL](https://huggingface.co/spaces/google/sdxl))
+    - llm-gemini, <https://github.com/simonw/llm-gemini>
     - TensorFlow, <https://www.tensorflow.org/>
 - Gymnasium at Farama Foundation
     - GitHub, <https://github.com/Farama-Foundation/Gymnasium>
