@@ -135,6 +135,7 @@
     * My groups, <https://groups.google.com/my-groups>
     * Search console, <https://search.google.com/search-console/about>
     * Translate, <https://translate.google.co.uk/>
+- JetBrains, <https://www.jetbrains.com/>
 - Meta, <https://github.com/facebook>
     * folly, <https://github.com/facebook/folly>
     * react, <https://github.com/facebook/react>
