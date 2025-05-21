@@ -53,7 +53,6 @@
 - jqplay, <https://jqplay.org/>
 - JSEditor, <https://jseditor.io/>
 - Krite, <https://krita.org/en/>
-- markitdown, <https://github.com/microsoft/markitdown> ([MarkItDown-MCP](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp))
 - MConverter, <https://mconverter.eu/> ([docx2html](https://mconverter.eu/convert/docx/html/))
 - md, <https://doocs.github.io/md/>
 - Mermaid, <https://mermaid.js.org/> (live editor, <https://mermaid.live/>)
@@ -145,15 +144,18 @@
     * Bing webmaster tool, <https://www.bing.com/webmasters/about>
     * Bing image creator, <https://www.bing.com/images/create/>
     * dotnet, <https://dotnet.microsoft.com/en-us/>
+    * Edit, <https://github.com/microsoft/edit>
     * [Forms](https://www.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes)
     * GatesNotes, <https://www.gatesnotes.com/>
     * Hotmail, <https://outlook.live.com/owa/>
     * LINQpad, <https://www.linqpad.net/>
+    * markitdown, <https://github.com/microsoft/markitdown> ([MarkItDown-MCP](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp))
     * Support, <https://support.microsoft.com/en-us>
     * STL, <https://github.com/microsoft/STL>
     * Sway, <https://sway.office.com/>
     * Visual Studio Code, <https://code.visualstudio.com/>
     * Windows 11 virtual machines, <https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/>
+    * WSL, <https://github.com/microsoft/WSL>
 - Mozilla, <https://www.mozilla.org/en-GB/about/>
 - MySQL, <https://dev.mysql.com/>
 - Paper with code, <https://paperswithcode.com/>
