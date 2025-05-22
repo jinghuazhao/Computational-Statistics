@@ -147,6 +147,7 @@
     * Edit, <https://github.com/microsoft/edit>
     * [Forms](https://www.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes)
     * GatesNotes, <https://www.gatesnotes.com/>
+    * GraphRAG, <https://github.com/microsoft/graphrag>
     * Hotmail, <https://outlook.live.com/owa/>
     * LINQpad, <https://www.linqpad.net/>
     * markitdown, <https://github.com/microsoft/markitdown> ([MarkItDown-MCP](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp))
