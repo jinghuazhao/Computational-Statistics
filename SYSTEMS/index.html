@@ -894,6 +894,7 @@ PATH=&quot;/home/linuxbrew/.linuxbrew/bin:$PATH&quot;
 <pre><code class="language-bash">sudo dnf install environment-modules
 dnf list installed environment-modules
 echo &quot;. /usr/share/modules/init/bash&quot; &gt;&gt; ~/.bashrc
+echo 'module use /usr/local/Cluster-Config/modulefiles/ceuadmin' &gt;&gt; ~/.bashrc
 source ~/.bashrc
 module --version
 </code></pre>
