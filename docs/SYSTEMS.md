@@ -768,6 +768,7 @@ This is how is done under Fedora,
 sudo dnf install environment-modules
 dnf list installed environment-modules
 echo ". /usr/share/modules/init/bash" >> ~/.bashrc
+echo 'module use /usr/local/Cluster-Config/modulefiles/ceuadmin' >> ~/.bashrc
 source ~/.bashrc
 module --version
 ```
