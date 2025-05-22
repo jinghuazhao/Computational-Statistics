@@ -890,7 +890,20 @@ PATH=&quot;/home/linuxbrew/.linuxbrew/bin:$PATH&quot;
 </ul>
 <h2 id="modules">modules</h2>
 <p>It is a system that allows you to easily change between different versions of compilers and other software.</p>
-<p>Here explains how to set up globally,</p>
+<p>This is how is done under Fedora,</p>
+<pre><code class="language-bash">sudo dnf install environment-modules
+dnf list installed environment-modules
+echo &quot;. /usr/share/modules/init/bash&quot; &gt;&gt; ~/.bashrc
+source ~/.bashrc
+module --version
+</code></pre>
+<p>Location of the module files,</p>
+<ul>
+<li>/usr/share/modulefiles/, system-wide modulefiles.</li>
+<li>/etc/modulefiles/, local system administrator use.</li>
+<li>~/.modulefiles/, user-specific modulefiles.</li>
+</ul>
+<p>Here explains how to set up from source,</p>
 <pre><code class="language-bash"># https://www.microbialsystems.cn/en/post/xubuntu_env_modules/
 
 wget http://archive.ubuntu.com/ubuntu/pool/universe/m/modules/modules_5.2.0.orig.tar.xz
