@@ -762,7 +762,23 @@ E.g.,
 
 It is a system that allows you to easily change between different versions of compilers and other software.
 
-Here explains how to set up globally,
+This is how is done under Fedora,
+
+```bash
+sudo dnf install environment-modules
+dnf list installed environment-modules
+echo ". /usr/share/modules/init/bash" >> ~/.bashrc
+source ~/.bashrc
+module --version
+```
+
+Location of the module files,
+
+* /usr/share/modulefiles/, system-wide modulefiles.
+* /etc/modulefiles/, local system administrator use.
+* ~/.modulefiles/, user-specific modulefiles.
+
+Here explains how to set up from source,
 
 ```bash
 # https://www.microbialsystems.cn/en/post/xubuntu_env_modules/
