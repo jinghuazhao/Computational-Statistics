@@ -42,6 +42,7 @@
     - Web site, <https://gymnasium.farama.org/>
 - Hugging Face, <https://huggingface.co>
     - Datasets, <https://huggingface.co/datasets>
+    - GitHub, <https://github.com/huggingface>
     - HuggingChat, <https://huggingface.co/chat/>
     - Models, <https://huggingface.co/models>
         - GGUF, <https://huggingface.co/models?library=gguf>
