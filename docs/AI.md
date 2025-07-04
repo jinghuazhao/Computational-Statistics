@@ -105,6 +105,8 @@
     - cb20qq, <https://wandb.ai/cb20qq-university-of-cambridge>
 - xAI, <https://x.ai/>
     - Grok, <https://grok.com/>
+    - xai-org, <https://github.com/xai-org>
+        - Grok-1, <https://github.com/xai-org/grok-1>
 
 ## Applications
 
