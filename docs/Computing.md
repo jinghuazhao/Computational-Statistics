@@ -151,6 +151,7 @@
     * Hotmail, <https://outlook.live.com/owa/>
     * LINQpad, <https://www.linqpad.net/>
     * markitdown, <https://github.com/microsoft/markitdown> ([MarkItDown-MCP](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp))
+    * REST API guidelines, <https://github.com/microsoft/api-guidelines>
     * Support, <https://support.microsoft.com/en-us>
     * STL, <https://github.com/microsoft/STL>
     * Sway, <https://sway.office.com/>
