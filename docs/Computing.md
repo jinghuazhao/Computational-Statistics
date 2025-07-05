@@ -101,6 +101,7 @@
 - Wunbuntu, <https://wubuntu.org/>
 - Yaak, <https://yaak.app/>
 - yozosoft, <https://www.yozosoft.com/>
+- Zettlr, <https://www.zettlr.com/>
 - zotero-gpt, <https://github.com/MuiseDestiny/zotero-gpt>
 
 ## Online publications
