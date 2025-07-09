@@ -47,6 +47,7 @@
     - Models, <https://huggingface.co/models>
         - GGUF, <https://huggingface.co/models?library=gguf>
     - Papers, <https://huggingface.co/papers>
+    - Smol models, <https://github.com/huggingface/smollm> ([SmolLM3](https://huggingface.co/blog/smollm3))
     - Spaces, <https://huggingface.co/spaces>
         - GGUF conversion, <https://huggingface.co/spaces/ggml-org/gguf-my-repo>
 - kaggle, <https://www.kaggle.com/>
