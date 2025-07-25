@@ -7,18 +7,18 @@ nav:
     - "": README.md
     - AI: AI.md
     - Computing: Computing.md
-    - Web:
-      - Download: download.md
-      - Web development:
-        - Flask: Flask/README.md
-        - mythic-beasts: mythic-beasts.md
-        - plumber: plumber.md
     - Selected topcs:
       - "Installation notes": INSTALL.md
       - "Language notes": LANGUAGES.md
       - "Parallel computing": PARALLEL.md
       - "Reproducible research": REPRODUCE.md
       - "System-related materials": SYSTEMS.md
+    - Web:
+      - Download: download.md
+      - Web development:
+        - Flask: Flask/README.md
+        - mythic-beasts: mythic-beasts.md
+        - plumber: plumber.md
 
 theme:
     name: mkdocs
