@@ -7,12 +7,13 @@ nav:
     - "": README.md
     - AI: AI.md
     - Computing: Computing.md
-    - Download: download.md
-    - Internet:
-      - Flask: Flask/README.md
-      - mythic-beasts: mythic-beasts.md
-      - plumber: plumber.md
-    - Setup:
+    - Web:
+      - Download: download.md
+      - Web development:
+        - Flask: Flask/README.md
+        - mythic-beasts: mythic-beasts.md
+        - plumber: plumber.md
+    - Selected topcs:
       - "Installation notes": INSTALL.md
       - "Language notes": LANGUAGES.md
       - "Parallel computing": PARALLEL.md
