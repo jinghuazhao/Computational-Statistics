@@ -13,8 +13,8 @@ The repository intends to make it easier to keep pace with releases of Linux sys
     - [Reproducible research](REPRODUCE.md).
     - [System-related materials](SYSTEMS.md).
 - Web:
-    - Download: [Utitlities for downloads](download.md).
-    - Web development:
+    - Development:
         * [Flask](Flask/README.md).
         * [mythic-beasts](mythic-beasts.md).
         * [plumber](plumber.md).
+    - Download: [Utitlities for downloads](download.md).

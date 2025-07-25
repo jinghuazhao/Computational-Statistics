@@ -14,11 +14,11 @@ nav:
       - "Reproducible research": REPRODUCE.md
       - "System-related materials": SYSTEMS.md
     - Web:
-      - Download: download.md
-      - Web development:
+      - Development:
         - Flask: Flask/README.md
         - mythic-beasts: mythic-beasts.md
         - plumber: plumber.md
+      - Download: download.md
 
 theme:
     name: mkdocs
