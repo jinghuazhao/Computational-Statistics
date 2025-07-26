@@ -5,7 +5,7 @@ Online resources for computational statistics
 The repository intends to make it easier to keep pace with releases of Linux systems and R, among others; select the menu items above for details.
 
 - AI: [AI-related sites](AI.md).
-- Computing: [Computing resources](Computing.md).
+- Computing: [Resources](RESOURCES.md).
 - Selected topics:
     - [Installation notes](INSTALL.md).
     - [Language notes](LANGUAGES.md).
@@ -15,6 +15,6 @@ The repository intends to make it easier to keep pace with releases of Linux sys
 - Web:
     - Development:
         * [Flask](Flask/README.md).
-        * [mythic-beasts](mythic-beasts.md).
+        * [mythic-beasts](MYTHIC-BEASTS.md).
         * [plumber](plumber.md).
-    - Download: [Utitlities for downloads](download.md).
+    - Download: [Utitlities for downloads](DOWNLOAD.md).

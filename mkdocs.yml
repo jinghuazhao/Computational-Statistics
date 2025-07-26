@@ -6,7 +6,7 @@ edit_uri: ""
 nav:
     - "": README.md
     - AI: AI.md
-    - Computing: Computing.md
+    - Resources: RESOURCES.md
     - Selected topcs:
       - "Installation notes": INSTALL.md
       - "Language notes": LANGUAGES.md
@@ -16,9 +16,9 @@ nav:
     - Web:
       - Development:
         - Flask: Flask/README.md
-        - mythic-beasts: mythic-beasts.md
-        - plumber: plumber.md
-      - Download: download.md
+        - mythic-beasts: MYTHIC-BEASTS.md
+        - plumber: PLUMBER.md
+      - Download: DOWNLOAD.md
 
 theme:
     name: mkdocs
