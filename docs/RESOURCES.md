@@ -42,6 +42,7 @@
 - FreeCAD, <https://www.freecad.org/>
 - FreeConvert SVG Converter, <https://www.freeconvert.com/svg-converter>
 - GIMP, <https://gimp.org>
+- Graphite, <https://graphite.rs/>
 - gravis, <https://robert-haas.github.io/gravis-docs/index.html>
 - HivisionIDPhotos, <https://swanhub.co/ZeYiLin/HivisionIDPhotos> ([GitHub](https://github.com/Zeyi-Lin/HivisionIDPhotos)
 - Icecream PDF Editor, <https://icecreamapps.com/PDF-Editor/>
