@@ -51,6 +51,7 @@
     - Smol models, <https://github.com/huggingface/smollm> ([SmolLM3](https://huggingface.co/blog/smollm3))
     - Spaces, <https://huggingface.co/spaces>
         - GGUF conversion, <https://huggingface.co/spaces/ggml-org/gguf-my-repo>
+    - Tokens, <https://huggingface.co/settings/tokens>
 - kaggle, <https://www.kaggle.com/>
 - Keras, <https://keras.io/>
 - LangChain AI, <https://www.langchain.com/>
