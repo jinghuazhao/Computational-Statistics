@@ -58,6 +58,7 @@
 - md, <https://doocs.github.io/md/>
 - Mermaid, <https://mermaid.js.org/> (live editor, <https://mermaid.live/>)
 - MobaXterm, <https://mobaxterm.mobatek.net/>
+- Mu editor, <https://codewith.mu/>
 - nbviewer, <https://nbviewer.org/>
 - OBS Studio, <https://obsproject.com/>
 - OddPrints, <https://www.oddprints.com/>
