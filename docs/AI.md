@@ -11,6 +11,7 @@
     - HuggingFace, <https://huggingface.co/Qwen>
     - I2VGen-XL, <https://i2vgen-xl.github.io/>
     - Qwen3, <https://qwenlm.github.io/blog/qwen3/>
+    - Qwen-Image, <https://qwenlm.github.io/blog/qwen-image/>
 - Anthropic, <https://www.anthropic.com/>
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
@@ -144,3 +145,7 @@
 3. LangChain (>> OpenAI Assistants), <https://github.com/langchain-ai/langchain>
 4. Flowwise (>> Relevance AI), <https://github.com/FlowiseAI/Flowise>
 5. Lite LLM (>> [Martian AI](https://withmartian.com/)), <https://github.com/BerriAI/litellm>
+
+## References
+
+See <https://jinghuazhao.github.io/tests/AI/python/>
