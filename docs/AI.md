@@ -146,6 +146,6 @@
 4. Flowwise (>> Relevance AI), <https://github.com/FlowiseAI/Flowise>
 5. Lite LLM (>> [Martian AI](https://withmartian.com/)), <https://github.com/BerriAI/litellm>
 
-## References
+## Textbook examples
 
 See <https://jinghuazhao.github.io/tests/AI/python/>
