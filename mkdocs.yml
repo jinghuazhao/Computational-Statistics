@@ -16,7 +16,7 @@ nav:
     - Web:
       - Development:
         - Flask: Flask/README.md
-        - mythic-beasts: mythic-beastsS.md
+        - mythic-beasts: mythic-beasts.md
         - plumber: plumber.md
       - Download: download.md
 
