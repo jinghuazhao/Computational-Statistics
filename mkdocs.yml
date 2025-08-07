@@ -6,19 +6,19 @@ edit_uri: ""
 nav:
     - "": README.md
     - AI: AI.md
-    - Resources: RESOURCES.md
+    - Resources: resources.md
     - Selected topcs:
       - "Installation notes": INSTALL.md
-      - "Language notes": LANGUAGES.md
-      - "Parallel computing": PARALLEL.md
-      - "Reproducible research": REPRODUCE.md
-      - "System-related materials": SYSTEMS.md
+      - "Language notes": languages.md
+      - "Parallel computing": parallel.md
+      - "Reproducible research": reproduce.md
+      - "System-related materials": systems.md
     - Web:
       - Development:
         - Flask: Flask/README.md
-        - mythic-beasts: MYTHIC-BEASTS.md
-        - plumber: PLUMBER.md
-      - Download: DOWNLOAD.md
+        - mythic-beasts: mythic-beastsS.md
+        - plumber: plumber.md
+      - Download: download.md
 
 theme:
     name: mkdocs

@@ -27,8 +27,7 @@ if [ "$(uname -n | sed 's/-[0-9]*$//')" == "login-q" ]; then
    module load ceuadmin/krb5
 fi
 
-# cclake
-# export LD_PRELOAD=/usr/lib64/libcrypto.so.1.1
+export LD_PRELOAD=/usr/lib64/libcrypto.so.1.1
 github_pages
 mkdocs build
 mkdocs gh-deploy
