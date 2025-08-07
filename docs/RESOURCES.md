@@ -65,6 +65,7 @@
 - Oh My Posh, <https://ohmyposh.dev/>
 - Online2PDF, <https://online2pdf.com/>
 - online-convert, <https://document.online-convert.com/>
+- outline, <https://www.outline.app/>
 - PaddleOCR, <https://github.com/PaddlePaddle/PaddleOCR>
 - PDF24, <https://en.pdf24.org/>
 - PDF2DJVU, <https://pdf2djvu.com/>
