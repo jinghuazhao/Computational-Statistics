@@ -55,12 +55,6 @@
     - Tokens, <https://huggingface.co/settings/tokens>
 - kaggle, <https://www.kaggle.com/>
 - Keras, <https://keras.io/>
-- LangChain AI, <https://www.langchain.com/>
-    - Documentation, <https://python.langchain.com/>
-    - GitHub, <https://github.com/langchain-ai>
-        - LangChain MCP Adapters, <https://github.com/langchain-ai/langchain-mcp-adapters>
-- LLM, <https://llm.datasette.io/en/stable/>
-    - llm-ollama plugin, <https://github.com/taketwo/llm-ollama>
 - LMSYS Org, <https://lmsys.org/>
     - Chatbot Arena, <https://lmarena.ai/>
     - GitHub, <https://github.com/lm-sys>
@@ -119,8 +113,15 @@
 - Cherry Studio, <https://cherry-ai.com/>
 - Crayon, <https://www.craiyon.com/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
+- LangChain AI, <https://www.langchain.com/>
+    - Documentation, <https://python.langchain.com/>
+    - GitHub, <https://github.com/langchain-ai>
+        - LangChain MCP Adapters, <https://github.com/langchain-ai/langchain-mcp-adapters>
+- LLM, <https://llm.datasette.io/en/stable/>
+    - llm-ollama plugin, <https://github.com/taketwo/llm-ollama>
 - LLM Calc, <https://llm-calc.rayfernando.ai/?quant=fp16>
 - LM Studio, <https://lmstudio.ai/>
+- llama.cpp, <https://github.com/ggml-org/llama.cpp>
 - Midjourney, <https://www.midjourney.com/home>
     - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
     - Background removal, <https://huggingface.co/spaces/not-lain/background-removal>
