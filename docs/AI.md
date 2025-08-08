@@ -55,11 +55,6 @@
     - Tokens, <https://huggingface.co/settings/tokens>
 - kaggle, <https://www.kaggle.com/>
 - Keras, <https://keras.io/>
-- LMSYS Org, <https://lmsys.org/>
-    - Chatbot Arena, <https://lmarena.ai/>
-    - GitHub, <https://github.com/lm-sys>
-    - LeaderBoard, <https://lmarena.ai/?leaderboard>
-    - Web, <<https://web.lmarena.ai>
 - Meta, <https://www.facebook.com/business>
     - HuggingFace, <https://huggingface.co/facebook>
     - Llama, <https://www.llama.com/> ([terms](https://ai.meta.com/llama/license/))
@@ -121,6 +116,11 @@
     - llm-ollama plugin, <https://github.com/taketwo/llm-ollama>
 - LLM Calc, <https://llm-calc.rayfernando.ai/?quant=fp16>
 - LM Studio, <https://lmstudio.ai/>
+- LMSYS Org, <https://lmsys.org/>
+    - Chatbot Arena, <https://lmarena.ai/>
+    - GitHub, <https://github.com/lm-sys>
+    - LeaderBoard, <https://lmarena.ai/?leaderboard>
+    - Web, <<https://web.lmarena.ai>
 - llama.cpp, <https://github.com/ggml-org/llama.cpp>
 - Midjourney, <https://www.midjourney.com/home>
     - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
