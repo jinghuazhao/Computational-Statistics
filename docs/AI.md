@@ -25,6 +25,8 @@
     - DeepSeek-V3
         - GitHub, <https://github.com/deepseek-ai/DeepSeek-V3> ([blog](https://venturebeat.com/ai/deepseek-v3-ultra-large-open-source-ai-outperforms-llama-and-qwen-on-launch/))
         - Hugging Face, <https://huggingface.co/deepseek-ai/DeepSeek-V3-Base>
+    - DeepSeek-V3.1
+        - Hugging Face, <https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Base>
 - diffbot, <https://www.diffbot.com/>
     - Diffy Chat, <https://diffy.chat/>
     - GitHub, <https://github.com/diffbot>
@@ -83,6 +85,7 @@
     - CLIP, <https://openai.com/index/clip/>
     - DALL·E 3, <https://openai.com/index/dall-e-3/>
     - GitHub, <https://github.com/openai>
+    - Hugging Face, <https://huggingface.co/openai>
     - sora, <https://openai.com/index/sora/>
 - PaddlePaddle, <https://github.com/PaddlePaddle>
 - Perplexity AI, <https://www.perplexity.ai/> (search)
