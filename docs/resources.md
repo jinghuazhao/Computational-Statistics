@@ -11,6 +11,7 @@
 - OBI download, <https://www.oracle.com/middleware/technologies/business-intelligence-v12213-downloads.html>
 - SRCF, <https://www.srcf.net/> (site, <https://jhz22.user.srcf.net/>)
 - VirtualBox, <https://www.virtualbox.org/> (all downloads, <https://download.virtualbox.org/virtualbox/>)
+- WinApps, <https://github.com/Fmstrat/winapps>
 
 ## Online documentation/software/utilities
 
