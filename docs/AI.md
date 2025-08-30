@@ -103,6 +103,7 @@
     - Grok, <https://grok.com/>
     - xai-org, <https://github.com/xai-org>
         - Grok-1, <https://github.com/xai-org/grok-1>
+        - Grok-2, <https://huggingface.co/xai-org/grok-2>
 
 ## Applications
 
