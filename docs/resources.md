@@ -146,6 +146,7 @@
     * zstd, <https://github.com/facebook/zstd>
 - MicroSoft, <https://www.microsoft.com/>
     * Account, <https://account.live.com/consent/Manage?uaid=00be9fb584174427b1cffb995d934b24>
+    * BASIC-M6502, <https://github.com/microsoft/BASIC-M6502>
     * Bing webmaster tool, <https://www.bing.com/webmasters/about>
     * Bing image creator, <https://www.bing.com/images/create/>
     * dotnet, <https://dotnet.microsoft.com/en-us/>
