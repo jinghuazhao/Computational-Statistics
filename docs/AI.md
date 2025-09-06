@@ -15,6 +15,8 @@
 - Anthropic, <https://www.anthropic.com/>
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
+- Aperture LLM
+    - Hugging Face, <https://huggingface.co/swiss-ai>
 - Cohere, <https://cohere.com/>
 - Databricks, <https://www.databricks.com/>
 - DeepSeek AI, <https://www.deepseek.com/>
@@ -38,6 +40,7 @@
     - Colab(oratory), <https://colab.research.google.com/>
     - DeepMind, <https://deepmind.google/>
     - Gemini, <https://gemini.google.com/>
+    - EmbeddingGemma, <https://ai.google.dev/gemma/docs/embeddinggemma>
     - HuggingFace, <https://huggingface.co/google> ([Stable Difficusion XL](https://huggingface.co/spaces/google/sdxl))
     - llm-gemini, <https://github.com/simonw/llm-gemini>
     - TensorFlow, <https://www.tensorflow.org/>
@@ -56,6 +59,7 @@
         - GGUF conversion, <https://huggingface.co/spaces/ggml-org/gguf-my-repo>
     - Tokens, <https://huggingface.co/settings/tokens>
 - kaggle, <https://www.kaggle.com/>
+    - EmbeddingGemma, <https://www.kaggle.com/models/google/embeddinggemma/>
 - Keras, <https://keras.io/>
 - Meta, <https://www.facebook.com/business>
     - HuggingFace, <https://huggingface.co/facebook>
