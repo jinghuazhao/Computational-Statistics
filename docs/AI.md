@@ -58,6 +58,7 @@
     - Spaces, <https://huggingface.co/spaces>
         - GGUF conversion, <https://huggingface.co/spaces/ggml-org/gguf-my-repo>
     - Tokens, <https://huggingface.co/settings/tokens>
+    - Trackio, <https://github.com/gradio-app/trackio>
 - kaggle, <https://www.kaggle.com/>
     - EmbeddingGemma, <https://www.kaggle.com/models/google/embeddinggemma/>
 - Keras, <https://keras.io/>
