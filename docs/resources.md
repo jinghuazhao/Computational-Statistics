@@ -15,6 +15,7 @@
 
 ## Online documentation/software/utilities
 
+- ABBYY FineReader PDF, <https://pdf.abbyy.com/>
 - Adobe online, <https://www.adobe.com/uk/acrobat/online.html>
 - Aiseesoft background remover, <https://www.aiseesoft.com/online-bg-remover/>
 - AlexNet, <https://github.com/computerhistory/AlexNet-Source-Code/>
