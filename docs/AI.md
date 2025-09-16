@@ -159,3 +159,7 @@
 ## Textbook examples
 
 See <https://jinghuazhao.github.io/tests/AI/python/>
+
+## Web
+
+- Towards Data Science, <https://towardsdatascience.com/>
