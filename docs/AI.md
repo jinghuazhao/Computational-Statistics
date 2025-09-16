@@ -160,6 +160,6 @@
 
 See <https://jinghuazhao.github.io/tests/AI/python/>
 
-## Web
+## Web articles
 
 - Towards Data Science, <https://towardsdatascience.com/>
