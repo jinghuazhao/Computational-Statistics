@@ -62,6 +62,7 @@
 - kaggle, <https://www.kaggle.com/>
     - EmbeddingGemma, <https://www.kaggle.com/models/google/embeddinggemma/>
 - Keras, <https://keras.io/>
+- Lambda, <https://lambda.ai/>
 - Meta, <https://www.facebook.com/business>
     - HuggingFace, <https://huggingface.co/facebook>
     - Llama, <https://www.llama.com/> ([terms](https://ai.meta.com/llama/license/))
