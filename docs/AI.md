@@ -143,6 +143,7 @@
     - LangFlow, <https://www.langflow.org/>
 - Open WebUI, <https://openwebui.com/>
     - GitHub, <https://github.com/open-webui/open-webui> ([blog](https://simonwillison.net/2024/Dec/27/open-webui/))
+- Windsurf, <https://windsurf.com/>
 
 ## Regulatory Bodies
 
