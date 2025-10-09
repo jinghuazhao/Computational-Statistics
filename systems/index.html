@@ -161,6 +161,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#vboxmanage" class="nav-link">VBoxManage</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#windows-11" class="nav-link">Windows 11</a>
               <ul class="nav flex-column">
               </ul>
@@ -441,6 +445,18 @@ VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 <li>Click Next.</li>
 </ul>
 <p>See <a href="https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.htm">https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.htm</a>.</p>
+<h2 id="vboxmanage">VBoxManage</h2>
+<p>Some real-world operations are listed below,</p>
+<pre><code class="language-bash">cd &quot;c:\Program Files\Oracle\VirtualBox&quot;
+c:VBoxManage.exe showvminfo &quot;42&quot;
+c:VBoxManage.exe showhdinfo &quot;D:\VirtualBox VMs\42\42.vdi&quot;
+c:VBoxmanage.exe startvm 42 --type gui 
+c:VBoxManage.exe storagectl &quot;42&quot; --name &quot;IDE Controller&quot; --add ide  
+c:VBoxManage.exe storageattach &quot;42&quot; --storagectl &quot;IDE Controller&quot; --port 0 --device 0 --type dvddrive --medium &quot;c:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso&quot;
+c:VBoxManage.exe modifyvm &quot;42&quot; --boot1 floppy --boot2 dvd --boot3 disk --boot4 none
+c:VBoxManage.exe modifyvm &quot;42&quot; --firmware efi
+c:VBoxManage.exe modifyvm &quot;42&quot; --firmware bios
+</code></pre>
 <h2 id="windows-11">Windows 11</h2>
 <h3 id="official-site">Official site</h3>
 <p>From the official ISO location, <a href="https://aka.ms/DownloadWindows11">https://aka.ms/DownloadWindows11</a>, select  "Download Windows 11 Disk Image (ISO) for x64 devices.".</p>
