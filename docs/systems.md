@@ -270,7 +270,7 @@ path D:\Program Files\Oracle\VirtualBox
 VBoxManage modifyhd --compact "ubuntu18.04.vdi"
 ```
 
-## OVA file
+### OVA file
 
 This is useful, e.g., [Windows 11 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/).
 
@@ -285,7 +285,7 @@ Import the OVA file into Oracle VirtualBox:
 See <https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.htm>.
 
 
-## VBoxManage
+### VBoxManage
 
 Some real-world operations are listed below,
 
