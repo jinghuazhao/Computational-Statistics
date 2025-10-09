@@ -284,6 +284,23 @@ Import the OVA file into Oracle VirtualBox:
 
 See <https://help.okta.com/oag/en-us/content/topics/access-gateway/deploy-ovb.htm>.
 
+
+## VBoxManage
+
+Some real-world operations are listed below,
+
+```bash
+cd "c:\Program Files\Oracle\VirtualBox"
+c:VBoxManage.exe showvminfo "42"
+c:VBoxManage.exe showhdinfo "D:\VirtualBox VMs\42\42.vdi"
+c:VBoxmanage.exe startvm 42 --type gui 
+c:VBoxManage.exe storagectl "42" --name "IDE Controller" --add ide  
+c:VBoxManage.exe storageattach "42" --storagectl "IDE Controller" --port 0 --device 0 --type dvddrive --medium "c:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso"
+c:VBoxManage.exe modifyvm "42" --boot1 floppy --boot2 dvd --boot3 disk --boot4 none
+c:VBoxManage.exe modifyvm "42" --firmware efi
+c:VBoxManage.exe modifyvm "42" --firmware bios
+```
+
 ## Windows 11
 
 ### Official site
