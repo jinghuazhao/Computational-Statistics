@@ -127,6 +127,7 @@
     - llm-ollama plugin, <https://github.com/taketwo/llm-ollama>
 - LLM Calc, <https://llm-calc.rayfernando.ai/?quant=fp16>
 - LM Studio, <https://lmstudio.ai/>
+    - GitHub, <https://github.com/lmstudio-ai>
 - LMSYS Org, <https://lmsys.org/>
     - Chatbot Arena, <https://lmarena.ai/>
     - GitHub, <https://github.com/lm-sys>
