@@ -12,6 +12,7 @@
     - I2VGen-XL, <https://i2vgen-xl.github.io/>
     - Qwen3, <https://qwenlm.github.io/blog/qwen3/>
     - Qwen-Image, <https://qwenlm.github.io/blog/qwen-image/>
+- Andrej Karpathy, <https://github.com/karpathy>
 - Anthropic, <https://www.anthropic.com/>
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
