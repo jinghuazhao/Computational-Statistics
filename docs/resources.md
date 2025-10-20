@@ -73,6 +73,7 @@
 - PDF2DJVU, <https://pdf2djvu.com/>
 - PDFgear, <https://www.pdfgear.com/>
 - PDFocr, <https://pdfocr.org/>
+- PDF suite<https://www.pdf-suite.com/>
 - PDF-XCHANGE, <https://www.pdf-xchange.com/> (discontinued [viewer](https://www.pdf-xchange.com/product/downloads/discontinued))
 - PNG2PDF, <https://png2pdf.com/>
 - PhotoScissors, <https://photoscissors.com/>
