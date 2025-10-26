@@ -121,6 +121,7 @@
 - ChatPDF, <https://www.chatpdf.com/>
 - Cherry Studio, <https://cherry-ai.com/>
 - Crayon, <https://www.craiyon.com/>
+- Cursor, <https://cursor.com/>
 - Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
 - LangChain AI, <https://www.langchain.com/>
     - Documentation, <https://python.langchain.com/>
