@@ -47,6 +47,7 @@
     - EmbeddingGemma, <https://ai.google.dev/gemma/docs/embeddinggemma>
     - HuggingFace, <https://huggingface.co/google> ([Stable Difficusion XL](https://huggingface.co/spaces/google/sdxl))
     - llm-gemini, <https://github.com/simonw/llm-gemini>
+    - Med-PaLM, <https://sites.research.google/med-palm/>
     - TensorFlow, <https://www.tensorflow.org/>
 - Gymnasium at Farama Foundation
     - GitHub, <https://github.com/Farama-Foundation/Gymnasium>
