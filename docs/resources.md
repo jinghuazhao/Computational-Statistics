@@ -172,7 +172,9 @@
 - Proxmox, <https://www.proxmox.com/en/downloads>
 - Raspberry Pi OS, <https://www.raspberrypi.com/software/>
 - Science Media Centre, <https://www.sciencemediacentre.org/>
-- Tencent Meeting, <https://meeting.tencent.com/download/>
+-* Tencent, <https://github.com/tencent>
+    * Tencent Meeting, <https://meeting.tencent.com/download/>
+    * VooV Meeting, <https://voovmeeting.com/>
 - Twitter, <https://github.com/twitter>
 - VMware by Broadcom workstation and fusion, <https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion>
 - Western Digital, <https://www.westerndigital.com/>

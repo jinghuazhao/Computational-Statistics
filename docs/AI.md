@@ -123,7 +123,6 @@
 - Cherry Studio, <https://cherry-ai.com/>
 - Crayon, <https://www.craiyon.com/>
 - Cursor, <https://cursor.com/>
-- Kimi chat, <https://kimi.moonshot.cn/> (PDF processing)
 - LangChain AI, <https://www.langchain.com/>
     - Documentation, <https://python.langchain.com/>
     - GitHub, <https://github.com/langchain-ai>
@@ -142,6 +141,10 @@
 - Midjourney, <https://www.midjourney.com/home>
     - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
     - Background removal, <https://huggingface.co/spaces/not-lain/background-removal>
+- Moonshot AI, <https://www.moonshot.ai/>
+    - Kimi, <https://www.kimi.com/>
+    - Kimi API, <https://kimi.moonshot.cn/> (PDF processing)
+    - GitHub, <https://github.com/MoonshotAI>
 - nanoVLM, <https://github.com/huggingface/nanoVLM> ([blog](https://huggingface.co/blog/nanovlm))
 - No-Code LLM App Builders
     - Cursor AI, <https://www.cursor.com/>
