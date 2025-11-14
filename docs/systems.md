@@ -534,6 +534,12 @@ See <https://www.cyberciti.biz/faq/ubuntu-linux-install-gnome-desktop-on-server/
 
 See also <https://www.makeuseof.com/tag/linux-desktop-windows-subsystem/>.
 
+It is also possible to acces Linux folders from Windows, e.g., from MS-DOS Prompt or Powershell,
+
+```
+dir  \\wsl.localhost\Ubuntu-24.04\home\jhz22
+```
+
 According to <https://ubuntu.com//blog/ubuntu-wsl-new-format-available>, Ubuntu can be installed with `wsl --install ubuntu` and `wsl --install --from-file ubuntu.tar.wsl` with <https://publicwsldistros.blob.core.windows.net/wsldistrostorage/Ubuntu2404-250130_x64.wsl>.
 
 `ubuntu-wsl` is a set of WSL utilities, which could be installed with

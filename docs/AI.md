@@ -145,6 +145,7 @@
     - Kimi, <https://www.kimi.com/>
     - Kimi API, <https://kimi.moonshot.cn/> (PDF processing)
     - GitHub, <https://github.com/MoonshotAI>
+    - HuggingFace, <https://huggingface.co/moonshotai>
 - nanoVLM, <https://github.com/huggingface/nanoVLM> ([blog](https://huggingface.co/blog/nanovlm))
 - No-Code LLM App Builders
     - Cursor AI, <https://www.cursor.com/>
