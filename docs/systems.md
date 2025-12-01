@@ -442,6 +442,12 @@ Hyper-V can be enabled in many ways including using the Windows 10 control panel
 
 **Control Panel** --> **Programs** --> **Programs and Features** --> **Turn Windows Features on or off**: **Hyper-V**, **Virtual Machine Platforms**.
 
+A command-line counterpart is as follows,
+
+```powershell
+dism.exe /online /enable-feature /featurename:Hyper-V /all /norestart
+```
+
 ## WSL
 
 Official page: <https://github.com/microsoft/WSL>
@@ -464,7 +470,6 @@ wsl --list --online
 wsl --list --verbose
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
-wsl --set-default-version 2
 ```
 The command could also takes additional parameters, e.g., -d debian. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.
 
