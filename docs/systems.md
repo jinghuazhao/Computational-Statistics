@@ -492,7 +492,7 @@ and return with error messages,
 Conversion in progress, this may take a few minutes...
 
 For information on key differences with WSL 2 please visit https://aka.ms/wsl2
-The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
+The requested operation could not be completed due to a virtual disk system limitation. Virtual hard disk files must be uncompressed
 and unencrypted and must not be sparse.
 ```
 
@@ -550,6 +550,57 @@ sudo apt install ubuntu-wsl
 ```
 
 for executables at `/usr/bin`, e.g., `wslvar PATH` for Windows' \%PATH environment variable and `wslsys` for basic information, `wslusc` to create a short cut on Windows desktop.
+
+### Dedicated drive
+
+This is useful when the default drive is small, e.g., a small SSD C: drive relative to a larger D:, say.
+
+1. **Install WSL and Ubuntu 24.04**
+
+   ```powershell
+   wsl --install
+   wsl --install Ubuntu-24.04
+   ```
+
+   *Do not launch Ubuntu yet.*
+
+2. **Create a directory on the dedicated drive**
+
+   ```powershell
+   New-Item -ItemType Directory -Path "D:\WSL\Ubuntu-24.04"
+   ```
+
+3. **Export the distribution to the dedicated drive**
+
+   ```powershell
+   wsl --export Ubuntu-24.04 "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"
+   ```
+
+4. **Unregister the original installation**
+
+   ```powershell
+   wsl --unregister Ubuntu-24.04
+   ```
+
+5. **Import Ubuntu to the new location**
+
+   ```powershell
+   wsl --import Ubuntu-24.04 "D:\WSL\Ubuntu-24.04" "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"
+   ```
+
+6. **Launch Ubuntu**
+
+   ```powershell
+   wsl -d Ubuntu-24.04
+   ```
+
+7. **(Optional) Set as default distro**
+
+   ```powershell
+   wsl --set-default Ubuntu-24.04
+   ```
+
+Ubuntu 24.04 WSL installation is now stored on the dedicated drive under `D:\WSL\Ubuntu-24.04`.
 
 ### GUI apps
 
