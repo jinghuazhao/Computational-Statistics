@@ -708,7 +708,7 @@ wsl --set-default-version 2
 <pre><code>Conversion in progress, this may take a few minutes...
 
 For information on key differences with WSL 2 please visit https://aka.ms/wsl2
-The requested operation could not be completed due to a virtual disk system limitation.  Virtual hard disk files must be uncompressed 
+The requested operation could not be completed due to a virtual disk system limitation. Virtual hard disk files must be uncompressed
 and unencrypted and must not be sparse.
 </code></pre>
 <p>To fix this, as in <a href="https://logfetch.com/wsl2-uncompressed/">https://logfetch.com/wsl2-uncompressed/</a>, open up File Explorer and navigate to:</p>
@@ -747,6 +747,46 @@ dir \\wsl.localhost\Ubuntu-24.04\home\jhz22
 <pre><code class="language-bash">sudo apt install ubuntu-wsl
 </code></pre>
 <p>for executables at <code>/usr/bin</code>, e.g., <code>wslvar PATH</code> for Windows' \%PATH environment variable and <code>wslsys</code> for basic information, <code>wslusc</code> to create a short cut on Windows desktop.</p>
+<h3 id="dedicated-drive">Dedicated drive</h3>
+<p>This is useful when the default drive is small, e.g., a small SSD C: drive relative to a larger D:, say.</p>
+<ol>
+<li><strong>Install WSL and Ubuntu 24.04</strong></li>
+</ol>
+<p><code>powershell
+   wsl --install
+   wsl --install Ubuntu-24.04</code></p>
+<p><em>Do not launch Ubuntu yet.</em></p>
+<ol>
+<li><strong>Create a directory on the dedicated drive</strong></li>
+</ol>
+<p><code>powershell
+   New-Item -ItemType Directory -Path "D:\WSL\Ubuntu-24.04"</code></p>
+<ol>
+<li><strong>Export the distribution to the dedicated drive</strong></li>
+</ol>
+<p><code>powershell
+   wsl --export Ubuntu-24.04 "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"</code></p>
+<ol>
+<li><strong>Unregister the original installation</strong></li>
+</ol>
+<p><code>powershell
+   wsl --unregister Ubuntu-24.04</code></p>
+<ol>
+<li><strong>Import Ubuntu to the new location</strong></li>
+</ol>
+<p><code>powershell
+   wsl --import Ubuntu-24.04 "D:\WSL\Ubuntu-24.04" "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"</code></p>
+<ol>
+<li><strong>Launch Ubuntu</strong></li>
+</ol>
+<p><code>powershell
+   wsl -d Ubuntu-24.04</code></p>
+<ol>
+<li><strong>(Optional) Set as default distro</strong></li>
+</ol>
+<p><code>powershell
+   wsl --set-default Ubuntu-24.04</code></p>
+<p>Ubuntu 24.04 WSL installation is now stored on the dedicated drive under <code>D:\WSL\Ubuntu-24.04</code>.</p>
 <h3 id="gui-apps">GUI apps</h3>
 <p>This is available from <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps">https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps</a>.</p>
 <p>Example applications include gedit, gimp, nautilus, vlc, x11-apps, microsoft-edge (<a href="https://www.microsoftedgeinsider.com/en-us/download?platform=linux-deb">https://www.microsoftedgeinsider.com/en-us/download?platform=linux-deb</a>).</p>
