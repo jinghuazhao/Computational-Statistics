@@ -750,42 +750,44 @@ dir \\wsl.localhost\Ubuntu-24.04\home\jhz22
 <h3 id="dedicated-drive">Dedicated drive</h3>
 <p>This is useful when the default drive is small, e.g., a small SSD C: drive relative to a larger D:, say.</p>
 <ol>
-<li><strong>Install WSL and Ubuntu 24.04</strong></li>
-</ol>
+<li>
+<p><strong>Install WSL and Ubuntu 24.04</strong></p>
 <p><code>powershell
-   wsl --install
-   wsl --install Ubuntu-24.04</code></p>
+wsl --install
+wsl --install Ubuntu-24.04</code></p>
 <p><em>Do not launch Ubuntu yet.</em></p>
-<ol>
-<li><strong>Create a directory on the dedicated drive</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>Create a directory on the dedicated drive</strong></p>
 <p><code>powershell
-   New-Item -ItemType Directory -Path "D:\WSL\Ubuntu-24.04"</code></p>
-<ol>
-<li><strong>Export the distribution to the dedicated drive</strong></li>
-</ol>
+New-Item -ItemType Directory -Path "D:\WSL\Ubuntu-24.04"</code></p>
+</li>
+<li>
+<p><strong>Export the distribution to the dedicated drive</strong></p>
 <p><code>powershell
-   wsl --export Ubuntu-24.04 "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"</code></p>
-<ol>
-<li><strong>Unregister the original installation</strong></li>
-</ol>
+wsl --export Ubuntu-24.04 "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"</code></p>
+</li>
+<li>
+<p><strong>Unregister the original installation</strong></p>
 <p><code>powershell
-   wsl --unregister Ubuntu-24.04</code></p>
-<ol>
-<li><strong>Import Ubuntu to the new location</strong></li>
-</ol>
+wsl --unregister Ubuntu-24.04</code></p>
+</li>
+<li>
+<p><strong>Import Ubuntu to the new location</strong></p>
 <p><code>powershell
-   wsl --import Ubuntu-24.04 "D:\WSL\Ubuntu-24.04" "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"</code></p>
-<ol>
-<li><strong>Launch Ubuntu</strong></li>
-</ol>
+wsl --import Ubuntu-24.04 "D:\WSL\Ubuntu-24.04" "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"</code></p>
+</li>
+<li>
+<p><strong>Launch Ubuntu</strong></p>
 <p><code>powershell
-   wsl -d Ubuntu-24.04</code></p>
-<ol>
-<li><strong>(Optional) Set as default distro</strong></li>
-</ol>
+wsl -d Ubuntu-24.04</code></p>
+</li>
+<li>
+<p><strong>(Optional) Set as default distro</strong></p>
 <p><code>powershell
-   wsl --set-default Ubuntu-24.04</code></p>
+wsl --set-default Ubuntu-24.04</code></p>
+</li>
+</ol>
 <p>Ubuntu 24.04 WSL installation is now stored on the dedicated drive under <code>D:\WSL\Ubuntu-24.04</code>.</p>
 <h3 id="gui-apps">GUI apps</h3>
 <p>This is available from <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps">https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps</a>.</p>
