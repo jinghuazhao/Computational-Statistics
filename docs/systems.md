@@ -557,48 +557,48 @@ This is useful when the default drive is small, e.g., a small SSD C: drive relat
 
 1. **Install WSL and Ubuntu 24.04**
 
-   ```powershell
-   wsl --install
-   wsl --install Ubuntu-24.04
-   ```
+    ```powershell
+    wsl --install
+    wsl --install Ubuntu-24.04
+    ```
 
-   *Do not launch Ubuntu yet.*
+    *Do not launch Ubuntu yet.*
 
 2. **Create a directory on the dedicated drive**
 
-   ```powershell
-   New-Item -ItemType Directory -Path "D:\WSL\Ubuntu-24.04"
-   ```
+    ```powershell
+    New-Item -ItemType Directory -Path "D:\WSL\Ubuntu-24.04"
+    ```
 
 3. **Export the distribution to the dedicated drive**
 
-   ```powershell
-   wsl --export Ubuntu-24.04 "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"
-   ```
+    ```powershell
+    wsl --export Ubuntu-24.04 "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"
+    ```
 
 4. **Unregister the original installation**
 
-   ```powershell
-   wsl --unregister Ubuntu-24.04
-   ```
+    ```powershell
+    wsl --unregister Ubuntu-24.04
+    ```
 
 5. **Import Ubuntu to the new location**
 
-   ```powershell
-   wsl --import Ubuntu-24.04 "D:\WSL\Ubuntu-24.04" "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"
-   ```
+    ```powershell
+    wsl --import Ubuntu-24.04 "D:\WSL\Ubuntu-24.04" "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"
+    ```
 
 6. **Launch Ubuntu**
 
-   ```powershell
-   wsl -d Ubuntu-24.04
-   ```
+    ```powershell
+    wsl -d Ubuntu-24.04
+    ```
 
 7. **(Optional) Set as default distro**
 
-   ```powershell
-   wsl --set-default Ubuntu-24.04
-   ```
+    ```powershell
+    wsl --set-default Ubuntu-24.04
+    ```
 
 Ubuntu 24.04 WSL installation is now stored on the dedicated drive under `D:\WSL\Ubuntu-24.04`.
 
