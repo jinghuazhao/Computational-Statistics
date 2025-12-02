@@ -840,6 +840,9 @@ E.g.,
 * <https://sites.google.com/site/jpopgen/wgsa/launch-an-instance>
 * <https://sites.google.com/site/jpopgen/wgsa/terminate-an-instance>
 
+
+See also <https://cambridge-ceu.github.io/csd3/applications/awscli.html>.
+
 ## modules
 
 It is a system that allows you to easily change between different versions of compilers and other software.
