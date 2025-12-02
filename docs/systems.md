@@ -843,7 +843,9 @@ E.g.,
 
 See also <https://cambridge-ceu.github.io/csd3/applications/awscli.html>.
 
-## Google cloud
+## GCP
+
+<https://cloud.google.com/>
 
 See <https://cambridge-ceu.github.io/csd3/applications/gsutil.html>.
 
