@@ -843,6 +843,10 @@ E.g.,
 
 See also <https://cambridge-ceu.github.io/csd3/applications/awscli.html>.
 
+## Google cloud
+
+See <https://cambridge-ceu.github.io/csd3/applications/gsutil.html>.
+
 ## modules
 
 It is a system that allows you to easily change between different versions of compilers and other software.
