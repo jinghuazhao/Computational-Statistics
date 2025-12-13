@@ -43,6 +43,7 @@
 - Foxit, <https://www.foxitsoftware.com/>, <https://www.foxit.com/pdf-to-ppt/>
 - FreeCAD, <https://www.freecad.org/>
 - FreeConvert SVG Converter, <https://www.freeconvert.com/svg-converter>
+- Fresh, <https://sinelaw.github.io/fresh/>
 - GIMP, <https://gimp.org>
 - Graphite, <https://graphite.rs/>
 - gravis, <https://robert-haas.github.io/gravis-docs/index.html>
