@@ -442,6 +442,8 @@ Hyper-V can be enabled in many ways including using the Windows 10 control panel
 
 **Control Panel** --> **Programs** --> **Programs and Features** --> **Turn Windows Features on or off**: **Hyper-V**, **Virtual Machine Platforms**.
 
+On Windows 11, this is considerably easier from Windows key + R, Optional features.
+
 A command-line counterpart is as follows,
 
 ```powershell
