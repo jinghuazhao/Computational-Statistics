@@ -679,6 +679,7 @@ MediaCreationTool.bat
 <p>Enable Hyper-V to create virtual machines on Windows 10.</p>
 <p>Hyper-V can be enabled in many ways including using the Windows 10 control panel, PowerShell or using the Deployment Imaging Servicing and Management tool (DISM). This documents walks through each option:</p>
 <p><strong>Control Panel</strong> --&gt; <strong>Programs</strong> --&gt; <strong>Programs and Features</strong> --&gt; <strong>Turn Windows Features on or off</strong>: <strong>Hyper-V</strong>, <strong>Virtual Machine Platforms</strong>.</p>
+<p>On Windows 11, this is considerably easier from Windows key + R, Optional features.</p>
 <p>A command-line counterpart is as follows,</p>
 <pre><code class="language-powershell">dism.exe /online /enable-feature /featurename:Hyper-V /all /norestart
 </code></pre>
