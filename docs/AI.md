@@ -44,6 +44,7 @@
     - Colab(oratory), <https://colab.research.google.com/>
     - DeepMind, <https://deepmind.google/>
     - Gemini, <https://gemini.google.com/>
+    - gemini-cli, <https://geminicli.com/>
     - EmbeddingGemma, <https://ai.google.dev/gemma/docs/embeddinggemma>
     - HuggingFace, <https://huggingface.co/google> ([Stable Difficusion XL](https://huggingface.co/spaces/google/sdxl))
     - llm-gemini, <https://github.com/simonw/llm-gemini>
