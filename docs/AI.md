@@ -25,7 +25,7 @@
 - DeepSeek AI, <https://www.deepseek.com/>
     - Chat, <https://chat.deepseek.com/>
     - DeepSeek-R1
-        - GitHub, <https://github.com/deepseek-ai/DeepSeek-R1>, ([arXiv](https://arxiv.org/abs/2501.12948),[blog](https://analyticsindiamag.com/ai-news-updates/deepseek-crushes-openai-o1-with-an-mit-licensed-model-developers-are-losing-it/))
+        - GitHub, <https://github.com/deepseek-ai/DeepSeek-R1>, ([arXiv](https://arxiv.org/abs/2501.12948), [blog](https://analyticsindiamag.com/ai-news-updates/deepseek-crushes-openai-o1-with-an-mit-licensed-model-developers-are-losing-it/))
         - Hugging Face, <https://huggingface.co/deepseek-ai/DeepSeek-R1>
     - DeepSeek-V3
         - GitHub, <https://github.com/deepseek-ai/DeepSeek-V3> ([blog](https://venturebeat.com/ai/deepseek-v3-ultra-large-open-source-ai-outperforms-llama-and-qwen-on-launch/))
