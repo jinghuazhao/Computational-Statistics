@@ -110,6 +110,7 @@
 - Ubiquitous Knowledge Processing Lab (UKPLab), <https://github.com/UKPLab>
     - sentence-transformers, <https://www.sbert.net/>
     - Hugging Face, <https://huggingface.co/models?library=sentence-transformers>
+- Ultralytics, <https://github.com/ultralytics>
 - wandb.ai, <https://wandb.ai/>
     - cb20qq, <https://wandb.ai/cb20qq-university-of-cambridge>
 - xAI, <https://x.ai/>
