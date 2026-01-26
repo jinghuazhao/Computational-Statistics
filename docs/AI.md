@@ -85,6 +85,7 @@
     - GraphRAG, <https://microsoft.github.io/graphrag/> ([GitHub](https://github.com/microsoft/graphrag))
     - HuggingFace, <https://huggingface.co/microsoft>
     - MAI-DS-R1, <https://github.com/marketplace/models/azureml/MAI-DS-R1/playground?compare_to=DeepSeek-R1>
+    - MIRA, <https://github.com/microsoft/MIRA> ([arXiv](https://arxiv.org/abs/2506.07584))
     - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://huggingface.co/papers/2412.08905>)
 - Mistral, <https://mistral.ai/>
     - Le Chat, <https://chat.mistral.ai/>
