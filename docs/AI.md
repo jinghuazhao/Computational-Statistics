@@ -20,6 +20,8 @@
         - sonnet, <https://www.anthropic.com/claude/sonnet>
 - Aperture LLM
     - Hugging Face, <https://huggingface.co/swiss-ai>
+- BAAI, <https://www.baai.ac.cn/en/>
+    - GitHub, <https://github.com/baaivision>
 - Cohere, <https://cohere.com/>
 - Databricks, <https://www.databricks.com/>
 - DeepSeek AI, <https://www.deepseek.com/>
