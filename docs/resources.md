@@ -43,6 +43,7 @@
 - Foxit, <https://www.foxitsoftware.com/>, <https://www.foxit.com/pdf-to-ppt/>
 - FreeCAD, <https://www.freecad.org/>
 - FreeConvert SVG Converter, <https://www.freeconvert.com/svg-converter>
+- Free Download Manager, <https://www.freedownloadmanager.org/>
 - FreeFEM++, <https://freefem.org/>
 - Fresh, <https://sinelaw.github.io/fresh/>
 - GIMP, <https://gimp.org>
