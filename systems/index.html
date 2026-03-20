@@ -757,48 +757,10 @@ dir \\wsl.localhost\Ubuntu-24.04\home\jhz22
 <p>for executables at <code>/usr/bin</code>, e.g., <code>wslvar PATH</code> for Windows' \%PATH environment variable and <code>wslsys</code> for basic information, <code>wslusc</code> to create a short cut on Windows desktop.</p>
 <h3 id="dedicated-drive">Dedicated drive</h3>
 <p>This is useful when the default drive is small, e.g., a small SSD C: drive relative to a larger D:, say.</p>
-<ol>
-<li>
-<p><strong>Install WSL and Ubuntu 24.04</strong></p>
-<p><code>powershell
-wsl --install
-wsl --install Ubuntu-24.04</code></p>
-<p><em>Do not launch Ubuntu yet.</em></p>
-</li>
-<li>
-<p><strong>Create a directory on the dedicated drive</strong></p>
-<p><code>powershell
-New-Item -ItemType Directory -Path "D:\WSL\Ubuntu-24.04"</code></p>
-</li>
-<li>
-<p><strong>Export the distribution to the dedicated drive</strong></p>
-<p><code>powershell
-wsl --export Ubuntu-24.04 "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"</code></p>
-</li>
-<li>
-<p><strong>Unregister the original installation</strong></p>
-<p><code>powershell
-wsl --unregister Ubuntu-24.04</code></p>
-</li>
-<li>
-<p><strong>Import Ubuntu to the new location</strong></p>
-<p><code>powershell
-wsl --import Ubuntu-24.04 "D:\WSL\Ubuntu-24.04" "D:\WSL\Ubuntu-24.04\ubuntu2404.tar"</code></p>
-</li>
-<li>
-<p><strong>Launch Ubuntu</strong></p>
-<p><code>powershell
-wsl -d Ubuntu-24.04</code></p>
-</li>
-<li>
-<p><strong>(Optional) Set as default distro</strong></p>
-<p><code>powershell
-wsl --set-default Ubuntu-24.04</code></p>
-</li>
-</ol>
-<p>Ubuntu 24.04 WSL installation is now stored on the dedicated drive under <code>D:\WSL\Ubuntu-24.04</code>.</p>
-<p>It can similarly be done under DOS prompt,</p>
-<pre><code class="language-bash"># remove corrupt version
+<p>It can similarly be done under PowerShell / DOS prompt,</p>
+<pre><code class="language-bash">mkdir D:\wsl
+cd D:\wsl
+# remove corrupt version
 wsl --unregister Ubuntu-24.04
 rmdir /s /q D:\wsl\Ubuntu-24.04
 mkdir D:\wsl\Ubuntu-24.04
