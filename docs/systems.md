@@ -610,6 +610,22 @@ This is useful when the default drive is small, e.g., a small SSD C: drive relat
 
 Ubuntu 24.04 WSL installation is now stored on the dedicated drive under `D:\WSL\Ubuntu-24.04`.
 
+It can similarly be done under DOS prompt,
+
+```bash
+# remove corrupt version
+wsl --unregister Ubuntu-24.04
+rmdir /s /q D:\wsl\Ubuntu-24.04
+mkdir D:\wsl\Ubuntu-24.04
+# start afresh
+wget https://cloud-images.ubuntu.com/wsl/releases/24.04/current/ubuntu-noble-wsl-amd64-24.04lts.rootfs.tar.gz
+wsl --import Ubuntu-24.04 D:\wsl\Ubuntu-24.04 D:\wsl\ubuntu-noble-wsl-amd64-24.04lts.rootfs.tar.gz
+wsl -d Ubuntu-24.04
+adduser jhz22
+usermod -aG sudo jhz22
+wsl -d Ubuntu-24.04 -u jhz22
+```
+
 ### GUI apps
 
 This is available from <https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps>.
