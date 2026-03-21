@@ -264,10 +264,12 @@ Here are the steps, quoting <http://www.netreliant.com/news/8/17/Compacting-Virt
 ```bash
 # Linux
 dd if=/dev/zero of=zerofillfile bs=1M
-
+dd if=/dev/zero of=zerofillfile bs=1M status=progress
+sync
+rm zerofillfile
 rem Windows
 path D:\Program Files\Oracle\VirtualBox
-VBoxManage modifyhd --compact "ubuntu18.04.vdi"
+VBoxManage modifymedium disk "ubuntu18.04.vdi" --compact
 ```
 
 ### OVA file
