@@ -425,10 +425,12 @@ sudo VBoxClient-all
 <p>Here are the steps, quoting <a href="http://www.netreliant.com/news/8/17/Compacting-VirtualBox-Disk-Images-Linux-Guests.html">http://www.netreliant.com/news/8/17/Compacting-VirtualBox-Disk-Images-Linux-Guests.html</a>, for compressing large .vdi:</p>
 <pre><code class="language-bash"># Linux
 dd if=/dev/zero of=zerofillfile bs=1M
-
+dd if=/dev/zero of=zerofillfile bs=1M status=progress
+sync
+rm zerofillfile
 rem Windows
 path D:\Program Files\Oracle\VirtualBox
-VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
+VBoxManage modifymedium disk &quot;ubuntu18.04.vdi&quot; --compact
 </code></pre>
 <h3 id="ova-file">OVA file</h3>
 <p>This is useful, e.g., <a href="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/">Windows 11 development environment</a>.</p>
