@@ -769,16 +769,40 @@ body {
 These steps furnish Rust installation for Windows into D:\Rust.
 
 ```bash
+# reboot here to make the environments effective.
 # Change destination other than these:
 # C:\Users\<your-username>\.cargo
 # C:\Users\<your-username>\.rustup
 [System.Environment]::SetEnvironmentVariable("CARGO_HOME", "D:\Rust\.cargo", "User")
 [System.Environment]::SetEnvironmentVariable("RUSTUP_HOME", "D:\Rust\.rustup", "User")
-# reboot here to make the environments effective.
 echo $env:CARGO_HOME
 echo $env:RUSTUP_HOME
 winget install --id Rustlang.Rustup
 rustup show home
+```
+
+A way to force is as follows,
+
+```bash
+winget uninstall Rustlang.Rustup
+winget install Rustlang.Rustup --force
+# Prefix environments
+# https://win.rustup.rs/x86_64 for rustup-init.exe
+$env:CARGO_HOME="D:\Rust\.cargo"; $env:RUSTUP_HOME="D:\Rust\.rustup"; .\rustup-init.exe -y
+$env:Path += ";D:\Rust\.cargo\bin"
+# .\vs_BuildTools is customisable so the following is unnecessary.
+# https://visualstudio.microsoft.com/visual-cpp-build-tools/
+.\vs_BuildTools.exe --layout D:\Rust\BuildTools `
+  --add Microsoft.VisualStudio.Workload.VCTools `
+  --includeRecommended `
+  --lang en-US
+# An offline vs_BuildTools.exe
+D:\Rust\BuildTools\vs_BuildTools.exe --noWeb --quiet --wait --norestart `
+  --installPath "D:\Rust\VSBuildTools" `
+  --add Microsoft.VisualStudio.Workload.VCTools `
+  --includeRecommended
+rustc --version
+cargo --version
 ```
 
 ## TeX/LaTeX
