@@ -775,9 +775,9 @@ These steps furnish Rust installation for Windows into D:\Rust.
 [System.Environment]::SetEnvironmentVariable("CARGO_HOME", "D:\Rust\.cargo", "User")
 [System.Environment]::SetEnvironmentVariable("RUSTUP_HOME", "D:\Rust\.rustup", "User")
 # reboot here to make the environments effective.
-winget install --id Rustlang.Rustup
 echo $env:CARGO_HOME
 echo $env:RUSTUP_HOME
+winget install --id Rustlang.Rustup
 rustup show home
 ```
 
