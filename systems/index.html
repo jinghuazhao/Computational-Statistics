@@ -428,7 +428,7 @@ dd if=/dev/zero of=zerofillfile bs=1M status=progress || true
 sync
 rm zerofillfile
 rem Windows
-path D:\Program Files\Oracle\VirtualBox
+path C:\Program Files\Oracle\VirtualBox
 VBoxManage modifymedium disk &quot;ubuntu18.04.vdi&quot; --compact
 </code></pre>
 <p>The first line ensures some space, and an earlier command was <code>VBoxManage modifyhd --compact "ubuntu18.04.vdi"</code>.</p>
