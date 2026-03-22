@@ -185,6 +185,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#rust" class="nav-link">Rust</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#texlatex" class="nav-link">TeX/LaTeX</a>
               <ul class="nav flex-column">
               </ul>
@@ -857,6 +861,19 @@ body {
 .chart-card-full {
   width: 100%;
 }
+</code></pre>
+<h2 id="rust">Rust</h2>
+<p>These steps furnish Rust installation for Windows into D:\Rust.</p>
+<pre><code class="language-bash"># Change destination other than these:
+# C:\Users\&lt;your-username&gt;\.cargo
+# C:\Users\&lt;your-username&gt;\.rustup
+[System.Environment]::SetEnvironmentVariable(&quot;CARGO_HOME&quot;, &quot;D:\Rust\.cargo&quot;, &quot;User&quot;)
+[System.Environment]::SetEnvironmentVariable(&quot;RUSTUP_HOME&quot;, &quot;D:\Rust\.rustup&quot;, &quot;User&quot;)
+# reboot here to make the environments effective.
+winget install --id Rustlang.Rustup
+echo $env:CARGO_HOME
+echo $env:RUSTUP_HOME
+rustup show home
 </code></pre>
 <h2 id="texlatex">TeX/LaTeX</h2>
 <p>It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
