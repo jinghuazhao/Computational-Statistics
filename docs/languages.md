@@ -764,6 +764,23 @@ body {
 }
 ```
 
+## Rust
+
+These steps furnish Rust installation for Windows into D:\Rust.
+
+```bash
+# Change destination other than these:
+# C:\Users\<your-username>\.cargo
+# C:\Users\<your-username>\.rustup
+[System.Environment]::SetEnvironmentVariable("CARGO_HOME", "D:\Rust\.cargo", "User")
+[System.Environment]::SetEnvironmentVariable("RUSTUP_HOME", "D:\Rust\.rustup", "User")
+# reboot here to make the environments effective.
+winget install --id Rustlang.Rustup
+echo $env:CARGO_HOME
+echo $env:RUSTUP_HOME
+rustup show home
+```
+
 ## TeX/LaTeX
 
 It is most convient to convert Tex/LaTex formulas into MicroSoft Word equtions via pandoc, i.e.,
