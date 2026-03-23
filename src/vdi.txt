@@ -170,3 +170,4 @@ $ sudo fstrim -av
 /boot: 578.6 MiB (606748672 bytes) trimmed on /dev/sda2
 
 D:\VirtualBox VMs\42> VBoxManage modifymedium disk "D:\VirtualBox VMs\42\42.vdi" --compact
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
