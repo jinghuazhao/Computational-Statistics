@@ -271,7 +271,7 @@ path C:\Program Files\Oracle\VirtualBox
 VBoxManage modifymedium disk "ubuntu18.04.vdi" --compact
 ```
 
-The first line ensures some space, and an earlier command was `VBoxManage modifyhd --compact "ubuntu18.04.vdi"`.
+The first line ensures some space, and an earlier command was `VBoxManage modifyhd --compact "ubuntu18.04.vdi"`. An experimental session is also contained in [vdi.txt](src/vdi.txt).
 
 ### OVA file
 
