@@ -65,6 +65,7 @@
 - MobaXterm, <https://mobaxterm.mobatek.net/>
 - Mu editor, <https://codewith.mu/>
 - nbviewer, <https://nbviewer.org/>
+- NitroPDF, <https://www.gonitro.com/pdf>
 - OBS Studio, <https://obsproject.com/>
 - OddPrints, <https://www.oddprints.com/>
 - Oh My Posh, <https://ohmyposh.dev/>
