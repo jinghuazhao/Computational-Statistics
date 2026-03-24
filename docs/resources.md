@@ -24,6 +24,7 @@
 - Astral, <https://docs.astral.sh/> (uv, Ruff)
 - Avalonia Visual Basic6, <https://github.com/BAndysc/AvaloniaVisualBasic6>
 - balenaEtcher, <https://etcher.balena.io/>
+- Belarc advisor, <https://www.belarc.com/products/belarc-advisor>
 - b-inary, <https://b-inary.github.io/prime/>
 - Brave, <https://brave.com/>
 - brms, <https://paul-buerkner.github.io/brms/index.html> ([CRAN](https://cran.r-project.org/web/packages/brms/index.html))
