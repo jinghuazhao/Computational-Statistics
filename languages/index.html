@@ -862,6 +862,70 @@ body {
   width: 100%;
 }
 </code></pre>
+<p>Here are sessions from san/ubsan-clang, <a href="https://rocker-project.org/images/base/r-devel.html">https://rocker-project.org/images/base/r-devel.html</a>.</p>
+<pre><code>$ apptainer pull docker://rocker/r-devel-san:latest &amp;
+[2] 2167442
+INFO:    Converting OCI blobs to SIF format
+WARNING: 'nodev' mount option set on /rds/user/jhz22, it could be a source of failure during build process
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+26.0MiB / 26.0MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+88.5MiB / 88.5MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+278.7MiB / 278.7MiB [=======================================================================================================] 100 % 0.0 b/s 0s
+848.1KiB / 848.1KiB [=======================================================================================================] 100 % 0.0 b/s 0s
+44.7MiB / 44.7MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+46.4MiB / 46.4MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+105.8MiB / 105.8MiB [=======================================================================================================] 100 % 0.0 b/s 0s
+1.6GiB / 1.6GiB [===========================================================================================================] 100 % 0.0 b/s 0s
+INFO:    Extracting OCI image...
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating SIF file...
+[===================================================================================================================================] 100 % 0s
+[2]-  Done                    apptainer pull docker://rocker/r-devel-san:latest
+
+$ apptainer pull docker://rocker/r-devel-ubsan-clang:latest &amp;
+[4] 184506
+INFO:    Converting OCI blobs to SIF format
+WARNING: 'nodev' mount option set on /rds/user/jhz22, it could be a source of failure during build process
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+26.0MiB / 26.0MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+89.0MiB / 89.0MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+278.7MiB / 278.7MiB [=======================================================================================================] 100 % 0.0 b/s 0s
+46.4MiB / 46.4MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+848.1KiB / 848.1KiB [=======================================================================================================] 100 % 0.0 b/s 0s
+728.3KiB / 728.3KiB [=======================================================================================================] 100 % 0.0 b/s 0s
+44.7MiB / 44.7MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+591.2KiB / 591.2KiB [=======================================================================================================] 100 % 0.0 b/s 0s
+88.5MiB / 88.5MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+1.8GiB / 1.8GiB [===========================================================================================================] 100 % 0.0 b/s 0s
+INFO:    Extracting OCI image...
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating SIF file...
+[===================================================================================================================================] 100 % 0s
+[4]+  Done                    apptainer pull docker://rocker/r-devel-ubsan-clang:latest
+
+$ singularity shell r-devel-san_latest.sif
+Apptainer&gt; echo $R_LIBS
+Apptainer&gt; export R_LIBS=~/rds/software/R:~/rds/software/R-gcc12
+Apptainer&gt; echo $R_LIBS
+/home/jhz22/rds/software/R:/home/jhz22/rds/software/R-gcc12
+Apptainer&gt; R CMD check --as-cran gap_1.14.tar.gz
+* using log directory ‘/home/jhz22/R/gap.Rcheck’
+* using R version 4.5.3 (2026-03-11)
+* using platform: x86_64-pc-linux-gnu
+* R was compiled by
+    gcc (Debian 15.2.0-15) 15.2.0
+    GNU Fortran (Debian 15.2.0-15) 15.2.0
+* running under: Debian GNU/Linux forky/sid
+* using session charset: UTF-8
+* using option ‘--as-cran’
+* checking for file ‘gap/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘gap’ version ‘1.14’
+* package encoding: UTF-8
+* checking CRAN incoming feasibility ...
+</code></pre>
 <h2 id="rust">Rust</h2>
 <p>These steps furnish Rust installation for Windows into D:\Rust.</p>
 <pre><code class="language-bash"># reboot here to make the environments effective.
