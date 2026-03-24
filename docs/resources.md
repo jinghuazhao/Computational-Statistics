@@ -24,13 +24,14 @@
 - Astral, <https://docs.astral.sh/> (uv, Ruff)
 - Avalonia Visual Basic6, <https://github.com/BAndysc/AvaloniaVisualBasic6>
 - balenaEtcher, <https://etcher.balena.io/>
-- Belarc advisor, <https://www.belarc.com/products/belarc-advisor>
+- Belarc advisor, <https://www.belarc.com/products/belarc-advisor> (software/hardware profiles)
 - b-inary, <https://b-inary.github.io/prime/>
 - Brave, <https://brave.com/>
 - brms, <https://paul-buerkner.github.io/brms/index.html> ([CRAN](https://cran.r-project.org/web/packages/brms/index.html))
 - bukenghezi (不坑盒子), <https://www.bukenghezi.com/>
 - Calibre, <https://calibre-ebook.com/>
 - Click, <https://click.palletsprojects.com>
+- Clonezilla, <https://clonezilla.org/> (ISO image for backup)
 - ConvertWizard, <https://convertwizard.com/>
 - dcode, <https://www.dcode.fr/primality-test>
 - Dillinger, <https://dillinger.io/>
@@ -62,6 +63,7 @@
 - Krite, <https://krita.org/en/>
 - MConverter, <https://mconverter.eu/> ([docx2html](https://mconverter.eu/convert/docx/html/))
 - md, <https://doocs.github.io/md/>
+- Macrium, <https://www.macrium.com/> (Reliable Backup and Recovery)
 - Mermaid, <https://mermaid.js.org/> (live editor, <https://mermaid.live/>)
 - MobaXterm, <https://mobaxterm.mobatek.net/>
 - Mu editor, <https://codewith.mu/>
