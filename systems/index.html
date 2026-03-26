@@ -432,12 +432,12 @@ path C:\Program Files\Oracle\VirtualBox
 VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 </code></pre>
 <p>It appears more efficient as follows,</p>
-<pre><code class="language-bash"># Windows
+<pre><code class="language-bash">rem Windows
 VBoxManage list vms
 VBoxmanage.exe startvm 28 --type gui
 # Virtual Linux machine
 sudo fstrim -av
-# Windows
+rem Windows
 VBoxManage list vms
 VBoxManage storageattach &quot;28&quot; ^
   --storagectl &quot;SATA&quot; ^
