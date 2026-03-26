@@ -275,6 +275,9 @@ VBoxManage modifyhd --compact "ubuntu18.04.vdi"
 It appears more efficient as follows,
 
 ```bash
+# Windows
+VBoxManage list vms
+VBoxmanage.exe startvm 28 --type gui
 # Virtual Linux machine
 sudo fstrim -av
 # Windows
