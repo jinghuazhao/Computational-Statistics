@@ -429,9 +429,22 @@ sync
 rm zerofillfile
 rem Windows
 path C:\Program Files\Oracle\VirtualBox
-VBoxManage modifymedium disk &quot;ubuntu18.04.vdi&quot; --compact
+VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 </code></pre>
-<p>The first line ensures some space, and an earlier command was <code>VBoxManage modifyhd --compact "ubuntu18.04.vdi"</code>. An experimental session is also contained in <a href="../src/vdi.txt">vdi.txt</a>.</p>
+<p>It appears more efficient as follows,</p>
+<pre><code class="language-bash"># Virtual Linux machine
+sudo fstrim -av
+# Windows
+VBoxManage list vms
+VBoxManage storageattach &quot;28&quot; ^
+  --storagectl &quot;SATA&quot; ^
+  --port 0 --device 0 ^
+  --type hdd ^
+  --medium &quot;D:\VirtualBox VMs\28.vdi&quot; ^
+  --discard on
+VBoxManage modifymedium disk &quot;28.vdi&quot; --compact
+</code></pre>
+<p>An experimental session is shown in <a href="../src/vdi.txt">vdi.txt</a>.</p>
 <h3 id="ova-file">OVA file</h3>
 <p>This is useful, e.g., <a href="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/">Windows 11 development environment</a>.</p>
 <p>Import the OVA file into Oracle VirtualBox:</p>
