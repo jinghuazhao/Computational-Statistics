@@ -18,6 +18,7 @@
 - Anthropic, <https://www.anthropic.com/>
     - Claude, <https://claude.ai>
         - sonnet, <https://www.anthropic.com/claude/sonnet>
+    - GitHub, <https://github.com/anthropics>
 - Aperture LLM
     - Hugging Face, <https://huggingface.co/swiss-ai>
 - BAAI, <https://www.baai.ac.cn/en/>
