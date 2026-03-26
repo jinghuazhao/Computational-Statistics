@@ -1,4 +1,4 @@
-D:\VirtualBox VMs\42> path C:\Program Files\Oracle\VirtualBox
+D:\VirtualBox VMs\42> path C:\Program Files\Oracle\VirtualBox;%PATH%
 
 D:\VirtualBox VMs\42> VBoxManage list vms
 "28" {9d0e971a-b0bb-4ceb-acb1-6b8fa737d8d5}
@@ -130,11 +130,11 @@ Recording screens:           1
 * Guest:
 Configured memory balloon:   0MB
 
-D:\VirtualBox VMs\42> VBoxManage storageattach "42" ^
+D:\VirtualBox VMs\42> VBoxManage storageattach "43" ^
   --storagectl "SATA" ^
   --port 0 --device 0 ^
   --type hdd ^
-  --medium "D:\VirtualBox VMs\42\42.vdi" ^
+  --medium "D:\VirtualBox VMs\43\43.vdi" ^
   --discard on
 
 D:\VirtualBox VMs\42>VBoxManage showhdinfo "D:\VirtualBox VMs\42\42.vdi"
