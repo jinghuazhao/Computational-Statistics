@@ -261,6 +261,7 @@ See <https://www.nakivo.com/blog/make-virtualbox-full-screen/> on full-screen si
 ### Compression
 
 Here are the steps, quoting <http://www.netreliant.com/news/8/17/Compacting-VirtualBox-Disk-Images-Linux-Guests.html>, for compressing large .vdi:
+
 ```bash
 # Linux
 dd if=/dev/zero of=zerofillfile bs=1M status=progress || true
@@ -268,10 +269,26 @@ sync
 rm zerofillfile
 rem Windows
 path C:\Program Files\Oracle\VirtualBox
-VBoxManage modifymedium disk "ubuntu18.04.vdi" --compact
+VBoxManage modifyhd --compact "ubuntu18.04.vdi"
 ```
 
-The first line ensures some space, and an earlier command was `VBoxManage modifyhd --compact "ubuntu18.04.vdi"`. An experimental session is also contained in [vdi.txt](src/vdi.txt).
+It appears more efficient as follows,
+
+```bash
+# Virtual Linux machine
+sudo fstrim -av
+# Windows
+VBoxManage list vms
+VBoxManage storageattach "28" ^
+  --storagectl "SATA" ^
+  --port 0 --device 0 ^
+  --type hdd ^
+  --medium "D:\VirtualBox VMs\28.vdi" ^
+  --discard on
+VBoxManage modifymedium disk "28.vdi" --compact
+```
+
+An experimental session is shown in [vdi.txt](src/vdi.txt).
 
 ### OVA file
 
