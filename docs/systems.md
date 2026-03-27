@@ -268,7 +268,7 @@ dd if=/dev/zero of=zerofillfile bs=1M status=progress || true
 sync
 rm zerofillfile
 rem Windows
-path C:\Program Files\Oracle\VirtualBox
+set PATH=C:\Program Files\Oracle\VirtualBox;%PATH%
 VBoxManage modifyhd --compact "ubuntu18.04.vdi"
 ```
 
@@ -276,6 +276,7 @@ It appears more efficient as follows,
 
 ```bash
 rem Windows
+set PATH=C:\Program Files\Oracle\VirtualBox;%PATH%
 VBoxManage list vms
 VBoxmanage.exe startvm 28 --type gui
 # Virtual Linux machine
