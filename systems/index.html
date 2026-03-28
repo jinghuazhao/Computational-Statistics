@@ -431,14 +431,9 @@ rem Windows
 set PATH=C:\Program Files\Oracle\VirtualBox;%PATH%
 VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 </code></pre>
-<p>It appears more efficient as follows,</p>
+<p>The following also appears viable,</p>
 <pre><code class="language-bash">rem Windows
 set PATH=C:\Program Files\Oracle\VirtualBox;%PATH%
-VBoxManage list vms
-VBoxmanage.exe startvm 28 --type gui
-# Virtual Linux machine
-sudo fstrim -av
-rem Windows
 VBoxManage list vms
 VBoxManage storageattach &quot;28&quot; ^
   --storagectl &quot;SATA&quot; ^
@@ -446,6 +441,10 @@ VBoxManage storageattach &quot;28&quot; ^
   --type hdd ^
   --medium &quot;D:\VirtualBox VMs\28.vdi&quot; ^
   --discard on
+VBoxmanage.exe startvm 28 --type gui
+# Virtual Linux machine
+sudo fstrim -av
+rem Windows
 VBoxManage modifymedium disk &quot;28.vdi&quot; --compact
 </code></pre>
 <p>An experimental session is shown in <a href="../src/vdi.txt">vdi.txt</a>.</p>
