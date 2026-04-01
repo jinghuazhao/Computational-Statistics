@@ -41,6 +41,7 @@
 - EaseUS, <https://www.ashampoo.com/en-gb/easeus-disk-copy> (disk cloning)
 - EPUB reader online, <https://epub-reader.online/>
 - Equation Editor, <https://editor.codecogs.com/>
+- Euro-Office, <https://github.com/Euro-Office/DocumentServer>
 - Flapjax, <https://www.flapjax-lang.org/>
 - Flask, <https://flask.palletsprojects.com/>
 - Foxit, <https://www.foxitsoftware.com/>, <https://www.foxit.com/pdf-to-ppt/>
