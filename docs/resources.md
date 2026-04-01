@@ -175,13 +175,17 @@
     * Visual Studio Code, <https://code.visualstudio.com/>
     * Windows 11 virtual machines, <https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/>
     * WSL, <https://github.com/microsoft/WSL>
+- Mini PCs
+    * GMKtec, <https://www.gmktec.com/>
+    * NVIDIA, <https://www.nvidia.com/en-gb/>
+    * Shuttle, <https://www.shuttle.eu/en/>
 - Mozilla, <https://www.mozilla.org/en-GB/about/>
 - MySQL, <https://dev.mysql.com/>
 - Paper with code, <https://paperswithcode.com/>
 - Proxmox, <https://www.proxmox.com/en/downloads>
 - Raspberry Pi OS, <https://www.raspberrypi.com/software/>
 - Science Media Centre, <https://www.sciencemediacentre.org/>
--* Tencent, <https://github.com/tencent>
+- Tencent, <https://github.com/tencent>
     * Tencent Meeting, <https://meeting.tencent.com/download/>
     * VooV Meeting, <https://voovmeeting.com/>
 - Twitter, <https://github.com/twitter>
