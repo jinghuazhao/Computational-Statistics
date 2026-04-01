@@ -71,6 +71,7 @@
 - Mu editor, <https://codewith.mu/>
 - nbviewer, <https://nbviewer.org/>
 - NitroPDF, <https://www.gonitro.com/pdf>
+- NotePadNext, <https://github.com/dail8859/NotepadNext>
 - OBS Studio, <https://obsproject.com/>
 - OddPrints, <https://www.oddprints.com/>
 - Oh My Posh, <https://ohmyposh.dev/>
