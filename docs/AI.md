@@ -162,6 +162,9 @@
     - Dify, <https://dify.ai/>
     - Flowwise AI, <https://flowiseai.com/>
     - LangFlow, <https://www.langflow.org/>
+- Data Intelligence Lab@HKU, <https://github.com/HKUDS>
+    - OpenHarness, <https://github.com/HKUDS/OpenHarness/>
+    - nanobot, <https://github.com/HKUDS/nanobot>
 - Open WebUI, <https://openwebui.com/>
     - GitHub, <https://github.com/open-webui/open-webui> ([blog](https://simonwillison.net/2024/Dec/27/open-webui/))
 - Windsurf, <https://windsurf.com/>
