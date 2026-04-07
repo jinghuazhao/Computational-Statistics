@@ -189,6 +189,8 @@
 - AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
 - NHSX AI report, <https://www.stevenagecatalyst.com/wp-content/uploads/2024/08/NHSX_AI_report.pdf>
 
-## Textbook examples
+## Web materials
 
-- Personal collections, <https://jinghuazhao.github.io/tests/AI/python/>
+- The Book of Statistical Proofs, <https://statproofbook.github.io/>
+- Textbook examples, <https://jinghuazhao.github.io/tests/AI/python/>
+- UFLDL Tutorial, <http://ufldl.stanford.edu/tutorial/>
