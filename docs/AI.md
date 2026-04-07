@@ -77,7 +77,6 @@
     - HuggingFace, <https://huggingface.co/facebook>
     - Llama, <https://www.llama.com/> ([terms](https://ai.meta.com/llama/license/))
         - Meta Llama, <https://huggingface.co/meta-llama>
-        - Meta Llama by unsloth AI, <https://huggingface.co/unsloth>
     - Meta AI, <https://www.meta.ai/>
     - Nougat, <https://facebookresearch.github.io/nougat/>
     - PyTorch, <https://pytorch.org/>
@@ -167,6 +166,12 @@
     - nanobot, <https://github.com/HKUDS/nanobot>
 - Open WebUI, <https://openwebui.com/>
     - GitHub, <https://github.com/open-webui/open-webui> ([blog](https://simonwillison.net/2024/Dec/27/open-webui/))
+- Unsloth AI, <https://unsloth.ai/>
+    - Discord, <https://discord.com/invite/unsloth>
+    - Gemma 4, <https://unsloth.ai/docs/models/gemma-4>
+    - Meta Llama by unsloth AI, <https://huggingface.co/unsloth>
+- vLLM, <https://github.com/vllm-project>
+    - Gemma 4 Usage Guide, <https://github.com/vllm-project/recipes/blob/main/Google/Gemma4.md>
 - Windsurf, <https://windsurf.com/>
 
 ## Regulatory Bodies
