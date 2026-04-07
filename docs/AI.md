@@ -8,7 +8,7 @@
 - Alibaba, <https://www.alibaba.com/>
     - Chat, <https://chat.qwen.ai/>
     - GitHub, <https://github.com/QwenLM> ([Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder))
-    - HuggingFace, <https://huggingface.co/Qwen>
+    - Hugging Face, <https://huggingface.co/Qwen>
     - I2VGen-XL, <https://i2vgen-xl.github.io/>
     - Qwen3, <https://qwenlm.github.io/blog/qwen3/>
     - Qwen-Image, <https://qwenlm.github.io/blog/qwen-image/>
@@ -85,7 +85,7 @@
     - BitNet, <https://github.com/microsoft/BitNet>
     - GitHub models, <https://github.com/marketplace?type=models>
     - GraphRAG, <https://microsoft.github.io/graphrag/> ([GitHub](https://github.com/microsoft/graphrag))
-    - HuggingFace, <https://huggingface.co/microsoft>
+    - Hugging Face, <https://huggingface.co/microsoft>
     - MAI-DS-R1, <https://github.com/marketplace/models/azureml/MAI-DS-R1/playground?compare_to=DeepSeek-R1>
     - MIRA, <https://github.com/microsoft/MIRA> ([arXiv](https://arxiv.org/abs/2506.07584))
     - phi-4, <https://huggingface.co/microsoft/phi-4> (<https://huggingface.co/papers/2412.08905>)
@@ -154,7 +154,7 @@
     - Kimi, <https://www.kimi.com/>
     - Kimi API, <https://kimi.moonshot.cn/> (PDF processing)
     - GitHub, <https://github.com/MoonshotAI>
-    - HuggingFace, <https://huggingface.co/moonshotai>
+    - Hugging Face, <https://huggingface.co/moonshotai>
 - nanoVLM, <https://github.com/huggingface/nanoVLM> ([blog](https://huggingface.co/blog/nanovlm))
 - No-Code LLM App Builders
     - Cursor AI, <https://www.cursor.com/>
@@ -170,7 +170,7 @@
     - Discord, <https://discord.com/invite/unsloth>
     - Gemma 4, <https://unsloth.ai/docs/models/gemma-4>
     - GitHub, <https://github.com/unslothai>
-    - Meta Llama, <https://huggingface.co/unsloth>
+    - Hugging Face, <https://huggingface.co/unsloth>
 - vLLM, <https://github.com/vllm-project>
     - Gemma 4 Usage Guide, <https://github.com/vllm-project/recipes/blob/main/Google/Gemma4.md>
 - Windsurf, <https://windsurf.com/>
@@ -184,23 +184,11 @@
 - Data Science: Building Machine Learning Models, <https://pll.harvard.edu/course/data-science-building-machine-learning-models>
 - Introduction to Data Science with Python, <https://pll.harvard.edu/course/introduction-data-science-python>
 
-## Regulatory Bodies
+## Regulatory documents
 
 - AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
 - NHSX AI report, <https://www.stevenagecatalyst.com/wp-content/uploads/2024/08/NHSX_AI_report.pdf>
 
 ## Textbook examples
 
-See <https://jinghuazhao.github.io/tests/AI/python/>
-
-## User contribution: [top-5 alternatives](https://dev.to/guybuildingai/top-5-open-source-alternatives-for-llm-development-you-must-know-about-p30)
-
-1. DeepEval (>> Humanloop), <https://github.com/confident-ai/deepeval>
-2. Llama-3.1 (>> Open AI GPT-4), <https://huggingface.co/meta-llama/Llama-3.1-8B>
-3. LangChain (>> OpenAI Assistants), <https://github.com/langchain-ai/langchain>
-4. Flowwise (>> Relevance AI), <https://github.com/FlowiseAI/Flowise>
-5. Lite LLM (>> [Martian AI](https://withmartian.com/)), <https://github.com/BerriAI/litellm>
-
-## Web articles
-
-- Towards Data Science, <https://towardsdatascience.com/>
+- Personal collections, <https://jinghuazhao.github.io/tests/AI/python/>
