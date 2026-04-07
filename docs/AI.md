@@ -175,7 +175,7 @@
     - Gemma 4 Usage Guide, <https://github.com/vllm-project/recipes/blob/main/Google/Gemma4.md>
 - Windsurf, <https://windsurf.com/>
 
-## Online courses from Harvard
+## Havard online courses
 
 - CS50's Computer Science for Business, <https://pll.harvard.edu/course/cs50s-computer-science-business>
 - CS50's Understanding Technology, <https://pll.harvard.edu/course/cs50s-understanding-technology-0>
