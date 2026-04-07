@@ -169,7 +169,8 @@
 - Unsloth AI, <https://unsloth.ai/>
     - Discord, <https://discord.com/invite/unsloth>
     - Gemma 4, <https://unsloth.ai/docs/models/gemma-4>
-    - Meta Llama by unsloth AI, <https://huggingface.co/unsloth>
+    - GitHub, <https://github.com/unslothai>
+    - Meta Llama, <https://huggingface.co/unsloth>
 - vLLM, <https://github.com/vllm-project>
     - Gemma 4 Usage Guide, <https://github.com/vllm-project/recipes/blob/main/Google/Gemma4.md>
 - Windsurf, <https://windsurf.com/>
