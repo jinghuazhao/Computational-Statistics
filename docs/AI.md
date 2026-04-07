@@ -72,6 +72,11 @@
 - kaggle, <https://www.kaggle.com/>
     - EmbeddingGemma, <https://www.kaggle.com/models/google/embeddinggemma/>
 - Keras, <https://keras.io/>
+- Moonshot AI, <https://www.moonshot.ai/>
+    - Kimi, <https://www.kimi.com/>
+    - Kimi API, <https://kimi.moonshot.cn/> (PDF processing)
+    - GitHub, <https://github.com/MoonshotAI>
+    - Hugging Face, <https://huggingface.co/moonshotai>
 - Lambda, <https://lambda.ai/>
 - Meta, <https://www.facebook.com/business>
     - HuggingFace, <https://huggingface.co/facebook>
@@ -150,11 +155,6 @@
 - Midjourney, <https://www.midjourney.com/home>
     - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
     - Background removal, <https://huggingface.co/spaces/not-lain/background-removal>
-- Moonshot AI, <https://www.moonshot.ai/>
-    - Kimi, <https://www.kimi.com/>
-    - Kimi API, <https://kimi.moonshot.cn/> (PDF processing)
-    - GitHub, <https://github.com/MoonshotAI>
-    - Hugging Face, <https://huggingface.co/moonshotai>
 - nanoVLM, <https://github.com/huggingface/nanoVLM> ([blog](https://huggingface.co/blog/nanovlm))
 - No-Code LLM App Builders
     - Cursor AI, <https://www.cursor.com/>
