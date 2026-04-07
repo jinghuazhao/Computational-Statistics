@@ -72,11 +72,6 @@
 - kaggle, <https://www.kaggle.com/>
     - EmbeddingGemma, <https://www.kaggle.com/models/google/embeddinggemma/>
 - Keras, <https://keras.io/>
-- Moonshot AI, <https://www.moonshot.ai/>
-    - Kimi, <https://www.kimi.com/>
-    - Kimi API, <https://kimi.moonshot.cn/> (PDF processing)
-    - GitHub, <https://github.com/MoonshotAI>
-    - Hugging Face, <https://huggingface.co/moonshotai>
 - Lambda, <https://lambda.ai/>
 - Meta, <https://www.facebook.com/business>
     - HuggingFace, <https://huggingface.co/facebook>
@@ -97,6 +92,11 @@
 - Mistral, <https://mistral.ai/>
     - Le Chat, <https://chat.mistral.ai/>
     - Mistral OCR, <https://console.mistral.ai/>
+- Moonshot AI, <https://www.moonshot.ai/>
+    - Kimi, <https://www.kimi.com/>
+    - Kimi API, <https://kimi.moonshot.cn/> (PDF processing)
+    - GitHub, <https://github.com/MoonshotAI>
+    - Hugging Face, <https://huggingface.co/moonshotai>
 - Ollama, <https://ollama.com/>
     - GitHub, <https://github.com/ollama/ollama>
     - library, <https://ollama.com/library>
