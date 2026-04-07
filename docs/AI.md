@@ -174,10 +174,23 @@
     - Gemma 4 Usage Guide, <https://github.com/vllm-project/recipes/blob/main/Google/Gemma4.md>
 - Windsurf, <https://windsurf.com/>
 
+## Online courses from Harvard
+
+- CS50's Computer Science for Business, <https://pll.harvard.edu/course/cs50s-computer-science-business>
+- CS50's Understanding Technology, <https://pll.harvard.edu/course/cs50s-understanding-technology-0>
+- CS50's Web Programming with Python and JavaScript, <https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript>
+- CS50's Introduction to Programming with Scratch, <https://pll.harvard.edu/course/cs50s-introduction-programming-scratch>
+- Data Science: Building Machine Learning Models, <https://pll.harvard.edu/course/data-science-building-machine-learning-models>
+- Introduction to Data Science with Python, <https://pll.harvard.edu/course/introduction-data-science-python>
+
 ## Regulatory Bodies
 
 - AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
 - NHSX AI report, <https://www.stevenagecatalyst.com/wp-content/uploads/2024/08/NHSX_AI_report.pdf>
+
+## Textbook examples
+
+See <https://jinghuazhao.github.io/tests/AI/python/>
 
 ## User contribution: [top-5 alternatives](https://dev.to/guybuildingai/top-5-open-source-alternatives-for-llm-development-you-must-know-about-p30)
 
@@ -186,10 +199,6 @@
 3. LangChain (>> OpenAI Assistants), <https://github.com/langchain-ai/langchain>
 4. Flowwise (>> Relevance AI), <https://github.com/FlowiseAI/Flowise>
 5. Lite LLM (>> [Martian AI](https://withmartian.com/)), <https://github.com/BerriAI/litellm>
-
-## Textbook examples
-
-See <https://jinghuazhao.github.io/tests/AI/python/>
 
 ## Web articles
 
