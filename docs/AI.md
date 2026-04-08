@@ -108,8 +108,6 @@
     - GitHub, <https://github.com/openai>
     - Hugging Face, <https://huggingface.co/openai>
     - sora, <https://openai.com/index/sora/>
-- OpenClaw, <https://openclaw.ai/>
-- PaddlePaddle, <https://github.com/PaddlePaddle>
 - Perplexity AI, <https://www.perplexity.ai/> (search)
 - Reka, <https://chat.reka.ai/>
 - Stable diffusion, <https://stabledifffusion.com/>
@@ -137,6 +135,9 @@
 - Cherry Studio, <https://cherry-ai.com/>
 - Crayon, <https://www.craiyon.com/>
 - Cursor, <https://cursor.com/>
+- Data Intelligence Lab@HKU, <https://github.com/HKUDS>
+    - OpenHarness, <https://github.com/HKUDS/OpenHarness/>
+    - nanobot, <https://github.com/HKUDS/nanobot>
 - LangChain AI, <https://www.langchain.com/>
     - Documentation, <https://python.langchain.com/>
     - GitHub, <https://github.com/langchain-ai>
@@ -161,11 +162,10 @@
     - Dify, <https://dify.ai/>
     - Flowwise AI, <https://flowiseai.com/>
     - LangFlow, <https://www.langflow.org/>
-- Data Intelligence Lab@HKU, <https://github.com/HKUDS>
-    - OpenHarness, <https://github.com/HKUDS/OpenHarness/>
-    - nanobot, <https://github.com/HKUDS/nanobot>
+- OpenClaw, <https://openclaw.ai/>
 - Open WebUI, <https://openwebui.com/>
     - GitHub, <https://github.com/open-webui/open-webui> ([blog](https://simonwillison.net/2024/Dec/27/open-webui/))
+- PaddlePaddle, <https://github.com/PaddlePaddle>
 - Unsloth AI, <https://unsloth.ai/>
     - Discord, <https://discord.com/invite/unsloth>
     - Gemma 4, <https://unsloth.ai/docs/models/gemma-4>
