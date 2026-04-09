@@ -71,6 +71,8 @@
     - Trackio, <https://github.com/gradio-app/trackio>
 - Keras, <https://keras.io/>
 - Lambda, <https://lambda.ai/>
+- LG AI Research, <https://www.lgresearch.ai/>
+    - Hugging Face, <https://huggingface.co/LGAI-EXAONE>
 - Meta, <https://www.facebook.com/business>
     - HuggingFace, <https://huggingface.co/facebook>
     - Llama, <https://www.llama.com/> ([terms](https://ai.meta.com/llama/license/))
@@ -125,6 +127,9 @@
         - Grok-2, <https://huggingface.co/xai-org/grok-2>
 - Xiaomi
     - MiMo, <https://mimo.xiaomi.com/>
+- Z.ai, <https://www.zhipuai.cn/en>
+    - Chat.z.ai, <https://chat.z.ai/>
+    - GLM-5.1, <https://ollama.com/library/glm-5.1:cloud>
 
 ## Applications
 
