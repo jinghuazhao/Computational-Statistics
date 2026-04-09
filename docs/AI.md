@@ -69,8 +69,6 @@
         - GGUF conversion, <https://huggingface.co/spaces/ggml-org/gguf-my-repo>
     - Tokens, <https://huggingface.co/settings/tokens>
     - Trackio, <https://github.com/gradio-app/trackio>
-- kaggle, <https://www.kaggle.com/>
-    - EmbeddingGemma, <https://www.kaggle.com/models/google/embeddinggemma/>
 - Keras, <https://keras.io/>
 - Lambda, <https://lambda.ai/>
 - Meta, <https://www.facebook.com/business>
@@ -138,6 +136,8 @@
 - Data Intelligence Lab@HKU, <https://github.com/HKUDS>
     - OpenHarness, <https://github.com/HKUDS/OpenHarness/>
     - nanobot, <https://github.com/HKUDS/nanobot>
+- kaggle, <https://www.kaggle.com/>
+    - EmbeddingGemma, <https://www.kaggle.com/models/google/embeddinggemma/>
 - LangChain AI, <https://www.langchain.com/>
     - Documentation, <https://python.langchain.com/>
     - GitHub, <https://github.com/langchain-ai>
