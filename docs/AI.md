@@ -104,6 +104,7 @@
 - OpenAI, <https://openai.com/>
     - ChatGPT, <https://chatgpt.com/>
     - CLIP, <https://openai.com/index/clip/>
+    - Codex, <https://openai.com/codex/>
     - DALL·E 3, <https://openai.com/index/dall-e-3/>
     - GitHub, <https://github.com/openai>
     - Hugging Face, <https://huggingface.co/openai>
