@@ -21,6 +21,7 @@
 - AlexNet, <https://github.com/computerhistory/AlexNet-Source-Code/>
 - apexCharts.js,  <https://apexcharts.com/>
 - app.diagrams.net, <https://app.diagrams.net/>
+- Appolo-11, <https://github.com/chrislgarry/Apollo-11>
 - Astral, <https://docs.astral.sh/> (uv, Ruff)
 - Avalonia Visual Basic6, <https://github.com/BAndysc/AvaloniaVisualBasic6>
 - balenaEtcher, <https://etcher.balena.io/>
