@@ -202,3 +202,4 @@
 - The Book of Statistical Proofs, <https://statproofbook.github.io/>
 - Textbook examples, <https://jinghuazhao.github.io/tests/AI/python/>
 - UFLDL Tutorial, <http://ufldl.stanford.edu/tutorial/>
+- llm-internals, <https://github.com/amitshekhariitbhu/llm-internals>
