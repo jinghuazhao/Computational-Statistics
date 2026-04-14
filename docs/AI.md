@@ -162,6 +162,7 @@
 - Midjourney, <https://www.midjourney.com/home>
     - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
     - Background removal, <https://huggingface.co/spaces/not-lain/background-removal>
+- n8n, <https://n8n.io/>
 - nanoVLM, <https://github.com/huggingface/nanoVLM> ([blog](https://huggingface.co/blog/nanovlm))
 - No-Code LLM App Builders
     - Cursor AI, <https://www.cursor.com/>
