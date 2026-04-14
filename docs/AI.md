@@ -164,6 +164,7 @@
     - Background removal, <https://huggingface.co/spaces/not-lain/background-removal>
 - n8n, <https://n8n.io/>
 - nanoVLM, <https://github.com/huggingface/nanoVLM> ([blog](https://huggingface.co/blog/nanovlm))
+- NetLogo, <https://www.netlogo.org/>
 - No-Code LLM App Builders
     - Cursor AI, <https://www.cursor.com/>
     - Dify, <https://dify.ai/>
