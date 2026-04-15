@@ -101,7 +101,7 @@
 - RustDesk, <https://rustdesk.com/>
 - Scribus, <https://sourceforge.net/projects/scribus/>
 - shareX, <https://getsharex.com/>
-= ShellCheck, <https://www.shellcheck.net/>
+- ShellCheck, <https://www.shellcheck.net/>
 - smallpdf, <https://smallpdf.com/>
 - Speedtest, <https://www.speedtest.net/>
 - Template-Rcpp, <https://github.com/stsds/Template-Rcpp> (LinkedIn [post](https://www.linkedin.com/feed/update/urn:li:activity:7136774813066358785/))
