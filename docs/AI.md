@@ -46,12 +46,13 @@
     - AI studio, <https://aistudio.google.com/>
     - Colab(oratory), <https://colab.research.google.com/>
     - DeepMind, <https://deepmind.google/>
+        - AlphaGenome, <https://deepmind.google.com/science/alphagenome/>
+        - MedGemma, <https://deepmind.google/models/gemma/medgemma/> ([GitHub](https://github.com/google-health/medgemma), [Hugging Face](https://huggingface.co/collections/google/medgemma-release))
     - Gemini, <https://gemini.google.com/>
     - gemini-cli, <https://geminicli.com/>
     - EmbeddingGemma, <https://ai.google.dev/gemma/docs/embeddinggemma>
     - Hugging Face, <https://huggingface.co/google> ([Stable Difficusion XL](https://huggingface.co/spaces/google/sdxl))
     - llm-gemini, <https://github.com/simonw/llm-gemini>
-    - MedGemma, <https://deepmind.google/models/gemma/medgemma/> ([GitHub](https://github.com/google-health/medgemma), [Hugging Face](https://huggingface.co/collections/google/medgemma-release))
     - Med-PaLM, <https://sites.research.google/med-palm/>
     - TensorFlow, <https://www.tensorflow.org/>
 - Gymnasium at Farama Foundation
