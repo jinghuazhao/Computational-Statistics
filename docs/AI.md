@@ -171,6 +171,8 @@
     - Dify, <https://dify.ai/>
     - Flowwise AI, <https://flowiseai.com/>
     - LangFlow, <https://www.langflow.org/>
+- Nous Research, <https://github.com/NousResearch>
+    - Hermes Agent, <https://github.com/NousResearch/hermes-agent>
 - OpenClaw, <https://openclaw.ai/>
 - Open WebUI, <https://openwebui.com/>
     - GitHub, <https://github.com/open-webui/open-webui> ([blog](https://simonwillison.net/2024/Dec/27/open-webui/))
