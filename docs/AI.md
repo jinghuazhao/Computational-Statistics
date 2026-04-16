@@ -51,7 +51,7 @@
     - Gemini, <https://gemini.google.com/>
     - gemini-cli, <https://geminicli.com/>
     - EmbeddingGemma, <https://ai.google.dev/gemma/docs/embeddinggemma>
-    - Hugging Face, <https://huggingface.co/google> ([Stable Difficusion XL](https://huggingface.co/spaces/google/sdxl))
+    - Hugging Face, <https://huggingface.co/google>
     - llm-gemini, <https://github.com/simonw/llm-gemini>
     - Med-PaLM, <https://sites.research.google/med-palm/>
     - TensorFlow, <https://www.tensorflow.org/>
@@ -114,6 +114,7 @@
 - Reka, <https://chat.reka.ai/>
 - Stable diffusion, <https://stabledifffusion.com/>
     - CompVis, <https://github.com/CompVis>
+    - Hugging Face, <https://huggingface.co/stabilityai>
     - Stability AI, <https://stability.ai/>
     - WebUI, <https://stabledifffusion.com/webui/> ([GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui))
 - Ubiquitous Knowledge Processing Lab (UKPLab), <https://github.com/UKPLab>
