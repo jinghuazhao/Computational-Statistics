@@ -46,8 +46,8 @@
     - AI studio, <https://aistudio.google.com/>
     - Colab(oratory), <https://colab.research.google.com/>
     - DeepMind, <https://deepmind.google/>
-        - AlphaGenome, <https://deepmind.google.com/science/alphagenome/>
-        - MedGemma, <https://deepmind.google/models/gemma/medgemma/> ([GitHub](https://github.com/google-health/medgemma), [Hugging Face](https://huggingface.co/collections/google/medgemma-release))
+        - AlphaGenome, <https://deepmind.google.com/science/alphagenome/> ([Hugging Face](https://huggingface.co/collections/google/alphagenome))
+        - MedGemma, <https://deepmind.google/models/gemma/medgemma/> ([GitHub](https://github.com/google-health/medgemma), Hugging Face [releases](https://huggingface.co/collections/google/medgemma-release), [Ollama](https://ollama.com/library/medgemma))
     - Gemini, <https://gemini.google.com/>
     - gemini-cli, <https://geminicli.com/>
     - EmbeddingGemma, <https://ai.google.dev/gemma/docs/embeddinggemma>
@@ -205,4 +205,5 @@
 - The Book of Statistical Proofs, <https://statproofbook.github.io/>
 - Textbook examples, <https://jinghuazhao.github.io/tests/AI/python/>
 - UFLDL Tutorial, <http://ufldl.stanford.edu/tutorial/>
+- Gemma 4 tool calling, <https://github.com/mmmayo13/gemma_4_tool_calling>
 - llm-internals, <https://github.com/amitshekhariitbhu/llm-internals>
