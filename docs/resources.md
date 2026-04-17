@@ -184,6 +184,8 @@
     * Shuttle, <https://www.shuttle.eu/en/>
 - Mozilla, <https://www.mozilla.org/en-GB/about/>
 - MySQL, <https://dev.mysql.com/>
+- National Security Agency, <https://github.com/NationalSecurityAgency>
+    * Ghidra, <https://github.com/NationalSecurityAgency/ghidra>
 - Paper with code, <https://paperswithcode.com/>
 - Proxmox, <https://www.proxmox.com/en/downloads>
 - Raspberry Pi OS, <https://www.raspberrypi.com/software/>
