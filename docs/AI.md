@@ -95,7 +95,6 @@
     - Mistral OCR, <https://console.mistral.ai/>
 - Moonshot AI, <https://www.moonshot.ai/>
     - Kimi, <https://www.kimi.com/>
-    - Kimi API, <https://kimi.moonshot.cn/> (PDF processing)
     - GitHub, <https://github.com/MoonshotAI>
     - Hugging Face, <https://huggingface.co/moonshotai>
 - Ollama, <https://ollama.com/>
