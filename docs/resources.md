@@ -109,6 +109,7 @@
 - text-utils, <https://www.text-utils.com/>
 - time.is, <https://time.is/>
 - Tabby, <https://tabby.sh>
+- TinyWow, <https://tinywow.com/>
 - Typora, <https://typora.io/>
 - uLisp, <http://www.ulisp.com/>
 - wails, <https://wails.io/>
