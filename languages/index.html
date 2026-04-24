@@ -935,6 +935,10 @@ apptainer pull rocker-r-devel-san.sif docker://rocker/r-devel-san:latest
 <pre><code class="language-bash">export R_LIBS=~/R-devel/library:R:R-gcc12
 apptainer exec r-devel-san.sif R CMD check --as-cran ../Downloads/haplo.stats_1.9.8.3.tar.gz
 apptainer exec r-devel-ubsan-clang.sif R CMD check --as-cran ../Downloads/haplo.stats_1.9.8.3.tar.gz
+apptainer shell \
+  --bind /usr/bin/cmake:/usr/local/bin/cmake \
+  --env PATH=/usr/local/bin:$PATH \
+  ../work/r-devel-ubsan-clang_latest.sif
 </code></pre>
 <h2 id="rust">Rust</h2>
 <p>These steps furnish Rust installation for Windows into D:\Rust.</p>
