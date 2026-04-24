@@ -830,6 +830,14 @@ Apptainer> R CMD check --as-cran gap_1.14.tar.gz
 * package encoding: UTF-8
 * checking CRAN incoming feasibility ...
 ```
+
+and we proceed with
+
+```bash
+export R_LIBS=~/R-devel/library:R:R-gcc12
+apptainer exec R-devel-ubsan-clang.sif R CMD check --as-cran ../Downloads/haplo.stats_1.9.8.3.tar.gz 
+```
+
 ## Rust
 
 These steps furnish Rust installation for Windows into D:\Rust.
