@@ -926,6 +926,11 @@ Apptainer&gt; R CMD check --as-cran gap_1.14.tar.gz
 * package encoding: UTF-8
 * checking CRAN incoming feasibility ...
 </code></pre>
+<p>A customised version is as follows,</p>
+<pre><code class="language-bash">mkdir -p ~/apptmp ~/appcache &amp;&amp; \
+TMPDIR=~/apptmp APPTAINER_TMPDIR=~/apptmp APPTAINER_CACHEDIR=~/appcache \
+apptainer pull rocker-r-devel-san.sif docker://rocker/r-devel-san:latest
+</code></pre>
 <p>and we proceed with</p>
 <pre><code class="language-bash">export R_LIBS=~/R-devel/library:R:R-gcc12
 apptainer exec r-devel-san.sif R CMD check --as-cran ../Downloads/haplo.stats_1.9.8.3.tar.gz
