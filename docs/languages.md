@@ -831,6 +831,14 @@ Apptainer> R CMD check --as-cran gap_1.14.tar.gz
 * checking CRAN incoming feasibility ...
 ```
 
+A customised version is as follows,
+
+```bash
+mkdir -p ~/apptmp ~/appcache && \
+TMPDIR=~/apptmp APPTAINER_TMPDIR=~/apptmp APPTAINER_CACHEDIR=~/appcache \
+apptainer pull rocker-r-devel-san.sif docker://rocker/r-devel-san:latest
+```
+
 and we proceed with
 
 ```bash
