@@ -845,6 +845,10 @@ and we proceed with
 export R_LIBS=~/R-devel/library:R:R-gcc12
 apptainer exec r-devel-san.sif R CMD check --as-cran ../Downloads/haplo.stats_1.9.8.3.tar.gz
 apptainer exec r-devel-ubsan-clang.sif R CMD check --as-cran ../Downloads/haplo.stats_1.9.8.3.tar.gz
+apptainer shell \
+  --bind /usr/bin/cmake:/usr/local/bin/cmake \
+  --env PATH=/usr/local/bin:$PATH \
+  ../work/r-devel-ubsan-clang_latest.sif
 ```
 
 ## Rust
