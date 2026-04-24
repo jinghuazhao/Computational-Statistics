@@ -940,6 +940,12 @@ apptainer shell \
   --env PATH=/usr/local/bin:$PATH \
   ../work/r-devel-ubsan-clang_latest.sif
 </code></pre>
+<p>Because of the dependencies such as cmake, libuv, if (some) packages are from R-devel it is still easier to employ</p>
+<pre><code class="language-bash">sudo dnf install R R-devel
+export R_LIBS=/usr/lib64/R/library:R
+R -q -e 'install.packages(&quot;rms&quot;,lib=&quot;R&quot;)'
+</code></pre>
+<p>to be used inside .sif, assuming its R has the same version as that in <code>dnf install R</code>.</p>
 <h2 id="rust">Rust</h2>
 <p>These steps furnish Rust installation for Windows into D:\Rust.</p>
 <pre><code class="language-bash"># reboot here to make the environments effective.
