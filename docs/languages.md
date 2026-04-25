@@ -859,7 +859,18 @@ export R_LIBS=/usr/lib64/R/library:R
 R -q -e 'install.packages("rms",lib="R")'
 ```
 
-to be used inside .sif, assuming its R has the same version as that in `dnf install R`.
+to be used inside .sif, assuming its R has the same version as that in `dnf install R`. In case of confusion,
+
+``r
+lib <- "R"
+pkgs <- rownames(installed.packages(lib.loc = lib))
+install.packages(
+  pkgs,
+  lib = lib,
+  repos = "https://cloud.r-project.org",
+  type = "source"
+)
+```
 
 ## Rust
 
