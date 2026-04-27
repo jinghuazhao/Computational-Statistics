@@ -6,7 +6,7 @@
     - [OLMoE](https://github.com/allenai/OLMoE) ([arXiv](https://arxiv.org/abs/2409.02060), [OLMo 2 32B](https://allenai.org/blog/olmo2-32B))
     - Playground, <https://playground.allenai.org/>
 - Alibaba, <https://www.alibaba.com/>
-    - Chat, <https://chat.qwen.ai/>
+    - Chat, <https://chat.qwen.ai/> (preferably in Chrome)
     - GitHub, <https://github.com/QwenLM> ([Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder))
     - Hugging Face, <https://huggingface.co/Qwen>
     - I2VGen-XL, <https://i2vgen-xl.github.io/>
