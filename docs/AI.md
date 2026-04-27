@@ -35,6 +35,8 @@
         - Hugging Face, <https://huggingface.co/deepseek-ai/DeepSeek-V3-Base>
     - DeepSeek-V3.1
         - Hugging Face, <https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Base>
+    - DeepSeek-V4
+        - Hugging Face, <https://huggingface.co/collections/deepseek-ai/deepseek-v4>
     - HAI-LLM, <https://www.high-flyer.cn/en/blog/hai-llm/>
 - diffbot, <https://www.diffbot.com/>
     - Diffy Chat, <https://diffy.chat/>
