@@ -115,7 +115,7 @@
     - CompVis, <https://github.com/CompVis>
     - Hugging Face, <https://huggingface.co/stabilityai>
     - Stability AI, <https://stability.ai/>
-    - WebUI, <https://stabledifffusion.com/webui/> ([GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui))
+    - WebUI, [GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - Ubiquitous Knowledge Processing Lab (UKPLab), <https://github.com/UKPLab>
     - sentence-transformers, <https://www.sbert.net/>
     - Hugging Face, <https://huggingface.co/models?library=sentence-transformers>
