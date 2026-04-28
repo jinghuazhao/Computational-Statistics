@@ -904,6 +904,16 @@ matlab $@
 ```
 Usually the `eval` line is sufficient.
 
+To remap /usr/local/Cluster-Apps and /usr/local/Cluster-Config/modulefiles/ceuadmin to /home/jhz22/ceuadmin and /home/jhz22/CEU/modules/ceuadmin, without changing individual module defitions,
+
+```bash
+sudo mkdir -p /usr/local/Cluster-Apps
+sudo ln -s /home/jhz22/CEU/ceuadmin /usr/local/Cluster-Apps/ceuadmin
+module use /home/jhz22/CEU/modules
+echo $MODULEPATH
+module avail
+```
+
 ## docker
 
 See <https://www.docker.com/> and <https://docs.docker.com/>
