@@ -1003,6 +1003,13 @@ module load matlab/r2014a
 matlab $@
 </code></pre>
 <p>Usually the <code>eval</code> line is sufficient.</p>
+<p>To remap /usr/local/Cluster-Apps and /usr/local/Cluster-Config/modulefiles/ceuadmin to /home/jhz22/ceuadmin and /home/jhz22/CEU/modules/ceuadmin, without changing individual module defitions,</p>
+<pre><code class="language-bash">sudo mkdir -p /usr/local/Cluster-Apps
+sudo ln -s /home/jhz22/CEU/ceuadmin /usr/local/Cluster-Apps/ceuadmin
+module use /home/jhz22/CEU/modules
+echo $MODULEPATH
+module avail
+</code></pre>
 <h2 id="docker">docker</h2>
 <p>See <a href="https://www.docker.com/">https://www.docker.com/</a> and <a href="https://docs.docker.com/">https://docs.docker.com/</a></p>
 <pre><code class="language-bash"># https://docs.docker.com/engine/install/ubuntu/
