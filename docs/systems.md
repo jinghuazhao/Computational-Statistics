@@ -914,6 +914,24 @@ echo $MODULEPATH
 module avail
 ```
 
+Adding to .bashrc,
+
+```bash
+# ensure CEU modules always available even in non-login shells
+if [ -f /etc/profile.d/ceu-modules.sh ]; then
+    source /etc/profile.d/ceu-modules.sh
+fi
+```
+
+with ceu-modules.sh
+
+```bash
+# CEU module extension (DO NOT override system MODULEPATH)
+if command -v module >/dev/null 2>&1; then
+    module use /home/jhz22/CEU/modules
+fi
+```
+
 ## docker
 
 See <https://www.docker.com/> and <https://docs.docker.com/>
