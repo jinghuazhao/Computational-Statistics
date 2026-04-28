@@ -131,6 +131,7 @@
         - Grok-2, <https://huggingface.co/xai-org/grok-2>
 - Xiaomi
     - MiMo, <https://mimo.xiaomi.com/>
+    - Hugging Face XiaomiMiMo, <https://huggingface.co/XiaomiMiMo>
 - Z.ai, <https://www.zhipuai.cn/en>
     - Chat.z.ai, <https://chat.z.ai/>
     - GLM-5.1, <https://ollama.com/library/glm-5.1:cloud>
@@ -180,8 +181,8 @@
     - GitHub, <https://github.com/open-webui/open-webui> ([blog](https://simonwillison.net/2024/Dec/27/open-webui/))
 - PaddlePaddle, <https://github.com/PaddlePaddle>
 - Unsloth AI, <https://unsloth.ai/>
+    - docs, <https://unsloth.ai/docs/>
     - Discord, <https://discord.com/invite/unsloth>
-    - Gemma 4, <https://unsloth.ai/docs/models/gemma-4>
     - GitHub, <https://github.com/unslothai>
     - Hugging Face, <https://huggingface.co/unsloth>
 - vLLM, <https://github.com/vllm-project>
