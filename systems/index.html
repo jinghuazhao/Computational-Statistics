@@ -1010,7 +1010,7 @@ module use /home/jhz22/CEU/modules
 echo $MODULEPATH
 module avail
 </code></pre>
-<p>Adding to .bashrc,</p>
+<p>As a NO-LOGIN shell (<code>shopt -q login_shell &amp;&amp; echo LOGIN || echo NO-LOGIN</code>), add to .bashrc,</p>
 <pre><code class="language-bash"># ensure CEU modules always available even in non-login shells
 if [ -f /etc/profile.d/ceu-modules.sh ]; then
     source /etc/profile.d/ceu-modules.sh
