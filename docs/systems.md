@@ -914,7 +914,7 @@ echo $MODULEPATH
 module avail
 ```
 
-Adding to .bashrc,
+As a NO-LOGIN shell (`shopt -q login_shell && echo LOGIN || echo NO-LOGIN`), add to .bashrc,
 
 ```bash
 # ensure CEU modules always available even in non-login shells
