@@ -1010,6 +1010,18 @@ module use /home/jhz22/CEU/modules
 echo $MODULEPATH
 module avail
 </code></pre>
+<p>Adding to .bashrc,</p>
+<pre><code class="language-bash"># ensure CEU modules always available even in non-login shells
+if [ -f /etc/profile.d/ceu-modules.sh ]; then
+    source /etc/profile.d/ceu-modules.sh
+fi
+</code></pre>
+<p>with ceu-modules.sh</p>
+<pre><code class="language-bash"># CEU module extension (DO NOT override system MODULEPATH)
+if command -v module &gt;/dev/null 2&gt;&amp;1; then
+    module use /home/jhz22/CEU/modules
+fi
+</code></pre>
 <h2 id="docker">docker</h2>
 <p>See <a href="https://www.docker.com/">https://www.docker.com/</a> and <a href="https://docs.docker.com/">https://docs.docker.com/</a></p>
 <pre><code class="language-bash"># https://docs.docker.com/engine/install/ubuntu/
