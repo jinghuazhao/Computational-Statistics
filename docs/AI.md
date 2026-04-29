@@ -166,6 +166,8 @@
 - Midjourney, <https://www.midjourney.com/home>
     - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
     - Background removal, <https://huggingface.co/spaces/not-lain/background-removal>
+- Mozzila
+    - Solo, <https://soloist.ai/>
 - n8n, <https://n8n.io/>
 - nanoVLM, <https://github.com/huggingface/nanoVLM> ([blog](https://huggingface.co/blog/nanovlm))
 - NetLogo, <https://www.netlogo.org/>
