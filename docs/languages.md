@@ -866,7 +866,7 @@ R -q -e 'install.packages("rms",lib="R")'
 
 to be used inside .sif, assuming its R has the same version as that in `dnf install R`. In case of confusion,
 
-``r
+```r
 lib <- "R"
 pkgs <- rownames(installed.packages(lib.loc = lib))
 install.packages(
