@@ -18,3 +18,5 @@ The repository intends to make it easier to keep pace with releases of Linux sys
         * [mythic-beasts](mythic-beasts.md).
         * [plumber](plumber.md).
     - Download: [Utitlities for downloads](download.md).
+
+Extensive documentation on HPC environment is showcased here, <https://cambridge-ceu.github.io/csd3/>.
