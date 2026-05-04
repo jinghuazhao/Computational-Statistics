@@ -13,6 +13,7 @@
     - Qwen3, <https://qwenlm.github.io/blog/qwen3/>
     - Qwen-Image, <https://qwenlm.github.io/blog/qwen-image/>
 - Andrej Karpathy, <https://github.com/karpathy>
+    - microgpt, <https://karpathy.github.io/2026/02/12/microgpt/>
     - nanochat, <https://github.com/karpathy/nanochat> (<https://nanochat.karpathy.ai/>)
     - nanoGPT, <https://github.com/karpathy/nanoGPT>
 - Anthropic, <https://www.anthropic.com/>
