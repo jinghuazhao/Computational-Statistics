@@ -73,6 +73,8 @@
         - GGUF conversion, <https://huggingface.co/spaces/ggml-org/gguf-my-repo>
     - Tokens, <https://huggingface.co/settings/tokens>
     - Trackio, <https://github.com/gradio-app/trackio>
+- IBM Research
+    - Hugging Face, <https://huggingface.co/ibm-research>
 - Keras, <https://keras.io/>
 - Lambda, <https://lambda.ai/>
 - LG AI Research, <https://www.lgresearch.ai/>
