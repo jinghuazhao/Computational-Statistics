@@ -206,6 +206,7 @@
 ## Regulatory documents
 
 - AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
+- [Independent International Scientific Panel on AI](https://www.un.org/independent-international-scientific-panel-ai/en)
 - NHSX AI report, <https://www.stevenagecatalyst.com/wp-content/uploads/2024/08/NHSX_AI_report.pdf>
 
 ## Web materials
