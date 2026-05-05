@@ -39,6 +39,7 @@
 - Django 5.0 documentation, <https://docs.djangoproject.com/en/5.0/>
 - DjVuLibre, <http://djvu.sourceforge.net/>
 - djvu.org, <http://djvu.org>
+- DOS History, <https://github.com/DOS-History>
 - EaseUS, <https://www.ashampoo.com/en-gb/easeus-disk-copy> (disk cloning)
 - EPUB reader online, <https://epub-reader.online/>
 - Equation Editor, <https://editor.codecogs.com/>
