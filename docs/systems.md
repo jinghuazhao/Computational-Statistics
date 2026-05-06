@@ -269,6 +269,7 @@ sync
 rm zerofillfile
 rem Windows
 set PATH=C:\Program Files\Oracle\VirtualBox;%PATH%
+cd "\VirtualBox VMs"\28
 VBoxManage modifyhd --compact "ubuntu18.04.vdi"
 ```
 
