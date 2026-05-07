@@ -273,6 +273,17 @@ cd "\VirtualBox VMs"\28
 VBoxManage modifyhd --compact "ubuntu18.04.vdi"
 ```
 
+In the case of huge disk, no room could become available so setting a limit is sensible and avoid dd.
+
+```bash
+df -BG /
+# Filesystem     1G-blocks  Used Available Use% Mounted on
+# /dev/sda3          1704G   98G     1607G   6% /
+sudo fallocate -l 1600G /zero.fill
+sudo rm /zero.fill
+sudo fstrim -av
+```
+
 The following also appears viable,
 
 ```bash
