@@ -432,6 +432,14 @@ set PATH=C:\Program Files\Oracle\VirtualBox;%PATH%
 cd &quot;\VirtualBox VMs&quot;\28
 VBoxManage modifyhd --compact &quot;ubuntu18.04.vdi&quot;
 </code></pre>
+<p>In the case of huge disk, no room could become available so setting a limit is sensible and avoid dd.</p>
+<pre><code class="language-bash">df -BG /
+# Filesystem     1G-blocks  Used Available Use% Mounted on
+# /dev/sda3          1704G   98G     1607G   6% /
+sudo fallocate -l 1600G /zero.fill
+sudo rm /zero.fill
+sudo fstrim -av
+</code></pre>
 <p>The following also appears viable,</p>
 <pre><code class="language-bash">rem Windows
 set PATH=C:\Program Files\Oracle\VirtualBox;%PATH%
