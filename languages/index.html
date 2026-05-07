@@ -960,6 +960,17 @@ install.packages(
   type = &quot;source&quot;
 )
 </code></pre>
+<h3 id="upgrade-under-windows">Upgrade under Windows</h3>
+<p>Package installr is designed for this but could fail. Here is a manual approach to reinstall packages under 4.5.3 to 4.6.0</p>
+<pre><code class="language-r">old_lib &lt;- &quot;D:/Program Files/R/R-4.5.3/library&quot;
+new_lib &lt;- &quot;D:/Program Files/R/R-4.6.0/library&quot;
+old_pkgs &lt;- installed.packages(lib.loc = old_lib)[, &quot;Package&quot;]
+new_pkgs &lt;- installed.packages(lib.loc = new_lib)[, &quot;Package&quot;]
+pkgs_to_install &lt;- setdiff(old_pkgs, new_pkgs)
+length(pkgs_to_install)
+install.packages(pkgs_to_install, dependencies = TRUE, Ncpus = parallel::detectCores())
+</code></pre>
+<p>which avoids preinstalled packages under 4.6.0.</p>
 <h2 id="rust">Rust</h2>
 <p>These steps furnish Rust installation for Windows into D:\Rust.</p>
 <pre><code class="language-bash"># reboot here to make the environments effective.
