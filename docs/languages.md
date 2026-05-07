@@ -877,6 +877,22 @@ install.packages(
 )
 ```
 
+### Upgrade under Windows
+
+Package installr is designed for this but could fail. Here is a manual approach to reinstall packages under 4.5.3 to 4.6.0
+
+```r
+old_lib <- "D:/Program Files/R/R-4.5.3/library"
+new_lib <- "D:/Program Files/R/R-4.6.0/library"
+old_pkgs <- installed.packages(lib.loc = old_lib)[, "Package"]
+new_pkgs <- installed.packages(lib.loc = new_lib)[, "Package"]
+pkgs_to_install <- setdiff(old_pkgs, new_pkgs)
+length(pkgs_to_install)
+install.packages(pkgs_to_install, dependencies = TRUE, Ncpus = parallel::detectCores())
+```
+
+which avoids preinstalled packages under 4.6.0.
+
 ## Rust
 
 These steps furnish Rust installation for Windows into D:\Rust.
