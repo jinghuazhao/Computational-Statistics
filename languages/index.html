@@ -970,7 +970,7 @@ pkgs_to_install &lt;- setdiff(old_pkgs, new_pkgs)
 length(pkgs_to_install)
 install.packages(pkgs_to_install, dependencies = TRUE, Ncpus = parallel::detectCores())
 </code></pre>
-<p>which avoids preinstalled packages under 4.6.0.</p>
+<p>which avoids preinstalled packages under 4.6.0. It also appears to work by uninstalling 4.5.3 first, leaving only the installed packages which can be copied to the new folder and updated.</p>
 <h2 id="rust">Rust</h2>
 <p>These steps furnish Rust installation for Windows into D:\Rust.</p>
 <pre><code class="language-bash"># reboot here to make the environments effective.
