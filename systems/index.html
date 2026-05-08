@@ -457,6 +457,7 @@ rem Windows
 VBoxManage modifymedium disk &quot;28.vdi&quot; --compact
 </code></pre>
 <p>An experimental session is shown in <a href="../src/vdi.txt">vdi.txt</a>.</p>
+<p>All fail, one resorts to <code>xManage clonemedium disk "28.vdi" "28-shrunk.vdi" --variant Standard</code> for a new one.</p>
 <h3 id="ova-file">OVA file</h3>
 <p>This is useful, e.g., <a href="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/">Windows 11 development environment</a>.</p>
 <p>Import the OVA file into Oracle VirtualBox:</p>
