@@ -891,7 +891,7 @@ length(pkgs_to_install)
 install.packages(pkgs_to_install, dependencies = TRUE, Ncpus = parallel::detectCores())
 ```
 
-which avoids preinstalled packages under 4.6.0.
+which avoids preinstalled packages under 4.6.0. It also appears to work by uninstalling 4.5.3 first, leaving only the installed packages which can be copied to the new folder and updated.
 
 ## Rust
 
