@@ -305,6 +305,8 @@ VBoxManage modifymedium disk "28.vdi" --compact
 
 An experimental session is shown in [vdi.txt](src/vdi.txt).
 
+All fail, one resorts to `xManage clonemedium disk "28.vdi" "28-shrunk.vdi" --variant Standard` for a new one.
+
 ### OVA file
 
 This is useful, e.g., [Windows 11 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/).
