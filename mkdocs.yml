@@ -8,7 +8,7 @@ nav:
     - AI: AI.md
     - Resources: resources.md
     - Selected topcs:
-      - "Installation notes": INSTALL.md
+      - "Installation notes": install.md
       - "Language notes": languages.md
       - "Parallel computing": parallel.md
       - "Reproducible research": reproduce.md

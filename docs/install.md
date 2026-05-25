@@ -74,6 +74,30 @@ int main(){
 }
 ```
 
+## Codex
+
+This steps furnish installation of OpenAI Codex.
+
+Install node first from <https://nodejs.org/>.
+
+```ps
+# 1. Set npm global folders to D:
+npm config set prefix "D:\npm"
+npm config set cache "D:\npm-cache"
+
+# 2. Add D:\npm to PATH (user-level)
+[Environment]::SetEnvironmentVariable(
+  "Path",
+  $env:Path + ";D:\npm",
+  "User"
+)
+
+# 3. Allow local scripts (fixes codex.ps1 block)
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+
+then issue `codex` from DOS prompt.
+
 ## eigen
 
 It is installed with
