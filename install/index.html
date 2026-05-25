@@ -153,6 +153,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#codex" class="nav-link">Codex</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#eigen" class="nav-link">eigen</a>
               <ul class="nav flex-column">
               </ul>
@@ -277,6 +281,24 @@ int main(){
   return 0;
 }
 </code></pre>
+<h2 id="codex">Codex</h2>
+<p>This steps furnish installation of OpenAI Codex.</p>
+<p>Install node first from <a href="https://nodejs.org/">https://nodejs.org/</a>.</p>
+<pre><code class="language-ps"># 1. Set npm global folders to D:
+npm config set prefix &quot;D:\npm&quot;
+npm config set cache &quot;D:\npm-cache&quot;
+
+# 2. Add D:\npm to PATH (user-level)
+[Environment]::SetEnvironmentVariable(
+  &quot;Path&quot;,
+  $env:Path + &quot;;D:\npm&quot;,
+  &quot;User&quot;
+)
+
+# 3. Allow local scripts (fixes codex.ps1 block)
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+</code></pre>
+<p>then issue <code>codex</code> from DOS prompt.</p>
 <h2 id="eigen">eigen</h2>
 <p>It is installed with</p>
 <pre><code class="language-bash">sudo apt install libeigen3-dev
