@@ -141,6 +141,8 @@
 
 ## Applications
 
+- AGENTS.md, <https://agents.md/>
+    - OpenAI, <https://developers.openai.com/codex/guides/agents-md>
 - AnythingLLM, <https://anythingllm.com/>
 - ChatPDF, <https://www.chatpdf.com/>
 - Cherry Studio, <https://cherry-ai.com/>
