@@ -80,6 +80,9 @@
 - Online2PDF, <https://online2pdf.com/>
 - online-convert, <https://document.online-convert.com/>
 - outline, <https://www.outline.app/>
+- Outlook OST/PST reader
+    - GoldFynch PST viewer, <https://goldfynch.com/goldfynch-pst-viewer.html>
+    - Kernel Outlook PST Viewer, <https://www.nucleustechnologies.com/pst-viewer.html>
 - PaddleOCR, <https://github.com/PaddlePaddle/PaddleOCR>
 - PDF24, <https://en.pdf24.org/>
 - PDF2DJVU, <https://pdf2djvu.com/>
