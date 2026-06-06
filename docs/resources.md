@@ -168,6 +168,7 @@
     * BASIC-M6502, <https://github.com/microsoft/BASIC-M6502>
     * Bing webmaster tool, <https://www.bing.com/webmasters/about>
     * Bing image creator, <https://www.bing.com/images/create/>
+    * CoreUtils, <https://github.com/microsoft/coreutils>
     * dotnet, <https://dotnet.microsoft.com/en-us/>
     * Edit, <https://github.com/microsoft/edit>
     * [Forms](https://www.microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes)
