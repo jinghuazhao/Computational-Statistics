@@ -158,6 +158,9 @@
     * My groups, <https://groups.google.com/my-groups>
     * Search console, <https://search.google.com/search-console/about>
     * Translate, <https://translate.google.co.uk/>
+- Intel, <https://www.intel.com/>
+    * Fortran Compiler, <https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler-download.html>
+    * oneAPI DPC++/C++ Compiler, <https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler-download.html>
 - JetBrains, <https://www.jetbrains.com/>
 - Meta, <https://github.com/facebook>
     * folly, <https://github.com/facebook/folly>
