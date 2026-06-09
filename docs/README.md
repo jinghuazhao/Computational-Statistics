@@ -7,7 +7,7 @@ The repository intends to make it easier to keep pace with releases of Linux sys
 - AI: [AI-related sites](AI.md).
 - Resources: [Resources](resources.md).
 - Selected topics:
-    - [Installation notes](INSTALL.md).
+    - [Installation notes](install.md).
     - [Language notes](languages.md).
     - [Parallel computing](parallel.md).
     - [Reproducible research](reproduce.md).
