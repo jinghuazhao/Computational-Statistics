@@ -468,6 +468,137 @@ Documentation
 
 See [https://r-pkgs.org/index.html](https://r-pkgs.org/index.html).
 
+### SAN/UBSAN
+
+Here are sessions from san/ubsan-clang, <https://rocker-project.org/images/base/r-devel.html>.
+
+```
+$ apptainer pull docker://rocker/r-devel-san:latest &
+[2] 2167442
+INFO:    Converting OCI blobs to SIF format
+WARNING: 'nodev' mount option set on /rds/user/jhz22, it could be a source of failure during build process
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+26.0MiB / 26.0MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+88.5MiB / 88.5MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+278.7MiB / 278.7MiB [=======================================================================================================] 100 % 0.0 b/s 0s
+848.1KiB / 848.1KiB [=======================================================================================================] 100 % 0.0 b/s 0s
+44.7MiB / 44.7MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+46.4MiB / 46.4MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+105.8MiB / 105.8MiB [=======================================================================================================] 100 % 0.0 b/s 0s
+1.6GiB / 1.6GiB [===========================================================================================================] 100 % 0.0 b/s 0s
+INFO:    Extracting OCI image...
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating SIF file...
+[===================================================================================================================================] 100 % 0s
+[2]-  Done                    apptainer pull docker://rocker/r-devel-san:latest
+
+$ apptainer pull docker://rocker/r-devel-ubsan-clang:latest &
+[4] 184506
+INFO:    Converting OCI blobs to SIF format
+WARNING: 'nodev' mount option set on /rds/user/jhz22, it could be a source of failure during build process
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+26.0MiB / 26.0MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+89.0MiB / 89.0MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+278.7MiB / 278.7MiB [=======================================================================================================] 100 % 0.0 b/s 0s
+46.4MiB / 46.4MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+848.1KiB / 848.1KiB [=======================================================================================================] 100 % 0.0 b/s 0s
+728.3KiB / 728.3KiB [=======================================================================================================] 100 % 0.0 b/s 0s
+44.7MiB / 44.7MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+591.2KiB / 591.2KiB [=======================================================================================================] 100 % 0.0 b/s 0s
+88.5MiB / 88.5MiB [=========================================================================================================] 100 % 0.0 b/s 0s
+1.8GiB / 1.8GiB [===========================================================================================================] 100 % 0.0 b/s 0s
+INFO:    Extracting OCI image...
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating SIF file...
+[===================================================================================================================================] 100 % 0s
+[4]+  Done                    apptainer pull docker://rocker/r-devel-ubsan-clang:latest
+
+$ singularity shell r-devel-san_latest.sif
+Apptainer> echo $R_LIBS
+Apptainer> export R_LIBS=~/rds/software/R:~/rds/software/R-gcc12
+Apptainer> echo $R_LIBS
+/home/jhz22/rds/software/R:/home/jhz22/rds/software/R-gcc12
+Apptainer> R CMD check --as-cran gap_1.14.tar.gz
+* using log directory ‘/home/jhz22/R/gap.Rcheck’
+* using R version 4.5.3 (2026-03-11)
+* using platform: x86_64-pc-linux-gnu
+* R was compiled by
+    gcc (Debian 15.2.0-15) 15.2.0
+    GNU Fortran (Debian 15.2.0-15) 15.2.0
+* running under: Debian GNU/Linux forky/sid
+* using session charset: UTF-8
+* using option ‘--as-cran’
+* checking for file ‘gap/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘gap’ version ‘1.14’
+* package encoding: UTF-8
+* checking CRAN incoming feasibility ...
+```
+
+A customised version is as follows,
+
+```bash
+mkdir -p ~/apptmp ~/appcache && \
+TMPDIR=~/apptmp APPTAINER_TMPDIR=~/apptmp APPTAINER_CACHEDIR=~/appcache \
+apptainer pull rocker-r-devel-san.sif docker://rocker/r-devel-san:latest
+```
+
+and we proceed with
+
+```bash
+export R_LIBS=~/R-devel/library:R:R-gcc12
+apptainer exec r-devel-san.sif R CMD check --as-cran ../Downloads/haplo.stats_1.9.8.3.tar.gz
+apptainer exec r-devel-ubsan-clang.sif R CMD check --as-cran ../Downloads/haplo.stats_1.9.8.3.tar.gz
+apptainer shell \
+  --bind /usr/bin/qpdf:/usr/bin/qpdf \
+  --bind /usr/bin/tidy:/usr/bin/tidy \
+  --bind /usr/bin/pandoc:/usr/bin/pandoc \
+  ../work/r-devel-ubsan-clang_latest.sif
+apptainer shell \
+  --bind /usr/bin/cmake:/usr/local/bin/cmake \
+  --env PATH=/usr/local/bin:$PATH \
+  ../work/r-devel-ubsan-clang_latest.sif
+```
+
+Because of the dependencies such as cmake, libuv, if (some) packages are from R-devel it is still easier to employ
+
+```bash
+sudo dnf install R R-devel
+export R_LIBS=/usr/lib64/R/library:R
+R -q -e 'install.packages("rms",lib="R")'
+```
+
+to be used inside .sif, assuming its R has the same version as that in `dnf install R`. In case of confusion,
+
+```r
+lib <- "R"
+pkgs <- rownames(installed.packages(lib.loc = lib))
+install.packages(
+  pkgs,
+  lib = lib,
+  repos = "https://cloud.r-project.org",
+  type = "source"
+)
+```
+
+### Upgrade under Windows
+
+Package installr is designed for this but could fail. Here is a manual approach to reinstall packages under 4.5.3 to 4.6.0
+
+```r
+old_lib <- "D:/Program Files/R/R-4.5.3/library"
+new_lib <- "D:/Program Files/R/R-4.6.0/library"
+old_pkgs <- installed.packages(lib.loc = old_lib)[, "Package"]
+new_pkgs <- installed.packages(lib.loc = new_lib)[, "Package"]
+pkgs_to_install <- setdiff(old_pkgs, new_pkgs)
+length(pkgs_to_install)
+install.packages(pkgs_to_install, dependencies = TRUE, Ncpus = parallel::detectCores())
+```
+
+which avoids preinstalled packages under 4.6.0. It also appears to work by uninstalling 4.5.3 first, leaving only the installed packages which can be copied to the new folder and updated.
+
 ## shinyapps
 
 Web: [https://www.shinyapps.io/](https://www.shinyapps.io/), [Shiny examples](https://github.com/rstudio/shiny-examples)
@@ -516,6 +647,38 @@ rsconnect::deployApp('path/to/your/app')
 ```
 
 The shiny page is then up as `https://your-account.shinyapps.io/shinyapps/`.
+
+A session for shinygap is as follows,
+
+```
+> system.file("shinygap", package = "gap")
+[1] "/rds/project/rds-4o5vpvAowP0/software/R/gap/shinygap"
+> rsconnect::deployApp(system.file("shinygap", package = "gap"))
+── Preparing for deployment ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+✔ Re-deploying "shinygap" using "server: shinyapps.io / username: jinghuazhao"
+ℹ Looking up content with id "4204174"...
+✔ Found content <https://jinghuazhao.shinyapps.io/shinygap/>
+ℹ Bundling 5 files: DESCRIPTION, R/global.R, README.md, server.R, and ui.R
+ℹ Capturing R dependencies
+✔ Found 78 dependencies
+✔ Created bundle of size: 55,337b
+ℹ Uploading bundle...
+✔ Uploaded bundle with id 12103968
+── Deploying to server ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Waiting for task: 1703922444
+  building: Processing bundle: 12103968
+  building: Building image: 15057138
+  building: Installing system dependencies
+  building: Fetching packages
+  building: Installing packages
+  building: Installing files
+  building: Pushing image: 15057138
+  deploying: Starting instances
+  rollforward: Activating new instances
+  terminating: Stopping old instances
+── Deployment complete ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+✔ Successfully deployed to <https://jinghuazhao.shinyapps.io/shinygap/>
+```
 
 A more sophisticated Dashboard using the `Gapminer` dataset is copied here from R-bloggers.
 
@@ -763,135 +926,6 @@ body {
   width: 100%;
 }
 ```
-
-Here are sessions from san/ubsan-clang, <https://rocker-project.org/images/base/r-devel.html>.
-
-```
-$ apptainer pull docker://rocker/r-devel-san:latest &
-[2] 2167442
-INFO:    Converting OCI blobs to SIF format
-WARNING: 'nodev' mount option set on /rds/user/jhz22, it could be a source of failure during build process
-INFO:    Starting build...
-INFO:    Fetching OCI image...
-26.0MiB / 26.0MiB [=========================================================================================================] 100 % 0.0 b/s 0s
-88.5MiB / 88.5MiB [=========================================================================================================] 100 % 0.0 b/s 0s
-278.7MiB / 278.7MiB [=======================================================================================================] 100 % 0.0 b/s 0s
-848.1KiB / 848.1KiB [=======================================================================================================] 100 % 0.0 b/s 0s
-44.7MiB / 44.7MiB [=========================================================================================================] 100 % 0.0 b/s 0s
-46.4MiB / 46.4MiB [=========================================================================================================] 100 % 0.0 b/s 0s
-105.8MiB / 105.8MiB [=======================================================================================================] 100 % 0.0 b/s 0s
-1.6GiB / 1.6GiB [===========================================================================================================] 100 % 0.0 b/s 0s
-INFO:    Extracting OCI image...
-INFO:    Inserting Apptainer configuration...
-INFO:    Creating SIF file...
-[===================================================================================================================================] 100 % 0s
-[2]-  Done                    apptainer pull docker://rocker/r-devel-san:latest
-
-$ apptainer pull docker://rocker/r-devel-ubsan-clang:latest &
-[4] 184506
-INFO:    Converting OCI blobs to SIF format
-WARNING: 'nodev' mount option set on /rds/user/jhz22, it could be a source of failure during build process
-INFO:    Starting build...
-INFO:    Fetching OCI image...
-26.0MiB / 26.0MiB [=========================================================================================================] 100 % 0.0 b/s 0s
-89.0MiB / 89.0MiB [=========================================================================================================] 100 % 0.0 b/s 0s
-278.7MiB / 278.7MiB [=======================================================================================================] 100 % 0.0 b/s 0s
-46.4MiB / 46.4MiB [=========================================================================================================] 100 % 0.0 b/s 0s
-848.1KiB / 848.1KiB [=======================================================================================================] 100 % 0.0 b/s 0s
-728.3KiB / 728.3KiB [=======================================================================================================] 100 % 0.0 b/s 0s
-44.7MiB / 44.7MiB [=========================================================================================================] 100 % 0.0 b/s 0s
-591.2KiB / 591.2KiB [=======================================================================================================] 100 % 0.0 b/s 0s
-88.5MiB / 88.5MiB [=========================================================================================================] 100 % 0.0 b/s 0s
-1.8GiB / 1.8GiB [===========================================================================================================] 100 % 0.0 b/s 0s
-INFO:    Extracting OCI image...
-INFO:    Inserting Apptainer configuration...
-INFO:    Creating SIF file...
-[===================================================================================================================================] 100 % 0s
-[4]+  Done                    apptainer pull docker://rocker/r-devel-ubsan-clang:latest
-
-$ singularity shell r-devel-san_latest.sif
-Apptainer> echo $R_LIBS
-Apptainer> export R_LIBS=~/rds/software/R:~/rds/software/R-gcc12
-Apptainer> echo $R_LIBS
-/home/jhz22/rds/software/R:/home/jhz22/rds/software/R-gcc12
-Apptainer> R CMD check --as-cran gap_1.14.tar.gz
-* using log directory ‘/home/jhz22/R/gap.Rcheck’
-* using R version 4.5.3 (2026-03-11)
-* using platform: x86_64-pc-linux-gnu
-* R was compiled by
-    gcc (Debian 15.2.0-15) 15.2.0
-    GNU Fortran (Debian 15.2.0-15) 15.2.0
-* running under: Debian GNU/Linux forky/sid
-* using session charset: UTF-8
-* using option ‘--as-cran’
-* checking for file ‘gap/DESCRIPTION’ ... OK
-* checking extension type ... Package
-* this is package ‘gap’ version ‘1.14’
-* package encoding: UTF-8
-* checking CRAN incoming feasibility ...
-```
-
-A customised version is as follows,
-
-```bash
-mkdir -p ~/apptmp ~/appcache && \
-TMPDIR=~/apptmp APPTAINER_TMPDIR=~/apptmp APPTAINER_CACHEDIR=~/appcache \
-apptainer pull rocker-r-devel-san.sif docker://rocker/r-devel-san:latest
-```
-
-and we proceed with
-
-```bash
-export R_LIBS=~/R-devel/library:R:R-gcc12
-apptainer exec r-devel-san.sif R CMD check --as-cran ../Downloads/haplo.stats_1.9.8.3.tar.gz
-apptainer exec r-devel-ubsan-clang.sif R CMD check --as-cran ../Downloads/haplo.stats_1.9.8.3.tar.gz
-apptainer shell \
-  --bind /usr/bin/qpdf:/usr/bin/qpdf \
-  --bind /usr/bin/tidy:/usr/bin/tidy \
-  --bind /usr/bin/pandoc:/usr/bin/pandoc \
-  ../work/r-devel-ubsan-clang_latest.sif
-apptainer shell \
-  --bind /usr/bin/cmake:/usr/local/bin/cmake \
-  --env PATH=/usr/local/bin:$PATH \
-  ../work/r-devel-ubsan-clang_latest.sif
-```
-
-Because of the dependencies such as cmake, libuv, if (some) packages are from R-devel it is still easier to employ
-
-```bash
-sudo dnf install R R-devel
-export R_LIBS=/usr/lib64/R/library:R
-R -q -e 'install.packages("rms",lib="R")'
-```
-
-to be used inside .sif, assuming its R has the same version as that in `dnf install R`. In case of confusion,
-
-```r
-lib <- "R"
-pkgs <- rownames(installed.packages(lib.loc = lib))
-install.packages(
-  pkgs,
-  lib = lib,
-  repos = "https://cloud.r-project.org",
-  type = "source"
-)
-```
-
-### Upgrade under Windows
-
-Package installr is designed for this but could fail. Here is a manual approach to reinstall packages under 4.5.3 to 4.6.0
-
-```r
-old_lib <- "D:/Program Files/R/R-4.5.3/library"
-new_lib <- "D:/Program Files/R/R-4.6.0/library"
-old_pkgs <- installed.packages(lib.loc = old_lib)[, "Package"]
-new_pkgs <- installed.packages(lib.loc = new_lib)[, "Package"]
-pkgs_to_install <- setdiff(old_pkgs, new_pkgs)
-length(pkgs_to_install)
-install.packages(pkgs_to_install, dependencies = TRUE, Ncpus = parallel::detectCores())
-```
-
-which avoids preinstalled packages under 4.6.0. It also appears to work by uninstalling 4.5.3 first, leaving only the installed packages which can be copied to the new folder and updated.
 
 ## Rust
 
