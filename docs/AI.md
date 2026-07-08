@@ -121,6 +121,7 @@
     - Hugging Face, <https://huggingface.co/stabilityai>
     - Stability AI, <https://stability.ai/>
     - stable-diffusion-webui, <https://github.com/AUTOMATIC1111/stable-diffusion-webui>
+- Tencent-HUnyuan, <https://github.com/Tencent-Hunyuan>
 - Ubiquitous Knowledge Processing Lab (UKPLab), <https://github.com/UKPLab>
     - sentence-transformers, <https://www.sbert.net/>
     - Hugging Face, <https://huggingface.co/models?library=sentence-transformers>
