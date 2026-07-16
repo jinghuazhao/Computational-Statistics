@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +10,9 @@
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>System-related materials - Computational Statistics</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/fontawesome.min.css" rel="stylesheet">
-        <link href="../css/brands.min.css" rel="stylesheet">
-        <link href="../css/solid.min.css" rel="stylesheet">
-        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
-        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
-        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/Bash.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/HTML.min.js"></script>
@@ -35,7 +31,7 @@
             <div class="container">
                 <a class="navbar-brand" href="..">Computational Statistics</a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -43,17 +39,17 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="nav-item">
+                            <li class="navitem">
                                 <a href=".." class="nav-link"></a>
                             </li>
-                            <li class="nav-item">
+                            <li class="navitem">
                                 <a href="../AI/" class="nav-link">AI</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="navitem">
                                 <a href="../resources/" class="nav-link">Resources</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Selected topcs</a>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Selected topcs <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -73,12 +69,12 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">System-related materials</a>
+    <a href="./" class="dropdown-item active">System-related materials</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Web</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Web <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
@@ -106,9 +102,9 @@
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ms-md-auto">
+                    <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -123,7 +119,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://github.com/jinghuazhao/Computational-Statistics" class="nav-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="https://github.com/jinghuazhao/Computational-Statistics" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -132,104 +128,104 @@
 
         <div class="container">
             <div class="row">
-                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#system-related-materials" class="nav-link">System-related materials</a>
+            <li class="nav-item" data-level="1"><a href="#system-related-materials" class="nav-link">System-related materials</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#freedos-and-linux" class="nav-link">FreeDOS and Linux</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#fedora" class="nav-link">Fedora</a>
+            <li class="nav-item" data-level="2"><a href="#freedos-and-linux" class="nav-link">FreeDOS and Linux</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#ubuntu" class="nav-link">Ubuntu</a>
+            <li class="nav-item" data-level="2"><a href="#fedora" class="nav-link">Fedora</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#oracle-virtualbox" class="nav-link">Oracle VirtualBox</a>
+            <li class="nav-item" data-level="2"><a href="#ubuntu" class="nav-link">Ubuntu</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#windows-11" class="nav-link">Windows 11</a>
+            <li class="nav-item" data-level="2"><a href="#oracle-virtualbox" class="nav-link">Oracle VirtualBox</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#systemrescue" class="nav-link">SystemRescue</a>
+            <li class="nav-item" data-level="2"><a href="#windows-11" class="nav-link">Windows 11</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#windows-hyper-v" class="nav-link">Windows Hyper-V</a>
+            <li class="nav-item" data-level="2"><a href="#systemrescue" class="nav-link">SystemRescue</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#wsl" class="nav-link">WSL</a>
+            <li class="nav-item" data-level="2"><a href="#windows-hyper-v" class="nav-link">Windows Hyper-V</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#anaconda" class="nav-link">Anaconda</a>
+            <li class="nav-item" data-level="2"><a href="#wsl" class="nav-link">WSL</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#github" class="nav-link">GitHub</a>
+            <li class="nav-item" data-level="2"><a href="#anaconda" class="nav-link">Anaconda</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#mercurial" class="nav-link">mercurial</a>
+            <li class="nav-item" data-level="2"><a href="#github" class="nav-link">GitHub</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#libraoffice" class="nav-link">libraOffice</a>
+            <li class="nav-item" data-level="2"><a href="#mercurial" class="nav-link">mercurial</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#linuxbrew" class="nav-link">Linuxbrew</a>
+            <li class="nav-item" data-level="2"><a href="#libraoffice" class="nav-link">libraOffice</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#aws" class="nav-link">AWS</a>
+            <li class="nav-item" data-level="2"><a href="#linuxbrew" class="nav-link">Linuxbrew</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#gcp" class="nav-link">GCP</a>
+            <li class="nav-item" data-level="2"><a href="#aws" class="nav-link">AWS</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#modules" class="nav-link">modules</a>
+            <li class="nav-item" data-level="2"><a href="#gcp" class="nav-link">GCP</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#docker" class="nav-link">docker</a>
+            <li class="nav-item" data-level="2"><a href="#modules" class="nav-link">modules</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#openvpn" class="nav-link">OpenVPN</a>
+            <li class="nav-item" data-level="2"><a href="#docker" class="nav-link">docker</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#time-zone" class="nav-link">Time Zone</a>
+            <li class="nav-item" data-level="2"><a href="#openvpn" class="nav-link">OpenVPN</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#web-linux-ssh-terminal" class="nav-link">Web-Linux ssh terminal</a>
+            <li class="nav-item" data-level="2"><a href="#time-zone" class="nav-link">Time Zone</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#featured-articles" class="nav-link">Featured articles</a>
+            <li class="nav-item" data-level="2"><a href="#web-linux-ssh-terminal" class="nav-link">Web-Linux ssh terminal</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#zephyr" class="nav-link">Zephyr</a>
+            <li class="nav-item" data-level="2"><a href="#featured-articles" class="nav-link">Featured articles</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#zephyr" class="nav-link">Zephyr</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -1131,7 +1127,8 @@ firefox localhost:9200 &amp;
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
         <script>
             var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
@@ -1144,7 +1141,7 @@ firefox localhost:9200 &amp;
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -1164,7 +1161,7 @@ firefox localhost:9200 &amp;
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
               <table class="table">
