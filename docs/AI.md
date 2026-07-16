@@ -116,6 +116,12 @@
     - sora, <https://openai.com/index/sora/>
 - Perplexity AI, <https://www.perplexity.ai/> (search)
 - Reka, <https://chat.reka.ai/>
+- SPACEXAI, <https://x.ai/>
+    - Grok, <https://grok.com/>
+    - grok-build, <https://github.com/xai-org/grok-build>
+    - xai-org, <https://github.com/xai-org>
+        - Grok-1, <https://github.com/xai-org/grok-1>
+        - Grok-2, <https://huggingface.co/xai-org/grok-2>
 - Stable diffusion, <https://stabledifffusion.com/>
     - CompVis, <https://github.com/CompVis>
     - Hugging Face, <https://huggingface.co/stabilityai>
@@ -128,11 +134,6 @@
 - Ultralytics, <https://github.com/ultralytics>
 - wandb.ai, <https://wandb.ai/>
     - cb20qq, <https://wandb.ai/cb20qq-university-of-cambridge>
-- xAI, <https://x.ai/>
-    - Grok, <https://grok.com/>
-    - xai-org, <https://github.com/xai-org>
-        - Grok-1, <https://github.com/xai-org/grok-1>
-        - Grok-2, <https://huggingface.co/xai-org/grok-2>
 - Xiaomi
     - MiMo, <https://mimo.xiaomi.com/>
     - Hugging Face XiaomiMiMo, <https://huggingface.co/XiaomiMiMo>
