@@ -116,7 +116,7 @@
     - sora, <https://openai.com/index/sora/>
 - Perplexity AI, <https://www.perplexity.ai/> (search)
 - Reka, <https://chat.reka.ai/>
-- SPACEXAI, <https://x.ai/>
+- SpaceXAI, <https://x.ai/>
     - Grok, <https://grok.com/>
     - grok-build, <https://github.com/xai-org/grok-build>
     - xai-org, <https://github.com/xai-org>
