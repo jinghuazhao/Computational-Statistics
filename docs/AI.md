@@ -146,6 +146,7 @@
 - AGENTS.md, <https://agents.md/>
     - OpenAI, <https://developers.openai.com/codex/guides/agents-md>
 - AnythingLLM, <https://anythingllm.com/>
+- BMAD, <https://github.com/bmad-code-org>
 - ChatPDF, <https://www.chatpdf.com/>
 - Cherry Studio, <https://cherry-ai.com/>
 - Crayon, <https://www.craiyon.com/>
