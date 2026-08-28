@@ -184,6 +184,7 @@
     * Support, <https://support.microsoft.com/en-us>
     * STL, <https://github.com/microsoft/STL>
     * Sway, <https://sway.office.com/>
+    * Visual Studio, <https://visualstudio.microsoft.com/>
     * Visual Studio Code, <https://code.visualstudio.com/>
     * Windows 11 virtual machines, <https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/>
     * WSL, <https://github.com/microsoft/WSL>
