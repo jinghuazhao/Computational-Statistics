@@ -12,6 +12,7 @@
 - SRCF, <https://www.srcf.net/> (site, <https://jhz22.user.srcf.net/>)
 - VirtualBox, <https://www.virtualbox.org/> (all downloads, <https://download.virtualbox.org/virtualbox/>)
 - WinApps, <https://github.com/Fmstrat/winapps>
+- WineHQ, <https://www.winehq.org/>
 
 ## Online documentation/software/utilities
 
@@ -204,6 +205,7 @@
     * Tencent Meeting, <https://meeting.tencent.com/download/>
     * VooV Meeting, <https://voovmeeting.com/>
 - Twitter, <https://github.com/twitter>
+- Valve Software, <https://github.com/ValveSoftware> ([Proton](https://github.com/valvesoftware/proton), [Steam Deck](https://en.wikipedia.org/wiki/Steam_Deck))
 - VMware by Broadcom workstation and fusion, <https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion>
 - Western Digital, <https://www.westerndigital.com/>
 - xodo, <https://xodo.com/>
