@@ -47,6 +47,7 @@
     - GitHub, <https://github.com/FlagAI-Open/OpenSeek>
 - Google, <https://www.google.com/>
     - AI studio, <https://aistudio.google.com/>
+    - Antigravity, <https://antigravity.google/>
     - Colab(oratory), <https://colab.research.google.com/>
     - DeepMind, <https://deepmind.google/>
         - AlphaGenome, <https://deepmind.google.com/science/alphagenome/> ([Hugging Face](https://huggingface.co/collections/google/alphagenome))
@@ -186,6 +187,7 @@
     - Dify, <https://dify.ai/>
     - Flowwise AI, <https://flowiseai.com/>
     - LangFlow, <https://www.langflow.org/>
+- Notion, <https://www.notion.com/>
 - Nous Research, <https://github.com/NousResearch>
     - Hermes Agent, <https://github.com/NousResearch/hermes-agent>
 - OpenClaw, <https://openclaw.ai/>
