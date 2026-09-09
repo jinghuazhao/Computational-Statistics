@@ -36,6 +36,7 @@
 - Clonezilla, <https://clonezilla.org/> (ISO image for backup)
 - ConvertWizard, <https://convertwizard.com/>
 - dcode, <https://www.dcode.fr/primality-test>
+- DesktopCal, <https://www.desktopcal.com/>
 - Dillinger, <https://dillinger.io/>
 - Django 5.0 documentation, <https://docs.djangoproject.com/en/5.0/>
 - DjVuLibre, <http://djvu.sourceforge.net/>
