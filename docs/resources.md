@@ -149,6 +149,7 @@
 - CRAN, <https://cran.r-project.org/>
 - CS rankings, <https://csrankings.org/>
 - CyberChef, <https://gchq.github.io/CyberChef/>
+- CorelDRAW, <https://www.coreldraw.com/en/>
 - Google, <https://www.google.co.uk/>
     * Adwords keywords planner, <https://ads.google.com/home/tools/keyword-planner/>
     * App Engine, <https://cloud.google.com/appengine/>

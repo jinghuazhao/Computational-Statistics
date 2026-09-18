@@ -14,7 +14,9 @@ An attempt to model reproducibility is Conceptualizing Reproducibility Using Sim
 
 ## bookmarks for PDF
 
-To install for Ubuntu, 
+It is handy to export/import bookmarks from Foxit Pro but it is also possible with pdftk.
+
+To install pdftk for Ubuntu, 
 
 ```bash
 sudo snap install pdftk       # version 2.02-4, or
