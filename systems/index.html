@@ -710,6 +710,8 @@ MediaCreationTool.bat
 <p>On Windows 11, this is considerably easier from Windows key + R, Optional features.</p>
 <p>A command-line counterpart is as follows,</p>
 <pre><code class="language-powershell">dism.exe /online /enable-feature /featurename:Hyper-V /all /norestart
+rem reboot
+shutdown /r /t 10
 </code></pre>
 <h2 id="wsl">WSL</h2>
 <p>Official page: <a href="https://github.com/microsoft/WSL">https://github.com/microsoft/WSL</a></p>
@@ -722,10 +724,12 @@ dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 <p>After installation, it can be invoked from a MS-DOS Prompt with</p>
 <pre><code>wsl -help
 wsl --list
+rem wsl -l -v
 wsl --list --online
 wsl --list --verbose
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
+wsl --status
 </code></pre>
 <p>The command could also takes additional parameters, e.g., -d debian. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.</p>
 <p>Location of the distros are found by</p>
@@ -799,6 +803,11 @@ wsl -d Ubuntu-24.04
 adduser jhz22
 usermod -aG sudo jhz22
 wsl -d Ubuntu-24.04 -u jhz22
+</code></pre>
+<p>It now appears easier with these,</p>
+<pre><code class="language-bash">wsl --list --online
+wsl --install FedoraLinux-44
+wsl --install FedoraLinux-44 --location D:\WSL\FedoraLinux-44
 </code></pre>
 <h3 id="gui-apps">GUI apps</h3>
 <p>This is available from <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps">https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps</a>.</p>
@@ -882,9 +891,18 @@ edge
 <p>One can actually generalize these, e.g.,</p>
 <pre><code class="language-wsl">ln -s $HOME/C/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe /home/$USER/bin/AcroRd32.exe
 ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
+&quot;/mnt/d/Program Files/Microsoft VS Code/bin/code&quot; .
 </code></pre>
 <p>followed by a call to <code>AcroRd32.exe</code> and as <code>xpdf</code>, or directly call a list of programs: <code>calc.exe</code>, <code>comp.exe</code>, <code>control.exe</code>,
 <code>curl.exe</code>, <code>fc.exe</code>, <code>find.exe</code>, <code>finger.exe</code>, <code>mspaint.exe</code>, <code>net.exe</code>, <code>sort.exe</code>, <code>tar.exe</code>, <code>whoami.exe</code>, <code>write.exe</code>, <code>xcopy.exe</code>.</p>
+<p>One can create a shell script like this,</p>
+<pre><code class="language-bash">mkdir -p ~/bin
+cat &gt; ~/bin/firefox &lt;&lt;'EOF'
+#!/bin/sh
+exec &quot;/mnt/c/Program Files/Mozilla Firefox/firefox.exe&quot; &quot;$@&quot;
+EOF
+chmod +x ~/bin/firefox
+</code></pre>
 <h3 id="uninstallation">Uninstallation</h3>
 <p>This is achieved by</p>
 <pre><code class="language-bash"># via wsl
