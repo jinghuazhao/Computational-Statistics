@@ -485,6 +485,8 @@ A command-line counterpart is as follows,
 
 ```powershell
 dism.exe /online /enable-feature /featurename:Hyper-V /all /norestart
+rem reboot
+shutdown /r /t 10
 ```
 
 ## WSL
@@ -505,10 +507,12 @@ After installation, it can be invoked from a MS-DOS Prompt with
 ```
 wsl -help
 wsl --list
+rem wsl -l -v
 wsl --list --online
 wsl --list --verbose
 wsl --distribution Ubuntu
 wsl --set-default Ubuntu-20.04
+wsl --status
 ```
 The command could also takes additional parameters, e.g., -d debian. One can also create a desktop entry pointing to C:\Windows\system32\wsl.exe.
 
@@ -616,6 +620,14 @@ wsl -d Ubuntu-24.04
 adduser jhz22
 usermod -aG sudo jhz22
 wsl -d Ubuntu-24.04 -u jhz22
+```
+
+It now appears easier with these,
+
+```bash
+wsl --list --online
+wsl --install FedoraLinux-44
+wsl --install FedoraLinux-44 --location D:\WSL\FedoraLinux-44
 ```
 
 ### GUI apps
@@ -736,9 +748,21 @@ One can actually generalize these, e.g.,
 ```wsl
 ln -s $HOME/C/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/AcroRd32.exe /home/$USER/bin/AcroRd32.exe
 ln -s $HOME/bin/AcroRd32.exe /home/$USER/bin/xpdf
+"/mnt/d/Program Files/Microsoft VS Code/bin/code" .
 ```
 followed by a call to `AcroRd32.exe` and as `xpdf`, or directly call a list of programs: `calc.exe`, `comp.exe`, `control.exe`,
 `curl.exe`, `fc.exe`, `find.exe`, `finger.exe`, `mspaint.exe`, `net.exe`, `sort.exe`, `tar.exe`, `whoami.exe`, `write.exe`, `xcopy.exe`.
+
+One can create a shell script like this,
+
+```bash
+mkdir -p ~/bin
+cat > ~/bin/firefox <<'EOF'
+#!/bin/sh
+exec "/mnt/c/Program Files/Mozilla Firefox/firefox.exe" "$@"
+EOF
+chmod +x ~/bin/firefox
+```
 
 ### Uninstallation
 
