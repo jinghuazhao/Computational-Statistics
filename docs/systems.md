@@ -447,6 +447,17 @@ MediaCreationTool.bat
 
 and also <https://massgrave.dev/windows_11_links>, <https://github.com/Raphire/Win11Debloat>.
 
+### Windows symbolic link
+
+This is furnished with mklink, e.g.,
+
+```
+md "D:\Mozilla Firefox"
+mklink /D "C:\Program Files\Mozilla Firefox" "D:\Mozilla Firefox"
+```
+
+so that installation to D: but effectively run as if from C:.
+
 ### Further information
 
 CloneVDI is described in this thread, <https://forums.virtualbox.org/viewtopic.php?f=6&t=22422>.
