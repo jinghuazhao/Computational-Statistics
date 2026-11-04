@@ -213,6 +213,10 @@
 - Data Science: Building Machine Learning Models, <https://pll.harvard.edu/course/data-science-building-machine-learning-models>
 - Introduction to Data Science with Python, <https://pll.harvard.edu/course/introduction-data-science-python>
 
+## Miscellaneous materials
+
+- Stanford's AI Index, <https://hai.stanford.edu/ai-index/2026-ai-index-report>
+
 ## Regulatory documents
 
 - AI Act, <https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>
