@@ -200,7 +200,8 @@
     - Discord, <https://discord.com/invite/unsloth>
     - GitHub, <https://github.com/unslothai>
     - Hugging Face, <https://huggingface.co/unsloth>
-- vLLM, <https://github.com/vllm-project>
+- vLLM, <https://vllm.ai/>
+    - GitHub, <https://github.com/vllm-project>
     - Gemma 4 Usage Guide, <https://github.com/vllm-project/recipes/blob/main/Google/Gemma4.md>
 - Windsurf, <https://windsurf.com/>
 
