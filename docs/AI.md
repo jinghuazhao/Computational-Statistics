@@ -117,6 +117,7 @@
     - Hugging Face, <https://huggingface.co/openai>
     - sora, <https://openai.com/index/sora/>
 - Perplexity AI, <https://www.perplexity.ai/> (search)
+    - Gugging Face, <https://huggingface.co/perplexity-ai>
 - Reka, <https://chat.reka.ai/>
 - SpaceXAI, <https://x.ai/>
     - Grok, <https://grok.com/>
