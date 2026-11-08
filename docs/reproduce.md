@@ -40,6 +40,49 @@ awk '!/-/ {print}
      }' bookmarks.txt > books.txt
 ```
 
+To split a large PDF file into four equal parts, use the following script:
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+PDF="${1:?Usage: $0 input.pdf}"
+N=$(qpdf --show-npages "$PDF")
+CHUNK=$(( (N + 3) / 4 ))
+
+for i in 0 1 2 3; do
+    START=$(( i * CHUNK + 1 ))
+    END=$(( (i + 1) * CHUNK ))
+    (( END > N )) && END=$N
+    (( START > N )) && break
+
+    qpdf "$PDF" --pages . "$START-$END" -- "part$((i+1)).pdf"
+done
+```
+
+for $M$ part,
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+PDF=$1
+M=$2
+N=$(qpdf --show-npages "$PDF")
+(( M > 0 && M <= N )) || { echo "Invalid number of parts"; exit 1; }
+BASE="${PDF%.pdf}"
+Q=$((N / M))
+R=$((N % M))
+START=1
+for ((i=1; i<=M; i++)); do
+    SIZE=$((Q + (i <= R)))
+    END=$((START + SIZE - 1))
+    qpdf "$PDF" --pages . "$START-$END" -- "${BASE}_part${i}.pdf"
+    printf 'Part %d: %d-%d\n' "$i" "$START" "$END"
+    START=$((END + 1))
+done
+```
+
 ## quarto
 
 This is extensively documented under Linux, <https://cambridge-ceu.github.io/csd3/applications/quarto.html>.

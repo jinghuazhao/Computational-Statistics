@@ -1083,4 +1083,3 @@ forest(df$odds_ratios, ci.lb = df$lo_ci, ci.ub = df$hi_ci,
        slab = df$study_names, xlab = "Odds Ratio",
        main = "Forest Plot Example")
 ```
-
