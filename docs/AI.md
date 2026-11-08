@@ -104,6 +104,9 @@
     - Kimi, <https://www.kimi.com/>
     - GitHub, <https://github.com/MoonshotAI>
     - Hugging Face, <https://huggingface.co/moonshotai>
+- NVIDIA, <https://www.nvidia.com/en-gb/>
+    - Build, <https://build.nvidia.com/>
+    - Hugging Face collections, <https://huggingface.co/nvidia/collections>
 - Ollama, <https://ollama.com/>
     - GitHub, <https://github.com/ollama/ollama>
     - library, <https://ollama.com/library>
