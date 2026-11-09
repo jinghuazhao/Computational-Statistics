@@ -143,6 +143,11 @@
 - Xiaomi
     - MiMo, <https://mimo.xiaomi.com/>
     - Hugging Face XiaomiMiMo, <https://huggingface.co/XiaomiMiMo>
+- Unsloth AI, <https://unsloth.ai/>
+    - docs, <https://unsloth.ai/docs/>
+    - Discord, <https://discord.com/invite/unsloth>
+    - GitHub, <https://github.com/unslothai>
+    - Hugging Face, <https://huggingface.co/unsloth>
 - Z.ai, <https://www.zhipuai.cn/en>
     - Chat.z.ai, <https://chat.z.ai/>
     - GLM-5.1, <https://ollama.com/library/glm-5.1:cloud>
@@ -195,15 +200,11 @@
 - Notion, <https://www.notion.com/>
 - Nous Research, <https://github.com/NousResearch>
     - Hermes Agent, <https://github.com/NousResearch/hermes-agent>
+    - Nous Portal, <https://portal.nousresearch.com/>
 - OpenClaw, <https://openclaw.ai/>
 - Open WebUI, <https://openwebui.com/>
     - GitHub, <https://github.com/open-webui/open-webui> ([blog](https://simonwillison.net/2024/Dec/27/open-webui/))
 - PaddlePaddle, <https://github.com/PaddlePaddle>
-- Unsloth AI, <https://unsloth.ai/>
-    - docs, <https://unsloth.ai/docs/>
-    - Discord, <https://discord.com/invite/unsloth>
-    - GitHub, <https://github.com/unslothai>
-    - Hugging Face, <https://huggingface.co/unsloth>
 - vLLM, <https://vllm.ai/>
     - GitHub, <https://github.com/vllm-project>
     - Gemma 4 Usage Guide, <https://github.com/vllm-project/recipes/blob/main/Google/Gemma4.md>
