@@ -187,15 +187,11 @@ pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 # Usage: copy-pdf-bookmarks.sh src.pdf target.pdf
 
 set -euo pipefail
-
 [[ $# -eq 2 ]] || { echo &quot;Usage: $0 src.pdf target.pdf&quot; &gt;&amp;2; exit 1; }
-
 tmp=$(mktemp)
 trap 'rm -f &quot;$tmp&quot;' EXIT
-
 pdftk &quot;$1&quot; dump_data output &quot;$tmp&quot;
 pdftk &quot;$2&quot; update_info &quot;$tmp&quot; output &quot;${2%.pdf}-bm.pdf&quot;
-
 echo &quot;Created: ${2%.pdf}-bm.pdf&quot;
 </code></pre>
 <p>A <a href="../src/bookmarks.txt">bookmarks.txt</a> example is converted to <a href="../src/books.txt">books.txt</a> as follows,</p>
