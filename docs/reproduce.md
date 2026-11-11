@@ -37,15 +37,11 @@ or in a Bash script `copy-pdf-bookmarks.sh`,
 # Usage: copy-pdf-bookmarks.sh src.pdf target.pdf
 
 set -euo pipefail
-
 [[ $# -eq 2 ]] || { echo "Usage: $0 src.pdf target.pdf" >&2; exit 1; }
-
 tmp=$(mktemp)
 trap 'rm -f "$tmp"' EXIT
-
 pdftk "$1" dump_data output "$tmp"
 pdftk "$2" update_info "$tmp" output "${2%.pdf}-bm.pdf"
-
 echo "Created: ${2%.pdf}-bm.pdf"
 ```
 
