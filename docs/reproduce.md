@@ -30,6 +30,25 @@ pdftk src.pdf dump_data output bookmarks.txt
 pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 ```
 
+or in a Bash script `copy-pdf-bookmarks.sh`,
+
+```bash
+#!/usr/bin/env bash
+# Usage: copy-pdf-bookmarks.sh src.pdf target.pdf
+
+set -euo pipefail
+
+[[ $# -eq 2 ]] || { echo "Usage: $0 src.pdf target.pdf" >&2; exit 1; }
+
+tmp=$(mktemp)
+trap 'rm -f "$tmp"' EXIT
+
+pdftk "$1" dump_data output "$tmp"
+pdftk "$2" update_info "$tmp" output "${2%.pdf}-bm.pdf"
+
+echo "Created: ${2%.pdf}-bm.pdf"
+```
+
 A [bookmarks.txt](src/bookmarks.txt) example is converted to [books.txt](src/books.txt) as follows,
 
 ```bash
