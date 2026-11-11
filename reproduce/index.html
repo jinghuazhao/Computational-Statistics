@@ -182,6 +182,22 @@ sudo apt  install pdftk-java  # version 3.2.2-1
 <pre><code class="language-bash">pdftk src.pdf dump_data output bookmarks.txt
 pdftk target.pdf update_info bookmarks.txt output target-bm.pdf
 </code></pre>
+<p>or in a Bash script <code>copy-pdf-bookmarks.sh</code>,</p>
+<pre><code class="language-bash">#!/usr/bin/env bash
+# Usage: copy-pdf-bookmarks.sh src.pdf target.pdf
+
+set -euo pipefail
+
+[[ $# -eq 2 ]] || { echo &quot;Usage: $0 src.pdf target.pdf&quot; &gt;&amp;2; exit 1; }
+
+tmp=$(mktemp)
+trap 'rm -f &quot;$tmp&quot;' EXIT
+
+pdftk &quot;$1&quot; dump_data output &quot;$tmp&quot;
+pdftk &quot;$2&quot; update_info &quot;$tmp&quot; output &quot;${2%.pdf}-bm.pdf&quot;
+
+echo &quot;Created: ${2%.pdf}-bm.pdf&quot;
+</code></pre>
 <p>A <a href="../src/bookmarks.txt">bookmarks.txt</a> example is converted to <a href="../src/books.txt">books.txt</a> as follows,</p>
 <pre><code class="language-bash">awk '!/-/ {print}
      $0 ~ /BookmarkTitle: [0-9]{3} - (.*)/ {
