@@ -183,7 +183,8 @@
     - GitHub, <https://github.com/lm-sys>
     - LeaderBoard, <https://lmarena.ai/?leaderboard>
     - Web, <<https://web.lmarena.ai>
-- llama.cpp, <https://github.com/ggml-org/llama.cpp>
+- llama.cpp, <https://llama.app/>
+    - GitHub, <https://github.com/ggml-org/llama.cpp>
 - Midjourney, <https://www.midjourney.com/home>
     - Midjourney, <https://huggingface.co/spaces/mukaist/Midjourney>
     - Background removal, <https://huggingface.co/spaces/not-lain/background-removal>
